@@ -1,0 +1,869 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1559,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "m748EAAAQBAJ",
+        "etag": "5vKZyBvOurc",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/m748EAAAQBAJ",
+        "volumeInfo": {
+          "title": "The American Experiment",
+          "subtitle": "Dialogues on a Dream",
+          "authors": [
+            "David M. Rubenstein"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2021-09-07",
+          "description": "\"Pulitzer Prize-winning historians, diplomats, music legends and sports giants explore the grand American experiment in democracy, culture, innovation and ideas, revealing the setbacks, suffering, invention, ingenuity, and social movements that continue to shape our vision of what America is-and what it can be.\"--Publisher's description.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781982165734"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1982165731"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 464,
+          "printType": "BOOK",
+          "categories": [
+            "History"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=m748EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=m748EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=m748EAAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=m748EAAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_American_Experiment.html?hl=&id=m748EAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=m748EAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "&quot;Pulitzer Prize-winning historians, diplomats, music legends and sports giants explore the grand American experiment in democracy, culture, innovation and ideas, revealing the setbacks, suffering, invention, ingenuity, and social movements ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "-RSKDwAAQBAJ",
+        "etag": "amNlUuNjov0",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/-RSKDwAAQBAJ",
+        "volumeInfo": {
+          "title": "The American Story",
+          "subtitle": "Conversations with Master Historians",
+          "authors": [
+            "David M. Rubenstein"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2019-10-29",
+          "description": "Co-founder of The Carlyle Group and patriotic philanthropist David M. Rubenstein takes readers on a sweeping journey across the grand arc of the American story through revealing conversations with our greatest historians. In these lively dialogues, the biggest names in American history explore the subjects they’ve come to so intimately know and understand. — David McCullough on John Adams — Jon Meacham on Thomas Jefferson — Ron Chernow on Alexander Hamilton — Walter Isaacson on Benjamin Franklin — Doris Kearns Goodwin on Abraham Lincoln — A. Scott Berg on Charles Lindbergh — Taylor Branch on Martin Luther King — Robert Caro on Lyndon B. Johnson — Bob Woodward on Richard Nixon —And many others, including a special conversation with Chief Justice John Roberts Through his popular program The David Rubenstein Show, David Rubenstein has established himself as one of our most thoughtful interviewers. Now, in The American Story, David captures the brilliance of our most esteemed historians, as well as the souls of their subjects. The book features introductions by Rubenstein as well a foreword by Librarian of Congress Carla Hayden, the first woman and the first African American to lead our national library. Richly illustrated with archival images from the Library of Congress, the book is destined to become a classic for serious readers of American history. Through these captivating exchanges, these bestselling and Pulitzer Prize–winning authors offer fresh insight on pivotal moments from the Founding Era to the late 20th century.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781982120337"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1982120339"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 416,
+          "printType": "BOOK",
+          "categories": [
+            "History"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.11.8.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=-RSKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=-RSKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=-RSKDwAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=2&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=-RSKDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-RSKDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 16.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 16.99,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=-RSKDwAAQBAJ&rdid=book--RSKDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 16990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 16990000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_American_Story-sample-epub.acsm?id=-RSKDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=-RSKDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Co-founder of The Carlyle Group and patriotic philanthropist David M. Rubenstein takes readers on a sweeping journey across the grand arc of the American story through revealing conversations with our greatest historians."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "DBeCEAAAQBAJ",
+        "etag": "ZkhxKYxs5aA",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/DBeCEAAAQBAJ",
+        "volumeInfo": {
+          "title": "How to Invest",
+          "subtitle": "Masters on the Craft",
+          "authors": [
+            "David M. Rubenstein"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2022-09-13",
+          "description": "\"What do the most successful investors have in common? David M. Rubenstein, cofounder of one of the world's largest investment firms, has spent years interviewing the greatest investors in the world to discover the time-tested principles, hard-earned wisdom, and indispensable tools that guide their practice\"--]cProvided by publisher.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781982190309"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1982190302"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 416,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.1.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=DBeCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=DBeCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=DBeCEAAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=DBeCEAAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Invest.html?hl=&id=DBeCEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=DBeCEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "David M. Rubenstein, cofounder of one of the world&#39;s largest investment firms, has spent years interviewing the greatest investors in the world to discover the time-tested principles, hard-earned wisdom, and indispensable tools that guide ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "kbG60qP715gC",
+        "etag": "VoMxv1zCCrY",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/kbG60qP715gC",
+        "volumeInfo": {
+          "title": "Biofluid Mechanics",
+          "subtitle": "An Introduction to Fluid Mechanics, Macrocirculation, and Microcirculation",
+          "authors": [
+            "Wei Yin",
+            "Mary D. Frame"
+          ],
+          "publisher": "Academic Press",
+          "publishedDate": "2011-11-02",
+          "description": "Both broad and deep in coverage, Rubenstein shows that fluid mechanics principles can be applied not only to blood circulation, but also to air flow through the lungs, joint lubrication, intraocular fluid movement and renal transport. Each section initiates discussion with governing equations, derives the state equations and then shows examples of their usage. Clinical applications, extensive worked examples, and numerous end of chapter problems clearly show the applications of fluid mechanics to biomedical engineering situations. A section on experimental techniques provides a springboard for future research efforts in the subject area. - Uses language and math that is appropriate and conducive for undergraduate learning, containing many worked examples and end of chapter problems - All engineering concepts and equations are developed within a biological context - Covers topics in the traditional biofluids curriculum, as well as addressing other systems in the body that can be described by biofluid mechanics principles, such as air flow through the lungs, joint lubrication, intraocular fluid movement, and renal transport - Clinical applications are discussed throughout the book, providing practical applications for the concepts discussed.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780123813848"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0123813840"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 411,
+          "printType": "BOOK",
+          "categories": [
+            "Science"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "2.9.7.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=kbG60qP715gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=kbG60qP715gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=kbG60qP715gC&printsec=frontcover&dq=David+Rubenstein&hl=&cd=4&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=kbG60qP715gC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kbG60qP715gC"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE_AND_RENTAL",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 119.95,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 95.96,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=kbG60qP715gC&rdid=book-kbG60qP715gC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 119950000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 95960000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            },
+            {
+              "finskyOfferType": 3,
+              "listPrice": {
+                "amountInMicros": 47980000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 44140000,
+                "currencyCode": "USD"
+              },
+              "rentalDuration": {
+                "unit": "DAY",
+                "count": 90
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Biofluid_Mechanics-sample-epub.acsm?id=kbG60qP715gC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Biofluid_Mechanics-sample-pdf.acsm?id=kbG60qP715gC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=kbG60qP715gC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "- Uses language and math that is appropriate and conducive for undergraduate learning, containing many worked examples and end of chapter problems - All engineering concepts and equations are developed within a biological context - Covers ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "WZXnDwAAQBAJ",
+        "etag": "JykXWD1rymE",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/WZXnDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Believe in People",
+          "subtitle": "Bottom-Up Solutions for a Top-Down World",
+          "authors": [
+            "Charles Koch",
+            "Brian Hooks"
+          ],
+          "publisher": "St. Martin's Press",
+          "publishedDate": "2020-11-17",
+          "description": "A surprising take on how you can help tackle the really big problems in society–from one of America’s most successful entrepreneurs. People are looking for a better way. Towering barriers are holding millions of people back, and the institutions that should help everyone rise are not doing the job. Crumbling communities. One-size fits all education. Businesses that rig the economy. Public policy that stifles opportunity and emboldens the extremes. As a result, this country is quickly heading toward a two-tiered society. Today’s challenges call for nothing short of a paradigm shift – away from a top-down approach that sees people as problems to be managed, toward bottom-up solutions that empower everyone to realize their potential and foster a more inclusive society. Such a shift starts by asking: What would it mean to truly believe in people? Businessman and philanthropist Charles Koch has devoted his life to answering that question. Learn what he’s discovered during his 60-year career to help you apply the principles of empowerment in your life, in your business, and in society. By learning from the social movements and applying the principles that have enabled social progress throughout history, Koch has achieved more than he dreamed possible – building one of the world’s most successful companies and founding Stand Together, one of America’s most innovative philanthropic communities. Stand Together CEO Brian Hooks and Koch show how the only way to solve the really big problems – from poverty and addiction to harmful business practices and destructive public policy – is for each and every one of us to find and take action in our unique role as part of the solution. Full of compelling examples of what works – including several first-person accounts from individuals whose lives have been transformed – Koch and Hooks’ refreshing approach promotes partnership instead of partisanship and speaks to people from different perspectives and all walks of life. They show that no injustice is too tough to overcome if you share a deep belief in people, are willing to unite with anyone to do right, and work to empower others from the bottom up.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781250200976"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1250200970"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 217,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "averageRating": 5,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.4.4.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=WZXnDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=WZXnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=WZXnDwAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=WZXnDwAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Believe_in_People.html?hl=&id=WZXnDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Believe_in_People-sample-epub.acsm?id=WZXnDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=WZXnDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Such a shift starts by asking: What would it mean to truly believe in people? Businessman and philanthropist Charles Koch has devoted his life to answering that question."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ZLyFEAAAQBAJ",
+        "etag": "6C1QmTUOTic",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/ZLyFEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Our First Civil War",
+          "subtitle": "Patriots and Loyalists in the American Revolution",
+          "authors": [
+            "H. W. Brands"
+          ],
+          "publisher": "Vintage",
+          "publishedDate": "2022-09-13",
+          "description": "\"A fast-paced, often riveting account of the military and political events leading up to the Declaration of Independence and those that followed during the war ... Brands does his readers a service by reminding them that division, as much as unity, is central to the founding of our nation.\"—The Washington Post From best-selling historian and Pulitzer Prize finalist H. W. Brands comes a gripping, page-turning narrative of the American Revolution that shows it to be more than a fight against the British: it was also a violent battle among neighbors forced to choose sides, Loyalist or Patriot. What causes people to forsake their country and take arms against it? What prompts their neighbors, hardly distinguishable in station or success, to defend that country against the rebels? That is the question H. W. Brands answers in his powerful new history of the American Revolution. George Washington and Benjamin Franklin were the unlikeliest of rebels. Washington in the 1770s stood at the apex of Virginia society. Franklin was more successful still, having risen from humble origins to world fame. John Adams might have seemed a more obvious candidate for rebellion, being of cantankerous temperament. Even so, he revered the law. Yet all three men became rebels against the British Empire that fostered their success. Others in the same circle of family and friends chose differently. William Franklin might have been expected to join his father, Benjamin, in rebellion but remained loyal to the British. So did Thomas Hutchinson, a royal governor and friend of the Franklins, and Joseph Galloway, an early challenger to the Crown. They soon heard themselves denounced as traitors--for not having betrayed the country where they grew up. Native Americans and the enslaved were also forced to choose sides as civil war broke out around them. After the Revolution, the Patriots were cast as heroes and founding fathers while the Loyalists were relegated to bit parts best forgotten. Our First Civil War reminds us that before America could win its revolution against Britain, the Patriots had to win a bitter civil war against family, neighbors, and friends.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780593082560"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0593082567"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 513,
+          "printType": "BOOK",
+          "categories": [
+            "History"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.1.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ZLyFEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ZLyFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=ZLyFEAAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=6&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=ZLyFEAAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Our_First_Civil_War.html?hl=&id=ZLyFEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ZLyFEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Our First Civil War reminds us that before America could win its revolution against Britain, the Patriots had to win a bitter civil war against family, neighbors, and friends."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "M9zyEAAAQBAJ",
+        "etag": "Q/PGE2Z/0u8",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/M9zyEAAAQBAJ",
+        "volumeInfo": {
+          "title": "The Highest Calling",
+          "subtitle": "Conversations on the American Presidency",
+          "authors": [
+            "David M. Rubenstein"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2024-09-10",
+          "description": "A NEW YORK TIMES BESTSELLER From the New York Times bestselling author of The American Story and How to Lead and host of PBS’s History with David Rubenstein—David Rubenstein interviews living American presidents and top historians and journalists who reflect on the US presidency, including Joe Biden, Barack Obama, George W. Bush, Maggie Haberman, Ron Chernow, and more. For years, bestselling author David M. Rubenstein has distilled the contours of American democracy through conversations with noted leaders and historians. In The Highest Calling, he offers an enlightening overview of arguably the single most important position in the world: the American presidency. Blending history and anecdote, Rubenstein chronicles the journeys of the presidents who have defined America as it exists now, what they envision for its future, and their legacy on the world stage. Drawing from his own experience in the Carter administration, he engages in dialogues with our nation’s presidents and the historians who study them. Get exclusive access to fresh perspectives, including: -Original interviews with most of the living US presidents -Interviews with noted presidential historians like Annette Gordon-Reed, Ron Chernow, Candice Millard, and more Through “chatty, insightful, and enlightening” (The Wall Street Journal) analysis, Rubenstein captures our country’s most prominent leaders, the political genius and frays of the presidential role, and the wisdom that emerges from it.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781668067734"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1668067730"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 496,
+          "printType": "BOOK",
+          "categories": [
+            "History"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.8.7.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=M9zyEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=M9zyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=M9zyEAAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=7&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=M9zyEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=M9zyEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 16.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 16.99,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=M9zyEAAAQBAJ&rdid=book-M9zyEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 16990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 16990000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_Highest_Calling-sample-epub.acsm?id=M9zyEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=M9zyEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "A NEW YORK TIMES BESTSELLER From the New York Times bestselling author of The American Story and How to Lead and host of PBS’s History with David Rubenstein—David Rubenstein interviews living American presidents and top historians and ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ffj1DwAAQBAJ",
+        "etag": "nAQhW42B2bA",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/ffj1DwAAQBAJ",
+        "volumeInfo": {
+          "title": "How to Lead",
+          "subtitle": "Wisdom from the World's Greatest CEOs, Founders, and Game Changers",
+          "authors": [
+            "David M. Rubenstein"
+          ],
+          "publisher": "Simon & Schuster",
+          "publishedDate": "2020-09-01",
+          "description": "The New York Times Bestseller #1 Wall Street Journal Bestseller The essential leadership playbook. Learn the principles and guiding philosophies of Bill Gates, Jeff Bezos, Ruth Bader Ginsburg, Warren Buffett, Oprah Winfrey, and many others through illuminating conversations about their remarkable lives and careers. For the past five years, David M. Rubenstein—author of The American Story, visionary cofounder of The Carlyle Group, and host of The David Rubenstein Show—has spoken with the world’s highest performing leaders about who they are and how they became successful. How to Lead distills these revealing conversations into an indispensable leadership guidebook. Gain advice and wisdom from CEOs, presidents, founders, and master performers from the worlds of finance (Warren Buffett, Jamie Dimon, Christine Lagarde, Ken Griffin), tech (Jeff Bezos, Bill Gates, Eric Schmidt, Tim Cook), entertainment (Oprah Winfrey, Lorne Michaels, Renee Fleming, Yo-Yo Ma), sports (Jack Nicklaus, Adam Silver, Coach K, Phil Knight), government (President Bill Clinton, President George W. Bush, Ruth Bader Ginsburg, Nancy Pelosi), and many others. -Jeff Bezos harnesses the power of wandering, discovering that his best decisions have been made with heart and intuition, rather than analysis. -Richard Branson never goes into a venture looking to make a profit. He aims to make the best in field. -Phil Knight views Nike as a marketing company whose product is its most important marketing tool. -Marillyn Hewson, who grew up in a fatherless home with four siblings in Kansas, quickly learned the importance of self-reliance and the value of a dollar. How to Lead shares the extraordinary stories of these pioneering agents of change. Discover how each luminary got started and how they handle decision making, failure, innovation, change, and crisis. Learn from their decades of experience as pioneers in their field. No two leaders are the same.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781982158750"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1982158751"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 448,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ffj1DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ffj1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=ffj1DwAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=ffj1DwAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Lead.html?hl=&id=ffj1DwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ffj1DwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "-Marillyn Hewson, who grew up in a fatherless home with four siblings in Kansas, quickly learned the importance of self-reliance and the value of a dollar. How to Lead shares the extraordinary stories of these pioneering agents of change."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Ny9Uw3BiX2EC",
+        "etag": "nJuyU0M9UXs",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/Ny9Uw3BiX2EC",
+        "volumeInfo": {
+          "title": "The Infectious Diseases Manual",
+          "authors": [
+            "David Wilks",
+            "Mark Farrington",
+            "David Rubenstein"
+          ],
+          "publisher": "John Wiley & Sons",
+          "publishedDate": "2008-04-15",
+          "description": "The Infectious Diseases Manual is a concise and up-to-date guide to infectious diseases, medical microbiology and antibiotic prescribing \"I have no hesitation in recommending this book to practitioners of all grades.\" —Journal of Hospital Infection \"...a valuable companion...should not be missing in any medical library.\" —Infection \"... an excellent and extremely portable reference text...\" —Journal of Medical Microbiology WHY BUY THIS BOOK? Invaluable source of reference for day-to-day clinical use Integrated information about clinical infectious diseases, microbiology and antibiotic prescribing Clear and systematic layout using a standard format for each section allowing rapid access to key information",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780470757239"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "047075723X"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 440,
+          "printType": "BOOK",
+          "categories": [
+            "Medical"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Ny9Uw3BiX2EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Ny9Uw3BiX2EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=Ny9Uw3BiX2EC&printsec=frontcover&dq=David+Rubenstein&hl=&cd=9&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=Ny9Uw3BiX2EC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ny9Uw3BiX2EC"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 113.95,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 113.95,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=Ny9Uw3BiX2EC&rdid=book-Ny9Uw3BiX2EC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 113950000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 113950000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_Infectious_Diseases_Manual-sample-pdf.acsm?id=Ny9Uw3BiX2EC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Ny9Uw3BiX2EC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The Infectious Diseases Manual is a concise and up-to-date guide to infectious diseases, medical microbiology and antibiotic prescribing &quot;I have no hesitation in recommending this book to practitioners of all grades.&quot; —Journal of Hospital ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "8PU1EAAAQBAJ",
+        "etag": "jN0cqzzIZfk",
+        "selfLink": "https://content-books.googleapis.com/books/v1/volumes/8PU1EAAAQBAJ",
+        "volumeInfo": {
+          "title": "Go Long",
+          "subtitle": "Why Long-Term Thinking Is Your Best Short-Term Strategy",
+          "authors": [
+            "Dennis Carey",
+            "Brian Dumaine",
+            "Michael Useem",
+            "Rodney Zemmel"
+          ],
+          "publisher": "University of Pennsylvania Press",
+          "publishedDate": "2018-05-08",
+          "description": "In Go Long, authors Dennis Carey, Brian Dumaine, Michael Useem, and Rodney Zemmel take you behind the scenes to witness the business decisions that are enabling leading organizations to outsmart and outlast the competition.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781613631409"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1613631405"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 140,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.3.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=8PU1EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=8PU1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=8PU1EAAAQBAJ&printsec=frontcover&dq=David+Rubenstein&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=8PU1EAAAQBAJ&dq=David+Rubenstein&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Go_Long.html?hl=&id=8PU1EAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Go_Long-sample-pdf.acsm?id=8PU1EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=8PU1EAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "In Go Long, authors Dennis Carey, Brian Dumaine, Michael Useem, and Rodney Zemmel take you behind the scenes to witness the business decisions that are enabling leading organizations to outsmart and outlast the competition."
+        }
+      }
+    ]
+  }
+  
