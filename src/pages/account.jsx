@@ -1,12 +1,7 @@
 import React from "react";
-import Layout from "../components/Layout";
 
 function Accounts() {
-  return (
-    <Layout>
-      <div>Accounts</div>
-    </Layout>
-  );
+  return <div>Accounts</div>;
 }
 
 export default Accounts;

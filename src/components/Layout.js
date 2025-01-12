@@ -67,11 +67,11 @@ const Layout = ({ children }) => {
         <AppBar position="static" style={appBarStyles}>
           <Toolbar sx={toolbarStyles}>
             <div>
-              <TiltedTile text="RWS" to="/" />
+              <TiltedTile text="ServyDoor" to="/" />
             </div>
             <div style={navLinksStyles}>
-              <TiltedTile text="Recent" to="/recent" />
-              <TiltedTile text="Favorites" to="/favorites" />
+              <TiltedTile text="Social" to="/social" />
+              <TiltedTile text="Library" to="/library" />
               <TiltedTile text="Account" to="/account" />
             </div>
           </Toolbar>

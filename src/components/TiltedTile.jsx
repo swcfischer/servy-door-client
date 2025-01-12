@@ -19,14 +19,18 @@ const spanStyle = {
   transform: "rotate(-17deg)",
 };
 
-const rwsStyle = {
+const homeStyles = {
   position: "absolute",
   bottom: "-12px",
   right: "-1px",
-  fontSize: "24px",
+  fontSize: "22px",
   fontFamily: "monospace",
   fontWeight: "100",
   color: "rgba(250, 255, 103, 0.41)",
+
+  // bottom: "-10px",
+  // right: "22px",
+  // color: "silver",
 };
 
 function TiltedTile(props) {
@@ -40,7 +44,7 @@ function TiltedTile(props) {
     <Link style={{ outline: "none" }} to={to}>
       <Typography variant="h6" style={tileStyle}>
         <span style={spanStyle}>{text}</span>
-        {shouldShow && <span style={rwsStyle}>*</span>}
+        {shouldShow && <span style={homeStyles}>*</span>}
       </Typography>
     </Link>
   );

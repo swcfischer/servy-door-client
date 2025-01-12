@@ -13,3 +13,6 @@ html {
   outline: 2px solid #1f1f1f;
   outline: 2px solid #515151;
 }
+li:focus {
+  outline: none;
+}
