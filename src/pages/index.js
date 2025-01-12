@@ -1,3 +1,5 @@
+// * Book List (HomePage)
+
 import React, { useEffect, useState } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -9,8 +11,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import Layout from "../components/Layout"; // Import the new Layout component
 import { Link, navigate } from "gatsby";
-import FilterToggle, { replaceSpaceWithPlus } from "../components/FilterToggle";
 import axios from "axios";
+import Pagination from "@mui/material/Pagination";
 
 const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
@@ -35,42 +37,37 @@ const cardStyles = {
   background: "transparent",
 };
 
+const itemsPerPage = 9;
+
+function getPathWithQueryParams(q, page) {
+  if (Number(page) === 1) {
+    return "?q=" + replaceForURL(q) + "&startIndex=0";
+  } else {
+    return (
+      "?q=" + replaceForURL(q) + "&startIndex=" + (page - 1) * itemsPerPage
+    );
+  }
+}
+
+function getPathForNavigate(q, page) {
+  return "?q=" + replaceForURL(q) + "&page=" + page;
+}
+
 export default function Index(props) {
   const { search } = props.location;
   const params = new URLSearchParams(search);
   const qParam = params.get("q") ?? "";
-  const fParam = params.get("f") ?? "all";
-  const iParam = Number(params.get("i")) ?? 0;
+  const pageParam = Number(params.get("page")) ?? 1;
   const [books, setBooks] = useState([]);
-  const [toggle, setToggle] = useState(fParam);
+
   const [q, setQ] = useState(qParam);
   const [totalItems, setTotalItems] = useState(0);
-
-  const sortedBookList = books
-    // .sort((a, b) => {
-    //   return (
-    //     new Date(b.volumeInfo.publishedDate) -
-    //     new Date(a.volumeInfo.publishedDate)
-    //   );
-    // })
-    .filter((book) => {
-      if (toggle === "all") {
-        return true;
-      } else if (toggle === "title") {
-        return book.volumeInfo.title.toLowerCase().includes(q.toLowerCase());
-      } else if (toggle === "author") {
-        return book.volumeInfo.authors?.some((author) =>
-          author.toLowerCase().includes(q.toLowerCase())
-        );
-      }
-      return false;
-    });
 
   useEffect(() => {
     const fetchBooks = async () => {
       try {
         const response = await axios.get(
-          volumesGet + "?q=" + q + "&startIndex=" + iParam
+          volumesGet + getPathWithQueryParams(q, pageParam)
         );
         setBooks(response.data.items);
         setTotalItems(response.data.totalItems);
@@ -85,7 +82,7 @@ export default function Index(props) {
       setBooks([]);
       setTotalItems(0);
     }
-  }, [q, iParam]);
+  }, [q, pageParam]);
 
   return (
     <Layout>
@@ -94,13 +91,12 @@ export default function Index(props) {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              setQ(document.querySelector("input").value);
+              const newQ = document.querySelector("input").value;
+              if (q !== newQ) {
+                setQ(newQ);
 
-              navigate(
-                `/?q=${replaceSpaceWithPlus(
-                  document.querySelector("input").value
-                )}&f=${replaceSpaceWithPlus(toggle)}`
-              );
+                navigate(`/${getPathForNavigate(newQ, 1)}`);
+              }
             }}
             style={{
               display: "flex",
@@ -132,10 +128,26 @@ export default function Index(props) {
             </button>
           </form>
 
-          <FilterToggle q={q} toggle={toggle} setToggle={setToggle} />
+          {books.length > 0 && (
+            <>
+              <Pagination
+                onChange={(e, value) => {
+                  navigate(`/${getPathForNavigate(q, value)}`);
+                }}
+                page={pageParam}
+                count={
+                  totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)
+                }
+                variant="outlined"
+                shape="rounded"
+              />
+              <br />
+              <br />
+            </>
+          )}
 
           <Grid container spacing={4}>
-            {sortedBookList.slice(0, 9).map(({ id, volumeInfo }) => (
+            {books.slice(0, 9).map(({ id, volumeInfo }) => (
               <Grid item xs={12} sm={6} md={4} key={id}>
                 <Link
                   to={`/book?id=${id}`}
@@ -189,36 +201,19 @@ export default function Index(props) {
                       >
                         {volumeInfo.authors?.join(", ")}
                       </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        className="hover-underline"
+                      >
+                        {formatDate(volumeInfo.publishedDate)}
+                      </Typography>
                     </CardContent>
                   </Card>
                 </Link>
               </Grid>
             ))}
           </Grid>
-          {Boolean(totalItems) && <div>{totalItems}</div>}
-          {Boolean(totalItems) && (
-            <div>
-              <ul>
-                <li>
-                  <Link to={"/?q=" + replaceSpaceWithPlus(q) + "&startIndex=9"}>
-                    2
-                  </Link>
-                </li>
-                <li>
-                  <Link>3</Link>
-                </li>
-                <li>
-                  <Link>4</Link>
-                </li>
-                <li>
-                  <Link>5</Link>
-                </li>
-                <li>
-                  <Link>6</Link>
-                </li>
-              </ul>
-            </div>
-          )}
         </Box>
       </Container>
     </Layout>
@@ -234,4 +229,19 @@ function handleTitleLength(text = "") {
 
 function isOver(text = "", length) {
   return text.length > length;
+}
+
+function formatDate(dateString) {
+  if (!dateString) return "Unknown";
+
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    return dateString; // Return the original string if it's not a valid date
+  }
+
+  return date.getFullYear().toString();
+}
+
+function replaceForURL(text) {
+  return text.replaceAll(" ", "+").replaceAll('"', "%22");
 }

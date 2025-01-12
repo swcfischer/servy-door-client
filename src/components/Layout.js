@@ -32,7 +32,6 @@ const footerStyles = {
   marginTop: "auto",
   padding: "1rem 0",
   textAlign: "center",
-  // backgroundColor: "#333",
   color: "#fff",
   backgroundColor: "#111",
   borderRadius: "3px",
