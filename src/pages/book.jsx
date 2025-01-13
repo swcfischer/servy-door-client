@@ -4,6 +4,7 @@ import { navigate } from "gatsby";
 import Modal from "react-modal";
 
 import { TextField, Button } from "@mui/material";
+import { getImageLink } from "../utils/image";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -35,7 +36,13 @@ function Book(props) {
     async function fetchBook() {
       setIsLoading(true);
       const response = await axios.get(bookGet + id);
-      setState(response.data);
+      const img = await getImageLink(response.data.volumeInfo.imageLinks);
+
+      setState({
+        ...response.data,
+        img,
+      });
+
       setIsLoading(false);
     }
     if (id) {
@@ -46,19 +53,6 @@ function Book(props) {
   if (isLoading) {
     return <div>is loading</div>;
   }
-
-  const getImageLink = () => {
-    if (state.volumeInfo.imageLinks) {
-      return (
-        state.volumeInfo.imageLinks.extraLarge ||
-        state.volumeInfo.imageLinks.large ||
-        state.volumeInfo.imageLinks.medium ||
-        state.volumeInfo.imageLinks.small ||
-        state.volumeInfo.imageLinks.thumbnail
-      );
-    }
-    return "";
-  };
 
   return (
     <div>
@@ -157,22 +151,22 @@ function Book(props) {
           contentLabel="Image Modal"
           style={{
             content: {
-              maxWidth: "600px",
+              position: "relative",
+              maxWidth: "740px",
               margin: "auto",
               display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
               flexDirection: "column",
+              height: "95vh",
+              background: "#000",
             },
-            overlay: {},
+            overlay: {
+              background: "rgba(0,0,0,.9)",
+              backdropFilter: "blur(8px)",
+            },
           }}
         >
-          <img
-            src={getImageLink()}
-            alt=""
-            style={{
-              height: "80vh",
-              width: "auto",
-            }}
-          />
           <button
             style={{
               height: "max-content",
@@ -186,6 +180,10 @@ function Book(props) {
               marginBottom: "12px",
               transition: "background-color 0.3s ease",
               marginTop: "24px",
+              position: "absolute",
+              width: "100px",
+              left: "0",
+              top: "0px",
             }}
             onMouseEnter={(e) => {
               e.target.style.backgroundColor = "#111";
@@ -197,6 +195,11 @@ function Book(props) {
           >
             Close
           </button>
+          <img
+            src={state.img.image}
+            alt=""
+            style={{ ...getImageDimensions(state), marginTop: "12px" }}
+          />
         </Modal>
 
         <div>
@@ -204,7 +207,7 @@ function Book(props) {
             width="200px"
             height="300px"
             style={{ marginRight: "40px", cursor: "zoom-in" }}
-            src={getImageLink()}
+            src={state.img.image}
             alt=""
             onClick={openModal}
             onMouseEnter={(e) => {
@@ -216,7 +219,16 @@ function Book(props) {
           />
           <dl>
             <dt>Author{state.volumeInfo.authors.length > 1 && "s"} </dt>
-            <dd>{state.volumeInfo.authors.join(", ")}</dd>
+            <dd>
+              {state.volumeInfo.authors.map((auth, idx) => {
+                return (
+                  <>
+                    {auth}
+                    <br />
+                  </>
+                );
+              })}
+            </dd>
             <dt>Publisher</dt>
             <dd>{state.volumeInfo.publisher}</dd>
             <dt>Date Published</dt>
@@ -386,3 +398,20 @@ function Book(props) {
 }
 
 export default Book;
+
+function getImageDimensions(state) {
+  const maxWidth = 600;
+  const ratio = state.img.width / state.img.height;
+
+  if (state.img.width > maxWidth) {
+    return {
+      width: maxWidth,
+      height: maxWidth / ratio,
+    };
+  }
+
+  return {
+    width: state.img.width,
+    height: state.img.height,
+  };
+}

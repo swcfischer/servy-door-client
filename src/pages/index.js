@@ -12,6 +12,7 @@ import { Link, navigate } from "gatsby";
 import axios from "axios";
 import Pagination from "@mui/material/Pagination";
 import FilterSelect from "../components/FilterSelect";
+import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 
 const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
@@ -38,38 +39,48 @@ const cardStyles = {
 
 const itemsPerPage = 9;
 
-function getPathWithQueryParams(q, page) {
-  if (Number(page) === 1) {
-    return "?q=" + replaceForURL(q) + "&startIndex=0";
-  } else {
-    return (
-      "?q=" + replaceForURL(q) + "&startIndex=" + (page - 1) * itemsPerPage
-    );
-  }
+function getStartIndex(page) {
+  return (page - 1) * itemsPerPage;
 }
 
 function getPathForNavigate(q, page) {
   return "?q=" + replaceForURL(q) + "&page=" + page;
 }
 
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 export default function Index(props) {
   const { search } = props.location;
   const params = new URLSearchParams(search);
   const qParam = params.get("q") ?? "";
-  const pageParam = Number(params.get("page")) ?? 1;
+  const _searchFilter = params.get("searchFilter");
+  const pageParam = params.get("page") ? Number(params.get("page")) : 1;
   const [books, setBooks] = useState([]);
+
+  const searchFilterObj = {
+    label: _searchFilter ? capitalize(_searchFilter) : "No filter",
+    value: _searchFilter ?? "none",
+  };
 
   const [q, setQ] = useState(qParam);
   const [totalItems, setTotalItems] = useState(0);
-  const [searchFilter, setSearchFilter] = useState("all");
+  const [searchFilter, setSearchFilter] = useState(searchFilterObj);
 
   useEffect(() => {
     const fetchBooks = async () => {
+      const getPath =
+        volumesGet +
+        "?" +
+        buildQueryParams({
+          q: searchBooks(removeSearchOperators(q), searchFilter.value),
+          startIndex: getStartIndex(pageParam),
+          searchFilter: searchFilter.value,
+        });
       try {
-        const response = await axios.get(
-          volumesGet + getPathWithQueryParams(q, pageParam)
-        );
-        setBooks(response.data.items);
+        const response = await axios.get(getPath);
+        setBooks(response?.data?.items ?? []);
         setTotalItems(response.data.totalItems);
       } catch (error) {
         console.error("Error fetching books:", error);
@@ -82,21 +93,30 @@ export default function Index(props) {
       setBooks([]);
       setTotalItems(0);
     }
-  }, [q, pageParam]);
+  }, [q, pageParam, searchFilter.value]);
+
+  const handleOnSubmit = async (e) => {
+    e.preventDefault();
+    const _newQ = document.querySelector("input").value;
+    const newQ = searchBooks(_newQ, searchFilter.value);
+    if (q !== newQ) {
+      setQ(newQ);
+
+      navigate(
+        `/?${buildQueryParams({
+          q: _newQ,
+          page: pageParam,
+          searchFilter: searchFilter?.value ?? "none",
+        })}`
+      );
+    }
+  };
 
   return (
     <Container maxWidth="md" sx={{ padding: "0 !important" }}>
       <Box sx={{ my: 3 }}>
         <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            const newQ = document.querySelector("input").value;
-            if (q !== newQ) {
-              setQ(newQ);
-
-              navigate(`/${getPathForNavigate(newQ, 1)}`);
-            }
-          }}
+          onSubmit={handleOnSubmit}
           style={{
             display: "flex",
           }}
@@ -143,7 +163,13 @@ export default function Index(props) {
             <>
               <Pagination
                 onChange={(e, value) => {
-                  navigate(`/${getPathForNavigate(q, value)}`);
+                  navigate(
+                    `/?${buildQueryParams({
+                      q: q,
+                      page: value,
+                      searchFilter: searchFilter?.value ?? "none",
+                    })}`
+                  );
                 }}
                 page={pageParam}
                 count={
@@ -213,6 +239,17 @@ export default function Index(props) {
                     >
                       {volumeInfo.authors?.join(", ")}
                     </Typography>
+                    ---
+                    <Typography
+                      variant="body2"
+                      color="textSecondary"
+                      className="hover-underline"
+                      title={
+                        isOver(volumeInfo.publisher, 40) && volumeInfo.publisher
+                      }
+                    >
+                      {volumeInfo.publisher}
+                    </Typography>
                     <Typography
                       variant="body2"
                       color="textSecondary"
@@ -257,26 +294,9 @@ function replaceForURL(text) {
   return text.replaceAll(" ", "+").replaceAll('"', "%22");
 }
 
-/* <Box sx={{ maxWidth: 200, mb: 3 }}>
-  <Typography variant="body2" gutterBottom>
-    Search by:
-  </Typography>
-  <Select
-    defaultValue=""
-    displayEmpty
-    variant="outlined"
-    inputProps={{ "aria-label": "Without label" }}
-    sx={{
-      width: "150px",
-    }}
-    value={searchFilter}
-    onChange={(e) => {
-      setSearchFilter(e.target.value);
-    }}
-  >
-    <MenuItem value="all">All</MenuItem>
-    <MenuItem value="author">Author</MenuItem>
-    <MenuItem value="publisher">Publisher</MenuItem>
-    <MenuItem value="subject">Subject</MenuItem>
-  </Select>
-</Box> */
+function removeSearchOperators(str) {
+  // Matches any of inauthor:, insubject:, intitle:, inpublisher:
+  // The \b ensures we match the word boundary,
+  // and the : ensures we remove the colon as well.
+  return str.replace(/\b(inauthor|insubject|intitle|inpublisher):/gi, "");
+}

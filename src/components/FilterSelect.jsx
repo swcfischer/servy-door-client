@@ -2,6 +2,7 @@ import React from "react";
 import Select from "react-select";
 
 const options = [
+  { value: "none", label: "No Filter" },
   { value: "title", label: "Title" },
   { value: "author", label: "Author" },
   { value: "publisher", label: "Publisher" },
@@ -16,18 +17,19 @@ const FilterSelect = (props) => {
   };
 
   return (
-    <div style={{ width: "395px", marginBottom: "12px" }}>
+    <div style={{ width: "195px", marginBottom: "12px" }}>
       <label
         style={{ paddingBottom: "8px", display: "inline-block" }}
-        htmlFor="flavors"
+        htmlFor="filter-by"
       >
-        Select Filters (Not required)
+        Filter by:
       </label>
       <Select
-        id="flavors"
-        isMulti
-        name="flavors"
+        placeholder="No filter necessary"
+        id="filter-by"
+        name="filter-by"
         options={options}
+        defaultValue={searchFilter}
         className="basic-multi-select"
         classNamePrefix="select"
         onChange={handleChange}
