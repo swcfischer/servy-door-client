@@ -7,14 +7,14 @@ import TiltedTile from "./TiltedTile";
 
 const containerStyles = {
   background: "#fafafa",
-  paddingTop: "24px",
+  paddingTop: "1px",
   borderRadius: "3px",
 };
 
 const appBarStyles = {
   backgroundColor: "rgb(54 54 54)",
   borderRadius: "8px",
-  marginTop: "18px",
+  marginTop: "12px",
 };
 
 const toolbarStyles = {
@@ -77,7 +77,7 @@ const Layout = ({ children }) => {
           </Toolbar>
         </AppBar>
 
-        <div style={{ minHeight: "150vh" }}>{children}</div>
+        <div style={{ minHeight: "100vh" }}>{children}</div>
         <footer style={footerStyles}>
           <Typography variant="body2" style={typographyStyles}>
             Read Write Send

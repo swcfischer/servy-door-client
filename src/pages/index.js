@@ -60,7 +60,7 @@ export default function Index(props) {
   const [books, setBooks] = useState([]);
 
   const searchFilterObj = {
-    label: _searchFilter ? capitalize(_searchFilter) : "No filter",
+    label: _searchFilter ? capitalize(_searchFilter) : "No Filter",
     value: _searchFilter ?? "none",
   };
 
@@ -150,8 +150,9 @@ export default function Index(props) {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-start",
-            flexDirection: "column",
+            justifyContent: "space-between",
+            flexDirection: "row",
+            alignItems: "center",
           }}
         >
           <FilterSelect
@@ -264,6 +265,28 @@ export default function Index(props) {
           ))}
         </Grid>
       </Box>
+
+      {books.length > 0 && (
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Pagination
+            onChange={(e, value) => {
+              navigate(
+                `/?${buildQueryParams({
+                  q: q,
+                  page: value,
+                  searchFilter: searchFilter?.value ?? "none",
+                })}`
+              );
+            }}
+            page={pageParam}
+            count={totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)}
+            variant="outlined"
+            shape="rounded"
+          />
+          <br />
+          <br />
+        </div>
+      )}
     </Container>
   );
 }
