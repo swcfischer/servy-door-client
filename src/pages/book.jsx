@@ -220,7 +220,7 @@ function Book(props) {
         <div>
           <img
             width="200px"
-            height="300px"
+            height={`${(state.img.height / state.img.width) * 200}px`}
             style={{ marginRight: "40px", cursor: "zoom-in" }}
             src={state.img.image}
             alt=""
@@ -232,7 +232,7 @@ function Book(props) {
               e.target.style.opacity = "1";
             }}
           />
-          <dl>
+          <dl style={{ maxWidth: "210px" }}>
             <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
             <dd>
               {state.volumeInfo?.authors?.map((auth, idx) => {
