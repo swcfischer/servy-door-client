@@ -233,9 +233,9 @@ function Book(props) {
             }}
           />
           <dl>
-            <dt>Author{state.volumeInfo.authors.length > 1 && "s"} </dt>
+            <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
             <dd>
-              {state.volumeInfo.authors.map((auth, idx) => {
+              {state.volumeInfo?.authors?.map((auth, idx) => {
                 return (
                   <div key={idx}>
                     {auth}

@@ -27,10 +27,6 @@ const homeStyles = {
   fontFamily: "monospace",
   fontWeight: "100",
   color: "rgba(250, 255, 103, 0.41)",
-
-  // bottom: "-10px",
-  // right: "22px",
-  // color: "silver",
 };
 
 function TiltedTile(props) {
