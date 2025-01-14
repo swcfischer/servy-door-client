@@ -153,6 +153,7 @@ export default function Index(props) {
             justifyContent: "space-between",
             flexDirection: "row",
             alignItems: "center",
+            flexWrap: "wrap",
           }}
         >
           <FilterSelect
@@ -185,89 +186,102 @@ export default function Index(props) {
           )}
         </div>
 
-        <Grid container spacing={4}>
-          {books.slice(0, 9).map(({ id, volumeInfo }) => (
-            <Grid item xs={12} sm={6} md={4} key={id}>
-              <Link
-                to={`/book?id=${id}`}
-                style={{ textDecoration: "none" }}
-                onMouseEnter={(e) => {
-                  e.currentTarget
-                    .querySelectorAll(".hover-underline")
-                    .forEach((el) => {
-                      el.style.textDecoration = "underline";
-                    });
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget
-                    .querySelectorAll(".hover-underline")
-                    .forEach((el) => {
-                      el.style.textDecoration = "none";
-                    });
-                }}
-              >
-                <Card sx={cardStyles}>
-                  <CardMedia
-                    component="img"
-                    image={volumeInfo.imageLinks?.thumbnail}
-                    alt={volumeInfo.title}
-                    sx={{
-                      objectFit: "contain",
-                      pt: 2,
-                      width: "100px",
-                      height: "150px",
-                      color: "#fafafa",
-                    }}
-                  />
-                  <CardContent>
-                    <Typography
-                      variant="subtitle1"
-                      sx={{ fontStyle: "italic", lineHeight: 1.2 }}
-                      className="hover-underline"
-                      title={isOver(volumeInfo.title, 40) && volumeInfo.title}
-                    >
-                      {handleTitleLength(volumeInfo.title)}
-                    </Typography>
-                    <br />
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      className="hover-underline"
-                      title={
-                        isOver(volumeInfo.authors?.join(", "), 40) &&
-                        volumeInfo.authors?.join(", ")
-                      }
-                    >
-                      {volumeInfo.authors?.join(", ")}
-                    </Typography>
-                    ---
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      className="hover-underline"
-                      title={
-                        isOver(volumeInfo.publisher, 40) && volumeInfo.publisher
-                      }
-                    >
-                      {volumeInfo.publisher}
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="textSecondary"
-                      className="hover-underline"
-                    >
-                      {formatDate(volumeInfo.publishedDate)}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Link>
-            </Grid>
-          ))}
-        </Grid>
+        <div style={{ minHeight: "110vh" }}>
+          <Grid container spacing={4}>
+            {books.slice(0, 9).map(({ id, volumeInfo }) => (
+              <Grid item xs={12} sm={6} md={4} key={id}>
+                <Link
+                  to={`/book?id=${id}`}
+                  style={{ textDecoration: "none" }}
+                  className="fade-in-book-item"
+                  onMouseEnter={(e) => {
+                    e.currentTarget
+                      .querySelectorAll(".hover-underline")
+                      .forEach((el) => {
+                        el.style.textDecoration = "underline";
+                      });
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget
+                      .querySelectorAll(".hover-underline")
+                      .forEach((el) => {
+                        el.style.textDecoration = "none";
+                      });
+                  }}
+                >
+                  <Card sx={cardStyles}>
+                    <CardMedia
+                      component="img"
+                      image={volumeInfo.imageLinks?.thumbnail}
+                      alt={volumeInfo.title}
+                      sx={{
+                        objectFit: "contain",
+                        pt: 2,
+                        width: "100px",
+                        height: "150px",
+                        color: "#fafafa",
+                      }}
+                    />
+                    <CardContent>
+                      <Typography
+                        variant="subtitle1"
+                        sx={{ fontStyle: "italic", lineHeight: 1.2 }}
+                        className="hover-underline"
+                        title={isOver(volumeInfo.title, 40) && volumeInfo.title}
+                      >
+                        {handleTitleLength(volumeInfo.title)}
+                      </Typography>
+                      <br />
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        className="hover-underline"
+                        title={
+                          volumeInfo.authors?.length > 2 &&
+                          volumeInfo.authors?.join(", ")
+                        }
+                      >
+                        {volumeInfo.authors?.length > 2 ? (
+                          <>{volumeInfo.authors?.slice(0, 2).join(", ")}</>
+                        ) : (
+                          volumeInfo.authors?.join(", ")
+                        )}
+                      </Typography>
+                      ---
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        className="hover-underline"
+                        title={
+                          isOver(volumeInfo.publisher, 40) &&
+                          volumeInfo.publisher
+                        }
+                      >
+                        {volumeInfo.publisher}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        className="hover-underline"
+                      >
+                        {formatDate(volumeInfo.publishedDate)}
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Link>
+              </Grid>
+            ))}
+          </Grid>
+        </div>
       </Box>
 
       {books.length > 0 && (
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <Pagination
             onChange={(e, value) => {
               navigate(

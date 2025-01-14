@@ -5,6 +5,7 @@ import Modal from "react-modal";
 
 import { TextField, Button } from "@mui/material";
 import { getImageLink } from "../utils/image";
+import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -13,13 +14,16 @@ function Book(props) {
   const [isLoading, setIsLoading] = useState(true);
   const [state, setState] = useState({});
   const id = params.get("id");
+  const isModal = Boolean(params.get("isModal"));
 
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalIsOpen, setModalIsOpen] = useState(isModal);
   const [readModalIsOpen, setReadModalIsOpen] = useState(false);
 
   const [weeks, setWeeks] = useState("");
 
-  const openModal = () => setModalIsOpen(true);
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
   const closeModal = () => setModalIsOpen(false);
 
   const handleWeeksChange = (event) => {
@@ -51,7 +55,18 @@ function Book(props) {
   }, [id]);
 
   if (isLoading) {
-    return <div>is loading</div>;
+    return (
+      <div
+        style={{
+          minHeight: "75vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <LoadingSpinner />
+      </div>
+    );
   }
 
   return (
@@ -63,7 +78,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#333",
+          backgroundColor: "#111",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -89,7 +104,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#222",
+          backgroundColor: "#111",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -116,7 +131,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#222",
+          backgroundColor: "#111",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -222,10 +237,10 @@ function Book(props) {
             <dd>
               {state.volumeInfo.authors.map((auth, idx) => {
                 return (
-                  <>
+                  <div key={idx}>
                     {auth}
                     <br />
-                  </>
+                  </div>
                 );
               })}
             </dd>

@@ -1,4 +1,4 @@
-export async function getImageLink(imageLinks) {
+export async function getImageLink(imageLinks = {}) {
   // * I need the dimensions of the image
   const image =
     imageLinks.extraLarge ||

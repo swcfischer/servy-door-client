@@ -77,7 +77,7 @@ const Layout = ({ children }) => {
           </Toolbar>
         </AppBar>
 
-        <div style={{ minHeight: "100vh" }}>{children}</div>
+        <div style={{ minHeight: "150vh" }}>{children}</div>
         <footer style={footerStyles}>
           <Typography variant="body2" style={typographyStyles}>
             Read Write Send

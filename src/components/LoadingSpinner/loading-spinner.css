@@ -1,0 +1,7 @@
+.spinner span > span {
+  background-color: #000 !important;
+}
+
+.spinner {
+  animation-delay: 1s;
+}
