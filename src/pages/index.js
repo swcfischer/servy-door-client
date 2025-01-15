@@ -99,13 +99,13 @@ export default function Index(props) {
     e.preventDefault();
     const _newQ = document.querySelector("input").value;
     const newQ = searchBooks(_newQ, searchFilter.value);
-    if (q !== newQ) {
-      setQ(newQ);
+    if (q !== _newQ) {
+      setQ(_newQ);
 
       navigate(
         `/?${buildQueryParams({
           q: _newQ,
-          page: pageParam,
+          page: 1,
           searchFilter: searchFilter?.value ?? "none",
         })}`
       );
@@ -159,6 +159,7 @@ export default function Index(props) {
           <FilterSelect
             searchFilter={searchFilter}
             setSearchFilter={setSearchFilter}
+            q={q}
           />
 
           {books.length > 0 && (
@@ -332,7 +333,7 @@ function replaceForURL(text) {
   return text.replaceAll(" ", "+").replaceAll('"', "%22");
 }
 
-function removeSearchOperators(str) {
+export function removeSearchOperators(str) {
   // Matches any of inauthor:, insubject:, intitle:, inpublisher:
   // The \b ensures we match the word boundary,
   // and the : ensures we remove the colon as well.

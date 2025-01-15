@@ -1,5 +1,7 @@
 import React from "react";
 import Select from "react-select";
+import { buildQueryParams } from "../utils/queryFunctions";
+import { navigate } from "gatsby";
 
 const options = [
   { value: "none", label: "No Filter" },
@@ -10,10 +12,18 @@ const options = [
 ];
 
 const FilterSelect = (props) => {
-  const { searchFilter, setSearchFilter } = props;
+  const { searchFilter, setSearchFilter, q } = props;
 
   const handleChange = (selectedOptions) => {
     setSearchFilter(selectedOptions);
+
+    navigate(
+      `/?${buildQueryParams({
+        q: q,
+        page: 1,
+        searchFilter: selectedOptions?.value,
+      })}`
+    );
   };
 
   return (
