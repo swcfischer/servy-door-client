@@ -70,7 +70,7 @@ function Book(props) {
   }
 
   return (
-    <div>
+    <div className="fade-in">
       <button
         style={{
           height: "max-content",

@@ -189,7 +189,7 @@ export default function Index(props) {
         <div style={{ minHeight: "110vh" }}>
           <Grid container spacing={4}>
             {books.slice(0, 9).map(({ id, volumeInfo }) => (
-              <Grid item xs={12} sm={6} md={4} key={id}>
+              <Grid className="fade-in" item xs={12} sm={6} md={4} key={id}>
                 <Link
                   to={`/book?id=${id}`}
                   style={{ textDecoration: "none" }}

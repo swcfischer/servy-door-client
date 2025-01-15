@@ -6,7 +6,7 @@ import "./loading-spinner.css";
 
 function LoadingSpinner(props) {
   return (
-    <div className="fade-in spinner">
+    <div className="fade-in-spinner">
       <FadeLoader />
     </div>
   );
