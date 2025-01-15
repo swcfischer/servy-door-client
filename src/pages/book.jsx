@@ -213,7 +213,10 @@ function Book(props) {
           <img
             src={state.img.image}
             alt=""
-            style={{ ...getImageDimensions(state), marginTop: "12px" }}
+            style={{
+              ...getImageDimensions(state),
+              marginTop: "12px",
+            }}
           />
         </Modal>
 
@@ -221,7 +224,11 @@ function Book(props) {
           <img
             width="200px"
             height={`${(state.img.height / state.img.width) * 200}px`}
-            style={{ marginRight: "40px", cursor: "zoom-in" }}
+            style={{
+              marginRight: "40px",
+              cursor: "zoom-in",
+              borderRadius: "3px",
+            }}
             src={state.img.image}
             alt=""
             onClick={openModal}

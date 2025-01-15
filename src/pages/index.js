@@ -220,6 +220,7 @@ export default function Index(props) {
                         width: "100px",
                         height: "150px",
                         color: "#fafafa",
+                        borderRadius: "3px",
                       }}
                     />
                     <CardContent>
