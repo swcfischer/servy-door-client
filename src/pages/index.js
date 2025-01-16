@@ -331,11 +331,3 @@ export function removeSearchOperators(str) {
   // and the : ensures we remove the colon as well.
   return str.replace(/\b(inauthor|insubject|intitle|inpublisher):/gi, "");
 }
-
-// function replaceForURL(text) {
-//   return text.replaceAll(" ", "+").replaceAll('"', "%22");
-// }
-
-// function getPathForNavigate(q, page) {
-//   return "?q=" + replaceForURL(q) + "&page=" + page;
-// }

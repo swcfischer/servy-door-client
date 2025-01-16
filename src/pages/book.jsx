@@ -11,14 +11,16 @@ const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
-  const [isLoading, setIsLoading] = useState(true);
-  const [state, setState] = useState({});
   const id = params.get("id");
   const isModal = Boolean(params.get("isModal"));
 
-  const [modalIsOpen, setModalIsOpen] = useState(isModal);
-  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
+  const [state, setState] = useState({});
+
+  const [modalIsOpen, setModalIsOpen] = useState(isModal);
+
+  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
   const [weeks, setWeeks] = useState("");
 
   const openModal = () => {
@@ -49,6 +51,7 @@ function Book(props) {
 
       setIsLoading(false);
     }
+    Modal.setAppElement("body");
     if (id) {
       fetchBook();
     }
@@ -124,33 +127,6 @@ function Book(props) {
       >
         Read
       </button>
-      <button
-        style={{
-          height: "max-content",
-          padding: "11px 20px",
-          fontSize: "16px",
-          borderRadius: "4px",
-          border: "none",
-          backgroundColor: "#333",
-          color: "#fff",
-          cursor: "pointer",
-          marginTop: "12px",
-          marginLeft: "12px",
-          transition: "background-color 0.3s ease",
-        }}
-        onClick={(e) => {
-          e.preventDefault();
-          navigate(-1);
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#555";
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#333";
-        }}
-      >
-        Save
-      </button>
       <h1
         style={{
           fontStyle: "italic",
@@ -176,7 +152,7 @@ function Book(props) {
               background: "#000",
               inset: 0,
               padding: 0,
-              overflow: "scroll",
+              overflow: "auto",
             },
             overlay: {
               background: "rgba(0,0,0,.9)",
@@ -223,24 +199,39 @@ function Book(props) {
         </Modal>
 
         <div>
-          <img
-            width="200px"
-            height={`${(state.img.height / state.img.width) * 200}px`}
+          <button
             style={{
+              background: "transparent",
+              border: "none",
               marginRight: "40px",
-              cursor: "zoom-in",
+              padding: 0,
               borderRadius: "3px",
             }}
-            src={state.img.image}
-            alt=""
-            onClick={openModal}
             onMouseEnter={(e) => {
               e.target.style.opacity = "0.7";
             }}
             onMouseLeave={(e) => {
               e.target.style.opacity = "1";
             }}
-          />
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                openModal();
+              }
+            }}
+            onClick={openModal}
+            tabIndex={0}
+          >
+            <img
+              width="200px"
+              height={`${(state.img.height / state.img.width) * 200}px`}
+              style={{
+                cursor: "zoom-in",
+                borderRadius: "3px",
+              }}
+              src={state.img.image}
+              alt=""
+            />
+          </button>
           <dl style={{ maxWidth: "210px" }}>
             <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
             <dd>
@@ -263,13 +254,21 @@ function Book(props) {
             <dd>{state.volumeInfo.pageCount}</dd>
             <dt>Info Link</dt>
             <dd>
-              <a href={state.volumeInfo.infoLink} target="_blank">
+              <a
+                href={state.volumeInfo.infoLink}
+                rel="noreferrer"
+                target="_blank"
+              >
                 Here
               </a>
             </dd>
             <dt>Preview Link</dt>
             <dd>
-              <a href={state.volumeInfo.previewLink} target="_blank">
+              <a
+                href={state.volumeInfo.previewLink}
+                rel="noreferrer"
+                target="_blank"
+              >
                 Here
               </a>
             </dd>
