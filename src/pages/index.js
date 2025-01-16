@@ -43,10 +43,6 @@ function getStartIndex(page) {
   return (page - 1) * itemsPerPage;
 }
 
-function getPathForNavigate(q, page) {
-  return "?q=" + replaceForURL(q) + "&page=" + page;
-}
-
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
@@ -187,7 +183,7 @@ export default function Index(props) {
           )}
         </div>
 
-        <div style={{ minHeight: "110vh" }}>
+        <div style={{ minHeight: "110vh", paddingTop: "30px" }}>
           <Grid container spacing={4}>
             {books.slice(0, 9).map(({ id, volumeInfo }) => (
               <Grid className="fade-in" item xs={12} sm={6} md={4} key={id}>
@@ -329,13 +325,17 @@ function formatDate(dateString) {
   return date.getFullYear().toString();
 }
 
-function replaceForURL(text) {
-  return text.replaceAll(" ", "+").replaceAll('"', "%22");
-}
-
 export function removeSearchOperators(str) {
   // Matches any of inauthor:, insubject:, intitle:, inpublisher:
   // The \b ensures we match the word boundary,
   // and the : ensures we remove the colon as well.
   return str.replace(/\b(inauthor|insubject|intitle|inpublisher):/gi, "");
 }
+
+// function replaceForURL(text) {
+//   return text.replaceAll(" ", "+").replaceAll('"', "%22");
+// }
+
+// function getPathForNavigate(q, page) {
+//   return "?q=" + replaceForURL(q) + "&page=" + page;
+// }

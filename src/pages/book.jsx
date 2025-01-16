@@ -78,7 +78,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#111",
+          backgroundColor: "#333",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -89,10 +89,10 @@ function Book(props) {
           navigate(-1);
         }}
         onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#333";
+          e.target.style.backgroundColor = "#555";
         }}
         onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#111";
+          e.target.style.backgroundColor = "#333";
         }}
       >
         Go Back
@@ -104,7 +104,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#111",
+          backgroundColor: "#333",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -116,10 +116,10 @@ function Book(props) {
           setReadModalIsOpen(true);
         }}
         onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#222";
+          e.target.style.backgroundColor = "#555";
         }}
         onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#000";
+          e.target.style.backgroundColor = "#333";
         }}
       >
         Read
@@ -131,7 +131,7 @@ function Book(props) {
           fontSize: "16px",
           borderRadius: "4px",
           border: "none",
-          backgroundColor: "#111",
+          backgroundColor: "#333",
           color: "#fff",
           cursor: "pointer",
           marginTop: "12px",
@@ -143,10 +143,10 @@ function Book(props) {
           navigate(-1);
         }}
         onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#222";
+          e.target.style.backgroundColor = "#555";
         }}
         onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#000";
+          e.target.style.backgroundColor = "#333";
         }}
       >
         Save
@@ -173,8 +173,10 @@ function Book(props) {
               justifyContent: "center",
               alignItems: "center",
               flexDirection: "column",
-              height: "95vh",
+              height: "100vh",
               background: "#000",
+              inset: 0,
+              padding: 0,
             },
             overlay: {
               background: "rgba(0,0,0,.9)",
