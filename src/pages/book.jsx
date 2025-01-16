@@ -148,7 +148,7 @@ function Book(props) {
               margin: "auto",
               display: "flex",
               justifyContent: "center",
-              maxHeight: "110vh",
+              maxHeight: "100vh",
               background: "#000",
               inset: 0,
               padding: 0,
