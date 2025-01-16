@@ -168,15 +168,15 @@ function Book(props) {
             content: {
               position: "relative",
               maxWidth: "740px",
+              boxSizing: "border-box",
               margin: "auto",
               display: "flex",
               justifyContent: "center",
-              alignItems: "center",
-              flexDirection: "column",
-              height: "100vh",
+              maxHeight: "110vh",
               background: "#000",
               inset: 0,
               padding: 0,
+              overflow: "scroll",
             },
             overlay: {
               background: "rgba(0,0,0,.9)",

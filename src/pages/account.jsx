@@ -1,6 +1,6 @@
 import React from "react";
 
-function Accounts() {
+function Accounts(props) {
   return (
     <div>
       <h1>Accounts</h1>
