@@ -143,7 +143,7 @@ function Book(props) {
           style={{
             content: {
               position: "relative",
-              maxWidth: "740px",
+              width: "800px",
               boxSizing: "border-box",
               margin: "auto",
               display: "flex",
@@ -153,6 +153,7 @@ function Book(props) {
               inset: 0,
               padding: 0,
               overflow: "auto",
+              maxWidth: "100%",
             },
             overlay: {
               background: "rgba(0,0,0,.9)",

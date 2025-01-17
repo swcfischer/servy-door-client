@@ -24,7 +24,8 @@ const toolbarStyles = {
 
 const navLinksStyles = {
   display: "flex",
-  justifyContent: "space-between",
+  // justifyContent: "space-between",
+  justifyContent: "flex-end",
   width: "300px",
 };
 
@@ -70,8 +71,8 @@ const Layout = ({ children }) => {
               <TiltedTile text="ServyDoor" to="/" />
             </div>
             <div style={navLinksStyles}>
-              <TiltedTile text="Social" to="/social" />
-              <TiltedTile text="Library" to="/library" />
+              {/* <TiltedTile text="Social" to="/social" />
+              <TiltedTile text="Library" to="/library" /> */}
               <TiltedTile text="Account" to="/account" />
             </div>
           </Toolbar>
