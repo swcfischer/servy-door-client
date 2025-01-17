@@ -7,7 +7,71 @@ import { TextField, Button } from "@mui/material";
 import { getImageLink } from "../utils/image";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
+import styled from "@emotion/styled";
+
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
+
+const Container = styled.div`
+  button {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+
+  .go-back-button {
+    margin-left: 0;
+  }
+
+  .read-button {
+    margin-left: 12px;
+  }
+
+  .loading-container {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .image-button {
+    background: transparent;
+    border: none;
+    margin-right: 40px;
+    padding: 0;
+    border-radius: 3px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .image {
+    cursor: zoom-in;
+    border-radius: 3px;
+    display: block;
+  }
+
+  .description {
+    max-width: 450px;
+    float: left;
+  }
+`;
 
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
@@ -59,70 +123,28 @@ function Book(props) {
 
   if (isLoading) {
     return (
-      <div
-        style={{
-          minHeight: "75vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="loading-container">
         <LoadingSpinner />
       </div>
     );
   }
 
   return (
-    <div className="fade-in">
+    <Container className="fade-in">
       <button
-        style={{
-          height: "max-content",
-          padding: "11px 20px",
-          fontSize: "16px",
-          borderRadius: "4px",
-          border: "none",
-          backgroundColor: "#333",
-          color: "#fff",
-          cursor: "pointer",
-          marginTop: "12px",
-          transition: "background-color 0.3s ease",
-        }}
+        className="go-back-button"
         onClick={(e) => {
           e.preventDefault();
           navigate(-1);
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#555";
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#333";
         }}
       >
         Go Back
       </button>
       <button
-        style={{
-          height: "max-content",
-          padding: "11px 20px",
-          fontSize: "16px",
-          borderRadius: "4px",
-          border: "none",
-          backgroundColor: "#333",
-          color: "#fff",
-          cursor: "pointer",
-          marginTop: "12px",
-          marginLeft: "12px",
-          transition: "background-color 0.3s ease",
-        }}
+        className="read-button"
         onClick={(e) => {
           e.preventDefault();
           setReadModalIsOpen(true);
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#555";
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#333";
         }}
       >
         Read
@@ -161,32 +183,7 @@ function Book(props) {
             },
           }}
         >
-          <button
-            style={{
-              height: "max-content",
-              padding: "11px 20px",
-              fontSize: "16px",
-              borderRadius: "4px",
-              border: "none",
-              backgroundColor: "#333",
-              color: "#fff",
-              cursor: "pointer",
-              marginBottom: "12px",
-              transition: "background-color 0.3s ease",
-              marginTop: "24px",
-              position: "absolute",
-              width: "100px",
-              left: "0",
-              top: "0px",
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.backgroundColor = "#111";
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.backgroundColor = "#333";
-            }}
-            onClick={closeModal}
-          >
+          <button className="modal-close-button" onClick={closeModal}>
             Close
           </button>
           <img
@@ -201,19 +198,7 @@ function Book(props) {
 
         <div>
           <button
-            style={{
-              background: "transparent",
-              border: "none",
-              marginRight: "40px",
-              padding: 0,
-              borderRadius: "3px",
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.opacity = "0.7";
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.opacity = "1";
-            }}
+            className="image-button"
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 openModal();
@@ -225,10 +210,7 @@ function Book(props) {
             <img
               width="200px"
               height={`${(state.img.height / state.img.width) * 200}px`}
-              style={{
-                cursor: "zoom-in",
-                borderRadius: "3px",
-              }}
+              className="image"
               src={state.img.image}
               alt=""
             />
@@ -277,7 +259,7 @@ function Book(props) {
         </div>
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
-          style={{ maxWidth: "450px", float: "left" }}
+          className="description"
         ></p>
       </div>
       <Modal
@@ -297,24 +279,7 @@ function Book(props) {
         }}
       >
         <button
-          style={{
-            height: "max-content",
-            padding: "11px 20px",
-            fontSize: "16px",
-            borderRadius: "4px",
-            border: "none",
-            backgroundColor: "#777",
-            color: "#fff",
-            cursor: "pointer",
-            marginBottom: "12px",
-            transition: "background-color 0.3s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#555";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "#777";
-          }}
+          className="read-modal-close-button"
           onClick={() => {
             setReadModalIsOpen(false);
           }}
@@ -417,7 +382,7 @@ function Book(props) {
           </form>
         </div>
       </Modal>
-    </div>
+    </Container>
   );
 }
 

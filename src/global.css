@@ -58,3 +58,39 @@ li:focus {
 dt {
   font-weight: bold;
 }
+
+.modal-close-button {
+  height: max-content;
+  padding: 11px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease;
+  margin-top: 24px;
+  position: absolute;
+  width: 100px;
+  left: 0;
+  top: 0px;
+}
+
+.modal-close-button:hover,
+.read-modal-close-button:hover {
+  background-color: #111;
+}
+
+.read-modal-close-button {
+  height: max-content;
+  padding: 11px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease;
+}

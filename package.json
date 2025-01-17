@@ -27,8 +27,8 @@
     "react-spinners": "^0.15.0"
   },
   "scripts": {
-    "dev": "gatsby develop",
-    "start": "gatsby develop",
+    "dev": "gatsby develop -p 4567",
+    "start": "gatsby develop -p 4567",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
