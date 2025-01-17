@@ -6,6 +6,130 @@ import Modal from "react-modal";
 import { TextField, Button } from "@mui/material";
 import { getImageLink } from "../utils/image";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
+import styled from "@emotion/styled";
+
+const Container = styled.div`
+  button {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+
+  button:active {
+    background-color: #111;
+  }
+
+  h1 {
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .modal-content {
+    position: relative;
+    width: 800px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    background: #000;
+    inset: 0;
+    padding: 0;
+    overflow: auto;
+    max-width: 100%;
+  }
+
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(8px);
+  }
+
+  .close-button {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background-color 0.3s ease;
+    margin-top: 24px;
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 0px;
+  }
+
+  .close-button:hover {
+    background-color: #111;
+  }
+
+  .image-button {
+    background: transparent;
+    border: none;
+    margin-right: 40px;
+    padding: 0;
+    border-radius: 3px;
+  }
+
+  .image-button:hover {
+    opacity: 0.7;
+  }
+
+  .image-button img {
+    cursor: zoom-in;
+    border-radius: 3px;
+    display: block;
+  }
+
+  dl {
+    max-width: 210px;
+  }
+
+  p {
+    max-width: 450px;
+    float: left;
+  }
+
+  .read-modal-content {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .read-modal-overlay {
+    backdrop-filter: blur(1px);
+  }
+
+  .read-modal-close-button {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background-color 0.3s ease;
+  }
+
+  .read-modal-close-button:hover {
+    background-color: #555;
+  }
+`;
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -73,122 +197,31 @@ function Book(props) {
   }
 
   return (
-    <div className="fade-in">
+    <Container className="fade-in">
       <button
-        style={{
-          height: "max-content",
-          padding: "11px 20px",
-          fontSize: "16px",
-          borderRadius: "4px",
-          border: "none",
-          backgroundColor: "#333",
-          color: "#fff",
-          cursor: "pointer",
-          marginTop: "12px",
-          transition: "background-color 0.3s ease",
-        }}
         onClick={(e) => {
           e.preventDefault();
           navigate(-1);
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#555";
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#333";
         }}
       >
         Go Back
       </button>
       <button
-        style={{
-          height: "max-content",
-          padding: "11px 20px",
-          fontSize: "16px",
-          borderRadius: "4px",
-          border: "none",
-          backgroundColor: "#333",
-          color: "#fff",
-          cursor: "pointer",
-          marginTop: "12px",
-          marginLeft: "12px",
-          transition: "background-color 0.3s ease",
-        }}
         onClick={(e) => {
           e.preventDefault();
           setReadModalIsOpen(true);
         }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = "#555";
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = "#333";
-        }}
       >
         Read
       </button>
-      <h1
-        style={{
-          fontStyle: "italic",
-          fontWeight: "100",
-        }}
-      >
-        {state.volumeInfo.title}
-      </h1>
+      <h1>{state.volumeInfo.title}</h1>
       <div style={{ display: "flex" }}>
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           contentLabel="Image Modal"
-          style={{
-            content: {
-              position: "relative",
-              width: "800px",
-              boxSizing: "border-box",
-              margin: "auto",
-              display: "flex",
-              justifyContent: "center",
-              maxHeight: "100vh",
-              background: "#000",
-              inset: 0,
-              padding: 0,
-              overflow: "auto",
-              maxWidth: "100%",
-            },
-            overlay: {
-              background: "rgba(0,0,0,.9)",
-              backdropFilter: "blur(8px)",
-            },
-          }}
         >
-          <button
-            style={{
-              height: "max-content",
-              padding: "11px 20px",
-              fontSize: "16px",
-              borderRadius: "4px",
-              border: "none",
-              backgroundColor: "#333",
-              color: "#fff",
-              cursor: "pointer",
-              marginBottom: "12px",
-              transition: "background-color 0.3s ease",
-              marginTop: "24px",
-              position: "absolute",
-              width: "100px",
-              left: "0",
-              top: "0px",
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.backgroundColor = "#111";
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.backgroundColor = "#333";
-            }}
-            onClick={closeModal}
-          >
-            Close
-          </button>
+          <button onClick={closeModal}>Close</button>
           <img
             src={state.img.image}
             alt=""
@@ -201,19 +234,6 @@ function Book(props) {
 
         <div>
           <button
-            style={{
-              background: "transparent",
-              border: "none",
-              marginRight: "40px",
-              padding: 0,
-              borderRadius: "3px",
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.opacity = "0.7";
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.opacity = "1";
-            }}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 openModal();
@@ -225,10 +245,6 @@ function Book(props) {
             <img
               width="200px"
               height={`${(state.img.height / state.img.width) * 200}px`}
-              style={{
-                cursor: "zoom-in",
-                borderRadius: "3px",
-              }}
               src={state.img.image}
               alt=""
             />
@@ -286,35 +302,8 @@ function Book(props) {
           setReadModalIsOpen(false);
         }}
         contentLabel="Image Modal"
-        style={{
-          content: {
-            maxWidth: "600px",
-            margin: "auto",
-          },
-          overlay: {
-            backdropFilter: "blur(1px)",
-          },
-        }}
       >
         <button
-          style={{
-            height: "max-content",
-            padding: "11px 20px",
-            fontSize: "16px",
-            borderRadius: "4px",
-            border: "none",
-            backgroundColor: "#777",
-            color: "#fff",
-            cursor: "pointer",
-            marginBottom: "12px",
-            transition: "background-color 0.3s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "#555";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "#777";
-          }}
           onClick={() => {
             setReadModalIsOpen(false);
           }}
@@ -417,7 +406,7 @@ function Book(props) {
           </form>
         </div>
       </Modal>
-    </div>
+    </Container>
   );
 }
 
