@@ -2,33 +2,38 @@ import { Typography } from "@mui/material";
 import { Link } from "gatsby";
 import React from "react";
 import { useLocation } from "@reach/router";
+import styled from "@emotion/styled";
 
-const tileStyle = {
-  backgroundColor: "#222",
-  border: "1px solid #fff",
-  borderRadius: "3px",
-  color: "#fff",
-  fontFamily: "Tangerine",
-  padding: "2px 3px",
-  position: "relative",
-  transform: "rotate(18deg)",
-  fontSize: "26px",
-};
+const StyledLink = styled(Link)`
+  outline: none;
 
-const spanStyle = {
-  display: "inline-block",
-  transform: "rotate(-17deg)",
-};
+  .tile {
+    background-color: #222;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Tangerine;
+    padding: 2px 3px;
+    position: relative;
+    transform: rotate(18deg);
+    font-size: 26px;
+  }
 
-const homeStyles = {
-  position: "absolute",
-  bottom: "-13px",
-  right: "0px",
-  fontSize: "20px",
-  fontWeight: "100",
-  fontFamily: "serif",
-  color: "rgba(250, 255, 103, 0.41)",
-};
+  .span {
+    display: inline-block;
+    transform: rotate(-17deg);
+  }
+
+  .home {
+    position: absolute;
+    bottom: -13px;
+    right: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: serif;
+    color: rgba(250, 255, 103, 0.41);
+  }
+`;
 
 function TiltedTile(props) {
   const { text, to } = props;
@@ -38,12 +43,12 @@ function TiltedTile(props) {
   const shouldShow = to === "/" ? pathname === "/" : pathname.includes(to);
 
   return (
-    <Link style={{ outline: "none" }} to={to}>
-      <Typography variant="h6" style={tileStyle}>
-        <span style={spanStyle}>{text}</span>
-        {shouldShow && <span style={homeStyles}>*</span>}
+    <StyledLink to={to}>
+      <Typography variant="h6" className="tile">
+        <span className="span">{text}</span>
+        {shouldShow && <span className="home">*</span>}
       </Typography>
-    </Link>
+    </StyledLink>
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { navigate } from "gatsby";
 import Modal from "react-modal";
@@ -8,6 +8,8 @@ import { getImageLink } from "../utils/image";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
 import styled from "@emotion/styled";
+import axiosInstance from "../axiosInstance";
+import { UserContext } from "../components/Layout";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -72,15 +74,16 @@ const Container = styled.div`
     float: left;
   }
 `;
-
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
   const isModal = Boolean(params.get("isModal"));
 
   const [isLoading, setIsLoading] = useState(true);
+  const { user } = useContext(UserContext);
 
   const [state, setState] = useState({});
+  console.log("🚀 ~ state:", state.volumeInfo);
 
   const [modalIsOpen, setModalIsOpen] = useState(isModal);
 
@@ -374,6 +377,25 @@ function Book(props) {
                   "&:hover": {
                     backgroundColor: "black",
                   },
+                }}
+                onClick={async (e) => {
+                  const { data } = await axiosInstance.post(
+                    "/books/create-book/" + user.uuid,
+                    {
+                      title: state.volumeInfo.title,
+                      image: state.img.image,
+                      weeks: weeks,
+                      pageCount: state.volumeInfo.pageCount,
+                      infoLink: state.volumeInfo.infoLink,
+                      previewLink: state.volumeInfo.previewLink,
+                      publisher: state.volumeInfo.publisher,
+                      datePublished: state.volumeInfo.publishedDate,
+                      author: state.volumeInfo.authors.join(", "),
+                      motivation: "", // Add the motivation value if available
+                      summary: state.volumeInfo.description,
+                    }
+                  );
+                  console.log("🚀 ~ onClick={ ~ data:", data);
                 }}
               >
                 Submit

@@ -4,54 +4,53 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import TiltedTile from "./TiltedTile";
-import axios from "axios";
 import axiosInstance from "../axiosInstance";
+import styled from "@emotion/styled";
 
-const containerStyles = {
-  background: "#fafafa",
-  paddingTop: "1px",
-  borderRadius: "3px",
-};
+const StyledContainer = styled(Container)`
+  background: #fafafa;
+  padding-top: 1px;
+  border-radius: 3px;
 
-const appBarStyles = {
-  backgroundColor: "rgb(54 54 54)",
-  borderRadius: "8px",
-  marginTop: "12px",
-};
+  .app-bar {
+    background-color: rgb(54, 54, 54);
+    border-radius: 8px;
+    margin-top: 12px;
+  }
 
-const toolbarStyles = {
-  display: "flex",
-  justifyContent: "space-between",
-};
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
 
-const navLinksStyles = {
-  display: "flex",
-  // justifyContent: "space-between",
-  justifyContent: "flex-end",
-  width: "300px",
-};
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
 
-const footerStyles = {
-  marginTop: "auto",
-  padding: "1rem 0",
-  textAlign: "center",
-  color: "#fff",
-  backgroundColor: "#111",
-  borderRadius: "3px",
-  boxShadow: "var(--Paper-shadow)",
-};
+  .footer {
+    margin-top: auto;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    border-radius: 3px;
+    box-shadow: var(--Paper-shadow);
+  }
 
-const typographyStyles = {
-  color: "#fff",
-  backdropFilter: "blur(28px)",
-  padding: "12px",
-  width: "max-content",
-  fontSize: "22px",
-  fontFamily: "cursive",
-  margin: "0 auto",
-  borderRadius: "3px",
-  border: "1px solid #fff",
-};
+  .typography {
+    color: #fff;
+    backdrop-filter: blur(28px);
+    padding: 12px;
+    width: max-content;
+    font-size: 22px;
+    font-family: Tangerine;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 1px solid #fff;
+  }
+`;
 
 const initialState = {};
 
@@ -112,27 +111,27 @@ const Layout = ({ children }) => {
   return (
     <UserContext.Provider value={{ user, setUser }}>
       <StateContext.Provider value={{ state, setState }}>
-        <Container maxWidth="md" sx={containerStyles}>
-          <AppBar position="static" style={appBarStyles}>
-            <Toolbar sx={toolbarStyles}>
+        <StyledContainer maxWidth="md">
+          <AppBar className="app-bar" position="static">
+            <Toolbar className="toolbar">
               <div>
                 <TiltedTile text="ServyDoor" to="/" />
               </div>
-              <div style={navLinksStyles}>
-                {/* <TiltedTile text="Social" to="/social" />
-              <TiltedTile text="Library" to="/library" /> */}
+              <div className="nav-links">
+                {/* <TiltedTile text="Social" to="/social" /> */}
+                <TiltedTile text="Library" to="/library" />
                 <TiltedTile text="Account" to="/account" />
               </div>
             </Toolbar>
           </AppBar>
 
           <div style={{ minHeight: "150vh" }}>{children}</div>
-          <footer style={footerStyles}>
-            <Typography variant="body2" style={typographyStyles}>
+          <footer className="footer">
+            <Typography variant="body2" className="typography">
               Read Write Send
             </Typography>
           </footer>
-        </Container>
+        </StyledContainer>
       </StateContext.Provider>
     </UserContext.Provider>
   );
