@@ -21,8 +21,8 @@ const spanStyle = {
 
 const homeStyles = {
   position: "absolute",
-  bottom: "-12px",
-  right: "-1px",
+  bottom: "-8px",
+  right: "1px",
   fontSize: "22px",
   fontFamily: "monospace",
   fontWeight: "100",
