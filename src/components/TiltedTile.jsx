@@ -8,10 +8,11 @@ const tileStyle = {
   border: "1px solid #fff",
   borderRadius: "3px",
   color: "#fff",
-  fontFamily: "cursive, sans-serif",
+  fontFamily: "Tangerine",
   padding: "8px",
   position: "relative",
   transform: "rotate(18deg)",
+  fontSize: "26px",
 };
 
 const spanStyle = {
@@ -23,9 +24,9 @@ const homeStyles = {
   position: "absolute",
   bottom: "-8px",
   right: "1px",
-  fontSize: "22px",
-  fontFamily: "monospace",
+  fontSize: "20px",
   fontWeight: "100",
+  fontFamily: "monospace",
   color: "rgba(250, 255, 103, 0.41)",
 };
 

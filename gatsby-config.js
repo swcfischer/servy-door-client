@@ -29,5 +29,21 @@ module.exports = {
     },
     `gatsby-plugin-sass`, // Add this line to enable SCSS support
     // other plugins can be added here
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [
+          `https://fonts.googleapis.com`,
+          `https://fonts.gstatic.com`,
+        ],
+        web: [
+          {
+            name: "Tangerine",
+            file: "https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap",
+          },
+        ],
+      },
+    },
   ],
 };
