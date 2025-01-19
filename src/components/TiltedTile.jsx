@@ -5,7 +5,7 @@ import { useLocation } from "@reach/router";
 import styled from "@emotion/styled";
 
 const StyledLink = styled(Link)`
-  outline: none;
+  outline: none !important;
 
   .tile {
     background-color: #222;

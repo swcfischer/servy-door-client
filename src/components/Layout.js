@@ -37,6 +37,11 @@ const StyledContainer = styled(Container)`
     background-color: #111;
     border-radius: 3px;
     box-shadow: var(--Paper-shadow);
+    position: relative;
+
+    p {
+      font-size: 34px;
+    }
   }
 
   .typography {
@@ -128,7 +133,7 @@ const Layout = ({ children }) => {
           <div style={{ minHeight: "150vh" }}>{children}</div>
           <footer className="footer">
             <Typography variant="body2" className="typography">
-              Read Write Send
+              ServyDoor
             </Typography>
           </footer>
         </StyledContainer>

@@ -379,23 +379,27 @@ function Book(props) {
                   },
                 }}
                 onClick={async (e) => {
-                  const { data } = await axiosInstance.post(
-                    "/books/create-book/" + user.uuid,
-                    {
-                      title: state.volumeInfo.title,
-                      image: state.img.image,
-                      weeks: weeks,
-                      pageCount: state.volumeInfo.pageCount,
-                      infoLink: state.volumeInfo.infoLink,
-                      previewLink: state.volumeInfo.previewLink,
-                      publisher: state.volumeInfo.publisher,
-                      datePublished: state.volumeInfo.publishedDate,
-                      author: state.volumeInfo.authors.join(", "),
-                      motivation: "", // Add the motivation value if available
-                      summary: state.volumeInfo.description,
-                    }
-                  );
-                  console.log("🚀 ~ onClick={ ~ data:", data);
+                  try {
+                    const { data } = await axiosInstance.post(
+                      "/books/create-book/" + user.uuid,
+                      {
+                        title: state.volumeInfo.title,
+                        image: state.img.image,
+                        weeks: weeks,
+                        pageCount: state.volumeInfo.pageCount,
+                        infoLink: state.volumeInfo.infoLink,
+                        previewLink: state.volumeInfo.previewLink,
+                        publisher: state.volumeInfo.publisher,
+                        datePublished: state.volumeInfo.publishedDate,
+                        author: state.volumeInfo.authors.join(", "),
+                        motivation: "", // Add the motivation value if available
+                        summary: state.volumeInfo.description,
+                      }
+                    );
+                    console.log("🚀 ~ onClick={ ~ data:", data);
+                  } catch (err) {
+                    console.log(err);
+                  }
                 }}
               >
                 Submit
