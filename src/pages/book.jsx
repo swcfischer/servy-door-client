@@ -3,7 +3,6 @@ import axios from "axios";
 import { navigate } from "gatsby";
 import Modal from "react-modal";
 
-import { TextField, Button } from "@mui/material";
 import { getImageLink } from "../utils/image";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
@@ -238,20 +237,20 @@ function Book(props) {
             </dd>
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
-            <dt>Info Link</dt>
+            <dt>Preview Link</dt>
             <dd>
               <a
-                href={state.volumeInfo.infoLink}
+                href={state.volumeInfo.previewLink}
                 rel="noreferrer"
                 target="_blank"
               >
                 Here
               </a>
             </dd>
-            <dt>Preview Link</dt>
+            <dt>Info Link</dt>
             <dd>
               <a
-                href={state.volumeInfo.previewLink}
+                href={state.volumeInfo.infoLink}
                 rel="noreferrer"
                 target="_blank"
               >
@@ -291,42 +290,24 @@ function Book(props) {
         </button>
         <div>
           <h2 style={{ fontWeight: "normal", fontStyle: "italic" }}>
-            How long do want to spend reading {state.volumeInfo.title}?
+            How many weeks do you want to spend reading {state.volumeInfo.title}
+            ?
           </h2>
 
           <form onSubmit={handleSubmit}>
-            <TextField
-              label="Weeks"
+            <input
               type="number"
               value={weeks}
               onChange={handleWeeksChange}
-              InputLabelProps={{
-                shrink: true,
-              }}
-              inputProps={{
-                min: 0,
-              }}
-              variant="outlined"
-              fullWidth
-              margin="normal"
-              sx={{
-                "& .MuiOutlinedInput-root": {
-                  "& fieldset": {
-                    borderColor: "black",
-                  },
-                  "&:hover fieldset": {
-                    borderColor: "black",
-                  },
-                  "&.Mui-focused fieldset": {
-                    borderColor: "black",
-                  },
-                },
-                "& .MuiInputLabel-root": {
-                  color: "black",
-                },
-                "& .MuiInputLabel-root.Mui-focused": {
-                  color: "black",
-                },
+              min="0"
+              placeholder="Weeks"
+              style={{
+                width: "100%",
+                padding: "10px",
+                margin: "10px 0",
+                boxSizing: "border-box",
+                border: "1px solid black",
+                borderRadius: "4px",
               }}
             />
 
@@ -339,44 +320,36 @@ function Book(props) {
                 </strong>
               </p>
             )}
+
             {weeks && (
-              <TextField
-                label={"Motivation for reading " + state.volumeInfo.title}
-                type="text"
-                variant="outlined"
-                fullWidth
-                margin="normal"
-                sx={{
-                  "& .MuiOutlinedInput-root": {
-                    "& fieldset": {
-                      borderColor: "black",
-                    },
-                    "&:hover fieldset": {
-                      borderColor: "black",
-                    },
-                    "&.Mui-focused fieldset": {
-                      borderColor: "black",
-                    },
-                  },
-                  "& .MuiInputLabel-root": {
-                    color: "black",
-                  },
-                  "& .MuiInputLabel-root.Mui-focused": {
-                    color: "black",
-                  },
-                }}
-              />
+              <>
+                <h2 style={{ fontWeight: "normal", fontStyle: "italic" }}>
+                  Motivation for reading {state.volumeInfo.title}
+                </h2>
+                <input
+                  type="text"
+                  style={{
+                    width: "100%",
+                    padding: "10px",
+                    margin: "10px 0",
+                    boxSizing: "border-box",
+                    border: "1px solid black",
+                    borderRadius: "4px",
+                  }}
+                />
+              </>
             )}
 
             {weeks && (
-              <Button
+              <button
                 type="submit"
-                variant="contained"
-                sx={{
+                style={{
                   backgroundColor: "black",
-                  "&:hover": {
-                    backgroundColor: "black",
-                  },
+                  color: "white",
+                  padding: "10px 20px",
+                  border: "none",
+                  borderRadius: "4px",
+                  cursor: "pointer",
                 }}
                 onClick={async (e) => {
                   try {
@@ -386,6 +359,7 @@ function Book(props) {
                         title: state.volumeInfo.title,
                         image: state.img.image,
                         weeks: weeks,
+                        volumeInfo: state.volumeInfo,
                         pageCount: state.volumeInfo.pageCount,
                         infoLink: state.volumeInfo.infoLink,
                         previewLink: state.volumeInfo.previewLink,
@@ -396,14 +370,14 @@ function Book(props) {
                         summary: state.volumeInfo.description,
                       }
                     );
-                    console.log("🚀 ~ onClick={ ~ data:", data);
+                    navigate("/library/book-details?id=" + data.uuid);
                   } catch (err) {
                     console.log(err);
                   }
                 }}
               >
                 Submit
-              </Button>
+              </button>
             )}
           </form>
         </div>

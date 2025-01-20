@@ -2,7 +2,16 @@ import React, { useState } from "react";
 import { useEffect, useContext } from "react";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
-import { Link } from "gatsby";
+import styled from "@emotion/styled";
+import BookItem from "../components/BookItem";
+
+const Container = styled.div`
+  .books-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+`;
 
 function Library() {
   const { user } = useContext(UserContext);
@@ -24,38 +33,27 @@ function Library() {
       fetchData();
     }
   }, [user]);
+
   return (
-    <div>
+    <Container>
       <h1>Library</h1>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+      <div className="books-list">
         {books.map((bk) => {
           return (
-            <div
+            <BookItem
+              to={`/library/book-details?id=${bk.uuid}`}
+              id={bk.uuid}
               key={bk.uuid}
-              style={{ flex: "1 0 21%", boxSizing: "border-box" }}
-            >
-              <h2 style={{ fontSize: "16px" }}>{bk.title}</h2>
-              <p style={{ fontSize: "14px" }}>{bk.author}</p>
-              <img
-                src={bk.image}
-                alt={bk.title}
-                style={{ width: "80px", height: "auto" }}
-              />
-              <Link
-                to={`/book/${bk.uuid}`}
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <button style={{ marginTop: "10px" }}>View Details</button>
-              </Link>
-            </div>
+              volumeInfo={bk.volumeInfo}
+            />
           );
         })}
       </div>
-      <ul>
+      {/* <ul>
         <li>Reading</li>
         <li>Bookmarked</li>
-      </ul>
-    </div>
+      </ul> */}
+    </Container>
   );
 }
 
