@@ -10,8 +10,10 @@ html {
 }
 
 *:focus {
-  outline: 2px solid #1f1f1f;
+  /* outline: 2px solid #1f1f1f;
   outline: 2px solid #515151;
+  outline: 2px solid #00061b; */
+  border-radius: 3px;
 }
 li:focus {
   outline: none;

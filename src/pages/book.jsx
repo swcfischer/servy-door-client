@@ -9,6 +9,9 @@ import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 import styled from "@emotion/styled";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
+import formatDate from "../utils/formatDate";
+import { createGooglePublisherLink } from "../utils/createLinks";
+import { renderGoogleAuthorLinks } from "./library/book-details";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -82,12 +85,16 @@ function Book(props) {
   const { user } = useContext(UserContext);
 
   const [state, setState] = useState({});
-  console.log("🚀 ~ state:", state.volumeInfo);
 
   const [modalIsOpen, setModalIsOpen] = useState(isModal);
 
   const [readModalIsOpen, setReadModalIsOpen] = useState(false);
   const [weeks, setWeeks] = useState("");
+  const [motivation, setMotivation] = useState("");
+
+  const handleMotivationChange = (event) => {
+    setMotivation(event.target.value);
+  };
 
   const openModal = () => {
     setModalIsOpen(true);
@@ -219,22 +226,18 @@ function Book(props) {
           </button>
           <dl style={{ maxWidth: "210px" }}>
             <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
-            <dd>
-              {state.volumeInfo?.authors?.map((auth, idx) => {
-                return (
-                  <div key={idx}>
-                    {auth}
-                    <br />
-                  </div>
-                );
-              })}
-            </dd>
+            <dd>{renderGoogleAuthorLinks(state.volumeInfo?.authors)}</dd>
             <dt>Publisher</dt>
-            <dd>{state.volumeInfo.publisher}</dd>
-            <dt>Date Published</dt>
             <dd>
-              {new Date(state.volumeInfo.publishedDate).toLocaleDateString()}
+              <a
+                target="_blank"
+                href={createGooglePublisherLink(state.volumeInfo?.publisher)}
+              >
+                {state.volumeInfo?.publisher}
+              </a>
             </dd>
+            <dt>Date Published</dt>
+            <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
             <dt>Preview Link</dt>
@@ -328,6 +331,8 @@ function Book(props) {
                 </h2>
                 <input
                   type="text"
+                  value={motivation}
+                  onChange={handleMotivationChange}
                   style={{
                     width: "100%",
                     padding: "10px",
@@ -366,7 +371,7 @@ function Book(props) {
                         publisher: state.volumeInfo.publisher,
                         datePublished: state.volumeInfo.publishedDate,
                         author: state.volumeInfo.authors.join(", "),
-                        motivation: "", // Add the motivation value if available
+                        motivation: motivation, // Add the motivation value if available
                         summary: state.volumeInfo.description,
                       }
                     );
