@@ -225,8 +225,12 @@ function Book(props) {
             />
           </button>
           <dl style={{ maxWidth: "210px" }}>
-            <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
-            <dd>{renderGoogleAuthorLinks(state.volumeInfo?.authors)}</dd>
+            {state.volumeInfo.authors && (
+              <>
+                <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
+                <dd>{renderGoogleAuthorLinks(state.volumeInfo?.authors)}</dd>
+              </>
+            )}
             <dt>Publisher</dt>
             <dd>
               <a

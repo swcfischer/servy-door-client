@@ -62,7 +62,7 @@ const Container = styled.div`
 `;
 
 export function renderGoogleAuthorLinks(authors) {
-  return authors.map((author, idx) => {
+  return authors?.map((author, idx) => {
     const link = createGoogleAuthorLink(author);
     return (
       <a href={link} target="_blank">
@@ -87,7 +87,7 @@ function BookDetails(props) {
   const [book, setBook] = useState({});
   const [readingSessions, setReadingSessions] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-  const [pageRange, setPageRang] = useState([]);
+  const [pageRange, setPageRange] = useState([]);
   const [pagesPerDay, setPagesPerDay] = useState(null);
 
   useEffect(() => {
@@ -107,9 +107,9 @@ function BookDetails(props) {
       // * Set pageCount
 
       if (!readingSessions.length) {
-        setPageRang([1, _pagesPerDay]);
+        setPageRange([1, _pagesPerDay]);
       } else {
-        // resSession.data[resSession.data.length - 1];
+        setPageRange(resSession.data[resSession.data.length - 1].pageRange);
       }
       setIsLoading(false);
     }
@@ -128,6 +128,18 @@ function BookDetails(props) {
     return <LoadingSpinner />;
   }
 
+  const today = new Date().toLocaleDateString("en-CA", {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  });
+  const todaySession = readingSessions.find((session) => {
+    return new Date(session.date).toISOString().split("T")[0] === today;
+  });
+  const previousSessions = readingSessions.filter((session) => {
+    return new Date(session.date).toISOString().split("T")[0] !== today;
+  });
+
+  console.log("🚀 ~ previousSessions ~ previousSessions:", previousSessions);
+
   return (
     <Container>
       <h1>{book.volumeInfo?.title}</h1>
@@ -143,8 +155,12 @@ function BookDetails(props) {
         )}
         <div>
           <dl>
-            <dt>Author{book.volumeInfo?.authors.length > 1 ? "s" : ""}</dt>
-            <dd>{renderGoogleAuthorLinks(book.volumeInfo?.authors)}</dd>
+            {book.volumeInfo?.authors && (
+              <>
+                <dt>Author{book.volumeInfo?.authors.length > 1 ? "s" : ""}</dt>
+                <dd>{renderGoogleAuthorLinks(book.volumeInfo?.authors)}</dd>
+              </>
+            )}
 
             <dt>Publisher</dt>
             <dd>
@@ -183,7 +199,21 @@ function BookDetails(props) {
             Notes
             <span style={{ fontSize: "0.8em", fontWeight: "normal" }}>
               {" "}
-              (pages {pageRange[0]} - {pageRange[1]}){" "}
+              (pages{" "}
+              <button
+                style={{
+                  textDecoration: "underline",
+                  cursor: "pointer",
+                  padding: 0,
+                  margin: 0,
+                  background: "transparent",
+                  color: "inherit",
+                  fontFamily: "inherit",
+                }}
+              >
+                {/* Add state toggle to change  */}
+                {pageRange[0]} - {pageRange[1]})
+              </button>{" "}
             </span>
             <span style={{ fontSize: "0.55em", fontWeight: "normal" }}>
               in{" "}
@@ -196,39 +226,62 @@ function BookDetails(props) {
             </span>
           </h2>
 
-          <button
-            onClick={async () => {
-              const confirmDelete = window.confirm(
-                "Are you sure you want to delete this book?"
-              );
-              if (!confirmDelete) {
-                return;
-              }
+          <div>
+            <button
+              onClick={async () => {
+                const confirmDelete = window.confirm(
+                  "Are you sure you want to delete this book?"
+                );
+                if (!confirmDelete) {
+                  return;
+                }
 
-              try {
-                await axiosInstance.delete(`/books/book/${user.uuid}?id=${id}`);
-                // Redirect or update state after deletion
-                navigate("/library");
-              } catch (err) {
-                console.error("There was an error deleting the book!", err);
-              }
-            }}
-          >
-            Remove Book
-          </button>
+                try {
+                  await axiosInstance.delete(
+                    `/books/book/${user.uuid}?id=${id}`
+                  );
+                  // Redirect or update state after deletion
+                  navigate("/library");
+                } catch (err) {
+                  console.error("There was an error deleting the book!", err);
+                }
+              }}
+            >
+              Remove Book
+            </button>
+          </div>
         </div>
         {/* Say page range, programatically  */}
         <textarea
           rows="10"
           cols="50"
           placeholder="Write your notes here..."
+          defaultValue={todaySession?.notes ?? ""}
         ></textarea>
       </div>
       <div className="button-container">
         {/* Will have to add functionality */}
         <button
           onClick={async (e) => {
-            console.log(e);
+            const notes = document.querySelector("textarea").value;
+            if (notes.trim() === "") {
+              alert("Notes cannot be empty");
+              return;
+            }
+
+            try {
+              await axiosInstance.post(
+                `/reading-sessions/create-or-update-reading-session/${user.uuid}/${id}`,
+                {
+                  notes: notes,
+                  pageRange,
+                }
+              );
+              alert("Notes saved successfully!");
+            } catch (err) {
+              console.error("There was an error saving the notes!", err);
+              alert("Failed to save notes. Please try again.");
+            }
           }}
           style={{ marginRight: "12px" }}
         >
@@ -237,6 +290,9 @@ function BookDetails(props) {
       </div>
       {/* Show previous notes, if possible */}
       <h3>Previous entries</h3>
+      {previousSessions.map((readingSession) => {
+        return <div key={readingSession.uuid}>{readingSession.notes}</div>;
+      })}
     </Container>
   );
 }

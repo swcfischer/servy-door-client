@@ -1,4 +1,4 @@
-export function createGoogleAuthorLink(author) {
+export function createGoogleAuthorLink(author = "") {
   const normalizedAuthor = encodeURIComponent(author.trim() + " author");
   return `https://www.google.com/search?q=${normalizedAuthor}`;
 }
