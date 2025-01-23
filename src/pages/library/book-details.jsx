@@ -91,10 +91,8 @@ function BookDetails(props) {
   const [pagesPerDay, setPagesPerDay] = useState(null);
 
   useEffect(() => {
-    // * Fetch book details using the id
     async function fetchData() {
       const res = await axiosInstance.get(`/books/book/${user.uuid}?id=${id}`);
-      // * Fetch Reading Sessions
       const resSession = await axiosInstance.get(
         `/reading-sessions/all/${user.uuid}/${id}`
       );
@@ -104,12 +102,24 @@ function BookDetails(props) {
         Number(res.data.pageCount) / (Number(res.data.weeks) * 7)
       );
       setPagesPerDay(_pagesPerDay);
-      // * Set pageCount
 
-      if (!readingSessions.length) {
+      const today = new Date().toLocaleDateString("en-CA", {
+        timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      });
+      const todaySession = resSession.data.find((session) => {
+        return new Date(session.date).toISOString().split("T")[0] === today;
+      });
+
+      if (!resSession.data.length) {
         setPageRange([1, _pagesPerDay]);
+      } else if (todaySession) {
+        setPageRange(todaySession.pageRange);
       } else {
-        setPageRange(resSession.data[resSession.data.length - 1].pageRange);
+        const lastSession = resSession.data[resSession.data.length - 1];
+        const lastPageRange = lastSession ? lastSession.pageRange : [0, 0];
+        const nextStartPage = lastPageRange[1] + 1;
+        const nextEndPage = nextStartPage + _pagesPerDay - 1;
+        setPageRange([nextStartPage, nextEndPage]);
       }
       setIsLoading(false);
     }
@@ -137,8 +147,6 @@ function BookDetails(props) {
   const previousSessions = readingSessions.filter((session) => {
     return new Date(session.date).toISOString().split("T")[0] !== today;
   });
-
-  console.log("🚀 ~ previousSessions ~ previousSessions:", previousSessions);
 
   return (
     <Container>
