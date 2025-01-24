@@ -8,7 +8,7 @@ import BookItem from "../components/BookItem";
 const Container = styled.div`
   .books-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
   }
 `;
@@ -49,12 +49,12 @@ function Library() {
           );
         })}
       </div>
-      {/* <ul>
-        <li>Reading</li>
-        <li>Bookmarked</li>
-      </ul> */}
     </Container>
   );
 }
 
+/* <ul>
+  <li>Reading</li>
+  <li>Bookmarked</li>
+</ul> */
 export default Library;

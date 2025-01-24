@@ -225,10 +225,7 @@ function BookDetails(props) {
             </span>
             <span style={{ fontSize: "0.55em", fontWeight: "normal" }}>
               in{" "}
-              <a
-                href="https://www.markdownguide.org/basic-syntax/"
-                target="_blank"
-              >
+              <a href="https://commonmark.org/help/" target="_blank">
                 Markdown
               </a>
             </span>
