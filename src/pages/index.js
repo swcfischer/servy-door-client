@@ -3,13 +3,22 @@
 import React, { useEffect, useState } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
 import { navigate } from "gatsby";
 import axios from "axios";
 import Pagination from "@mui/material/Pagination";
 import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
+import styled from "@emotion/styled";
+import { Grid } from "@mui/material";
+
+const EmotionContainer = styled.div`
+  .search-book-list {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; */
+  }
+`;
 
 const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
@@ -100,116 +109,127 @@ export default function Index(props) {
   };
 
   return (
-    <Container maxWidth="md" sx={{ padding: "0 !important" }}>
-      <Box sx={{ my: 3 }}>
-        <form
-          onSubmit={handleOnSubmit}
-          style={{
-            display: "flex",
-          }}
-        >
-          <input
-            defaultValue={q}
-            autoFocus
-            type="text"
-            placeholder="Find a book"
-            style={inputStyles}
-            // onChange={(e) => {}}
-          />
-          <button
-            type="submit"
+    <EmotionContainer>
+      <Container maxWidth="md" sx={{ padding: "0 !important" }}>
+        <Box sx={{ my: 3 }}>
+          <form
+            onSubmit={handleOnSubmit}
             style={{
-              marginLeft: "24px",
-              height: "max-content",
-              padding: "11px 20px",
-              fontSize: "16px",
-              borderRadius: "4px",
-              border: "none",
-              backgroundColor: "#333",
-              color: "#fff",
-              cursor: "pointer",
+              display: "flex",
             }}
           >
-            Hit Enter
-          </button>
-        </form>
+            <input
+              defaultValue={q}
+              autoFocus
+              type="text"
+              placeholder="Find a book"
+              style={inputStyles}
+              // onChange={(e) => {}}
+            />
+            <button
+              type="submit"
+              style={{
+                marginLeft: "24px",
+                height: "max-content",
+                padding: "11px 20px",
+                fontSize: "16px",
+                borderRadius: "4px",
+                border: "none",
+                backgroundColor: "#333",
+                color: "#fff",
+                cursor: "pointer",
+              }}
+            >
+              Hit Enter
+            </button>
+          </form>
 
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexDirection: "row",
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
-          <FilterSelect
-            searchFilter={searchFilter}
-            setSearchFilter={setSearchFilter}
-            q={q}
-          />
-
-          {books.length > 0 && (
-            <>
-              <Pagination
-                onChange={(e, value) => {
-                  navigate(
-                    `/?${buildQueryParams({
-                      q: q,
-                      page: value,
-                      searchFilter: searchFilter?.value ?? "none",
-                    })}`
-                  );
-                }}
-                page={pageParam}
-                count={
-                  totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)
-                }
-                variant="outlined"
-                shape="rounded"
-              />
-              <br />
-              <br />
-            </>
-          )}
-        </div>
-
-        <div style={{ minHeight: "110vh", paddingTop: "30px" }}>
-          <Grid container spacing={4}>
-            {books.slice(0, 9).map(({ id, volumeInfo }) => (
-              <BookItem volumeInfo={volumeInfo} id={id} to={`/book?id=${id}`} />
-            ))}
-          </Grid>
-        </div>
-      </Box>
-
-      {books.length > 0 && (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Pagination
-            onChange={(e, value) => {
-              navigate(
-                `/?${buildQueryParams({
-                  q: q,
-                  page: value,
-                  searchFilter: searchFilter?.value ?? "none",
-                })}`
-              );
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flexDirection: "row",
+              alignItems: "center",
+              flexWrap: "wrap",
             }}
-            page={pageParam}
-            count={totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)}
-            variant="outlined"
-            shape="rounded"
-          />
-          <br />
-          <br />
-        </div>
-      )}
-    </Container>
+          >
+            <FilterSelect
+              searchFilter={searchFilter}
+              setSearchFilter={setSearchFilter}
+              q={q}
+            />
+
+            {books.length > 0 && (
+              <>
+                <Pagination
+                  style={{
+                    marginTop: "15px",
+                  }}
+                  onChange={(e, value) => {
+                    navigate(
+                      `/?${buildQueryParams({
+                        q: q,
+                        page: value,
+                        searchFilter: searchFilter?.value ?? "none",
+                      })}`
+                    );
+                  }}
+                  page={pageParam}
+                  count={
+                    totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)
+                  }
+                  variant="outlined"
+                  shape="rounded"
+                />
+                <br />
+                <br />
+              </>
+            )}
+          </div>
+
+          <div style={{ minHeight: "110vh", paddingTop: "30px" }}>
+            <Grid container spacing={4}>
+              {books.slice(0, 9).map(({ id, volumeInfo }) => (
+                <BookItem
+                  volumeInfo={volumeInfo}
+                  id={id}
+                  to={`/book?id=${id}`}
+                />
+              ))}
+            </Grid>
+          </div>
+        </Box>
+
+        {books.length > 0 && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <Pagination
+              onChange={(e, value) => {
+                navigate(
+                  `/?${buildQueryParams({
+                    q: q,
+                    page: value,
+                    searchFilter: searchFilter?.value ?? "none",
+                  })}`
+                );
+              }}
+              page={pageParam}
+              count={
+                totalItems > 500 ? 50 : Math.ceil(totalItems / itemsPerPage)
+              }
+              variant="outlined"
+              shape="rounded"
+            />
+            <br />
+            <br />
+          </div>
+        )}
+      </Container>
+    </EmotionContainer>
   );
 }
 

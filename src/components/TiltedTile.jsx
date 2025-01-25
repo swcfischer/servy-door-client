@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import React from "react";
 import { useLocation } from "@reach/router";
 import styled from "@emotion/styled";
+import { CSSTransition } from "react-transition-group";
 
 const StyledLink = styled(Link)`
   outline: none !important;
@@ -35,6 +36,20 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const duration = 800;
+
+const defaultStyle = {
+  transition: `opacity, scale ${duration}ms ease-in-out`,
+  opacity: 0,
+};
+
+const transitionStyles = {
+  entering: { opacity: 1, transform: "scale(1)" },
+  entered: { opacity: 1, transform: "scale(1)" },
+  exiting: { opacity: 0, transform: "scale(0)" },
+  exited: { opacity: 0, transform: "scale(0)" },
+};
+
 function TiltedTile(props) {
   const { text, to } = props;
 
@@ -47,6 +62,17 @@ function TiltedTile(props) {
       <Typography variant="h6" className="tile">
         <span className="span">{text}</span>
         {shouldShow && <span className="home">*</span>}
+
+        <CSSTransition in={shouldShow} timeout={duration} unmountOnExit>
+          {(state) => (
+            <span
+              className="home"
+              style={{ ...defaultStyle, ...transitionStyles[state] }}
+            >
+              *
+            </span>
+          )}
+        </CSSTransition>
       </Typography>
     </StyledLink>
   );

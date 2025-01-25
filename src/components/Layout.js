@@ -133,7 +133,7 @@ const Layout = ({ children }) => {
           <div style={{ minHeight: "150vh" }}>{children}</div>
           <footer className="footer">
             <Typography variant="body2" className="typography">
-              ServyDoor
+              ServyDoor{" "}
             </Typography>
           </footer>
         </StyledContainer>

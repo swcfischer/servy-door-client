@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { css } from "@emotion/react";
 import { useEffect } from "react";
-import Markdown from "react-markdown";
-
-import axiosInstance from "../../axiosInstance";
+// * I will do markdown
+// import Markdown from "react-markdown";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Container = css`
   display: flex;
@@ -12,6 +12,14 @@ const Container = css`
   padding: 20px;
   background-color: #f5f5f5;
 `;
+
+const md = `
+    - Item 1
+    - Item 2
+    - Item 3
+
+    **Bold Text**
+    `;
 
 const Entry = (props) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,28 +37,24 @@ const Entry = (props) => {
 
     fetchData();
   }, []);
-
-  const md = `
-    - Item 1
-    - Item 2
-    - Item 3
-
-    **Bold Text**
-
-    *Italic Text*
-    `;
-
   if (isLoading) {
-    return <div>Is Loading</div>;
+    return (
+      <div style={{ margin: "0 auto" }}>
+        <LoadingSpinner />
+      </div>
+    );
   }
   return (
     <div css={Container}>
       <h1>Library Entry</h1>
-      <div style={{ maxWidth: 500, margin: "0 auto" }}>
-        <Markdown>{md}</Markdown>
-      </div>
+      <div style={{ maxWidth: 500, margin: "0 auto" }}></div>
     </div>
   );
 };
 
 export default Entry;
+
+/*
+ */
+
+// <Markdown>{md}</Markdown>

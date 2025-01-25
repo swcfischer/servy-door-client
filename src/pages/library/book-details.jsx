@@ -13,12 +13,20 @@ import { navigate } from "gatsby";
 const Container = styled.div`
   .book-details {
     display: flex;
+    /* padding: 24px; */
+    /* border-radius: 3px; */
 
     .img-container {
       display: inline-block;
       margin-right: 24px;
       img {
       }
+    }
+
+    .datalist-container {
+      position: relative;
+      top: -19px;
+      left: 0px;
     }
   }
   .notes-section {
@@ -91,6 +99,19 @@ function BookDetails(props) {
   const [pagesPerDay, setPagesPerDay] = useState(null);
 
   useEffect(() => {
+    const handleBeforeUnload = () => {
+      const notes = document.querySelector("textarea").value;
+      localStorage.setItem(`book-notes-${id}`, notes);
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, []);
+
+  useEffect(() => {
     async function fetchData() {
       const res = await axiosInstance.get(`/books/book/${user.uuid}?id=${id}`);
       const resSession = await axiosInstance.get(
@@ -161,7 +182,7 @@ function BookDetails(props) {
             />
           </div>
         )}
-        <div>
+        <div className="datalist-container">
           <dl>
             {book.volumeInfo?.authors && (
               <>
@@ -223,12 +244,12 @@ function BookDetails(props) {
                 {pageRange[0]} - {pageRange[1]})
               </button>{" "}
             </span>
-            <span style={{ fontSize: "0.55em", fontWeight: "normal" }}>
+            {/* <span style={{ fontSize: "0.55em", fontWeight: "normal" }}>
               in{" "}
               <a href="https://commonmark.org/help/" target="_blank">
                 Markdown
               </a>
-            </span>
+            </span> */}
           </h2>
 
           <div>
@@ -256,12 +277,12 @@ function BookDetails(props) {
             </button>
           </div>
         </div>
-        {/* Say page range, programatically  */}
         <textarea
           rows="10"
           cols="50"
           placeholder="Write your notes here..."
           defaultValue={todaySession?.notes ?? ""}
+          style={{ resize: "none" }}
         ></textarea>
       </div>
       <div className="button-container">
