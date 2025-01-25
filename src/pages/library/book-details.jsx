@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import axiosInstance from "../../axiosInstance";
 import { UserContext } from "../../components/Layout";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
@@ -9,12 +9,11 @@ import {
   createGooglePublisherLink,
 } from "../../utils/createLinks";
 import { navigate } from "gatsby";
+import ActionButton from "../../components/ActionButton";
 
 const Container = styled.div`
   .book-details {
     display: flex;
-    /* padding: 24px; */
-    /* border-radius: 3px; */
 
     .img-container {
       display: inline-block;
@@ -33,11 +32,13 @@ const Container = styled.div`
     textarea {
       border-radius: 3px;
       border: 1px solid #333;
-      padding: 8px;
+      padding: 12px;
+      box-sizing: border-box;
 
       width: 100%;
       font-family: inherit;
       font-size: 18px;
+      height: 375px;
     }
   }
 
@@ -66,6 +67,11 @@ const Container = styled.div`
     &:hover {
       background-color: #555;
     }
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
   }
 `;
 
@@ -97,19 +103,7 @@ function BookDetails(props) {
   const [isLoading, setIsLoading] = useState(true);
   const [pageRange, setPageRange] = useState([]);
   const [pagesPerDay, setPagesPerDay] = useState(null);
-
-  useEffect(() => {
-    const handleBeforeUnload = () => {
-      const notes = document.querySelector("textarea").value;
-      localStorage.setItem(`book-notes-${id}`, notes);
-    };
-
-    window.addEventListener("beforeunload", handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-    };
-  }, []);
+  const textArea = useRef();
 
   useEffect(() => {
     async function fetchData() {
@@ -154,6 +148,12 @@ function BookDetails(props) {
       // * Do another API call to get all the readingsessions for this user's book
     }
   }, [user, id]);
+
+  useEffect(() => {
+    if (textArea.current) {
+      textArea.current.scrollTop = textArea.current.scrollHeight;
+    }
+  }, [textArea.current, isLoading]);
 
   if (isLoading) {
     return <LoadingSpinner />;
@@ -226,58 +226,14 @@ function BookDetails(props) {
         <div className="notes-header">
           <h2>
             Notes
-            <span style={{ fontSize: "0.8em", fontWeight: "normal" }}>
+            <span style={{ fontSize: "0.6em", fontWeight: "normal" }}>
               {" "}
-              (pages{" "}
-              <button
-                style={{
-                  textDecoration: "underline",
-                  cursor: "pointer",
-                  padding: 0,
-                  margin: 0,
-                  background: "transparent",
-                  color: "inherit",
-                  fontFamily: "inherit",
-                }}
-              >
-                {/* Add state toggle to change  */}
-                {pageRange[0]} - {pageRange[1]})
-              </button>{" "}
+              (pages {pageRange[0]} - {pageRange[1]})
             </span>
-            {/* <span style={{ fontSize: "0.55em", fontWeight: "normal" }}>
-              in{" "}
-              <a href="https://commonmark.org/help/" target="_blank">
-                Markdown
-              </a>
-            </span> */}
           </h2>
-
-          <div>
-            <button
-              onClick={async () => {
-                const confirmDelete = window.confirm(
-                  "Are you sure you want to delete this book?"
-                );
-                if (!confirmDelete) {
-                  return;
-                }
-
-                try {
-                  await axiosInstance.delete(
-                    `/books/book/${user.uuid}?id=${id}`
-                  );
-                  // Redirect or update state after deletion
-                  navigate("/library");
-                } catch (err) {
-                  console.error("There was an error deleting the book!", err);
-                }
-              }}
-            >
-              Remove Book
-            </button>
-          </div>
         </div>
         <textarea
+          ref={textArea}
           rows="10"
           cols="50"
           placeholder="Write your notes here..."
@@ -311,11 +267,41 @@ function BookDetails(props) {
           }}
           style={{ marginRight: "12px" }}
         >
-          Save Above Text
+          Save Notes
         </button>
+
+        <ActionButton
+          options={[
+            {
+              label: "Remove from Library",
+              action: async () => {
+                const confirmDelete = window.confirm(
+                  "Are you sure you want to remove this book from your library?"
+                );
+                if (!confirmDelete) {
+                  return;
+                }
+
+                try {
+                  await axiosInstance.delete(
+                    `/books/book/${user.uuid}?id=${id}`
+                  );
+                  // Redirect or update state after deletion
+                  navigate("/library");
+                } catch (err) {
+                  console.error("There was an error deleting the book!", err);
+                }
+              },
+            },
+            {
+              label: "Next Reading Session",
+              action: async () => {},
+            },
+          ]}
+        />
       </div>
       {/* Show previous notes, if possible */}
-      <h3>Previous entries</h3>
+      <h3>Reading Sessions</h3>
       {previousSessions.map((readingSession) => {
         return <div key={readingSession.uuid}>{readingSession.notes}</div>;
       })}

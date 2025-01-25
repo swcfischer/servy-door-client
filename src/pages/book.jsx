@@ -2,16 +2,16 @@ import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { navigate } from "gatsby";
 import Modal from "react-modal";
-
-import { getImageLink } from "../utils/image";
-import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
-
 import styled from "@emotion/styled";
+
+import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
+import { getImageLink } from "../utils/image";
 import formatDate from "../utils/formatDate";
 import { createGooglePublisherLink } from "../utils/createLinks";
 import { renderGoogleAuthorLinks } from "./library/book-details";
+import ExpandableImage from "../components/ExpandableImage";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -53,40 +53,20 @@ const Container = styled.div`
     font-weight: 100;
   }
 
-  .image-button {
-    background: transparent;
-    border: none;
-    margin-right: 40px;
-    padding: 0;
-    border-radius: 3px;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  .image {
-    cursor: zoom-in;
-    border-radius: 3px;
-    display: block;
-  }
-
   .description {
     max-width: 450px;
     float: left;
   }
 `;
+
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
-  const isModal = Boolean(params.get("isModal"));
 
   const [isLoading, setIsLoading] = useState(true);
   const { user } = useContext(UserContext);
 
   const [state, setState] = useState({});
-
-  const [modalIsOpen, setModalIsOpen] = useState(isModal);
 
   const [readModalIsOpen, setReadModalIsOpen] = useState(false);
   const [weeks, setWeeks] = useState("");
@@ -95,11 +75,6 @@ function Book(props) {
   const handleMotivationChange = (event) => {
     setMotivation(event.target.value);
   };
-
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-  const closeModal = () => setModalIsOpen(false);
 
   const handleWeeksChange = (event) => {
     setWeeks(event.target.value);
@@ -167,63 +142,8 @@ function Book(props) {
         {state.volumeInfo.title}
       </h1>
       <div style={{ display: "flex" }}>
-        <Modal
-          isOpen={modalIsOpen}
-          onRequestClose={closeModal}
-          contentLabel="Image Modal"
-          style={{
-            content: {
-              position: "relative",
-              width: "800px",
-              boxSizing: "border-box",
-              margin: "auto",
-              display: "flex",
-              justifyContent: "center",
-              maxHeight: "100vh",
-              background: "#000",
-              inset: 0,
-              padding: 0,
-              overflow: "auto",
-              maxWidth: "100%",
-            },
-            overlay: {
-              background: "rgba(0,0,0,.9)",
-              backdropFilter: "blur(8px)",
-            },
-          }}
-        >
-          <button className="modal-close-button" onClick={closeModal}>
-            Close
-          </button>
-          <img
-            src={state.img.image}
-            alt=""
-            style={{
-              ...getImageDimensions(state),
-              marginTop: "12px",
-            }}
-          />
-        </Modal>
-
         <div>
-          <button
-            className="image-button"
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                openModal();
-              }
-            }}
-            onClick={openModal}
-            tabIndex={0}
-          >
-            <img
-              width="200px"
-              height={`${(state.img.height / state.img.width) * 200}px`}
-              className="image"
-              src={state.img.image}
-              alt=""
-            />
-          </button>
+          <ExpandableImage state={state} />
           <dl style={{ maxWidth: "210px" }}>
             {state.volumeInfo.authors && (
               <>
@@ -396,20 +316,3 @@ function Book(props) {
 }
 
 export default Book;
-
-function getImageDimensions(state) {
-  const maxWidth = 600;
-  const ratio = state.img.width / state.img.height;
-
-  if (state.img.width > maxWidth) {
-    return {
-      width: maxWidth,
-      height: maxWidth / ratio,
-    };
-  }
-
-  return {
-    width: state.img.width,
-    height: state.img.height,
-  };
-}
