@@ -28,7 +28,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`, // Add this line to enable SCSS support
-    "gatsby-transformer-remark",
     // other plugins can be added here
     {
       resolve: `gatsby-omni-font-loader`,
