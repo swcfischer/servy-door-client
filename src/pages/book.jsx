@@ -1,17 +1,16 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { navigate } from "gatsby";
 import Modal from "react-modal";
 import styled from "@emotion/styled";
 
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
-import axiosInstance from "../axiosInstance";
-import { UserContext } from "../components/Layout";
 import { getImageLink } from "../utils/image";
 import formatDate from "../utils/formatDate";
 import { createGooglePublisherLink } from "../utils/createLinks";
 import { renderGoogleAuthorLinks } from "./library/book-details";
 import ExpandableImage from "../components/ExpandableImage";
+import ReadBookModal from "../components/ReadBookModal";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -64,27 +63,9 @@ function Book(props) {
   const id = params.get("id");
 
   const [isLoading, setIsLoading] = useState(true);
-  const { user } = useContext(UserContext);
+  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
 
   const [state, setState] = useState({});
-
-  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
-  const [weeks, setWeeks] = useState("");
-  const [motivation, setMotivation] = useState("");
-
-  const handleMotivationChange = (event) => {
-    setMotivation(event.target.value);
-  };
-
-  const handleWeeksChange = (event) => {
-    setWeeks(event.target.value);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Handle form submission
-    console.log(`Weeks: ${weeks}`);
-  };
 
   useEffect(() => {
     async function fetchBook() {
@@ -186,131 +167,16 @@ function Book(props) {
             </dd>
           </dl>
         </div>
+        <ReadBookModal
+          readModalIsOpen={readModalIsOpen}
+          setReadModalIsOpen={setReadModalIsOpen}
+          state={state}
+        />
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
           className="description"
         ></p>
       </div>
-      <Modal
-        isOpen={readModalIsOpen}
-        onRequestClose={() => {
-          setReadModalIsOpen(false);
-        }}
-        contentLabel="Image Modal"
-        style={{
-          content: {
-            maxWidth: "600px",
-            margin: "auto",
-          },
-          overlay: {
-            backdropFilter: "blur(1px)",
-          },
-        }}
-      >
-        <button
-          className="read-modal-close-button"
-          onClick={() => {
-            setReadModalIsOpen(false);
-          }}
-        >
-          Close
-        </button>
-        <div>
-          <h2 style={{ fontWeight: "normal", fontStyle: "italic" }}>
-            How many weeks do you want to spend reading {state.volumeInfo.title}
-            ?
-          </h2>
-
-          <form onSubmit={handleSubmit}>
-            <input
-              type="number"
-              value={weeks}
-              onChange={handleWeeksChange}
-              min="0"
-              placeholder="Weeks"
-              style={{
-                width: "100%",
-                padding: "10px",
-                margin: "10px 0",
-                boxSizing: "border-box",
-                border: "1px solid black",
-                borderRadius: "4px",
-              }}
-            />
-
-            {weeks && (
-              <p>
-                You need to read approximately{" "}
-                <strong>
-                  {Math.ceil(state.volumeInfo.pageCount / (weeks * 7))} pages
-                  per day.
-                </strong>
-              </p>
-            )}
-
-            {weeks && (
-              <>
-                <h2 style={{ fontWeight: "normal", fontStyle: "italic" }}>
-                  Motivation for reading {state.volumeInfo.title}
-                </h2>
-                <input
-                  type="text"
-                  value={motivation}
-                  onChange={handleMotivationChange}
-                  style={{
-                    width: "100%",
-                    padding: "10px",
-                    margin: "10px 0",
-                    boxSizing: "border-box",
-                    border: "1px solid black",
-                    borderRadius: "4px",
-                  }}
-                />
-              </>
-            )}
-
-            {weeks && (
-              <button
-                type="submit"
-                style={{
-                  backgroundColor: "black",
-                  color: "white",
-                  padding: "10px 20px",
-                  border: "none",
-                  borderRadius: "4px",
-                  cursor: "pointer",
-                }}
-                onClick={async (e) => {
-                  try {
-                    const { data } = await axiosInstance.post(
-                      "/books/create-book/" + user.uuid,
-                      {
-                        title: state.volumeInfo.title,
-                        image: state.img.image,
-                        weeks: weeks,
-                        volumeInfo: state.volumeInfo,
-                        pageCount: state.volumeInfo.pageCount,
-                        infoLink: state.volumeInfo.infoLink,
-                        previewLink: state.volumeInfo.previewLink,
-                        publisher: state.volumeInfo.publisher,
-                        datePublished: state.volumeInfo.publishedDate,
-                        author: state.volumeInfo.authors.join(", "),
-                        motivation: motivation, // Add the motivation value if available
-                        summary: state.volumeInfo.description,
-                      }
-                    );
-                    navigate("/library/book-details?id=" + data.uuid);
-                  } catch (err) {
-                    console.log(err);
-                  }
-                }}
-              >
-                Submit
-              </button>
-            )}
-          </form>
-        </div>
-      </Modal>
     </Container>
   );
 }

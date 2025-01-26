@@ -7,6 +7,12 @@ import { CSSTransition } from "react-transition-group";
 
 const StyledLink = styled(Link)`
   outline: none !important;
+  border: 1px solid transparent;
+  transition: border-color 0.7s ease-in-out;
+
+  &:focus {
+    border: 1px solid #fff;
+  }
 
   .tile {
     background-color: #222;

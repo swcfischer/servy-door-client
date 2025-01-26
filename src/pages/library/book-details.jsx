@@ -10,6 +10,7 @@ import {
 } from "../../utils/createLinks";
 import { navigate } from "gatsby";
 import ActionButton from "../../components/ActionButton";
+import ReadingSessionList from "../../components/ReadingSessionList";
 
 const Container = styled.div`
   .book-details {
@@ -103,6 +104,7 @@ function BookDetails(props) {
   const [isLoading, setIsLoading] = useState(true);
   const [pageRange, setPageRange] = useState([]);
   const [pagesPerDay, setPagesPerDay] = useState(null);
+  const [readingSessionIdx, setReadingSessionIdx] = useState(0);
   const textArea = useRef();
 
   useEffect(() => {
@@ -159,15 +161,7 @@ function BookDetails(props) {
     return <LoadingSpinner />;
   }
 
-  const today = new Date().toLocaleDateString("en-CA", {
-    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-  });
-  const todaySession = readingSessions.find((session) => {
-    return new Date(session.date).toISOString().split("T")[0] === today;
-  });
-  const previousSessions = readingSessions.filter((session) => {
-    return new Date(session.date).toISOString().split("T")[0] !== today;
-  });
+  const curSession = readingSessions[readingSessionIdx];
 
   return (
     <Container>
@@ -205,7 +199,7 @@ function BookDetails(props) {
             <dd>{formatDate(book.volumeInfo?.publishedDate)}</dd>
             <dt>Time to Read</dt>
             <dd>{book.weeks} weeks</dd>
-            <dt>Pages per Day</dt>
+            <dt>Recommended Pages per Day</dt>
             <dd>{pagesPerDay} </dd>
             <dt>Motivation</dt>
             <dd>{book.motivation}</dd>
@@ -237,7 +231,7 @@ function BookDetails(props) {
           rows="10"
           cols="50"
           placeholder="Write your notes here..."
-          defaultValue={todaySession?.notes ?? ""}
+          defaultValue={curSession?.notes ?? ""}
           style={{ resize: "none" }}
         ></textarea>
       </div>
@@ -295,16 +289,19 @@ function BookDetails(props) {
             },
             {
               label: "Next Reading Session",
-              action: async () => {},
+              action: async () => {
+                // * Do API call to create new reading session
+                // * grab next reading session in state or Go to next one
+              },
             },
           ]}
         />
       </div>
-      {/* Show previous notes, if possible */}
       <h3>Reading Sessions</h3>
-      {previousSessions.map((readingSession) => {
-        return <div key={readingSession.uuid}>{readingSession.notes}</div>;
-      })}
+      <ReadingSessionList
+        setReadingSessionIdx={setReadingSessionIdx}
+        readingSessions={readingSessions}
+      />
     </Container>
   );
 }
