@@ -9,6 +9,8 @@ const StyledLink = styled(Link)`
   outline: none !important;
   border: 1px solid transparent;
   transition: border-color 0.7s ease-in-out;
+  display: block;
+  margin: 20px 0;
 
   &:focus {
     border: 1px solid #fff;

@@ -11,8 +11,7 @@ import { createGooglePublisherLink } from "../utils/createLinks";
 import { renderGoogleAuthorLinks } from "./library/book-details";
 import ExpandableImage from "../components/ExpandableImage";
 import ReadBookModal from "../components/ReadBookModal";
-
-const bookGet = "https://www.googleapis.com/books/v1/volumes/";
+import { bookGet } from "../utils/volumesAPI";
 
 const Container = styled.div`
   button {

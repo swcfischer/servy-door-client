@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { css } from "@emotion/react";
 import { useEffect } from "react";
-// * I will do markdown
-// import Markdown from "react-markdown";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Container = css`
@@ -12,14 +10,6 @@ const Container = css`
   padding: 20px;
   background-color: #f5f5f5;
 `;
-
-const md = `
-    - Item 1
-    - Item 2
-    - Item 3
-
-    **Bold Text**
-    `;
 
 const Entry = (props) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -53,8 +43,3 @@ const Entry = (props) => {
 };
 
 export default Entry;
-
-/*
- */
-
-// <Markdown>{md}</Markdown>

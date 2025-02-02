@@ -11,16 +11,12 @@ import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
 import { Grid } from "@mui/material";
+import { volumesGet } from "../utils/volumesAPI";
 
 const EmotionContainer = styled.div`
   .search-book-list {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px; */
   }
 `;
-
-const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
 const inputStyles = {
   width: "100%",
@@ -159,7 +155,7 @@ export default function Index(props) {
               q={q}
             />
 
-            {books.length > 0 && (
+            {books.length > 0 && Math.ceil(totalItems / itemsPerPage) > 1 && (
               <>
                 <Pagination
                   style={{

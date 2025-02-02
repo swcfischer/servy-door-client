@@ -124,7 +124,7 @@ const Layout = ({ children }) => {
               </div>
               <div className="nav-links">
                 {/* <TiltedTile text="Social" to="/social" /> */}
-                {/* <TiltedTile text="Library" to="/library" /> */}
+                <TiltedTile text="Library" to="/library" />
                 <TiltedTile text="Account" to="/account" />
               </div>
             </Toolbar>

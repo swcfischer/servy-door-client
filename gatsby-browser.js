@@ -15,7 +15,12 @@ export const shouldUpdateScroll = ({
 }) => {
   // Example: If the user goes to /preview, do NOT reset scroll
   // Otherwise, allow Gatsby's default behavior
-  if (location.pathname === "/") {
+
+  if (
+    location.pathname === "/" &&
+    location.search !== prevRouterProps?.location.search &&
+    prevRouterProps?.location?.pathname === "/"
+  ) {
     return false;
   }
 

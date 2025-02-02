@@ -15,8 +15,13 @@ html {
   outline: 2px solid #00061b; */
   border-radius: 3px;
 }
+
 li:focus {
   outline: none;
+}
+
+details {
+  cursor: pointer;
 }
 
 @keyframes fadeIn {
