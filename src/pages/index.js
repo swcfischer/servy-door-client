@@ -11,12 +11,13 @@ import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
 import { Grid } from "@mui/material";
-import { volumesGet } from "../utils/volumesAPI";
 
 const EmotionContainer = styled.div`
   .search-book-list {
   }
 `;
+
+const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
 const inputStyles = {
   width: "100%",
