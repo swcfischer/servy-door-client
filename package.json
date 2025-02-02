@@ -11,7 +11,7 @@
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
-    "@reach/menu-button": "^0.18.0",
+    "@szhsin/react-menu": "^4.3.0",
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
     "gatsby": "latest",

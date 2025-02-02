@@ -1,36 +1,20 @@
 import React from "react";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
-import "@reach/menu-button/styles.css";
+import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
+import "@szhsin/react-menu/dist/index.css";
+import "@szhsin/react-menu/dist/transitions/zoom.css";
 
-/**
- * @typedef {Object} Option
- * @property {string} label - The label of the menu item.
- * @property {string} action - The action to be performed when the menu item is selected.
- */
-
-/**
- * @param {Object} props - The properties object.
- * @param {Option[]} props.options - The list of options to be displayed in the menu.
- */
 function ActionButton(props) {
   const { options } = props;
 
   return (
-    <Menu>
-      <MenuButton>
-        Actions <span aria-hidden>▾</span>
-      </MenuButton>
-      <MenuList>
-        {options.map((option, index) => (
-          <MenuItem
-            key={index}
-            onSelect={option.action}
-            style={{ fontSize: "1.25em" }}
-          >
-            {option.label}
-          </MenuItem>
-        ))}
-      </MenuList>
+    <Menu
+      menuButton={<MenuButton>Actions</MenuButton>}
+      transition
+      menuStyles={{ border: "1px solid #ccc", boxShadow: "none" }}
+    >
+      <MenuItem onClick={() => alert("Action 1")}>Action 1</MenuItem>
+      <MenuItem onClick={() => alert("Action 2")}>Action 2</MenuItem>
+      <MenuItem onClick={() => alert("Action 3")}>Action 3</MenuItem>
     </Menu>
   );
 }
