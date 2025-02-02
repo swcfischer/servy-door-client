@@ -12,9 +12,13 @@ function ActionButton(props) {
       transition
       menuStyles={{ border: "1px solid #ccc", boxShadow: "none" }}
     >
-      <MenuItem onClick={() => alert("Action 1")}>Action 1</MenuItem>
-      <MenuItem onClick={() => alert("Action 2")}>Action 2</MenuItem>
-      <MenuItem onClick={() => alert("Action 3")}>Action 3</MenuItem>
+      {options.map((el, idx) => {
+        return (
+          <MenuItem key={idx} onClick={el.action}>
+            {el.label}
+          </MenuItem>
+        );
+      })}
     </Menu>
   );
 }

@@ -15,6 +15,12 @@ import { Grid } from "@mui/material";
 const EmotionContainer = styled.div`
   .search-book-list {
   }
+
+  .book-list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 `;
 
 const volumesGet = "https://www.googleapis.com/books/v1/volumes";
@@ -34,7 +40,7 @@ const inputStyles = {
   boxShadow: "var(--Paper-shadow)",
 };
 
-const itemsPerPage = 9;
+const itemsPerPage = 6;
 
 function getStartIndex(page) {
   return (page - 1) * itemsPerPage;
@@ -184,16 +190,16 @@ export default function Index(props) {
             )}
           </div>
 
-          <div style={{ minHeight: "110vh", paddingTop: "30px" }}>
-            <Grid container spacing={4}>
-              {books.slice(0, 9).map(({ id, volumeInfo }) => (
+          <div style={{ minHeight: "80vh", paddingTop: "30px" }}>
+            <div className="book-list-container">
+              {books.slice(0, itemsPerPage).map(({ id, volumeInfo }) => (
                 <BookItem
                   volumeInfo={volumeInfo}
                   id={id}
                   to={`/book?id=${id}`}
                 />
               ))}
-            </Grid>
+            </div>
           </div>
         </Box>
 

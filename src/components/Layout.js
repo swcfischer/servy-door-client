@@ -116,7 +116,7 @@ const Layout = ({ children }) => {
   return (
     <UserContext.Provider value={{ user, setUser }}>
       <StateContext.Provider value={{ state, setState }}>
-        <StyledContainer maxWidth="md">
+        <StyledContainer maxWidth="sm">
           <AppBar className="app-bar" position="static">
             <Toolbar className="toolbar">
               <div>
