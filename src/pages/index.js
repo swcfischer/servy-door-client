@@ -10,7 +10,6 @@ import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
-import { Grid } from "@mui/material";
 
 const EmotionContainer = styled.div`
   .search-book-list {
@@ -20,6 +19,12 @@ const EmotionContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .book-list-container {
+      grid-template-columns: 1fr;
+    }
   }
 `;
 

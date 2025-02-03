@@ -1,6 +1,6 @@
 import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const cardStyles = {
   display: "flex",
@@ -29,18 +29,9 @@ function BookItem(props) {
         }}
       >
         <Card sx={cardStyles}>
-          <CardMedia
-            component="img"
-            image={volumeInfo.imageLinks?.thumbnail}
-            alt={volumeInfo.title}
-            sx={{
-              objectFit: "contain",
-              pt: 2,
-              width: "100px",
-              height: "150px",
-              color: "#fafafa",
-              borderRadius: "3px",
-            }}
+          <ImageCard
+            imageUrl={volumeInfo.imageLinks?.thumbnail}
+            title={volumeInfo.title}
           />
           <CardContent>
             <Typography
@@ -111,4 +102,58 @@ function handleTitleLength(text = "") {
     return text.slice(0, 40) + "...";
   }
   return text;
+}
+
+function ImageCard(props) {
+  const { imageUrl, title } = props;
+  const [image, setImage] = useState(null);
+  console.log("🚀 ~ ImageCard ~ image:", image);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = imageUrl;
+    img.onload = () => setImage(true);
+    img.onerror = () => setImage(false);
+  }, [imageUrl]);
+
+  if (!image === null) {
+    return null;
+  }
+
+  if (!image) {
+    return (
+      <div
+        style={{
+          marginTop: "16px",
+          minWidth: "100px",
+          height: "150px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "#c6c6c6",
+          fontWeight: "bold",
+          fontStyle: "italic",
+          fontSize: "12px",
+        }}
+      >
+        Broken Image
+      </div>
+    );
+  }
+
+  return (
+    <CardMedia
+      component="img"
+      image={imageUrl}
+      alt={title}
+      sx={{
+        objectFit: "contain",
+        pt: 2,
+        width: "100px",
+        height: "150px",
+        color: "#fafafa",
+        borderRadius: "3px",
+      }}
+    />
+  );
 }

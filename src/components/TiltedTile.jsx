@@ -13,7 +13,7 @@ const StyledLink = styled(Link)`
   margin: 20px 0;
 
   &:focus {
-    border: 1px solid #fff;
+    border: 1px solid #dadada;
   }
 
   .tile {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { navigate } from "gatsby";
 import Modal from "react-modal";
@@ -10,7 +10,8 @@ import formatDate from "../utils/formatDate";
 import { createGooglePublisherLink } from "../utils/createLinks";
 import { renderGoogleAuthorLinks } from "./library/book-details";
 import ExpandableImage from "../components/ExpandableImage";
-import ReadBookModal from "../components/ReadBookModal";
+import axiosInstance from "../axiosInstance";
+import { UserContext } from "../components/Layout";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -62,8 +63,9 @@ function Book(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
 
+  const { user } = useContext(UserContext);
+
   const [isLoading, setIsLoading] = useState(true);
-  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
 
   const [state, setState] = useState({});
 
@@ -107,9 +109,28 @@ function Book(props) {
       </button>
       <button
         className="read-button"
-        onClick={(e) => {
+        onClick={async (e) => {
           e.preventDefault();
-          setReadModalIsOpen(true);
+          try {
+            const { data } = await axiosInstance.post(
+              "/books/create-book/" + user.uuid,
+              {
+                title: state.volumeInfo.title,
+                image: state.img.image,
+                volumeInfo: state.volumeInfo,
+                pageCount: state.volumeInfo.pageCount,
+                infoLink: state.volumeInfo.infoLink,
+                previewLink: state.volumeInfo.previewLink,
+                publisher: state.volumeInfo.publisher,
+                datePublished: state.volumeInfo.publishedDate,
+                author: state.volumeInfo.authors.join(", "),
+                summary: state.volumeInfo.description,
+              }
+            );
+            navigate("/library/book-details?id=" + data.uuid);
+          } catch (err) {
+            console.log(err);
+          }
         }}
       >
         Read
@@ -167,11 +188,6 @@ function Book(props) {
             </dd>
           </dl>
         </div>
-        <ReadBookModal
-          readModalIsOpen={readModalIsOpen}
-          setReadModalIsOpen={setReadModalIsOpen}
-          state={state}
-        />
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
           className="description"

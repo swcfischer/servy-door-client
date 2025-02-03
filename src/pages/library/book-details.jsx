@@ -197,12 +197,12 @@ function BookDetails(props) {
 
             <dt>Published Date</dt>
             <dd>{formatDate(book.volumeInfo?.publishedDate)}</dd>
-            <dt>Time to Read</dt>
-            <dd>{book.weeks} weeks</dd>
-            <dt>Recommended Pages per Day</dt>
-            <dd>{pagesPerDay} </dd>
-            <dt>Motivation</dt>
-            <dd>{book.motivation}</dd>
+            {book?.volumeInfo?.pageCount && (
+              <>
+                <dt>Page Count</dt>
+                <dd>{book?.volumeInfo?.pageCount}</dd>
+              </>
+            )}
           </dl>
 
           <details>
@@ -222,7 +222,7 @@ function BookDetails(props) {
             Notes
             <span style={{ fontSize: "0.6em", fontWeight: "normal" }}>
               {" "}
-              (pages {pageRange[0]} - {pageRange[1]})
+              (pages {pageRange[0]} - {pageRange[1] || 20})
             </span>
           </h2>
         </div>
