@@ -107,7 +107,6 @@ function handleTitleLength(text = "") {
 function ImageCard(props) {
   const { imageUrl, title } = props;
   const [image, setImage] = useState(null);
-  console.log("🚀 ~ ImageCard ~ image:", image);
 
   useEffect(() => {
     const img = new Image();
@@ -124,7 +123,6 @@ function ImageCard(props) {
     return (
       <div
         style={{
-          marginTop: "16px",
           minWidth: "100px",
           height: "150px",
           display: "flex",
