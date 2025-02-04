@@ -33,7 +33,7 @@ function BookItem(props) {
             imageUrl={volumeInfo.imageLinks?.thumbnail}
             title={volumeInfo.title}
           />
-          <CardContent>
+          <CardContent sx={{ paddingTop: 0 }}>
             <Typography
               variant="subtitle1"
               sx={{ fontStyle: "italic", lineHeight: 1.2 }}
