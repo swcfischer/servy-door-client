@@ -19,7 +19,12 @@ const Container = styled.div`
     .img-container {
       display: inline-block;
       margin-right: 24px;
+
       img {
+        padding: 0;
+        height: min-content;
+        border-radius: 3px;
+        border: solid 1px #999;
       }
     }
 
@@ -140,7 +145,7 @@ function BookDetails(props) {
       }
       setIsLoading(false);
     }
-    if (user.uuid && id) {
+    if (user?.uuid && id) {
       try {
         fetchData();
       } catch (err) {

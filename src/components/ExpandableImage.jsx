@@ -15,6 +15,11 @@ const Container = styled.div`
     }
   }
 
+  img {
+    border-radius: 3px;
+    border: solid 1px #999;
+  }
+
   .image {
     cursor: zoom-in;
     border-radius: 3px;

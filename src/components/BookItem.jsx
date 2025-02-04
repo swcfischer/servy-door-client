@@ -134,6 +134,8 @@ function ImageCard(props) {
           fontWeight: "bold",
           fontStyle: "italic",
           fontSize: "12px",
+          borderRadius: "3px",
+          border: "solid 1px #999",
         }}
       >
         Broken Image
@@ -153,6 +155,9 @@ function ImageCard(props) {
         height: "150px",
         color: "#fafafa",
         borderRadius: "3px",
+        border: "solid 1px #999",
+        height: "min-content",
+        padding: 0,
       }}
     />
   );
