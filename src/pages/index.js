@@ -78,9 +78,9 @@ export default function Index(props) {
         volumesGet +
         "?" +
         buildQueryParams({
-          q: searchBooks(removeSearchOperators(q), searchFilter.value),
+          q: searchBooks(removeSearchOperators(q), searchFilter?.value),
           startIndex: getStartIndex(pageParam),
-          searchFilter: searchFilter.value,
+          searchFilter: searchFilter?.value,
         });
       try {
         const response = await axios.get(getPath);
@@ -97,14 +97,14 @@ export default function Index(props) {
       setBooks([]);
       setTotalItems(0);
     }
-  }, [q, pageParam, searchFilter.value]);
+  }, [q, pageParam, searchFilter?.value]);
 
   const handleOnSubmit = async (e) => {
     e.preventDefault();
     const _newQ = document.querySelector("input").value;
     const newQ = searchBooks(_newQ, searchFilter.value);
     if (q !== _newQ) {
-      setQ(_newQ);
+      setQ(newQ);
 
       navigate(
         `/?${buildQueryParams({
@@ -164,7 +164,7 @@ export default function Index(props) {
             <FilterSelect
               searchFilter={searchFilter}
               setSearchFilter={setSearchFilter}
-              q={q}
+              setQ={setQ}
             />
 
             {books.length > 0 && Math.ceil(totalItems / itemsPerPage) > 1 && (
@@ -199,6 +199,7 @@ export default function Index(props) {
             <div className="book-list-container">
               {books.slice(0, itemsPerPage).map(({ id, volumeInfo }) => (
                 <BookItem
+                  key={id}
                   volumeInfo={volumeInfo}
                   id={id}
                   to={`/book?id=${id}`}

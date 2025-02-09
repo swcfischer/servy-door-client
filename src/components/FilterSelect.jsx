@@ -12,14 +12,18 @@ const options = [
 ];
 
 const FilterSelect = (props) => {
-  const { searchFilter, setSearchFilter, q } = props;
+  const { searchFilter, setSearchFilter, setQ } = props;
 
   const handleChange = (selectedOptions) => {
     setSearchFilter(selectedOptions);
 
+    const q = document.querySelector("input").value;
+
+    setQ(q);
+
     navigate(
       `/?${buildQueryParams({
-        q: q,
+        q,
         page: 1,
         searchFilter: selectedOptions?.value,
       })}`

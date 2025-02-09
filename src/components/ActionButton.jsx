@@ -8,7 +8,21 @@ function ActionButton(props) {
 
   return (
     <Menu
-      menuButton={<MenuButton>Actions</MenuButton>}
+      menuButton={
+        <MenuButton>
+          Actions{" "}
+          <span
+            style={{
+              fontSize: "20px",
+              lineHeight: "12px",
+              fontWeight: "bold",
+            }}
+            aria-hidden
+          >
+            ▾
+          </span>
+        </MenuButton>
+      }
       transition
       menuStyles={{ border: "1px solid #ccc", boxShadow: "none" }}
     >

@@ -12,33 +12,42 @@ import { renderGoogleAuthorLinks } from "./library/book-details";
 import ExpandableImage from "../components/ExpandableImage";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
+import GoogleBook from "../components/GoogleBook";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
 const Container = styled.div`
-  button {
-    height: max-content;
-    padding: 11px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 12px;
-    transition: background-color 0.3s ease;
+  .btn-container {
+    display: flex;
 
-    &:hover {
-      background-color: #555;
+    & > * {
+      margin-left: 12px;
     }
-  }
 
-  .go-back-button {
-    margin-left: 0;
-  }
+    button {
+      height: max-content;
+      padding: 11px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 12px;
+      transition: background-color 0.3s ease;
 
-  .read-button {
-    margin-left: 12px;
+      &:hover {
+        background-color: #555;
+      }
+    }
+
+    .go-back-button {
+      margin-left: 0;
+    }
+
+    .read-button {
+      margin-left: 12px;
+    }
   }
 
   .loading-container {
@@ -98,43 +107,52 @@ function Book(props) {
 
   return (
     <Container className="fade-in">
-      <button
-        className="go-back-button"
-        onClick={(e) => {
-          e.preventDefault();
-          navigate(-1);
-        }}
-      >
-        Go Back
-      </button>
-      <button
-        className="read-button"
-        onClick={async (e) => {
-          e.preventDefault();
-          try {
-            const { data } = await axiosInstance.post(
-              "/books/create-book/" + user.uuid,
-              {
-                title: state.volumeInfo.title,
-                image: state.img.image,
-                volumeInfo: state.volumeInfo,
-                pageCount: state.volumeInfo.pageCount,
-                infoLink: state.volumeInfo.infoLink,
-                previewLink: state.volumeInfo.previewLink,
-                publisher: state.volumeInfo.publisher,
-                datePublished: state.volumeInfo.publishedDate,
-                author: state.volumeInfo.authors.join(", "),
-                summary: state.volumeInfo.description,
+      <div className="btn-container">
+        <button
+          className="go-back-button"
+          onClick={(e) => {
+            e.preventDefault();
+            navigate(-1);
+          }}
+        >
+          Go Back
+        </button>
+        <button
+          className="read-button"
+          onClick={async (e) => {
+            e.preventDefault();
+            try {
+              const { data } = await axiosInstance.post(
+                "/books/create-book/" + user.uuid,
+                {
+                  title: state.volumeInfo.title,
+                  image: state.img.image,
+                  volumeInfo: state.volumeInfo,
+                  pageCount: state.volumeInfo.pageCount,
+                  infoLink: state.volumeInfo.infoLink,
+                  previewLink: state.volumeInfo.previewLink,
+                  publisher: state.volumeInfo.publisher,
+                  datePublished: state.volumeInfo.publishedDate,
+                  author: state.volumeInfo.authors.join(", "),
+                  summary: state.volumeInfo.description,
+                }
+              );
+              if (data.error) {
+                return navigate("/library/book-details?id=" + data.uuid);
               }
-            );
-            navigate("/library/book-details?id=" + data.uuid);
-          } catch (err) {
-            console.log(err);
-          }
-        }}
-      >
-        Read
-      </button>
+              navigate("/library/book-details?id=" + data.uuid);
+            } catch (err) {
+              console.log(err);
+            }
+          }}
+        >
+          Read
+        </button>
+        <GoogleBook
+          title={state.volumeInfo.title}
+          author={state.volumeInfo.authors.join(", ")}
+        />
+      </div>
       <h1
         style={{
           fontStyle: "italic",
