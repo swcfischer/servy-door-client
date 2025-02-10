@@ -22,7 +22,7 @@ const Container = styled.div`
 `;
 
 function GoogleBook(props) {
-  const { title, author, label = "News" } = props;
+  const { title, author, label = "G-News" } = props;
 
   if (!title && !author) {
     return null;
