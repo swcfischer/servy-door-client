@@ -75,7 +75,6 @@ function Book(props) {
   const { user } = useContext(UserContext);
 
   const [isLoading, setIsLoading] = useState(true);
-  const [isLinkValid, setIsLinkValid] = useState(false);
 
   const [state, setState] = useState({});
 
@@ -97,25 +96,6 @@ function Book(props) {
       fetchBook();
     }
   }, [id]);
-
-  useEffect(() => {
-    async function checkAmazonLink() {
-      if (state.volumeInfo?.industryIdentifiers) {
-        const isbn = state.volumeInfo.industryIdentifiers[0].identifier;
-        try {
-          const response = await axios.head(
-            `https://www.amazon.com/dp/${isbn}`
-          );
-          if (response.status === 200) {
-            setIsLinkValid(true);
-          }
-        } catch (error) {
-          setIsLinkValid(false);
-        }
-      }
-    }
-    checkAmazonLink();
-  }, [state]);
 
   if (isLoading) {
     return (
@@ -175,11 +155,9 @@ function Book(props) {
           author={state.volumeInfo.authors.join(", ")}
         />
         {/* Turn into affiliate link */}
-        {isLinkValid && (
-          <a href={`https://www.amazon.com/dp/${isbn}`}>
-            <button>Amazon</button>
-          </a>
-        )}
+        <a href={`https://www.amazon.com/dp/${isbn}`}>
+          <button>Amazon</button>
+        </a>
       </div>
       <h1
         style={{
