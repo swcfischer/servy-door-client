@@ -27,29 +27,6 @@ const StyledContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
     width: 210px;
-
-    a {
-      opacity: 0;
-      animation: fadeIn 1s forwards;
-    }
-
-    a:nth-of-type(1) {
-      animation-delay: 0.2s;
-    }
-
-    a:nth-of-type(2) {
-      animation-delay: 0.4s;
-    }
-
-    a:nth-of-type(3) {
-      animation-delay: 0.6s;
-    }
-  }
-
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
   }
 
   .footer {
@@ -64,6 +41,17 @@ const StyledContainer = styled(Container)`
 
     p {
       font-size: 34px;
+    }
+
+    #attribution {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      font-family: Tangerine;
+      font-size: 24px;
+      opacity: 0.3;
+      text-decoration: none;
+      color: #fff;
     }
   }
 
@@ -158,6 +146,13 @@ const Layout = ({ children }) => {
             <Typography variant="body2" className="typography">
               ServyDoor{" "}
             </Typography>
+            <a
+              target="_blank"
+              href="https://www.stevefischer.dev/"
+              id="attribution"
+            >
+              By Steve Fischer
+            </a>
           </footer>
         </StyledContainer>
       </StateContext.Provider>
