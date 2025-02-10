@@ -22,7 +22,7 @@ const Container = styled.div`
 `;
 
 function GoogleBook(props) {
-  const { title, author, label = "G-News" } = props;
+  const { title, author, label = "Here" } = props;
 
   if (!title && !author) {
     return null;
@@ -31,11 +31,14 @@ function GoogleBook(props) {
   const searchUrl = generateSearchUrl({ title, author });
 
   return (
-    <Container>
-      <a href={searchUrl} target="_blank" rel="noopener noreferrer">
-        <button>{label}</button>
-      </a>
-    </Container>
+    <>
+      <dt>Google News</dt>
+      <dd>
+        <a href={searchUrl} target="_blank" rel="noopener noreferrer">
+          {label}
+        </a>
+      </dd>
+    </>
   );
 }
 

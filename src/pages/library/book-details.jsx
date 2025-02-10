@@ -11,6 +11,7 @@ import {
 import { navigate } from "gatsby";
 import ActionButton from "../../components/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
+import PageRange from "../../components/PageRange";
 
 const Container = styled.div`
   .book-details {
@@ -98,6 +99,8 @@ export function renderGoogleAuthorLinks(authors) {
   });
 }
 
+const pagesPerDay = 20;
+
 function BookDetails(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
@@ -108,8 +111,8 @@ function BookDetails(props) {
   const [readingSessions, setReadingSessions] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [pageRange, setPageRange] = useState([]);
-  const [pagesPerDay, setPagesPerDay] = useState(null);
   const [readingSessionIdx, setReadingSessionIdx] = useState(0);
+
   const textArea = useRef();
 
   useEffect(() => {
@@ -120,28 +123,11 @@ function BookDetails(props) {
       );
       setBook(res.data);
       setReadingSessions(resSession.data);
-      const _pagesPerDay = Math.round(
-        Number(res.data.pageCount) / (Number(res.data.weeks) * 7)
-      );
-      setPagesPerDay(_pagesPerDay);
-
-      const today = new Date().toLocaleDateString("en-CA", {
-        timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-      });
-      const todaySession = resSession.data.find((session) => {
-        return new Date(session.date).toISOString().split("T")[0] === today;
-      });
 
       if (!resSession.data.length) {
-        setPageRange([1, _pagesPerDay]);
-      } else if (todaySession) {
-        setPageRange(todaySession.pageRange);
+        setPageRange([1, pagesPerDay]);
       } else {
-        const lastSession = resSession.data[resSession.data.length - 1];
-        const lastPageRange = lastSession ? lastSession.pageRange : [0, 0];
-        const nextStartPage = lastPageRange[1] + 1;
-        const nextEndPage = nextStartPage + _pagesPerDay - 1;
-        setPageRange([nextStartPage, nextEndPage]);
+        setPageRange(resSession.data[0].pageRange);
       }
       setIsLoading(false);
     }
@@ -223,13 +209,82 @@ function BookDetails(props) {
 
       <div className="notes-section">
         <div className="notes-header">
-          <h2>
-            Notes
-            <span style={{ fontSize: "0.6em", fontWeight: "normal" }}>
-              {" "}
-              (pages {pageRange[0]} - {pageRange[1] || 20})
-            </span>
-          </h2>
+          <PageRange setPageRange={setPageRange} pageRange={pageRange} />
+
+          <ActionButton
+            options={[
+              {
+                label: "Remove from Library",
+                action: async () => {
+                  const confirmDelete = window.confirm(
+                    "Are you sure you want to remove this book from your library?"
+                  );
+                  if (!confirmDelete) {
+                    return;
+                  }
+
+                  try {
+                    await axiosInstance.delete(
+                      `/books/book/${user.uuid}?id=${id}`
+                    );
+                    // Redirect or update state after deletion
+                    navigate("/library");
+                  } catch (err) {
+                    console.error("There was an error deleting the book!", err);
+                  }
+                },
+              },
+              {
+                label: "Next Reading Session",
+                action: async () => {
+                  // * Do API call to create new reading session
+                  // * grab next reading session in state or Go to next one
+                  const notes = document.querySelector("textarea").value;
+                  if (notes.trim() === "") {
+                    alert("Notes cannot be empty");
+                    return;
+                  }
+
+                  try {
+                    // Save current reading session
+                    await axiosInstance.post(
+                      `/reading-sessions/save-reading-session/${user.uuid}/${id}`,
+                      {
+                        notes: notes,
+                        pageRange,
+                        sessionUuid: curSession.uuid,
+                      }
+                    );
+
+                    // Create new reading session
+                    const nextStartPage = pageRange[1] + 1 || 1;
+                    const nextEndPage =
+                      nextStartPage + pagesPerDay - 1 || pagesPerDay;
+                    setPageRange([nextStartPage, nextEndPage]);
+
+                    const { data: newReadingSession } =
+                      await axiosInstance.post(
+                        `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
+                        {
+                          pageRange: [nextStartPage, nextEndPage],
+                        }
+                      );
+
+                    setReadingSessions([newReadingSession, ...readingSessions]);
+
+                    document.querySelector("textarea").value = "";
+                    alert("Reading session saved and new session created!");
+                  } catch (err) {
+                    console.error(
+                      "There was an error saving the reading session!",
+                      err
+                    );
+                    alert("Failed to save reading session. Please try again.");
+                  }
+                },
+              },
+            ]}
+          />
         </div>
         <textarea
           ref={textArea}
@@ -252,12 +307,14 @@ function BookDetails(props) {
 
             try {
               await axiosInstance.post(
-                `/reading-sessions/create-or-update-reading-session/${user.uuid}/${id}`,
+                `/reading-sessions/save-reading-session/${user.uuid}/${id}`,
                 {
                   notes: notes,
+                  sessionUuid: curSession.uuid,
                   pageRange,
                 }
               );
+
               alert("Notes saved successfully!");
             } catch (err) {
               console.error("There was an error saving the notes!", err);
@@ -268,39 +325,6 @@ function BookDetails(props) {
         >
           Save Notes
         </button>
-
-        <ActionButton
-          options={[
-            {
-              label: "Remove from Library",
-              action: async () => {
-                const confirmDelete = window.confirm(
-                  "Are you sure you want to remove this book from your library?"
-                );
-                if (!confirmDelete) {
-                  return;
-                }
-
-                try {
-                  await axiosInstance.delete(
-                    `/books/book/${user.uuid}?id=${id}`
-                  );
-                  // Redirect or update state after deletion
-                  navigate("/library");
-                } catch (err) {
-                  console.error("There was an error deleting the book!", err);
-                }
-              },
-            },
-            {
-              label: "Next Reading Session",
-              action: async () => {
-                // * Do API call to create new reading session
-                // * grab next reading session in state or Go to next one
-              },
-            },
-          ]}
-        />
       </div>
       <h3>Reading Sessions</h3>
       <ReadingSessionList

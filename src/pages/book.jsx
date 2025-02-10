@@ -150,14 +150,6 @@ function Book(props) {
         >
           Read
         </button>
-        <GoogleBook
-          title={state.volumeInfo.title}
-          author={state.volumeInfo.authors.join(", ")}
-        />
-        {/* Turn into affiliate link */}
-        <a href={`https://www.amazon.com/dp/${isbn}`}>
-          <button>Amazon</button>
-        </a>
       </div>
       <h1
         style={{
@@ -190,7 +182,7 @@ function Book(props) {
             <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
-            <dt>Preview Link</dt>
+            <dt>Google Books</dt>
             <dd>
               <a
                 href={state.volumeInfo.previewLink}
@@ -200,7 +192,7 @@ function Book(props) {
                 Here
               </a>
             </dd>
-            <dt>Info Link</dt>
+            <dt>Google Play</dt>
             <dd>
               <a
                 href={state.volumeInfo.infoLink}
@@ -209,6 +201,16 @@ function Book(props) {
               >
                 Here
               </a>
+            </dd>
+
+            <GoogleBook
+              title={state.volumeInfo.title}
+              author={state.volumeInfo.authors.join(", ")}
+            />
+            <dt>Amazon</dt>
+            <dd>
+              {/* Turn into affiliate link */}
+              <a href={`https://www.amazon.com/dp/${isbn}`}>Here</a>
             </dd>
           </dl>
         </div>
