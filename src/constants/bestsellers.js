@@ -264,94 +264,78 @@ const bestsellerList = [
         "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE704ecySqlatbYn5NDSfbHgVBPXTE_EvmPolfdflMdZAF0vV001e3KUMS6TqBSFwQzAzr6jp5hWXS6IbSmt5OMTasmQ-sJmacdluV7-6dBwvynXJP91hzLhFO0PrnUohVkwyKJhF&source=gbs_api",
     },
   },
-
   {
     kind: "books#volume",
-    id: "QdYPEAAAQBAJ",
-    etag: "o7+JZbr73bs",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/QdYPEAAAQBAJ",
+    id: "k7YfogEACAAJ",
+    etag: "/YLL76aZfKA",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/k7YfogEACAAJ",
     volumeInfo: {
-      title: "Stakeholder Capitalism",
-      subtitle: "A Global Economy that Works for Progress, People and Planet",
-      authors: ["Klaus Schwab"],
-      publisher: "John Wiley & Sons",
-      publishedDate: "2021-01-27",
+      title: "The Heart of the Labyrinth",
+      authors: ["Nicole Schwab"],
+      publisher: "Womancraft Publishing",
+      publishedDate: "2014",
       description:
-        "<p><b>Reimagining our global economy so it becomes more sustainable and prosperous for all</b></p> <p>Our global economic system is broken. But we can replace the current picture of global upheaval, unsustainability, and uncertainty with one of an economy that works for all people, and the planet. First, we must eliminate rising income inequality within societies where productivity and wage growth has slowed. Second, we must reduce the dampening effect of monopoly market power wielded by large corporations on innovation and productivity gains. And finally, the short-sighted exploitation of natural resources that is corroding the environment and affecting the lives of many for the worse must end.</p> <p>The debate over the causes of the broken economy—laissez-faire government, poorly managed globalization, the rise of technology in favor of the few, or yet another reason—is wide open. <i>Stakeholder Capitalism: A Global Economy that Works for Progress, People and Planet</i> argues convincingly that if we don't start with recognizing the true shape of our problems, our current system will continue to fail us. To help us see our challenges more clearly, Schwab—the Founder and Executive Chairman of the World Economic Forum—looks for the real causes of our system's shortcomings, and for solutions in best practices from around the world in places as diverse as China, Denmark, Ethiopia, Germany, Indonesia, New Zealand, and Singapore. And in doing so, Schwab finds emerging examples of new ways of doing things that provide grounds for hope, including:</p> <ul> <li><b>Individual agency:</b> how countries and policies can make a difference against large external forces</li> <li><b>A clearly defined social contract:</b> agreement on shared values and goals allows government, business, and individuals to produce the most optimal outcomes</li> <li><b>Planning for future generations:</b> short-sighted presentism harms our shared future, and that of those yet to be born</li> <li><b>Better measures of economic success:</b> move beyond a myopic focus on GDP to more complete, human-scaled measures of societal flourishing</li> </ul> <p>By accurately describing our real situation, <i>Stakeholder Capitalism</i> is able to pinpoint achievable ways to deal with our problems. Chapter by chapter, Professor Schwab shows us that there are ways for everyone at all levels of society to reshape the broken pieces of the global economy and—country by country, company by company, and citizen by citizen—glue them back together in a way that benefits us all.</p>",
+        "<p>Reminiscent of Paulo Coelho's masterpiece \"The Alchemist\" and Lynn V. Andrew's acclaimed Medicine Woman series, The Heart of the Labyrinth is a beautifully evocative spiritual parable, filled with exotic landscapes and transformational soul lessons. As everything she thought she knew about herself disintegrates: her health, career, family and identity, Maya embarks on a journey of discovery to the land of her ancestors. There a mysterious Sage guides her through dreams, visions and lifetimes, to the heart of the labyrinth. Coming face-to-face with her subconscious belief that being a woman is a threat, she understands that to step into wholeness she will have to reclaim the sacred feminine fire burning in her soul. But what is at stake far exceeds her individual life: with it sits the fate of the Earth herself, waiting for the Priestess to be reborn. A grand, soul-shifting answer to the hungry soul's question: who am I? Maya's story calls us back to a sacred, personal connection with the Earth. Nicole Schwab is a mesmerizing new voice for our times, offering a message of Earth-centered wisdom reuniting us with the divine feminine. Nicole's work is in the tradition of many spiritual teachings: using story or parable as a vehicle for transmitting profound truths direct to the soul. And in the tradition of many women's writings, she blurs the lines between traditional genres of fiction, non-fiction and poetry. She weaves stories within stories. Dreams, visions and different lifetimes, are blended in a rich satisfying narrative which nourishes the spirit and mind.</p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1119756138" },
-        { type: "ISBN_13", identifier: "9781119756132" },
+        { type: "ISBN_10", identifier: "1910559008" },
+        { type: "ISBN_13", identifier: "9781910559000" },
       ],
-      readingModes: { text: false, image: true },
-      pageCount: 304,
-      printedPageCount: 311,
+      readingModes: { text: false, image: false },
+      pageCount: 195,
+      printedPageCount: 195,
       dimensions: {
-        height: "23.10 cm",
-        width: "15.50 cm",
-        thickness: "2.80 cm",
+        height: "21.00 cm",
+        width: "13.30 cm",
+        thickness: "1.20 cm",
       },
       printType: "BOOK",
       categories: [
-        "Business & Economics / Development / Economic Development",
-        "Business & Economics / Economics / General",
-        "Political Science / Political Economy",
+        "Fiction / Religious",
+        "Body, Mind & Spirit / Gaia & Earth Energies",
+        "Body, Mind & Spirit / Goddess Worship",
+        "Religion / Spirituality",
       ],
-      averageRating: 3,
-      ratingsCount: 2,
+      averageRating: 5,
+      ratingsCount: 1,
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
-      contentVersion: "1.2.2.0.preview.1",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
+      contentVersion: "preview-1.0.0",
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE737NxikwIwi0wNJ0XfOx1VAQHAys1JumOmhPPg6K-ZPMH0beBV58ALKcugj8Ojh1EvT5PC986FEzGPVcrnTVGGgFPb5h3Kwq-Mizl3uyKEd-r0WkgBzjREhsGOP7b7EzYyvPG_7&source=gbs_api",
+          "http://books.google.com/books/content?id=k7YfogEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE7043j5W30nhf43OydCwrEi8UM3I30w30UKm2SDYutzNPvzCj_607Hiv-gzUMwxbjCNBni4yGGUPjd7Lz4-NjvOtmkEWIZzmTiyD_f2Qc-GwnaZoFWx9sVFGzhSu9axYHTx-eoYO&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72lAXLUFVDRECcJFLUip8gnSfw5jTaajKOSwaXlcomYJFni65luMOz1nTSp1_hQS-HkLmb3S_Z4LU1_4X8-UH5VrPYUbLAcKwABB_walwDFi8GNS1QJeLTmYFetSmTIG0eklEdi&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72lAqy_s66JZ-M_rwkB1lfEe48JzUGcHY-P8p6AGvTIgGRd-0NQ1ajF9okOMoueSzOEuPo09LoGFmRVzqvaBdJvUM1dM5z-PRkaVuq3WEkxWI6ImYoFrjWWjcKSCJAl5e1CrzBi&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72iiolkMMslfLJRNNnr5qo3jsAZ3ZXAAtAShb0283RHsaEh7uJHYrzmSBauhK6kLpzYZnPBwxPZSBo6eI72c3pjb-eVmbTIugD70XE0NrXiMxzCgFskCGaSGjicL5o-ZHfL9gE2&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71MNcqpDV_aPFl1MhXcNmAl02BTvLvEa1TNOzfDBgnHaDETzygRmyqB1JNrRCmai_EBSvJtVuwSQT2sfRfkA3fKkkMLbB3fYfXD25-MHAw-q6pmodRpVMgNTBL5YtfLfzz_xsO2&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71_QUjbHGeQ5cZDFymn8OuLk7l-dJHy2iqR3EvVGt4wpOtIYo9wSPOjvS_RvyFQ5vTkxcmm5BmfgCXjjKLqcR8J7Vqn-vk_pVAsENbk2SJc9CP78kBJZ2QmaZ5BUUXkW5iOw3WM&source=gbs_api",
+          "http://books.google.com/books/content?id=k7YfogEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72IPzYtvyUvxXbAFj8piprajimQ5EaWG7clyvpteod2QpXLBW0Jf1MAgqEUv6sjSvHCRGogyo1u_-mgI7kPW6MxfMcCRuHzbU-sRTdbvRK1FulhoGCqiuDgw5I15iTQxVjv1o44&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=QdYPEAAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=k7YfogEACAAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=QdYPEAAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=k7YfogEACAAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=QdYPEAAAQBAJ",
+        "https://play.google.com/store/books/details?id=k7YfogEACAAJ",
     },
     saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
       country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
+      viewability: "NO_PAGES",
+      embeddable: false,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
       epub: { isAvailable: false },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Stakeholder_Capitalism-sample-pdf.acsm?id=QdYPEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
+      pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=QdYPEAAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
+        "http://play.google.com/books/reader?id=k7YfogEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 575,
-      height: 750,
+      width: 128,
+      height: 195,
       image:
-        "http://books.google.com/books/publisher/content?id=QdYPEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71_QUjbHGeQ5cZDFymn8OuLk7l-dJHy2iqR3EvVGt4wpOtIYo9wSPOjvS_RvyFQ5vTkxcmm5BmfgCXjjKLqcR8J7Vqn-vk_pVAsENbk2SJc9CP78kBJZ2QmaZ5BUUXkW5iOw3WM&source=gbs_api",
+        "http://books.google.com/books/content?id=k7YfogEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72IPzYtvyUvxXbAFj8piprajimQ5EaWG7clyvpteod2QpXLBW0Jf1MAgqEUv6sjSvHCRGogyo1u_-mgI7kPW6MxfMcCRuHzbU-sRTdbvRK1FulhoGCqiuDgw5I15iTQxVjv1o44&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "d_jT0AEACAAJ",
