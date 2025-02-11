@@ -1,6 +1,173 @@
 const bestsellerList = [
   {
     kind: "books#volume",
+    id: "WyUMEQAAQBAJ",
+    etag: "TyE0Ce2Zmrw",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/WyUMEQAAQBAJ",
+    volumeInfo: {
+      title: "Source Code",
+      subtitle: "My Beginnings",
+      authors: ["Bill Gates"],
+      publisher: "Random House",
+      publishedDate: "2025-02-04",
+      description:
+        "<b>Named one of the Most Anticipated Releases of 2025 by <i>The New York Times, The Times, Financial Times </i>and <i>BBC. </i><br><br>The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age. <br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1039056326" },
+        { type: "ISBN_13", identifier: "9781039056329" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 336,
+      printedPageCount: 337,
+      dimensions: {
+        height: "24.50 cm",
+        width: "16.20 cm",
+        thickness: "3.00 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Business",
+        "Biography & Autobiography / Science & Technology",
+        "Biography & Autobiography / Personal Memoirs",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.1.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72RQ2g1GctzAOp3RcdHlYg2RavwvVDeczfAVzratVznaIvDctVB4xiQ41sss5tYkKPxW8xx_CxVDJNipFIGdUvxUaI8pqqwV30TFQMqYn86C57wT65vZM-e0TezDJuD3AZqIzr0&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Era7dm6q0CLi8llBJbxD3RL1b_mdyhtpvR0E5emTYERFSA8B2lepBD6SEWhrKnbxilmyhaml8qssXB-EkZAnmgXAdXXrJwwBhNh9PQ7skzNnUiPHmBI2cfCHvxlJIxqRWdUON&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73HQUJGN3MB2LMYuEwzWu36zPn2U77MistNb5VZAVZRnuUY8auuMr1wVHrrfyATYjjm2F0Ak3-P2TWxKRM_t07hCQj2CR87dL5NhzegbTSgrs6FZu0RG1TMXL1R7ku34xxph3Z-&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72FWtEy3kmpHRBOdUFdYFMUNBU-IzgH1m0lq9kErpKXZTLLIlg7Dd0MBa4piUyB4EeTyWwQiRw3C-lZJeIoD5_iz-T1tPseRVhJPKSGZkymQ9tEoO4kk7c5W15gwSeUDGNye_27&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73SMmxPghzAfRGjVtPZ3XicFQoQRxKrZqHmI7ErwWF5VEXsNug0LczgszqWoTKhsejx662j10_9YYOJD6O9wySrLHVC3QxPhG_QYMBOdpKCi2lpPERhvcv9eBo8rbqCNs3iT2x0&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Source_Code-sample-pdf.acsm?id=WyUMEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "n9fDEAAAQBAJ",
+    etag: "am7AYlVZnxI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/n9fDEAAAQBAJ",
+    volumeInfo: {
+      title: "The Anxious Generation",
+      subtitle:
+        "How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+      authors: ["Jonathan Haidt"],
+      publisher: "Penguin",
+      publishedDate: "2024-03-26",
+      description:
+        "<b>THE INSTANT #1 <i>NEW YORK TIMES</i> BESTSELLER • A <i>Wall Street Journal </i>Top 10 Book of 2024 • A <i>New York Times </i>and <i>Washington Post </i>Notable Book <b>• One of Barack Obama's Favorite Books of 2024 • A <i>TIME </i>100 Must-Read Book of 2024 <b>• Named a Best Book of 2024 by the <i>Economist, </i>the <i>New York Post</i>, and <i>Town & Country </i>• The Goodreads Choice Award Nonfiction Book of the Year<br></b></b><br>A must-read for all parents: the generation-defining investigation into the collapse of youth mental health in the era of smartphones, social media, and big tech—and a plan for a healthier, freer childhood.<br><br>“With tenacity and candor, Haidt lays out the consequences that have come with allowing kids to drift further into the virtual world . . . While also offering suggestions and solutions that could help protect a new generation of kids.” —Shannon Carlin, <i>TIME</i>, 100 Must-Read Books of 2024</b><br><br>After more than a decade of stability or improvement, the mental health of adolescents plunged in the early 2010s. Rates of depression, anxiety, self-harm, and suicide rose sharply, more than doubling on many measures. Why?<br><br>In <i>The Anxious Generation</i>, social psychologist Jonathan Haidt lays out the facts about the epidemic of teen mental illness that hit many countries at the same time. He then investigates the nature of childhood, including why children need play and independent exploration to mature into competent, thriving adults. Haidt shows how the “play-based childhood” began to decline in the 1980s, and how it was finally wiped out by the arrival of the “phone-based childhood” in the early 2010s. He presents more than a dozen mechanisms by which this “great rewiring of childhood” has interfered with children’s social and neurological development, covering everything from sleep deprivation to attention fragmentation, addiction, loneliness, social contagion, social comparison, and perfectionism. He explains why social media damages girls more than boys and why boys have been withdrawing from the real world into the virtual world, with disastrous consequences for themselves, their families, and their societies.<br><br>Most important, Haidt issues a clear call to action. He diagnoses the “collective action problems” that trap us, and then proposes four simple rules that might set us free. He describes steps that parents, teachers, schools, tech companies, and governments can take to end the epidemic of mental illness and restore a more humane childhood.<br><br>Haidt has spent his career speaking truth backed by data in the most difficult landscapes—communities polarized by politics and religion, campuses battling culture wars, and now the public health emergency faced by Gen Z. We cannot afford to ignore his findings about protecting our children—and ourselves—from the psychological damage of a phone-based life.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593655036" },
+        { type: "ISBN_13", identifier: "9780593655030" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 400,
+      printedPageCount: 401,
+      dimensions: {
+        height: "25.00 cm",
+        width: "16.00 cm",
+        thickness: "3.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Psychology / Mental Health",
+        "Family & Relationships / Life Stages / Teenagers",
+        "Self-Help / Self-Management / Stress Management",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.3.2.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72J-ecpiqAhm8uL-5KKpRL40cg_JdWsFc5G3silsPBRbk50f70WpPuhwNOsnfJQemkUvrPhxp5Zf0mIY1UuGf13hfQunYxRTeYK333Yw3NqO0GLrYeNOJBU6I92o-qRx2LIRg74&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70LR8CNccmCuiU9YXYcpiN2TpPVcRYjprxboXTVNFqquJimpleazSgrto8BFl9Y3nfM3JjuyWMb29M4oyb7aCVHMLBe9QBrpayz7ZXqcSH_Pr1EldoD9sviUr9MADo81hveqKo0&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70_a1AH-vTCUjj8gUzaf0YRM0vRGjR5HYuxPwNOe6wWurCsEBQAnqnKvLlJHmphDKjR2H9mHhE-uaaVOKokKb4j5jsgNlPEr6XfcxrxbUtAfpB6G5phovWWVQBL_4QGMcT0IXSI&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73XB2KPb7E8ObYFhbLwhHBjgRUNLl3xDEygIVofUwxcOjrhKHhL2C6TvIg7k7jxnCEGMDtI_o9mI03oED7tipwJ0d6FMVSmlJiGRk53gOSk6oWyqs0aU5tUNThD5f0GmyP88CgF&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE720gO7jBSIgnIt6ExjnmxC8d8ZwoxtLX9lcu7-GtJFDNDK33aOjp5cImp2ashve3UQNqBXacrCkrCoRkE7HZk1l8DvVtbRpibCY-phRo0vS8OYAXxqswMUZfb51_jN6FKEW4uTE&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72F80k4oDjJJc24-KXklhmRy0GzbVMtHd1-ALPo38zDixW0HxPLBPwhOJNZ5cZRiGiekRT1osM39suSUNRem82dxGC7wk8ClOkxxQb04MrJZsHOjixCJHCpmCjwzOnll6ZmMkgo&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=n9fDEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=n9fDEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=n9fDEAAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=n9fDEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=n9fDEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72F80k4oDjJJc24-KXklhmRy0GzbVMtHd1-ALPo38zDixW0HxPLBPwhOJNZ5cZRiGiekRT1osM39suSUNRem82dxGC7wk8ClOkxxQb04MrJZsHOjixCJHCpmCjwzOnll6ZmMkgo&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "BP78EAAAQBAJ",
     etag: "h4/S4gEhmXQ",
     selfLink: "https://www.googleapis.com/books/v1/volumes/BP78EAAAQBAJ",
@@ -187,91 +354,6 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "WyUMEQAAQBAJ",
-    etag: "TyE0Ce2Zmrw",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/WyUMEQAAQBAJ",
-    volumeInfo: {
-      title: "Source Code",
-      subtitle: "My Beginnings",
-      authors: ["Bill Gates"],
-      publisher: "Random House",
-      publishedDate: "2025-02-04",
-      description:
-        "<b>Named one of the Most Anticipated Releases of 2025 by <i>The New York Times, The Times, Financial Times </i>and <i>BBC. </i><br><br>The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age. <br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1039056326" },
-        { type: "ISBN_13", identifier: "9781039056329" },
-      ],
-      readingModes: { text: false, image: true },
-      pageCount: 336,
-      printedPageCount: 337,
-      dimensions: {
-        height: "24.50 cm",
-        width: "16.20 cm",
-        thickness: "3.00 cm",
-      },
-      printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Business",
-        "Biography & Autobiography / Science & Technology",
-        "Biography & Autobiography / Personal Memoirs",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "1.1.1.0.preview.1",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72RQ2g1GctzAOp3RcdHlYg2RavwvVDeczfAVzratVznaIvDctVB4xiQ41sss5tYkKPxW8xx_CxVDJNipFIGdUvxUaI8pqqwV30TFQMqYn86C57wT65vZM-e0TezDJuD3AZqIzr0&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Era7dm6q0CLi8llBJbxD3RL1b_mdyhtpvR0E5emTYERFSA8B2lepBD6SEWhrKnbxilmyhaml8qssXB-EkZAnmgXAdXXrJwwBhNh9PQ7skzNnUiPHmBI2cfCHvxlJIxqRWdUON&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73HQUJGN3MB2LMYuEwzWu36zPn2U77MistNb5VZAVZRnuUY8auuMr1wVHrrfyATYjjm2F0Ak3-P2TWxKRM_t07hCQj2CR87dL5NhzegbTSgrs6FZu0RG1TMXL1R7ku34xxph3Z-&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72FWtEy3kmpHRBOdUFdYFMUNBU-IzgH1m0lq9kErpKXZTLLIlg7Dd0MBa4piUyB4EeTyWwQiRw3C-lZJeIoD5_iz-T1tPseRVhJPKSGZkymQ9tEoO4kk7c5W15gwSeUDGNye_27&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73SMmxPghzAfRGjVtPZ3XicFQoQRxKrZqHmI7ErwWF5VEXsNug0LczgszqWoTKhsejx662j10_9YYOJD6O9wySrLHVC3QxPhG_QYMBOdpKCi2lpPERhvcv9eBo8rbqCNs3iT2x0&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Source_Code-sample-pdf.acsm?id=WyUMEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 575,
-      height: 750,
-      image:
-        "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
     id: "d_jT0AEACAAJ",
     etag: "wCsjAQoYyx4",
     selfLink: "https://www.googleapis.com/books/v1/volumes/d_jT0AEACAAJ",
@@ -447,75 +529,71 @@ const bestsellerList = [
 
   {
     kind: "books#volume",
-    id: "ts-eDwAAQBAJ",
-    etag: "SyhiTConOXY",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/ts-eDwAAQBAJ",
+    id: "N43_DwAAQBAJ",
+    etag: "KsmB3rShM4I",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/N43_DwAAQBAJ",
     volumeInfo: {
-      title: "Triggered",
-      subtitle: "How the Left Thrives on Hate and Wants to Silence Us",
-      authors: ["Donald Trump Jr."],
-      publisher: "Hachette Nashville",
-      publishedDate: "2019-11-05",
+      title: "Natalie Portman's Fables",
+      authors: ["Natalie Portman"],
+      publisher: "Feiwel & Friends",
+      publishedDate: "2020-10-20",
       description:
-        '<b>This is the book that the leftist elites don\'t want you to read: Donald Trump, Jr., exposes all the tricks that the left uses to smear conservatives and push them out of the public square, from online "shadow banning" to rampant "political correctness."</b><br>In <i>Triggered</i>, Donald Trump, Jr. exposes all the tricks that the left uses to smear conservatives and push them out of the public square, from online "shadow banning" to fake accusations of "hate speech." No topic is spared from political correctness. This is the book that the leftist elites don\'t want you to read!<p>Trump, Jr. writes about the importance of fighting back and standing up for what you believe in. From his childhood summers in Communist Czechoslovakia that began his political thought process, to working on construction sites with his father, to the major achievements of President Trump\'s administration, Donald Trump, Jr. spares no details and delivers a book that focuses on success, perseverance, and determination.</p>',
+        "<p><b>Academy Award-winning actress, director, producer, and activist Natalie Portman retells three classic fables and imbues them with wit and wisdom in this <i>New York Times</i> bestselling book.</b><br><br> From realizing that there is no “right” way to live to respecting our planet and learning what <i>really</i> makes someone a winner, the messages at the heart of <i>Natalie Portman’s Fables</i> are modern takes on timeless life lessons. <br><br>Told with a playful, kid-friendly voice and perfectly paired with Janna Mattia’s charming artwork, Portman’s insightful retellings of <i>The Tortoise and the Hare, The Three Little Pigs,</i> and <i>Country Mouse and City Mouse</i> are ideal for reading aloud and are sure to become beloved additions to family libraries.<br><br>An instant <i>New York Times</i> bestseller!</p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1546086021" },
-        { type: "ISBN_13", identifier: "9781546086024" },
+        { type: "ISBN_10", identifier: "1250804620" },
+        { type: "ISBN_13", identifier: "9781250804624" },
       ],
-      readingModes: { text: true, image: false },
-      pageCount: 304,
-      printedPageCount: 303,
+      readingModes: { text: true, image: true },
+      pageCount: 64,
+      printedPageCount: 37,
       printType: "BOOK",
       categories: [
-        "Political Science / Commentary & Opinion",
-        "Political Science / American Government / National",
-        "Political Science / Political Ideologies / Conservatism & Liberalism",
+        "Juvenile Fiction / Fairy Tales & Folklore / Adaptations",
+        "Juvenile Fiction / Social Themes / Values & Virtues",
       ],
-      averageRating: 3.5,
-      ratingsCount: 9,
       maturityRating: "NOT_MATURE",
       allowAnonLogging: true,
-      contentVersion: "1.4.4.0.preview.2",
+      contentVersion: "1.3.3.0.preview.3",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72P_ZGm085fgHdaoaAY5kCuVnsczjS4igtp890rnozTIs28B_PUfSr1WL12hDykAqg3BYV23BTJ3MWVFUyyMa4bFY8b8q_EqrMVAf41cmUuLJtcikSle8mBM88uHnltml_DAiGE&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71YlgoH1X4zDqxWehmOXe9Kn_wpjNBC4GcoNa6MNvp8Gi8oGTI5hIOJdzFN2SwqrBZv-mxlVF0Q4Ze7VgYTPwTEd_Vud3nn9YggBD449jmX8cC6fyORgBIugSPMz4lYh9kPCHmK&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE737MjAKEtEhc8P6SmX-qOyBYzH_wusdSDeWHEorLyvyETNWvS8cxoHdYzQXzsty458cHwcWn05aScySpPgdcmlPqfPgJnBZizBcShp7xU6EB9EyU_bbRBafCQ9hYVb7IFFJpVKG&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ydn_3mKM8Vby7irSt15jhJm8fwLo0xbhblEh3h8ibTAZUXB-x3fJ4QPuyeBXu152Oz84AlZ8hXcFJHo8kdDd3gRTuwle4_C8id6fL4v68tytQH-wUoBf3JlwmYALQ6ufgfqNR&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70fnS71AbWygHRdY2qP2tYiW-xl9ZB8CD7F-LNzZWxb5-o8-IxncYFM4p6JfDqnDHH-2wsZzqbdCOOoJHlgHC2bUImy8HZxZfYojJTFyBT1hhYqDlzdhf-r46M6c2NQ0sspxIPf&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71K1PhsEYHGX8kNheehh7k8wjuNtNrS90E0mpP60z5t-3zUdLJFQSvlLAKnOeEZigM5mbESLl9hA6wdvFerMRV0cOOh5iHUv_kNmUr1Vd04CjOYrWsshI4evTLra43u55NRx26a&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72latSOmmuPL04lUbEpnXACCDNDvBijelsN3s0uoNycj5VItTSTe18MRP-kYAbEH-XiK-WBOGtZLNMEIrMkNYjnQmTRyx4LawtPJ_hzKrp_dVoQDvPZnOrml3Bd1rC1b3A1dHof&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE721k0aiP5j8qnUOvTifwyamFnoZds3mnvkRd7kaUPYzQrSwd2-rsepLD4arLGVDcz2qhWalOHNuwry5TgTxcRaOuYQgexKIutsOKELDPSRr4_k0ReKENHkAIsrhD6PQe7U-NO9F&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72U98fsb2E5uLg4t2fh2F6anRVhXQtl5r-mEq8hpQrDLEZBonC5IyM8BddUlrybp5ANjYZ1sSIjLC3jd82SclaRneA3XSTEoQSeXnX5MYUkLl3fVYZ5i6z61WBpczUfrg9WPufZ&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LJAgF3aibwJ-Ex4Y4QDkrMlCPt_a4K-BwA3m29DhnyAFqKsClYpSbFir1KGt_1klJc7zbYcbX-Dimcpl_0TsbDJsGLnRdJTmBBiWAiTQ-N37rHjsXcEJf9wAQNDKYGi-amb0X&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72hjsXqmG6V7msaG3gDI0OycNhyQvgvuF-nSWRnwEyR__MaEOkbctg2mWB4s4pFIPsa2Rx3w143GSLbrn2QsWPMsBIWOtS42zopGPJEjN5p5uzme6JUHrEx5wSGy7fuW4gm7F4y&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71wDBOELPlplPnFlX7xetfklPlBYJeLBaFQpf5PtFV5yL__st-5l37nJWbhtULP-yPaV26OAZJjaFFjTRnptv5uH5Skj1AaaFu7aY66IOlYSklT1779vQJcfNNBPNh09RfgTCWB&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=ts-eDwAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=N43_DwAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=ts-eDwAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=N43_DwAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=ts-eDwAAQBAJ",
+        "https://play.google.com/store/books/details?id=N43_DwAAQBAJ",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "5" }] },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
     saleInfo: {
       country: "US",
       saleability: "FOR_SALE",
       isEbook: true,
-      listPrice: { amount: 15.99, currencyCode: "USD" },
-      retailPrice: { amount: 15.99, currencyCode: "USD" },
+      listPrice: { amount: 11.99, currencyCode: "USD" },
+      retailPrice: { amount: 11.99, currencyCode: "USD" },
       buyLink:
-        "https://play.google.com/store/books/details?id=ts-eDwAAQBAJ&rdid=book-ts-eDwAAQBAJ&rdot=1&source=gbs_api",
+        "https://play.google.com/store/books/details?id=N43_DwAAQBAJ&rdid=book-N43_DwAAQBAJ&rdot=1&source=gbs_api",
       offers: [
         {
           finskyOfferType: 1,
-          listPrice: { amountInMicros: 15990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 15990000, currencyCode: "USD" },
+          listPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11990000, currencyCode: "USD" },
           giftable: true,
         },
       ],
@@ -529,11 +607,15 @@ const bestsellerList = [
       epub: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/Triggered-sample-epub.acsm?id=ts-eDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/Natalie_Portman_s_Fables-sample-epub.acsm?id=N43_DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
-      pdf: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Natalie_Portman_s_Fables-sample-pdf.acsm?id=N43_DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       webReaderLink:
-        "http://play.google.com/books/reader?id=ts-eDwAAQBAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=N43_DwAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
@@ -541,9 +623,10 @@ const bestsellerList = [
       width: 575,
       height: 750,
       image:
-        "http://books.google.com/books/publisher/content?id=ts-eDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72hjsXqmG6V7msaG3gDI0OycNhyQvgvuF-nSWRnwEyR__MaEOkbctg2mWB4s4pFIPsa2Rx3w143GSLbrn2QsWPMsBIWOtS42zopGPJEjN5p5uzme6JUHrEx5wSGy7fuW4gm7F4y&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71wDBOELPlplPnFlX7xetfklPlBYJeLBaFQpf5PtFV5yL__st-5l37nJWbhtULP-yPaV26OAZJjaFFjTRnptv5uH5Skj1AaaFu7aY66IOlYSklT1779vQJcfNNBPNh09RfgTCWB&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "cWG3EAAAQBAJ",
@@ -723,6 +806,77 @@ const bestsellerList = [
       height: 750,
       image:
         "http://books.google.com/books/publisher/content?id=13kyEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71_4_K9vNLyYIJhv6h2ag6brG4xAbyc45Kqchyj461DjobyxmHfwuz-6vKc0Int966ApfEzc5Bh68zda36fexfsg8PoGSUDUmI6DWIy3iJzhxGMPEKzuyz9VEy0PeISi5RKUsDo&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "2v3k0AEACAAJ",
+    etag: "B3foC+Pmuww",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/2v3k0AEACAAJ",
+    volumeInfo: {
+      title: "Reese Witherspoon Harlan Coben Novel",
+      authors: ["Reese Witherspoon", "Harlan Coben"],
+      publisher: "Grand Central Publishing",
+      publishedDate: "2025-10-14",
+      description:
+        "<b>The first collaborative novel by Oscar-winning actor, producer, <i>New York Times</i> bestselling author and Reese's Book Club/Hello Sunshine founder Reese Witherspoon and # 1 international bestselling author and TV creator Harlan Coben.</b>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1538774704" },
+        { type: "ISBN_13", identifier: "9781538774700" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 352,
+      printedPageCount: 352,
+      dimensions: {
+        height: "22.90 cm",
+        width: "15.20 cm",
+        thickness: "2.90 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Thrillers / Suspense",
+        "Fiction / Thrillers / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=2v3k0AEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE72qH7KFmj0E3n8n7OBHFBUWIcKCr7kYoSQFNmRP18X7y8k9wi7zefXpCsLOKgreXGY0SCoFVS8O7HoNLZJNR9oR_lXe4ALealjFgxOASvnkfK2xHIcwo9Vn6sIsgrZ4gayYQowW&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=2v3k0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73tAu6kvMoLapIel6BuRhqO2fqD7jwBKBzsibhFfCox2IINfS1532OmnfZYTpS7uw4NagIxnhqH5pcTXQm--O68IZIHtB6iYFOTQPXjJgpr8YlDkZu1c2T8fF2yryrhW3qSWcRO&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=2v3k0AEACAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=2v3k0AEACAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=2v3k0AEACAAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=2v3k0AEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 193,
+      image:
+        "http://books.google.com/books/content?id=2v3k0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73tAu6kvMoLapIel6BuRhqO2fqD7jwBKBzsibhFfCox2IINfS1532OmnfZYTpS7uw4NagIxnhqH5pcTXQm--O68IZIHtB6iYFOTQPXjJgpr8YlDkZu1c2T8fF2yryrhW3qSWcRO&source=gbs_api",
     },
   },
 ];
