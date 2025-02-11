@@ -13,7 +13,6 @@ import ExpandableImage from "../components/ExpandableImage";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
-import HTMLRenderer from "react-html-renderer";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
