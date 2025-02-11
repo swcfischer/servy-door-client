@@ -48,7 +48,7 @@ const StyledContainer = styled(Container)`
       right: 10px;
       bottom: 10px;
       font-family: Tangerine;
-      font-size: 24px;
+      font-size: 18px;
       opacity: 0.3;
       text-decoration: none;
       color: #fff;
@@ -134,7 +134,7 @@ const Layout = ({ children }) => {
                 <TiltedTile text="ServyDoor" to="/" />
               </div>
               <div className="nav-links">
-                <TiltedTile text="Social" to="/social" />
+                {/* <TiltedTile text="Social" to="/social" /> */}
                 <TiltedTile text="Library" to="/library" />
                 <TiltedTile text="Account" to="/account" />
               </div>
@@ -148,10 +148,10 @@ const Layout = ({ children }) => {
             </Typography>
             <a
               target="_blank"
-              href="https://www.stevefischer.dev/"
+              href="https://github.com/swcfischer"
               id="attribution"
             >
-              By Steve Fischer
+              Steve Fischer
             </a>
           </footer>
         </StyledContainer>

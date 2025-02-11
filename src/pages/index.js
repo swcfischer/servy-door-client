@@ -10,6 +10,7 @@ import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
+import bestsellerList from "../constants/bestsellers";
 
 const EmotionContainer = styled.div`
   .search-book-list {
@@ -196,16 +197,33 @@ export default function Index(props) {
           </div>
 
           <div style={{ minHeight: "80vh", paddingTop: "30px" }}>
-            <div className="book-list-container">
-              {books.slice(0, itemsPerPage).map(({ id, volumeInfo }) => (
-                <BookItem
-                  key={id}
-                  volumeInfo={volumeInfo}
-                  id={id}
-                  to={`/book?id=${id}`}
-                />
-              ))}
-            </div>
+            {wasSearchDone(books, q, params) ? (
+              <div className="book-list-container">
+                {books.slice(0, itemsPerPage).map(({ id, volumeInfo }) => (
+                  <BookItem
+                    key={id}
+                    volumeInfo={volumeInfo}
+                    id={id}
+                    to={`/book?id=${id}`}
+                  />
+                ))}
+              </div>
+            ) : (
+              <>
+                <h2 style={{ paddingTop: "0", marginTop: "0" }}>Bestsellers</h2>
+
+                <div className="book-list-container">
+                  {bestsellerList.map(({ id, volumeInfo }) => (
+                    <BookItem
+                      key={id}
+                      volumeInfo={volumeInfo}
+                      id={id}
+                      to={`/book?id=${id}`}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         </Box>
 
@@ -240,6 +258,10 @@ export default function Index(props) {
       </Container>
     </EmotionContainer>
   );
+}
+
+function wasSearchDone(books, query, params) {
+  return books.length > 0 || params.toString().length > 0;
 }
 
 export function removeSearchOperators(str) {

@@ -107,6 +107,9 @@ function Book(props) {
 
   const isbn = state.volumeInfo?.industryIdentifiers[0].identifier;
 
+  const bookTitle = encodeURIComponent(state.volumeInfo.title);
+  const bookAuthor = encodeURIComponent(state.volumeInfo.authors.join(", "));
+
   return (
     <Container className="fade-in">
       <div className="btn-container">
@@ -127,6 +130,7 @@ function Book(props) {
               const { data } = await axiosInstance.post(
                 "/books/create-book/" + user.uuid,
                 {
+                  googleId: state.id,
                   title: state.volumeInfo.title,
                   image: state.img.image,
                   volumeInfo: state.volumeInfo,
@@ -150,6 +154,16 @@ function Book(props) {
         >
           Read
         </button>
+        {process.env.NODE_ENV === "development" && (
+          <button
+            onClick={() => {
+              navigator.clipboard.writeText(JSON.stringify(state));
+              alert("State copied to clipboard!");
+            }}
+          >
+            Copy Data
+          </button>
+        )}
       </div>
       <h1
         style={{
@@ -182,7 +196,7 @@ function Book(props) {
             <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
-            <dt>Google Books</dt>
+            <dt>Google Preview</dt>
             <dd>
               <a
                 href={state.volumeInfo.previewLink}
@@ -192,25 +206,17 @@ function Book(props) {
                 Here
               </a>
             </dd>
-            <dt>Google Play</dt>
-            <dd>
-              <a
-                href={state.volumeInfo.infoLink}
-                rel="noreferrer"
-                target="_blank"
-              >
-                Here
-              </a>
-            </dd>
-
             <GoogleBook
               title={state.volumeInfo.title}
               author={state.volumeInfo.authors.join(", ")}
             />
             <dt>Amazon</dt>
             <dd>
-              {/* Turn into affiliate link */}
-              <a href={`https://www.amazon.com/dp/${isbn}`}>Here</a>
+              <a
+                href={`https://www.amazon.com/s/?k=${bookTitle}+${bookAuthor}`}
+              >
+                Here
+              </a>
             </dd>
           </dl>
         </div>

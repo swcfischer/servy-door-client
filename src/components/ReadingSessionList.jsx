@@ -14,21 +14,18 @@ const Container = styled.a`
     .reading-session__details {
       color: rgba(0, 0, 0, 0.7);
     }
+  }
 
-    .reading-session__notes {
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      color: #000;
+  &.selected {
+    .reading-session__details {
+      font-weight: bold;
     }
   }
 `;
 
 function ReadingSessionList(props) {
   // * add state management for reading session index
-  const { readingSessions, setReadingSessionIdx } = props;
+  const { readingSessions, setReadingSessionIdx, readingSessionIdx } = props;
 
   const handleClick = (_idx) => (e) => {
     e.preventDefault();
@@ -36,17 +33,22 @@ function ReadingSessionList(props) {
   };
 
   return readingSessions.map((readingSession, idx) => {
+    if (!readingSession.pageRange) {
+      return null;
+    }
     const pageStart = readingSession.pageRange[0];
     const pageEnd = readingSession.pageRange[1];
 
     return (
-      <Container onClick={handleClick(idx)} className="reading-session">
+      <Container
+        onClick={handleClick(idx)}
+        className={`reading-session ${
+          readingSessionIdx === idx ? "selected" : ""
+        }`}
+      >
         <p className="reading-session__details">
-          {pageStart} to {pageEnd}
-          <br /> {formatDate(readingSession.date)}
+          {pageStart} to {pageEnd}, {formatDate(readingSession.date)}
         </p>
-        <p className="reading-session__notes">{readingSession.notes}</p>
-        ---
       </Container>
     );
   });

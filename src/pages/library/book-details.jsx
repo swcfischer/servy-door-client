@@ -9,7 +9,7 @@ import {
   createGooglePublisherLink,
 } from "../../utils/createLinks";
 import { navigate } from "gatsby";
-import ActionButton from "../../components/ActionButton";
+import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
 
@@ -121,14 +121,24 @@ function BookDetails(props) {
       const resSession = await axiosInstance.get(
         `/reading-sessions/all/${user.uuid}/${id}`
       );
-      setBook(res.data);
-      setReadingSessions(resSession.data);
 
       if (!resSession.data.length) {
-        setPageRange([1, pagesPerDay]);
+        const _pageRange = [1, pagesPerDay];
+        const { data: newReadingSession } = await axiosInstance.post(
+          `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
+          {
+            pageRange: _pageRange,
+          }
+        );
+
+        setReadingSessions([newReadingSession]);
+        setPageRange(_pageRange);
       } else {
+        setReadingSessions(resSession.data);
         setPageRange(resSession.data[0].pageRange);
       }
+
+      setBook(res.data);
       setIsLoading(false);
     }
     if (user?.uuid && id) {
@@ -148,11 +158,49 @@ function BookDetails(props) {
     }
   }, [textArea.current, isLoading]);
 
+  useEffect(() => {
+    if (readingSessions.length > 0) {
+      setPageRange(readingSessions[readingSessionIdx].pageRange);
+    }
+  }, [readingSessionIdx, readingSessions]);
+
   if (isLoading) {
     return <LoadingSpinner />;
   }
 
   const curSession = readingSessions[readingSessionIdx];
+
+  const handleSave = async (e) => {
+    const notes = document.querySelector("textarea").value;
+    if (notes.trim() === "") {
+      alert("Notes cannot be empty");
+      return;
+    }
+
+    try {
+      await axiosInstance.post(
+        `/reading-sessions/save-reading-session/${user.uuid}/${id}`,
+        {
+          notes: notes,
+          sessionUuid: curSession.uuid,
+          pageRange,
+        }
+      );
+
+      const updatedSessions = [...readingSessions];
+      updatedSessions[readingSessionIdx] = {
+        ...updatedSessions[readingSessionIdx],
+        notes: notes,
+        pageRange,
+      };
+      setReadingSessions(updatedSessions);
+
+      alert("Notes saved successfully!");
+    } catch (err) {
+      console.error("There was an error saving the notes!", err);
+      alert("Failed to save notes. Please try again.");
+    }
+  };
 
   return (
     <Container>
@@ -209,7 +257,12 @@ function BookDetails(props) {
 
       <div className="notes-section">
         <div className="notes-header">
-          <PageRange setPageRange={setPageRange} pageRange={pageRange} />
+          <PageRange
+            setReadingSessions={setReadingSessionIdx}
+            readingSessionIdx={readingSessionIdx}
+            setPageRange={setPageRange}
+            pageRange={pageRange}
+          />
 
           <ActionButton
             options={[
@@ -245,6 +298,13 @@ function BookDetails(props) {
                     return;
                   }
 
+                  if (readingSessionIdx !== readingSessions.length - 1) {
+                    alert(
+                      "You can only create a new reading session from the latest session."
+                    );
+                    return;
+                  }
+
                   try {
                     // Save current reading session
                     await axiosInstance.post(
@@ -270,7 +330,12 @@ function BookDetails(props) {
                         }
                       );
 
-                    setReadingSessions([newReadingSession, ...readingSessions]);
+                    const updatedSessions = [...readingSessions];
+                    updatedSessions[readingSessionIdx] = {
+                      ...updatedSessions[readingSessionIdx],
+                      pageRange,
+                    };
+                    setReadingSessions([newReadingSession, ...updatedSessions]);
 
                     document.querySelector("textarea").value = "";
                     alert("Reading session saved and new session created!");
@@ -283,6 +348,16 @@ function BookDetails(props) {
                   }
                 },
               },
+              {
+                label: "Go to Book Details Pages",
+                action: () => navigate(`/book?id=${book.googleId}`),
+              },
+              {
+                label: "Correct grammar and punctuation",
+                action() {
+                  console.log("action");
+                },
+              },
             ]}
           />
         </div>
@@ -290,44 +365,27 @@ function BookDetails(props) {
           ref={textArea}
           rows="10"
           cols="50"
+          onChange={(e) => {
+            const updatedSessions = [...readingSessions];
+            updatedSessions[readingSessionIdx] = {
+              ...updatedSessions[readingSessionIdx],
+              notes: e.target.value,
+            };
+            setReadingSessions(updatedSessions);
+          }}
           placeholder="Write your notes here..."
-          defaultValue={curSession?.notes ?? ""}
+          value={readingSessions[readingSessionIdx]?.notes ?? ""}
           style={{ resize: "none" }}
         ></textarea>
       </div>
       <div className="button-container">
-        {/* Will have to add functionality */}
-        <button
-          onClick={async (e) => {
-            const notes = document.querySelector("textarea").value;
-            if (notes.trim() === "") {
-              alert("Notes cannot be empty");
-              return;
-            }
-
-            try {
-              await axiosInstance.post(
-                `/reading-sessions/save-reading-session/${user.uuid}/${id}`,
-                {
-                  notes: notes,
-                  sessionUuid: curSession.uuid,
-                  pageRange,
-                }
-              );
-
-              alert("Notes saved successfully!");
-            } catch (err) {
-              console.error("There was an error saving the notes!", err);
-              alert("Failed to save notes. Please try again.");
-            }
-          }}
-          style={{ marginRight: "12px" }}
-        >
+        <button onClick={handleSave} style={{ marginRight: "12px" }}>
           Save Notes
         </button>
       </div>
       <h3>Reading Sessions</h3>
       <ReadingSessionList
+        readingSessionIdx={readingSessionIdx}
         setReadingSessionIdx={setReadingSessionIdx}
         readingSessions={readingSessions}
       />

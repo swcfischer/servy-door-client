@@ -2,7 +2,7 @@ import React from "react";
 import { Tooltip } from "@mui/material";
 
 function PageRange(props) {
-  const { pageRange, setPageRange } = props;
+  const { pageRange = [1, 20], setPageRange } = props;
 
   return (
     <h2>
@@ -22,7 +22,7 @@ function PageRange(props) {
         -{" "}
         <input
           type="number"
-          value={pageRange[1] || 20}
+          value={pageRange[1]}
           min={Math.max(0, pageRange[0])}
           onChange={(e) =>
             setPageRange([pageRange[0], Math.max(0, Number(e.target.value))])
