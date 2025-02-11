@@ -18,7 +18,7 @@ const Container = styled.a`
 
   &.selected {
     .reading-session__details {
-      font-weight: bold;
+      text-decoration: underline;
     }
   }
 `;

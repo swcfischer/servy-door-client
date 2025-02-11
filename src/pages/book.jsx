@@ -13,6 +13,7 @@ import ExpandableImage from "../components/ExpandableImage";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
+import HTMLRenderer from "react-html-renderer";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -196,7 +197,7 @@ function Book(props) {
             <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
-            <dt>Google Preview</dt>
+            <dt>Preview</dt>
             <dd>
               <a
                 href={state.volumeInfo.previewLink}
@@ -228,5 +229,12 @@ function Book(props) {
     </Container>
   );
 }
+
+/*
+
+        <div>
+          <HTMLRenderer html={state.volumeInfo.description} />
+        </div>
+*/
 
 export default Book;
