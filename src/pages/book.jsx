@@ -230,11 +230,4 @@ function Book(props) {
   );
 }
 
-/*
-
-        <div>
-          <HTMLRenderer html={state.volumeInfo.description} />
-        </div>
-*/
-
 export default Book;
