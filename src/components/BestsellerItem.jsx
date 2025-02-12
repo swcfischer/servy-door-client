@@ -109,15 +109,14 @@ function ImageCard(props) {
   const { imageUrl, title } = props;
 
   return (
-    <CardMedia
-      component="img"
-      image={imageUrl}
+    <img
+      src={imageUrl}
       alt={title}
-      sx={{
+      style={{
         objectFit: "contain",
-        pt: 2,
-        width: "100px",
-        height: "150px",
+        paddingTop: "16px",
+        width: "102px",
+        height: "154px",
         color: "#fafafa",
         borderRadius: "3px",
         border: "solid 1px #999",
