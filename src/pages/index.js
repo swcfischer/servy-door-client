@@ -11,6 +11,7 @@ import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
 import bestsellerList from "../constants/bestsellers";
+import BestsellerItem from "../components/BestsellerItem";
 
 const EmotionContainer = styled.div`
   .search-book-list {
@@ -214,7 +215,7 @@ export default function Index(props) {
 
                 <div className="book-list-container">
                   {bestsellerList.map(({ id, volumeInfo }) => (
-                    <BookItem
+                    <BestsellerItem
                       key={id}
                       volumeInfo={volumeInfo}
                       id={id}

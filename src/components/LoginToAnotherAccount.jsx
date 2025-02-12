@@ -1,11 +1,13 @@
 import React from "react";
-import { UserContext } from "../components/Layout";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { Tooltip } from "@mui/material";
 import styled from "@emotion/styled";
 
-const Container = styled.div``;
+const Container = styled.div`
+  label {
+    font-weight: bold;
+  }
+`;
 
 function LoginToAnotherAccount(props) {
   const initialValues = {
