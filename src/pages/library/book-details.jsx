@@ -12,6 +12,7 @@ import { navigate } from "gatsby";
 import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
+import { Snackbar } from "@mui/material";
 
 const Container = styled.div`
   .book-details {
@@ -106,6 +107,12 @@ function BookDetails(props) {
   const id = params.get("id");
 
   const { user } = useContext(UserContext);
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState("");
+
+  const handleSnackbarClose = () => {
+    setSnackbarOpen(false);
+  };
 
   const [book, setBook] = useState({});
   const [readingSessions, setReadingSessions] = useState({});
@@ -195,7 +202,8 @@ function BookDetails(props) {
       };
       setReadingSessions(updatedSessions);
 
-      alert("Notes saved successfully!");
+      setSnackbarMessage("Notes successfully saved.");
+      setSnackbarOpen(true);
     } catch (err) {
       console.error("There was an error saving the notes!", err);
       alert("Failed to save notes. Please try again.");
@@ -388,6 +396,13 @@ function BookDetails(props) {
         readingSessionIdx={readingSessionIdx}
         setReadingSessionIdx={setReadingSessionIdx}
         readingSessions={readingSessions}
+      />
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+        open={snackbarOpen}
+        onClose={handleSnackbarClose}
+        message={snackbarMessage}
+        autoHideDuration={3000}
       />
     </Container>
   );
