@@ -66,6 +66,17 @@ const Container = styled.div`
     max-width: 450px;
     float: left;
   }
+
+  @media (max-width: 768px) {
+    .content-container {
+      flex-direction: column;
+
+      .description {
+        max-width: 290px;
+        margin: 0 auto;
+      }
+    }
+  }
 `;
 
 function Book(props) {
@@ -173,7 +184,7 @@ function Book(props) {
       >
         {state.volumeInfo.title}
       </h1>
-      <div style={{ display: "flex" }}>
+      <div className="content-container" style={{ display: "flex" }}>
         <div>
           <ExpandableImage state={state} />
           <dl style={{ maxWidth: "210px" }}>
