@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import styled from "@emotion/styled";
+import axiosInstance from "../axiosInstance";
+import { UserContext } from "./Layout";
 
 const Container = styled.div`
   label {
@@ -10,6 +12,7 @@ const Container = styled.div`
 `;
 
 function LoginToAnotherAccount(props) {
+  const { user, setUser } = useContext(UserContext);
   const initialValues = {
     accountName: "",
     password: "",
@@ -21,7 +24,20 @@ function LoginToAnotherAccount(props) {
   });
 
   const onSubmit = (values, { setSubmitting }) => {
-    console.log("Login data", values);
+    axiosInstance
+      .post("/users/login", values)
+      .then((response) => {
+        const { token } = response.data;
+        window.localStorage.setItem("token", token);
+
+        setUser({ ...user, ...response.data.user });
+        // Handle successful login here (e.g., redirect, store token, etc.)
+      })
+      .catch((error) => {
+        console.error("Login error", error);
+        // Handle login error here (e.g., show error message)
+      });
+
     setSubmitting(false);
   };
 

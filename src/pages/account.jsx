@@ -5,6 +5,8 @@ import * as Yup from "yup";
 import { Tooltip } from "@mui/material";
 import styled from "@emotion/styled";
 import LoginToAnotherAccount from "../components/LoginToAnotherAccount";
+import axios from "axios";
+import axiosInstance from "../axiosInstance";
 
 const Container = styled.div`
   .form-group {
@@ -48,6 +50,7 @@ const Container = styled.div`
 
 function Accounts(props) {
   const { user } = useContext(UserContext);
+  console.log("🚀 ~ Accounts ~ user:", user);
 
   const initialValues = {
     accountName: "",
@@ -67,8 +70,23 @@ function Accounts(props) {
   });
 
   const onSubmit = (values, { setSubmitting }) => {
-    console.log(values);
     setSubmitting(false);
+    axiosInstance
+      .post("/users/set-password-secret-account", {
+        ...values,
+        token: window.localStorage.getItem("token"),
+      })
+      .then((response) => {
+        console.log("Success:", response.data);
+        // Handle success, e.g., show a success message or redirect
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        // Handle error, e.g., show an error message
+      })
+      .finally(() => {
+        setSubmitting(false);
+      });
   };
 
   return (
