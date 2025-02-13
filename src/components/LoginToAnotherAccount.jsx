@@ -30,6 +30,10 @@ function LoginToAnotherAccount(props) {
         const { token } = response.data;
         window.localStorage.setItem("token", token);
 
+        axiosInstance.defaults.headers.common[
+          "Authorization"
+        ] = `Bearer ${token}`;
+
         setUser({ ...user, ...response.data.user });
         // Handle successful login here (e.g., redirect, store token, etc.)
       })
