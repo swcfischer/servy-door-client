@@ -306,7 +306,7 @@ function BookDetails(props) {
                     return;
                   }
 
-                  if (readingSessionIdx !== readingSessions.length - 1) {
+                  if (readingSessionIdx === readingSessions.length - 1) {
                     alert(
                       "You can only create a new reading session from the latest session."
                     );
@@ -346,7 +346,10 @@ function BookDetails(props) {
                     setReadingSessions([newReadingSession, ...updatedSessions]);
 
                     document.querySelector("textarea").value = "";
-                    alert("Reading session saved and new session created!");
+                    setSnackbarMessage(
+                      "Reading session saved and new session created!"
+                    );
+                    setSnackbarOpen(true);
                   } catch (err) {
                     console.error(
                       "There was an error saving the reading session!",
