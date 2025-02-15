@@ -72,7 +72,7 @@ export default function Index(props) {
   const [q, setQ] = useState(qParam);
   const [totalItems, setTotalItems] = useState(0);
   const [searchFilter, setSearchFilter] = useState(searchFilterObj);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchBooks = async () => {
