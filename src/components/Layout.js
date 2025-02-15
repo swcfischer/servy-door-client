@@ -146,7 +146,11 @@ const Layout = ({ children }) => {
             <Typography variant="body2" className="typography">
               ServyDoor{" "}
             </Typography>
-            <a target="_blank" href="https://stevefischer.dev" id="attribution">
+            <a
+              target="_blank"
+              href="https://github.com/swcfischer"
+              id="attribution"
+            >
               Steve Fischer
             </a>
           </footer>

@@ -394,7 +394,6 @@ function BookDetails(props) {
           Save Notes
         </button>
       </div>
-      <h3>Reading Sessions</h3>
       <ReadingSessionList
         readingSessionIdx={readingSessionIdx}
         setReadingSessionIdx={setReadingSessionIdx}

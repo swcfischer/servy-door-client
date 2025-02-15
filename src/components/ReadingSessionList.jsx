@@ -46,6 +46,7 @@ function ReadingSessionList(props) {
           readingSessionIdx === idx ? "selected" : ""
         }`}
       >
+        <h3>Reading Sessions</h3>
         <p className="reading-session__details">
           {pageStart} to {pageEnd}, {formatDate(readingSession.date)}
         </p>

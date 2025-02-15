@@ -10,8 +10,7 @@ import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
-import bestsellerList from "../constants/bestsellers";
-import BestsellerItem from "../components/BestsellerItem";
+import BestSellerList from "../components/BestSellerList";
 
 const EmotionContainer = styled.div`
   .search-book-list {
@@ -73,9 +72,11 @@ export default function Index(props) {
   const [q, setQ] = useState(qParam);
   const [totalItems, setTotalItems] = useState(0);
   const [searchFilter, setSearchFilter] = useState(searchFilterObj);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const fetchBooks = async () => {
+      setIsLoading(true);
       const getPath =
         volumesGet +
         "?" +
@@ -90,6 +91,8 @@ export default function Index(props) {
         setTotalItems(response.data.totalItems);
       } catch (error) {
         console.error("Error fetching books:", error);
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -210,20 +213,7 @@ export default function Index(props) {
                 ))}
               </div>
             ) : (
-              <>
-                <h2 style={{ paddingTop: "0", marginTop: "0" }}>Bestsellers</h2>
-
-                <div className="book-list-container">
-                  {bestsellerList.map(({ id, volumeInfo }) => (
-                    <BestsellerItem
-                      key={id}
-                      volumeInfo={volumeInfo}
-                      id={id}
-                      to={`/book?id=${id}`}
-                    />
-                  ))}
-                </div>
-              </>
+              <BestSellerList isLoading={isLoading} />
             )}
           </div>
         </Box>
