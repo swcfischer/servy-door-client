@@ -5,7 +5,6 @@ import * as Yup from "yup";
 import { Tooltip } from "@mui/material";
 import styled from "@emotion/styled";
 import LoginToAnotherAccount from "../components/LoginToAnotherAccount";
-import axios from "axios";
 import axiosInstance from "../axiosInstance";
 
 const Container = styled.div`
@@ -50,7 +49,6 @@ const Container = styled.div`
 
 function Accounts(props) {
   const { user } = useContext(UserContext);
-  console.log("🚀 ~ Accounts ~ user:", user);
 
   const initialValues = {
     accountName: "",

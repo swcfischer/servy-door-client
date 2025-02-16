@@ -101,6 +101,7 @@ export default function Index(props) {
     } else {
       setBooks([]);
       setTotalItems(0);
+      setIsLoading(false);
     }
   }, [q, pageParam, searchFilter?.value]);
 

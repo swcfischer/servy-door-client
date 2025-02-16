@@ -11,7 +11,7 @@ const Container = styled.div`
 function BestSellerList(props) {
   const { isLoading } = props;
   return (
-    <Container>
+    <Container isLoading={isLoading}>
       <h2 style={{ paddingTop: "0", marginTop: "0" }}>Bestsellers</h2>
 
       <div className="book-list-container">
