@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import bestsellerList from "../constants/bestsellers";
 import BestsellerItem from "./BestsellerItem";
-import { BsDoorOpen } from "react-icons/bs";
+import { LiaDoorOpenSolid } from "react-icons/lia";
 
 const Container = styled.div`
   transition: opacity 0.5s ease-in-out;
@@ -23,9 +23,12 @@ const Container = styled.div`
       display: inline-block;
       padding-left: 12px;
       padding-right: 12px;
-      font-size: 22px;
+      font-size: 42px;
       width: min-content;
       margin: 0 auto;
+      svg {
+        fill: rgba(0, 0, 0, 0.2);
+      }
     }
   }
 `;
@@ -37,11 +40,11 @@ function BestSellerList(props) {
     <Container className="bestseller-list" isLoading={isLoading}>
       <h2 className="besterseller-list__title">
         <span className="bestseller-list__icon">
-          <BsDoorOpen />
+          <LiaDoorOpenSolid />
         </span>
         Reading Opens Doors!
         <span className="bestseller-list__icon">
-          <BsDoorOpen />
+          <LiaDoorOpenSolid />
         </span>
       </h2>
 
