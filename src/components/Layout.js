@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import TiltedTile from "./TiltedTile";
 import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
+import { Link } from "gatsby";
 
 const StyledContainer = styled(Container)`
   background: #fafafa;
@@ -65,6 +66,27 @@ const StyledContainer = styled(Container)`
     margin: 0 auto;
     border-radius: 3px;
     border: 1px solid #fff;
+  }
+
+  .footer-links {
+    width: 125px;
+    text-align: left;
+    margin: 30px auto;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      padding: 0 0 8px 8px;
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 `;
 
@@ -146,13 +168,27 @@ const Layout = ({ children }) => {
             <Typography variant="body2" className="typography">
               ServyDoor{" "}
             </Typography>
-            <a
+            {/* <a
               target="_blank"
               href="https://github.com/swcfischer"
               id="attribution"
             >
               Steve Fischer
-            </a>
+            </a> */}
+            <ul className="footer-links">
+              <li>
+                <Link to="/tos">Terms of Service</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/account">Account</Link>
+              </li>
+              <li>
+                <Link to="/library">Library</Link>
+              </li>
+            </ul>
           </footer>
         </StyledContainer>
       </StateContext.Provider>

@@ -22,7 +22,10 @@ const Container = styled.div`
       top: 4px;
       display: inline-block;
       padding-left: 12px;
-      font-size: 28px;
+      padding-right: 12px;
+      font-size: 22px;
+      width: min-content;
+      margin: 0 auto;
     }
   }
 `;
@@ -33,6 +36,9 @@ function BestSellerList(props) {
   return (
     <Container className="bestseller-list" isLoading={isLoading}>
       <h2 className="besterseller-list__title">
+        <span className="bestseller-list__icon">
+          <BsDoorOpen />
+        </span>
         Reading Opens Doors!
         <span className="bestseller-list__icon">
           <BsDoorOpen />

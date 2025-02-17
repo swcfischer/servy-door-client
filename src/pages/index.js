@@ -75,6 +75,14 @@ export default function Index(props) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    if (qParam === "") {
+      setBooks([]);
+      setTotalItems(0);
+      setQ("");
+    }
+  }, [qParam, q]);
+
+  useEffect(() => {
     const fetchBooks = async () => {
       setIsLoading(true);
       const getPath =
