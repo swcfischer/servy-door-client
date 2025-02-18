@@ -2,7 +2,6 @@ import React from "react";
 import styled from "@emotion/styled";
 import bestsellerList from "../constants/bestsellers";
 import BestsellerItem from "./BestsellerItem";
-import { LiaDoorOpenSolid } from "react-icons/lia";
 
 const Container = styled.div`
   transition: opacity 0.5s ease-in-out;
@@ -14,22 +13,9 @@ const Container = styled.div`
     font-style: italic;
     font-weight: normal;
     font-size: 32px;
-    display: flex;
     align-items: center;
-
-    .bestseller-list__icon {
-      position: relative;
-      top: 4px;
-      display: inline-block;
-      padding-left: 12px;
-      padding-right: 12px;
-      font-size: 42px;
-      width: min-content;
-      margin: 0 auto;
-      svg {
-        fill: rgba(0, 0, 0, 0.2);
-      }
-    }
+    text-align: center;
+    width: 100%;
   }
 `;
 
@@ -38,15 +24,7 @@ function BestSellerList(props) {
 
   return (
     <Container className="bestseller-list" isLoading={isLoading}>
-      <h2 className="besterseller-list__title">
-        <span className="bestseller-list__icon">
-          <LiaDoorOpenSolid />
-        </span>
-        Reading Opens Doors!
-        <span className="bestseller-list__icon">
-          <LiaDoorOpenSolid />
-        </span>
-      </h2>
+      <h2 className="besterseller-list__title">Reading Opens Doors!</h2>
 
       <div className="book-list-container">
         {bestsellerList.map(({ id, volumeInfo }) => (
