@@ -32,27 +32,31 @@ function ReadingSessionList(props) {
     setReadingSessionIdx(_idx);
   };
 
-  return readingSessions.map((readingSession, idx) => {
-    if (!readingSession.pageRange) {
-      return null;
-    }
-    const pageStart = readingSession.pageRange[0];
-    const pageEnd = readingSession.pageRange[1];
+  return (
+    <>
+      <h3>Reading Sessions</h3>
+      {readingSessions.map((readingSession, idx) => {
+        if (!readingSession.pageRange) {
+          return null;
+        }
+        const pageStart = readingSession.pageRange[0];
+        const pageEnd = readingSession.pageRange[1];
 
-    return (
-      <Container
-        onClick={handleClick(idx)}
-        className={`reading-session ${
-          readingSessionIdx === idx ? "selected" : ""
-        }`}
-      >
-        <h3>Reading Sessions</h3>
-        <p className="reading-session__details">
-          {pageStart} to {pageEnd}, {formatDate(readingSession.date)}
-        </p>
-      </Container>
-    );
-  });
+        return (
+          <Container
+            onClick={handleClick(idx)}
+            className={`reading-session ${
+              readingSessionIdx === idx ? "selected" : ""
+            }`}
+          >
+            <p className="reading-session__details">
+              {pageStart} to {pageEnd}, {formatDate(readingSession.date)}
+            </p>
+          </Container>
+        );
+      })}
+    </>
+  );
 }
 
 export default ReadingSessionList;
