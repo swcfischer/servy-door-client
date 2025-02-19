@@ -3,13 +3,23 @@ import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/zoom.css";
 
+/**
+ * ActionButton component renders a dropdown menu with a list of actions.
+ *
+ * @param {Object} props - The properties object.
+ * @param {Array} props.options - An array of option objects for the menu.
+ * @param {string} props.options[].label - The label for the menu item.
+ * @param {Function} props.options[].action - The function to call when the menu item is clicked.
+ *
+ * @returns {JSX.Element} The rendered ActionButton component.
+ */
 function ActionButton(props) {
   const { options } = props;
 
   return (
     <Menu
       menuButton={
-        <MenuButton>
+        <MenuButton style={{ fontFamily: "inherit" }}>
           Actions{" "}
           <span
             style={{

@@ -13,12 +13,14 @@ import ExpandableImage from "../components/ExpandableImage";
 import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
+import ActionButton from "../components/BookDetails/ActionButton";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
 const Container = styled.div`
   .btn-container {
     display: flex;
+    justify-content: space-between;
 
     & > * {
       margin-left: 12px;
@@ -133,48 +135,46 @@ function Book(props) {
         >
           Go Back
         </button>
-        <button
-          className="read-button"
-          onClick={async (e) => {
-            e.preventDefault();
-            try {
-              const { data } = await axiosInstance.post(
-                "/books/create-book/" + user.uuid,
-                {
-                  googleId: state.id,
-                  title: state.volumeInfo.title,
-                  image: state.img.image,
-                  volumeInfo: state.volumeInfo,
-                  pageCount: state.volumeInfo.pageCount,
-                  infoLink: state.volumeInfo.infoLink,
-                  previewLink: state.volumeInfo.previewLink,
-                  publisher: state.volumeInfo.publisher,
-                  datePublished: state.volumeInfo.publishedDate,
-                  author: state.volumeInfo.authors.join(", "),
-                  summary: state.volumeInfo.description,
+        <ActionButton
+          options={[
+            {
+              label: "Read",
+              action: async (e) => {
+                try {
+                  const { data } = await axiosInstance.post(
+                    "/books/create-book/" + user.uuid,
+                    {
+                      googleId: state.id,
+                      title: state.volumeInfo.title,
+                      image: state.img.image,
+                      volumeInfo: state.volumeInfo,
+                      pageCount: state.volumeInfo.pageCount,
+                      infoLink: state.volumeInfo.infoLink,
+                      previewLink: state.volumeInfo.previewLink,
+                      publisher: state.volumeInfo.publisher,
+                      datePublished: state.volumeInfo.publishedDate,
+                      author: state.volumeInfo.authors.join(", "),
+                      summary: state.volumeInfo.description,
+                    }
+                  );
+                  if (data.error) {
+                    return navigate("/library/book-details?id=" + data.uuid);
+                  }
+                  navigate("/library/book-details?id=" + data.uuid);
+                } catch (err) {
+                  console.log(err);
                 }
-              );
-              if (data.error) {
-                return navigate("/library/book-details?id=" + data.uuid);
-              }
-              navigate("/library/book-details?id=" + data.uuid);
-            } catch (err) {
-              console.log(err);
-            }
-          }}
-        >
-          Read
-        </button>
-        {process.env.NODE_ENV === "development" && (
-          <button
-            onClick={() => {
-              navigator.clipboard.writeText(JSON.stringify(state));
-              alert("State copied to clipboard!");
-            }}
-          >
-            Copy Data
-          </button>
-        )}
+              },
+            },
+            {
+              label: "Copy Data",
+              action: () => {
+                navigator.clipboard.writeText(JSON.stringify(state));
+                alert("State copied to clipboard!");
+              },
+            },
+          ]}
+        />
       </div>
       <h1
         style={{

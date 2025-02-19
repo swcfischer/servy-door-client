@@ -31,14 +31,16 @@ function BookItem(props) {
         <Card sx={cardStyles}>
           <ImageCard
             imageUrl={volumeInfo.imageLinks?.thumbnail}
-            title={volumeInfo.title}
+            title={volumeInfo.title || undefined}
           />
           <CardContent sx={{ paddingTop: 0 }}>
             <Typography
               variant="subtitle1"
               sx={{ fontStyle: "italic", lineHeight: 1.2 }}
               className="hover-underline"
-              title={isOver(volumeInfo.title, 40) && volumeInfo.title}
+              title={
+                isOver(volumeInfo.title, 40) ? volumeInfo.title : undefined
+              }
             >
               {handleTitleLength(volumeInfo.title)}
             </Typography>
@@ -48,7 +50,9 @@ function BookItem(props) {
               color="textSecondary"
               className="hover-underline"
               title={
-                volumeInfo.authors?.length > 2 && volumeInfo.authors?.join(", ")
+                volumeInfo.authors?.length > 2
+                  ? volumeInfo.authors?.join(", ")
+                  : undefined
               }
             >
               {volumeInfo.authors?.length > 2 ? (
@@ -62,7 +66,11 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={isOver(volumeInfo.publisher, 40) && volumeInfo.publisher}
+              title={
+                isOver(volumeInfo.publisher, 40)
+                  ? volumeInfo.publisher
+                  : undefined
+              }
             >
               {volumeInfo.publisher}
             </Typography>

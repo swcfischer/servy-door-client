@@ -7,6 +7,7 @@ import TiltedTile from "./TiltedTile";
 import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
+import HelmetComponent from "./HelmetComponent";
 
 const StyledContainer = styled(Container)`
   background: #fafafa;
@@ -162,6 +163,7 @@ const Layout = ({ children }) => {
               </div>
             </Toolbar>
           </AppBar>
+          <HelmetComponent />
 
           <div style={{ minHeight: "150vh" }}>{children}</div>
           <footer className="footer">
