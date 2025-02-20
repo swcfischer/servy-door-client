@@ -12,6 +12,12 @@ const Container = styled.div`
     gap: 16px;
     margin-bottom: 64px;
   }
+
+  @media (max-width: 768px) {
+    .books-list {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
 
 function Library() {
