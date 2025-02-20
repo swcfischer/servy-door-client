@@ -26,13 +26,14 @@ const EmotionContainer = styled.div`
     gap: 20px;
   }
 
+  input {
+    font-family: inherit;
+  }
+
   @media (max-width: 600px) {
     .book-list-container {
       grid-template-columns: 1fr;
     }
-  }
-  input {
-    font-family: inherit;
   }
 `;
 
