@@ -168,6 +168,103 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "SPkIEQAAQBAJ",
+    etag: "+GLpGyxU0g8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/SPkIEQAAQBAJ",
+    volumeInfo: {
+      title: "The Technological Republic",
+      subtitle: "Hard Power, Soft Belief, and the Future of the West",
+      authors: ["Alexander C. Karp", "Nicholas W. Zamiska"],
+      publisher: "Crown",
+      publishedDate: "2025-02-18",
+      description:
+        "<b>From the Palantir co-founder, one of tech’s boldest thinkers and <i>The Economist</i>’s “best CEO of 2024,” and his deputy, a sweeping indictment of the West’s culture of complacency, arguing that timid leadership, intellectual fragility, and an unambitious view of technology’s potential in Silicon Valley have made the U.S. vulnerable in an era of mounting global threats.</b><br><b> </b><br><b>“Fascinating and important.”—Walter Isaacson, #1 <i>New York Times </i>bestselling author of <i>Elon Musk</i></b><br><br><b>ONE OF <i>FINANCIAL TIMES</i>’ MOST ANTICIPATED BOOKS OF THE YEAR</b><br><br>Silicon Valley has lost its way. <br><br>Our most brilliant engineering minds once collaborated with government to advance world-changing technologies. Their efforts secured the West’s dominant place in the geopolitical order. But that relationship has now eroded, with perilous repercussions.<br><br>Today, the market rewards shallow engagement with the potential of technology. Engineers and founders build photo-sharing apps and marketing algorithms, unwittingly becoming vessels for the ambitions of others. This complacency has spread into academia, politics, and the boardroom. The result? An entire generation for whom the narrow-minded pursuit of the demands of a late capitalist economy has become their calling.<br><br>In this groundbreaking treatise, Palantir co-founder and CEO Alexander C. Karp and Nicholas W. Zamiska offer a searing critique of our collective abandonment of ambition, arguing that in order for the U.S. and its allies to retain their global edge—and preserve the freedoms we take for granted—the software industry must renew its commitment to addressing our most urgent challenges, including the new arms race of artificial intelligence. The government, in turn, must embrace the most effective features of the engineering mindset that has propelled Silicon Valley’s success. <br><br>Above all, our leaders must reject intellectual fragility and preserve space for ideological confrontation. A willingness to risk the disapproval of the crowd, Karp and Zamiska contend, has everything to do with technological and economic outperformance.<br><br>At once iconoclastic and rigorous, this book will also lift the veil on Palantir and its broader political project from the inside, offering a passionate call for the West to wake up to our new reality.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593798708" },
+        { type: "ISBN_13", identifier: "9780593798706" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 320,
+      printedPageCount: 250,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Government & Business",
+        "Computers / History",
+        "Political Science / Public Policy / Science & Technology Policy",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.2.2.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72o_GXPH_T0ugBYzIUW6-mE7rIQHOKIJDMEAfWwadqHUsioLIDpGoNHM0towpBKfRWNWbgoKtXc0cA6M9PdK_w_fzaMVQK5WnQScrITq9McX67-hbb5BQp2ybl91JmxpCIVXXkm&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70QM7RWm5Sgk4MMahctsnabyw06Sz24VumhDzBTKw9i48jY6reG3Xeu4UbbV0Lo_TViz0CLKQGeE5OWcz_qgVdA2KOJqU8aEpKc-W44N_h0PJTo2IjEoIX6gKaXBS2vTqQ8DDu0&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73oM2djpPAhEx_bqrXkLz3RELBYQk3AgvzkHv2BRm9JDw1St3XQhfg2tFNHCIhc8BJqpg0A5RNRi_AoOvKKImW3M_xKzU3Ewqsi0O5yECeCnuIBcdVtAcyxuVAASJV5x_-Z2xYZ&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73TsKkO-8sDyWaXo5rC9N0YYUp7GI9aFHnptI1WSjnpDs8czQ9REdoy9Hpku6WGpcM5oJF5yuhNpYkVA5spqcDUTd_MLL4tWI-k0zaCVKp9BVRqQlWftgAXsy9WpHNGRJWIu2RU&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE713Mel3_OJVtHaRM9JvOJPWEplrWQIcyByv60wZIKMQx6NJUbru9CHI5iA1jFETJECa7BJCqUjH2VUFzTRLV6-o3weiKejr9W0d9o5VnoGmLVPIgXQwBlFnHAURZj6NnaRRXYtX&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71kbPJHsNtuB0L7pRfBeuy6TsElsuBqZ5b4AxpYRtlEDMTlKWh69TIi_fa9gQ2TTiDEy0NBA4q0GfoXKSycLgri4kGRYPzchOqf2HCtab4HzLlJXL5oZvv4ThrnPzjrOHvk3qhS&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=SPkIEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=SPkIEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=SPkIEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=SPkIEQAAQBAJ&rdid=book-SPkIEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Technological_Republic-sample-epub.acsm?id=SPkIEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=SPkIEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3243,
+      image:
+        "http://books.google.com/books/publisher/content?id=SPkIEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71kbPJHsNtuB0L7pRfBeuy6TsElsuBqZ5b4AxpYRtlEDMTlKWh69TIi_fa9gQ2TTiDEy0NBA4q0GfoXKSycLgri4kGRYPzchOqf2HCtab4HzLlJXL5oZvv4ThrnPzjrOHvk3qhS&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "BP78EAAAQBAJ",
     etag: "h4/S4gEhmXQ",
     selfLink: "https://www.googleapis.com/books/v1/volumes/BP78EAAAQBAJ",
