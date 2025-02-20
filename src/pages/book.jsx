@@ -37,6 +37,7 @@ const Container = styled.div`
       cursor: pointer;
       margin-top: 12px;
       transition: background-color 0.3s ease;
+      font-family: inherit;
 
       &:hover {
         background-color: #555;

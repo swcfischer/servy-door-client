@@ -13,6 +13,10 @@ import styled from "@emotion/styled";
 import BestSellerList from "../components/BestSellerList";
 
 const EmotionContainer = styled.div`
+  button {
+    font-family: inherit;
+  }
+
   .search-book-list {
   }
 
