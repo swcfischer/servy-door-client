@@ -31,6 +31,9 @@ const EmotionContainer = styled.div`
       grid-template-columns: 1fr;
     }
   }
+  input {
+    font-family: inherit;
+  }
 `;
 
 const volumesGet = "https://www.googleapis.com/books/v1/volumes";
