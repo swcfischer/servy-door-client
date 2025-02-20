@@ -607,6 +607,651 @@ const bestsellerList = [
         "http://books.google.com/books/publisher/content?id=uz4BEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71Zq8Vu6Ki0Wz-q_qtLZmLy6Q8YWSv-T-Mc8ogPQN5A7Tta60MBfGrwKehaU7iyezjdaVtfhoK7NqI7tvKpjMiu5SyT05exqx8wqH1GoN7mj2HRxKvXBDJBt1io0bb91T_yti32&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "tguIDwAAQBAJ",
+    etag: "JQrifRdgYz8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/tguIDwAAQBAJ",
+    volumeInfo: {
+      title: "The War for Gaul",
+      subtitle: "A New Translation",
+      authors: ["Julius Caesar"],
+      publisher: "Princeton University Press",
+      publishedDate: "2019-04-09",
+      description:
+        "<p><b>A new translation that captures the gripping power of one of the greatest war stories ever told—Julius Caesar’s pitiless account of his brutal campaign to conquer Gaul</b><br><br>Imagine a book about an unnecessary war written by the ruthless general of an occupying army—a vivid and dramatic propaganda piece that forces the reader to identify with the conquerors and that is designed, like the war itself, to fuel the limitless political ambitions of the author. Could such a campaign autobiography ever be a great work of literature—perhaps even one of the greatest? It would be easy to think not, but such a book exists—and it helped transform Julius Caesar from a politician on the make into the Caesar of legend. This remarkable new translation of Caesar’s famous but underappreciated <i>War for Gaul</i> captures, like never before in English, the gripping and powerfully concise style of the future emperor’s dispatches from the front lines in what are today France, Belgium, Germany, and Switzerland.<br><br>While letting Caesar tell his battle stories in his own way, distinguished classicist James O’Donnell also fills in the rest of the story in a substantial introduction and notes that together explain why <i>Gaul</i> is the “best bad man’s book ever written”—a great book in which a genuinely bad person offers a bald-faced, amoral description of just how bad he has been.<br><br>Complete with a chronology, a map of Gaul, suggestions for further reading, and an index, this feature-rich edition captures the forceful austerity of a troubling yet magnificent classic—a book that, as O’Donnell says, “gets war exactly right and morals exactly wrong.”</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "069117492X" },
+        { type: "ISBN_13", identifier: "9780691174921" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 274,
+      printedPageCount: 324,
+      dimensions: {
+        height: "23.00 cm",
+        width: "14.90 cm",
+        thickness: "3.10 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Historical",
+        "Biography & Autobiography / Military",
+        "History / Ancient / Rome",
+        "History / Europe / France",
+        "History / Military / Strategy",
+        "History / Military / Ancient",
+        "History / World",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.1.2.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE738dvZEQhzdaF8gz97GXZqXw6kyQ7EGb0CVHFz236ReuFy5M7pWXikehX7BmfshVsZONlraMpY5A61CH1G3AtAhLx48pWIRkpF35cU05lpTDxlsdb0HnCt8pHPSAXBq7W_QiHJ3&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73IrPsjHjW0TiVLx7fGt1XwD6f7a1kK8PGTUoKWHw5Nn7fnZbA6jOgNm6iTHDIhc__Zbbko4STGgSJdhkHSQJtBnOq05hKI-Z5o15O6WAez5ujIoVES7uIKS2vpiUA7ShO3MIqx&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70UrYqEXxy0FDJitc0ajXlVHlFfepPZf7k1RoUjh-9o9RPk2mMaY5SSdc4oNnfpKRXY5LMo44W_pT392Z4oLv7MSTbb38BlzpDmq5B7eqkiLZuwWR0HALwAB2XyeKlvBzWSJhuC&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71jQN7rXCZGDDr1UsPhY8hCDhMxeFhm73TVezBg5BfuZtXTSVBPDRu0Zx1kAuPJWbLOEwY2Fys6a96O5naqJOPe4iIE6mNpK0kll2SG1DZhIrvORQRE0wtem7ZzHGuqLqU-WCH1&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73UN-aEBkx_WirqR9rOLhD5_wL3FQtEiIun_azmx-FxADpz-H-rAyk6k9STbHYffA5oNa3DKVsSyu5ZjOR7JlYw6PMlqDDoWi_ysE2lkXnm_6MOdlvIenfv_P8GUighb5O1ua7M&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72tW-6YTuRMqAjcDMOoT2zbXI50xy6fR5rgE1CDFToSsUc39H9Mq_dOZB0ErtJhv9MwWztUMqUZW8u8iRzc85lvr14bIgYXSNKZBfP2Anpnd5abpmnjwWyzXwIdvofKYHDcHh3K&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=tguIDwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=tguIDwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=tguIDwAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_War_for_Gaul-sample-pdf.acsm?id=tguIDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=tguIDwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2028,
+      height: 2929,
+      image:
+        "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72tW-6YTuRMqAjcDMOoT2zbXI50xy6fR5rgE1CDFToSsUc39H9Mq_dOZB0ErtJhv9MwWztUMqUZW8u8iRzc85lvr14bIgYXSNKZBfP2Anpnd5abpmnjwWyzXwIdvofKYHDcHh3K&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Ye6e_VxM00kC",
+    etag: "PKJVyWA3tg0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
+    volumeInfo: {
+      title: "Trump: The Art of the Deal",
+      authors: ["Donald J. Trump", "Tony Schwartz"],
+      publisher: "Random House Publishing Group",
+      publishedDate: "2009-12-23",
+      description:
+        "<b>#1 NATIONAL BESTSELLER • President Donald J. Trump lays out his professional and personal worldview in this classic work—a firsthand account of the rise of America’s foremost businessman.<br><br>“Donald Trump is a deal maker. He is a deal maker the way lions are carnivores and water is wet.”—<i>Chicago Tribune</i></b><br><br> <i>“I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump</i><br><br>Here is Trump in action—how he runs his organization and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and challenges conventional thinking. But even a maverick plays by rules, and Trump has formulated time-tested guidelines for success. He isolates the common elements in his greatest accomplishments; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. <i>Trump: The Art of the Deal</i> is an unguarded look at the mind of a brilliant entrepreneur—the ultimate read for anyone interested in the man behind the spotlight.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0307575330" },
+        { type: "ISBN_13", identifier: "9780307575333" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 384,
+      printedPageCount: 401,
+      dimensions: { height: "30.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Self-Help / Personal Growth / Success",
+        "Business & Economics / Motivational",
+      ],
+      averageRating: 4,
+      ratingsCount: 29,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.16.16.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72VQtRw21Lsf3iGqVJVrVXYz0grS8x46Ah_GOjSGgcbdBVoqfPr6kkEC8BPQzgsSHtDQvy5F4-lOs4cnwaRV_K8f05M84wbxX0XvDFmL1pEV8G_S_DJewxwiu_ssjfATLx0aHOt&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Euqj-6433CeYIRBM0TipvqRal2vUGkX6Ze0tofonGh1-k7JyJYShKPrq9eP_LwuzgyHj7_sRpEBp9clIy38xYeYj9KASBP454z2JY_vkRIyVGC_TgXGs-pZTDOVAEFfbLWPM3&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72T8H6DAE9G_2LrNzTI76QEHy_Irz63WxnLBSEuffcL2c6zgVIADCYTeM2P2PfwGYTRhJN-TR34Lmmok7bCI6T-PaQxcGYexS1q6WlaSqxZVnnsKYaG8bwsnSDP8j_-DusZe2bT&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72EfIoYJ4By9jyrMFTaMmdK1-VYCdG3T7_38AaCA6b6_k5EVL33rsOvIG6cAT2k4JdlAx9ocAYRYNlfx27oaW3XY5i-AugosxPyccL93LSghDUTGCT8BdPqB-uZQzGTmYEXj5Rl&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "21" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 12.99, currencyCode: "USD" },
+      retailPrice: { amount: 12.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&rdid=book-Ye6e_VxM00kC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 12990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 12990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-epub.acsm?id=Ye6e_VxM00kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-pdf.acsm?id=Ye6e_VxM00kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "FJAZEQAAQBAJ",
+    etag: "+hb8rnvcO24",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/FJAZEQAAQBAJ",
+    volumeInfo: {
+      title: "The Highest Calling",
+      subtitle: "Conversations on the American Presidency",
+      authors: ["David M. Rubenstein"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2024-09-10",
+      description:
+        "<b><b>A <i>NEW YORK TIMES </i>BESTSELLER</b><br> <br><b>From the <i>New York Times </i>bestselling author of <i>The American Story </i>and <i>How to Lead</i> and host of PBS’s <i>History with David Rubenstein</i>—David Rubenstein interviews living American presidents and top historians and journalists who reflect on the US presidency, including Joe Biden, Barack Obama, George W. Bush,</b><b> Maggie Haberman, Ron Chernow, and more.</b></b><br><br>For years, bestselling author David M. Rubenstein has distilled the contours of American democracy through conversations with noted leaders and historians. In <i>The Highest Calling</i>, he offers an enlightening overview of arguably the single most important position in the world: the American presidency.<br> <br>Blending history and anecdote, Rubenstein chronicles the journeys of the presidents who have defined America as it exists now, what they envision for its future, and their legacy on the world stage. Drawing from his own experience in the Carter administration, he engages in dialogues with our nation’s presidents and the historians who study them. Get exclusive access to fresh perspectives, including:<br> -Original interviews with most of the living US presidents<br> -Interviews with noted presidential historians like Annette Gordon-Reed, Ron Chernow, Candice Millard, and more<br> <br>Through “chatty, insightful, and enlightening” (<i>The Wall Street Journal</i>) analysis, Rubenstein captures our country’s most prominent leaders, the political genius and frays of the presidential role, and the wisdom that emerges from it.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1668067625" },
+        { type: "ISBN_13", identifier: "9781668067628" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 496,
+      printedPageCount: 496,
+      dimensions: {
+        height: "22.90 cm",
+        width: "15.20 cm",
+        thickness: "3.60 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Presidents & Heads of State",
+        "Business & Economics / Leadership",
+        "History / United States / 21st Century",
+        "History / World",
+        "Political Science / General",
+        "Political Science / American Government / General",
+        "Political Science / American Government / Executive Branch",
+        "Political Science / Political Ideologies / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.4.2.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71Z8CYAnrpOEUu9qLP0jlk2RGQWX6dQLrIpoFnRc26O_FzizCviVlbp2X-T979nL_BaW1WJtWvGMg6HjmSM-OEuZFpt_d2YZb9Xqp1CREzFOHSVBPHxWg3kwvrlVlQkiADRMshT&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gyROpm1t41_awCjlkVElljBBrpnMuNjjoalEbQylyINDOQ9ExeJbMDc8FUcDTO5qX1PLHb-1wi7ft0j5VGtGCz4h8_ZPYYhJ0RqlcBTHMGB6fQPIMxm1De6gFNcPUuWgzkx4W&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70mSfXK8nqyB3dQDpcjFi_JxpMMNwt71qlhReAQDe9ijYjqCSUI-FvFZJzke0w50G9IWROl_uRM5xzBxIBScq14rvJ63Zafv-xVnBxiPoX0AjJvfl9pahJZJqvrfc-FpSKNYJ6O&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE737M1ROQrybaI7U2VOuocGOcE7yXc9SsitwGv5LpPfwumTnW4j0-KBKQIMBxDZT_ZsWqBhVCTiYrQADnO4CXKeBEzNbDvEbUlIH4a_n2H4H1vq0WCtQNXv8iEbuohG844CF5q3G&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71qRv7PBU4AFMA-9oaNuxNmF1zpRfwr2ThqGt7Ubgedv-p0Zam2tlK3Bjyhxdbbc_NKydYK7sEr3hvc3k7euZqe3vQiWgkRAcPCRjRkvEk_tHVfqsJK4U0mJXSbKwVgUF8GpZzu&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE718iqjUMUgfUUp0b9VlwBiKRdv3GHsSDQ_7zO5EC05avA3iN3RBOof7jLQZnhewZAKiNK9ReKX9jVaDEqbSlKIkysk-2hLcyuNZP-f0edH4wAqXYj7-PUMGzTkYFOg421Fg2SE5&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=FJAZEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=FJAZEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=FJAZEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=FJAZEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=FJAZEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE718iqjUMUgfUUp0b9VlwBiKRdv3GHsSDQ_7zO5EC05avA3iN3RBOof7jLQZnhewZAKiNK9ReKX9jVaDEqbSlKIkysk-2hLcyuNZP-f0edH4wAqXYj7-PUMGzTkYFOg421Fg2SE5&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "QwckAAAAMAAJ",
+    etag: "mGv7qVRxHzg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/QwckAAAAMAAJ",
+    volumeInfo: {
+      title: "My Life and Work",
+      authors: ["Henry Ford", "Samuel Crowther"],
+      publisher: "Doubleday, Page",
+      publishedDate: "1922",
+      description:
+        "We have only started on our development of our country-we have not as yet, with all our talk of wonderful progress, done more than scratch the surface. The progress has been wonderful enough-but when we compare what we have done with what there is to do, then our past accomplishments are as nothing. When we consider that more power is used merely in ploughing the soil than is used in all the industrial establishments of the country put together, an inkling comes of how much opportunity there is ahead. And now, with so many countries of the world in ferment and with so much unrest every where, is an excellent time to suggest something of the things that may be done in the light of what has been done.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1514186160" },
+        { type: "ISBN_13", identifier: "9781514186169" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 289,
+      printedPageCount: 312,
+      dimensions: {
+        height: "25.00 cm",
+        width: "20.30 cm",
+        thickness: "0.80 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / General",
+        "Biography & Autobiography / Business",
+      ],
+      averageRating: 4,
+      ratingsCount: 2,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.9.10.0.full.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70odo9QzPa3fGVJM1_9oykMgvRFak5-DTF7I41FZXIBeYGIFS_JqTuWvL5vXovLYNzDwJ-NSFqWG2FdSbAV_ewUNr5H70eoNH7UxCtebMAhCAT6nsYbh5m9FBQ0Hf6VijCUwHFN&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE738p6lQh0jcuSwSpztQ6CHsN7mW53P0ZbsKw2OqTnDGvqKhWqJzfwoqgEs3QJj2yIdjdNVQAthzTioUnBN5ERDBKOe1N4N1kG3ItzP2khccLQumnrBD_Ck1mJEZTadOHVMpYYB7&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73qW5J9YCq6oOmWzOih-M8ioVT2HMVUjaQKVRfH372-IB2ZH43rrgrK6nLOs8A7pmg_ToCon_arq5P6zIS6vT9TJRjVy_tAzwMH0zH9PW3mGWRWlrEt1rPeYAhBgXHfI_JHtUZT&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73GR_BNEByBg7M_76fHBAr3NDPzZko_rw3-gtiF1bpO00GePKgwOMVyZBc7oqwRD9Am1Ci_HWKCL99frMVPLE5ZVqW3HhvfBJ15Q-7gnnHeMiJOgHnJyWeFhM75_q7JbzLfMKuS&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73JuhRGYaVyciTqeqmtMxPZWOY9ZOHS73zWatMD8LxU8Xp3SScC-wHF7phWC0o7HPqkDXiTSPVf3O-iTlKQ3Hbc0H6QdMqNKu8Wjn1ViAr1Mi4GxDWllQwELPTquhfCgtd4FKWQ&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72b2KVgzepNXUu1RjXbgL5j1nHCkzNrva3MkSjW2NdM_5rvkjJlphoT-Rknv_I85JkZ-ZFkeK9IxCUscXDLMju8WQY1jbPowzRngZ1VJXWvUEcBMVVTQm2I7npNbghZXGoNjLCW&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=QwckAAAAMAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=QwckAAAAMAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=QwckAAAAMAAJ",
+    },
+    saleInfo: {
+      country: "US",
+      saleability: "FREE",
+      isEbook: true,
+      buyLink:
+        "https://play.google.com/store/books/details?id=QwckAAAAMAAJ&rdid=book-QwckAAAAMAAJ&rdot=1&source=gbs_api",
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "ALL_PAGES",
+      embeddable: true,
+      publicDomain: true,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: false,
+        downloadLink:
+          "http://books.google.com/books/download/My_Life_and_Work.epub?id=QwckAAAAMAAJ&hl=&output=epub&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/My_Life_and_Work.pdf?id=QwckAAAAMAAJ&hl=&output=pdf&sig=ACfU3U1DrCzGVLAP2yhiZ66TrN_IRFMhRg&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=QwckAAAAMAAJ&hl=&source=gbs_api",
+      accessViewStatus: "FULL_PUBLIC_DOMAIN",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1280,
+      height: 2064,
+      image:
+        "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72b2KVgzepNXUu1RjXbgL5j1nHCkzNrva3MkSjW2NdM_5rvkjJlphoT-Rknv_I85JkZ-ZFkeK9IxCUscXDLMju8WQY1jbPowzRngZ1VJXWvUEcBMVVTQm2I7npNbghZXGoNjLCW&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "POOJDQAAQBAJ",
+    etag: "Y5qjOStr1ME",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/POOJDQAAQBAJ",
+    volumeInfo: {
+      title: "Zero to One",
+      subtitle: "Notes on Startups, or How to Build the Future",
+      authors: ["Peter Thiel", "Blake Masters"],
+      publisher: "Crown",
+      publishedDate: "2014-09-16",
+      description:
+        "<p><b>#1 <i>NEW YORK TIMES</i> BESTSELLER</b> • <b>“This book delivers completely new and refreshing ideas on how to create value in the world.”—Mark Zuckerberg, CEO of Meta</b><br> <br><b>“Peter Thiel has built multiple breakthrough companies, and <i>Zero to One</i> shows how.”—Elon Musk, CEO of SpaceX and Tesla</b><br><br>The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In <i>Zero to One</i>, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.<br><br>Thiel begins with the contrarian premise that we live in an age of technological stagnation, even if we’re too distracted by shiny mobile devices to notice. Information technology has improved rapidly, but there is no reason why progress should be limited to computers or Silicon Valley. Progress can be achieved in any industry or area of business. It comes from the most important skill that every leader must master: learning to think for yourself.<br><br>Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. Tomorrow’s champions will not win by competing ruthlessly in today’s marketplace. They will escape competition altogether, because their businesses will be unique.<br><br><i>Zero to One</i> presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.<br><br></p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0804139296" },
+        { type: "ISBN_13", identifier: "9780804139298" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 224,
+      printedPageCount: 225,
+      dimensions: {
+        height: "22.00 cm",
+        width: "14.30 cm",
+        thickness: "2.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Business & Economics / Small Business",
+        "Political Science / Public Policy / Economic Policy",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.7.0.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72R6gX_9MA2dj0gLzdZoqO4EgqAUUL57KOgrcvLGw3lcuOo0Q9CE-8sn3tqv51keqmXUo3hNvoDiLO85pJo3JCcvHF9nTXtugnf00EYt-rynyq7SEeNzIKoXrg6S1u3fGFYcqVO&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70DGH8L2B3VPUR6wpcwayrzbhifnWRiCNfNb5a2GaUKrlJ2aMp4vx3X37YkwujccMRDVBkZ3w8coaCiPkg5HELQwXJyERFp4JvowbmH6uSdc3A8z4Wh8_yNd8UxoQv-sEl-gwQM&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72LbEYEndUHm-619TqbgWqiH88Ut1J-SuieoGB4euQqReW2recC_nm-uXo3MQrq9NJszO9U7vwVU9TSTkq4Ok5m0zlQTFvyJrww_GI7OiT1qaJK_GvIZ51wiQ-bd95hn0O2k3u5&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72hgwlNZe9QH10OUcYHHvAKb08ZpyEh7qPfqswI0yNBygz0HVAUi-sMJvTrLBxK0uYZsGdQMsuaoAGDTWxy6i4Xho4BlF_2Ytioo44OH8EBHsdjbS3RiOGEIYf0XdZwTF-b1KTE&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE738Rp9SKqITMozGtQXFxUWnqxA5XS6IM3hnU7ej4Tm6xjG8IP-htc-FtOGv69bU5r-BFElozo_t1rvSuGZxdg6TCcLmkbeQpWUDWsqJwYneI4ol_ZNu0JfQlhhhqNdp9t_RtH2g&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE738Rp9SKqITMozGtQXFxUWnqxA5XS6IM3hnU7ej4Tm6xjG8IP-htc-FtOGv69bU5r-BFElozo_t1rvSuGZxdg6TCcLmkbeQpWUDWsqJwYneI4ol_ZNu0JfQlhhhqNdp9t_RtH2g&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "gYrIVidSiLIC",
+    etag: "kJ3vKu4pYdg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/gYrIVidSiLIC",
+    volumeInfo: {
+      title: "Technopoly",
+      subtitle: "The Surrender of Culture to Technology",
+      authors: ["Neil Postman"],
+      publisher: "Knopf Doubleday Publishing Group",
+      publishedDate: "2011-06-01",
+      description:
+        '<b>A witty, often terrifying that chronicles our transformation into a society that is shaped by technology—from the acclaimed author of <i>Amusing Ourselves to Death.</i> <br><br>"A provocative book ... A tool for fighting back against the tools that run our lives." —<i>Dallas Morning News</i></b><br><br>The story of our society\'s transformation into a Technopoly: a society that no longer merely uses technology as a support system but instead is shaped by it—with radical consequences for the meanings of politics, art, education, intelligence, and truth.',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "030779735X" },
+        { type: "ISBN_13", identifier: "9780307797353" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 240,
+      printedPageCount: 232,
+      printType: "BOOK",
+      categories: [
+        "Technology & Engineering / Social Aspects",
+        "Science / Philosophy & Social Aspects",
+        "Computers / Social Aspects",
+      ],
+      averageRating: 4,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.9.8.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71eqxEFKX0j0Pn77NCDrBpkL5SQNGgo0R65xtse1rZMXSJSDhkxJ9UtJalVouyTftryz31Icnxw63XK9X1oV0ioxqjQbrgyYhMkARRAAof6U1neL-v7BoOJXDk-fm-hf-DD4YFo&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70bI1loY1hEE91o9xO6KcnM3SQjc75Q6Hr-6Mf5xbi9lfbED5QU_E26CUKrtAFpkHKi8_9SD-0GoIUwPoEMxdtC_JsrpAFE7y351yJlKjvsBIB9-dS9LQ4lvWMpNrH-l5Q9WM3U&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72ogtnLcfV1tJAmF5n_R7ig2veewwHiqJ1blv7gj65HAwjn-xl9qmV7u-kL8t6IyX5F4qwLry1-YxbSm5OUWElD4TK48ZZ4Z5PakbcjCu5AqBX54Vzdy3ZJpQ8QJABMs0N0L4zW&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73Sk6VtqYQ40E4p-_tr1VGM4xxSxHcEDbBi5O14NWDL4u5-KapoUPYlgnMW6IFFUIXAnRUA8f8FR5JpDTmSXSxs1-TswyHcBAdHoQsrXehq837JDkUZ27_HxJdQAIkLMB5lgdcb&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE702t-2X9UWPFtkINyNI4mBYM95Erbxy2o3qXsLzb8hd6hdKgkI4jlh0OuOHfFuGbaZ2ZuZVAZkFRjPvYGyIMN0XzVGJzhHXrnb7zKfivi2KWCHUjU6XbEn1ur2J_eMQQr_ts_HZ&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71G1EINYOeOcaI41ItGidLxTTgTammuNotsAdxpH5q6_h7zLOHq-bD6SQ8rE61OWNmEJjHMGzPbNdrYWBq1A0ILZPYyUzAhhyzqRgB_PvMw8oM0NJI_pkYEwRkoBBcjQCHp2QmS&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=gYrIVidSiLIC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=gYrIVidSiLIC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=gYrIVidSiLIC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "11" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 11.99, currencyCode: "USD" },
+      retailPrice: { amount: 11.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=gYrIVidSiLIC&rdid=book-gYrIVidSiLIC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Technopoly-sample-epub.acsm?id=gYrIVidSiLIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=gYrIVidSiLIC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/content?id=gYrIVidSiLIC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71G1EINYOeOcaI41ItGidLxTTgTammuNotsAdxpH5q6_h7zLOHq-bD6SQ8rE61OWNmEJjHMGzPbNdrYWBq1A0ILZPYyUzAhhyzqRgB_PvMw8oM0NJI_pkYEwRkoBBcjQCHp2QmS&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "p1MULH7JsTQC",
+    etag: "gLaEmIclsmk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/p1MULH7JsTQC",
+    volumeInfo: {
+      title: "Dune",
+      authors: ["Frank Herbert"],
+      publisher: "Penguin",
+      publishedDate: "2003-08-26",
+      description:
+        "<b><b>• DUNE: PART TWO • THE MAJOR MOTION PICTURE<br></b></b>Directed by Denis Villeneuve, screenplay by Denis Villeneuve and Jon Spaihts, based on the novel <i>Dune</i> by Frank Herbert • Starring Timothée Chalamet, Zendaya, Rebecca Ferguson, Josh Brolin, Austin Butler, Florence Pugh, Dave Bautista, Christopher Walken, Stephen McKinley Henderson, Léa Seydoux, with Stellan Skarsgård, with Charlotte Rampling, and Javier Bardem<b><b><br></b><br><b>Frank Herbert’s classic masterpiece—a triumph of the imagination and one of the bestselling science fiction novels of all time.</b></b><br><br>Set on the desert planet Arrakis, <i>Dune</i> is the story of Paul Atreides—who would become known as Muad'Dib—and of a great family's ambition to bring to fruition mankind's most ancient and unattainable dream.<br><br>A stunning blend of adventure and mysticism, environmentalism and politics, <i>Dune</i> won the first Nebula Award, shared the Hugo Award, and formed the basis of what is undoubtedly the grandest epic in science fiction.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1101658053" },
+        { type: "ISBN_13", identifier: "9781101658055" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 896,
+      printedPageCount: 897,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Science Fiction / Space Opera",
+        "Fiction / Classics",
+        "Fiction / Fantasy / Epic",
+      ],
+      averageRating: 5,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.27.22.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72GyDeT26ZrbcbwRqTPL5lVvLLTUXnsVpYFsrqlp-LM8Qpzq-g7jm-dib_wG0MP-7lcnwBSWm3hE-0vfN6TzFch7Zbl9zJw-TSeWTBPdODF9osrLH5US7JKJKA03xrheIMJXVy0&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72EkHb9Bl-xE-F_nVY3hNhD84byimQmb0SEtuqskjCQ52vMHqqvArydkgaJYjDruk6Vktp1ZWK7rpL1Ug9XKrv8hxLfEAIgVnXfKtEpvTjysmxBo-XEHyE9C5dK9KBKT0GcL_Ts&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE7220KwfVWIKIa-VJRliq01OQM87RQI-qJNIkP04hKAP1T-X3uH5iqPgXGFIUsjQJbZMCYFLRgNIuqqj88uRBJ3mWG6wT_oeCP_wLu9jbVFhNvXgujndSTGP1DrTyjqJKk6mT-EO&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE7062d_RH6djWjg3OnNrW1p2xZLkC74eY_anz56RtZg1t4wjCEbjr6yEJjqMpFVv2Nq2lykBAZMr4S9xvXnNxML0TlHi-yI4k0A7fgcs4JGuVNMA1w6wF82V3JdMaeGhqZVqBgwj&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71q9ccFTXfqnwwbHFh9NWQqLzh-jcd9FrzzhEgEWchsOzISX0t4iQbkbfbOixcFLTXaFnudRl8ym2VO2dimFbAC7GpwUMsUdiNIRJVVxoB1FV1xXB1i5msq8guu9nR_PVB5SvpO&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=p1MULH7JsTQC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=p1MULH7JsTQC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=p1MULH7JsTQC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "36" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 9.99, currencyCode: "USD" },
+      retailPrice: { amount: 9.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=p1MULH7JsTQC&rdid=book-p1MULH7JsTQC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 9990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 9990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Dune-sample-epub.acsm?id=p1MULH7JsTQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=p1MULH7JsTQC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/content?id=p1MULH7JsTQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71q9ccFTXfqnwwbHFh9NWQqLzh-jcd9FrzzhEgEWchsOzISX0t4iQbkbfbOixcFLTXaFnudRl8ym2VO2dimFbAC7GpwUMsUdiNIRJVVxoB1FV1xXB1i5msq8guu9nR_PVB5SvpO&source=gbs_api",
+    },
+  },
 
   {
     kind: "books#volume",
@@ -707,6 +1352,640 @@ const bestsellerList = [
         "http://books.google.com/books/publisher/content?id=N43_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71wDBOELPlplPnFlX7xetfklPlBYJeLBaFQpf5PtFV5yL__st-5l37nJWbhtULP-yPaV26OAZJjaFFjTRnptv5uH5Skj1AaaFu7aY66IOlYSklT1779vQJcfNNBPNh09RfgTCWB&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "mp16BDRDaYQC",
+    etag: "8CVslN6QwRY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/mp16BDRDaYQC",
+    volumeInfo: {
+      title: "On Writing Well, 30th Anniversary Edition",
+      subtitle: "An Informal Guide to Writing Nonfiction",
+      authors: ["William Zinsser"],
+      publisher: "Harper Collins",
+      publishedDate: "2012-09-11",
+      description:
+        '<p>"On Writing Well is a bible for a generation of writers looking for clues to clean, compelling prose." —New York Times</p><p>A beloved classic and the definitive volume on the art of writing nonfiction</p><p>On Writing Well, which grew out of a course that William Zinsser taught at Yale, has been praised for its sound advice, its clarity, and for the warmth of its style. It is a book for anybody who wants to learn how to write or who needs to do some writing to get through the day, as almost everybody does. Whether you want to write about people or places, science and technology, business, sports, the arts, or about yourself in the increasingly popular memoir genre, On Writing Well offers you both fundamental principles as well as the insights of a distinguished practitioner. With over a million copies in print, this volume has stood the test of time and remains a valued resource for writers and would-be writers.</p>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0062250507" },
+        { type: "ISBN_13", identifier: "9780062250506" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 336,
+      printedPageCount: 337,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Business Communication / General",
+        "Language Arts & Disciplines / General",
+        "Education / Teaching / General",
+        "Business & Economics / Leadership",
+        "Business & Economics / Education",
+        "Business & Economics / Marketing / General",
+        "Business & Economics / Motivational",
+        "Business & Economics / Economics / General",
+        "Business & Economics / Reference",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.10.9.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70HDLe_lQzd57EzAOJnuvlU0aKlImbp_pTNcRqxJRgikpCplIMMbdrYx5a5NI-W5Io5V2DalezysEoqZ9PO3o5iBhsQOn4VbZLczF6kjw2DJ5DLbK9gcx1AarfG7wlkLnMRe9R6&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE714cRvpZ1IVpyBev9cS5Kk428NvcHVSwmDAHzPcSrgXdcGRsS0E2BLSwQrpRjSCxvPadU2mB4BU7F3IzTpWVIQ5gWnD1vvlnsDc_LKhnysamD8w5SkjacnhGJUd8WJmNjN9-K0z&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70jxo39pjxoj6whJOqxNUiXBaTcJeRMfzQVi6w1nbjBiHRR1rxs3PJGFv5NfSjK-pb2smBmZWaIWwIIPxx1AQq2jdFVSZ_-c4qbklFxEBgNqx58-OeZuTEwDGhqA0LSzD1xyS50&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72WgePYW8M7P84yFNqAgSCzRSLrmeAi1cZBOrO1ZtU_fE9dTnNcnrY5qPpx8xS4wJb5CK2K2Y_a0LsjwhTZKes0geZhkPYQRJ8hnkcwoW482MWoljUl6bz93ue-WPDBRwKkjEBL&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70EXUOwTYAiaT9pu0JxFbnAfLg6YhiTyAhCqrGiz3E-5lzaFX5RU18f6hUh94FtIaGle7RqhPXFJRSmWqHGK1gSHGOU_j4XK1iJIFRCilxdh7fhfgABpxCMPJge5yLNgzMWBKZg&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7340mOrauuEDNu1CX2z8zymQr656cyXqs93pnVpgpDgzxjFMsf1OqrfHU6SmcXOhMXa6Y3kTSgIY_fp4wAzamQIlQfHuHb9mJ1g1REugQcwJkECc9W-6xJT3FH7HA2krmPrieQ9&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=mp16BDRDaYQC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=mp16BDRDaYQC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=mp16BDRDaYQC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "18" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 11.99, currencyCode: "USD" },
+      retailPrice: { amount: 11.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=mp16BDRDaYQC&rdid=book-mp16BDRDaYQC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/On_Writing_Well_30th_Anniversary_Edition-sample-epub.acsm?id=mp16BDRDaYQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=mp16BDRDaYQC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1592,
+      height: 2402,
+      image:
+        "http://books.google.com/books/content?id=mp16BDRDaYQC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7340mOrauuEDNu1CX2z8zymQr656cyXqs93pnVpgpDgzxjFMsf1OqrfHU6SmcXOhMXa6Y3kTSgIY_fp4wAzamQIlQfHuHb9mJ1g1REugQcwJkECc9W-6xJT3FH7HA2krmPrieQ9&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "x1xqDwAAQBAJ",
+    etag: "fUk8+ICFa8U",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/x1xqDwAAQBAJ",
+    volumeInfo: {
+      title: "THE ELEMENTS OF STYLE",
+      authors: ["William Strunk"],
+      publisher: "Strelbytskyy Multimedia Publishing",
+      publishedDate: "2021-01-08",
+      description:
+        "<p> The Elements of Style is a study guide for the development of writing style by William Strunk Jr., a professor of English at Cornell University. It was later finished by his student, Elwyn Brooks White. Now it is commonly known as “the study guide by Strunk and White”.</p><p>In short, this book is for someone who wants to become a writer. </p><p>The Elements of Style is some kind of examples’ collection of all kinds of styles of writing very different works. It comprises eight &quot;elementary rules of usage&quot;, ten &quot;elementary principles of composition&quot;, &quot;a few matters of form&quot;, a list of 49 &quot;words and expressions commonly misused&quot;, and a list of 57 &quot;words often misspelled&quot;.</p>",
+      industryIdentifiers: [
+        { type: "OTHER", identifier: "PKEY:SMP2300000058390" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 71,
+      printedPageCount: 71,
+      printType: "BOOK",
+      categories: ["Foreign Language Study / General", "Science / General"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.2.3.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70UIXjzP-tXQ0uonlSe9Ui_nVy8-5q_qKECJe9FyNrdU1jMPBUEchbt8jgjwoBVud-YeIonlWGzrgTlzCnEyhlumq9Fx4tAwYAvKuQmsLjKaN-AvbdBwrcgQ_khOmBEHmm4dcQW&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70KeABywXoH_d5y0fHaZnjDIRbjy0NB75h6kcAImYOp6Yz1VbXgvdlPK_ziJbuo60_Qi95us4IXfv_HiEHg1cXnNIGuRgACUt-Apr-rNwN27sTpp7jWKiZnmT_LAo7CwrI02bVJ&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72tLE0A4Oo_ZKWIQL7DiupQZza46zu5B018-S8xGzXYraaIfB4oP53WFmiqWdvnuno-ULNY0Of0uvnnQXSLHK_EIEaZxDT5hv7aghcbJYkRfw5LukqmwX0M6XSg6SB0VoWAA5O8&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73Q-Dsi65ciOhYjoH-pBI-P77ogZixz_Ho_KQWVOcXkgJhOWdGvt-GcdEqUZ7DKKTHHhAF7H4RUXqQrGhpEDX9wXBdZ1t7S1EQ8dwzPf451jfJXferzIhlvr0gYhRf3uEPXYATZ&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fV1PGnxlNDrJwHslWGPMp5Gc82NxcWv8F1dffJpq5EQS9lU3Jm4p5bVzSyoXpl96bgarxDm1C6HpjqL4401FYBj2N3GVrTxVMeYU22BjChluw5m2aOa6Lh2R02BKsMspPHkgm&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70XDRxoHDgzkiNd1hN44Iclfxnyf7J_m3oUnO-lLgc8BDDgF1j1CE9l0t1RHri8VUgXtLuyieURD558GcZiix8DN7RFVyAsIFB0w3BQzZBIcMnEbmycs6s2ciSzx6I6oWHJVslx&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=x1xqDwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=x1xqDwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=x1xqDwAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 0.03, currencyCode: "USD" },
+      retailPrice: { amount: 0.03, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=x1xqDwAAQBAJ&rdid=book-x1xqDwAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 30000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 30000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/THE_ELEMENTS_OF_STYLE-sample-epub.acsm?id=x1xqDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/THE_ELEMENTS_OF_STYLE-sample-pdf.acsm?id=x1xqDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=x1xqDwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=x1xqDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70XDRxoHDgzkiNd1hN44Iclfxnyf7J_m3oUnO-lLgc8BDDgF1j1CE9l0t1RHri8VUgXtLuyieURD558GcZiix8DN7RFVyAsIFB0w3BQzZBIcMnEbmycs6s2ciSzx6I6oWHJVslx&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "0OQSEAAAQBAJ",
+    etag: "CfTdmU9aU18",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/0OQSEAAAQBAJ",
+    volumeInfo: {
+      title: "Stakeholder Capitalism",
+      subtitle: "A Global Economy that Works for Progress, People and Planet",
+      authors: ["Klaus Schwab"],
+      publisher: "John Wiley & Sons",
+      publishedDate: "2021-01-06",
+      description:
+        "<p><b>Reimagining our global economy so it becomes more sustainable and prosperous for all</b></p> <p>Our global economic system is broken. But we can replace the current picture of global upheaval, unsustainability, and uncertainty with one of an economy that works for all people, and the planet. First, we must eliminate rising income inequality within societies where productivity and wage growth has slowed. Second, we must reduce the dampening effect of monopoly market power wielded by large corporations on innovation and productivity gains. And finally, the short-sighted exploitation of natural resources that is corroding the environment and affecting the lives of many for the worse must end.</p> <p>The debate over the causes of the broken economy—laissez-faire government, poorly managed globalization, the rise of technology in favor of the few, or yet another reason—is wide open. <i>Stakeholder Capitalism: A Global Economy that Works for Progress, People and Planet</i> argues convincingly that if we don't start with recognizing the true shape of our problems, our current system will continue to fail us. To help us see our challenges more clearly, Schwab—the Founder and Executive Chairman of the World Economic Forum—looks for the real causes of our system's shortcomings, and for solutions in best practices from around the world in places as diverse as China, Denmark, Ethiopia, Germany, Indonesia, New Zealand, and Singapore. And in doing so, Schwab finds emerging examples of new ways of doing things that provide grounds for hope, including:</p> <ul> <li><b>Individual agency:</b> how countries and policies can make a difference against large external forces</li> <li><b>A clearly defined social contract:</b> agreement on shared values and goals allows government, business, and individuals to produce the most optimal outcomes</li> <li><b>Planning for future generations:</b> short-sighted presentism harms our shared future, and that of those yet to be born</li> <li><b>Better measures of economic success:</b> move beyond a myopic focus on GDP to more complete, human-scaled measures of societal flourishing</li> </ul> <p>By accurately describing our real situation, <i>Stakeholder Capitalism</i> is able to pinpoint achievable ways to deal with our problems. Chapter by chapter, Professor Schwab shows us that there are ways for everyone at all levels of society to reshape the broken pieces of the global economy and—country by country, company by company, and citizen by citizen—glue them back together in a way that benefits us all.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1119756146" },
+        { type: "ISBN_13", identifier: "9781119756149" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 304,
+      printedPageCount: 311,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Development / Economic Development",
+        "Business & Economics / Economics / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.3.2.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71_k-ypcFRTPOtaWirtEWWmGcZgZHlZPmB7uX50iX1PI5hmHTMib0MpXGiznGytDSErs9H1jBHz4hHXQkhEHr6Ynj_dpkN8hJf-zPx2k-wQOOuZB1XGdR7nG7TT4kYlLxcjY3YB&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE727U_9-0N_UHC1sZDHkFZvaRgtx2NdiVOpF73s40TkHmpum7jTvv4KShjs7CjtLeVqhSlOoueK47E21D55Cp9UN_oA_sLxcg6mw35lQ-EibnH7RIjkrCgjycMGPoccwkU51qeoc&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72DqoSeoeyx5w_HY2KI46E9WDNB6Fs1SjopbRHzNMu90HiPvpPurL-tP1vPzU49AHeWjR8SyysvNSex53UuDfU0uQgC2ZwAaXyZ2yUlcvSub4A9yx3LRCPfQ6DuwWEljlCqrqN8&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE703Anrfq7iZnWmN_ibtJbd5U_0sb08Ap9PohZNj8Ui2rqB8RQwezB2yvtLCAwHsI64F_BA9CuaBg8GZhgRzlbKRZayoMp5HTJ1P3BceH4Lbf0szgCdXrusZi3q_HaUf8tevqX9w&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71fCvuSxE9MKyaNtVaNd7VjJWTYGNwP-hVsb8X26LatYOYwnGZdvxoG7rcBjZac35GoM8Q5j8YZAHMbPNHZMVvZKdjAdeKXebBstgkjCzYkcOWDK1XG7NhH1dv5JC8D6Dg7c526&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72QwfTgzNa9x9WnlnYs-QFvQ53PLoRg1OLbcSMh6yODsKicHK-SYcz-bOD7ysdHl-0j-OiYJLAB5GFqiqbAGKqzDVnxy-YiS2Sq5eWT7zI2cR5Dh3ZKx1CPYpfzJEk5mUV5yfaN&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=0OQSEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=0OQSEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=0OQSEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "6" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 15, currencyCode: "USD" },
+      retailPrice: { amount: 15, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=0OQSEAAAQBAJ&rdid=book-0OQSEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 15000000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 15000000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Stakeholder_Capitalism-sample-epub.acsm?id=0OQSEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Stakeholder_Capitalism-sample-pdf.acsm?id=0OQSEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=0OQSEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=0OQSEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72QwfTgzNa9x9WnlnYs-QFvQ53PLoRg1OLbcSMh6yODsKicHK-SYcz-bOD7ysdHl-0j-OiYJLAB5GFqiqbAGKqzDVnxy-YiS2Sq5eWT7zI2cR5Dh3ZKx1CPYpfzJEk5mUV5yfaN&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "HRCHJp-V0QUC",
+    etag: "4amuUFNg9mg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/HRCHJp-V0QUC",
+    volumeInfo: {
+      title: "Dreams from My Father",
+      subtitle: "A Story of Race and Inheritance",
+      authors: ["Barack Obama"],
+      publisher: "Crown",
+      publishedDate: "2007-01-09",
+      description:
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • <b>ONE OF <i>ESSENCE</i>’S 50 MOST IMPACTFUL BLACK BOOKS OF THE PAST 50 YEARS</b><br><br>In this iconic memoir of his early days, Barack Obama “guides us straight to the intersection of the most serious questions of identity, class, and race” (<i>The Washington Post Book World</i>).</b><br> <br><b>“Quite extraordinary.”—Toni Morrison</b> <br> <br>In this lyrical, unsentimental, and compelling memoir, the son of a black African father and a white American mother searches for a workable meaning to his life as a black American. It begins in New York, where Barack Obama learns that his father—a figure he knows more as a myth than as a man—has been killed in a car accident. This sudden death inspires an emotional odyssey—first to a small town in Kansas, from which he retraces the migration of his mother’s family to Hawaii, and then to Kenya, where he meets the African side of his family, confronts the bitter truth of his father’s life, and at last reconciles his divided inheritance.<br> <br><b>Praise for <i>Dreams from My Father</i></b><br> <br>“Beautifully crafted . . . moving and candid . . . This book belongs on the shelf beside works like James McBride’s <i>The Color of Water</i> and Gregory Howard Williams’s <i>Life on the Color Line</i> as a tale of living astride America’s racial categories.”<b>—Scott Turow</b><br> <br>“Provocative . . . Persuasively describes the phenomenon of belonging to two different worlds, and thus belonging to neither.”<b>—<i>The New York Times Book Review</i></b><br><b><i>  </i></b><br>“Obama’s writing is incisive yet forgiving. This is a book worth savoring.”<b>—Alex Kotlowitz, author of <i>There Are No Children Here</i></b><br> <br>“One of the most powerful books of self-discovery I’ve ever read, all the more so for its illuminating insights into the problems not only of race, class, and color, but of culture and ethnicity. It is also beautifully written, skillfully layered, and paced like a good novel.”<b>—Charlayne Hunter-Gault, author of <i>In My Place</i></b><br><b><i> </i></b><br>“<i>Dreams from My Father</i> is an exquisite, sensitive study of this wonderful young author’s journey into adulthood, his search for community and his place in it, his quest for an understanding of his roots, and his discovery of the poetry of human life. Perceptive and wise, this book will tell you something about yourself whether you are black or white.”<b>—Marian Wright Edelman</b>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0307394123" },
+        { type: "ISBN_13", identifier: "9780307394125" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 464,
+      printedPageCount: 463,
+      dimensions: { height: "21.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Presidents & Heads of State",
+        "Biography & Autobiography / Personal Memoirs",
+        "Social Science / Ethnic Studies / American / African American & Black Studies",
+      ],
+      averageRating: 3,
+      ratingsCount: 60,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.14.10.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72Xiv1NEKBnP2N9hh65A_-HhvVWtQ-N01vvwDhi_wpV0YCwxXAVV4BvAUAOJUpah5yXnQrpUFLELGnHE7jB4gfE3pHQuPBwoCzxo4LEnc5sCIcyNlXj_ye48IF2GPJavooykADa&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73U9Vazqhrax1fbvxafpk79Kwg2u3owGuY8kH7V6lFI5dKOAxZ1YUfQVfZUZnKku1TASPC2c8VJ8bdnufCDIC6AZhvcLNCWri8QcoNkjGslDQexw2qDUU2kpDqxJxatuRbcIb2Z&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70NWqXv6R7FiYrZoPkSD6ikWO5regtAWiMqaN2IJh9AH4M68ODRw64dgdDnSbPeUWWQMVHwNtx5iNLSjt_OnfOYvqO1kzKwU4xyol8I91-chAos63g1yAaoHYKLXqz5JuVSvNys&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71o9uMUmLpdYyP7lNxaxjpHwtlKsukehELBmlUNJc09RCTiziFBWunK-NNYpzp8qSy_brc0ChQ6PflSCnjtaKDueT-V3D6AdTGctpAYlJYAVsDBq7-UPq58NZ2VQHeiTyY1DKd7&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70lMzhbKtgq901QCcY6HLLdWY_wfbnODd1byAB-ULfQZYjZv_UHw-9JDtxCKjCaO1-AOyGOw3Yt5LbbjxqLi_rndP25K5wIDtHAMlRwgVLCL3pAJUwubfaX50rJDbb1hN4owJJ7&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=HRCHJp-V0QUC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=HRCHJp-V0QUC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=HRCHJp-V0QUC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "12" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 5.99, currencyCode: "USD" },
+      retailPrice: { amount: 5.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=HRCHJp-V0QUC&rdid=book-HRCHJp-V0QUC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 5990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 5990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Dreams_from_My_Father-sample-epub.acsm?id=HRCHJp-V0QUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Dreams_from_My_Father-sample-pdf.acsm?id=HRCHJp-V0QUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=HRCHJp-V0QUC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/content?id=HRCHJp-V0QUC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70lMzhbKtgq901QCcY6HLLdWY_wfbnODd1byAB-ULfQZYjZv_UHw-9JDtxCKjCaO1-AOyGOw3Yt5LbbjxqLi_rndP25K5wIDtHAMlRwgVLCL3pAJUwubfaX50rJDbb1hN4owJJ7&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Coi9AwAAQBAJ",
+    etag: "q/AbX0EaMmQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Coi9AwAAQBAJ",
+    volumeInfo: {
+      title: "The Giver",
+      authors: ["Lois Lowry"],
+      publisher: "Houghton Mifflin Harcourt",
+      publishedDate: "2014",
+      description:
+        "<p>In Lois Lowry's Newbery Medal-winning classic, twelve-year-old Jonas lives in a seemingly ideal world. Not until he is given his life assignment as the Receiver does he begin to understand the dark secrets behind his fragile community.</p> <p>This movie tie-in edition features cover art from the movie and an exclusive Q&A with cast members, including Taylor Swift, Brenton Thwaites, and Cameron Monaghan.</p> <p>Life in the community where Jonas lives is idyllic. Designated birthmothers produce newchildren, who are assigned to appropriate family units. Citizens are assigned their partners and their jobs. No one thinks to ask questions. Everyone obeys. Everyone is the same. Except Jonas.</p> <p>Not until he is given his life assignment as the Receiver of Memory does he begin to understand the dark, complex secrets behind his fragile community. Gradually Jonas learns that power lies in feelings. But when his own power is put to the test--when he must try to save someone he loves--he may not be ready. Is it too soon? Or too late?</p> <p>The Giver has become one of the most influential novels of our time. Don't miss the powerful companion novels in Lois Lowry's Giver Quartet: Gathering Blue, Messenger, and Son.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "054434068X" },
+        { type: "ISBN_13", identifier: "9780544340688" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 240,
+      printedPageCount: 257,
+      dimensions: {
+        height: "21.00 cm",
+        width: "14.00 cm",
+        thickness: "1.60 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Juvenile Fiction / Fantasy & Magic",
+        "Juvenile Fiction / Science Fiction / General",
+        "YOUNG ADULT FICTION / Boys & Men",
+        "Young Adult Fiction / Dystopian",
+        "Young Adult Fiction / Fantasy / General",
+        "Young Adult Fiction / Media Tie-In",
+      ],
+      averageRating: 4,
+      ratingsCount: 18,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.1.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE704gOP8XMctAop2NqEYaUwBc4nGtyTbzQ9rkaX1o7lr9WBWHjMsgSBE4mTpbPiYfcdrw_CUMl5mgpymkBiSUsktKMRWgTHD68kAJgGHY4jruxOE9qPbSeOegi3nNlxhIEhsy0i1&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71S7F6t-NH1fgc-L3GgE3Bt2t53laubt9KzjppncnDUwEVad1ZTIjrx5mjPU0ZfnPJxmHJxMMXfjj77hfqLZAj8SteipuT-mK2D674qgQ3nbg7lYbUgfMVaLy6_waKXTdpKOl3o&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71Iviau9fHTdGW7N0gYUxOROXwuKcyvfiLUTUZoVyoOW8rKBzaxTo2oAy1GfXS7XvMgqX2Z9yM5O2lJwLws_EAUabYE7IdFxnhHHnFIhG1wKqPxJYvVJLQylFkogzOVWqRTbQfe&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE7020dJtX4SZsEcF4-oUSBmmTq3DBcdZGiYee1dHARN7WgwqokqBT1dSYC_rYWShNTPOpxB54HxHLspSKgAHQqkGcELoswPfZyLYB6KMgSRbqDRMu2NoK3pXfb-j5-4J12SIniBW&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71-yopXEW03XOjlxJupuicQJCRjxzR_XY7KUBrFmZXibO6FG1zL6CC5Yj5_p5GLMe0GhioBb8SGGwqTAMeFzpAWJREhuNLcIi9_naaov-VaLp_WTg0nmDEB_0BOzJPEKtC_F-Fc&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73WTeCP2tCFhUrcxGxi0S8E8exCswkmwxHitXoOU4IJYm92wk9DYhNoHWlQvf1EDyWwgSg8zKl9YlleBXiG-FA7QX96lngOiv8tLQ6jc6TL2Qqw-2xrKoyF-u-35GgPOPRTkmi_&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Coi9AwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Coi9AwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Coi9AwAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Giver-sample-pdf.acsm?id=Coi9AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Coi9AwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=Coi9AwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73WTeCP2tCFhUrcxGxi0S8E8exCswkmwxHitXoOU4IJYm92wk9DYhNoHWlQvf1EDyWwgSg8zKl9YlleBXiG-FA7QX96lngOiv8tLQ6jc6TL2Qqw-2xrKoyF-u-35GgPOPRTkmi_&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "icSwNbJng4wC",
+    etag: "yG+WaJezsS4",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/icSwNbJng4wC",
+    volumeInfo: {
+      title: "The Picture of Dorian Gray",
+      authors: ["Oscar Wilde"],
+      publisher: "Oxford University Press",
+      publishedDate: "1981",
+      description:
+        '"This revised Norton Critical Edition, like its predecessor, is the only edition available that includes both the 1890 Lippincott\'s and the 1891 book version of The Picture of Dorian Gray. Under the editorial guidance of Wilde scholar Michael Patrick Gillespie, students have the opportunity to read comparatively both published versions of this controversial novel." ""Backgrounds" and "Reviews and Reactions" allow readers to gauge The Picture of Dorian Gray\'s sensational reception when the 1890 version appeared and to consider the heated public debate over art and morality that followed its publication. Joris-Karl Huysmans, Walter Pater, and Oscar Wilde offer a sense of the diverse opinions on these topics. Eight contemporary reviews and comments on the novel are reprinted, among them four opinions from the St. James\'s Gazette immediately after publication in 1890, each followed by Oscar Wilde\'s vehement reply." ""Criticism" includes seven new essays on the novel that reflect key changes in interpretive theory in recent years and reveal the broad range of perspectives associated with Wilde and The Picture of Dorian Gray. Simon Joyce, Donald L. Lawler, Sheldon W. Liebman, Maureen O\'Connor, Ellie Ragland-Sullivan, John Paul Riquelme, and Michael Patrick Gillespie provide their varied assessments. A Chronology and a Selected Bibliography are also included."--BOOK JACKET.',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0192815539" },
+        { type: "ISBN_13", identifier: "9780192815538" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 236,
+      printedPageCount: 268,
+      dimensions: {
+        height: "19.00 cm",
+        width: "11.60 cm",
+        thickness: "1.20 cm",
+      },
+      printType: "BOOK",
+      categories: ["Fiction / Classics", "Fiction / Literary"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.4.1.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70e4MKHOMuCh_6drivBF7uOQKVL-5uuoyopvP9TMzJRqHWYUkbOxj2UDL0KgN_xTH0-2cLd263P3JBHfJgHZgT0csMXeLk6IJMZiHY_9C5szY9P9MR1ZrNFaZlOIStkmc74JwVW&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73jblqjB_qrvNnl1s6plbSP-e3k0612e3DQnD_CGV5ZyrbvjGF0_rK5O1IC3ZtW14ShnyR2r46Jbf8QOrAWpu-Ggpn-eP1RDLn3I4hcRL7YDUfSAmqPf2TF1gOOpLzNbOR3lVGz&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE72slDDK4vjUo4mdYBv6WqV6GAEoXbVzCr1JPplacX8jzmNCC_AfZ1vvIxyIKy04bYt57IiAywgUXP9Kw_-vFP_VD6nyAfhCeiGnsQEPvp1QBhk49L9FkWUUluhdiq0oWiSTItKY&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=3&imgtk=AFLRE72-CpuXmk2XjuqaXTIk6csjbaD_s2bCz0ylL46Ht7EoQEnbYOaw5VX5xVTobK5nqBajbWASngabz_Eih-E6SRdNjRBxUeL88P-IHJReGnslqDKJ8Fyi0-QlWe2zHZ7T36nKJrG0&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=4&imgtk=AFLRE73H3ZTLfoeId98iK1OCCy_TB1BgzofNFR3wixdhgNCf495s0wGijzJErh6Ex7hmwQaOaY3ErfHPiZqQGT9dwHHnYBYVA3u-Fj9jNRB6iTP0lqKgfFO-63sES2fzgVbQLzUSKDIm&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71U8rC6Oe8CMXPnP5RVlt4mwJfgJVjj-Sh1lVQfIm2X-1XPHTb_qYpWw9fxqRNXp0MSv8DojNvf2wO6CXp3NXSF_o6AxwYpguGdTzFD4ebRQ1r7hLdErGThLVARJ1RI3gaFfbyF&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=icSwNbJng4wC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=icSwNbJng4wC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=icSwNbJng4wC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=icSwNbJng4wC&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1280,
+      height: 205,
+      image:
+        "http://books.google.com/books/content?id=icSwNbJng4wC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71U8rC6Oe8CMXPnP5RVlt4mwJfgJVjj-Sh1lVQfIm2X-1XPHTb_qYpWw9fxqRNXp0MSv8DojNvf2wO6CXp3NXSF_o6AxwYpguGdTzFD4ebRQ1r7hLdErGThLVARJ1RI3gaFfbyF&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "kGEAzwEACAAJ",
+    etag: "HZeDoWUOd3I",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/kGEAzwEACAAJ",
+    volumeInfo: {
+      title: "Mastery",
+      subtitle: "The Keys to Success and Long-Term Fulfillment",
+      authors: ["George Leonard"],
+      publisher: "Penguin Publishing Group",
+      publishedDate: "1992-02-01",
+      description:
+        "<b>Drawing on Zen philosophy and his expertise in the martial art of aikido, bestselling author George Leonard shows how the process of mastery can help us attain a higher level of excellence and a deeper sense of satisfaction and fulfillment in our daily lives.<br><br></b>Whether you're seeking to improve your career or your intimate relationships, increase self-esteem or create harmony within yourself, this inspiring prescriptive guide will help you master anything you choose and achieve success in all areas of your life. In <i>Mastery</i>, you'll discover:<br><br>• The 5 Essential Keys to Mastery<br>• Tools for Mastery<br>• How to Master Your Athletic Potential <br>• The 3 Personality Types That Are Obstacles to Mastery<br>• How to Avoid Pitfalls Along the Path<br>• and more...",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0452267560" },
+        { type: "ISBN_13", identifier: "9780452267565" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 192,
+      printedPageCount: 192,
+      dimensions: { height: "17.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Self-Help / Personal Growth / Success",
+        "Business & Economics / Workplace Culture",
+        "Philosophy / Zen",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=kGEAzwEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE736Fxldl0b4damFDGsaL0HFqKIY08-pSEjEEr6r7VaWPJk-fWAfDWglgz-FPftkTdC-kD_8VTDBobFtJ4kTAESdzg8vIfwyk8RU2f-U-2KSY3_exPrQD2a6M6JHV1wMR1G-1fPc&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=kGEAzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE728Hv1Vmky03c0glboltRS63635Sxpc9VDEI1X6lhtaS7OVT3fgwnzXr4FVdpC4od4fq4aQ9bICku5khsTKWyPBN6MbDZd6ePsmqPmW-qqor-1m4F4WpXTBbLzgZgJd-6ecnS24&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=kGEAzwEACAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=kGEAzwEACAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=kGEAzwEACAAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=kGEAzwEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 179,
+      image:
+        "http://books.google.com/books/content?id=kGEAzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE728Hv1Vmky03c0glboltRS63635Sxpc9VDEI1X6lhtaS7OVT3fgwnzXr4FVdpC4od4fq4aQ9bICku5khsTKWyPBN6MbDZd6ePsmqPmW-qqor-1m4F4WpXTBbLzgZgJd-6ecnS24&source=gbs_api",
+    },
+  },
 
   {
     kind: "books#volume",
@@ -801,6 +2080,84 @@ const bestsellerList = [
       height: 1153,
       image:
         "http://books.google.com/books/publisher/content?id=cWG3EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73m-DSsuT85j4AdqlDJ2JWhgJc6ORoN9VZ2BkjpjvnqA9i8UBbot1ldBfZqPrjWs9WxMuPt0dIGW0y8j9txsdGJl-vOJgSutNT0bxScxrcii0voZzJyJAfhKRHKOZAXd0zrjy3J&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "anJrbWGCdmAC",
+    etag: "TRvJ5Hmh+tk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/anJrbWGCdmAC",
+    volumeInfo: {
+      title: "The Old Man And The Sea",
+      authors: ["Ernest Hemingway"],
+      publisher: "Harper Collins",
+      publishedDate: "2012-02-14",
+      description:
+        "<p>Santiago, an old Cuban fisherman, has gone 84 days without catching a fish. Confident that his bad luck is at an end, he sets off alone, far into the Gulf Stream, to fish. Santiago’s faith is rewarded, and he quickly hooks a marlin...a marlin so big he is unable to pull it in and finds himself being pulled by the giant fish for two days and two nights.</p><p>HarperPerennialClassics brings great works of literature to life in digital format, upholding the highest standards in ebook production and celebrating reading in all its forms. Look for more titles in the HarperPerennial Classics collection to build your digital library.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1443414557" },
+        { type: "ISBN_13", identifier: "9781443414555" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 127,
+      printedPageCount: 86,
+      printType: "BOOK",
+      categories: ["Fiction / Literary"],
+      averageRating: 3,
+      ratingsCount: 7,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "3.10.8.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73zsw3ea1imC7r1jOcTyHOyZV1rJn84baQhRK0Q_lRBEL7daxUZrQkoUf1-sTDxYZ87hYzz358BT7NkCk08BxieLoGea5QQNEmL6DKTtMtJBSwMACH6zKgr_1MAhwfj9OmmBadh&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72fxCtIcdIMyGLXjtcatD1h7sL4ZdlT0yHp-xVU2bMBK8lGO83ngTpqmTW2HVSMyBRWdGAj0iF7OoUGQwDx3ovcfSBaRMWvTD_xCThCG865Jz1gDHKtc3qx46fn5SUquY1NqNkt&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70u2lYWoCkJImp5nW6BHXXx_ICoo1LQcHE0Y-2aFJ20MWSSdBlQa9_OIFOdiDa98HxetRwqveJXMtM8EasJXtygQQ86Ji_VOxFxC-I7FRf9fQ9jqVgxVDzmmb6QiC0uI3d0Y7Pl&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70kT-QUyl7XyeVhr64PeF52LWLr3PEWs-uNlHAtoSiFLBZPCeraFCeTae2jaEq6bXcbP74s1XUKTjLInObzj5kJFfngfjwCweaHeHmO6ZoKJuGWxDgIGFvl5cYUyUfkzuWEuGWV&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72pyNQXHb3I8P6AmyrDP6yGzs2Dk95-G5ri4ZrL5zoA3hUvnr2Psdhd3aem1si1etAo9B1SVrdefHSfoSFotJPNvHWLrjkT9pd5tG9sASYh3XKNK89ITxy47ZD_-lpsSQbVCXuf&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71HN8s11-6KG7zIMsvKm9n81tCIHSDgPAhRYGLPc2dweZYGp7-ZGRh4m5ePwyfSKXg6-L5EJAkEixrHoEtrpsBCNk3tFc52__jPKGmVJLDA7u3nhz7x13cB5Bjdr8z5ZxoCOoR0&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=anJrbWGCdmAC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=anJrbWGCdmAC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=anJrbWGCdmAC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "15" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Old_Man_And_The_Sea-sample-epub.acsm?id=anJrbWGCdmAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=anJrbWGCdmAC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2607,
+      image:
+        "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71HN8s11-6KG7zIMsvKm9n81tCIHSDgPAhRYGLPc2dweZYGp7-ZGRh4m5ePwyfSKXg6-L5EJAkEixrHoEtrpsBCNk3tFc52__jPKGmVJLDA7u3nhz7x13cB5Bjdr8z5ZxoCOoR0&source=gbs_api",
     },
   },
 ];
