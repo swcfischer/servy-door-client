@@ -42,7 +42,7 @@ function GoogleBook(props) {
   );
 }
 
-export function generateSearchUrl({ title, author }) {
+export function generateSearchUrl({ title = "", author = "" }) {
   const query = `${title} ${author}`;
   return `https://news.google.com/search?q=${encodeURIComponent(query)}`;
 }

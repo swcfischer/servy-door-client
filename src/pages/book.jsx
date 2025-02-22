@@ -222,7 +222,7 @@ function Book(props) {
             </dd>
             <GoogleBook
               title={state.volumeInfo.title}
-              author={state.volumeInfo.authors.join(", ")}
+              author={state.volumeInfo?.authors?.join(", ")}
             />
             <dt>Amazon</dt>
             <dd>
