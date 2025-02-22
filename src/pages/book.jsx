@@ -119,10 +119,11 @@ function Book(props) {
     );
   }
 
-  const isbn = state.volumeInfo?.industryIdentifiers[0].identifier;
+  // * ISBN is important, may need it in the future; however, not at the moment
+  // const isbn = state.volumeInfo?.industryIdentifiers?.[0]?.identifier;
 
-  const bookTitle = encodeURIComponent(state.volumeInfo.title);
-  const bookAuthor = encodeURIComponent(state.volumeInfo.authors.join(", "));
+  const bookTitle = encodeURIComponent(state.volumeInfo?.title);
+  const bookAuthor = encodeURIComponent(state.volumeInfo?.authors?.join(", "));
 
   return (
     <Container className="fade-in">
@@ -199,6 +200,7 @@ function Book(props) {
             <dd>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href={createGooglePublisherLink(state.volumeInfo?.publisher)}
               >
                 {state.volumeInfo?.publisher}
@@ -226,6 +228,8 @@ function Book(props) {
             <dd>
               <a
                 href={`https://www.amazon.com/s/?k=${bookTitle}+${bookAuthor}`}
+                target="_blank"
+                rel="noreferrer"
               >
                 Here
               </a>

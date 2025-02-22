@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `We are here to serve all your reading needs. Don't forget, knowledge is power.`,
+    title: `ServyDoor | Let's Read!`,
     description: `ServyDoor is meant to help readers find and stick with books of all sorts. A special thanks to Google and the Open Source community that make projects like this possible.`,
     author: `@yourhandle`,
   },
