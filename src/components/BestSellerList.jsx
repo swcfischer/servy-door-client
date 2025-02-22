@@ -12,10 +12,12 @@ const Container = styled.div`
     margin-top: 0;
     font-style: italic;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 40px;
+    /* font-size: 26px; */
     align-items: center;
     text-align: center;
     width: 100%;
+    font-family: Tangerine;
   }
 `;
 

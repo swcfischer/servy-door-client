@@ -31,15 +31,21 @@ function PageRange(props) {
         />{" "}
         )
       </span>
-      <Tooltip title="Enter the page range or percent range for reading session">
+      <Tooltip
+        title={
+          <span style={{ fontSize: "1.2em" }}>
+            Enter a range (percentage or page) for this reading session
+          </span>
+        }
+      >
         <span
           style={{
-            fontSize: "0.4em",
+            fontSize: "0.7em",
             fontWeight: "normal",
             position: "relative",
             left: "10px",
             cursor: "default",
-            top: "1px",
+            top: "3px",
           }}
         >
           ⓘ

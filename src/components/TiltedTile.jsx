@@ -11,6 +11,7 @@ const StyledLink = styled(Link)`
   transition: border-color 0.7s ease-in-out;
   display: block;
   margin: 20px 0;
+  user-select: none;
 
   &:focus {
     border: 1px solid #dadada;
@@ -40,22 +41,22 @@ const StyledLink = styled(Link)`
     font-size: 20px;
     font-weight: 100;
     font-family: serif;
-    color: rgba(250, 255, 103, 0.41);
+    color: rgba(212, 218, 60, 0.621);
   }
 `;
 
-const duration = 800;
+const duration = 400;
 
 const defaultStyle = {
-  transition: `opacity, scale ${duration}ms ease-in-out`,
+  transition: `opacity ${duration}ms ease-in-out`,
   opacity: 0,
 };
 
 const transitionStyles = {
-  entering: { opacity: 1, transform: "scale(1)" },
-  entered: { opacity: 1, transform: "scale(1)" },
-  exiting: { opacity: 0, transform: "scale(0)" },
-  exited: { opacity: 0, transform: "scale(0)" },
+  entering: { opacity: 1 },
+  entered: { opacity: 1 },
+  exiting: { opacity: 0 },
+  exited: { opacity: 0 },
 };
 
 function TiltedTile(props) {
@@ -69,9 +70,9 @@ function TiltedTile(props) {
     <StyledLink to={to}>
       <Typography variant="h6" className="tile">
         <span className="span">{text}</span>
-        {shouldShow && <span className="home">*</span>}
+        {/* {shouldShow && <span className="home">*</span>} */}
 
-        <CSSTransition in={shouldShow} timeout={duration} unmountOnExit>
+        <CSSTransition in={shouldShow} timeout={duration}>
           {(state) => (
             <span
               className="home"

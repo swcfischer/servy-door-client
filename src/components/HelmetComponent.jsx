@@ -21,6 +21,13 @@ function HelmetComponent(props) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="robots" content="index" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="author" content="Steve Fischer" />
+      <meta
+        name="keywords"
+        content="reading, focus, concentration, books, literature, writing, community"
+      />
     </Helmet>
   );
 }
