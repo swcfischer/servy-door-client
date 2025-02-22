@@ -168,6 +168,81 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "D2z_0AEACAAJ",
+    etag: "UNx3xrMlVAc",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/D2z_0AEACAAJ",
+    volumeInfo: {
+      title: "Defend the Border and Save Lives",
+      subtitle: "Solving Our Most Important Humanitarian and Security Crisis",
+      authors: ["Tom Homan"],
+      publisher: "Center Street",
+      publishedDate: "2025-03-04",
+      description:
+        "<p><b>The groundbreaking book former ICE Director Tom Homan wrote before President Trump appointed him \"border czar.\"</b></p><p> Tom Homan has been at the forefront of the conservative fight to secure our borders. In this book, the former ICE Director provides proof that illegal immigration is not a victimless crime - and outlines how we can finally solve this crisis once and for all. </p><p> Illegal immigration is the most controversial and emotional issue this country faces. President Trump was elected on his promise to fix illegal immigration and build a wall on our southern border. Tom Homan knows the facts. He's spent his life on the border and knows that if we don't control illegal immigration now, this country will continue to suffer the consequences of crime, drugs, and financial strain--and it will get much, much worse. </p><p> In <i>Defend the Border and Save Lives</i>, Homan shares what illegal immigration is really about and explains why it should not be a partisan issue. Now is the time to fix this problem that has claimed so many victims and divided this country. To do that, we need to pull the curtain back and expose what truly happens and separate facts from fiction. </p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1546009523" },
+        { type: "ISBN_13", identifier: "9781546009528" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 272,
+      printedPageCount: 272,
+      dimensions: {
+        height: "20.30 cm",
+        width: "13.30 cm",
+        thickness: "1.70 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Political Science / History & Theory",
+        "Political Science / American Government / National",
+        "Political Science / Commentary & Opinion",
+        "Political Science / Public Policy / Immigration",
+        "Social Science / Emigration & Immigration",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=D2z_0AEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71ar8a6hHXXX6vKClSKYWRo8hAqbINNr_ewx7Ao6_b13xnZ4uQKsd5Q2EBV96-nOt1llren-1Onlug1k32pHRhADC4tK8zU2-7ARaUAKSIoFzU-ZRgiRSzOnMm7x8RmB9K14YEx&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=D2z_0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73YBBkqly1QeHRQZXOoqydG_e4FSNIcreovh10Hqdd0U-zSQ7N4YekCK-ToM3dYeofHQk72kmjcmBWu5tZgouYkhSiDAFB4GyTO6Wf9rbHDxEiCg7WbTrTRahZIDdXoGj29keua&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=D2z_0AEACAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=D2z_0AEACAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=D2z_0AEACAAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=D2z_0AEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 194,
+      image:
+        "http://books.google.com/books/content?id=D2z_0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73YBBkqly1QeHRQZXOoqydG_e4FSNIcreovh10Hqdd0U-zSQ7N4YekCK-ToM3dYeofHQk72kmjcmBWu5tZgouYkhSiDAFB4GyTO6Wf9rbHDxEiCg7WbTrTRahZIDdXoGj29keua&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "SPkIEQAAQBAJ",
     etag: "+GLpGyxU0g8",
     selfLink: "https://www.googleapis.com/books/v1/volumes/SPkIEQAAQBAJ",
