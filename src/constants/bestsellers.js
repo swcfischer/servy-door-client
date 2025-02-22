@@ -2089,6 +2089,86 @@ const bestsellerList = [
         "http://books.google.com/books/content?id=anJrbWGCdmAC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71HN8s11-6KG7zIMsvKm9n81tCIHSDgPAhRYGLPc2dweZYGp7-ZGRh4m5ePwyfSKXg6-L5EJAkEixrHoEtrpsBCNk3tFc52__jPKGmVJLDA7u3nhz7x13cB5Bjdr8z5ZxoCOoR0&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "3C-4dsIGlEgC",
+    etag: "rtUxtaCxa5Q",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/3C-4dsIGlEgC",
+    volumeInfo: {
+      title: "Lord of the Flies",
+      authors: ["William Golding"],
+      publisher: "Penguin",
+      publishedDate: "2003-12-16",
+      description:
+        "<b><b>Golding’s iconic 1954 novel, now with a new foreword by Lois Lowry, remains one of the greatest books ever written for young adults and an unforgettable classic for readers of any age.</b><br>  <br> </b>This edition includes a new Suggestions for Further Reading by Jennifer Buehler.<b><br></b><br>At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate. This far from civilization they can do anything they want. Anything. But as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far removed from reality as the hope of being rescued.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0399501487" },
+        { type: "ISBN_13", identifier: "9780399501487" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 224,
+      printedPageCount: 212,
+      dimensions: {
+        height: "19.00 cm",
+        width: "10.60 cm",
+        thickness: "1.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Literary",
+        "Fiction / Psychological",
+      ],
+      averageRating: 3.5,
+      ratingsCount: 43,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.8.10.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73BGTPR4PhnH-QEZatzGtISanz_2fV38SSfTqWziKYAgMqXGu0ZYCX0cEaWHPldyExnGb-wMEpn2yRG-6Zs5-4uBrQT645ygCa1PHwVlGk4S5jzIaG4DBFsuB12014b34UYbuDt&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72RX65pboGFRwp4glKUWsEw8hz4rmDXW36Jcszj8WRl2_lrf74FpSBxbaZMVGGxyvpP3vNceEp7CvAY3R0m0bQgTwOJP_NZfZqaVxoynt_PXM6Cqm5cEp4Na1eMzS_xr7y29fNm&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70fXFLz2OJQcpEz4kLB8k-dYQmICI1uEoGLIByWDeEgoVIps7WJgLANLUmau35zxxV3UwsV6GugSejg4rtCcAHkM4jo_CKAOHl0pGJNLzsEXhKwpgMTezFBb-WikeHW3m4eZbI0&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71cisPomgL7XAeDa0zSHM7SA2eNlMMFs6zn5Dq98HvFuXOdu_63a1wByjOrkczEfOY_nRj86Z23gRzkl8LZDT71JBa4MK4ctD-aQ4Oxn5PvjbMO76xTkHnKZdkM5SzDH25v5EpV&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72oXuUXqazPslCSzipH9I6ZYxJ2V9HgKqMZRWjWVPAwnwiBmV4Ako63q6Fkmk2ZFSLYWpQrZ33lQFq3sHglTSeVfmCTBpC8xhY2vCHHYDMLtwWEApAEjF6cejEek-IkiRCf5YmY&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=3C-4dsIGlEgC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=3C-4dsIGlEgC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=3C-4dsIGlEgC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=3C-4dsIGlEgC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1847,
+      image:
+        "http://books.google.com/books/content?id=3C-4dsIGlEgC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72oXuUXqazPslCSzipH9I6ZYxJ2V9HgKqMZRWjWVPAwnwiBmV4Ako63q6Fkmk2ZFSLYWpQrZ33lQFq3sHglTSeVfmCTBpC8xhY2vCHHYDMLtwWEApAEjF6cejEek-IkiRCf5YmY&source=gbs_api",
+    },
+  },
 ];
 
 export default bestsellerList;
