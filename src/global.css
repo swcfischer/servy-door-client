@@ -101,3 +101,6 @@ dt {
   margin-bottom: 12px;
   transition: background-color 0.3s ease;
 }
+a {
+  -webkit-user-drag: none !important;
+}
