@@ -57,21 +57,35 @@ function LoginToAnotherAccount(props) {
           <Form>
             <div className="form-group">
               <label htmlFor="accountName">Account Name</label>
-              <Field type="text" name="accountName" className="form-control" />
-              <ErrorMessage
-                name="accountName"
-                component="div"
-                className="error-message"
-              />
+
+              <div className="form-field-container">
+                <Field
+                  type="text"
+                  name="accountName"
+                  className="form-control"
+                />
+                <ErrorMessage
+                  name="accountName"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
-              <Field type="password" name="password" className="form-control" />
-              <ErrorMessage
-                name="password"
-                component="div"
-                className="error-message"
-              />
+
+              <div className="form-field-container">
+                <Field
+                  type="password"
+                  name="password"
+                  className="form-control"
+                />
+                <ErrorMessage
+                  name="password"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
             </div>
             <div className="form-group">
               <button

@@ -11,7 +11,6 @@ const Container = styled.div`
   .form-group {
     display: flex;
     margin-bottom: 32px;
-    position: relative;
 
     label {
       width: 150px;
@@ -21,11 +20,16 @@ const Container = styled.div`
       margin-left: 10px;
     }
 
-    .error-message {
-      position: absolute;
-      top: 32px;
-      right: 0;
-      color: red;
+    .form-field-container {
+      position: relative;
+
+      .error-message {
+        position: absolute;
+        top: 32px;
+        left: 0;
+        color: red;
+        width: max-content;
+      }
     }
   }
 
@@ -90,11 +94,15 @@ function Accounts(props) {
   return (
     <Container>
       <h1>Accounts</h1>
-      <ul style={{ padding: 0, margin: "0 0 24px 0", listStyle: "none" }}>
-        <li>
-          <strong>User UUID:</strong> {user.uuid}
-        </li>
-      </ul>
+      <p>
+        The intention is to not collect your email. Instead you set a username,
+        password and secret.
+      </p>
+      <p>
+        The secret is used to unlock your account. We recommend writing it down.
+        The account name is what shows up when you write a review or share
+        insight (coming soon).
+      </p>
 
       <Formik
         initialValues={initialValues}
@@ -108,77 +116,89 @@ function Accounts(props) {
               <label htmlFor="accountName">
                 <strong>Account Name:</strong>
               </label>
-              <Field
-                type="text"
-                name="accountName"
-                className="form-field"
-                placeholder="Example, Steve"
-              />
+              <div className="form-field-container">
+                <Field
+                  type="text"
+                  name="accountName"
+                  className="form-field"
+                  placeholder="Example, Steve"
+                />
+
+                <ErrorMessage
+                  name="accountName"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
 
               <Tooltip title="No spaces and must be at least two characters">
                 <span className="tooltip-icon">ⓘ</span>
               </Tooltip>
-              <ErrorMessage
-                name="accountName"
-                component="div"
-                className="error-message"
-              />
             </div>
             <div className="form-group">
               <label htmlFor="password">
                 <strong>Password:</strong>
               </label>
-              <Field type="password" name="password" className="form-field" />
+              <div className="form-field-container">
+                <Field type="password" name="password" className="form-field" />
+
+                <ErrorMessage
+                  name="password"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
 
               <Tooltip title="Must be at least 4 characters">
                 <span className="tooltip-icon">ⓘ</span>
               </Tooltip>
-
-              <ErrorMessage
-                name="password"
-                component="div"
-                className="error-message"
-              />
             </div>
             <div className="form-group">
               <label htmlFor="confirmPassword">
                 <strong>Confirm Password:</strong>
               </label>
-              <Field
-                type="password"
-                name="confirmPassword"
-                className="form-field"
-              />
+              <div className="form-field-container">
+                <Field
+                  type="password"
+                  name="confirmPassword"
+                  className="form-field"
+                />
+
+                <ErrorMessage
+                  name="confirmPassword"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
 
               <Tooltip title="Passwords must match">
                 <span className="tooltip-icon">ⓘ</span>
               </Tooltip>
-              <ErrorMessage
-                name="confirmPassword"
-                component="div"
-                className="error-message"
-              />
             </div>
             <div className="form-group">
               <label htmlFor="secret">
                 <strong>Secret:</strong>
               </label>
-              <Field
-                type="text"
-                name="secret"
-                className="form-field"
-                title="The secret is used to reset your password"
-                placeholder="Example, Camp David"
-              />
+
+              <div className="form-field-container">
+                <Field
+                  type="text"
+                  name="secret"
+                  className="form-field"
+                  title="The secret is used to reset your password"
+                  placeholder="Example, Camp David"
+                />
+
+                <ErrorMessage
+                  name="secret"
+                  component="div"
+                  className="error-message"
+                />
+              </div>
 
               <Tooltip title="Must be at least 8 characters and is used to do a password reset.">
                 <span className="tooltip-icon">ⓘ</span>
               </Tooltip>
-              <ErrorMessage
-                name="secret"
-                component="div"
-                className="error-message"
-              />
             </div>
             <button type="submit" disabled={isSubmitting}>
               Submit
@@ -187,6 +207,11 @@ function Accounts(props) {
         )}
       </Formik>
       <LoginToAnotherAccount />
+      <ul style={{ padding: 0, margin: "0 0 24px 0", listStyle: "none" }}>
+        <li>
+          <strong>User UUID:</strong> {user.uuid}
+        </li>
+      </ul>
     </Container>
   );
 }

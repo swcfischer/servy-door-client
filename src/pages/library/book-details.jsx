@@ -306,7 +306,10 @@ function BookDetails(props) {
                     return;
                   }
 
-                  if (readingSessionIdx === readingSessions.length - 1) {
+                  if (
+                    readingSessionIdx === readingSessions.length - 1 &&
+                    readingSessionIdx !== 0
+                  ) {
                     alert(
                       "You can only create a new reading session from the latest session."
                     );
@@ -366,6 +369,8 @@ function BookDetails(props) {
               {
                 label: "Correct grammar and punctuation",
                 action() {
+                  snackbarMessage("Sorry, I have not added this yet.");
+                  snackbarOpen(true);
                   console.log("action");
                 },
               },
