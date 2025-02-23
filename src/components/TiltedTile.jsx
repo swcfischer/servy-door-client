@@ -12,6 +12,7 @@ const StyledLink = styled(Link)`
   display: block;
   margin: 20px 0;
   user-select: none;
+  -webkit-user-drag: none !important;
 
   &:focus {
     border: 1px solid #dadada;
