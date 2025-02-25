@@ -45,16 +45,20 @@ function Library() {
     <Container>
       <h1>Library</h1>
       <div className="books-list">
-        {books.map((bk) => {
-          return (
-            <BookItem
-              to={`/library/book-details?id=${bk.uuid}`}
-              id={bk.uuid}
-              key={bk.uuid}
-              volumeInfo={bk.volumeInfo}
-            />
-          );
-        })}
+        {books.length > 0 ? (
+          books.map((bk) => {
+            return (
+              <BookItem
+                to={`/library/book-details?id=${bk.uuid}`}
+                id={bk.uuid}
+                key={bk.uuid}
+                volumeInfo={bk.volumeInfo}
+              />
+            );
+          })
+        ) : (
+          <p>You have not yet selected a book to read.</p>
+        )}
       </div>
     </Container>
   );
