@@ -196,9 +196,10 @@ export default function Index(props) {
                     marginTop: "15px",
                   }}
                   onChange={(e, value) => {
+                    setQ(q || qParam);
                     navigate(
                       `/?${buildQueryParams({
-                        q: q,
+                        q: q || qParam,
                         page: value,
                         searchFilter: searchFilter?.value ?? "none",
                       })}`
