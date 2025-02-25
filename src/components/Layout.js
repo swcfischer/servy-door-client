@@ -157,7 +157,9 @@ const Layout = ({ children }) => {
                 <TiltedTile text="ServyDoor" to="/" />
               </div>
               <div className="nav-links">
-                <TiltedTile text="Social" to="/social" />
+                {process.env.NODE_ENV !== "production" && (
+                  <TiltedTile text="Social" to="/social" />
+                )}
                 <TiltedTile text="Library" to="/library" />
                 <TiltedTile text="Account" to="/account" />
               </div>
