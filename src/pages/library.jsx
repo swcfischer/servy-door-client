@@ -57,7 +57,7 @@ function Library() {
             );
           })
         ) : (
-          <p>You have not yet selected a book to read.</p>
+          <p>You have not selected a book to read yet.</p>
         )}
       </div>
     </Container>
