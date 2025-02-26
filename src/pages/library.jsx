@@ -4,6 +4,7 @@ import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
 import styled from "@emotion/styled";
 import BookItem from "../components/BookItem";
+import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
 const Container = styled.div`
   .books-list {
@@ -23,9 +24,11 @@ const Container = styled.div`
 function Library() {
   const { user } = useContext(UserContext);
   const [books, setBooks] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
+      setIsLoading(true);
       try {
         const response = await axiosInstance.get(
           "/books/user-books/" + user.uuid
@@ -33,6 +36,8 @@ function Library() {
         setBooks(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -45,7 +50,9 @@ function Library() {
     <Container>
       <h1>Library</h1>
       <div className="books-list">
-        {books.length > 0 ? (
+        {isLoading ? (
+          <LoadingSpinner />
+        ) : books.length > 0 ? (
           books.map((bk) => {
             return (
               <BookItem
