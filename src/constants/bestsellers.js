@@ -436,6 +436,104 @@ const bestsellerList = [
         "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE704ecySqlatbYn5NDSfbHgVBPXTE_EvmPolfdflMdZAF0vV001e3KUMS6TqBSFwQzAzr6jp5hWXS6IbSmt5OMTasmQ-sJmacdluV7-6dBwvynXJP91hzLhFO0PrnUohVkwyKJhF&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "jM_bEAAAQBAJ",
+    etag: "hiFSyBhZA24",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/jM_bEAAAQBAJ",
+    volumeInfo: {
+      title: "TV Lobotomy",
+      subtitle:
+        "The Scientific Truth about the Effects of Television - Essais - documents",
+      authors: ["Michel Desmurget"],
+      publisher: "Max Milo",
+      publishedDate: "2023-07-04",
+      description:
+        '• "TV unleashes the imagination and feeds intelligence." • "A child deprived of TV risks social isolation." • "TV dumbs you down." • "TV makes you obese." It seems that everything—and its opposite—has already been said about TV. But what is it really? How can we distinguish between the radical "No TV" of some and the supposedly entertaining virtues touted by others? Michel Desmurget, a doctor in neuroscience, has sifted through and synthesized thousands of research articles published over the last fifty years in the most rigorous international journals. The conclusion is unequivocal—we must stop watching television for good, whatever the program. All content, even that meant to teach, can never come close to any other learning method. The data is clear—television viewing is detrimental to school performance. For a child in elementary school, for example, every hour spent daily watching television increases the likelihood that he or she will one day leave the school system without any qualifications. For specialists, there is no doubt that television has a negative influence, not only on intellectual development but also on behavior. Thus, certain eating disorders (anorexia, bulimia) are related to a frantic consumption of—television programs! In short, watching television has an impact on our life expectancy. However, the harmful impact of this risk is largely underestimated, because of the large sector of the public exposed to television (more than 85% of Western households have at least one television set), and because of a debate on the subject that has become inaudible and confused. Moreover, the results of the research initiated by the big media groups on the subject remain "proprietary," i.e., closed to the general public. Believing that we is facing a real public health problem, Michel Desmurget wants to act as a responsible scientist—with a clear, concise and rigorously referenced book, the message cannot go unnoticed. Michel Desmurget is a doctor of neuropsychology. He attended several major American universities (MIT, Emory, UCSF) and is now a research director at INSERM in cognitive neuroscience. He is particularly interested in the problems of brain organization and plasticity. He is the author of the book TV Lobotomy (Max Milo, 2022), which is based in part on his personal history. Exasperated by having to constantly justify the choice not to have television at home—and to prevent his children from having access to it—and not to be seen as a sociopath in the eyes of those around him, he has done a massive job to argue his point.',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "2315011051" },
+        { type: "ISBN_13", identifier: "9782315011056" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 320,
+      printedPageCount: 166,
+      printType: "BOOK",
+      categories: ["Science / Life Sciences / Neuroscience"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.2.2.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70ndc0I7LSjO1BZmBT4DvgjVCh8Dn6UsbifCwX_kqHVLd4bC6TjVkCe3X069pa1xCFnf288LM8GgZlr3fSXgKZQ3ysSf4-WJe5dE2Apv2b-mUnsZpT-nmSTw5c-qcmawuf7InhW&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70XzPK7c4-PTAYuJMW5knqHzhZ89aFudsLv-G_iLtKm1sM539_-XTCcBhyrgucE12RLWskVkP6exok8pmukYWido3Hbq1sm2TbeMoREOwp37Mfy4FFmQBZ_nlio1Dke-rHF5SqB&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70I5-rIwZM2V2RVNwvSZ24rXPt_tGv4aX_mQCTjAZ8UFxZ2jnInanVBuwtkSCKvCEgjyirVzb_uQbbFdgJdI6HRYSqSVU3YmzMoqhx8MAj9Uzp7PykfbSvJyL2xJN6qNHFO61we&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70vr2tbrKhQnWRL2KrQIzXKfKqqX8vQXOogA7GfuZBZyMcIFFN4zkBQaOwhAR6Us4UCsnUNl0qK4uGnexs_-Biwro_C2aipDysq4GQAt10miVnB5MUR7f85NoGpGvufgS436toR&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70GHJvsHfeSoVqH5y045CmTS6qdkAxTw0xoGGg0tcyt1FYsPSAlIAY9CnDwAWUSIINRmnZXvhii99h3YQDyYiTS1mZd_NKjC9JipgSqLvHhqkzqxd3RUQZ_Sv40BrUm8tI7YzF6&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70Wor4KPwo0-IaiwF0NBia7uGiRj_uOs8XohyNXYurugyq1rU1L6b7wPTiydkkGdT12_vCrTyk38Vpbl-wrXCNEXmjrtxTb9cMp4RiOmiAdRnQ5myWOWBVoUMoThg15FpAzzcew&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=jM_bEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=jM_bEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=jM_bEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.49, currencyCode: "USD" },
+      retailPrice: { amount: 14.49, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=jM_bEAAAQBAJ&rdid=book-jM_bEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14490000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14490000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/TV_Lobotomy-sample-epub.acsm?id=jM_bEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/TV_Lobotomy-sample-pdf.acsm?id=jM_bEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=jM_bEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3314,
+      image:
+        "http://books.google.com/books/publisher/content?id=jM_bEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70Wor4KPwo0-IaiwF0NBia7uGiRj_uOs8XohyNXYurugyq1rU1L6b7wPTiydkkGdT12_vCrTyk38Vpbl-wrXCNEXmjrtxTb9cMp4RiOmiAdRnQ5myWOWBVoUMoThg15FpAzzcew&source=gbs_api",
+    },
+  },
 
   {
     kind: "books#volume",
