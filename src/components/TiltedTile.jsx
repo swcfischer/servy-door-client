@@ -20,7 +20,7 @@ const StyledLink = styled(Link)`
 
   .tile {
     background-color: #222;
-    border: 1px solid #fff;
+    border: 1px solid #5e5e5e;
     border-radius: 3px;
     color: #fff;
     font-family: Tangerine;

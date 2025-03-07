@@ -86,6 +86,172 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "1X6hEAAAQBAJ",
+    etag: "dozRUFurAsM",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/1X6hEAAAQBAJ",
+    volumeInfo: {
+      title: "The End of Reality",
+      subtitle:
+        "How Four Billionaires are Selling a Fantasy Future of the Metaverse, Mars, and Crypto",
+      authors: ["Jonathan Taplin"],
+      publisher: "PublicAffairs",
+      publishedDate: "2023-09-05",
+      description:
+        '<b>An instant bestseller! A brilliant takedown and exposé</b><b> of the great con job of the twenty-first century</b>—<b>the metaverse, crypto, space travel, transhumanism</b>—<b>being sold by four billionaires (Peter Thiel, Mark Zuckerberg, Marc Andreesen, Elon Musk), leading to the degeneration and bankruptcy of our society.</b><br><br> At a time when the crises of income inequality, climate, and democracy are compounding to create epic wealth disparity and the prospect of a second American civil war, four billionaires are hyping schemes that are designed to divert our attention away from issues that really matter. Each scheme—the metaverse, cryptocurrency, space travel, and transhumanism—is an existential threat in moral, political, and economic terms.<br><br> In <i>The End of Reality</i>¸ Jonathan Taplin provides perceptive insight into the personal backgrounds and cultural power of these billionaires—Peter Thiel, Elon Musk, Mark Zuckerberg, and Marc Andreesen (“The Four”) —and shows how their tech monopolies have brought middle-class wage stagnation, the hollowing out of many American towns, a radical increase in income inequality, and unbounded public acrimony. Meanwhile, the enormous amount of taxpayer money to be funneled into the dystopian ventures of "The Four," the benefits of which will accrue to billionaires, exacerbate these disturbing trends. <br><br><i>The End of Reality</i> is both scathing critique and reform agenda that replaces the warped worldview of "The Four" with a vision of regenerative economics that seeks to build a sustainable society with healthy growth and full employment.<br>  ',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1541703170" },
+        { type: "ISBN_13", identifier: "9781541703179" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 336,
+      printedPageCount: 319,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Economic Conditions",
+        "Political Science / Political Economy",
+        "Business & Economics / Bitcoin & Cryptocurrencies",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE700sfN-jOye7Q1hG9UfNUawhYtnPx0FPBQ46f9CHGyi4hSpiaxVhmo6KMjZac9zFUXS5fjxGbeBkLG7oCZj33rTKsh5HL_4Gac3PyJDl1bTnkbVEG6pb1QqCWLc94CbGyyyPFBs&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72MIGvvYysGoi-FPSHEKgjvD8nwSsp9ZsmhDuNGoqe5fRXc-vWxSybgrtzrLnTUPx0tDumk8RjhY7sveuRKlHr1TVrsLNFihaJUEaHB4phDX62DlBS_ZmvI4j3BvIL4SilXjG4o&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71Gb_XX1qoRU6uo6KG3DsAszCrxPNPSGU5jduwF6LB-w0Yfn9ulCr1p5-wtAy1gRGzOxRyLGFuFV0OK9esU0u2FFg-ztgzTDeCuy4khCSpC0luQZmzbPtOYzGpN6hZJ3RyvXpMk&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70uNUpvggjUT8qBbxKt6CfftHs-gqPwPHQbXN6KjZjVR33V5AC9AYERQxC08xpkTPHIE6ugOubpEDNBK8l28j-4VqzET5T1BK4muRaZFiIQTJSDFZUZxAkgM0PZkVOaZfnN7cA2&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71xs9PafS8xxQJ2HiSb_Hhxad-Bv098Fhes1dCVodgtDBszF8gkF-hmVax6e2eDI4gxP4XioIJRG1dzMjFECJQxYJBHr5IA5DKLQU0aqZ-lp86XePVRLICqDchyCtm2d95YR2zL&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Fe3PIgdEtZLx32RbnHZ_rlaZwBXS7CCBKRu1IcRgfCJF13TabNXo0hia-G3uf3EjlsGlB_Ql1ezVE4O5tBgc5XEUIBQUkimLAZ2wdakriKh_vSgKmNKmc1RyXhXNcwlsRVRoX&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 18.99, currencyCode: "USD" },
+      retailPrice: { amount: 18.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&rdid=book-1X6hEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_End_of_Reality-sample-epub.acsm?id=1X6hEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2703,
+      image:
+        "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Fe3PIgdEtZLx32RbnHZ_rlaZwBXS7CCBKRu1IcRgfCJF13TabNXo0hia-G3uf3EjlsGlB_Ql1ezVE4O5tBgc5XEUIBQUkimLAZ2wdakriKh_vSgKmNKmc1RyXhXNcwlsRVRoX&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "MvEuEQAAQBAJ",
+    etag: "yOZCdCzO4/Q",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/MvEuEQAAQBAJ",
+    volumeInfo: {
+      title: "The Next Day",
+      subtitle: "Transitions, Change, and Moving Forward",
+      authors: ["Melinda French Gates"],
+      publisher: "Pan Macmillan",
+      publishedDate: "2025-04-15",
+      description:
+        "<p><b>In a rare window into some of her life’s pivotal moments, Melinda French Gates draws from previously untold stories to offer a new perspective on encountering transitions.</b><br><br>“You don’t get to be my age without navigating all kinds of transitions. Some you embraced and some you never expected. Some you hoped for and some you fought as hard as you could.”<br>– Melinda French Gates<br><br>Transitions are moments in which we step out of our familiar surroundings and into a new landscape – a space that, for many people, is shadowed by confusion, fear, and indecision. The Next Day accompanies readers as they cross that space, offering guidance on how to make the most of the time between an ending and a new beginning and how to move forward into the next day when the ground beneath you is shifting.<br><br>In this book, Melinda will reflect, for the first time in print, on some of the most significant transitions in her own life, including becoming a parent, the death of a dear friend, and her departure from the Gates Foundation. The stories she tells illuminate universal lessons about loosening the bonds of perfectionism, helping friends navigate times of crisis, embracing uncertainty, and more.<br><br>Each one of us, no matter who we are or where we are in life, is headed toward transitions of our own. With her signature warmth and grace, Melinda candidly shares stories of times when she was in need of wisdom and shines a path through the open space stretching out before us all.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1035073536" },
+        { type: "ISBN_13", identifier: "9781035073535" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 176,
+      printedPageCount: 176,
+      printType: "BOOK",
+      categories: [
+        "Self-Help / Motivational & Inspirational",
+        "Self-Help / Personal Growth / Self-Esteem",
+        "Family & Relationships / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=MvEuEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE72cTMiPzG0oifu5-QU7aT86FrCBjjBtKr0-TEXtfLB1GTY748ptKgT9uVUXhOYd-5R_4D8ed-tUMBiEEv436RP_c5OBNtd45X9Dge1FBTKFe_biMNoG6wxG1ztN1FnQhHSzNlo4&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=MvEuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70vGeNqpW95Ga5-fys1TTbil8zxzTbJTmxU-vwoqyPBxIjLn4s0q2Irncpa6XbVCa_gfJxavudTYPZyT1h3SyeA6khvrpCMsPWfoKq2WjmmcbMJlJYnIcStPC4WFDgAJcAVTmOI&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=MvEuEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=MvEuEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=MvEuEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=MvEuEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 206,
+      image:
+        "http://books.google.com/books/publisher/content?id=MvEuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70vGeNqpW95Ga5-fys1TTbil8zxzTbJTmxU-vwoqyPBxIjLn4s0q2Irncpa6XbVCa_gfJxavudTYPZyT1h3SyeA6khvrpCMsPWfoKq2WjmmcbMJlJYnIcStPC4WFDgAJcAVTmOI&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "n9fDEAAAQBAJ",
     etag: "am7AYlVZnxI",
     selfLink: "https://www.googleapis.com/books/v1/volumes/n9fDEAAAQBAJ",

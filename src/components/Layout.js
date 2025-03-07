@@ -13,6 +13,10 @@ const StyledContainer = styled(Container)`
   background: #fafafa;
   padding-top: 1px;
   border-radius: 3px;
+  // # Border
+  border: 4px solid rgb(56, 56, 56);
+  border-top: none;
+  box-shadow: 0 4px 8px rgba(208, 208, 208, 0.1);
 
   .app-bar {
     background-color: rgb(54, 54, 54);
@@ -172,13 +176,13 @@ const Layout = ({ children }) => {
             <Typography variant="body2" className="typography">
               ServyDoor{" "}
             </Typography>
-            <a
+            {/* <a
               target="_blank"
               href="https://github.com/swcfischer"
               id="attribution"
             >
               Steve Fischer
-            </a>
+            </a> */}
             <ul className="footer-links">
               <li>
                 <Link to="/tos">Terms of Service</Link>
