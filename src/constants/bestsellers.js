@@ -259,6 +259,110 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "xHDUDAAAQBAJ",
+    etag: "zO5aMAfm638",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/xHDUDAAAQBAJ",
+    volumeInfo: {
+      title: "American Values",
+      subtitle: "Lessons I Learned from My Family",
+      authors: ["Robert F. Kennedy, Jr."],
+      publisher: "HarperCollins",
+      publishedDate: "2018-05-15",
+      description:
+        "<p>With rich detail, compelling honesty, and a storyteller’s gift, RFK Jr. describes his life growing up Kennedy in a tumultuous time in history that eerily echoes the issues of nuclear confrontation, religion, race, and inequality that we confront today.</p><p>“With emotion and striking detail, RFK Jr. recalls both the private joys and very public pain of his childhood.”— Independent Catholic News<br><br>In this powerful book that combines the best aspects of memoir and political history, the third child of Attorney General Robert Kennedy and nephew of JFK takes us on an intimate journey through his life, including watershed moments in the history of our nation. Stories of his grandparents Joseph and Rose set the stage for their nine remarkable children, among them three U.S. senators—Teddy, Bobby, and Jack—one of whom went on to become attorney general, and the other, the president of the United States.</p><p>We meet Allen Dulles and J. Edgar Hoover, two men whose agencies posed the principal threats to American democracy and values. We live through the Cuban Missile Crisis, when insubordinate spies and belligerent generals in the Pentagon and Moscow brought the world to the cliff edge of nuclear war. At Hickory Hill in Virginia, where RFK Jr. grew up, we encounter the celebrities who gathered at the second most famous address in Washington, members of what would later become known as America’s Camelot. Through his father’s role as attorney general we get an insider’s look as growing tensions over civil rights led to pitched battles in the streets and 16,000 federal troops were called in to enforce desegregation at Ole Miss. We see growing pressure to fight wars in Southeast Asia to stop communism. We relive the assassination of JFK, RFK’s run for the presidency that was cut short by his own death, and the aftermath of those murders on the Kennedy family.</p><p>RFK Jr. also shares his own experiences, not just with historical events and the movers who shaped them but also with his mother and father, with his own struggles with addiction, and with the ways he eventually made peace with both his Kennedy legacy and his own demons. A lyrically written book that provides insight, hope, and steady wisdom for Americans as they wrestle, as never before, with questions about America’s role in history and the world and what it means to be American.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0062097709" },
+        { type: "ISBN_13", identifier: "9780062097705" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 464,
+      printedPageCount: 533,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Political",
+        "Biography & Autobiography / Rich & Famous",
+        "Biography & Autobiography / Personal Memoirs",
+        "History / Essays",
+        "True Crime / Historical",
+        "Science / Essays",
+        "Science / History",
+        "Political Science / Essays",
+        "History / Americas (North, Central, South, West Indies)",
+        "Philosophy / Essays",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71XbPkxIV-AhDKq-_zLVXEJs67mJWtrBrWQ8bK9V2HOWDkHSoVRjaNzhj4xlT4qItE1murJrf45jfPUxbgAoFtmIQEblJiZ4vA7iVLKVgU7wNNKTZNWxGrXeAXoCW1wHhifsHb9&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70IaZVYYbtrNOhHYJqadQgtXewOJY2hoPcv99sFv2EEYn8pvC1lQq7jFOq8gRUkMlwEwnRlWjyj-MsZFj3XjKtxwKz7Yyoc6hXTig-cGLenjzg39PkG2SaMMhkYpaxZDfkzejGN&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71jplh_3vF4qVT79rZas6P9mpiyAMyM8C1D7_FbhDbMfktVBA1-C3gYX1uxi8D-wh-bDzPhzEo2BeUmxaKjGC5ZD8NeVWPR_whbHiiC1NCP-z8TP4VbjgSEmjnTTeD4ANF8ChyG&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72E7i6ImNVzZzAhLSH_fmu2KnKP6tcKQ8yBQvGPHgE3cnuzcrwpax-5bXaofiMCEnsJ7_Hc7Sk0GCDp3xMoqyak72p1HDw7PeYOQnQ1vKnG-mY3PzTon74yxtWXzAK_Qdl8cohJ&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE706uoFWND3db-VKhg0nQm0p7nd3EKPda5iOpsMCfEsV04om-K_1Hm-St2J-Fh9CGWZUZHn0zG5kjQGLz8fsq3P_-rPYydzLtywl9I1NgoxwdUob7vOpodd5lorES-eEhMcjxdrm&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70OWn-jzs57tT0HcPgTFLAM7a9fPtksrCmlMBX6iJTz43CFKD7pO0H6HS-vx2uJ_AVjddROGIZSypD04ETOzz6rLah8aO_uEgAKVWCnIolQ8NkSSEcCmpKOtq7_soJk8G2POWyF&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=xHDUDAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=xHDUDAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=xHDUDAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=xHDUDAAAQBAJ&rdid=book-xHDUDAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/American_Values-sample-epub.acsm?id=xHDUDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=xHDUDAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2624,
+      image:
+        "http://books.google.com/books/publisher/content?id=xHDUDAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70OWn-jzs57tT0HcPgTFLAM7a9fPtksrCmlMBX6iJTz43CFKD7pO0H6HS-vx2uJ_AVjddROGIZSypD04ETOzz6rLah8aO_uEgAKVWCnIolQ8NkSSEcCmpKOtq7_soJk8G2POWyF&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "SPkIEQAAQBAJ",
     etag: "+GLpGyxU0g8",
     selfLink: "https://www.googleapis.com/books/v1/volumes/SPkIEQAAQBAJ",
@@ -450,6 +554,104 @@ const bestsellerList = [
       height: 750,
       image:
         "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE704ecySqlatbYn5NDSfbHgVBPXTE_EvmPolfdflMdZAF0vV001e3KUMS6TqBSFwQzAzr6jp5hWXS6IbSmt5OMTasmQ-sJmacdluV7-6dBwvynXJP91hzLhFO0PrnUohVkwyKJhF&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "1X6hEAAAQBAJ",
+    etag: "QljE1e2GGRU",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/1X6hEAAAQBAJ",
+    volumeInfo: {
+      title: "The End of Reality",
+      subtitle:
+        "How Four Billionaires are Selling a Fantasy Future of the Metaverse, Mars, and Crypto",
+      authors: ["Jonathan Taplin"],
+      publisher: "PublicAffairs",
+      publishedDate: "2023-09-05",
+      description:
+        '<b>An instant bestseller! A brilliant takedown and exposé</b><b> of the great con job of the twenty-first century</b>—<b>the metaverse, crypto, space travel, transhumanism</b>—<b>being sold by four billionaires (Peter Thiel, Mark Zuckerberg, Marc Andreesen, Elon Musk), leading to the degeneration and bankruptcy of our society.</b><br><br> At a time when the crises of income inequality, climate, and democracy are compounding to create epic wealth disparity and the prospect of a second American civil war, four billionaires are hyping schemes that are designed to divert our attention away from issues that really matter. Each scheme—the metaverse, cryptocurrency, space travel, and transhumanism—is an existential threat in moral, political, and economic terms.<br><br> In <i>The End of Reality</i>¸ Jonathan Taplin provides perceptive insight into the personal backgrounds and cultural power of these billionaires—Peter Thiel, Elon Musk, Mark Zuckerberg, and Marc Andreesen (“The Four”) —and shows how their tech monopolies have brought middle-class wage stagnation, the hollowing out of many American towns, a radical increase in income inequality, and unbounded public acrimony. Meanwhile, the enormous amount of taxpayer money to be funneled into the dystopian ventures of "The Four," the benefits of which will accrue to billionaires, exacerbate these disturbing trends. <br><br><i>The End of Reality</i> is both scathing critique and reform agenda that replaces the warped worldview of "The Four" with a vision of regenerative economics that seeks to build a sustainable society with healthy growth and full employment.<br>  ',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1541703170" },
+        { type: "ISBN_13", identifier: "9781541703179" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 336,
+      printedPageCount: 319,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Economic Conditions",
+        "Political Science / Political Economy",
+        "Business & Economics / Bitcoin & Cryptocurrencies",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73R14rurKvBsBw0TXhNI3Lp9TetV0-NFgs1nVIzs5ZzmMoZhqv0Vxczuqq83p_tDZrsiYkKl71KT79Wt-4n2cfUvSWGhr77Unh1e1pa88r4IpywrrGEg3J0_17vHquyGxS9fY_r&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72n0RTPekp0Yh9WKn5Bk_RLVNM5AjaoPcdqhz_sseyXJ-ZI70DRXLZxCFfvih4iaZ7uxLxb8UZCEMMP2aLDcMlMba0OpCMg7CDoGg0mCC-zlV-7Wco6RAwmZFQh5YvkG987shhx&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71S9Qnr0sfzE8-liXYY0SGEF5-p2YoS-8XMmertqSwXs1VuKRe7lAPI620J7PJtbHgAFeRjRJDFOtiEd8hwGohtFrqJ_FSlXAw6-DoINvmebzB6l_Iy0PIZsl13YQBlybcWmS2t&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72PJkiXinMThfDjiliObXrW4aYUf0gaCczkNwG-H7K0kmEDrr8XVxOEawqm4icNKldPYOnNIrMzPM3-FhdVcWGhBL5j8R-FAo0ixZNzXycMwYBzSuzhfhKJqCpOrbEBzPyl0CEv&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE706FctElOa4U5KVwm0zQc6Srg4D2GF3s1SfdFRofkp6NqAKR5NSzV4G3W-Jq0Bh1kHXuznBUghN-e-qEb3XRtify6TR0iA4vnVW4QZSEuuMysmMul6m_OANq6YfdgYzurYocLnc&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71LOpS7G7aJDy7IGZIDHtijCorsV6dv_TeecxlTn5u-U52aK6EPo359lJn_UMluQ3Mn9O3yttgX3pQSGxxlBqDbA9H6dpgWWhiSgZTvBrF3zfAEWQH_6Bd1uaco-CpmM6wH7v9G&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 18.99, currencyCode: "USD" },
+      retailPrice: { amount: 18.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&rdid=book-1X6hEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_End_of_Reality-sample-epub.acsm?id=1X6hEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2703,
+      image:
+        "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71LOpS7G7aJDy7IGZIDHtijCorsV6dv_TeecxlTn5u-U52aK6EPo359lJn_UMluQ3Mn9O3yttgX3pQSGxxlBqDbA9H6dpgWWhiSgZTvBrF3zfAEWQH_6Bd1uaco-CpmM6wH7v9G&source=gbs_api",
     },
   },
   {
