@@ -1,159 +1,73 @@
 const bestsellerList = [
   {
     kind: "books#volume",
-    id: "WyUMEQAAQBAJ",
-    etag: "TyE0Ce2Zmrw",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/WyUMEQAAQBAJ",
+    id: "Ye6e_VxM00kC",
+    etag: "PKJVyWA3tg0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
     volumeInfo: {
-      title: "Source Code",
-      subtitle: "My Beginnings",
-      authors: ["Bill Gates"],
-      publisher: "Random House",
-      publishedDate: "2025-02-04",
+      title: "Trump: The Art of the Deal",
+      authors: ["Donald J. Trump", "Tony Schwartz"],
+      publisher: "Random House Publishing Group",
+      publishedDate: "2009-12-23",
       description:
-        "<b>Named one of the Most Anticipated Releases of 2025 by <i>The New York Times, The Times, Financial Times </i>and <i>BBC. </i><br><br>The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age. <br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
+        "<b>#1 NATIONAL BESTSELLER • President Donald J. Trump lays out his professional and personal worldview in this classic work—a firsthand account of the rise of America’s foremost businessman.<br><br>“Donald Trump is a deal maker. He is a deal maker the way lions are carnivores and water is wet.”—<i>Chicago Tribune</i></b><br><br> <i>“I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump</i><br><br>Here is Trump in action—how he runs his organization and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and challenges conventional thinking. But even a maverick plays by rules, and Trump has formulated time-tested guidelines for success. He isolates the common elements in his greatest accomplishments; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. <i>Trump: The Art of the Deal</i> is an unguarded look at the mind of a brilliant entrepreneur—the ultimate read for anyone interested in the man behind the spotlight.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1039056326" },
-        { type: "ISBN_13", identifier: "9781039056329" },
+        { type: "ISBN_10", identifier: "0307575330" },
+        { type: "ISBN_13", identifier: "9780307575333" },
       ],
-      readingModes: { text: false, image: true },
-      pageCount: 336,
-      printedPageCount: 337,
-      dimensions: {
-        height: "24.50 cm",
-        width: "16.20 cm",
-        thickness: "3.00 cm",
-      },
+      readingModes: { text: true, image: true },
+      pageCount: 384,
+      printedPageCount: 401,
+      dimensions: { height: "30.00 cm" },
       printType: "BOOK",
       categories: [
-        "Biography & Autobiography / Business",
-        "Biography & Autobiography / Science & Technology",
-        "Biography & Autobiography / Personal Memoirs",
+        "Business & Economics / Entrepreneurship",
+        "Self-Help / Personal Growth / Success",
+        "Business & Economics / Motivational",
       ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "1.1.1.0.preview.1",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72RQ2g1GctzAOp3RcdHlYg2RavwvVDeczfAVzratVznaIvDctVB4xiQ41sss5tYkKPxW8xx_CxVDJNipFIGdUvxUaI8pqqwV30TFQMqYn86C57wT65vZM-e0TezDJuD3AZqIzr0&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Era7dm6q0CLi8llBJbxD3RL1b_mdyhtpvR0E5emTYERFSA8B2lepBD6SEWhrKnbxilmyhaml8qssXB-EkZAnmgXAdXXrJwwBhNh9PQ7skzNnUiPHmBI2cfCHvxlJIxqRWdUON&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73HQUJGN3MB2LMYuEwzWu36zPn2U77MistNb5VZAVZRnuUY8auuMr1wVHrrfyATYjjm2F0Ak3-P2TWxKRM_t07hCQj2CR87dL5NhzegbTSgrs6FZu0RG1TMXL1R7ku34xxph3Z-&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72FWtEy3kmpHRBOdUFdYFMUNBU-IzgH1m0lq9kErpKXZTLLIlg7Dd0MBa4piUyB4EeTyWwQiRw3C-lZJeIoD5_iz-T1tPseRVhJPKSGZkymQ9tEoO4kk7c5W15gwSeUDGNye_27&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73SMmxPghzAfRGjVtPZ3XicFQoQRxKrZqHmI7ErwWF5VEXsNug0LczgszqWoTKhsejx662j10_9YYOJD6O9wySrLHVC3QxPhG_QYMBOdpKCi2lpPERhvcv9eBo8rbqCNs3iT2x0&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=WyUMEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Source_Code-sample-pdf.acsm?id=WyUMEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=WyUMEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 575,
-      height: 750,
-      image:
-        "http://books.google.com/books/publisher/content?id=WyUMEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70jc-UhUU5RRSuHwPSMsafwVnsTLdtYx80JgP44kOf_w6PIkHWD1kvdzc6icbo-HQHZIXGlJxmamg7jNygjIOkPWbAcAm8lW93QGXF2slGIutMXmwXH2RtayYCQ-dXOabiRNkNE&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "1X6hEAAAQBAJ",
-    etag: "dozRUFurAsM",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/1X6hEAAAQBAJ",
-    volumeInfo: {
-      title: "The End of Reality",
-      subtitle:
-        "How Four Billionaires are Selling a Fantasy Future of the Metaverse, Mars, and Crypto",
-      authors: ["Jonathan Taplin"],
-      publisher: "PublicAffairs",
-      publishedDate: "2023-09-05",
-      description:
-        '<b>An instant bestseller! A brilliant takedown and exposé</b><b> of the great con job of the twenty-first century</b>—<b>the metaverse, crypto, space travel, transhumanism</b>—<b>being sold by four billionaires (Peter Thiel, Mark Zuckerberg, Marc Andreesen, Elon Musk), leading to the degeneration and bankruptcy of our society.</b><br><br> At a time when the crises of income inequality, climate, and democracy are compounding to create epic wealth disparity and the prospect of a second American civil war, four billionaires are hyping schemes that are designed to divert our attention away from issues that really matter. Each scheme—the metaverse, cryptocurrency, space travel, and transhumanism—is an existential threat in moral, political, and economic terms.<br><br> In <i>The End of Reality</i>¸ Jonathan Taplin provides perceptive insight into the personal backgrounds and cultural power of these billionaires—Peter Thiel, Elon Musk, Mark Zuckerberg, and Marc Andreesen (“The Four”) —and shows how their tech monopolies have brought middle-class wage stagnation, the hollowing out of many American towns, a radical increase in income inequality, and unbounded public acrimony. Meanwhile, the enormous amount of taxpayer money to be funneled into the dystopian ventures of "The Four," the benefits of which will accrue to billionaires, exacerbate these disturbing trends. <br><br><i>The End of Reality</i> is both scathing critique and reform agenda that replaces the warped worldview of "The Four" with a vision of regenerative economics that seeks to build a sustainable society with healthy growth and full employment.<br>  ',
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1541703170" },
-        { type: "ISBN_13", identifier: "9781541703179" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 336,
-      printedPageCount: 319,
-      printType: "BOOK",
-      categories: [
-        "Business & Economics / Economic Conditions",
-        "Political Science / Political Economy",
-        "Business & Economics / Bitcoin & Cryptocurrencies",
-      ],
+      averageRating: 4,
+      ratingsCount: 29,
       maturityRating: "NOT_MATURE",
       allowAnonLogging: true,
-      contentVersion: "1.4.4.0.preview.2",
+      contentVersion: "0.16.16.0.preview.3",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE700sfN-jOye7Q1hG9UfNUawhYtnPx0FPBQ46f9CHGyi4hSpiaxVhmo6KMjZac9zFUXS5fjxGbeBkLG7oCZj33rTKsh5HL_4Gac3PyJDl1bTnkbVEG6pb1QqCWLc94CbGyyyPFBs&source=gbs_api",
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72VQtRw21Lsf3iGqVJVrVXYz0grS8x46Ah_GOjSGgcbdBVoqfPr6kkEC8BPQzgsSHtDQvy5F4-lOs4cnwaRV_K8f05M84wbxX0XvDFmL1pEV8G_S_DJewxwiu_ssjfATLx0aHOt&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72MIGvvYysGoi-FPSHEKgjvD8nwSsp9ZsmhDuNGoqe5fRXc-vWxSybgrtzrLnTUPx0tDumk8RjhY7sveuRKlHr1TVrsLNFihaJUEaHB4phDX62DlBS_ZmvI4j3BvIL4SilXjG4o&source=gbs_api",
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Euqj-6433CeYIRBM0TipvqRal2vUGkX6Ze0tofonGh1-k7JyJYShKPrq9eP_LwuzgyHj7_sRpEBp9clIy38xYeYj9KASBP454z2JY_vkRIyVGC_TgXGs-pZTDOVAEFfbLWPM3&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71Gb_XX1qoRU6uo6KG3DsAszCrxPNPSGU5jduwF6LB-w0Yfn9ulCr1p5-wtAy1gRGzOxRyLGFuFV0OK9esU0u2FFg-ztgzTDeCuy4khCSpC0luQZmzbPtOYzGpN6hZJ3RyvXpMk&source=gbs_api",
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72T8H6DAE9G_2LrNzTI76QEHy_Irz63WxnLBSEuffcL2c6zgVIADCYTeM2P2PfwGYTRhJN-TR34Lmmok7bCI6T-PaQxcGYexS1q6WlaSqxZVnnsKYaG8bwsnSDP8j_-DusZe2bT&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70uNUpvggjUT8qBbxKt6CfftHs-gqPwPHQbXN6KjZjVR33V5AC9AYERQxC08xpkTPHIE6ugOubpEDNBK8l28j-4VqzET5T1BK4muRaZFiIQTJSDFZUZxAkgM0PZkVOaZfnN7cA2&source=gbs_api",
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72EfIoYJ4By9jyrMFTaMmdK1-VYCdG3T7_38AaCA6b6_k5EVL33rsOvIG6cAT2k4JdlAx9ocAYRYNlfx27oaW3XY5i-AugosxPyccL93LSghDUTGCT8BdPqB-uZQzGTmYEXj5Rl&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71xs9PafS8xxQJ2HiSb_Hhxad-Bv098Fhes1dCVodgtDBszF8gkF-hmVax6e2eDI4gxP4XioIJRG1dzMjFECJQxYJBHr5IA5DKLQU0aqZ-lp86XePVRLICqDchyCtm2d95YR2zL&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Fe3PIgdEtZLx32RbnHZ_rlaZwBXS7CCBKRu1IcRgfCJF13TabNXo0hia-G3uf3EjlsGlB_Ql1ezVE4O5tBgc5XEUIBQUkimLAZ2wdakriKh_vSgKmNKmc1RyXhXNcwlsRVRoX&source=gbs_api",
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=Ye6e_VxM00kC&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ",
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "21" }] },
     saleInfo: {
       country: "US",
       saleability: "FOR_SALE",
       isEbook: true,
-      listPrice: { amount: 18.99, currencyCode: "USD" },
-      retailPrice: { amount: 18.99, currencyCode: "USD" },
+      listPrice: { amount: 12.99, currencyCode: "USD" },
+      retailPrice: { amount: 12.99, currencyCode: "USD" },
       buyLink:
-        "https://play.google.com/store/books/details?id=1X6hEAAAQBAJ&rdid=book-1X6hEAAAQBAJ&rdot=1&source=gbs_api",
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&rdid=book-Ye6e_VxM00kC&rdot=1&source=gbs_api",
       offers: [
         {
           finskyOfferType: 1,
-          listPrice: { amountInMicros: 18990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          listPrice: { amountInMicros: 12990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 12990000, currencyCode: "USD" },
           giftable: true,
         },
       ],
@@ -167,19 +81,23 @@ const bestsellerList = [
       epub: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/The_End_of_Reality-sample-epub.acsm?id=1X6hEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-epub.acsm?id=Ye6e_VxM00kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
-      pdf: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-pdf.acsm?id=Ye6e_VxM00kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       webReaderLink:
-        "http://play.google.com/books/reader?id=1X6hEAAAQBAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=Ye6e_VxM00kC&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1744,
-      height: 2703,
+      width: 800,
+      height: 1153,
       image:
-        "http://books.google.com/books/publisher/content?id=1X6hEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Fe3PIgdEtZLx32RbnHZ_rlaZwBXS7CCBKRu1IcRgfCJF13TabNXo0hia-G3uf3EjlsGlB_Ql1ezVE4O5tBgc5XEUIBQUkimLAZ2wdakriKh_vSgKmNKmc1RyXhXNcwlsRVRoX&source=gbs_api",
+        "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
     },
   },
   {
@@ -896,107 +814,7 @@ const bestsellerList = [
         "http://books.google.com/books/publisher/content?id=tguIDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72tW-6YTuRMqAjcDMOoT2zbXI50xy6fR5rgE1CDFToSsUc39H9Mq_dOZB0ErtJhv9MwWztUMqUZW8u8iRzc85lvr14bIgYXSNKZBfP2Anpnd5abpmnjwWyzXwIdvofKYHDcHh3K&source=gbs_api",
     },
   },
-  {
-    kind: "books#volume",
-    id: "Ye6e_VxM00kC",
-    etag: "PKJVyWA3tg0",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
-    volumeInfo: {
-      title: "Trump: The Art of the Deal",
-      authors: ["Donald J. Trump", "Tony Schwartz"],
-      publisher: "Random House Publishing Group",
-      publishedDate: "2009-12-23",
-      description:
-        "<b>#1 NATIONAL BESTSELLER • President Donald J. Trump lays out his professional and personal worldview in this classic work—a firsthand account of the rise of America’s foremost businessman.<br><br>“Donald Trump is a deal maker. He is a deal maker the way lions are carnivores and water is wet.”—<i>Chicago Tribune</i></b><br><br> <i>“I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump</i><br><br>Here is Trump in action—how he runs his organization and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and challenges conventional thinking. But even a maverick plays by rules, and Trump has formulated time-tested guidelines for success. He isolates the common elements in his greatest accomplishments; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. <i>Trump: The Art of the Deal</i> is an unguarded look at the mind of a brilliant entrepreneur—the ultimate read for anyone interested in the man behind the spotlight.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0307575330" },
-        { type: "ISBN_13", identifier: "9780307575333" },
-      ],
-      readingModes: { text: true, image: true },
-      pageCount: 384,
-      printedPageCount: 401,
-      dimensions: { height: "30.00 cm" },
-      printType: "BOOK",
-      categories: [
-        "Business & Economics / Entrepreneurship",
-        "Self-Help / Personal Growth / Success",
-        "Business & Economics / Motivational",
-      ],
-      averageRating: 4,
-      ratingsCount: 29,
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "0.16.16.0.preview.3",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72VQtRw21Lsf3iGqVJVrVXYz0grS8x46Ah_GOjSGgcbdBVoqfPr6kkEC8BPQzgsSHtDQvy5F4-lOs4cnwaRV_K8f05M84wbxX0XvDFmL1pEV8G_S_DJewxwiu_ssjfATLx0aHOt&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Euqj-6433CeYIRBM0TipvqRal2vUGkX6Ze0tofonGh1-k7JyJYShKPrq9eP_LwuzgyHj7_sRpEBp9clIy38xYeYj9KASBP454z2JY_vkRIyVGC_TgXGs-pZTDOVAEFfbLWPM3&source=gbs_api",
-        small:
-          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72T8H6DAE9G_2LrNzTI76QEHy_Irz63WxnLBSEuffcL2c6zgVIADCYTeM2P2PfwGYTRhJN-TR34Lmmok7bCI6T-PaQxcGYexS1q6WlaSqxZVnnsKYaG8bwsnSDP8j_-DusZe2bT&source=gbs_api",
-        medium:
-          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72EfIoYJ4By9jyrMFTaMmdK1-VYCdG3T7_38AaCA6b6_k5EVL33rsOvIG6cAT2k4JdlAx9ocAYRYNlfx27oaW3XY5i-AugosxPyccL93LSghDUTGCT8BdPqB-uZQzGTmYEXj5Rl&source=gbs_api",
-        large:
-          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=Ye6e_VxM00kC&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC",
-    },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "21" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 12.99, currencyCode: "USD" },
-      retailPrice: { amount: 12.99, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&rdid=book-Ye6e_VxM00kC&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 12990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 12990000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-epub.acsm?id=Ye6e_VxM00kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-pdf.acsm?id=Ye6e_VxM00kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=Ye6e_VxM00kC&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 800,
-      height: 1153,
-      image:
-        "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70LF1g6mWHkA_43fEtjvN15DjTf70XHjN356BRRjeleq0Nm-oT7JltOdQ6p1RH87kRRKpVkWTJFhocKZZUD_y01X2sGU1gVxr3C0HbnaRkXuF8hiyKE_THlMEl6kVmvsTyTYx6p&source=gbs_api",
-    },
-  },
+
   {
     kind: "books#volume",
     id: "FJAZEQAAQBAJ",
@@ -1176,6 +994,85 @@ const bestsellerList = [
       height: 2064,
       image:
         "http://books.google.com/books/content?id=QwckAAAAMAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72b2KVgzepNXUu1RjXbgL5j1nHCkzNrva3MkSjW2NdM_5rvkjJlphoT-Rknv_I85JkZ-ZFkeK9IxCUscXDLMju8WQY1jbPowzRngZ1VJXWvUEcBMVVTQm2I7npNbghZXGoNjLCW&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "POOJDQAAQBAJ",
+    etag: "Y5qjOStr1ME",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/POOJDQAAQBAJ",
+    volumeInfo: {
+      title: "Zero to One",
+      subtitle: "Notes on Startups, or How to Build the Future",
+      authors: ["Peter Thiel", "Blake Masters"],
+      publisher: "Crown",
+      publishedDate: "2014-09-16",
+      description:
+        "<p><b>#1 <i>NEW YORK TIMES</i> BESTSELLER</b> • <b>“This book delivers completely new and refreshing ideas on how to create value in the world.”—Mark Zuckerberg, CEO of Meta</b><br> <br><b>“Peter Thiel has built multiple breakthrough companies, and <i>Zero to One</i> shows how.”—Elon Musk, CEO of SpaceX and Tesla</b><br><br>The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In <i>Zero to One</i>, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.<br><br>Thiel begins with the contrarian premise that we live in an age of technological stagnation, even if we’re too distracted by shiny mobile devices to notice. Information technology has improved rapidly, but there is no reason why progress should be limited to computers or Silicon Valley. Progress can be achieved in any industry or area of business. It comes from the most important skill that every leader must master: learning to think for yourself.<br><br>Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. Tomorrow’s champions will not win by competing ruthlessly in today’s marketplace. They will escape competition altogether, because their businesses will be unique.<br><br><i>Zero to One</i> presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.<br><br></p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0804139296" },
+        { type: "ISBN_13", identifier: "9780804139298" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 224,
+      printedPageCount: 225,
+      dimensions: {
+        height: "22.00 cm",
+        width: "14.30 cm",
+        thickness: "2.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Business & Economics / Small Business",
+        "Political Science / Public Policy / Economic Policy",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.7.0.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72R6gX_9MA2dj0gLzdZoqO4EgqAUUL57KOgrcvLGw3lcuOo0Q9CE-8sn3tqv51keqmXUo3hNvoDiLO85pJo3JCcvHF9nTXtugnf00EYt-rynyq7SEeNzIKoXrg6S1u3fGFYcqVO&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70DGH8L2B3VPUR6wpcwayrzbhifnWRiCNfNb5a2GaUKrlJ2aMp4vx3X37YkwujccMRDVBkZ3w8coaCiPkg5HELQwXJyERFp4JvowbmH6uSdc3A8z4Wh8_yNd8UxoQv-sEl-gwQM&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72LbEYEndUHm-619TqbgWqiH88Ut1J-SuieoGB4euQqReW2recC_nm-uXo3MQrq9NJszO9U7vwVU9TSTkq4Ok5m0zlQTFvyJrww_GI7OiT1qaJK_GvIZ51wiQ-bd95hn0O2k3u5&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72hgwlNZe9QH10OUcYHHvAKb08ZpyEh7qPfqswI0yNBygz0HVAUi-sMJvTrLBxK0uYZsGdQMsuaoAGDTWxy6i4Xho4BlF_2Ytioo44OH8EBHsdjbS3RiOGEIYf0XdZwTF-b1KTE&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE738Rp9SKqITMozGtQXFxUWnqxA5XS6IM3hnU7ej4Tm6xjG8IP-htc-FtOGv69bU5r-BFElozo_t1rvSuGZxdg6TCcLmkbeQpWUDWsqJwYneI4ol_ZNu0JfQlhhhqNdp9t_RtH2g&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE738Rp9SKqITMozGtQXFxUWnqxA5XS6IM3hnU7ej4Tm6xjG8IP-htc-FtOGv69bU5r-BFElozo_t1rvSuGZxdg6TCcLmkbeQpWUDWsqJwYneI4ol_ZNu0JfQlhhhqNdp9t_RtH2g&source=gbs_api",
     },
   },
   {
