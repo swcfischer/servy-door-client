@@ -14,9 +14,9 @@ const StyledContainer = styled(Container)`
   padding-top: 1px;
   border-radius: 3px;
   // # Border
-  border: 4px solid rgb(56, 56, 56);
+  border: 4px solid rgb(28, 28, 28);
   border-top: none;
-  box-shadow: 0 4px 8px rgba(208, 208, 208, 0.1);
+  box-shadow: 0 4px 8px rgb(18, 18, 18);
 
   .app-bar {
     background-color: rgb(54, 54, 54);
