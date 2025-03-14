@@ -24,7 +24,7 @@ const Container = styled.a`
 `;
 
 function ReadingSessionList(props) {
-  // * add state management for reading session index
+  // * Add state management for reading session index
   const { readingSessions, setReadingSessionIdx, readingSessionIdx } = props;
 
   const handleClick = (_idx) => (e) => {
@@ -39,6 +39,7 @@ function ReadingSessionList(props) {
         if (!readingSession.pageRange) {
           return null;
         }
+
         const pageStart = readingSession.pageRange[0];
         const pageEnd = readingSession.pageRange[1];
 

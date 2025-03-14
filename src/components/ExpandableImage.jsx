@@ -49,6 +49,7 @@ const modalStyles = {
 };
 
 function ExpandableImage(props) {
+  // * book state
   const { state } = props;
 
   const isModal = new URLSearchParams(window.location.search).has("isModal");

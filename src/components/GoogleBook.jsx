@@ -1,26 +1,5 @@
 import React from "react";
 
-import styled from "@emotion/styled";
-
-const Container = styled.div`
-  button {
-    height: max-content;
-    padding: 11px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 12px;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: #555;
-    }
-  }
-`;
-
 function GoogleBook(props) {
   const { title, author, label = "Here" } = props;
 

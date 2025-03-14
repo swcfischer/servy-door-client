@@ -1,18 +1,21 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
+
+import styled from "@emotion/styled";
+import { Snackbar } from "@mui/material";
+import { navigate } from "gatsby";
+
 import axiosInstance from "../../axiosInstance";
 import { UserContext } from "../../components/Layout";
+
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
-import styled from "@emotion/styled";
 import formatDate from "../../utils/formatDate";
 import {
   createGoogleAuthorLink,
   createGooglePublisherLink,
 } from "../../utils/createLinks";
-import { navigate } from "gatsby";
 import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
-import { Snackbar } from "@mui/material";
 
 const Container = styled.div`
   .book-details {
@@ -36,6 +39,7 @@ const Container = styled.div`
       left: 0px;
     }
   }
+
   .notes-section {
     textarea {
       border-radius: 3px;
@@ -85,9 +89,8 @@ const Container = styled.div`
 
 export function renderGoogleAuthorLinks(authors) {
   return authors?.map((author, idx) => {
-    const link = createGoogleAuthorLink(author);
     return (
-      <a href={link} target="_blank">
+      <a href={createGoogleAuthorLink(author)} target="_blank">
         {author}
         {idx !== authors.length - 1 && (
           <>
@@ -123,32 +126,35 @@ function BookDetails(props) {
   const textArea = useRef();
 
   useEffect(() => {
-    async function fetchData() {
-      const res = await axiosInstance.get(`/books/book/${user.uuid}?id=${id}`);
-      const resSession = await axiosInstance.get(
-        `/reading-sessions/all/${user.uuid}/${id}`
-      );
+    if (user?.uuid && id) {
+      async function fetchData() {
+        const { data: resSession } = await axiosInstance.get(
+          `/reading-sessions/all/${user.uuid}/${id}`
+        );
+        if (!resSession.length) {
+          const _pageRange = [1, pagesPerDay];
+          const { data: newReadingSession } = await axiosInstance.post(
+            `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
+            {
+              pageRange: _pageRange,
+            }
+          );
 
-      if (!resSession.data.length) {
-        const _pageRange = [1, pagesPerDay];
-        const { data: newReadingSession } = await axiosInstance.post(
-          `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
-          {
-            pageRange: _pageRange,
-          }
+          setReadingSessions([newReadingSession]);
+          setPageRange(_pageRange);
+        } else {
+          setReadingSessions(resSession);
+          setPageRange(resSession[0].pageRange);
+        }
+
+        const { data: books } = await axiosInstance.get(
+          `/books/book/${user.uuid}?id=${id}`
         );
 
-        setReadingSessions([newReadingSession]);
-        setPageRange(_pageRange);
-      } else {
-        setReadingSessions(resSession.data);
-        setPageRange(resSession.data[0].pageRange);
+        setBook(books);
+        setIsLoading(false);
       }
 
-      setBook(res.data);
-      setIsLoading(false);
-    }
-    if (user?.uuid && id) {
       try {
         fetchData();
       } catch (err) {
@@ -166,7 +172,7 @@ function BookDetails(props) {
   }, [textArea.current, isLoading]);
 
   useEffect(() => {
-    if (readingSessions.length > 0) {
+    if (readingSessions?.length > 0) {
       setPageRange(readingSessions[readingSessionIdx].pageRange);
     }
   }, [readingSessionIdx, readingSessions]);
@@ -372,6 +378,24 @@ function BookDetails(props) {
                   snackbarMessage("Sorry, I have not added this yet.");
                   snackbarOpen(true);
                   console.log("action");
+                },
+              },
+              {
+                label: "Open WordReference in New Tab",
+                action: () => {
+                  window.open(
+                    "https://www.wordreference.com/definition/",
+                    "_blank"
+                  );
+                },
+              },
+              {
+                label: "Open Kindle Library in a New Tab",
+                action: () => {
+                  window.open(
+                    "https://read.amazon.com/kindle-library",
+                    "_blank"
+                  );
                 },
               },
             ]}
