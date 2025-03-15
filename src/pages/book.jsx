@@ -18,6 +18,8 @@ import ActionButton from "../components/BookDetails/ActionButton";
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
 const Container = styled.div`
+  margin-bottom: 42px;
+
   .btn-container {
     display: flex;
     justify-content: space-between;
@@ -70,7 +72,7 @@ const Container = styled.div`
     float: left;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .content-container {
       flex-direction: column;
 
