@@ -27,6 +27,7 @@ const Entry = (props) => {
 
     fetchData();
   }, []);
+
   if (isLoading) {
     return (
       <div style={{ margin: "0 auto" }}>

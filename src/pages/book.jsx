@@ -14,6 +14,7 @@ import axiosInstance from "../axiosInstance";
 import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
+import { Snackbar } from "@mui/material";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -91,6 +92,14 @@ function Book(props) {
   const { user } = useContext(UserContext);
 
   const [isLoading, setIsLoading] = useState(true);
+  const [isBookmark, setIsBookmark] = useState(false);
+
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState("");
+
+  const handleSnackbarClose = () => {
+    setSnackbarOpen(false);
+  };
 
   const [state, setState] = useState({});
 
@@ -112,6 +121,24 @@ function Book(props) {
       fetchBook();
     }
   }, [id]);
+
+  useEffect(() => {
+    if (user.uuid && id) {
+      async function fetchIsBookmark() {
+        try {
+          const { data } = await axiosInstance.get(
+            "/bookmarks/bookmark/is-bookmark/" + id + "/" + user.uuid
+          );
+          setIsBookmark(data.isBookmark);
+        } catch (err) {
+          console.error(err);
+        }
+      }
+
+      fetchIsBookmark();
+      // * Fetch if bookmark, pass in id and userUuid
+    }
+  }, [user, id]);
 
   if (isLoading) {
     return (
@@ -176,6 +203,56 @@ function Book(props) {
                 navigator.clipboard.writeText(JSON.stringify(state));
                 alert("State copied to clipboard!");
               },
+            },
+            {
+              label: !isBookmark ? "Bookmark" : "Remove Bookmark",
+              action: !isBookmark
+                ? async () => {
+                    try {
+                      const { data } = await axiosInstance.post(
+                        "/bookmarks/create-bookmark/" + user.uuid,
+                        {
+                          googleId: state.id,
+                          title: state.volumeInfo.title,
+                          image: state.img.image,
+                          volumeInfo: state.volumeInfo,
+                          pageCount: state.volumeInfo.pageCount,
+                          infoLink: state.volumeInfo.infoLink,
+                          previewLink: state.volumeInfo.previewLink,
+                          publisher: state.volumeInfo.publisher,
+                          datePublished: state.volumeInfo.publishedDate,
+                          author: state.volumeInfo.authors.join(", "),
+                          summary: state.volumeInfo.description,
+                        }
+                      );
+                      setIsBookmark(true);
+                      setSnackbarOpen(true);
+                      setSnackbarMessage("Bookmarked successfully");
+                      // if (data.error) {
+                      //   return navigate("/library/book-details?id=" + data.uuid);
+                      // }
+                      // navigate("/library/book-details?id=" + data.uuid);
+                    } catch (err) {
+                      console.log(err);
+                    }
+                  }
+                : async () => {
+                    try {
+                      const { data } = await axiosInstance.delete(
+                        "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
+                      );
+
+                      setSnackbarMessage(data.message);
+                      setSnackbarOpen(true);
+                      setIsBookmark(false);
+                      // if (data.error) {
+                      //   return navigate("/library/book-details?id=" + data.uuid);
+                      // }
+                      // navigate("/library/book-details?id=" + data.uuid);
+                    } catch (err) {
+                      console.log(err);
+                    }
+                  },
             },
           ]}
         />
@@ -243,6 +320,14 @@ function Book(props) {
           className="description"
         ></p>
       </div>
+
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+        open={snackbarOpen}
+        onClose={handleSnackbarClose}
+        message={snackbarMessage}
+        autoHideDuration={3000}
+      />
     </Container>
   );
 }

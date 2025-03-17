@@ -20,8 +20,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
   }
-
-  .books-list {
+  .booksmarks-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
@@ -29,15 +28,15 @@ const Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    .books-list {
+    .bookmarks-list {
       grid-template-columns: 1fr;
     }
   }
 `;
 
-function Library() {
+function Bookmarks() {
   const { user } = useContext(UserContext);
-  const [books, setBooks] = useState([]);
+  const [bookmarks, setBookmarks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -45,9 +44,9 @@ function Library() {
       setIsLoading(true);
       try {
         const response = await axiosInstance.get(
-          "/books/user-books/" + user.uuid
+          "/bookmarks/user-bookmarks/" + user.uuid
         );
-        setBooks(response.data);
+        setBookmarks(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -63,17 +62,18 @@ function Library() {
   return (
     <Container>
       <div className="header-container">
-        <h1>Library</h1>
-        <Link to="/bookmarks">Bookmarks</Link>
+        <h1>Bookmarks</h1>
+        <Link to="/library">Library</Link>
       </div>
-      <div className="books-list">
+      <div className="bookmarks-list">
         {isLoading ? (
           <LoadingSpinner />
-        ) : books.length > 0 ? (
-          books.map((bk) => {
+        ) : bookmarks.length > 0 ? (
+          bookmarks.map((bk) => {
             return (
               <BookItem
-                to={`/library/book-details?id=${bk.uuid}`}
+                //   Go to book details
+                to={`/book?id=${bk.googleId}`}
                 id={bk.uuid}
                 key={bk.uuid}
                 volumeInfo={bk.volumeInfo}
@@ -88,4 +88,4 @@ function Library() {
   );
 }
 
-export default Library;
+export default Bookmarks;

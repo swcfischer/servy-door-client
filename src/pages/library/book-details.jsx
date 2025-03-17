@@ -88,19 +88,17 @@ const Container = styled.div`
 `;
 
 export function renderGoogleAuthorLinks(authors) {
-  return authors?.map((author, idx) => {
-    return (
-      <a href={createGoogleAuthorLink(author)} target="_blank">
-        {author}
-        {idx !== authors.length - 1 && (
-          <>
-            {","}
-            <br />
-          </>
-        )}
-      </a>
-    );
-  });
+  return authors?.map((author, idx) => (
+    <a href={createGoogleAuthorLink(author)} target="_blank">
+      {author}
+      {idx !== authors.length - 1 && (
+        <>
+          {","}
+          <br />
+        </>
+      )}
+    </a>
+  ));
 }
 
 const pagesPerDay = 20;
