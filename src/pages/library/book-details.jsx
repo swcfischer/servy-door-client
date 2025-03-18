@@ -16,6 +16,7 @@ import {
 import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
+import getOS from "../../utils/getOs";
 
 const Container = styled.div`
   .book-details {
@@ -101,7 +102,7 @@ export function renderGoogleAuthorLinks(authors) {
   ));
 }
 
-const pagesPerDay = 20;
+const pagesPerDay = 5;
 
 function BookDetails(props) {
   const params = new URLSearchParams(props.location.search);
@@ -403,6 +404,21 @@ function BookDetails(props) {
           ref={textArea}
           rows="10"
           cols="50"
+          onKeyDown={(event) => {
+            const os = getOS();
+
+            const isWindows = os === "Windows";
+            const isMac = os === "macOS";
+
+            const isSaveShortcut =
+              (event.metaKey && event.key === "s" && isMac) ||
+              (event.ctrlKey && event.key === "s" && isWindows);
+
+            if (isSaveShortcut) {
+              handleSave(); // Call your save function
+              event.preventDefault(); // Prevent the default browser save action
+            }
+          }}
           onChange={(e) => {
             const updatedSessions = [...readingSessions];
             updatedSessions[readingSessionIdx] = {
