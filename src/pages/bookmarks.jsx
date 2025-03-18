@@ -20,7 +20,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
   }
-  .booksmarks-list {
+  .bookmarks-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
