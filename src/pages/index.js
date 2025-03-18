@@ -245,9 +245,10 @@ export default function Index(props) {
           >
             <Pagination
               onChange={(e, value) => {
+                setQ(q || qParam);
                 navigate(
                   `/?${buildQueryParams({
-                    q: q,
+                    q: q || qParam,
                     page: value,
                     searchFilter: searchFilter?.value ?? "none",
                   })}`
