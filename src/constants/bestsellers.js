@@ -102,6 +102,292 @@ const bestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "1u6_DwAAQBAJ",
+    etag: "Wcj+V8dv4fM",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/1u6_DwAAQBAJ",
+    volumeInfo: {
+      title: "No Rules Rules",
+      subtitle: "Netflix and the Culture of Reinvention",
+      authors: ["Reed Hastings", "Erin Meyer"],
+      publisher: "Penguin",
+      publishedDate: "2020-09-08",
+      description:
+        "<b><b><b>The <i>New York Times </i>bestseller<br><br>Shortlisted for the 2020 Financial Times & McKinsey Business Book of the Year</b><br><br>Netflix cofounder Reed Hastings reveals for the first time the unorthodox culture behind one of the world's most innovative, imaginative, and successful companies</b></b><br><br>There has never before been a company like Netflix. It has led nothing short of a revolution in the entertainment industries, generating billions of dollars in annual revenue while capturing the imaginations of hundreds of millions of people in over 190 countries. But to reach these great heights, Netflix, which launched in 1998 as an online DVD rental service, has had to reinvent itself over and over again. This type of unprecedented flexibility would have been impossible without the counterintuitive and radical management principles that cofounder Reed Hastings established from the very beginning. Hastings rejected the conventional wisdom under which other companies operate and defied tradition to instead build a culture focused on freedom and responsibility, one that has allowed Netflix to adapt and innovate as the needs of its members and the world have simultaneously transformed.<br><br> Hastings set new standards, valuing people over process, emphasizing innovation over efficiency, and giving employees context, not controls. At Netflix, there are no vacation or expense policies. At Netflix, adequate performance gets a generous severance, and hard work is irrel­evant. At Netflix, you don’t try to please your boss, you give candid feedback instead. At Netflix, employees don’t need approval, and the company pays top of market. When Hastings and his team first devised these unorthodox principles, the implications were unknown and untested. But in just a short period, their methods led to unparalleled speed and boldness, as Netflix quickly became one of the most loved brands in the world.<br><br> Here for the first time, Hastings and Erin Meyer, bestselling author of <i>The Culture Map </i>and one of the world’s most influential business thinkers, dive deep into the controversial ideologies at the heart of the Netflix psyche, which have generated results that are the envy of the business world. Drawing on hundreds of interviews with current and past Netflix employees from around the globe and never-before-told stories of trial and error from Hastings’s own career, <i>No Rules Rules </i>is the fascinating and untold account of the philosophy behind one of the world’s most innovative, imaginative, and successful companies.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1984877879" },
+        { type: "ISBN_13", identifier: "9781984877871" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 320,
+      printedPageCount: 371,
+      dimensions: { height: "24.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Leadership",
+        "Business & Economics / Industries / Computers & Information Technology",
+        "Business & Economics / Industries / Entertainment",
+      ],
+      averageRating: 3,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.7.7.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72HXlKfaHvEzGBycDZkKUcDwuawFKoJHuSoYfE7pRsLazSPslTyGSKwzYzPPk3IOndYlqwUKyn7egsRGwH9bdMsV1BsyxHroOOukfGKBaI9Zju6t-Qnc0aesYlq_n5aAhzTX8o-&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70bm5VuhIQs-VGWYEvQylvrQuLmZaX1KvOOWs1MHTIop6EiubjMq2AieuwAAL_ErwxG6lp6qdoa-BReBTrrN-u5WyAB7Reuv2LShSCTW-2s1E2Xn4nZjchO2yGBbmum0ZzqWT62&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70td8K_6PGRj1fh55_sptFnz8OtdMgqpF4w-QZoi6RQqGIpzVEupAFKPDGRzTR8eAfv7pFF9_ORvrqfJLZ6lA2WTBZiJoqqYc9iDWH6wi1S_HQrPB5MYDiE7Qf2R9qVUvbXoKRc&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE709uNKYULtZQRefRSsDayicf8zs7qAbGcsHMlro7FnV6vM6hJSXknTVI8mJwofSPIsQyFPpEEsFmTWX25lHguRjolp0_XU_XzQ7Q8jfPN2Kb0YEUudDZtQN1h6k8MMp0FB26UCb&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72F60wP-6G1E4hToVMO1FE-ZBtHLAEiP2yNE23Bd1zrcsXJRPKnG9QJdE5pCBVQkpWsnFLTJyPW1l_h2kRmtkU2hg2rp_wKWBJlSmz7FMzv-Qk5XMW5dbN09-dcKijjytaOyx0_&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73vok49dZDtOej519m3oKDqWZmqB4NIo1Os2-UvHTgdBGh5PcIo8LUZ_pjv7gSi6ssLNG337tApILISIELu4p7aX7AH0XQRT5xQO_Om6jeoffx2IRp4ZESNc-iPG94biPXM5v3D&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=1u6_DwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=1u6_DwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=1u6_DwAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "7" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=1u6_DwAAQBAJ&rdid=book-1u6_DwAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/No_Rules_Rules-sample-epub.acsm?id=1u6_DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=1u6_DwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2649,
+      image:
+        "http://books.google.com/books/publisher/content?id=1u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73vok49dZDtOej519m3oKDqWZmqB4NIo1Os2-UvHTgdBGh5PcIo8LUZ_pjv7gSi6ssLNG337tApILISIELu4p7aX7AH0XQRT5xQO_Om6jeoffx2IRp4ZESNc-iPG94biPXM5v3D&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "ARpoAwAAQBAJ",
+    etag: "CpDPCus7cE0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/ARpoAwAAQBAJ",
+    volumeInfo: {
+      title: "I Have No Mouth & I Must Scream",
+      subtitle: "Stories",
+      authors: ["Harlan Ellison"],
+      publisher: "Open Road Media",
+      publishedDate: "2014-04-29",
+      description:
+        "<b>Seven stunning stories of speculative fiction by the author of <i>A Boy and His Dog</i>.</b><br>  <br> In a post-apocalyptic world, four men and one woman are all that remain of the human race, brought to near extinction by an artificial intelligence. Programmed to wage war on behalf of its creators, the AI became self-aware and turned against humanity. The five survivors are prisoners, kept alive and subjected to brutal torture by the hateful and sadistic machine in an endless cycle of violence.<br>  <br> This story and six more groundbreaking and inventive tales that probe the depths of mortal experience prove why Grand Master of Science Fiction Harlan Ellison has earned the many accolades to his credit and remains one of the most original voices in American literature.<br>  <br><i>I Have No Mouth and I Must Scream</i> also includes “Big Sam Was My Friend,” “Eyes of Dust,” “World of the Myth,” “Lonelyache,” Hugo Award finalist “Delusion for a Dragon Slayer,” and Hugo and Nebula Award finalist “Pretty Maggie Moneyeyes.”",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1497609615" },
+        { type: "ISBN_13", identifier: "9781497609617" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 162,
+      printedPageCount: 167,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Fantasy / Collections & Anthologies",
+        "Fiction / Science Fiction / Collections & Anthologies",
+        "Fiction / Literary",
+      ],
+      averageRating: 3,
+      ratingsCount: 2,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.26.32.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE728u-VWb_kLYWG9YVSrJXX5Cs7QlLsWpFHR3n-SkXKG18BP41o3m84HVsEKEDae-_MN69s-HnN47RFiT9YPudeWZBhbUFGKra0smWTABKH3KvSpHLmLHTJ0a9l8oWVuXFlJZ5rr&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE739jR8ALRKm-dW-Ri7yy-wuDnieWXCT0n4cSljXVGBE-KVYpgOK5kfJWkKtlaN9_BER5b0dSiIeJLY8Sp9ChhyqDM2gx3ZITaXnDVvTFPngmrAeCg7pNMnfSLoPB9p8SKUoW81E&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71txQxCS3DESZCzvVI0wFUhA1jTd4tlh3HXUXadJoCl1mHu5Qjyr5hiqVkszB0ncu4sWzp9BVJvoqCoGFTTIhkDwsDQ251LSBGgF0RiBqVX06lH8QZILERUhMeuHQQ2q8jkxIGQ&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71YL9UehogVcKuEPXJxQ-OfvpbTQtJFQs1nBTBpUBTygxnMNnA3vFxdKi-6ZjwruXud7sFl7jIY7NR2GQiHxZYTesdLPLXxN5U7-UYsAAcHEuaDG3cA7WyutBhyWnMv7di0Lwld&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72bi42mteEMvXsOcCRoxJL2KaACeSLdSawTJxGi8Xwa83xapYtjmbgYjL4GpuvNjCr3Fa14sUnZJuQHJ1qWsr589v9G3nfdwcdnRdjB_mkWix0uK3RqQoQ3oEy7tIevILj8cd1x&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70toeU5TIuvzsSAiYw3t-oVLCZhLfSzMnZsTD8RHRf1MraCkdyPf0qjGCojSM5-Sjkg6cQIbHQc5__XsHXlYy-sfv1ntvhlc-Bl6iQEiYKsRxAKmKN_sAYY98NfMUNnH-t0294T&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=ARpoAwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=ARpoAwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=ARpoAwAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "36" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/I_Have_No_Mouth_I_Must_Scream-sample-epub.acsm?id=ARpoAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/I_Have_No_Mouth_I_Must_Scream-sample-pdf.acsm?id=ARpoAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=ARpoAwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2657,
+      image:
+        "http://books.google.com/books/publisher/content?id=ARpoAwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70toeU5TIuvzsSAiYw3t-oVLCZhLfSzMnZsTD8RHRf1MraCkdyPf0qjGCojSM5-Sjkg6cQIbHQc5__XsHXlYy-sfv1ntvhlc-Bl6iQEiYKsRxAKmKN_sAYY98NfMUNnH-t0294T&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "nPF9n0SwstMC",
+    etag: "T+QXUwpTgy0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/nPF9n0SwstMC",
+    volumeInfo: {
+      title: "Red Rising",
+      authors: ["Pierce Brown"],
+      publisher: "Random House Worlds",
+      publishedDate: "2014-01-28",
+      description:
+        "<b><i>NEW YORK TIMES</i> BESTSELLER • <b>Pierce Brown’s relentlessly entertaining debut channels the excitement of <i>The Hunger Games</i> by Suzanne Collins and <i>Ender’s Game</i> by Orson Scott Card.</b></b> <br><br><b>“<i>Red Rising</i> ascends above a crowded dys­topian field.”<i>—USA Today</i></b><br><b><br>ONE OF THE BEST BOOKS OF THE YEAR—</b><i><b>Entertainment Weekly, BuzzFeed, Shelf Awareness</b><br></i><br><i>“I live for the dream that my children will be born free,” she says. “That they will be what they like. That they will own the land their father gave them.”<br> “I live for you,” I say sadly.<br> Eo kisses my cheek. “Then you must live for more.”</i><br><br>Darrow is a Red, a member of the lowest caste in the color-coded society of the future. Like his fellow Reds, he works all day, believing that he and his people are making the surface of Mars livable for future generations. Yet he toils willingly, trusting that his blood and sweat will one day result in a better world for his children.<br><br> But Darrow and his kind have been betrayed. Soon he discovers that humanity reached the surface generations ago. Vast cities and lush wilds spread across the planet. Darrow—and Reds like him—are nothing more than slaves to a decadent ruling class.<br><br> Inspired by a longing for justice, and driven by the memory of lost love, Darrow sacrifices everything to infiltrate the legendary Institute, a proving ground for the dominant Gold caste, where the next generation of humanity’s overlords struggle for power.  He will be forced to compete for his life and the very future of civilization against the best and most brutal of Society’s ruling class. There, he will stop at nothing to bring down his enemies . . . even if it means he has to become one of them to do so.<br><br><b>Praise for <i>Red Rising</i></b><br><br>“[A] spectacular adventure . . . one heart-pounding ride . . . Pierce Brown’s dizzyingly good debut novel evokes <i>The Hunger Games, Lord of the Flies, </i>and<i> Ender’s Game</i>. . . . [<i>Red Rising</i>] has everything it needs to become meteoric.”<b>—<i>Entertainment Weekly<br></i></b><br>“Ender, Katniss, and now Darrow.”<b>—Scott Sigler</b><br><br> “<i>Red Rising</i> is a sophisticated vision. . . . Brown will find a devoted audience.”<b>—<i>Richmond Times-Dispatch</i></b><br><br><b>Don’t miss any of Pierce Brown’s Red Rising Saga:</b><br><b>RED RISING • GOLDEN SON • MORNING STAR • IRON GOLD • DARK AGE • LIGHT BRINGER</b>",
+      industryIdentifiers: [
+        { type: "ISBN_13", identifier: "9780345539793" },
+        { type: "ISBN_10", identifier: "0345539796" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 400,
+      printedPageCount: 414,
+      dimensions: { height: "21.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Science Fiction / Action & Adventure",
+        "Fiction / Dystopian",
+        "Fiction / Action & Adventure",
+      ],
+      averageRating: 4.5,
+      ratingsCount: 7,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.42.40.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73yoQ1j-o27QCB_lj1GDi2tNtdx_WX7D_Pn1EIZzZZjdotuhxtVXWtYWUTLuGDWPrE1p9F0ZasMDpggCzgHLNcXhfdoqFylp9WDWcydP6mNnTihtT_bzOg8U2dA-13KJnnSEwnQ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71y8oKKxvI3kQIMyYsqA6uWK2SeN1l7lQ12XSk5FjlSz2Mvfh6ZTjo9exnCRr2W38Q28EEVgzaOot6DERfNaQN7vT3dL0r4g1bvxxk8ZhvFw6BP6Grzt2LPt8MML-Js4M-j5iwJ&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE708edEK1CIbdKk1B3MizRjuxtRJrb-n8CQGN9xV95n31S5VNZJLR1zeCaEqJPVB57BNoyQ1yHFXp2Q51VE3zLC6MV4WgYo3vGn2gblrF5ktNz2hPCW2xMMqx_XePPlb20iDulZ8&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72Eh1RlQiO_iVNceZGg51LUBNEZwaNRjB4LfsKUI0OHaK8SM0dBcnjcE7jFVCjja-WNlLZCmHAu9DmUlcA5uqKGQLptk40M3RSWUYLufrjj77-UUpQX3QYbJBWds6J95pjRWZIg&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73TyoCh2eWPBCillkA4pavK_UQtNwGLXJdRGvwEDVbEXJSbYpHAKV4DO0QQNOQCQDvJCX3DnxSfSloFDB9bFM4oMb6F50wUWATbcf1SxQAnGTqav3Ysd4ZnM31pEJUa-Oh00Uc_&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70lVE24-NRRAo2GkuoLBbwKz--LYGDOzKiiQjfMpaORbdBGiFFFlRbexmuC_k_DlJoCNa9in0DxGvmnOmIGud_PEcqHY-ZHgrp76s4OKzdVPUyaZNUIYNETEVMs2w5ZChLDduA-&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=nPF9n0SwstMC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=nPF9n0SwstMC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=nPF9n0SwstMC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "59" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 5.99, currencyCode: "USD" },
+      retailPrice: { amount: 5.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=nPF9n0SwstMC&rdid=book-nPF9n0SwstMC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 5990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 5990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Red_Rising-sample-epub.acsm?id=nPF9n0SwstMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=nPF9n0SwstMC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2624,
+      image:
+        "http://books.google.com/books/content?id=nPF9n0SwstMC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70lVE24-NRRAo2GkuoLBbwKz--LYGDOzKiiQjfMpaORbdBGiFFFlRbexmuC_k_DlJoCNa9in0DxGvmnOmIGud_PEcqHY-ZHgrp76s4OKzdVPUyaZNUIYNETEVMs2w5ZChLDduA-&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "n9fDEAAAQBAJ",
     etag: "am7AYlVZnxI",
     selfLink: "https://www.googleapis.com/books/v1/volumes/n9fDEAAAQBAJ",
