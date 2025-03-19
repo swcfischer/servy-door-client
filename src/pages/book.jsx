@@ -15,6 +15,7 @@ import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
+import FunFacts from "../components/FunFacts";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -314,6 +315,13 @@ function Book(props) {
               </a>
             </dd>
           </dl>
+
+          <FunFacts
+            description={state.volumeInfo.description}
+            title={state.volumeInfo?.title}
+            author={state.volumeInfo?.authors?.join(", ")}
+            googleId={state.id}
+          />
         </div>
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
