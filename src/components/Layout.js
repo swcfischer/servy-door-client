@@ -35,12 +35,41 @@ const StyledContainer = styled(Container)`
     width: 210px;
   }
 
+  #circle {
+    border-radius: 50%;
+    background: #111;
+    background: #0f1218;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    border: 10px solid #0f1218;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .typography {
+    color: #fff;
+    backdrop-filter: blur(28px);
+    padding: 12px;
+    width: max-content;
+    font-size: 22px;
+    font-family: Tangerine;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 1px solid #fff;
+  }
+
   .footer {
     margin-top: auto;
     padding: 1rem 0;
     text-align: center;
     color: #fff;
     background-color: #111;
+    background-color: #0f1218;
     border-radius: 3px;
     box-shadow: var(--Paper-shadow);
     position: relative;
@@ -59,18 +88,6 @@ const StyledContainer = styled(Container)`
       text-decoration: none;
       color: #fff;
     }
-  }
-
-  .typography {
-    color: #fff;
-    backdrop-filter: blur(28px);
-    padding: 12px;
-    width: max-content;
-    font-size: 22px;
-    font-family: Tangerine;
-    margin: 0 auto;
-    border-radius: 3px;
-    border: 1px solid #fff;
   }
 
   .footer-links {
@@ -172,10 +189,12 @@ const Layout = ({ children }) => {
           <HelmetComponent />
 
           <div style={{ minHeight: "150vh" }}>{children}</div>
-          <footer className="footer">
+          <div id="circle">
             <Typography variant="body2" className="typography">
               ServyDoor{" "}
             </Typography>
+          </div>
+          <footer className="footer">
             {/* <a
               target="_blank"
               href="https://github.com/swcfischer"
