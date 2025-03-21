@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import bestsellerList from "../bookLists/bestsellers";
+import classicBestsellerList from "../bookLists/classicBestSellers";
 import BestsellerItem from "./BestsellerItem";
 
 const Container = styled.div`
@@ -21,7 +21,7 @@ const Container = styled.div`
   }
 `;
 
-function BestSellerList(props) {
+function ClassicBestSellerList(props) {
   const { isLoading } = props;
 
   return (
@@ -29,7 +29,7 @@ function BestSellerList(props) {
       <h2 className="besterseller-list__title">Reading Opens Doors!</h2>
 
       <div className="book-list-container">
-        {bestsellerList.map(({ id, volumeInfo }) => (
+        {classicBestsellerList.map(({ id, volumeInfo }) => (
           <BestsellerItem
             key={id}
             volumeInfo={volumeInfo}
@@ -42,4 +42,4 @@ function BestSellerList(props) {
   );
 }
 
-export default BestSellerList;
+export default ClassicBestSellerList;

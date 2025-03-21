@@ -10,7 +10,7 @@ import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
-import BestSellerList from "../components/BestSellerList";
+import ClassicBestSellerList from "../components/ClassicBestSellerList";
 
 const EmotionContainer = styled.div`
   button {
@@ -231,7 +231,7 @@ export default function Index(props) {
                 ))}
               </div>
             ) : (
-              <BestSellerList isLoading={isLoading} />
+              <ClassicBestSellerList isLoading={isLoading} />
             )}
           </div>
         </Box>

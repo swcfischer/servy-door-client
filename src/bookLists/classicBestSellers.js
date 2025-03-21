@@ -1,0 +1,910 @@
+const classicBestsellerList = [
+  {
+    kind: "books#volume",
+    id: "s1gVAAAAYAAJ",
+    etag: "Bkcp+so+p+w",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
+    volumeInfo: {
+      title: "Pride and Prejudice",
+      authors: ["Jane Austen"],
+      publisher: "C. Scribner's sons",
+      publishedDate: "1918",
+      description:
+        "Austen’s most celebrated novel tells the story of Elizabeth Bennet, a bright, lively young woman with four sisters, and a mother determined to marry them to wealthy men. At a party near the Bennets’ home in the English countryside, Elizabeth meets the wealthy, proud Fitzwilliam Darcy. Elizabeth initially finds Darcy haughty and intolerable, but circumstances continue to unite the pair. Mr. Darcy finds himself captivated by Elizabeth’s wit and candor, while her reservations about his character slowly vanish. The story is as much a social critique as it is a love story, and the prose crackles with Austen’s wry wit.",
+      readingModes: { text: true, image: true },
+      pageCount: 401,
+      printedPageCount: 448,
+      dimensions: { height: "18.00 cm" },
+      printType: "BOOK",
+      averageRating: 4,
+      ratingsCount: 374,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.5.13.0.full.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71nr4V4pAdAmdhS291F4cygINGwZGnBcITAQpuMK6tLrhvwXwz4ilURV1hFojzmLjSB7JSG17eKhs7v25441saU0Gv1wn0jE3aciv4SaL4J5_wG7ajmY9fCc6ri1BAJkU9Zhk-i&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72y831jYebh79f-56dQJUYNdYmKZr54bgQKOvIBeDbTSKm-yFSbNLnMv7JaQqoTVJZXRpQWn1WcB9xMUK5oNpyfxqPPcIqURKFhfetTuXHGx5Fqkw_11CX9aBlae_G7jch0NcO_&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73nC_gmqY92oY-Vt-s5MorptPm1DYpwh-l5lfDv6OtGAf0PZE9KI6jR9R7b2kX-XfHr8QqZDiitCJ4yfOqq_J3HuLOOlPdu-InmPiH0PTu7Tu8X4vW8ydj4YpjmxaRTrUvoaZff&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE7176igWplRTFJJqbz-5weqxHPDO4ehI6G5VzBSi8_xnqTc1tyMcF6SIuNLuRmc0Qp7qz9j5YmgO6rEomTSxssHAMQCJa7YDcXao8SiHNuPUblEcpbFC_lLgwIbxM27MvVO5Wzkw&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70H7k8aa_UAh-qKMrErAsPPGS_J851FQS4qgJ2RZ7nJOpQ1Ox7uHvBUmQCCXNHNoUrtKb1DtuycdUPfhwYZkiC_Gpvn_IOv-91tZqvjV3Jh1AVqO6EZ15ruHPSojSY8-xHaNck2&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE730Ac_ulGFlEOJw8o9Dzhhh2WbZSY4PlJVp1pmTwlxDVI4-oNEZnhtBuUp4kQ6_CDbhLW77dGomqjGG0g4dr95ujozUdDla5aaSOsyOqBTqATAwlEgBWWRcpm0ajTaqfe6uO5Kl&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=s1gVAAAAYAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "25" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FREE",
+      isEbook: true,
+      buyLink:
+        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ&rdid=book-s1gVAAAAYAAJ&rdot=1&source=gbs_api",
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "ALL_PAGES",
+      embeddable: true,
+      publicDomain: true,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/Pride_and_Prejudice.epub?id=s1gVAAAAYAAJ&hl=&output=epub&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/Pride_and_Prejudice.pdf?id=s1gVAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3dQw5JDWdbVgk2VRHyDjVMT4oIaA&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=s1gVAAAAYAAJ&hl=&source=gbs_api",
+      accessViewStatus: "FULL_PUBLIC_DOMAIN",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2000,
+      height: 2972,
+      image:
+        "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE730Ac_ulGFlEOJw8o9Dzhhh2WbZSY4PlJVp1pmTwlxDVI4-oNEZnhtBuUp4kQ6_CDbhLW77dGomqjGG0g4dr95ujozUdDla5aaSOsyOqBTqATAwlEgBWWRcpm0ajTaqfe6uO5Kl&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "RyJtJZPX8jwC",
+    etag: "beI1ldumrVQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RyJtJZPX8jwC",
+    volumeInfo: {
+      title: "Harper Lee's To Kill a Mockingbird",
+      subtitle: "New Essays",
+      authors: ["Michael J. Meyer"],
+      publisher: "Scarecrow Press",
+      publishedDate: "2010-10-14",
+      description:
+        "In 1960, To Kill a Mockingbird was published to critical acclaim. To commemorate To Kill a Mockingbird's 50th anniversary, Michael J. Meyer has assembled a collection of new essays that celebrate this enduring work of American literature. These essays approach the novel from educational, legal, social, and thematic perspectives.<br><br>Harper Lee's only novel won the Pulitzer Prize and was transformed into a beloved film starring Gregory Peck as Atticus Finch. An American classic that frequently appears in middle school and high school curriculums, the novel has been subjected to criticism for its subject matter and language. Still relevant and meaningful, To Kill a Mockingbird has nonetheless been under-appreciated by many critics. There are few books that address Lee's novel's contribution to the American canon and still fewer that offer insights that can be used by teachers and by students.<br><br>These essays suggest that author Harper Lee deserves more credit for skillfully shaping a masterpiece that not only addresses the problems of the 1930s but also helps its readers see the problems and prejudices the world faces today. Intended for high school and undergraduate usage, as well as for teachers planning to use To Kill a Mockingbird in their classrooms, this collection will be a valuable resource for all teachers of American literature.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0810877236" },
+        { type: "ISBN_13", identifier: "9780810877238" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 290,
+      printedPageCount: 292,
+      dimensions: { height: "22.90 cm", width: "15.20 cm" },
+      printType: "BOOK",
+      categories: ["Literary Criticism / American / General"],
+      averageRating: 3.5,
+      ratingsCount: 15,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.11.11.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=RyJtJZPX8jwC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71Wdb_KGILXLLOLrifds7sw86Clj_tMwFYMjM7n6Da_qwCrET1cAS_-4Sn4KlY0hR7kKxhAQkKX2Xk0HKq4BqfOBDbI6YtHWBF2yXgXWWyODpxeFowQCA4gbOmvZ3y2a5XJTnZ0&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=RyJtJZPX8jwC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70YiyfkGWQB-FZzNrO2Ck2ia4gDL5frlEFE9Yodt0gxEa_tt_agwp9rIP9nfcWnCodfxlJPajZ8kW3uhJkN-byPEmWVhYrhc1MuqbHc0CFs4p7VmenSY2kmaYGzaPPDrGYdUMY3&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=RyJtJZPX8jwC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70aw5xZP0ZKW6peN_cLGD6A-KOn8_YP-VHnjFiZ_YaZGi_BT8yWCMjjYFxkELWEFfgA4jlmHw5jHJYF276gmvcZCB44L1nt3ijOt6hu-fby903g-_8uHJ3Z5xNcp8TAvxYk9ya_&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=RyJtJZPX8jwC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=RyJtJZPX8jwC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=RyJtJZPX8jwC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "17" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 78.5, currencyCode: "USD" },
+      retailPrice: { amount: 62.8, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=RyJtJZPX8jwC&rdid=book-RyJtJZPX8jwC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 78500000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 62800000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Harper_Lee_s_To_Kill_a_Mockingbird-sample-epub.acsm?id=RyJtJZPX8jwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Harper_Lee_s_To_Kill_a_Mockingbird-sample-pdf.acsm?id=RyJtJZPX8jwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=RyJtJZPX8jwC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 300,
+      height: 450,
+      image:
+        "http://books.google.com/books/content?id=RyJtJZPX8jwC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70aw5xZP0ZKW6peN_cLGD6A-KOn8_YP-VHnjFiZ_YaZGi_BT8yWCMjjYFxkELWEFfgA4jlmHw5jHJYF276gmvcZCB44L1nt3ijOt6hu-fby903g-_8uHJ3Z5xNcp8TAvxYk9ya_&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "iXn5U2IzVH0C",
+    etag: "STtzv6IaFBM",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/iXn5U2IzVH0C",
+    volumeInfo: {
+      title: "The Great Gatsby",
+      subtitle: "The Only Authorized Edition",
+      authors: ["F. Scott Fitzgerald"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2003-05-27",
+      description:
+        "<b><b>The only edition of the beloved classic that is authorized by Fitzgerald’s family and from his lifelong publisher. </b></b><br><br>This edition is the enduring original text, updated with the author’s own revisions, a foreword by his granddaughter, and with a new introduction by National Book Award winner Jesmyn Ward.<br> <br><i>The Great Gatsby</i>, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published by Scribner in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan is an exquisitely crafted tale of America in the 1920s.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "074324639X" },
+        { type: "ISBN_13", identifier: "9780743246392" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 165,
+      printedPageCount: 196,
+      dimensions: { height: "21.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Literary",
+        "Fiction / Friendship",
+        "Fiction / General",
+      ],
+      averageRating: 3.5,
+      ratingsCount: 92,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.30.26.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71PNDphS1iuLGJ6j0DMYZmfc72l2bKOnms3mkjxZR86MHuQ37Do_p4iGPB7X5AFv9Qz_L7ZjnDC_MvY4uCv2r_aUbowkoEfkWPjtYAr90pEUXFETrOHrjuMQLNbUJoLKqeoZ2sJ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE715NDtWaEC_1BeATj8C5vTbA14RGKtgX1L2b7Bopz14pmqDSajLWKjLGKPkg6IVqO_HkPIizb3EFZlvzhlj7nGpxqMs33EZQTannHwWE2f8OLnA4hiwW_p2BcGwfRuShUQb7SZR&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72ICDJ8Vw_hg5J68jXEylUDnNOJ3pqVYgqQWVLtcL7g1HDZM9zttxjJKczab4d-_1zqPYGzI_0nqK9SkWoWcdNJWLszfxYh3mY-7pg2nUsAVhVBDWoSdcKwRmLMXCOeUBTmgUfo&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE737NOIgFc8-KNi3UL-W9iYFFql99b2kwMw9baeWrvwzXhzMuejdCUNv8gpTJ_mBl9tDdpIo3GwFz95TujnPAq9qDCOqRzjXYw7nr8rZAUGfZYshOcYEqnE-lxsXou-DK_uJNGLF&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fo3OYDcoGgCHEkDH2I-36esGpK4UY9sc-6-nZ7aRLtPUgJJaudBl3yzeL3isdaM9-x6wfHU6ZtKtB6mfNICJs1su7saLVMNYEK4aCj-NcyhNn-Uq7Is2tXooYgfjqqWx2_a5w&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72fDVP7WQfjux-IE1ZQnjKluQy7inGwBdUofQH37dY23VSjFvHgg8V1i9uPn3N5jpQoud_M5cttL4RrGFWWMsZZX3eL0yEy04MAYM982SNtq4v8xb68ir19AQoTuJ10IC1jQjBo&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=iXn5U2IzVH0C&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "41" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 1.99, currencyCode: "USD" },
+      retailPrice: { amount: 1.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C&rdid=book-iXn5U2IzVH0C&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 1990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 1990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Great_Gatsby-sample-epub.acsm?id=iXn5U2IzVH0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=iXn5U2IzVH0C&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1650,
+      height: 2475,
+      image:
+        "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72fDVP7WQfjux-IE1ZQnjKluQy7inGwBdUofQH37dY23VSjFvHgg8V1i9uPn3N5jpQoud_M5cttL4RrGFWWMsZZX3eL0yEy04MAYM982SNtq4v8xb68ir19AQoTuJ10IC1jQjBo&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "VFAparWKC1EC",
+    etag: "qdNAPYwFCyE",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/VFAparWKC1EC",
+    volumeInfo: {
+      title: "Moby-Dick",
+      subtitle: "or, The Whale",
+      authors: ["Herman Melville"],
+      publisher: "Penguin",
+      publishedDate: "2002-12-31",
+      description:
+        "<b>Herman Melville’s masterpiece of obsession and the untamed sea, one of the greatest works of imagination in literary history—featuring an introduction by Andrew Delbanco and notes by Tom Quirk. </b><br> <b> </b><br> <b>This edition features the Northwestern-Newberry edition of Melville's text, approved by the Center for Scholarly Editions and the Center for Editions of American Authors of the MLA.</b><br> <b> </b><br> <b>Nominated as one of America’s best-loved novels by PBS’s <i>The Great American Read</i></b><br><br><i>Moby-Dick</i> still stands as an indisputable literary classic. It is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself. But more than just a novel of adventure, more than an encyclopedia of whaling lore and legend, <i>Moby-Dick</i> is a haunting, mesmerizing, and important social commentary populated with several of the most unforgettable and enduring characters in literature. <br><br>Written with wonderfully redemptive humor, <i>Moby-Dick</i> is a profound and timeless inquiry into character, faith, and the nature of perception. <br><br>Penguin Classics is the leading publisher of classic literature in the English-speaking world, representing a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0142437247" },
+        { type: "ISBN_13", identifier: "9780142437247" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 720,
+      printedPageCount: 724,
+      dimensions: {
+        height: "20.00 cm",
+        width: "13.10 cm",
+        thickness: "3.00 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Literary",
+        "Fiction / Sea Stories",
+      ],
+      averageRating: 4,
+      ratingsCount: 6,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "10.18.8.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72WuZC0okgcrWE0grlWajG04T00MblDcbHRy04F9gqBmIWa7h3enfp5vmDq0eksmFDmPE1VzqFHJhHyKTT0jHgXl7-Bj-R43UCcq4nVXcGq_ZE_AqDNHJs63m9JR20a6RVstrOm&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7205K_nyP0xoCLezofu3xV3UejEdcx7tTaC-xDgrkWHLYLIPQxd2JIWuCjW7J6WSDshc4UUXH152AgK2wkmuodtzKTdCmtz9aOetM6bFPGaHLia4OLNU-aDoCm3cFUcTMLAD0Tb&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE702LObYaVzWwrlHBG7ekAngdVbdtlqokOpltVzJJCijk8NxB4PVNMn_pqQN2T4KRsJ4sEnVvRVy3-syss3NTUfas0UIFFVWkEYGUNIUxdv0rZFZgPuTM0YGYsU8FxwW7v532Qos&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72pnWcaq1t7091kfoVzXFpNZ_yj4gfGEMWXcqAtJZbO5xL9hqIziHmA0PEHwDZ00cyCX639lDyQCsqRo4CgZ6rvYJpHJR_M8Tnzcac2SCQ8omitFj6chva7YjLNfb7xdKvQ8G8P&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70ju0dBBWukif5L7vcv30NtGx8LBQOBXkd89mGNIz5Isdv7vKrMDdx_OWIjSCIB9FLEMEt3Lq-NcHmn7m6FJc-WboSFlAc8li9v3xrn0AKTMMmD9HwzuGUJL7O6fCbMe-wOU0Yk&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xbKt3Rk3fp9arb0L08U9eJTfZG9LXQUUeDGDUeUHt_1nEQLkAtETWqoMvXvj7AVymueywYw6C_SkNwsSgKoqsOCcwZCrvPK2_8ibjBfQk3nL7Vs1hsb_fvf2i7KYZzE5Gw-Yj&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=VFAparWKC1EC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=VFAparWKC1EC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=VFAparWKC1EC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=VFAparWKC1EC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1461,
+      height: 2331,
+      image:
+        "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xbKt3Rk3fp9arb0L08U9eJTfZG9LXQUUeDGDUeUHt_1nEQLkAtETWqoMvXvj7AVymueywYw6C_SkNwsSgKoqsOCcwZCrvPK2_8ibjBfQk3nL7Vs1hsb_fvf2i7KYZzE5Gw-Yj&source=gbs_api",
+    },
+  },
+
+  {
+    kind: "books#volume",
+    id: "RhYB-fbunzkC",
+    etag: "MS5pA5BDEJQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RhYB-fbunzkC",
+    volumeInfo: {
+      title: "Jane Eyre",
+      subtitle: "Introduction by Lucy Hughes-Hallett",
+      authors: ["Charlotte Bronte"],
+      publisher: "Knopf Doubleday Publishing Group",
+      publishedDate: "1991-10-15",
+      description:
+        "Jane Eyre, a penniless orphan, is engaged as governess at Thornfield Hall by the mysterious Mr Rochester. Her integrity and independence are tested to the limit as their love for each other grows, and the secrets of Mr Rochester's past are revealed. <br><br>Charlotte Brontë’s novel about the passionate love between Jane Eyre, a young girl alone in the world, and the rich, brilliant, domineering Rochester has, ever since its publication in 1847, enthralled every kind of reader, from the most critical and cultivated to the youngest and most unabashedly romantic. It lives as one of the great triumphs of storytelling and as a moving affirmation of the prerogatives of the heart in the face of disappointment and misfortune. <br><br><i>Jane Eyre</i> has enjoyed huge popularity since first publication, and its success owes much to its exceptional emotional power.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0679405828" },
+        { type: "ISBN_13", identifier: "9780679405825" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 284,
+      printedPageCount: 656,
+      dimensions: {
+        height: "21.00 cm",
+        width: "13.50 cm",
+        thickness: "3.60 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Historical / General",
+        "Fiction / Literary",
+        "Fiction / Coming of Age",
+        "Fiction / Women",
+        "Fiction / Family Life / General",
+        "Fiction / Family Life / Marriage & Divorce",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.3.1.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE73hraJUvBXwApJuOt5x1FOQtX5bT3Bo9ZR5B04y-oxh-l46OayWgTeVFxfUxz6pkvNt1Z8-gO3oGSzCqJAZCODmQsM8mOfNmljJeyiQkrz9Wi_fyvM7i-GNtf6D7qa3n5v5fehv&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72PBSjFWVyApBPzV517ND7xZy2DIN2IcmElCyQN670YYSsR9L-Uq2UUDB-4U0IUEZpSbQAhUvnF9zeXKWrS550WCBJvG4SGtfapwZxqUa6EoZOFIz7Ido0tJ39VEmujKNnQ6tvR&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE71XNtvaNguh1r52-4tL4sj9OuxNodI--t1l4O15TK4j1-Sy10Q9SBXEA04md6UZn_NmbuJvTsi-UHhSnxX6Httg3_-wxncRKscjYegE_mkdPR-R7iUNwDP-L95u0uXvlmLc8GTt&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=3&imgtk=AFLRE73dGSLRdZDs2nR4EznmdTWD6zwoTsnIc78hE64IizK_L98SIgF33PweJP6kSeAZn3UKF4PXkCuUb0bC676YVmG_qyBGRlau4-fG3YplqNp7_g46EIboyVu_jXhdOl8VJq6wCF50&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=4&imgtk=AFLRE71-U_uvO7FlcXRADukce2x5kYeWQl2JdkEcLEWlfpIyPY9VNK73WsRdQwflOvhlg5FzHB1qqwf7ZfFbgorb_X5DO77t48aQbfvjc8Oh2fx4ta9ZaQrfTvQsmyw3KHt_J1OVMYGr&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71cAMjP2AoAd6fydA0cdtfw5UjtDd0yCRAnRi0urUJLgb1e_dj3hnc5v4oqhz8NfvVqXLT6xJqYoFe_MhgAnb7ElLHm4VZ4UX0odXSv5O7x2gY258c4_IEHw6Qude9wtu4jzsY7&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=RhYB-fbunzkC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=RhYB-fbunzkC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=RhYB-fbunzkC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=RhYB-fbunzkC&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1280,
+      height: 205,
+      image:
+        "http://books.google.com/books/content?id=RhYB-fbunzkC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71cAMjP2AoAd6fydA0cdtfw5UjtDd0yCRAnRi0urUJLgb1e_dj3hnc5v4oqhz8NfvVqXLT6xJqYoFe_MhgAnb7ElLHm4VZ4UX0odXSv5O7x2gY258c4_IEHw6Qude9wtu4jzsY7&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "OxNHDwAAQBAJ",
+    etag: "yKJVoZBnSiE",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/OxNHDwAAQBAJ",
+    volumeInfo: {
+      title: "Wuthering Heights",
+      authors: ["Brontë, Emily"],
+      publisher: "Aegitas",
+      publishedDate: "2018-01-15",
+      description:
+        "Wuthering Heights is Emily Brontë's only novel. Written between October 1845 and June 1846, Wuthering Heights was published in 1847 under the pseudonym &quot;Ellis Bell&quot;; Brontë died the following year, aged 30. Wuthering Heights and Anne Brontë's Agnes Grey were accepted by publisher Thomas Newby before the success of their sister Charlotte's novel, Jane Eyre. After Emily's death, Charlotte edited the manuscript of Wuthering Heights, and arranged for the edited version to be published as a posthumous second edition in 1850. Although Wuthering Heights is now widely regarded as a classic of English literature, contemporary reviews for the novel were deeply polarised; it was considered controversial because its depiction of mental and physical cruelty was unusually stark, and it challenged strict Victorian ideals of the day regarding religious hypocrisy, morality, social classes and gender inequality. The English poet and painter Dante Gabriel Rossetti, although an admirer of the book, referred to it as &quot;A fiend of a book – an incredible monster [...] The action is laid in hell, – only it seems places and people have English names there.&quot;",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1773138960" },
+        { type: "ISBN_13", identifier: "9781773138961" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 316,
+      printedPageCount: 339,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Romance / General",
+        "Family & Relationships / Love & Romance",
+        "Literary Collections / Women Authors",
+        "Drama / Women Authors",
+        "Fiction / Women",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.2.3.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70BYIqDiblWMJIGBDEccgO6uUeNFsjMFscX4ckhDc0rEmoXD_cveu6YMnPOFJ5ALHBg2hiqhoZDFkFQLL4gHzfhAPkn5aREOPgNZSSXUEbkHT4Cy6KAfgVfZk9F5auPApHjZwG1&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72GSCdJfy0kUhUEH6NKql0jK9dYAv2OadsxvyHJuIouj0MbAw-O_XmPKnUCn-e6Ej4xGf5mb0m5e6Qavr6HMF4_S69OCfui2aQgpVHumEsllz3kDBiof_h2Tdd3Lgtv7QJDTD16&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70q-G4v8fbhM3jJQpb1S8AJECmgjC3AaupfJCuD7RNUYP4LqAMiat_JYH4WtYygPuaP3vHBLo3CieUusDGLwg1oK6uPSPXWcFThLf9AZpaUQvwGD5g7Zm55Rerlzh9QiuilDZ-W&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73x7yKkJAr-TFkgV68bDyhI1h4Hssvvh6i98DCMHHDbkIElE3iZpATjJgutHnN8G17AtleklDFHTCvHLUoNd6nF5zYpRoj3yaOeTAyU0jTYF9n22P92btKFtTv37Sm8De7Ud0on&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE725SGX2zmCIqPjXzPYHTReucgBMrUZL_tMBJcODbo0L9FWF8RQvJwXMVZBYsok2bnhuELS5uf0DTG1_ZbEfzT3Uv7CaO6zXLZCJ7RrFC-krIQAB64TOkTKAQe6A7O_Z5KM_Jdy-&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73BhxprjRMKeNzftiGAkKT_d3yjjS6CucZ_JTFAyT9EL0ZnOq1tJvMLogK4Wr-0yLMXJNLWvDgCXggb4acB_FkENvo8fVsdUE_Ob0DkpOmXg4Lsy_eDGUmuZabCnXNKxOFHMnmv&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=OxNHDwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=OxNHDwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=OxNHDwAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "5" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 0.99, currencyCode: "USD" },
+      retailPrice: { amount: 0.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=OxNHDwAAQBAJ&rdid=book-OxNHDwAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Wuthering_Heights-sample-epub.acsm?id=OxNHDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Wuthering_Heights-sample-pdf.acsm?id=OxNHDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=OxNHDwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2616,
+      image:
+        "http://books.google.com/books/publisher/content?id=OxNHDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73BhxprjRMKeNzftiGAkKT_d3yjjS6CucZ_JTFAyT9EL0ZnOq1tJvMLogK4Wr-0yLMXJNLWvDgCXggb4acB_FkENvo8fVsdUE_Ob0DkpOmXg4Lsy_eDGUmuZabCnXNKxOFHMnmv&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Us0gTQUSAvsC",
+    etag: "jHZx1vZU4xU",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Us0gTQUSAvsC",
+    volumeInfo: {
+      title: "The Picture of Dorian Gray",
+      authors: ["Oscar Wilde"],
+      publisher: "Oxford University Press, UK",
+      publishedDate: "2006-10-12",
+      description:
+        "Dorian Gray gives his soul for eternal youth. While his portrait changes hideously, reflecting his crimes and corruption, he remains outwardly flawless. This new edition uses the 1891 expanded text and shows how Wilde transformed his many sources. - ;'The only way to get rid of a temptation is to yield to it.' When Dorian Gray has his portrait painted, he is captivated by his own beauty. Tempted by his world-weary, decadent friend Lord Henry Wotton, he wishes to stay forever young, and pledges his very soul to keep his good looks. Set in fin-de-si--eacute--;cle London, the novel traces a path from the studio of painter Basil Hallward to the opium dens of the East End. As Dorian's slide into crime and cruelty progresses he stays magically youthful, while his beautiful portrait changes, revealing the hideous corruption of moral decay. Ever since its first publication in 1890 Wilde's only novel has remained the subject of critical controversy. Acclaimed by some as an instructive moral tale, it has been denounced by others for its implicit immorality. Combining elements of the supernatural, aestheticism, and the Gothic, The Picture of Dorian Gray is an unclassifiable and uniquely unsettling work of fiction. - ;It seemed to be an impossible task to outdo the former edition of 'Dorian Gray' in the World's Classics series, but Bristow has achieved his goal. The quality of the explanatory notes is, simply, superb, and the introduction is succint but informative, -",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0192807293" },
+        { type: "ISBN_13", identifier: "9780192807298" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 229,
+      printedPageCount: 273,
+      dimensions: {
+        height: "20.00 cm",
+        width: "12.90 cm",
+        thickness: "1.20 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Literary",
+        "Literary Criticism / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.2.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Us0gTQUSAvsC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73X-L6TkF3xxxKwgD5430C7yk-ZHFsWKnMRhQVqE1QmSTmUbFZG49nRe_CoJYlIsoCf-gEMMn3h-kmk3gG95G2_OaSU8p6Y5IOiaZC9iZnqQ8zmOa0CXEyGglEZN9jyYelweMwT&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Us0gTQUSAvsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71yS45z3HpNu2yRFIPFxICLgcUjBwBKk9kigzYs-0VFtuxyhVITwrA3ZyYtVLTCyJw2XXYcmjmSjJEtVFR66Zd-YCaHrlhCU7CkG7UdFplq8s8nHK5amfWC92-G3QV8EYv7L03u&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Us0gTQUSAvsC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE703CBcqDnZk_zMBNjdpQE_9HnFhiAMqe3BV305aUj0YNORZELyk8eTI1OFP9cPXGc-m9ODTLLypVECwnF8vJXQIASegGXyg5UXe6HAU04EpcMxO-WLX-NTWhl8qcRZkyn6SfVqC&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Us0gTQUSAvsC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70s7YXps6MtbxB8QK3sacususTqw0kOgjUnL0wrLmk9T0aXq-xb2QxZbcpyLmp3kdLQ3Vj5wA9RoAWaBy_EGcEhGNl_j9PYkG31dfYYbdcofNn6sjfKXr3DS2Sxi-P6FpUEXRDl&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Us0gTQUSAvsC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Us0gTQUSAvsC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Us0gTQUSAvsC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Picture_of_Dorian_Gray-sample-pdf.acsm?id=Us0gTQUSAvsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Us0gTQUSAvsC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 871,
+      image:
+        "http://books.google.com/books/content?id=Us0gTQUSAvsC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70s7YXps6MtbxB8QK3sacususTqw0kOgjUnL0wrLmk9T0aXq-xb2QxZbcpyLmp3kdLQ3Vj5wA9RoAWaBy_EGcEhGNl_j9PYkG31dfYYbdcofNn6sjfKXr3DS2Sxi-P6FpUEXRDl&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "_utTrsqoz64C",
+    etag: "w3wBweOTGcQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/_utTrsqoz64C",
+    volumeInfo: {
+      title: "The Count of Monte Cristo",
+      authors: ["Alexandre Dumas"],
+      publisher: "Penguin UK",
+      publishedDate: "2003-03-27",
+      description:
+        "<p><b>The epic tale of wrongful imprisonment, adventure and revenge, in its definitive translation</b><br><br>Thrown in prison for a crime he has not committed, Edmond Dantès is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration. Dumas' epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment, was a huge popular success when it was first serialized in the 1840s.<br><br>Translated with an Introduction by ROBIN BUSS</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "014190125X" },
+        { type: "ISBN_13", identifier: "9780141901251" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 1312,
+      printedPageCount: 1867,
+      dimensions: { height: "20.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Historical / General",
+        "Fiction / Action & Adventure",
+      ],
+      averageRating: 4.5,
+      ratingsCount: 2,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "3.23.23.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71aCZLxau3qI8cF-hKIPkxCmsfVUWMc1JG4nLlEXS-o9GZnB4qvW_Z2vTEEe2ncoTxRkQNd29z_Hwq_EoxtbwezaRS6W9W-IYLLGPXEeoFq2umYNYnS8ledrkaLWLUmjQqpsRbx&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73K8FqCCXoBiFMMj2iX3uSHp5WSJvSAENiERKeBv7JmbzPpjT0_vKxIBHoVnGSCKn8AaeYyTZe_uHnP7gX7KEIqirvJBmAZWwonufzhdwu3z2d3l6WfUATPioAcLZ-EsYH_7RBL&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70GQ7qFu_l4ZHAKGSKQ6bfRUurC2MuGZSnEBwpHTU4Qx2vlqUubKG9BKHu9eDXYWywYE-XARfVxghIp-uiQfjLC-7jgOO5KckEEt4U0dzEHwqkNt__kKmt7tz1BeXunsDWC6vly&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73ku6HWp-svSi18M8skN3x3wQDONZUqsfvgqYaMJWLjHMm6kPcQ-zvJTa2k6WHwu-rCyYp5nad_6akC2mssud0Eh_5xJg5P1fqgt94axarOtlaZbLqiZ-ybQckNJxgHj9qj5ASP&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70p03BxAMaP6O8rFO6DZ5qejTCr9-FRkhGd3W9461PEd1FyD-S_518peyWKn-Gkpb50EkEnmyy2PQrCOTJoDBmVfRgIapjRdIUAlJfzOjxsIGKBYqWBzu9WvF8zyY6QmFiCkTI2&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73R-5qcO5LmgEbS4b3vCDcaaZx-ksCZEG2dflL1VyoMHhe9SnVeaeFmLoshp4yf6FmcvtyxPMyaBU9tZXO_rPWZ3yz3HYfVEpvW9AguJ2oBboiM195nKYLRDXb7mlZmPdB_ZLo-&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=_utTrsqoz64C&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=_utTrsqoz64C&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=_utTrsqoz64C",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "34" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 11.44, currencyCode: "USD" },
+      retailPrice: { amount: 11.44, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=_utTrsqoz64C&rdid=book-_utTrsqoz64C&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 11440000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11440000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Count_of_Monte_Cristo-sample-epub.acsm?id=_utTrsqoz64C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=_utTrsqoz64C&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2324,
+      image:
+        "http://books.google.com/books/content?id=_utTrsqoz64C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73R-5qcO5LmgEbS4b3vCDcaaZx-ksCZEG2dflL1VyoMHhe9SnVeaeFmLoshp4yf6FmcvtyxPMyaBU9tZXO_rPWZ3yz3HYfVEpvW9AguJ2oBboiM195nKYLRDXb7mlZmPdB_ZLo-&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "QHRFskXOoocC",
+    etag: "072WSO9YVCI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/QHRFskXOoocC",
+    volumeInfo: {
+      title: "Gulliver's Travels",
+      authors: ["Jonathan Swift"],
+      publisher: "Collector's Library",
+      publishedDate: "2004",
+      description:
+        "Jonathan Swift's masterpiece is the finest satire in the English language. Shipwrecked traveler Lemuel Gulliver finds himself washed ashore in Lilliput, a kingdom populated by tiny people. Fascinated by their exotic visitor, the Lilliputians enlist Gulliver's services in their bitter civil war. But Gulliver becomes the object of a court intrigue and has to make a hasty escape. On his next voyage, his ship is blown off course to Brobdingnag, whose giant inhabitants strike him as horrific and occasionally revolting. A third journey takes him to Laputa, a floating island occupied by pedantic scientists and philosophers. Finally, he encounters a society of rational horses, the Houyhnhnms, and witnesses the appalling behaviour of their servants the Yahoos, a group who are in many ways disturbingly similar to Man at his most bestial. Swift's brilliantly original story is a timeless portrait of the human condition in all its misery and majesty.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1904633714" },
+        { type: "ISBN_13", identifier: "9781904633716" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 381,
+      printedPageCount: 396,
+      dimensions: {
+        height: "15.90 cm",
+        width: "10.30 cm",
+        thickness: "2.20 cm",
+      },
+      printType: "BOOK",
+      categories: ["Fiction / Classics", "Fiction / Literary"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "2.11.10.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70k29qW_pP75hx_cf8VWJGgx86UTGjl6jrNBCpc6rcjfQOOiXrsGZwDBNwYPviA6P1rNLiWNuBwPU5JMt67GV3aUs_yXJGG4Y6RA6oKAWxIssbQ9w0OyrbNmq7g_DTCU6DxTOyZ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73KmQB7OsLfJgUJVu5qVwN5XXFw0kk6Y1m1zR-sBqj1KCzN8sZ8Tbe0QRvo7rCxqmZ_lcJ6JWKW45iMh-VxXfjlaMitXCw36kvjImPLTR9Ww2WDOgi5uC_dANmtVLbgUdDdHGSc&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73n2QA4s7JXXE0UcPutMXo7Jm3npG6BuZJv770NwcR5S1_R2M9OXHJhnnyVDTo1h3b6p4TqeH1m-5Bnn0E7InaUpP2koXxzjxhc_VRke2N0lPk-K5PgWw0xC3_SuEMvg2EuLn59&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70aZema2i8vaW2eow84tOWmzjw4vgR2LxjCU1tN3dV2Hr5N7QFS81fejqzyQMcMEAr2WdpljYtmw4lr0ZrdQ9EcGxomd7qRaTtlz73XL0B77SYcwLrnunXI5izU-AaQka0XhuQZ&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE720femRPwZDfZCQ2Auj_F4nJwpYDGrs74HcUI6qxrzp4zrY937IOAjyNMY7yTnSAjhcGlFLyeyV_E5ypCDVWCIsRO-HBfGCxoT3zrkQNTVEnpTG1xqOr-F4mHuatd5EO_cofgJM&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=QHRFskXOoocC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=QHRFskXOoocC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=QHRFskXOoocC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Gulliver_s_Travels-sample-pdf.acsm?id=QHRFskXOoocC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=QHRFskXOoocC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1335,
+      image:
+        "http://books.google.com/books/content?id=QHRFskXOoocC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE720femRPwZDfZCQ2Auj_F4nJwpYDGrs74HcUI6qxrzp4zrY937IOAjyNMY7yTnSAjhcGlFLyeyV_E5ypCDVWCIsRO-HBfGCxoT3zrkQNTVEnpTG1xqOr-F4mHuatd5EO_cofgJM&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Yzt4Mwo8BbkC",
+    etag: "rD4O/Go8BCg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Yzt4Mwo8BbkC",
+    volumeInfo: {
+      title: "The Time Machine",
+      authors: ["H.G. Wells"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2011-05-31",
+      description:
+        "<b>The H.G. Wells classic that helped launch the time travel genre. </b><br><br>The Time Traveller, a dreamer obsessed with traveling through time, builds himself a time machine and, much to his surprise, travels over 800,000 years into the future. He lands in the year 802701: the world has been transformed by a society living in apparent harmony and bliss, but as the Traveler stays in the future he discovers a hidden barbaric and depraved subterranean class.<br> <br><i>The Time Machine </i>inspired the international bestseller <i>The Map of Time </i>by<i> </i>Félix J. Palma. As a gift to our readers, we are including the first three chapters of <i>The Map of Time</i> in this ebook edition.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1451658869" },
+        { type: "ISBN_13", identifier: "9781451658866" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 176,
+      printedPageCount: 217,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Classics",
+        "Fiction / Science Fiction / Time Travel",
+        "Fiction / Science Fiction / Action & Adventure",
+        "Fiction / General",
+      ],
+      averageRating: 4,
+      ratingsCount: 525,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "3.39.31.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE705gwbVNmk4JcXPnxZ08o6u44IO1Lm9TfJ4ifO6jXWp10jIeirkavX-CMREPxQUKaioFcDv9vA2rzZ-rNgKnXa13eQAKJViFK_wtt2GRHpwSTmdWfVtt2NgMC3UyaRrx-AH_hv1&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72I1woJDTY52o-GXj-h8sNNzQnW_r0v5lUfKyY6HUWf9fCeN6KXo_2Bx9aiGnztJsgcTj7hUlTmd8VQfNmdlATAuV6nAzp7ziCwM4xJvunV4XI8GYC52vR3oht-GRjgnpRekvcT&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73hek-eQla_so7_QoxIOwhR92Q_laU4R-WOJS6OPXE9NXBkTgdyvhEy0AOzsaTLoduKARTj62sGbXNIrhdo6qCxfYOzwWjBH8mymvNVfu--YWOYuU62S08nuG6wjnigW5MS11fV&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73sXAiFZNtWq-mSCgp8rPlLEXN7U2olS_R5_tArgr2OwmoUQefnDS9iWyT3amniAlaYY9e7wCjvQl-MQehxowiwLm39YrXmmPJn0KhHaggxN44lH2EOWq57q2ZF1LFrq3G4rLRN&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70rjMPC16m-S2rIWOmD7tpgaskaIeXtmADL5HonX168WOcmVrdtXVvdCiM2K9OhzQk2bfT3648AyDLUX6NR2QBc2hA8cq7GRtky-i6ar79mV9zLMYCorxawWA8PZaFILfUv0IQD&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xJT2eadsi1TCAYYe2cfVNLWzrBpcoFkE1CqURgsCew6CnAtkAs2QocWJ84pbg7mGM_hX79M8yk1IjZ7i9XpHuzU6-QlX-O3gPEa5Qn5c0AV8Wtv-WlnnRV52EWJseQDNLQRZA&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Yzt4Mwo8BbkC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Yzt4Mwo8BbkC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Yzt4Mwo8BbkC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "55" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 0.99, currencyCode: "USD" },
+      retailPrice: { amount: 0.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=Yzt4Mwo8BbkC&rdid=book-Yzt4Mwo8BbkC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Time_Machine-sample-epub.acsm?id=Yzt4Mwo8BbkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Yzt4Mwo8BbkC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2707,
+      image:
+        "http://books.google.com/books/content?id=Yzt4Mwo8BbkC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xJT2eadsi1TCAYYe2cfVNLWzrBpcoFkE1CqURgsCew6CnAtkAs2QocWJ84pbg7mGM_hX79M8yk1IjZ7i9XpHuzU6-QlX-O3gPEa5Qn5c0AV8Wtv-WlnnRV52EWJseQDNLQRZA&source=gbs_api",
+    },
+  },
+];
+
+export default classicBestsellerList;
