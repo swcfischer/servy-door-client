@@ -280,85 +280,112 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "VFAparWKC1EC",
-    etag: "qdNAPYwFCyE",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/VFAparWKC1EC",
+    id: "wrOQLV6xB-wC",
+    etag: "ImT66I3PVTc",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/wrOQLV6xB-wC",
     volumeInfo: {
-      title: "Moby-Dick",
-      subtitle: "or, The Whale",
-      authors: ["Herman Melville"],
-      publisher: "Penguin",
-      publishedDate: "2002-12-31",
+      title: "Harry Potter and the Sorcerer's Stone",
+      authors: ["J.K. Rowling"],
+      publisher: "Pottermore Publishing",
+      publishedDate: "2015-12-08",
       description:
-        "<b>Herman Melville’s masterpiece of obsession and the untamed sea, one of the greatest works of imagination in literary history—featuring an introduction by Andrew Delbanco and notes by Tom Quirk. </b><br> <b> </b><br> <b>This edition features the Northwestern-Newberry edition of Melville's text, approved by the Center for Scholarly Editions and the Center for Editions of American Authors of the MLA.</b><br> <b> </b><br> <b>Nominated as one of America’s best-loved novels by PBS’s <i>The Great American Read</i></b><br><br><i>Moby-Dick</i> still stands as an indisputable literary classic. It is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself. But more than just a novel of adventure, more than an encyclopedia of whaling lore and legend, <i>Moby-Dick</i> is a haunting, mesmerizing, and important social commentary populated with several of the most unforgettable and enduring characters in literature. <br><br>Written with wonderfully redemptive humor, <i>Moby-Dick</i> is a profound and timeless inquiry into character, faith, and the nature of perception. <br><br>Penguin Classics is the leading publisher of classic literature in the English-speaking world, representing a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+        "<p><i>Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.</i><br><br>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!<br><br><br><i>Having become classics of our time, the Harry Potter eBooks never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new readers.</i></p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0142437247" },
-        { type: "ISBN_13", identifier: "9780142437247" },
+        { type: "ISBN_10", identifier: "1781100489" },
+        { type: "ISBN_13", identifier: "9781781100486" },
       ],
-      readingModes: { text: false, image: false },
-      pageCount: 720,
-      printedPageCount: 724,
-      dimensions: {
-        height: "20.00 cm",
-        width: "13.10 cm",
-        thickness: "3.00 cm",
-      },
+      readingModes: { text: true, image: true },
+      pageCount: 309,
+      printedPageCount: 309,
       printType: "BOOK",
       categories: [
-        "Fiction / Classics",
-        "Fiction / Literary",
-        "Fiction / Sea Stories",
+        "Juvenile Fiction / Action & Adventure / General",
+        "Juvenile Fiction / Fantasy & Magic",
+        "Young Adult Fiction / Action & Adventure / General",
+        "Young Adult Fiction / Fantasy / Wizards & Witches",
+        "Young Adult Fiction / School & Education / Boarding School & Prep School",
+        "Juvenile Fiction / Family / General",
+        "Young Adult Fiction / Fantasy / General",
+        "Young Adult Fiction / Fantasy / Contemporary",
+        "Fiction / Action & Adventure",
+        "Fiction / Fantasy / General",
+        "Juvenile Fiction / School & Education",
       ],
-      averageRating: 4,
-      ratingsCount: 6,
+      averageRating: 4.5,
+      ratingsCount: 331,
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "10.18.8.0.preview.0",
+      allowAnonLogging: true,
+      contentVersion: "3.38.36.0.preview.3",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72WuZC0okgcrWE0grlWajG04T00MblDcbHRy04F9gqBmIWa7h3enfp5vmDq0eksmFDmPE1VzqFHJhHyKTT0jHgXl7-Bj-R43UCcq4nVXcGq_ZE_AqDNHJs63m9JR20a6RVstrOm&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE703cT1_FKrRuI0MgJRgAao3JQpiZUyC-8H_SfsKM3aHxopHLgWy9s-FYeA8t_kmrHr55EXwmCn0dmYgFKy_fTgEI2FszHvragDif5GKX4ZLsHYkkp8vvi5iPf64n2INRIoZPUaF&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7205K_nyP0xoCLezofu3xV3UejEdcx7tTaC-xDgrkWHLYLIPQxd2JIWuCjW7J6WSDshc4UUXH152AgK2wkmuodtzKTdCmtz9aOetM6bFPGaHLia4OLNU-aDoCm3cFUcTMLAD0Tb&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE729uxunFnyDscHBqBRvF4RmXY6UjzBn4CEv3SQEAiknRfIF1nSN0BkGE4bFvpfJzCir6r9MzIdb0XPY32LrTYvuLM1cRj20OBGX1YrjR_QXcFyOXIjnkVBe7_BP_eOKHrFqENDf&source=gbs_api",
         small:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE702LObYaVzWwrlHBG7ekAngdVbdtlqokOpltVzJJCijk8NxB4PVNMn_pqQN2T4KRsJ4sEnVvRVy3-syss3NTUfas0UIFFVWkEYGUNIUxdv0rZFZgPuTM0YGYsU8FxwW7v532Qos&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72Vgv5uso0o6viWoMSBi7dCf_0fyaSeStFQLUCIF6HZvkzrqWs9tcJt_Uwgpk2MjzIOIuBCv-w3RBq9oBWxYR9sW1hNTCPw9dkpOhpXe5bc6Je9JLpAUOTkcHFlQZlciDELKGTD&source=gbs_api",
         medium:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72pnWcaq1t7091kfoVzXFpNZ_yj4gfGEMWXcqAtJZbO5xL9hqIziHmA0PEHwDZ00cyCX639lDyQCsqRo4CgZ6rvYJpHJR_M8Tnzcac2SCQ8omitFj6chva7YjLNfb7xdKvQ8G8P&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73CUNEOHuY8EEjldQxT524hvJp13CUkud9JCzO8JKhEstmTLkmlDvR0tAFov9Uc2GmUVuFJqvXFIu1yityt1sIJyEl5QKRNFYtDfZSjdBxbiwR2pDvmbiR0tdOjDBtBE7gGaaQU&source=gbs_api",
         large:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70ju0dBBWukif5L7vcv30NtGx8LBQOBXkd89mGNIz5Isdv7vKrMDdx_OWIjSCIB9FLEMEt3Lq-NcHmn7m6FJc-WboSFlAc8li9v3xrn0AKTMMmD9HwzuGUJL7O6fCbMe-wOU0Yk&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73KEp4SSwUWZuemN9tLU5gsaSrsEYaMgZJdP31mJFzn8gFl4xrAiULhzNviaI8NHQhPONgd9uO-l_YEbPsO9At090Rrxo38IjQwd1RzaFvxK1ZGqHDqM4kra5e_DKGm5T0JI7bK&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xbKt3Rk3fp9arb0L08U9eJTfZG9LXQUUeDGDUeUHt_1nEQLkAtETWqoMvXvj7AVymueywYw6C_SkNwsSgKoqsOCcwZCrvPK2_8ibjBfQk3nL7Vs1hsb_fvf2i7KYZzE5Gw-Yj&source=gbs_api",
+          "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70dtvgIUaUJAJe2JrdAmgLbUuxSAjdPIUMhmwxMgLlFXgmUDJ6sy3QNHvPtM3x-C6FvTeUI0dERvhc6Muzo-dHZLkTl1VHoPnz-v311zftQzAw1d-c1Eh8DdkkUTYbOiYpounrP&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=VFAparWKC1EC&hl=&source=gbs_api",
+        "http://books.google.com/books?id=wrOQLV6xB-wC&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=VFAparWKC1EC&source=gbs_api",
+        "https://play.google.com/store/books/details?id=wrOQLV6xB-wC&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=VFAparWKC1EC",
+        "https://play.google.com/store/books/details?id=wrOQLV6xB-wC",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "45" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 11.99, currencyCode: "USD" },
+      retailPrice: { amount: 11.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=wrOQLV6xB-wC&rdid=book-wrOQLV6xB-wC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
       viewability: "PARTIAL",
       embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Harry_Potter_and_the_Sorcerer_s_Stone-sample-epub.acsm?id=wrOQLV6xB-wC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Harry_Potter_and_the_Sorcerer_s_Stone-sample-pdf.acsm?id=wrOQLV6xB-wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       webReaderLink:
-        "http://play.google.com/books/reader?id=VFAparWKC1EC&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=wrOQLV6xB-wC&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1461,
-      height: 2331,
+      width: 1744,
+      height: 2616,
       image:
-        "http://books.google.com/books/content?id=VFAparWKC1EC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72xbKt3Rk3fp9arb0L08U9eJTfZG9LXQUUeDGDUeUHt_1nEQLkAtETWqoMvXvj7AVymueywYw6C_SkNwsSgKoqsOCcwZCrvPK2_8ibjBfQk3nL7Vs1hsb_fvf2i7KYZzE5Gw-Yj&source=gbs_api",
+        "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70dtvgIUaUJAJe2JrdAmgLbUuxSAjdPIUMhmwxMgLlFXgmUDJ6sy3QNHvPtM3x-C6FvTeUI0dERvhc6Muzo-dHZLkTl1VHoPnz-v311zftQzAw1d-c1Eh8DdkkUTYbOiYpounrP&source=gbs_api",
     },
   },
 

@@ -6,6 +6,7 @@ import styled from "@emotion/styled";
 import BookItem from "../components/BookItem";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 import { Link } from "gatsby";
+import { css } from "@emotion/react";
 
 const Container = styled.div`
   .header-container {
@@ -26,6 +27,14 @@ const Container = styled.div`
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     margin-bottom: 64px;
+
+    ${(props) =>
+      props.isLoading &&
+      css`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      `}
   }
 
   @media (max-width: 600px) {
@@ -61,7 +70,7 @@ function Library() {
   }, [user]);
 
   return (
-    <Container>
+    <Container isLoading={isLoading}>
       <div className="header-container">
         <h1>Library</h1>
         <Link to="/bookmarks">Bookmarks</Link>
