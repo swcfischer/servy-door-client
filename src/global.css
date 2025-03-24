@@ -49,7 +49,7 @@ details {
   opacity: 0;
   animation-duration: 2000ms;
   animation-name: fadeIn;
-  animation-delay: 1000ms;
+  animation-delay: 4000ms;
   animation-fill-mode: forwards;
 }
 

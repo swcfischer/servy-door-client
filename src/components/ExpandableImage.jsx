@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import Modal from "react-modal";
 
@@ -52,9 +52,7 @@ function ExpandableImage(props) {
   // * book state
   const { state } = props;
 
-  const isModal = new URLSearchParams(window.location.search).has("isModal");
-
-  const [modalIsOpen, setModalIsOpen] = useState(isModal);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => {
     setModalIsOpen(true);
@@ -64,6 +62,11 @@ function ExpandableImage(props) {
   const { width, height } = getImageDimensions(state);
 
   const isExpandable = state.img.width > 200; // Define a threshold for small images
+
+  useEffect(() => {
+    const isModal = new URLSearchParams(window.location.search).has("isModal");
+    setModalIsOpen(isModal);
+  }, []);
 
   return (
     <Container>
