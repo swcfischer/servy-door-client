@@ -368,19 +368,20 @@ function BookDetails(props) {
                 },
               },
               {
-                label: "Go to Book Details Pages",
+                label: "Go to Book Details",
                 action: () => navigate(`/book?id=${book.googleId}`),
               },
+              // {
+              //   label: "Correct grammar and punctuation",
+              //   action() {
+              //     snackbarMessage("Sorry, I have not added this yet.");
+              //     snackbarOpen(true);
+              //     console.log("action");
+              //   },
+              // },
+              { isMenuDivider: true },
               {
-                label: "Correct grammar and punctuation",
-                action() {
-                  snackbarMessage("Sorry, I have not added this yet.");
-                  snackbarOpen(true);
-                  console.log("action");
-                },
-              },
-              {
-                label: "Open WordReference in New Tab",
+                label: "Open WordReference",
                 action: () => {
                   window.open(
                     "https://www.wordreference.com/definition/",
@@ -389,7 +390,7 @@ function BookDetails(props) {
                 },
               },
               {
-                label: "Open Kindle Library in a New Tab",
+                label: "Open Kindle Library",
                 action: () => {
                   window.open(
                     "https://read.amazon.com/kindle-library",

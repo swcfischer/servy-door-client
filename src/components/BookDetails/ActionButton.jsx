@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
+import { Menu, MenuItem, MenuButton, MenuDivider } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/zoom.css";
 
@@ -37,6 +37,9 @@ function ActionButton(props) {
       menuStyles={{ border: "1px solid #ccc", boxShadow: "none" }}
     >
       {options.map((el, idx) => {
+        if (el.isMenuDivider) {
+          return <MenuDivider />;
+        }
         return (
           <MenuItem key={idx} onClick={el.action}>
             {el.label}

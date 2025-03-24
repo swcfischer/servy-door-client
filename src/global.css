@@ -104,6 +104,18 @@ dt {
   transition: background-color 0.3s ease;
 }
 
+.szh-menu-container ul.szh-menu {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  /* font-style: italic; */
+  font-size: 18px;
+}
+
+.szh-menu-container ul.szh-menu li:not(.szh-menu__divider) {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 * > * {
   -webkit-user-drag: none;
 }

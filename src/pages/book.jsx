@@ -198,13 +198,6 @@ function Book(props) {
               },
             },
             {
-              label: "Copy Data",
-              action: () => {
-                navigator.clipboard.writeText(JSON.stringify(state));
-                alert("State copied to clipboard!");
-              },
-            },
-            {
               label: !isBookmark ? "Bookmark" : "Remove Bookmark",
               action: !isBookmark
                 ? async () => {
@@ -227,7 +220,7 @@ function Book(props) {
                       );
                       setIsBookmark(true);
                       setSnackbarOpen(true);
-                      setSnackbarMessage("Bookmarked successfully");
+                      setSnackbarMessage("Added to List in Library");
                       // if (data.error) {
                       //   return navigate("/library/book-details?id=" + data.uuid);
                       // }
@@ -242,7 +235,7 @@ function Book(props) {
                         "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
                       );
 
-                      setSnackbarMessage(data.message);
+                      setSnackbarMessage("Removed from List in Library");
                       setSnackbarOpen(true);
                       setIsBookmark(false);
                       // if (data.error) {
@@ -253,6 +246,16 @@ function Book(props) {
                       console.log(err);
                     }
                   },
+            },
+            { isMenuDivider: true },
+            {
+              label: "Copy JSON",
+              action: () => {
+                navigator.clipboard.writeText(JSON.stringify(state));
+
+                setSnackbarMessage("Google Volume JSON Copied to Clipboard");
+                setSnackbarOpen(true);
+              },
             },
           ]}
         />
