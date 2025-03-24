@@ -150,7 +150,7 @@ export default function Index(props) {
           >
             <input
               defaultValue={q}
-              autoFocus
+              // autoFocus
               type="text"
               placeholder="Find a book"
               style={inputStyles}
