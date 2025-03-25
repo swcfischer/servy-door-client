@@ -5,6 +5,8 @@ body {
   /* background: #141414; */
   /* background: #0f1218; */
   background: #141519;
+
+  position: relative;
 }
 html {
   padding: 0;
