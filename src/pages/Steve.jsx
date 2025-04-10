@@ -9,7 +9,7 @@ const links = [
   { name: "GitHub", url: "https://github.com/swcfischer" },
 ];
 
-const Lnks = () => {
+const Steve = () => {
   return (
     <div style={{ padding: "20px" }}>
       <h2 style={{ color: "#333" }}>Steve's Links</h2>
@@ -50,4 +50,4 @@ const Lnks = () => {
   );
 };
 
-export default Lnks;
+export default Steve;
