@@ -2,11 +2,37 @@ import React from "react";
 
 const links = [
   {
-    name: "Junior Dev. Versus Github CoPilot",
-    url: "https://www.youtube.com/watch?v=vjOFLjSa8dU",
+    name: "YouTube Channel",
+    url: "https://www.youtube.com/@FishTalkFish",
+    children: [
+      {
+        name: "GitHub Copilot Versus Jr. Dev. ",
+        url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
+      },
+    ],
   },
-  { name: "YouTube Channel", url: "https://www.youtube.com/@FishTalkFish" },
-  { name: "GitHub", url: "https://github.com/swcfischer" },
+  // {
+  //   name: "Portfolio",
+  //   url: "https://stevefischer.dev",
+  //   children: [
+  //     {
+  //       name: "Avid Language Learning (ALL)",
+  //       url: "https://avidlanguagelearning.com",
+  //     },
+  //     {
+  //       name: "Tech Blog",
+  //       url: "https://stevefischer.surge.sh",
+  //     },
+  //     {
+  //       name: "Asia Teach (TEFL in Asia)",
+  //       url: "https://asia-teach.com",
+  //     },
+  //     {
+  //       name: "Box Office",
+  //       url: "https://www.stevefischer.dev/box-office",
+  //     },
+  //   ],
+  // },
 ];
 
 const Steve = () => {
@@ -18,7 +44,7 @@ const Steve = () => {
           lineHeight: "1.8",
           fontSize: "18px",
           color: "#555",
-          listStyleType: "decimal",
+          listStyleType: "none",
         }}
       >
         {links.map((link, index) => (
@@ -43,6 +69,34 @@ const Steve = () => {
             >
               {link.name}
             </a>
+            {link.children && link.children.length > 0 && (
+              <ul
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "20px",
+                  listStyleType: "circle",
+                }}
+              >
+                {link.children.map((child, childIndex) => (
+                  <li key={childIndex} style={{ marginBottom: "5px" }}>
+                    <a
+                      href={child.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        textDecoration: "none",
+                        color: "#007BFF",
+                        transition: "color 0.3s",
+                      }}
+                      onMouseOver={(e) => (e.target.style.color = "#0056b3")}
+                      onMouseOut={(e) => (e.target.style.color = "#007BFF")}
+                    >
+                      {child.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ol>

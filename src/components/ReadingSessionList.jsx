@@ -33,7 +33,7 @@ function ReadingSessionList(props) {
   };
 
   return (
-    <>
+    <div>
       <h3>Reading Sessions</h3>
       {readingSessions.map((readingSession, idx) => {
         if (!readingSession.pageRange) {
@@ -56,7 +56,7 @@ function ReadingSessionList(props) {
           </Container>
         );
       })}
-    </>
+    </div>
   );
 }
 

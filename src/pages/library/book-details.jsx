@@ -17,6 +17,7 @@ import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
+import WordReadingSession from "../../components/WordReadingSession";
 
 const Container = styled.div`
   .book-details {
@@ -449,11 +450,21 @@ function BookDetails(props) {
           Save Notes
         </button>
       </div>
-      <ReadingSessionList
-        readingSessionIdx={readingSessionIdx}
-        setReadingSessionIdx={setReadingSessionIdx}
-        readingSessions={readingSessions}
-      />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          paddingRight: 40,
+        }}
+      >
+        <ReadingSessionList
+          readingSessionIdx={readingSessionIdx}
+          setReadingSessionIdx={setReadingSessionIdx}
+          readingSessions={readingSessions}
+        />
+
+        <WordReadingSession />
+      </div>
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
         open={snackbarOpen}
