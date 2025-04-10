@@ -274,7 +274,7 @@ function wasSearchDone(books, query, params) {
   return books.length > 0 || params.toString().length > 0;
 }
 
-export function removeSearchOperators(str) {
+function removeSearchOperators(str) {
   // Matches any of inauthor:, insubject:, intitle:, inpublisher:
   // The \b ensures we match the word boundary,
   // and the : ensures we remove the colon as well.

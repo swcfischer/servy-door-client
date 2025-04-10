@@ -202,7 +202,7 @@ function Book(props) {
               action: !isBookmark
                 ? async () => {
                     try {
-                      const { data } = await axiosInstance.post(
+                      await axiosInstance.post(
                         "/bookmarks/create-bookmark/" + user.uuid,
                         {
                           googleId: state.id,
@@ -231,7 +231,7 @@ function Book(props) {
                   }
                 : async () => {
                     try {
-                      const { data } = await axiosInstance.delete(
+                      await axiosInstance.delete(
                         "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
                       );
 
@@ -278,18 +278,28 @@ function Book(props) {
                 <dd>{renderGoogleAuthorLinks(state.volumeInfo?.authors)}</dd>
               </>
             )}
-            <dt>Publisher</dt>
-            <dd>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={createGooglePublisherLink(state.volumeInfo?.publisher)}
-              >
-                {state.volumeInfo?.publisher}
-              </a>
-            </dd>
-            <dt>Date Published</dt>
-            <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
+            {state.volumeInfo?.publisher && (
+              <>
+                <dt>Publisher</dt>
+                <dd>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={createGooglePublisherLink(
+                      state.volumeInfo?.publisher
+                    )}
+                  >
+                    {state.volumeInfo?.publisher}
+                  </a>
+                </dd>
+              </>
+            )}
+            {state.volumeInfo.publishedDate && (
+              <>
+                <dt>Date Published</dt>
+                <dd>{formatDate(state.volumeInfo.publishedDate)}</dd>
+              </>
+            )}
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
             <dt>Preview</dt>

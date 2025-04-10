@@ -157,6 +157,7 @@ const Layout = ({ children }) => {
       <a
         href="https://github.com/features/copilot/plans?cft=copilot_li.features_copilot&ocid=AIDcmmb150vbv1_SEM__k_Cj0KCQjwhYS_BhD2ARIsAJTMMQbu-rdcwsrCiLil-x2IVnWb6mjSkceSQ39IqURBdME351csFCNPqagaAjJyEALw_wcB_k_"
         target="_blank"
+        rel="noreferrer"
       >
         <img
           style={{

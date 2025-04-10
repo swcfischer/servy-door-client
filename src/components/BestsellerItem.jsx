@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import { Card, CardContent, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
 import React from "react";
 
@@ -39,7 +39,7 @@ function BookItem(props) {
               variant="subtitle1"
               sx={{ fontStyle: "italic", lineHeight: 1.2 }}
               className="hover-underline"
-              title={isOver(volumeInfo.title, 40) && volumeInfo.title}
+              title={handleTitleLength(volumeInfo.title)}
             >
               {handleTitleLength(volumeInfo.title)}
             </Typography>
@@ -48,9 +48,7 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={
-                volumeInfo.authors?.length > 2 && volumeInfo.authors?.join(", ")
-              }
+              title={volumeInfo.authors?.join(", ")}
             >
               {volumeInfo.authors?.length > 2 ? (
                 <>{volumeInfo.authors?.slice(0, 2).join(", ")}</>
@@ -63,7 +61,7 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={isOver(volumeInfo.publisher, 40) && volumeInfo.publisher}
+              title={volumeInfo.publisher}
             >
               {volumeInfo.publisher}
             </Typography>
@@ -116,7 +114,7 @@ function ImageCard(props) {
         objectFit: "contain",
         paddingTop: "16px",
         width: "102px",
-        height: "154px",
+        // height: "154px",
         color: "#fafafa",
         borderRadius: "3px",
         border: "solid 1px #999",

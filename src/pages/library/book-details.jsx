@@ -237,18 +237,26 @@ function BookDetails(props) {
               </>
             )}
 
-            <dt>Publisher</dt>
-            <dd>
-              <a
-                target="_blank"
-                href={createGooglePublisherLink(book.volumeInfo?.publisher)}
-              >
-                {book.volumeInfo?.publisher}
-              </a>
-            </dd>
+            {book.volumeInfo?.publisher && (
+              <>
+                <dt>Publisher</dt>
+                <dd>
+                  <a
+                    target="_blank"
+                    href={createGooglePublisherLink(book.volumeInfo?.publisher)}
+                  >
+                    {book.volumeInfo?.publisher}
+                  </a>
+                </dd>
+              </>
+            )}
 
-            <dt>Published Date</dt>
-            <dd>{formatDate(book.volumeInfo?.publishedDate)}</dd>
+            {book.volumeInfo?.publishedDate && (
+              <>
+                <dt>Published Date</dt>
+                <dd>{formatDate(book.volumeInfo?.publishedDate)}</dd>
+              </>
+            )}
             {book?.volumeInfo?.pageCount && (
               <>
                 <dt>Page Count</dt>
@@ -256,15 +264,18 @@ function BookDetails(props) {
               </>
             )}
           </dl>
-
-          <details>
-            <summary>Description</summary>
-            <p
-              dangerouslySetInnerHTML={{
-                __html: book.volumeInfo?.description,
-              }}
-            ></p>
-          </details>
+          {book.volumeInfo?.description && (
+            <>
+              <details>
+                <summary>Description</summary>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: book.volumeInfo?.description,
+                  }}
+                ></p>
+              </details>
+            </>
+          )}
         </div>
       </div>
 

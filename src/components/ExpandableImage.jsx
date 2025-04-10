@@ -100,6 +100,7 @@ function ExpandableImage(props) {
           }}
           onClick={openModal}
           tabIndex={0}
+          aria-label="Expand image"
         >
           <img
             width="200px"
