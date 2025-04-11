@@ -15,6 +15,7 @@ import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
+import BookComments from "../components/BookComments/BookComments";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
@@ -56,6 +57,25 @@ const Container = styled.div`
     }
   }
 
+  button.comment-btn {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+
+    &:hover {
+      background-color: #555;
+    }
+    margin-bottom: 36px;
+  }
+
   .loading-container {
     min-height: 75vh;
     display: flex;
@@ -85,6 +105,9 @@ const Container = styled.div`
   }
 `;
 
+export const READING_COMMENTS = "reading comments";
+export const WRITING_COMMENT = "writing comment";
+
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
@@ -96,9 +119,18 @@ function Book(props) {
 
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [commentState, setCommentState] = useState(READING_COMMENTS);
 
   const handleSnackbarClose = () => {
     setSnackbarOpen(false);
+  };
+
+  const handleLeaveComment = () => {
+    setCommentState(WRITING_COMMENT);
+  };
+
+  const handleReadComments = () => {
+    setCommentState(READING_COMMENTS);
   };
 
   const [state, setState] = useState({});
@@ -327,12 +359,24 @@ function Book(props) {
               </a>
             </dd>
           </dl>
+          <div>
+            {commentState === READING_COMMENTS ? (
+              <button className="comment-btn" onClick={handleLeaveComment}>
+                Leave a comment
+              </button>
+            ) : (
+              <button className="comment-btn" onClick={handleReadComments}>
+                Read Comments
+              </button>
+            )}
+          </div>
         </div>
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
           className="description"
         ></p>
       </div>
+      <BookComments commentState={commentState} />
 
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}

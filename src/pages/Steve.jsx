@@ -2,14 +2,13 @@ import React from "react";
 
 const links = [
   {
-    name: "YouTube Channel",
-    url: "https://www.youtube.com/@FishTalkFish",
-    children: [
-      {
-        name: "GitHub Copilot Versus Jr. Dev. ",
-        url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
-      },
-    ],
+    name: "GitHub Copilot Versus Jr. Dev. ",
+    url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
+  },
+
+  {
+    name: "Avid Language Learning",
+    url: "https://avidlanguagelearning.com",
   },
 ];
 
@@ -17,6 +16,10 @@ const Steve = () => {
   return (
     <div style={{ padding: "20px" }}>
       <h2 style={{ color: "#333" }}>Steve's Links</h2>
+      <p>
+        <strong>Challenge:</strong> Cease to listen to YouTube Music. Started
+        Mar. 9.
+      </p>
       <ol
         style={{
           lineHeight: "1.8",

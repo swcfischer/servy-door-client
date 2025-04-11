@@ -17,7 +17,7 @@ import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
-import WordReadingSession from "../../components/WordReadingSession";
+// import WordReadingSession from "../../components/WordReadingSession";
 
 const Container = styled.div`
   .book-details {
