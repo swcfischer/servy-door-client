@@ -362,7 +362,7 @@ function Book(props) {
           <div>
             {commentState === READING_COMMENTS ? (
               <button className="comment-btn" onClick={handleLeaveComment}>
-                Leave a comment
+                Comment
               </button>
             ) : (
               <button className="comment-btn" onClick={handleReadComments}>
