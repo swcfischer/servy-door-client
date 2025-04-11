@@ -7,7 +7,7 @@ const links = [
   },
 
   {
-    name: "Avid Language Learning",
+    name: "Language Learning Application",
     url: "https://avidlanguagelearning.com",
   },
 ];
