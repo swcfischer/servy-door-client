@@ -6,10 +6,10 @@ const links = [
     url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
   },
 
-  {
-    name: "Language Learning Application",
-    url: "https://avidlanguagelearning.com",
-  },
+  // {
+  //   name: "Language Learning Application",
+  //   url: "https://avidlanguagelearning.com",
+  // },
 ];
 
 const Steve = () => {
