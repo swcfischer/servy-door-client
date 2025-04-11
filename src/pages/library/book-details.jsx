@@ -417,6 +417,7 @@ function BookDetails(props) {
           ref={textArea}
           rows="10"
           cols="50"
+          spellCheck="false"
           onKeyDown={(event) => {
             const os = getOS();
 
@@ -453,7 +454,7 @@ function BookDetails(props) {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          // justifyContent: "space-between",
           paddingRight: 40,
         }}
       >
@@ -463,7 +464,7 @@ function BookDetails(props) {
           readingSessions={readingSessions}
         />
 
-        <WordReadingSession />
+        {/* <WordReadingSession /> */}
       </div>
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}

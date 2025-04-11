@@ -11,28 +11,6 @@ const links = [
       },
     ],
   },
-  // {
-  //   name: "Portfolio",
-  //   url: "https://stevefischer.dev",
-  //   children: [
-  //     {
-  //       name: "Avid Language Learning (ALL)",
-  //       url: "https://avidlanguagelearning.com",
-  //     },
-  //     {
-  //       name: "Tech Blog",
-  //       url: "https://stevefischer.surge.sh",
-  //     },
-  //     {
-  //       name: "Asia Teach (TEFL in Asia)",
-  //       url: "https://asia-teach.com",
-  //     },
-  //     {
-  //       name: "Box Office",
-  //       url: "https://www.stevefischer.dev/box-office",
-  //     },
-  //   ],
-  // },
 ];
 
 const Steve = () => {
@@ -105,3 +83,26 @@ const Steve = () => {
 };
 
 export default Steve;
+
+// {
+//   name: "Portfolio",
+//   url: "https://stevefischer.dev",
+//   children: [
+//     {
+//       name: "Avid Language Learning (ALL)",
+//       url: "https://avidlanguagelearning.com",
+//     },
+//     {
+//       name: "Tech Blog",
+//       url: "https://stevefischer.surge.sh",
+//     },
+//     {
+//       name: "Asia Teach (TEFL in Asia)",
+//       url: "https://asia-teach.com",
+//     },
+//     {
+//       name: "Box Office",
+//       url: "https://www.stevefischer.dev/box-office",
+//     },
+//   ],
+// },

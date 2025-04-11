@@ -1,5 +1,5 @@
 import React from "react";
-import formatDate from "../utils/formatDate";
+// import formatDate from "../utils/formatDate";
 import styled from "@emotion/styled";
 
 const Container = styled.a`
@@ -26,21 +26,12 @@ const Container = styled.a`
 
 function WordReadingSession(props) {
   // * Add state management for reading session index
-  //   const { readingSessions, setReadingSessionIdx, readingSessionIdx } = props;
-
-  //   const handleClick = (_idx) => (e) => {
-  //     e.preventDefault();
-  //     setReadingSessionIdx(_idx);
-  //   };
 
   return (
     <div>
       <h3>Dictionary Words</h3>
 
-      <Container
-        // onClick={handleClick(idx)}
-        className={`reading-session selected`}
-      >
+      <Container className="reading-session selected">
         <p className="reading-session__details">hello</p>
       </Container>
     </div>
