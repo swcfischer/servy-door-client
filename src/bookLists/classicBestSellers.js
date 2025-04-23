@@ -1,6 +1,75 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "UXIjEQAAQBAJ",
+    etag: "suaaRuKR0EU",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/UXIjEQAAQBAJ",
+    volumeInfo: {
+      title: "My Next Breath",
+      subtitle: "A Memoir",
+      authors: ["Jeremy Renner"],
+      publisher: "Flatiron Books",
+      publishedDate: "2025-04-29",
+      description:
+        "<p><b>The gripping and inspiring story of acclaimed actor Jeremy Renner’s near-fatal accident, and what he learned about inner strength, endurance and hope as he overcame insurmountable odds to recover, one breath at a time.</b><br><br>Two-time Oscar nominee Jeremy Renner was the second most googled person in 2023... and not for his impressive filmography. His searing portrayals on film ranged from an Iraq-based army bomb technician in <i>The Hurt Locker </i>and a Boston bank robber in<i> The Town</i> to a crooked Camden mayor in <i>American Hustle</i> before he became heir to the Jason Bourne franchise (<i>The Bourne Legacy</i>). Amongst other iconic roles, he also captured hearts as fan-favorite comic book marksman Hawkeye in seven Marvel films.<br><br> Yet, his otherworldly success on-screen faded to the periphery when a fourteen-thousand-pound snowplow crushed him on New Year’s Day 2023. Somehow able to keep breathing for more than half an hour, he was subsequently rushed to the ICU, after which he would face multiple surgeries and months of painful rehabilitation. <br><br> In this debut memoir, Jeremy writes in blistering detail about his accident and the aftermath. This retelling is not merely a gruesome account of what happened to him; it’s a call to action and a forged companionship between reader and author as Jeremy recounts his recovery journey and reflects on the impact of his suffering. Ultimately, Jeremy’s memoir is a testament to the human spirit and its capacity to endure, evolve, and find purpose in the face of unimaginable adversity. His writing captures the essence of profound transformation, exploring the delicate interplay between vulnerability and strength, despair and hope, redemption and renewal.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1250383544" },
+        { type: "ISBN_13", identifier: "9781250383549" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 224,
+      printedPageCount: 234,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Entertainment & Performing Arts",
+        "Biography & Autobiography / Rich & Famous",
+        "Biography & Autobiography / Survival",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.3.3.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70Tlo9UJSIhfpZezJDo6PSF3I51OU4zatGm8M07F0qOzstcCeu_Sli3OhU7oIitAW5Kpz8tWDJFejNoJ1GA9OdI3FlP_1nBDnzHkrfH_YuZTG17QKyH-j38AQ4QhI2LbxzZPoES&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73up_cm5UNl1fqH2RZU1YUAGReDNUlH7RjWmIpgHKuRJs7U71l9_TSV7DrjWrADckQq-kfq57fCML5In5l2WYiUOD1F29QQL5eACzBCgaX5nnAwrHVFr448zSoTG5l2PTTh-2Wu&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=UXIjEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=UXIjEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=UXIjEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: true },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=UXIjEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 195,
+      image:
+        "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73up_cm5UNl1fqH2RZU1YUAGReDNUlH7RjWmIpgHKuRJs7U71l9_TSV7DrjWrADckQq-kfq57fCML5In5l2WYiUOD1F29QQL5eACzBCgaX5nnAwrHVFr448zSoTG5l2PTTh-2Wu&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "s1gVAAAAYAAJ",
     etag: "Bkcp+so+p+w",
     selfLink: "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
