@@ -38,7 +38,7 @@ function ActionButton(props) {
     >
       {options.map((el, idx) => {
         if (el.isMenuDivider) {
-          return <MenuDivider />;
+          return <MenuDivider key={idx} />;
         }
         return (
           <MenuItem key={idx} onClick={el.action}>

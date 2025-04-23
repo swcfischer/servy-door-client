@@ -45,6 +45,7 @@ function ReadingSessionList(props) {
 
         return (
           <Container
+            key={`${readingSession.date}-${idx}`}
             onClick={handleClick(idx)}
             className={`reading-session ${
               readingSessionIdx === idx ? "selected" : ""

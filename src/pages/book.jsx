@@ -105,8 +105,8 @@ const Container = styled.div`
   }
 `;
 
-export const READING_COMMENTS = "reading comments";
-export const WRITING_COMMENT = "writing comment";
+export const READING_COMMENTS = "READING_COMMENTS";
+export const WRITING_COMMENT = "WRITING_COMMENT";
 
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
@@ -119,11 +119,12 @@ function Book(props) {
 
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
-  const [commentState, setCommentState] = useState(READING_COMMENTS);
 
   const handleSnackbarClose = () => {
     setSnackbarOpen(false);
   };
+
+  const [commentState, setCommentState] = useState(READING_COMMENTS);
 
   const handleLeaveComment = () => {
     setCommentState(WRITING_COMMENT);
@@ -359,7 +360,7 @@ function Book(props) {
               </a>
             </dd>
           </dl>
-          <div>
+          {/* <div>
             {commentState === READING_COMMENTS ? (
               <button className="comment-btn" onClick={handleLeaveComment}>
                 Comment
@@ -369,14 +370,14 @@ function Book(props) {
                 Read Comments
               </button>
             )}
-          </div>
+          </div> */}
         </div>
         <p
           dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
           className="description"
         ></p>
       </div>
-      <BookComments commentState={commentState} />
+      {/* <BookComments commentState={commentState} /> */}
 
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}

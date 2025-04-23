@@ -17,7 +17,8 @@ import ActionButton from "../../components/BookDetails/ActionButton";
 import ReadingSessionList from "../../components/ReadingSessionList";
 import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
-// import WordReadingSession from "../../components/WordReadingSession";
+import WordReadingSession from "../../components/WordReadingSession/WordReadingSession";
+import WordLookUpModal from "../../components/WordReadingSession/WordLookUpModal";
 
 const Container = styled.div`
   .book-details {
@@ -87,6 +88,12 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
   }
+
+  .hr-divider {
+    background: #666;
+    height: 1px;
+    border: none;
+  }
 `;
 
 export function renderGoogleAuthorLinks(authors) {
@@ -113,6 +120,16 @@ function BookDetails(props) {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
 
+  const [wordModalIsOpen, setWordModalIsOpen] = useState(false);
+
+  const handleCloseWordModal = () => {
+    setWordModalIsOpen(false);
+  };
+
+  const openWordModal = () => {
+    setWordModalIsOpen(true);
+  };
+
   const handleSnackbarClose = () => {
     setSnackbarOpen(false);
   };
@@ -122,6 +139,7 @@ function BookDetails(props) {
   const [isLoading, setIsLoading] = useState(true);
   const [pageRange, setPageRange] = useState([]);
   const [readingSessionIdx, setReadingSessionIdx] = useState(0);
+  const [definitions, setDefinitions] = useState([]);
 
   const textArea = useRef();
 
@@ -176,6 +194,19 @@ function BookDetails(props) {
       setPageRange(readingSessions[readingSessionIdx].pageRange);
     }
   }, [readingSessionIdx, readingSessions]);
+
+  useEffect(() => {
+    if (user?.uuid && id) {
+      async function fetchData() {
+        axiosInstance
+          .get("/book-word-definition/all/" + user?.uuid + "/" + id)
+          .then((res) => {
+            setDefinitions(res.data);
+          });
+      }
+      fetchData();
+    }
+  }, [user, id]);
 
   if (isLoading) {
     return <LoadingSpinner />;
@@ -383,6 +414,10 @@ function BookDetails(props) {
                 label: "Go to Book Details",
                 action: () => navigate(`/book?id=${book.googleId}`),
               },
+              {
+                label: "Look Up Word or Phrase",
+                action: () => setWordModalIsOpen(true),
+              },
               // {
               //   label: "Correct grammar and punctuation",
               //   action() {
@@ -451,21 +486,22 @@ function BookDetails(props) {
           Save Notes
         </button>
       </div>
-      <div
-        style={{
-          display: "flex",
-          // justifyContent: "space-between",
-          paddingRight: 40,
-        }}
-      >
-        <ReadingSessionList
-          readingSessionIdx={readingSessionIdx}
-          setReadingSessionIdx={setReadingSessionIdx}
-          readingSessions={readingSessions}
-        />
+      <ReadingSessionList
+        readingSessionIdx={readingSessionIdx}
+        setReadingSessionIdx={setReadingSessionIdx}
+        readingSessions={readingSessions}
+      />
+      <hr className="hr-divider" />
 
-        {/* <WordReadingSession /> */}
-      </div>
+      <WordReadingSession definitions={definitions} />
+
+      <WordLookUpModal
+        isOpen={wordModalIsOpen}
+        onRequestClose={handleCloseWordModal}
+        bookUuid={id}
+        googleId={book.googleId}
+        setDefinitions={setDefinitions}
+      />
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
         open={snackbarOpen}
