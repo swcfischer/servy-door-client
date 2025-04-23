@@ -104,14 +104,16 @@ function WordLookUpModal({
     surroundingSentence: Yup.string(),
   });
 
+  const handleRequestClose = () => {
+    setCurState(FORM);
+    setDefinition("");
+    onRequestClose();
+  };
+
   return (
     <Modal
       isOpen={isOpen}
-      onRequestClose={() => {
-        setCurState(FORM);
-        setDefinition("");
-        onRequestClose();
-      }}
+      onRequestClose={handleRequestClose}
       contentLabel="Word Lookup Modal"
       style={customStyle}
     >
@@ -192,7 +194,7 @@ function WordLookUpModal({
                 </Form>
               )}
             </Formik>
-            <button className="close-btn" onClick={onRequestClose}>
+            <button className="close-btn" onClick={handleRequestClose}>
               Close
             </button>
           </>
@@ -201,7 +203,7 @@ function WordLookUpModal({
             <h2>Definition</h2>
             <p dangerouslySetInnerHTML={{ __html: definition?.definition }}></p>
 
-            <button className="close-btn" onClick={onRequestClose}>
+            <button className="close-btn" onClick={handleRequestClose}>
               Close
             </button>
           </div>
