@@ -152,6 +152,8 @@ function WordLookUpModal({
                       className="form-field"
                       name="wordOrPhrase"
                       type="text"
+                      autoFocus
+                      autocomplete="off"
                     />
                     <ErrorMessage
                       component="div"
@@ -172,6 +174,7 @@ function WordLookUpModal({
                       className="form-field"
                       name="surroundingSentence"
                       as="textarea"
+                      autocomplete="off"
                     />
                     <ErrorMessage
                       name="surroundingSentence"
