@@ -16,10 +16,7 @@ const Steve = () => {
   return (
     <div style={{ padding: "20px" }}>
       <h2 style={{ color: "#333" }}>Steve's Links</h2>
-      <p>
-        <strong>Challenge:</strong> Cease to listen to YouTube Music. Started
-        Mar. 9.
-      </p>
+      <p>More coding videos coming soon!</p>
       <ol
         style={{
           lineHeight: "1.8",
