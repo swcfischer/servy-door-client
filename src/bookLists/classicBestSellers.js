@@ -70,6 +70,92 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "WWjKDwAAQBAJ",
+    etag: "LP/fT331zDQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/WWjKDwAAQBAJ",
+    volumeInfo: {
+      title: "No One Asked for this",
+      authors: ["Cazzie David"],
+      publisher: "Houghton Mifflin Harcourt",
+      publishedDate: "2020",
+      description:
+        "<b>From writer Cazzie David comes a series of acerbic, darkly funny essays about misanthropy, social media, anxiety, relationships, and growing up in a wildly eccentric family.</b> <p> For Cazzie David, the world is one big trap door leading to death and despair and social phobia. From shame spirals caused by hookups to panic attacks about being alive and everyone else having to be alive too, David chronicles her life's most chaotic moments with wit, bleak humor, and a mega-dose of self-awareness. <p> In <i>No One Asked For This</i>, David provides readers with a singular but ultimately relatable tour through her mind, as she explores existential anxiety, family dynamics, and the utterly modern dilemma of having your breakup displayed on the Internet. With pitch-black humor resonant of her father, comedy legend Larry David, and topics that speak uniquely to generational malaise, <i>No One Asked For This</i> is the perfect companion for when you don't really want a companion. <br>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0358197023" },
+        { type: "ISBN_13", identifier: "9780358197027" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 352,
+      printedPageCount: 351,
+      dimensions: {
+        height: "21.00 cm",
+        width: "13.50 cm",
+        thickness: "2.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Art / Subjects & Themes / Landscapes & Seascapes",
+        "Biography & Autobiography / General",
+        "Biography & Autobiography / Entertainment & Performing Arts",
+        "Humor / Form / Essays",
+        "Humor / Topic / Celebrity & Popular Culture",
+      ],
+      maturityRating: "MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.1.2.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71bGyda6nKUn15dO74aZySba3VmRCwTNf1Oy4XZ-4uLolNmVGKjLw_Q3eGwJz5btMXCtFIHbJgeaksdczvUfqHBixdICisM8cUWopOnjAQFPYFWkmQD1ZuaQXtlUogPldU-nwVN&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71bDhsBcnjpXwywYJJ-JALV1rJdOWujqldvSD-lHGBFFBeyQjF9DJH3gSZdEK-gpD6z850XFXZ3npHshbly_eSvXWA1ZSQunCoK62cXE-xAyOGZR0SW9oGH0Vx6leWlhA4D8M4g&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73yV8zHiGCG9x_nvwqQMIK6LAPaBiSRzNepMSklU65U8sN0xlcHy-yDAJ1IyiSni4stY0c6mVO0fjJBymZyGNBgEOpxdR_qRfA3p-VC3Ncz44H_Rn4AXisH8WNfzDlxRDrVgmHY&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE721sIz8r-mH57TeKYdPG_Rel1Ev7hLZXFGs9btJsaDXhv8M6Sc0CkaqUgYPcWPMzZmkfdRKAvLsJdEUn9uyClapiG3ogCGyjrospZaxm4P-2Sc2mYqCYJU9JVM4QjlmQ5s_mnzn&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71VTrUHo_qokCftrukPOCwCYb2XaBrDWHucARiIhbJ9Nh3Qix32GwI_Y5aseirS7Fa1OGkr10SX4dPpCnuht3yIL2ND9wskRjpnXL8k_Ej-l745Wk_6a7dMCE25TAOkA3U8hX1C&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Shpz0I7RoR4Gx-VcAO1xPDOS9vRozlMtNGyKpamhS8BH8MkVuoCN-C9LJkZ7fYUwM4Mrcsx1ZR8eKEpZXVYhciA3v5-k4BHMbWR7zyux_JDeN0gdxc9FmIc5SNrFaUGm1Ni8t&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=WWjKDwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=WWjKDwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=WWjKDwAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/No_One_Asked_for_this-sample-pdf.acsm?id=WWjKDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=WWjKDwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1596,
+      height: 2405,
+      image:
+        "http://books.google.com/books/publisher/content?id=WWjKDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73Shpz0I7RoR4Gx-VcAO1xPDOS9vRozlMtNGyKpamhS8BH8MkVuoCN-C9LJkZ7fYUwM4Mrcsx1ZR8eKEpZXVYhciA3v5-k4BHMbWR7zyux_JDeN0gdxc9FmIc5SNrFaUGm1Ni8t&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "s1gVAAAAYAAJ",
     etag: "Bkcp+so+p+w",
     selfLink: "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
