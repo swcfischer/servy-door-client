@@ -20,7 +20,7 @@ const Steve = () => {
   return (
     <div style={{ padding: "20px" }}>
       <h2 style={{ color: "#333" }}>Steve's Links</h2>
-      <p>More coding videos coming soon!</p>
+      <p>YouTube videos below :{")"}</p>
       <ol
         style={{
           lineHeight: "1.8",
