@@ -5,6 +5,7 @@ import * as Yup from "yup";
 import styled from "@emotion/styled";
 import axiosInstance from "../../axiosInstance";
 import { UserContext } from "../Layout";
+import { removeHtmlTags } from "../../utils/capitalizeFirstLetter";
 
 Modal.setAppElement("body");
 
@@ -12,7 +13,6 @@ const customStyle = {
   content: {
     position: "fixed",
     top: 100,
-    width: "800px",
     height: "min-content",
     boxSizing: "border-box",
     margin: "auto",
@@ -31,6 +31,8 @@ const customStyle = {
 
 const Container = styled.div`
   position: relative;
+  margin-top: 12px;
+  padding-top: 12px;
 
   h2 {
     text-align: center;
@@ -204,7 +206,11 @@ function WordLookUpModal({
         ) : (
           <div>
             <h2>Definition</h2>
-            <p dangerouslySetInnerHTML={{ __html: definition?.definition }}></p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: removeHtmlTags(definition?.definition),
+              }}
+            ></p>
 
             <button className="close-btn" onClick={handleRequestClose}>
               Close

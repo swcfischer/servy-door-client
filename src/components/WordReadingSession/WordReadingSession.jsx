@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
 import Modal from "react-modal";
-// import formatDate from "../../utils/formatDate";
+import capitalizeFirstLetter, {
+  removeHtmlTags,
+} from "../../utils/capitalizeFirstLetter";
 
 Modal.setAppElement("body");
 
@@ -9,7 +11,6 @@ const customStyle = {
   content: {
     position: "fixed",
     top: 100,
-    width: "800px",
     height: "min-content",
     boxSizing: "border-box",
     margin: "auto",
@@ -69,9 +70,12 @@ const Container = styled.div`
 
 const InnerModalContainer = styled.div`
   position: relative;
+  margin-top: 12px;
+  padding-top: 12px;
   h2 {
     text-align: center;
   }
+
   button {
     height: max-content;
     padding: 11px 20px;
@@ -122,7 +126,7 @@ function WordReadingSession(props) {
                       onClick={handleClick(def)}
                       className="word-item__btn"
                     >
-                      {def.word}
+                      {capitalizeFirstLetter(def.word)}
                     </button>
                   </li>
                 );
@@ -141,9 +145,11 @@ function WordReadingSession(props) {
             style={customStyle}
           >
             <InnerModalContainer>
-              <h2>{selectedDef?.word}</h2>
+              <h2>{capitalizeFirstLetter(selectedDef?.word)}</h2>
               <p
-                dangerouslySetInnerHTML={{ __html: selectedDef?.definition }}
+                dangerouslySetInnerHTML={{
+                  __html: removeHtmlTags(selectedDef?.definition),
+                }}
               ></p>
 
               <button
