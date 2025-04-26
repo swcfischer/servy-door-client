@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import capitalizeFirstLetter, {
   removeHtmlTags,
 } from "../../utils/capitalizeFirstLetter";
+import ReactMarkdown from "react-markdown";
 
 Modal.setAppElement("body");
 
@@ -144,11 +145,9 @@ function WordReadingSession(props) {
           >
             <InnerModalContainer>
               <h2>{capitalizeFirstLetter(selectedDef?.word)}</h2>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: removeHtmlTags(selectedDef?.definition),
-                }}
-              ></p>
+              <ReactMarkdown>
+                {removeHtmlTags(selectedDef?.definition)}
+              </ReactMarkdown>
 
               <button
                 className="close-btn"

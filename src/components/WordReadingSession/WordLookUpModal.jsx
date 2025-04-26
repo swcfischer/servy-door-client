@@ -6,6 +6,7 @@ import styled from "@emotion/styled";
 import axiosInstance from "../../axiosInstance";
 import { UserContext } from "../Layout";
 import { removeHtmlTags } from "../../utils/capitalizeFirstLetter";
+import ReactMarkdown from "react-markdown";
 
 Modal.setAppElement("body");
 
@@ -206,11 +207,9 @@ function WordLookUpModal({
         ) : (
           <div>
             <h2>Definition</h2>
-            <p
-              dangerouslySetInnerHTML={{
-                __html: removeHtmlTags(definition?.definition),
-              }}
-            ></p>
+            <ReactMarkdown>
+              {removeHtmlTags(definition?.definition)}
+            </ReactMarkdown>
 
             <button className="close-btn" onClick={handleRequestClose}>
               Close
