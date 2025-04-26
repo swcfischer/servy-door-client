@@ -37,8 +37,6 @@ const Container = styled.div`
   }
 
   .word-container {
-    overflow-y: scroll;
-
     ol {
       padding-left: 42px;
       margin-top: 2px;
