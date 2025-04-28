@@ -19,6 +19,8 @@ const customStyle = {
     margin: "auto",
     background: "#fafafa",
     maxWidth: "500px",
+    maxHeight: "100vh",
+    overflowY: "auto",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",

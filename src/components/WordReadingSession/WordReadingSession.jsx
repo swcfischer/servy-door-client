@@ -18,7 +18,7 @@ const customStyle = {
     background: "#fafafa",
     maxWidth: "500px",
     maxHeight: "100vh",
-    overflowY: "scroll",
+    overflowY: "auto",
     paddingBottom: "42px",
   },
   overlay: {
