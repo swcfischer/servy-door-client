@@ -19,7 +19,6 @@ const customStyle = {
     margin: "auto",
     background: "#fafafa",
     maxWidth: "500px",
-    inset: "-160px 40px 40px",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",

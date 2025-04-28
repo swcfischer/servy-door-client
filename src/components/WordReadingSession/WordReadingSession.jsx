@@ -17,7 +17,9 @@ const customStyle = {
     margin: "auto",
     background: "#fafafa",
     maxWidth: "500px",
-    inset: "-160px 40px 40px",
+    maxHeight: "100vh",
+    overflowY: "scroll",
+    paddingBottom: "42px",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
@@ -146,7 +148,9 @@ function WordReadingSession(props) {
             <InnerModalContainer>
               <h2>{capitalizeFirstLetter(selectedDef?.word)}</h2>
               <ReactMarkdown>
-                {removeHtmlTags(selectedDef?.definition)}
+                {removeHtmlTags(
+                  selectedDef?.definition + selectedDef?.definition
+                )}
               </ReactMarkdown>
 
               <button
