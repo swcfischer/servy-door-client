@@ -15,6 +15,8 @@ import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
+import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
+
 import BookComments from "../components/BookComments/BookComments";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
@@ -281,6 +283,30 @@ function Book(props) {
                   },
             },
             { isMenuDivider: true },
+            {
+              label: "Search Author",
+              action: () => {
+                navigate(
+                  `/?${buildQueryParams({
+                    q: state.volumeInfo?.authors?.join(","),
+                    page: 1,
+                    searchFilter: "author",
+                  })}`
+                );
+              },
+            },
+            {
+              label: "Search Publisher",
+              action: () => {
+                navigate(
+                  `/?${buildQueryParams({
+                    q: state.volumeInfo.publisher,
+                    page: 1,
+                    searchFilter: "publisher",
+                  })}`
+                );
+              },
+            },
             {
               label: "Copy JSON",
               action: () => {
