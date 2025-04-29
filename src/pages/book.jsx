@@ -288,7 +288,7 @@ function Book(props) {
               action: () => {
                 navigate(
                   `/?${buildQueryParams({
-                    q: state.volumeInfo?.authors?.join(","),
+                    q: state.volumeInfo?.authors?.join(", "),
                     page: 1,
                     searchFilter: "author",
                   })}`
