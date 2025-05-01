@@ -1,6 +1,104 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "_ZYHEQAAQBAJ",
+    etag: "7Op+Yp+WHuY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/_ZYHEQAAQBAJ",
+    volumeInfo: {
+      title: "Napoleon's Library",
+      subtitle:
+        "The Emperor, His Books and Their Influence on the Napoleonic Era",
+      authors: ["Louis N Sarkozy"],
+      publisher: "Frontline Books",
+      publishedDate: "2024-07-30",
+      description:
+        "This book will surprise readers with the literary depths of Napoleon Bonaparte, exploring the enigmatic emperor's intimate relationship with books and history, going far beyond his more militaristic and imperial fame. Napoleon Bonaparte held absolute political power in France and his influence stretched across Europe and beyond. Yet he remained – between leading his armies and ruling over a vast empire – an indefatigable reader who even carried libraries into battle. Bonaparte’s love of the written word, birthed in childhood and nurtured as an adolescent and young adult, never left him. He was a lover of literature for its own sake – often swooning over melodramatic love stories – but he also understood the value of books as instruments of power. Before his campaigns, he poured over dozens of texts relating to the relevant theaters’ geography, population, trade, and history. When contemplating grave decisions, such as his divorce to Empress Josephine, he consulted the historical record for useful precedents to justify and inform his actions. To bolster his troop’s morale during challenging times, he constantly referenced history in his proclamations, making his contemporaries feel as if they were actively shaping history. They were. The library of an individual is the key to his mind. Behind the grandiose paintings of the victorious conqueror and the constructions of the propagandist, stands the reader. This book is an attempt to glimpse Napoleon’s character without the veneer of imperial glory. What was he like, alone at night by his fireplace? What thoughts percolated in the mind of the ambitious 20-year-old, isolated in a little room while theorizing about man’s happiness? Who are the literary and historical figures which can claim to have had impacted his life? Who were his favorite authors? Through this book the reader will embark on a literary promenade with the great general and statemen. In these pages are found the emperor’s favorite authors. And with them, the key to understanding his mind.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1399055275" },
+        { type: "ISBN_13", identifier: "9781399055277" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 280,
+      printedPageCount: 290,
+      printType: "BOOK",
+      categories: [
+        "History / Wars & Conflicts / Napoleonic Wars",
+        "Biography & Autobiography / Military",
+        "History / Modern / 19th Century",
+        "Biography & Autobiography / Historical",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.0.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71ftLOI2RRJtX2j5GMljnbrQNKBid_8Hcw11Z4qqApX6ue1MxNKzZ8NfL0iSrfAitDoJ0VPVi-U-BwtNNVlCAWhGZr8lx_1Q30LMGwQG1XvobQyks3V6_nOpyToMc05usMA6xBO&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ZrOAql5QSAtym6SKGX6PK9-z_5ZTSkHFpUjsSkF7BUP24OsE3fuNzp2odc9q-JwUBf-EuUwEntzxSShMjeXnr0rA2UmPs4cbeAZ-USWyUbyyu5KaMm5aa8_c0bDaRe17_Hwnq&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71zPOs_WQsJfGampVapuE9QrHT1xLELFVdMQ5DA1SCQnV24PfaBepXMFFG_C6eX8Sm9C_MC68AYHO35ZKfKfsCbQRwPtYTOaQOJo5wWzFs63joFtB4rgky6JKEBxDTIWI6yAMko&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72qnfWgkHqZtbdmwBTEYj7W88wX3VKb7NBZ9gtgrkY3uGjuwUCar7KuIgwTDkq69yEH4zVgrss3sEhylIOS94vrAM-ILwXEMURmJkMC4M70liCGwpWCuHtEUSZjhNSU7oEGQh_7&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73PFHAI9sEGvcFaHljrdbFg6Z9sFd36fCt-zrT8zkXHshNNsspSRvoiV4lUcwQ91zd5w-_iPOEkW-PBNxX6TTOSFrspPG6v48rkCBn7zRQblwUQv0NMpCN0AcyJigqpPUqWnEsa&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72vX8ok7UPHDBtTEsqTVeChiteFIZT89PNr-3NITOJpb6s33OBUct_yd5XebJQxOYkbYC1uDycmfGl0GZltjcWkJ6cAY7T5DgSHSaS6kL9bUGTWRNSk-O_P5Px4LG0N3bCcVhhI&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=_ZYHEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ",
+    },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 25, currencyCode: "USD" },
+      retailPrice: { amount: 25, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ&rdid=book-_ZYHEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 25000000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 25000000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Napoleon_s_Library-sample-pdf.acsm?id=_ZYHEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=_ZYHEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1852,
+      height: 2750,
+      image:
+        "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72vX8ok7UPHDBtTEsqTVeChiteFIZT89PNr-3NITOJpb6s33OBUct_yd5XebJQxOYkbYC1uDycmfGl0GZltjcWkJ6cAY7T5DgSHSaS6kL9bUGTWRNSk-O_P5Px4LG0N3bCcVhhI&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "s1gVAAAAYAAJ",
     etag: "Bkcp+so+p+w",
     selfLink: "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
@@ -389,6 +487,74 @@ const classicBestsellerList = [
     },
   },
 
+  {
+    kind: "books#volume",
+    id: "IsfWngEACAAJ",
+    etag: "SOQUsPQb1Zo",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/IsfWngEACAAJ",
+    volumeInfo: {
+      title: "The Queen Of Four Kingdoms",
+      authors: ["HRH Princess Michael of Kent"],
+      publisher: "Little, Brown",
+      publishedDate: "2018-05-15",
+      description:
+        "<p>At the age of nineteen, Yolande of Aragon is sent away from her family, her friends, and everything she knows, to marry the young Duke of Anjou, King Charles VI's first cousin. Their marriage has been arranged to form an alliance between the previously warring kingdoms of Aragon and Anjou, and is politically fraught in a time of great danger and unrest. Yet the union between Yolande and Louis becomes not only a great love story, but also sets in motion events which will change the course of history.</p><p>As Louis spends more and more time and money fighting in Italy for his claim to the Kingdom of Naples, Yolande is left alone with their six children to govern their lands. But through her charm, fierce intelligence and the clever use of her spies, she becomes the saviour of not just her kingdoms but also of France. </p><p>Her Royal Highness Princess Michael of Kent unveils this seldom told story, enriched by her own insider's perspective of royal life.<i> The Queen of Four Kingdoms</i> is the epic true story of a rich and riveting period of French and English history, all witnessed by the captivating and complex heroine Yolande.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1472108469" },
+        { type: "ISBN_13", identifier: "9781472108463" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 464,
+      printedPageCount: 464,
+      dimensions: {
+        height: "20.30 cm",
+        width: "12.70 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: ["Fiction / Historical / General"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE7138AsNMCgOPDhBywefVM1BROiDBzV2J5kZVDvqz5aUaVaGmwmmoI8ufCpPl664wrd3y1OoW_wolg4IJiIcsPQ-LpwA4xAu5vI6r_9XXHfie-fpddFB_ZjMheMKDmErQh1fOUN8&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73zh1R1j49eV72tmfBWTs3YsF16OtYSXdHdQoOVp0ikNI2J9CfeS3HJMZ06kia-VmeaR0y28gDng1v-H0s5cU2jgg02m3iAkGvoqMR2v6_icDJw6u9s-OrK0HX7gReChjRlSQfP&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=IsfWngEACAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=IsfWngEACAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=IsfWngEACAAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=IsfWngEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 197,
+      image:
+        "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73zh1R1j49eV72tmfBWTs3YsF16OtYSXdHdQoOVp0ikNI2J9CfeS3HJMZ06kia-VmeaR0y28gDng1v-H0s5cU2jgg02m3iAkGvoqMR2v6_icDJw6u9s-OrK0HX7gReChjRlSQfP&source=gbs_api",
+    },
+  },
   {
     kind: "books#volume",
     id: "RhYB-fbunzkC",
