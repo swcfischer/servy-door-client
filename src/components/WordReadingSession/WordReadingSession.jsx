@@ -33,7 +33,9 @@ const customStyle = {
 const Container = styled.div`
   text-decoration: none;
   min-width: 100px;
-  max-height: 500px;
+  height: max-content;
+  box-sizing: border-box;
+  padding-bottom: 60px;
 
   h3 {
     margin-bottom: 18px;

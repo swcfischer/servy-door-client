@@ -38,7 +38,7 @@ const StyledContainer = styled(Container)`
 
   .footer {
     margin-top: auto;
-    padding: 1rem 0;
+    padding: 3rem 0;
     text-align: center;
     color: #fff;
     background-color: #111;

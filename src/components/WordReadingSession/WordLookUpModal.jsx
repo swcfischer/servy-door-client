@@ -51,6 +51,10 @@ const Container = styled.div`
       label {
         padding-bottom: 8px;
         font-weight: bold;
+
+        .is-required {
+          color: red;
+        }
       }
 
       .form-field {
@@ -151,13 +155,15 @@ function WordLookUpModal({
               {({ isSubmitting }) => (
                 <Form>
                   <div className="field-container">
-                    <label htmlFor="wordOrPhrase">Word or Phrase*</label>
+                    <label htmlFor="wordOrPhrase">
+                      Word or Phrase<span className="is-required"> *</span>
+                    </label>
                     <Field
                       className="form-field"
                       name="wordOrPhrase"
                       type="text"
                       autoFocus
-                      autocomplete="off"
+                      autoComplete="off"
                     />
                     <ErrorMessage
                       component="div"
@@ -178,7 +184,7 @@ function WordLookUpModal({
                       className="form-field"
                       name="surroundingSentence"
                       as="textarea"
-                      autocomplete="off"
+                      autoComplete="off"
                     />
                     <ErrorMessage
                       name="surroundingSentence"

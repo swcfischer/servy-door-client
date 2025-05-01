@@ -18,6 +18,7 @@ function ActionButton(props) {
 
   return (
     <Menu
+      transition
       menuButton={
         <MenuButton style={{ fontFamily: "inherit" }}>
           Actions{" "}
@@ -33,8 +34,6 @@ function ActionButton(props) {
           </span>
         </MenuButton>
       }
-      transition
-      menuStyles={{ border: "1px solid #ccc", boxShadow: "none" }}
     >
       {options.map((el, idx) => {
         if (el.isMenuDivider) {

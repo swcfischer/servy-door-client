@@ -15,9 +15,9 @@ import { UserContext } from "../components/Layout";
 import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
-import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
+import { buildQueryParams } from "../utils/queryFunctions";
 
-import BookComments from "../components/BookComments/BookComments";
+// import BookComments from "../components/BookComments/BookComments";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
