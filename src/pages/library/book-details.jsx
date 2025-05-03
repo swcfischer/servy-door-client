@@ -19,6 +19,7 @@ import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
 import WordReadingSession from "../../components/WordReadingSession/WordReadingSession";
 import WordLookUpModal from "../../components/WordReadingSession/WordLookUpModal";
+import YouTubeVideoModal from "../../components/YouTubeVideoModal/YouTubeVideoModal";
 
 const Container = styled.div`
   .book-details {
@@ -121,9 +122,14 @@ function BookDetails(props) {
   const [snackbarMessage, setSnackbarMessage] = useState("");
 
   const [wordModalIsOpen, setWordModalIsOpen] = useState(false);
+  const [youTubeModal, setYouTubeModal] = useState(false);
 
   const handleCloseWordModal = () => {
     setWordModalIsOpen(false);
+  };
+
+  const handleCloseYouTubeModal = () => {
+    setYouTubeModal(false);
   };
 
   const openWordModal = () => {
@@ -140,6 +146,7 @@ function BookDetails(props) {
   const [pageRange, setPageRange] = useState([]);
   const [readingSessionIdx, setReadingSessionIdx] = useState(0);
   const [definitions, setDefinitions] = useState([]);
+  const [videos, setVideos] = useState([]);
 
   const textArea = useRef();
 
@@ -418,6 +425,10 @@ function BookDetails(props) {
                 label: "Look Up Word or Phrase",
                 action: () => setWordModalIsOpen(true),
               },
+              {
+                label: "Add YouTube Video",
+                action: () => setYouTubeModal(true),
+              },
               // {
               //   label: "Correct grammar and punctuation",
               //   action() {
@@ -495,6 +506,13 @@ function BookDetails(props) {
 
       <WordReadingSession definitions={definitions} />
 
+      <YouTubeVideoModal
+        isOpen={youTubeModal}
+        onRequestClose={handleCloseYouTubeModal}
+        bookUuid={id}
+        googleId={book.googleId}
+        setDefinitions={setDefinitions}
+      />
       <WordLookUpModal
         isOpen={wordModalIsOpen}
         onRequestClose={handleCloseWordModal}
