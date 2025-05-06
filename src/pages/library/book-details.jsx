@@ -20,6 +20,7 @@ import getOS from "../../utils/getOS";
 import WordReadingSession from "../../components/WordReadingSession/WordReadingSession";
 import WordLookUpModal from "../../components/WordReadingSession/WordLookUpModal";
 import YouTubeVideoModal from "../../components/YouTubeVideoModal/YouTubeVideoModal";
+import YouTubeVideoList from "../../components/YouTubeVideoModal/YouTubeVideoList";
 
 const Container = styled.div`
   .book-details {
@@ -94,6 +95,11 @@ const Container = styled.div`
     background: #666;
     height: 1px;
     border: none;
+  }
+
+  .reading-video-section {
+    display: flex;
+    justify-content: space-between;
   }
 `;
 
@@ -210,10 +216,18 @@ function BookDetails(props) {
           .then((res) => {
             setDefinitions(res.data);
           });
+
+        axiosInstance
+          .get("/book-video/all/" + user?.uuid + "/" + id)
+          .then((res) => {
+            setVideos(res.data);
+          });
       }
       fetchData();
     }
   }, [user, id]);
+
+  console.log("videos", videos);
 
   if (isLoading) {
     return <LoadingSpinner />;
@@ -504,14 +518,17 @@ function BookDetails(props) {
       />
       <hr className="hr-divider" />
 
-      <WordReadingSession definitions={definitions} />
+      <div className="reading-video-section">
+        <WordReadingSession definitions={definitions} />
+        <YouTubeVideoList videos={videos} />
+      </div>
 
       <YouTubeVideoModal
         isOpen={youTubeModal}
         onRequestClose={handleCloseYouTubeModal}
         bookUuid={id}
         googleId={book.googleId}
-        setDefinitions={setDefinitions}
+        setVideos={setVideos}
       />
       <WordLookUpModal
         isOpen={wordModalIsOpen}

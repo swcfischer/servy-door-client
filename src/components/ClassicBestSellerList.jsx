@@ -26,7 +26,7 @@ function ClassicBestSellerList(props) {
 
   return (
     <Container className="bestseller-list" isLoading={isLoading}>
-      <h2 className="besterseller-list__title">Reading Opens Doors!</h2>
+      {/* <h2 className="besterseller-list__title">Reading Opens Doors!</h2> */}
 
       <div className="book-list-container">
         {classicBestsellerList.map(({ id, volumeInfo }) => (
