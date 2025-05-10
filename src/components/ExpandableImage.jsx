@@ -17,7 +17,7 @@ const Container = styled.div`
 
   img {
     border-radius: 3px;
-    border: solid 1px #999;
+    border: solid 1px #393939;
   }
 
   .image {
