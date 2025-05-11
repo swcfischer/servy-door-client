@@ -16,6 +16,7 @@ import GoogleBook from "../components/GoogleBook";
 import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
 import { buildQueryParams } from "../utils/queryFunctions";
+import AuthorModal from "../components/AuthorModal/AuthorModal";
 
 // import BookComments from "../components/BookComments/BookComments";
 
@@ -121,6 +122,7 @@ function Book(props) {
 
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [isAuthorModalOpen, setIsAuthorModalOpen] = useState("");
 
   const handleSnackbarClose = () => {
     setSnackbarOpen(false);
@@ -128,13 +130,13 @@ function Book(props) {
 
   const [commentState, setCommentState] = useState(READING_COMMENTS);
 
-  const handleLeaveComment = () => {
-    setCommentState(WRITING_COMMENT);
-  };
+  // const handleLeaveComment = () => {
+  //   setCommentState(WRITING_COMMENT);
+  // };
 
-  const handleReadComments = () => {
-    setCommentState(READING_COMMENTS);
-  };
+  // const handleReadComments = () => {
+  //   setCommentState(READING_COMMENTS);
+  // };
 
   const [state, setState] = useState({});
 
@@ -286,13 +288,20 @@ function Book(props) {
             {
               label: "Search Author",
               action: () => {
-                navigate(
-                  `/?${buildQueryParams({
-                    q: state.volumeInfo?.authors?.join(", "),
-                    page: 1,
-                    searchFilter: "author",
-                  })}`
-                );
+                // * I need to find the next
+                // * We need to check whether there are multiple authors, if so show a modal to select the next piece.
+                if (state.volumeInfo?.authors?.length > 1) {
+                  // * Show modal
+                  setIsAuthorModalOpen(true);
+                } else {
+                  navigate(
+                    `/?${buildQueryParams({
+                      q: state.volumeInfo?.authors?.join(", "),
+                      page: 1,
+                      searchFilter: "author",
+                    })}`
+                  );
+                }
               },
             },
             {
@@ -403,6 +412,14 @@ function Book(props) {
           className="description"
         ></p>
       </div>
+      <AuthorModal
+        isOpen={isAuthorModalOpen}
+        onRequestClose={() => {
+          setIsAuthorModalOpen(false);
+        }}
+        bookUuid={id}
+        authorStr={state.volumeInfo?.authors}
+      />
       {/* <BookComments commentState={commentState} /> */}
 
       <Snackbar

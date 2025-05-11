@@ -19,8 +19,8 @@ import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
 import WordReadingSession from "../../components/WordReadingSession/WordReadingSession";
 import WordLookUpModal from "../../components/WordReadingSession/WordLookUpModal";
-import YouTubeVideoModal from "../../components/YouTubeVideoModal/YouTubeVideoModal";
-import YouTubeVideoList from "../../components/YouTubeVideoModal/YouTubeVideoList";
+// import YouTubeVideoModal from "../../components/YouTubeVideoModal/YouTubeVideoModal";
+// import YouTubeVideoList from "../../components/YouTubeVideoModal/YouTubeVideoList";
 
 const Container = styled.div`
   .book-details {
@@ -120,6 +120,7 @@ export function renderGoogleAuthorLinks(authors) {
 const pagesPerDay = 5;
 
 function BookDetails(props) {
+  const state = {};
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
 
@@ -439,10 +440,10 @@ function BookDetails(props) {
                 label: "Look Up Word or Phrase",
                 action: () => setWordModalIsOpen(true),
               },
-              {
-                label: "Add YouTube Video",
-                action: () => setYouTubeModal(true),
-              },
+              // {
+              //   label: "Add YouTube Video",
+              //   action: () => setYouTubeModal(true),
+              // },
               // {
               //   label: "Correct grammar and punctuation",
               //   action() {
@@ -520,16 +521,16 @@ function BookDetails(props) {
 
       <div className="reading-video-section">
         <WordReadingSession definitions={definitions} />
-        <YouTubeVideoList videos={videos} />
+        {/* <YouTubeVideoList videos={videos} /> */}
       </div>
 
-      <YouTubeVideoModal
+      {/* <YouTubeVideoModal
         isOpen={youTubeModal}
         onRequestClose={handleCloseYouTubeModal}
         bookUuid={id}
         googleId={book.googleId}
         setVideos={setVideos}
-      />
+      /> */}
       <WordLookUpModal
         isOpen={wordModalIsOpen}
         onRequestClose={handleCloseWordModal}
