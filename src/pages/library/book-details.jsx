@@ -256,7 +256,7 @@ function BookDetails(props) {
       const updatedSessions = [...readingSessions];
       updatedSessions[readingSessionIdx] = {
         ...updatedSessions[readingSessionIdx],
-        notes: notes,
+        notes: document.querySelector("textarea").value,
         pageRange,
       };
       setReadingSessions(updatedSessions);
