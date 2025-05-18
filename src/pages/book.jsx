@@ -316,15 +316,15 @@ function Book(props) {
                 );
               },
             },
-            {
-              label: "Copy JSON",
-              action: () => {
-                navigator.clipboard.writeText(JSON.stringify(state));
+            // {
+            //   label: "Copy JSON",
+            //   action: () => {
+            //     navigator.clipboard.writeText(JSON.stringify(state));
 
-                setSnackbarMessage("Google Volume JSON Copied to Clipboard");
-                setSnackbarOpen(true);
-              },
-            },
+            //     setSnackbarMessage("Google Volume JSON Copied to Clipboard");
+            //     setSnackbarOpen(true);
+            //   },
+            // },
             { isMenuDivider: true },
             {
               label: "Translate to Spanish",
