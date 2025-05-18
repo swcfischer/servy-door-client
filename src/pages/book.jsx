@@ -325,6 +325,32 @@ function Book(props) {
                 setSnackbarOpen(true);
               },
             },
+            { isMenuDivider: true },
+            {
+              label: "Translate to Spanish",
+              action: async () => {
+                const summary = state.volumeInfo?.description || "";
+                if (!summary) {
+                  return;
+                }
+
+                // * Do translation logic
+                // * Call api, passing in summary
+                // * And set state
+
+                const { data } = await axiosInstance.get(
+                  `/books/translate-summary/${user.uuid}?summary=${summary}&lang=Spanish`
+                );
+
+                setState((prev) => ({
+                  ...prev,
+                  volumeInfo: {
+                    ...prev.volumeInfo,
+                    description: data.text,
+                  },
+                }));
+              },
+            },
           ]}
         />
       </div>
