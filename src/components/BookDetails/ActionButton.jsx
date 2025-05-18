@@ -2,6 +2,7 @@ import React from "react";
 import { Menu, MenuItem, MenuButton, MenuDivider } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/zoom.css";
+import { SubMenu } from "@szhsin/react-menu";
 
 /**
  * ActionButton component renders a dropdown menu with a list of actions.
@@ -15,6 +16,24 @@ import "@szhsin/react-menu/dist/transitions/zoom.css";
  */
 function ActionButton(props) {
   const { options } = props;
+  // Helper to render menu items, supporting submenus and dividers
+  const renderMenuItem = (el, idx) => {
+    if (el.isMenuDivider) {
+      return <MenuDivider key={idx} />;
+    }
+    if (el.subMenu && Array.isArray(el.subMenu)) {
+      return (
+        <SubMenu label={el.label} key={idx}>
+          {el.subMenu.map(renderMenuItem)}
+        </SubMenu>
+      );
+    }
+    return (
+      <MenuItem key={idx} onClick={el.action}>
+        {el.label}
+      </MenuItem>
+    );
+  };
 
   return (
     <Menu
@@ -35,16 +54,7 @@ function ActionButton(props) {
         </MenuButton>
       }
     >
-      {options.map((el, idx) => {
-        if (el.isMenuDivider) {
-          return <MenuDivider key={idx} />;
-        }
-        return (
-          <MenuItem key={idx} onClick={el.action}>
-            {el.label}
-          </MenuItem>
-        );
-      })}
+      {options.map(renderMenuItem)}
     </Menu>
   );
 }

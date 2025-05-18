@@ -351,6 +351,31 @@ function Book(props) {
                 }));
               },
             },
+            {
+              label: "Translate to French",
+              action: async () => {
+                const summary = state.volumeInfo?.description || "";
+                if (!summary) {
+                  return;
+                }
+
+                // * Do translation logic
+                // * Call api, passing in summary
+                // * And set state
+
+                const { data } = await axiosInstance.get(
+                  `/books/translate-summary/${user.uuid}?summary=${summary}&lang=French`
+                );
+
+                setState((prev) => ({
+                  ...prev,
+                  volumeInfo: {
+                    ...prev.volumeInfo,
+                    description: data.text,
+                  },
+                }));
+              },
+            },
           ]}
         />
       </div>
