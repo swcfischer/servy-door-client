@@ -105,6 +105,10 @@ const InnerModalContainer = styled.div`
 
   .delete-btn {
     background: #772b23;
+
+    &:hover {
+      background: #4c1b15;
+    }
   }
 `;
 
