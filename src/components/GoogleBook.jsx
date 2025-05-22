@@ -11,7 +11,7 @@ function GoogleBook(props) {
 
   return (
     <>
-      <dt>Recent News</dt>
+      <dt>News</dt>
       <dd>
         <a href={searchUrl} target="_blank" rel="noopener noreferrer">
           {label}

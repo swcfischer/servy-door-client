@@ -5,6 +5,7 @@ import capitalizeFirstLetter, {
   removeHtmlTags,
 } from "../../utils/capitalizeFirstLetter";
 import ReactMarkdown from "react-markdown";
+import axiosInstance from "../../axiosInstance";
 
 Modal.setAppElement("body");
 
@@ -101,6 +102,10 @@ const InnerModalContainer = styled.div`
     top: -34px;
     right: -6px;
   }
+
+  .delete-btn {
+    background: #772b23;
+  }
 `;
 
 function WordReadingSession(props) {
@@ -163,6 +168,23 @@ function WordReadingSession(props) {
                 }}
               >
                 Close
+              </button>
+              <button
+                className="delete-btn"
+                onClick={async () => {
+                  // * Do API call to delete the word
+                  await axiosInstance.delete(`/words/${selectedDef.id}`);
+                  // * Update the state to remove the word from the list
+                  if (typeof props.onDelete === "function") {
+                    props.onDelete(selectedDef.id);
+                  }
+                  // * Close the modal
+
+                  setSelectedDef(null);
+                  setIsOpen(false);
+                }}
+              >
+                Delete
               </button>
             </InnerModalContainer>
           </Modal>
