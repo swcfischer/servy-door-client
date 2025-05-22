@@ -520,7 +520,11 @@ function BookDetails(props) {
       <hr className="hr-divider" />
 
       <div className="reading-video-section">
-        <WordReadingSession definitions={definitions} />
+        <WordReadingSession
+          definitions={definitions}
+          userUuid={user?.uuid}
+          setDefinitions={setDefinitions}
+        />
         {/* <YouTubeVideoList videos={videos} /> */}
       </div>
 

@@ -104,16 +104,17 @@ const InnerModalContainer = styled.div`
   }
 
   .delete-btn {
-    background: #772b23;
+    margin-top: 35px;
+    background: #717171;
 
     &:hover {
-      background: #4c1b15;
+      background: #3e0d0d;
     }
   }
 `;
 
 function WordReadingSession(props) {
-  const { definitions } = props;
+  const { definitions, userUuid, setDefinitions } = props;
 
   const [selectedDef, setSelectedDef] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -177,12 +178,18 @@ function WordReadingSession(props) {
                 className="delete-btn"
                 onClick={async () => {
                   // * Do API call to delete the word
-                  await axiosInstance.delete(`/words/${selectedDef.id}`);
+                  const { data } = await axiosInstance.delete(
+                    `/book-word-definition/definition/${userUuid}/${selectedDef.uuid}`
+                  );
+                  console.log(data);
                   // * Update the state to remove the word from the list
                   if (typeof props.onDelete === "function") {
                     props.onDelete(selectedDef.id);
                   }
                   // * Close the modal
+                  setDefinitions((prev) =>
+                    prev.filter((d) => d.uuid !== selectedDef.uuid)
+                  );
 
                   setSelectedDef(null);
                   setIsOpen(false);
