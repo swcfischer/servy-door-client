@@ -486,75 +486,99 @@ const classicBestsellerList = [
         "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70dtvgIUaUJAJe2JrdAmgLbUuxSAjdPIUMhmwxMgLlFXgmUDJ6sy3QNHvPtM3x-C6FvTeUI0dERvhc6Muzo-dHZLkTl1VHoPnz-v311zftQzAw1d-c1Eh8DdkkUTYbOiYpounrP&source=gbs_api",
     },
   },
-
   {
     kind: "books#volume",
-    id: "IsfWngEACAAJ",
-    etag: "SOQUsPQb1Zo",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/IsfWngEACAAJ",
+    id: "jFs6DwAAQBAJ",
+    etag: "u92L7CcG12g",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/jFs6DwAAQBAJ",
     volumeInfo: {
       title: "The Queen Of Four Kingdoms",
       authors: ["HRH Princess Michael of Kent"],
-      publisher: "Little, Brown",
-      publishedDate: "2018-05-15",
+      publisher: "Little, Brown Book Group",
+      publishedDate: "2013-10-17",
       description:
-        "<p>At the age of nineteen, Yolande of Aragon is sent away from her family, her friends, and everything she knows, to marry the young Duke of Anjou, King Charles VI's first cousin. Their marriage has been arranged to form an alliance between the previously warring kingdoms of Aragon and Anjou, and is politically fraught in a time of great danger and unrest. Yet the union between Yolande and Louis becomes not only a great love story, but also sets in motion events which will change the course of history.</p><p>As Louis spends more and more time and money fighting in Italy for his claim to the Kingdom of Naples, Yolande is left alone with their six children to govern their lands. But through her charm, fierce intelligence and the clever use of her spies, she becomes the saviour of not just her kingdoms but also of France. </p><p>Her Royal Highness Princess Michael of Kent unveils this seldom told story, enriched by her own insider's perspective of royal life.<i> The Queen of Four Kingdoms</i> is the epic true story of a rich and riveting period of French and English history, all witnessed by the captivating and complex heroine Yolande.</p>",
+        "<p>At the age of nineteen, Yolande of Aragon is sent away from her family, her friends, and everything she knows, to marry the young Duke of Anjou, King Charles VI's first cousin. Their marriage has been arranged to form an alliance between the previously warring kingdoms of Aragon and Anjou, and is politically fraught in a time of great danger and unrest. Yet the union between Yolande and Louis becomes not only a great love story, but also sets in motion events which will change the course of history.<br><br>As Louis spends more and more time and money fighting in Italy for his claim to the Kingdom of Naples, Yolande is left alone with their six children to govern their lands. But through her charm, fierce intelligence and the clever use of her spies, she becomes the saviour of not just her kingdoms but also of France. <br><br>Her Royal Highness Princess Michael of Kent unveils this seldom told story, enriched by her own insider's perspective of royal life.<i> The Queen of Four Kingdoms</i> is the epic true story of a rich and riveting period of French and English history, all witnessed by the captivating and complex heroine Yolande.</p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1472108469" },
-        { type: "ISBN_13", identifier: "9781472108463" },
+        { type: "ISBN_10", identifier: "1472108477" },
+        { type: "ISBN_13", identifier: "9781472108470" },
       ],
-      readingModes: { text: false, image: false },
-      pageCount: 464,
-      printedPageCount: 464,
-      dimensions: {
-        height: "20.30 cm",
-        width: "12.70 cm",
-        thickness: "2.50 cm",
-      },
+      readingModes: { text: true, image: false },
+      pageCount: 384,
+      printedPageCount: 270,
       printType: "BOOK",
-      categories: ["Fiction / Historical / General"],
+      categories: ["Fiction / Historical / General", "History / General"],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
+      contentVersion: "1.3.3.0.preview.2",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE7138AsNMCgOPDhBywefVM1BROiDBzV2J5kZVDvqz5aUaVaGmwmmoI8ufCpPl664wrd3y1OoW_wolg4IJiIcsPQ-LpwA4xAu5vI6r_9XXHfie-fpddFB_ZjMheMKDmErQh1fOUN8&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73yKxuAVi35dsI_IYPqKbXe-CZfNzuEQHcGXh8Rc-l3_x53xlz74t9lPShJUOncfYO7k8cpxW6gA6OuPzIEA8roK8L5ZZfuT9EHnxvXqawOrTMYC4AjOdYZNbPP_0p-CKFi1_jn&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73zh1R1j49eV72tmfBWTs3YsF16OtYSXdHdQoOVp0ikNI2J9CfeS3HJMZ06kia-VmeaR0y28gDng1v-H0s5cU2jgg02m3iAkGvoqMR2v6_icDJw6u9s-OrK0HX7gReChjRlSQfP&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72w9_RVav9KAyvcxiBkOHKveq4GEMVXsj1b9d1AuHFJpPoKWimLFGGcfFMUXs6AtlRn2kMgLN1NDuDLChWLpIL21vOa0qpzeZubYbJCkckAsBkqdbS81uInoKccv5SnKjS0B49m&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72tluBCSxeyA62YpCYad4iooAm75wvAUlU92pBPt_nd4EplsOd2bEEbv7h2gZcaPC1JrR1xL0pkMVjdEXLdgS1duqLBJJPsF7Bq4yuIdFyJREf6h9KUh131NCtezcTYMbkPisGC&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE734-g6Lm0kbpiQQRUGRdA0jCLLIfi8qfaV3_pOiyuOHm4DHWL2tp9j5QNhC17QeJzok8DKV_7ORap9xwjjzmbhrt5TY5qxKzWdlNXHhT80gNKm2FN432CqHe9gJzUvUsYd_WAyW&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72MHZmdem--uDxewOhgM7hOAdI01Dsg1luQSC9SYrAPUdRkhJAmkNGGHZ9Wd3SMiP40c-9xJb2sJDyL73yx86OfJv-Ryockdv720GsCATK0WpoIA_P8KHtfAVLemmqYsNgS9QE7&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70GpjHyg9cBVSgZpMAkut5G0XJNRyO8eK8klUL9kg1q8Az8zShz6f6Wi0rQWO03iHsbYj3Q14mcOtvBnWdp8lkR3KkQSpqnQtAbONP1l8KsxIYypKN3bLay9FhLwj8sP4tolSrq&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=IsfWngEACAAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=jFs6DwAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=IsfWngEACAAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=jFs6DwAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=IsfWngEACAAJ",
+        "https://play.google.com/store/books/details?id=jFs6DwAAQBAJ",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 2.99, currencyCode: "USD" },
+      retailPrice: { amount: 2.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=jFs6DwAAQBAJ&rdid=book-jFs6DwAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 2990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 2990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
+      viewability: "PARTIAL",
+      embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Queen_Of_Four_Kingdoms-sample-epub.acsm?id=jFs6DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=IsfWngEACAAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
+        "http://play.google.com/books/reader?id=jFs6DwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 128,
-      height: 197,
+      width: 1744,
+      height: 2699,
       image:
-        "http://books.google.com/books/content?id=IsfWngEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73zh1R1j49eV72tmfBWTs3YsF16OtYSXdHdQoOVp0ikNI2J9CfeS3HJMZ06kia-VmeaR0y28gDng1v-H0s5cU2jgg02m3iAkGvoqMR2v6_icDJw6u9s-OrK0HX7gReChjRlSQfP&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=jFs6DwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70GpjHyg9cBVSgZpMAkut5G0XJNRyO8eK8klUL9kg1q8Az8zShz6f6Wi0rQWO03iHsbYj3Q14mcOtvBnWdp8lkR3KkQSpqnQtAbONP1l8KsxIYypKN3bLay9FhLwj8sP4tolSrq&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "RhYB-fbunzkC",
