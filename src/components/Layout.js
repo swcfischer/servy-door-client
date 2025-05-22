@@ -20,7 +20,7 @@ const StyledContainer = styled(Container)`
   box-shadow: 0 4px 8px rgb(18, 18, 18);
 
   .app-bar {
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(33, 33, 33);
     border-radius: 8px;
     margin-top: 12px;
   }
