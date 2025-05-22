@@ -41,7 +41,7 @@ const modalStyles = {
     padding: 0,
     overflow: "auto",
     maxWidth: "100%",
-    border: "none"
+    border: "1px solid #222"
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
