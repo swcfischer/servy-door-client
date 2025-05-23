@@ -8,6 +8,7 @@ body {
   /* background: #1b0802; */
 
   position: relative;
+  user-select: none;
 }
 html {
   padding: 0;
