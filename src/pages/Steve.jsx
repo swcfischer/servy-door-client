@@ -11,7 +11,7 @@ const links = [
   },
   {
     name: "ServyDoor",
-    url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
+    url: "https://servydoor.com/",
   },
   {
     name: "Avid Language Learning",
