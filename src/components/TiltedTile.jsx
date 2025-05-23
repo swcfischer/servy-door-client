@@ -89,3 +89,56 @@ function TiltedTile(props) {
 }
 
 export default TiltedTile;
+
+export function TitltedAnchorTag(props) {
+  const { text, to } = props;
+
+  return (
+    <StyledAnchor href={to}>
+      <Typography variant="h6" className="tile">
+        <span className="span">{text}</span>
+      </Typography>
+    </StyledAnchor>
+  );
+}
+
+const StyledAnchor = styled.a`
+  outline: none !important;
+  border: 1px solid transparent;
+  transition: border-color 0.7s ease-in-out;
+  display: block;
+  margin: 20px 0;
+  user-select: none;
+  -webkit-user-drag: none !important;
+
+  &:focus {
+    border: 1px solid #dadada;
+  }
+
+  .tile {
+    background-color: #222;
+    border: 1px solid #5e5e5e;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Tangerine;
+    padding: 2px 3px;
+    position: relative;
+    transform: rotate(18deg);
+    font-size: 26px;
+  }
+
+  .span {
+    display: inline-block;
+    transform: rotate(-17deg);
+  }
+
+  .home {
+    position: absolute;
+    bottom: -13px;
+    right: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: serif;
+    color: rgba(212, 218, 60, 0.621);
+  }
+`;

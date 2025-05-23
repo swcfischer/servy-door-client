@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import TiltedTile from "./TiltedTile";
+import TiltedTile, { TitltedAnchorTag } from "./TiltedTile";
 import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
@@ -185,7 +185,7 @@ const Layout = ({ children }) => {
                   {/* {process.env.NODE_ENV !== "production" && (
                     <TiltedTile text="Social" to="/social" />
                   )} */}
-                  <TiltedTile text="Blog" to="/blog" />
+                  <TitltedAnchorTag text="Blog" to="https://avidreading.com/" />
                   <TiltedTile text="Library" to="/library" />
                   <TiltedTile text="Account" to="/account" />
                 </div>
