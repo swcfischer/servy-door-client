@@ -9,6 +9,14 @@ const links = [
     name: "GitHub Copilot Versus Jr. Dev. ",
     url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
   },
+  {
+    name: "ServyDoor",
+    url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
+  },
+  {
+    name: "Avid Language Learning",
+    url: "https://www.avidlanguagelearning.com/",
+  },
 
   // {
   //   name: "Language Learning Application",
@@ -20,7 +28,6 @@ const Steve = () => {
   return (
     <div style={{ padding: "20px" }}>
       <h2 style={{ color: "#333" }}>Steve's Links</h2>
-      <p>YouTube videos below :{")"}</p>
       <ol
         style={{
           lineHeight: "1.8",
@@ -34,7 +41,9 @@ const Steve = () => {
             key={index}
             style={{
               marginBottom: "10px",
-              color: "#052b54", // Makes the bullet point numbers blue
+              color: "#052b54",
+              display: "flex",
+              alignItems: "center",
             }}
           >
             <a
@@ -81,6 +90,31 @@ const Steve = () => {
             )}
           </li>
         ))}
+      </ol>
+      <ol>
+        <li
+          style={{
+            margin: 0,
+            padding: 0,
+            marginBottom: "10px",
+            color: "#052b54",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <a
+            style={{
+              textDecoration: "none",
+              color: "#000000",
+              transition: "color 0.3s",
+              fontSize: 24,
+              fontWeight: "bold",
+            }}
+            href="https://www.youtube.com/@FishTalkFish"
+          >
+            YouTube Channel
+          </a>
+        </li>
       </ol>
     </div>
   );
