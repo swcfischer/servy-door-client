@@ -228,7 +228,7 @@ function BookDetails(props) {
     }
   }, [user, id]);
 
-  console.log("videos", videos);
+  // console.log("videos", videos);
 
   if (isLoading) {
     return <LoadingSpinner />;
@@ -315,6 +315,23 @@ function BookDetails(props) {
               <>
                 <dt>Page Count</dt>
                 <dd>{book?.volumeInfo?.pageCount}</dd>
+              </>
+            )}
+
+            {book.googleId && (
+              <>
+                <dt>Book Details</dt>
+                <dd>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      navigate(`/book?id=${book.googleId}`);
+                    }}
+                    href="#"
+                  >
+                    Here
+                  </a>
+                </dd>
               </>
             )}
           </dl>
@@ -432,10 +449,10 @@ function BookDetails(props) {
                   }
                 },
               },
-              {
-                label: "Go to Book Details",
-                action: () => navigate(`/book?id=${book.googleId}`),
-              },
+              // {
+              //   label: "Go to Book Details",
+              //   action: () => navigate(`/book?id=${book.googleId}`),
+              // },
               {
                 label: "Look Up Word or Phrase",
                 action: () => setWordModalIsOpen(true),
