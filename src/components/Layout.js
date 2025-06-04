@@ -185,7 +185,6 @@ const Layout = ({ children }) => {
                   {/* {process.env.NODE_ENV !== "production" && (
                     <TiltedTile text="Social" to="/social" />
                   )} */}
-                  <TitltedAnchorTag text="Blog" to="https://avidreading.com/" />
                   <TiltedTile text="Library" to="/library" />
                   <TiltedTile text="Account" to="/account" />
                 </div>
@@ -202,9 +201,9 @@ const Layout = ({ children }) => {
               target="_blank"
               href="https://github.com/swcfischer"
               id="attribution"
-            >
+              >
               Steve Fischer
-            </a> */}
+              </a> */}
               <ul className="footer-links">
                 <li>
                   <Link to="/tos">Terms of Service</Link>
@@ -226,5 +225,6 @@ const Layout = ({ children }) => {
     </>
   );
 };
+// <TitltedAnchorTag text="Blog" to="https://avidreading.com/" />
 
 export default Layout;
