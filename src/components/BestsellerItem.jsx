@@ -39,7 +39,7 @@ function BookItem(props) {
               variant="subtitle1"
               sx={{ fontStyle: "italic", lineHeight: 1.2 }}
               className="hover-underline"
-              title={handleTitleLength(volumeInfo.title)}
+              // title={handleTitleLength(volumeInfo.title)}
             >
               {handleTitleLength(volumeInfo.title)}
             </Typography>
@@ -48,7 +48,7 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={volumeInfo.authors?.join(", ")}
+              // title={volumeInfo.authors?.join(", ")}
             >
               {volumeInfo.authors?.length > 2 ? (
                 <>{volumeInfo.authors?.slice(0, 2).join(", ")}</>
@@ -61,7 +61,7 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={volumeInfo.publisher}
+              // title={volumeInfo.publisher}
             >
               {volumeInfo.publisher}
             </Typography>
