@@ -148,13 +148,27 @@ export default function Index(props) {
               display: "flex",
             }}
           >
+            <label
+              htmlFor="book-search-input"
+              style={{
+                position: "absolute",
+                width: "1px",
+                height: "1px",
+                padding: 0,
+                margin: "-1px",
+                overflow: "hidden",
+                clip: "rect(0,0,0,0)",
+                border: 0,
+              }}
+            >
+              Find a book
+            </label>
             <input
+              id="book-search-input"
               defaultValue={q}
-              // autoFocus
               type="text"
               placeholder="Find a book"
               style={inputStyles}
-              // onChange={(e) => {}}
             />
             <button
               type="submit"

@@ -14,20 +14,20 @@ function PageRange(props) {
           type="number"
           value={pageRange[0]}
           min="1"
+          style={{ width: "50px" }}
           onChange={(e) =>
             setPageRange([Math.max(0, Number(e.target.value)), pageRange[1]])
           }
-          style={{ width: "50px" }}
         />{" "}
         -{" "}
         <input
           type="number"
           value={pageRange[1]}
           min={Math.max(0, pageRange[0])}
+          style={{ width: "50px" }}
           onChange={(e) =>
             setPageRange([pageRange[0], Math.max(0, Number(e.target.value))])
           }
-          style={{ width: "50px" }}
         />{" "}
         )
       </span>

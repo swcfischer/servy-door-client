@@ -35,12 +35,14 @@ const FilterSelect = (props) => {
       <label
         style={{ paddingBottom: "8px", display: "inline-block" }}
         htmlFor="filter-by"
+        id="filter-by-label"
       >
         Filter by:
       </label>
       <Select
+        aria-labelledby="filter-by-label"
         placeholder="No filter necessary"
-        id="filter-by"
+        inputId="filter-by"
         name="filter-by"
         options={options}
         defaultValue={searchFilter}

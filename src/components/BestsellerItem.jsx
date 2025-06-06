@@ -106,9 +106,14 @@ function handleTitleLength(text = "") {
 function ImageCard(props) {
   const { imageUrl, title } = props;
 
+  // Ensure imageUrl uses https
+  const secureImageUrl = imageUrl
+    ? imageUrl.replace(/^http:\/\//i, "https://")
+    : undefined;
+
   return (
     <img
-      src={imageUrl}
+      src={secureImageUrl}
       alt={title}
       style={{
         objectFit: "contain",
