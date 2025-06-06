@@ -40,7 +40,7 @@ module.exports = {
         web: [
           {
             name: "Tangerine",
-            file: "https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap",
+            file: "https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=auto",
           },
         ],
       },
