@@ -70,17 +70,19 @@ function Bookmarks() {
         {isLoading ? (
           <LoadingSpinner />
         ) : bookmarks.length > 0 ? (
-          bookmarks.map((bk) => {
-            return (
-              <BookItem
-                //   Go to book details
-                to={`/book?id=${bk.googleId}`}
-                id={bk.uuid}
-                key={bk.uuid}
-                volumeInfo={bk.volumeInfo}
-              />
-            );
-          })
+          bookmarks
+            .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+            .map((bk) => {
+              return (
+                <BookItem
+                  //   Go to book details
+                  to={`/book?id=${bk.googleId}`}
+                  id={bk.uuid}
+                  key={bk.uuid}
+                  volumeInfo={bk.volumeInfo}
+                />
+              );
+            })
         ) : (
           <p>You have not selected a book to read yet.</p>
         )}
