@@ -112,14 +112,16 @@ const InnerModalContainer = styled.div`
 function YouTubeVideoList(props) {
   const { videos } = props;
 
-  const [selectedDef, setSelectedDef] = useState(null);
+  const [selectedVid, setSelectedVid] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = (def) => (e) => {
+  const handleClick = (vid) => (e) => {
     e.preventDefault();
-    setSelectedDef(def);
+    setSelectedVid(vid);
     setIsOpen(true);
   };
+
+  console.log("🚀 ~ YouTubeVideoList ~ selectedVid:", selectedVid);
 
   return (
     <Container>
@@ -154,17 +156,12 @@ function YouTubeVideoList(props) {
             style={customStyle}
           >
             <InnerModalContainer>
-              <h2>{capitalizeFirstLetter(selectedDef?.word)}</h2>
-              <ReactMarkdown>
-                {removeHtmlTags(
-                  selectedDef?.definition + selectedDef?.definition
-                )}
-              </ReactMarkdown>
+              <h2>{capitalizeFirstLetter(selectedVid?.title)}</h2>
 
               <button
                 className="close-btn"
                 onClick={() => {
-                  setSelectedDef(null);
+                  setSelectedVid(null);
                   setIsOpen(false);
                 }}
               >

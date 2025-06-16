@@ -5,10 +5,7 @@ import * as Yup from "yup";
 import styled from "@emotion/styled";
 import axiosInstance from "../../axiosInstance";
 import { UserContext } from "../Layout";
-import ReactPlayer from "react-player";
-import ActionButton from "../BookDetails/ActionButton";
-import getOS from "../../utils/getOS";
-import { navigate } from "gatsby";
+import YouTubeVideoNotes from "./YouTubeVideoNotes";
 // import { removeHtmlTags } from "../../utils/capitalizeFirstLetter";
 // import ReactMarkdown from "react-markdown";
 
@@ -35,7 +32,7 @@ const customStyle = {
   },
 };
 
-const videoStyles = {
+export const videoStyles = {
   ...customStyle,
   content: {
     ...customStyle.content,
@@ -125,9 +122,7 @@ function YouTubeVideoModal({
   const [video, setVideo] = useState(null);
   const { user } = useContext(UserContext);
 
-  const textArea = useRef(null);
   const id = "123";
-  const handleSave = () => {};
 
   const validationSchema = Yup.object({
     url: Yup.string()
@@ -143,85 +138,17 @@ function YouTubeVideoModal({
 
   if (curState === VIDEO_VIEW) {
     return (
-      <Modal
+      <YouTubeVideoNotes
         isOpen={isOpen}
-        onRequestClose={handleRequestClose}
-        contentLabel="YouTube Video Modal"
-        style={videoStyles}
-      >
-        <Container>
-          <h3>{video.title}</h3>
-          <ReactPlayer url={video.url} controls width="100%" />
-          <button className="close-btn" onClick={handleRequestClose}>
-            Close
-          </button>
-
-          <div className="notes-section">
-            <div className="notes-header">
-              <ActionButton
-                options={[
-                  {
-                    label: "Delete Video",
-                    action: async () => {
-                      const confirmDelete = window.confirm(
-                        "Are you sure you want to remove this book from your library?"
-                      );
-                      if (!confirmDelete) {
-                        return;
-                      }
-
-                      try {
-                        await axiosInstance.delete(
-                          `/books/book/${user.uuid}?id=${id}`
-                        );
-                        // Redirect or update state after deletion
-                        navigate("/library");
-                      } catch (err) {
-                        console.error(
-                          "There was an error deleting the book!",
-                          err
-                        );
-                      }
-                    },
-                  },
-                ]}
-              />
-            </div>
-            <textarea
-              ref={textArea}
-              rows="10"
-              cols="50"
-              spellCheck="false"
-              onKeyDown={(event) => {
-                const os = getOS();
-
-                const isWindows = os === "Windows";
-                const isMac = os === "macOS";
-
-                const isSaveShortcut =
-                  (event.metaKey && event.key === "s" && isMac) ||
-                  (event.ctrlKey && event.key === "s" && isWindows);
-
-                if (isSaveShortcut) {
-                  handleSave(); // Call your save function
-                  event.preventDefault(); // Prevent the default browser save action
-                }
-              }}
-              onChange={(e) => {
-                // * state management necessary
-              }}
-              placeholder="Write your notes here..."
-              value={""}
-              style={{ resize: "none" }}
-            ></textarea>
-          </div>
-          <div className="button-container">
-            <button onClick={handleSave} style={{ marginRight: "12px" }}>
-              Save Notes
-            </button>
-          </div>
-        </Container>
-      </Modal>
+        handleRequestClose={handleRequestClose}
+        video={video}
+        user={user}
+        id={id}
+        setVideos={setVideos}
+        bookUuid={bookUuid}
+        googleId={googleId}
+        setVideo={setVideo}
+      />
     );
   }
   return (

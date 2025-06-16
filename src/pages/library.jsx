@@ -79,16 +79,18 @@ function Library() {
         {isLoading ? (
           <LoadingSpinner />
         ) : books.length > 0 ? (
-          books.map((bk) => {
-            return (
-              <BookItem
-                to={`/library/book-details?id=${bk.uuid}`}
-                id={bk.uuid}
-                key={bk.uuid}
-                volumeInfo={bk.volumeInfo}
-              />
-            );
-          })
+          books
+            .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+            .map((bk) => {
+              return (
+                <BookItem
+                  to={`/library/book-details?id=${bk.uuid}`}
+                  id={bk.uuid}
+                  key={bk.uuid}
+                  volumeInfo={bk.volumeInfo}
+                />
+              );
+            })
         ) : (
           <p>You have not selected a book to read yet.</p>
         )}

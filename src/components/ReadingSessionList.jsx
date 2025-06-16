@@ -11,6 +11,7 @@ const Container = styled.a`
     &:hover {
       text-decoration: underline;
     }
+
     .reading-session__details {
       color: rgba(0, 0, 0, 0.7);
     }
