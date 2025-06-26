@@ -1,6 +1,166 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "FkWwDwAAQBAJ",
+    etag: "+UFEUU/3H08",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/FkWwDwAAQBAJ",
+    volumeInfo: {
+      title: "Trailblazer",
+      subtitle: "The Power of Business as the Greatest Platform for Change",
+      authors: ["Marc Benioff", "Monica Langley"],
+      publisher: "Crown",
+      publishedDate: "2019-10-15",
+      description:
+        "<b><i>NEW YORK TIMES </i>BESTSELLER • The founder and co-CEO of Salesforce delivers a<b>n inspiring vision for successful companies of the future—in which changing the world is everyone’s business.</b></b><br><br><b>“An urgent and compelling book for anyone in business who yearns to fulfill a higher mission in the world.”—Richard Branson</b><br><br>What’s the secret to business growth and innovation and a purpose-driven career in a world that is becoming vastly more complicated by the day? According to Marc Benioff, the answer is embracing a culture in which your values permeate everything you do.<br><br>In <i>Trailblazer,</i> Benioff gives readers a rare behind-the-scenes look at the inner workings of one of the world’s most admired companies. He reveals how Salesforce’s core values—trust, customer success, innovation, and equality—and commitment to giving back have become the company’s greatest competitive advantage and the most powerful engine of its success. Because no matter what business you’re in, Benioff says, values are the bedrock of a resilient company culture that inspires all employees, at every level, to do the best work of their lives. Along the way, he shares insights and best practices for anyone who wants to cultivate a company culture positioned to thrive in the face of the inevitable disruption ahead.<br><br>None of us in the business world can afford to sit on the sidelines and ignore what’s going on outside the walls of our workplaces. In the future, profits and progress will no longer be sustainable unless they serve the greater good. Whether you run a company, lead a small team, or have just draped an ID badge around your neck for the first time, <i>Trailblazer</i> reveals how anyone can become an agent of change.<br><br><b>Praise for <i>Trailblazer</i></b><br><br>“A guide for what every business and organization must do to thrive in this period of profound political and economic change.”<b>—Jamie Dimon, chairman and CEO of JPMorgan Chase<br></b><br>“In <i>Trailblazer, </i>Benioff explores how companies can nurture a values-based culture to become powerful platforms for change.”<b>—Susan Wojcicki, CEO of YouTube</b>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1984825194" },
+        { type: "ISBN_13", identifier: "9781984825193" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 272,
+      printedPageCount: 274,
+      dimensions: {
+        height: "24.20 cm",
+        width: "16.20 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Leadership",
+        "Business & Economics / Entrepreneurship",
+        "Business & Economics / Business Ethics",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.5.0.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73vgf9HwovviJuumGsqRN_srMbbSvRd2n7S7_6HPj_w6yiGj-YWIsASDKQyTRX9WN6kYpSaT_tleilGGBe-hunMAdOYHbJ46A5SiFUv0TZl3A3BWzV0TA2e67OTqgWT5eJP4HxQ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70SEKR1y6bNvUc9RJjqPlRexcpMKZrtOJcef2vTGlxGyWfap7lelnSJ4eITW4ZMH-Ejv8ORXGL4fbpo8rv6Mw-KwNLCnPsw8BP0HwjAmAwwkFMmJa8mE3kc4bq6JQyxQDItRJrH&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE705E5Ycev6W9rNfhPQqFCA6ON7XZKoUFxh19SNQ16g0c-KlDRQHFU_CAoHsQY2qM5kaCbOY4bZVjlqLpwT5RjM74dzmDDBP1ooCpiW2gB66czdG_RexHf5_454EADdHqaQ5s-FX&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73QnbqJdIy2EDM804L76F4SDNAHQssYRn9-mkbKH4S-Iv9RMwhytH98AVu7FT1O68foA464_jTiQK3gtoSw5fsBqcUN2GkskJlhnP5UjdXODBD2rJGJxAsJ1_zdAO15GlvAmUdR&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70CLDY5N8wwQarG8wNh7tq7H7MmUH26mMBmVqsgjQ8XQenl4q2A4dRxU3d93YS1C6iJMTnCs7kJZwGWEr34bRK01spW-77SBg5TeNbXusJxBQ3gmAMJsHHL8qBzDgGaRjU__m8D&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=FkWwDwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=FkWwDwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=FkWwDwAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=FkWwDwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1153,
+      image:
+        "http://books.google.com/books/publisher/content?id=FkWwDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70CLDY5N8wwQarG8wNh7tq7H7MmUH26mMBmVqsgjQ8XQenl4q2A4dRxU3d93YS1C6iJMTnCs7kJZwGWEr34bRK01spW-77SBg5TeNbXusJxBQ3gmAMJsHHL8qBzDgGaRjU__m8D&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "K8gGEQAAQBAJ",
+    etag: "WjInpFcBCa8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/K8gGEQAAQBAJ",
+    volumeInfo: {
+      title: "Source Code",
+      subtitle: "My Beginnings",
+      authors: ["Bill Gates"],
+      publisher: "Knopf Canada",
+      publishedDate: "2025-02-04",
+      description:
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age.<br><br>“A surprisingly candid memoir of the Microsoft mogul’s early years. . . . Reading this book feels like watching someone take a well-known black-and-white sketch, fill in the details, and paint it in vivid color.” —<i>GeekWire</i><br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1039056334" },
+        { type: "ISBN_13", identifier: "9781039056336" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 320,
+      printedPageCount: 337,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Business",
+        "Biography & Autobiography / Science & Technology",
+        "Biography & Autobiography / Personal Memoirs",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.1.1.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70UDGUNyMjEzBr4nckye2JWAuZ2-bpof4xqoLHu1lNooSBaOGtPAsMQLvVv9T1e6KXI6C8RfhF7XIQOgL4TimqfDn7cpmrWkvL6O5W_ADniqc7a9NB7XbIJ2Gk7w-9mQGYVV0jq&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE732e-B0ocgxK_Z1jjDbAdiOtHRiNF1uiHtNHNP8DV26pjUw1fUVgnAvIYmU4XgNe-Gj2q0QXlV_E5tQ5sDGdfTfSe-Mk-0-mEsajr_A5934UWKcZlEWB_CylFnNKZnAZJeYyt7L&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70sVJXmKqDBR70NC1FXGLAgd-bKIyRrWVGW6yJUvYppyYloT4m41W6c76709HErJWcWIGqJ8hP6AB6B6I0VBAHXKZCMtmF9FaDCxhFC91mU3kRD1M65HAqsYbO3aob0Q_3zEhHA&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE736qXM2kWMR6mNq155gk3PD-CZPlr0NxDpDatdTHpulCFUmDNMh_0lTpsdnHHAZ5zfS4RpejKzOaLc-gWcH9DAIkAlv97i1rBqFleyDCHFKmju1iMcYySrUZPtTRf_dAbZV7KHW&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72-Wiq8zGCudQlJnZYjYexN5KROMvbQLlAB8sqKNX7LinAKTlzL44zmasTqgKJygXhtnOI7JixZL3_yaIce6VheZrrahsAdhZL9UT0mvvu4cpSYLH-Rg83SulW4gOdgeyABFPZ1&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73QbDzXXBkl-kH7KASC4pThwxDnYGfUXLKv-dKzkEjDXCIE5ks3bbIrDglq1FM-zIjINNQRSVgscEgTh0FKUVnz20eaKq8C8GohshR0hBUfWdajPcsX35XhuE8szcuHYv47tPjR&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Source_Code-sample-epub.acsm?id=K8gGEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 750,
+      image:
+        "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73QbDzXXBkl-kH7KASC4pThwxDnYGfUXLKv-dKzkEjDXCIE5ks3bbIrDglq1FM-zIjINNQRSVgscEgTh0FKUVnz20eaKq8C8GohshR0hBUfWdajPcsX35XhuE8szcuHYv47tPjR&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "Bp5REQAAQBAJ",
     etag: "njiXtf7Kz2I",
     selfLink: "https://www.googleapis.com/books/v1/volumes/Bp5REQAAQBAJ",
@@ -196,191 +356,7 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72vX8ok7UPHDBtTEsqTVeChiteFIZT89PNr-3NITOJpb6s33OBUct_yd5XebJQxOYkbYC1uDycmfGl0GZltjcWkJ6cAY7T5DgSHSaS6kL9bUGTWRNSk-O_P5Px4LG0N3bCcVhhI&source=gbs_api",
     },
   },
-  {
-    kind: "books#volume",
-    id: "s1gVAAAAYAAJ",
-    etag: "Bkcp+so+p+w",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
-    volumeInfo: {
-      title: "Pride and Prejudice",
-      authors: ["Jane Austen"],
-      publisher: "C. Scribner's sons",
-      publishedDate: "1918",
-      description:
-        "Austen’s most celebrated novel tells the story of Elizabeth Bennet, a bright, lively young woman with four sisters, and a mother determined to marry them to wealthy men. At a party near the Bennets’ home in the English countryside, Elizabeth meets the wealthy, proud Fitzwilliam Darcy. Elizabeth initially finds Darcy haughty and intolerable, but circumstances continue to unite the pair. Mr. Darcy finds himself captivated by Elizabeth’s wit and candor, while her reservations about his character slowly vanish. The story is as much a social critique as it is a love story, and the prose crackles with Austen’s wry wit.",
-      readingModes: { text: true, image: true },
-      pageCount: 401,
-      printedPageCount: 448,
-      dimensions: { height: "18.00 cm" },
-      printType: "BOOK",
-      averageRating: 4,
-      ratingsCount: 374,
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "1.5.13.0.full.3",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71nr4V4pAdAmdhS291F4cygINGwZGnBcITAQpuMK6tLrhvwXwz4ilURV1hFojzmLjSB7JSG17eKhs7v25441saU0Gv1wn0jE3aciv4SaL4J5_wG7ajmY9fCc6ri1BAJkU9Zhk-i&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72y831jYebh79f-56dQJUYNdYmKZr54bgQKOvIBeDbTSKm-yFSbNLnMv7JaQqoTVJZXRpQWn1WcB9xMUK5oNpyfxqPPcIqURKFhfetTuXHGx5Fqkw_11CX9aBlae_G7jch0NcO_&source=gbs_api",
-        small:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73nC_gmqY92oY-Vt-s5MorptPm1DYpwh-l5lfDv6OtGAf0PZE9KI6jR9R7b2kX-XfHr8QqZDiitCJ4yfOqq_J3HuLOOlPdu-InmPiH0PTu7Tu8X4vW8ydj4YpjmxaRTrUvoaZff&source=gbs_api",
-        medium:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE7176igWplRTFJJqbz-5weqxHPDO4ehI6G5VzBSi8_xnqTc1tyMcF6SIuNLuRmc0Qp7qz9j5YmgO6rEomTSxssHAMQCJa7YDcXao8SiHNuPUblEcpbFC_lLgwIbxM27MvVO5Wzkw&source=gbs_api",
-        large:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70H7k8aa_UAh-qKMrErAsPPGS_J851FQS4qgJ2RZ7nJOpQ1Ox7uHvBUmQCCXNHNoUrtKb1DtuycdUPfhwYZkiC_Gpvn_IOv-91tZqvjV3Jh1AVqO6EZ15ruHPSojSY8-xHaNck2&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE730Ac_ulGFlEOJw8o9Dzhhh2WbZSY4PlJVp1pmTwlxDVI4-oNEZnhtBuUp4kQ6_CDbhLW77dGomqjGG0g4dr95ujozUdDla5aaSOsyOqBTqATAwlEgBWWRcpm0ajTaqfe6uO5Kl&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=s1gVAAAAYAAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ",
-    },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "25" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FREE",
-      isEbook: true,
-      buyLink:
-        "https://play.google.com/store/books/details?id=s1gVAAAAYAAJ&rdid=book-s1gVAAAAYAAJ&rdot=1&source=gbs_api",
-    },
-    accessInfo: {
-      country: "US",
-      viewability: "ALL_PAGES",
-      embeddable: true,
-      publicDomain: true,
-      textToSpeechPermission: "ALLOWED",
-      epub: {
-        isAvailable: true,
-        downloadLink:
-          "http://books.google.com/books/download/Pride_and_Prejudice.epub?id=s1gVAAAAYAAJ&hl=&output=epub&source=gbs_api",
-      },
-      pdf: {
-        isAvailable: true,
-        downloadLink:
-          "http://books.google.com/books/download/Pride_and_Prejudice.pdf?id=s1gVAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3dQw5JDWdbVgk2VRHyDjVMT4oIaA&source=gbs_api",
-      },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=s1gVAAAAYAAJ&hl=&source=gbs_api",
-      accessViewStatus: "FULL_PUBLIC_DOMAIN",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 2000,
-      height: 2972,
-      image:
-        "http://books.google.com/books/content?id=s1gVAAAAYAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE730Ac_ulGFlEOJw8o9Dzhhh2WbZSY4PlJVp1pmTwlxDVI4-oNEZnhtBuUp4kQ6_CDbhLW77dGomqjGG0g4dr95ujozUdDla5aaSOsyOqBTqATAwlEgBWWRcpm0ajTaqfe6uO5Kl&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "iXn5U2IzVH0C",
-    etag: "STtzv6IaFBM",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/iXn5U2IzVH0C",
-    volumeInfo: {
-      title: "The Great Gatsby",
-      subtitle: "The Only Authorized Edition",
-      authors: ["F. Scott Fitzgerald"],
-      publisher: "Simon and Schuster",
-      publishedDate: "2003-05-27",
-      description:
-        "<b><b>The only edition of the beloved classic that is authorized by Fitzgerald’s family and from his lifelong publisher. </b></b><br><br>This edition is the enduring original text, updated with the author’s own revisions, a foreword by his granddaughter, and with a new introduction by National Book Award winner Jesmyn Ward.<br> <br><i>The Great Gatsby</i>, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published by Scribner in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan is an exquisitely crafted tale of America in the 1920s.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "074324639X" },
-        { type: "ISBN_13", identifier: "9780743246392" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 165,
-      printedPageCount: 196,
-      dimensions: { height: "21.00 cm" },
-      printType: "BOOK",
-      categories: [
-        "Fiction / Classics",
-        "Fiction / Literary",
-        "Fiction / Friendship",
-        "Fiction / General",
-      ],
-      averageRating: 3.5,
-      ratingsCount: 92,
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "1.30.26.0.preview.2",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71PNDphS1iuLGJ6j0DMYZmfc72l2bKOnms3mkjxZR86MHuQ37Do_p4iGPB7X5AFv9Qz_L7ZjnDC_MvY4uCv2r_aUbowkoEfkWPjtYAr90pEUXFETrOHrjuMQLNbUJoLKqeoZ2sJ&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE715NDtWaEC_1BeATj8C5vTbA14RGKtgX1L2b7Bopz14pmqDSajLWKjLGKPkg6IVqO_HkPIizb3EFZlvzhlj7nGpxqMs33EZQTannHwWE2f8OLnA4hiwW_p2BcGwfRuShUQb7SZR&source=gbs_api",
-        small:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72ICDJ8Vw_hg5J68jXEylUDnNOJ3pqVYgqQWVLtcL7g1HDZM9zttxjJKczab4d-_1zqPYGzI_0nqK9SkWoWcdNJWLszfxYh3mY-7pg2nUsAVhVBDWoSdcKwRmLMXCOeUBTmgUfo&source=gbs_api",
-        medium:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE737NOIgFc8-KNi3UL-W9iYFFql99b2kwMw9baeWrvwzXhzMuejdCUNv8gpTJ_mBl9tDdpIo3GwFz95TujnPAq9qDCOqRzjXYw7nr8rZAUGfZYshOcYEqnE-lxsXou-DK_uJNGLF&source=gbs_api",
-        large:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fo3OYDcoGgCHEkDH2I-36esGpK4UY9sc-6-nZ7aRLtPUgJJaudBl3yzeL3isdaM9-x6wfHU6ZtKtB6mfNICJs1su7saLVMNYEK4aCj-NcyhNn-Uq7Is2tXooYgfjqqWx2_a5w&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72fDVP7WQfjux-IE1ZQnjKluQy7inGwBdUofQH37dY23VSjFvHgg8V1i9uPn3N5jpQoud_M5cttL4RrGFWWMsZZX3eL0yEy04MAYM982SNtq4v8xb68ir19AQoTuJ10IC1jQjBo&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=iXn5U2IzVH0C&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C",
-    },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "41" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 1.99, currencyCode: "USD" },
-      retailPrice: { amount: 1.99, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=iXn5U2IzVH0C&rdid=book-iXn5U2IzVH0C&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 1990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 1990000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
-      epub: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/The_Great_Gatsby-sample-epub.acsm?id=iXn5U2IzVH0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=iXn5U2IzVH0C&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 1650,
-      height: 2475,
-      image:
-        "http://books.google.com/books/content?id=iXn5U2IzVH0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72fDVP7WQfjux-IE1ZQnjKluQy7inGwBdUofQH37dY23VSjFvHgg8V1i9uPn3N5jpQoud_M5cttL4RrGFWWMsZZX3eL0yEy04MAYM982SNtq4v8xb68ir19AQoTuJ10IC1jQjBo&source=gbs_api",
-    },
-  },
+
   {
     kind: "books#volume",
     id: "wrOQLV6xB-wC",
