@@ -1,10 +1,10 @@
 import React from "react";
 
 const links = [
-  {
-    name: "Small UI Fixes for Reading Application",
-    url: "https://www.youtube.com/watch?v=4X25XEoErHA&ab_channel=StevenFischer",
-  },
+  // {
+  //   name: "Small UI Fixes for Reading Application",
+  //   url: "https://www.youtube.com/watch?v=4X25XEoErHA&ab_channel=StevenFischer",
+  // },
   {
     name: "GitHub Copilot Versus Jr. Dev. ",
     url: "https://www.youtube.com/watch?v=vjOFLjSa8dU&t=3s",
