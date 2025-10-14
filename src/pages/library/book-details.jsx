@@ -105,7 +105,7 @@ const Container = styled.div`
 
 export function renderGoogleAuthorLinks(authors) {
   return authors?.map((author, idx) => (
-    <a href={createGoogleAuthorLink(author)} target="_blank">
+    <a key={author} href={createGoogleAuthorLink(author)} target="_blank">
       {author}
       {idx !== authors.length - 1 && (
         <>
