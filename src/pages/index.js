@@ -1,6 +1,6 @@
 // * Book List (HomePage)
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { navigate } from "gatsby";
@@ -90,6 +90,7 @@ export default function Index(props) {
     }
   }, [qParam, q]);
 
+
   useEffect(() => {
     const fetchBooks = async () => {
       setIsLoading(true);
@@ -169,6 +170,9 @@ export default function Index(props) {
               type="text"
               placeholder="Find a book"
               style={inputStyles}
+              autoFocus
+              aria-autocomplete="none"
+              autocomplete="off"
             />
             <button
               type="submit"
