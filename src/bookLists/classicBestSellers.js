@@ -1,6 +1,79 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "ZQZUEQAAQBAJ",
+    etag: "uscrM3yYU7s",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/ZQZUEQAAQBAJ",
+    volumeInfo: {
+      title: "Delusions",
+      subtitle: "Of Grandeur, of Romance, of Progress",
+      authors: ["Cazzie David"],
+      publisher: "St. Martin's Publishing Group",
+      publishedDate: "2026-03-03",
+      description:
+        '<p><b>In this sharp and darkly funny new essay collection from the <i>New York Times </i>bestselling author, Cazzie David explores the irony and existential crises of leaving youth behind.<br></b><br>With her thirtieth birthday fast approaching, Cazzie reflects on the delusions that laid waste to her twenties and reckons with their consequences now that the specter of a new decade is looming. Touching on everything from the pressure to find the "right" partner, dealing with the relentless grip of social media, and navigating body dysmorphic spirals, <i>Delusions</i> cuts through the noise, offering personal anecdotes, sharp cultural criticism, and witty, honest contemplations on the chaos of contemporary adulthood. Cazzie brings her trademark voice—blunt, self-aware, and blisteringly funny—to essays that are as vulnerable as they are biting.<br><br><i><b>An attempt to mature in the span of one year</b></i></p>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1250357632" },
+        { type: "ISBN_13", identifier: "9781250357632" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 320,
+      printedPageCount: 320,
+      dimensions: {
+        height: "21.00 cm",
+        width: "13.70 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Personal Memoirs",
+        "Humor / Form / Essays",
+        "Literary Criticism / Subjects & Themes / Women",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE726QuWZEGJrillS6pKeDiiWup27omtzXrmRry7dq1J6lgVlgzQ156sQ0qq3orO8pek0ILnevrDZb883OJRGatsCDQCxmoJnZclHl5uxfaYIRBfQHg5JD5NcMzQMlt92GCF-V5ZQ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71u-YHP_cnq-wROtTz9UkVk-t-eqjKLDMsZj5VJRhtv-JLgH1wX_ZRQ6SemoOTc24NpmV4Y-W1gpXQcx2d5qFnizyNjGs17lEcIZX45gVGi14_ikSL56FdsSVnvzyyxGzGBWowF&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=ZQZUEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=ZQZUEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=ZQZUEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=ZQZUEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 196,
+      image:
+        "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71u-YHP_cnq-wROtTz9UkVk-t-eqjKLDMsZj5VJRhtv-JLgH1wX_ZRQ6SemoOTc24NpmV4Y-W1gpXQcx2d5qFnizyNjGs17lEcIZX45gVGi14_ikSL56FdsSVnvzyyxGzGBWowF&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "Bp5REQAAQBAJ",
     etag: "njiXtf7Kz2I",
     selfLink: "https://www.googleapis.com/books/v1/volumes/Bp5REQAAQBAJ",

@@ -15,6 +15,7 @@ const Container = styled.div`
     line-height: 24px;
     color: #080808;
     padding-bottom: 24px;
+
     .lightbulb-icon {
       position: absolute;
       top: 0px;

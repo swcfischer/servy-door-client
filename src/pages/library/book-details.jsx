@@ -163,6 +163,7 @@ function BookDetails(props) {
         const { data: resSession } = await axiosInstance.get(
           `/reading-sessions/all/${user.uuid}/${id}`
         );
+
         if (!resSession.length) {
           const _pageRange = [1, pagesPerDay];
           const { data: newReadingSession } = await axiosInstance.post(

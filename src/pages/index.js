@@ -170,9 +170,9 @@ export default function Index(props) {
               type="text"
               placeholder="Find a book"
               style={inputStyles}
-              autoFocus
               aria-autocomplete="none"
               autocomplete="off"
+              autoFocus
             />
             <button
               type="submit"

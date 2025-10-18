@@ -76,6 +76,7 @@ const InnerModalContainer = styled.div`
   position: relative;
   margin-top: 12px;
   padding-top: 12px;
+
   h2 {
     text-align: center;
   }

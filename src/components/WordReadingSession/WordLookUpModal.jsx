@@ -39,6 +39,7 @@ const Container = styled.div`
   h2 {
     text-align: center;
   }
+
   form {
     min-height: 225px;
 
@@ -65,6 +66,7 @@ const Container = styled.div`
       }
     }
   }
+
   button {
     height: max-content;
     padding: 11px 20px;
@@ -85,6 +87,7 @@ const Container = styled.div`
   .submit-btn {
     width: 100%;
   }
+
   .close-btn {
     position: absolute;
     top: -34px;
