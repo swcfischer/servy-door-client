@@ -154,7 +154,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <a
+      {/* <a
         href="https://github.com/features/copilot/plans?cft=copilot_li.features_copilot&ocid=AIDcmmb150vbv1_SEM__k_Cj0KCQjwhYS_BhD2ARIsAJTMMQbu-rdcwsrCiLil-x2IVnWb6mjSkceSQ39IqURBdME351csFCNPqagaAjJyEALw_wcB_k_"
         target="_blank"
         rel="noreferrer"
@@ -172,7 +172,7 @@ const Layout = ({ children }) => {
           alt="github copilot logo"
           title="This site was made with the help of Github Copilot!"
         />
-      </a>
+      </a> */}
       <UserContext.Provider value={{ user, setUser }}>
         <StateContext.Provider value={{ state, setState }}>
           <StyledContainer maxWidth="sm">
