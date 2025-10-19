@@ -154,25 +154,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <a
-        href="https://github.com/features/copilot/plans?cft=copilot_li.features_copilot&ocid=AIDcmmb150vbv1_SEM__k_Cj0KCQjwhYS_BhD2ARIsAJTMMQbu-rdcwsrCiLil-x2IVnWb6mjSkceSQ39IqURBdME351csFCNPqagaAjJyEALw_wcB_k_"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          style={{
-            position: "fixed",
-            right: 10,
-            bottom: 10,
-            width: 100,
-            height: "auto",
-            opacity: 0.1,
-          }}
-          src={githubLogo}
-          alt="github copilot logo"
-          title="This site was made with the help of Github Copilot!"
-        />
-      </a> */}
       <UserContext.Provider value={{ user, setUser }}>
         <StateContext.Provider value={{ state, setState }}>
           <StyledContainer maxWidth="sm">
@@ -182,9 +163,6 @@ const Layout = ({ children }) => {
                   <TiltedTile text="ServyDoor" to="/" />
                 </div>
                 <div className="nav-links">
-                  {/* {process.env.NODE_ENV !== "production" && (
-                    <TiltedTile text="Social" to="/social" />
-                  )} */}
                   <TiltedTile text="Library" to="/library" />
                   <TiltedTile text="Account" to="/account" />
                 </div>
@@ -197,13 +175,6 @@ const Layout = ({ children }) => {
               <Typography variant="body2" className="typography">
                 ServyDoor{" "}
               </Typography>
-              {/* <a
-              target="_blank"
-              href="https://github.com/swcfischer"
-              id="attribution"
-              >
-              Steve Fischer
-              </a> */}
               <ul className="footer-links">
                 <li>
                   <Link to="/tos">Terms of Service</Link>
@@ -225,6 +196,5 @@ const Layout = ({ children }) => {
     </>
   );
 };
-// <TitltedAnchorTag text="Blog" to="https://avidreading.com/" />
 
 export default Layout;
