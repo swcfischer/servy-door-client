@@ -1,94 +1,87 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "42ZpBgAAQBAJ",
-    etag: "SD3/OXxUkg8",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/42ZpBgAAQBAJ",
+    id: "RjBOEQAAQBAJ",
+    etag: "Ir1V8YIigwI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RjBOEQAAQBAJ",
     volumeInfo: {
-      title: "Civilisation",
-      authors: ["Kenneth Clark"],
-      publisher: "John Murray Press",
-      publishedDate: "2015-04-16",
+      title: "The Seven Rules of Trust",
+      subtitle: "A Blueprint for Building Things That Last",
+      authors: ["Jimmy Wales"],
+      publisher: "Random House",
+      publishedDate: "2025-10-28",
       description:
-        "<p>Kenneth Clark's sweeping narrative looks at how Western Europe evolved in the wake of the collapse of the Roman Empire, to produce the ideas, books, buildings, works of art and great individuals that make up our civilisation.<br><br>The author takes us from Iona in the ninth century to France in the twelfth, from Florence to Urbino, from Germany to Rome, England, Holland and America. Against these historical backgrounds he sketches an extraordinary cast of characters -- the men and women who gave new energy to civilisation and expanded our understanding of the world and of ourselves. He also highlights the works of genius they produced -- in architecture, sculpture and painting, in philosophy, poetry and music, and in science and engineering, from Raphael's School of Athens to the bridges of Brunel.</p>",
+        "<b>From the founder of Wikipedia, a sweeping reflection on the global crisis of credibility and knowledge, revealing “the rules of trust” that transformed Wikipedia from a scrappy experiment into a global utility used by billions of people—and how those rules can help others build things that last</b><br><br><b>“An important book . . . both hopeful and practical.”—Yuval Noah Harari, bestselling author of <i>Sapiens</i> and <i>21 Lessons for the 21st Century</i></b><br><br>From the beginning, people predicted Wikipedia’s demise. Instead, this global experiment in sharing knowledge and expertise online has become part of the fabric of modern, connected life. Today, every month, people view Wikipedia 11 billion times—just in the English language. The Internet’s encyclopedia has become a global utility, like water or electricity, and we rarely pause to consider the extraordinary fact of its existence.<br><br>Long before it became the biggest collection of knowledge in the history of the world, Wikipedia had to overcome its greatest challenge: getting strangers on the Internet to trust each other. They had to trust that others would not be abusive or uncivil. They had to trust that others would not unfairly change or erase their contributions. They had to trust that people had good intentions.<br><br>Trust, Wikipedia founder Jimmy Wales says, is a treasure. But it is not inanimate, like gold or gems. Trust is a living thing that can and must be cultivated. This book will show you how. And it will reveal how his organization, this one-time punchline, has become a global authority—in the same two decades when the public’s trust in everything else, from government to social media, has trended backwards. <br><br>Every community on earth depends on trust; it underpins our capacity to know things, and it is at an all-time low. Inspiring, approachable, and packed with candid lessons from the early days of Wikipedia, <i>The Seven Rules of Trust </i>is a guide to kickstarting a positive loop of accountability and creativity—and to building things that stand the test of time.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1473616727" },
-        { type: "ISBN_13", identifier: "9781473616721" },
+        { type: "ISBN_10", identifier: "0593727460" },
+        { type: "ISBN_13", identifier: "9780593727461" },
       ],
-      readingModes: { text: true, image: false },
-      pageCount: 272,
-      printedPageCount: 243,
+      readingModes: { text: false, image: true },
+      pageCount: 240,
+      printedPageCount: 241,
+      dimensions: {
+        height: "21.70 cm",
+        width: "14.50 cm",
+        thickness: "2.30 cm",
+      },
       printType: "BOOK",
-      categories: ["Art / History / General"],
+      categories: [
+        "Business & Economics / Leadership",
+        "Technology & Engineering / Social Aspects",
+        "Self-Help / Communication & Social Skills",
+      ],
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "1.7.6.0.preview.2",
+      allowAnonLogging: false,
+      contentVersion: "1.1.1.0.preview.1",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72aFmkqe_TBTHmNORMzUbK1ua1v5PGAjGc0P_OiTGkPNHGepsow6ol9-I8UH29yUOLETi1gHJLtT4Hm9DrwXs5aD9a2wS9XmCCqRFYzD_hXPv4gf--kFHNSoZLq0C3NKZ6ldEdO&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71I23jzXuYov5DtXKlm-qYnczemcsp9TVllWsDmizpp52wmt2x3svbr2Twqo-W3WdLUqD1v6cHhcMKY5JOrPObsGlWy3RJppY_dtchbWqRKIpDDWf4ZAQ3wtBycErY0KpNM1qqL&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70pgLEewqEsWlymWhH05ufqntf8ujCbcVsuEakl07NnSMMNu3VLi1x6qYuUBVTGK04uDzuqq8KunLv6tn1T7GkSXtaidylHySuNdUSEdUj6XhLjhDjeY5KRa-Vwvmn4uCTlVS-j&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72zdG1hf4zTVIxYW8xQwRW22l5ehvUvHYF8SGnKM0SG30L1cz_kKFL1-zY6p00rRDhUyJXTNBi2ihA08jT6iCGzJTbJZoWIzFeDDyYqtRiqPLN1F_aVck4QGY4qUPvvnRPY7j2i&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73Q2MwHv780SE1XT9QTIV33WnGwq1Vygv2JV7RqAKuX7pOAPZOzNTzRjsNpVB9-6B3LRw2bOD1nqYtKT2AEtehPLEm03LL36jLOt46L9ux5DshRnm1ewX1ZDjuV_Ku45xicZOix&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE716hFMVgSAaMUMdTe0KNuvEsH1QFFyoB81Nd57Y5nQfxTnneMWJmB4erpCkNjq0F2lEj4gtE3g6BFvD9QNwVkv1Mu8Pu7cmfU_TUMon1EWUIwtL4MIrSeI9UXv0UTUuUpn8GKtg&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE7091Ke0T4eti-xLB6TM-Uv5ve8qLjQJq-2FPKW3ouNOhcyxQZJob7UG4kvKxfgXI0cZ82N8WOu3coYPATgd_iujZoJrO-4TdirRPD41kAKbDWFyhdonVhFMKtmpA5Z9ovG0bBEh&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71LJtIWETo2eYhmpkQki5HejHJL1wZqG8OpM_Tx3yqa4sXzLCcAV2NNkl7OA71Ri-0jaJXBVLNOL6C0pHU_h3W-BTSfv26g1IwywIjDtkxgkXeI2eVbR4MAwZXsFYkINlzbnOLs&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE728PBP1phQuqZy22BT4jDhOgjSIvSI0ncQPqegcFOpLbo9IQy6sd8tTgUml-L3gr1qi8hYQycG6BYj3_1NSyL6AbzyE7-v4ZJ2WsTsK2-Xjh1RTpHQtfpiVdOWJ6h7MEfMqf8s4&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72QMcp0ciQIPpr3wcKoYS-Utmc_HHHpzuhgrF-83PiT-nmCnzEawjQQmsbRyRNh0yjKYRbP-J2eDL8dRuovPo2aFrzM0qTXH0sc3br7KDgE4IPnZRN8Vc3euw3uG0S43-P3cDO2&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE717TJrhRyYdDBKnHNHPjiBByf4OG8wMhba3FO1vkKLJ7wxFtP2YiBUbz2q60kDtfvdpOmYEOAEPDkBYJbjHzEV4YGDtJun5g2Ap2gN7XPETpjtV59U9dNBBbWy6X-mlFo6uQ54W&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=42ZpBgAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=42ZpBgAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=42ZpBgAAQBAJ",
+        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "8" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 3.99, currencyCode: "USD" },
-      retailPrice: { amount: 3.99, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=42ZpBgAAQBAJ&rdid=book-42ZpBgAAQBAJ&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 3990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 3990000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
       country: "US",
       viewability: "PARTIAL",
       embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: {
+      epub: { isAvailable: false },
+      pdf: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/Civilisation-sample-epub.acsm?id=42ZpBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/The_Seven_Rules_of_Trust-sample-pdf.acsm?id=RjBOEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
-      pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=42ZpBgAAQBAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 575,
-      height: 750,
+      width: 1652,
+      height: 2478,
       image:
-        "http://books.google.com/books/publisher/content?id=42ZpBgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE717TJrhRyYdDBKnHNHPjiBByf4OG8wMhba3FO1vkKLJ7wxFtP2YiBUbz2q60kDtfvdpOmYEOAEPDkBYJbjHzEV4YGDtJun5g2Ap2gN7XPETpjtV59U9dNBBbWy6X-mlFo6uQ54W&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
     },
   },
   {
