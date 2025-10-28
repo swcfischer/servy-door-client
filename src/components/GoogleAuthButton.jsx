@@ -40,8 +40,8 @@ const GoogleButtonContainer = styled.div`
     text-decoration: none;
 
     .user-avatar {
-      width: 32px;
-      height: 32px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       border: 2px solid #5e5e5e;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -116,7 +116,7 @@ const GoogleAuthButton = ({ text = "Sign in" }) => {
 
   // Don't show anything if loading
   if (user.isLoading) {
-    return null;
+    return <div style={{ width: "102px" }}></div>;
   }
 
   const handleLogin = () => {
