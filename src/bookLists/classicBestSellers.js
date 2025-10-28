@@ -1,6 +1,168 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "POOJDQAAQBAJ",
+    etag: "zpNKIkp1DV0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/POOJDQAAQBAJ",
+    volumeInfo: {
+      title: "Zero to One",
+      subtitle: "Notes on Startups, or How to Build the Future",
+      authors: ["Peter Thiel", "Blake Masters"],
+      publisher: "Crown",
+      publishedDate: "2014-09-16",
+      description:
+        "<p><b>#1 <i>NEW YORK TIMES</i> BESTSELLER</b> • <b>“This book delivers completely new and refreshing ideas on how to create value in the world.”—Mark Zuckerberg, CEO of Meta</b><br> <br><b>“Peter Thiel has built multiple breakthrough companies, and <i>Zero to One</i> shows how.”—Elon Musk, CEO of SpaceX and Tesla</b><br><br>The great secret of our time is that there are still uncharted frontiers to explore and new inventions to create. In <i>Zero to One</i>, legendary entrepreneur and investor Peter Thiel shows how we can find singular ways to create those new things.<br><br>Thiel begins with the contrarian premise that we live in an age of technological stagnation, even if we’re too distracted by shiny mobile devices to notice. Information technology has improved rapidly, but there is no reason why progress should be limited to computers or Silicon Valley. Progress can be achieved in any industry or area of business. It comes from the most important skill that every leader must master: learning to think for yourself.<br><br>Doing what someone else already knows how to do takes the world from 1 to n, adding more of something familiar. But when you do something new, you go from 0 to 1. The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. Tomorrow’s champions will not win by competing ruthlessly in today’s marketplace. They will escape competition altogether, because their businesses will be unique.<br><br><i>Zero to One</i> presents at once an optimistic view of the future of progress in America and a new way of thinking about innovation: it starts by learning to ask the questions that lead you to find value in unexpected places.<br><br></p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0804139296" },
+        { type: "ISBN_13", identifier: "9780804139298" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 224,
+      printedPageCount: 225,
+      dimensions: {
+        height: "22.00 cm",
+        width: "14.50 cm",
+        thickness: "2.00 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Business & Economics / Small Business",
+        "Political Science / Public Policy / Economic Policy",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.8.1.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70HTWqFJl__bxBnyoi8Eo2Z_k_mjzXvXPvO_d_u31L16GoFGhJc53DFFSDapbtBCE7uBqqVDvlBAyiIl13cQ_CAuBfbYSYWUGkEFxcjy02uuBSAcPQ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72zgQBarPnYq_bXbwyO9eQ5VBzYXan_mxxFG_nmxcEAI4auA_Frj4ksaljN83MeNEq7hfpko7pXeQSpHZsQ1bcy9-F0-A5zC_IwcDrJRX-_M1p2xBk&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71z-qL0hRodPuRoEP_eJBulACGmXiTaYLFwXPNk-1dTDTLGQlixQ6YntopTBqPo16adS-1oqop1AmfUdLuwgTFJpBGUgJNJA3XjS-PkXeioy6OMu_E&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70L5c2FNoPtLHtdt-RI6Aknxj4tkSD9g0qS4HW8EMNhUY3os2NmOja6B9fT0PQIFwtWX1CDe4iEatm21kekeiOPD9810mGA3V_0-S2PDz6r5JL4Yvo&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70swUa4RpV80kvqruMCM4pnTraLT72Z_qlocpX29PeZpdN2eYVjD0ZAAmEMIH6MYQ7Qs6_xeAP9g4JUrtTtutLRI6TFEmSnYKKvsE9cb_E6TJ4lcxs&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73XFHYXP3TLrRR77ekXQ08_VtLEjBj0Rbcb_ososvroWRj7Vo_djNrAZVxmPPHz_jv335zjUZNwj4xDzZ7ITUxyyN8fWKuqdsy-OdHm-Pf0iGKSQ5c&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=POOJDQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=POOJDQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2478,
+      image:
+        "http://books.google.com/books/publisher/content?id=POOJDQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73XFHYXP3TLrRR77ekXQ08_VtLEjBj0Rbcb_ososvroWRj7Vo_djNrAZVxmPPHz_jv335zjUZNwj4xDzZ7ITUxyyN8fWKuqdsy-OdHm-Pf0iGKSQ5c&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "RaGTOrteRl4C",
+    etag: "J0vLlGizKdE",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RaGTOrteRl4C",
+    volumeInfo: {
+      title: "The Linguist",
+      subtitle: "A Personal Guide to Language Learning",
+      authors: ["Steve Kaufmann"],
+      publisher: "The Linguist",
+      publishedDate: "2003",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0973339403" },
+        { type: "ISBN_13", identifier: "9780973339406" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 146,
+      printedPageCount: 152,
+      dimensions: { height: "22.00 cm" },
+      printType: "BOOK",
+      averageRating: 5,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.2.2.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72719Qkpxtj0opjl-9zZfprlV9F_4761HMHC9YtQBIP9vAHaMPCpVfLDT1o6yVX7mFPinRnwsBtZmJMhK5dhU8Q3mfxn6myC7IDf59PfyW54as43W0&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72Qt_fyItDVjuK3Vhv1y6fb49lae_1XTiOR6U1EfsFJt3i0e2sA8Jmiet3v-gU-YrYWkRuLqBN7XFtjYf9_2pPskrIJSLGbrc0KYLzp-HjmUCpfp_8&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE738kXGweCmCknX0Y6R3Y1Shl08Z3qvZ-JLit-EW8Qkcz5GSXkT7TAGmfP4Z7TAdFYVrFsecB3QdNUbzifi0H5N0d5QmBmzP2CaJajFTFa81By9uaCs&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE701puUFAYjPtCa6EiYc2jiUHAhiOc1uoMbtYwwzMOGmXuRCVNOCKJ66OEStw4hPwJkcb3WOCPeqUdOs_P375woOm7u7RuTCCCXcMhQlt_7_UTg9ufQ&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71LBZ8gr9fiD4nn0BNhrg2f6tcH9t4sr4CPODfWCuwdwU4dNVqQwtIypO30I9tqNVKES6TViVz4j4kPXOsWQMvVjG33TRZYyE9b8eO3hSRe1dwCl4I&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE702nyFEbJbYX0UAmDYJgaAzV0Ix6Wj6fsx-W0vO9gG1oUVruNhLhrH09WvHXT87bb0KNBtUmEH8WwQUU3c7V5ovBcmDBGuQPmVj_ktrvP5xIqiNQi8&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=RaGTOrteRl4C&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=RaGTOrteRl4C&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=RaGTOrteRl4C",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "6" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Linguist-sample-epub.acsm?id=RaGTOrteRl4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Linguist-sample-pdf.acsm?id=RaGTOrteRl4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=RaGTOrteRl4C&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2553,
+      image:
+        "http://books.google.com/books/content?id=RaGTOrteRl4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE702nyFEbJbYX0UAmDYJgaAzV0Ix6Wj6fsx-W0vO9gG1oUVruNhLhrH09WvHXT87bb0KNBtUmEH8WwQUU3c7V5ovBcmDBGuQPmVj_ktrvP5xIqiNQi8&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "RjBOEQAAQBAJ",
     etag: "Ir1V8YIigwI",
     selfLink: "https://www.googleapis.com/books/v1/volumes/RjBOEQAAQBAJ",
