@@ -1,10 +1,11 @@
 /* src/global.css */
 body {
-  
   margin: 0;
   background: #141519;
   position: relative;
-
+}
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* * > * {
