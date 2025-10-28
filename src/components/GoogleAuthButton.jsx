@@ -5,6 +5,8 @@ import axiosInstance from "../axiosInstance";
 import { UserContext } from "./Layout";
 
 const GoogleButtonContainer = styled.div`
+  width: 102.28px;
+
   .google-login-button {
     display: flex;
     align-items: center;
