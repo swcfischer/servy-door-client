@@ -1,6 +1,6 @@
 // * Book List (HomePage)
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { navigate } from "gatsby";
@@ -8,9 +8,14 @@ import axios from "axios";
 import Pagination from "@mui/material/Pagination";
 import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
+import {
+  searchGoogleBooks,
+  searchGoogleBooksPublic,
+} from "../utils/googleBooksApi";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
 import ClassicBestSellerList from "../components/ClassicBestSellerList";
+import { UserContext } from "../components/Layout";
 
 const EmotionContainer = styled.div`
   button {
@@ -71,6 +76,7 @@ export default function Index(props) {
   const _searchFilter = params.get("searchFilter");
   const pageParam = params.get("page") ? Number(params.get("page")) : 1;
   const [books, setBooks] = useState([]);
+  const { user } = useContext(UserContext);
 
   const searchFilterObj = {
     label: _searchFilter ? capitalize(_searchFilter) : "No Filter",
@@ -90,24 +96,43 @@ export default function Index(props) {
     }
   }, [qParam, q]);
 
-
   useEffect(() => {
     const fetchBooks = async () => {
       setIsLoading(true);
-      const getPath =
-        volumesGet +
-        "?" +
-        buildQueryParams({
-          q: searchBooks(removeSearchOperators(q), searchFilter?.value),
-          startIndex: getStartIndex(pageParam),
-          searchFilter: searchFilter?.value,
-        });
+
+      const queryParams = {
+        q: searchBooks(removeSearchOperators(q), searchFilter?.value),
+        startIndex: getStartIndex(pageParam),
+        maxResults: itemsPerPage,
+      };
+
       try {
-        const response = await axios.get(getPath);
-        setBooks(response?.data?.items ?? []);
-        setTotalItems(response.data.totalItems);
+        let response;
+
+        // Use authenticated API if user has Google OAuth token
+        if (user?.uuid && user?.googleId && !user.isLoading) {
+          response = await searchGoogleBooks(user.uuid, queryParams);
+        } else {
+          // Fallback to public API for anonymous users
+          response = await searchGoogleBooksPublic(queryParams);
+        }
+
+        setBooks(response?.items ?? []);
+        setTotalItems(response.totalItems);
       } catch (error) {
         console.error("Error fetching books:", error);
+
+        // If authenticated request fails, try fallback to public API
+        if (error.response?.status === 401 && user?.uuid) {
+          console.log("Falling back to public API");
+          try {
+            const response = await searchGoogleBooksPublic(queryParams);
+            setBooks(response?.items ?? []);
+            setTotalItems(response.totalItems);
+          } catch (fallbackError) {
+            console.error("Fallback API also failed:", fallbackError);
+          }
+        }
       } finally {
         setIsLoading(false);
       }
@@ -120,7 +145,14 @@ export default function Index(props) {
       setTotalItems(0);
       setIsLoading(false);
     }
-  }, [q, pageParam, searchFilter?.value]);
+  }, [
+    q,
+    pageParam,
+    searchFilter?.value,
+    user?.uuid,
+    user?.googleId,
+    user?.isLoading,
+  ]);
 
   const handleOnSubmit = async (e) => {
     e.preventDefault();

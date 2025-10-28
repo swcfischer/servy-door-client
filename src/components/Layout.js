@@ -4,6 +4,7 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import TiltedTile from "./TiltedTile";
+import GoogleAuthButton from "./GoogleAuthButton";
 import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
@@ -28,12 +29,19 @@ const StyledContainer = styled(Container)`
   .toolbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .nav-links {
     display: flex;
     justify-content: space-between;
     width: 210px;
+    align-items: center;
+  }
+
+  .auth-button-container {
+    display: flex;
+    align-items: center;
   }
 
   .footer {
@@ -164,7 +172,10 @@ const Layout = ({ children }) => {
                 </div>
                 <div className="nav-links">
                   <TiltedTile text="Library" to="/library" />
-                  <TiltedTile text="Account" to="/account" />
+                  {/* <TiltedTile text="Account" to="/account" /> */}
+                </div>
+                <div className="auth-button-container">
+                  <GoogleAuthButton />
                 </div>
               </Toolbar>
             </AppBar>

@@ -321,7 +321,7 @@ function BookDetails(props) {
 
             {book.googleId && (
               <>
-                <dt>Book Details</dt>
+                <dt>Book Jacket</dt>
                 <dd>
                   <a
                     onClick={(e) => {
@@ -330,7 +330,7 @@ function BookDetails(props) {
                     }}
                     href="#"
                   >
-                    Here
+                    Book Details
                   </a>
                 </dd>
               </>

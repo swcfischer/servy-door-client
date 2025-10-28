@@ -17,6 +17,7 @@ import ActionButton from "../components/BookDetails/ActionButton";
 import { Snackbar } from "@mui/material";
 import { buildQueryParams } from "../utils/queryFunctions";
 import AuthorModal from "../components/AuthorModal/AuthorModal";
+import { getGoogleBook } from "../utils/googleBooksApi";
 
 // import BookComments from "../components/BookComments/BookComments";
 
@@ -143,21 +144,50 @@ function Book(props) {
   useEffect(() => {
     async function fetchBook() {
       setIsLoading(true);
-      const response = await axios.get(bookGet + id);
-      const img = await getImageLink(response.data.volumeInfo.imageLinks);
+      try {
+        let response;
 
-      setState({
-        ...response.data,
-        img,
-      });
+        // Use authenticated API if user has Google OAuth
+        if (user?.uuid && user?.googleId && !user.isLoading) {
+          response = await getGoogleBook(user.uuid, id);
+        } else {
+          // Fallback to public API
+          const publicResponse = await axios.get(bookGet + id);
+          response = publicResponse.data;
+        }
 
-      setIsLoading(false);
+        const img = await getImageLink(response.volumeInfo.imageLinks);
+
+        setState({
+          ...response,
+          img,
+        });
+      } catch (error) {
+        console.error("Error fetching book:", error);
+
+        // Fallback to public API if authenticated request fails
+        if (error.response?.status === 401) {
+          try {
+            const publicResponse = await axios.get(bookGet + id);
+            const response = publicResponse.data;
+            const img = await getImageLink(response.volumeInfo.imageLinks);
+            setState({
+              ...response,
+              img,
+            });
+          } catch (fallbackError) {
+            console.error("Fallback also failed:", fallbackError);
+          }
+        }
+      } finally {
+        setIsLoading(false);
+      }
     }
     Modal.setAppElement("body");
     if (id) {
       fetchBook();
     }
-  }, [id]);
+  }, [id, user?.uuid, user?.googleId, user?.isLoading]);
 
   useEffect(() => {
     if (user.uuid && id) {
@@ -238,51 +268,51 @@ function Book(props) {
               label: !isBookmark ? "Bookmark" : "Remove Bookmark",
               action: !isBookmark
                 ? async () => {
-                  try {
-                    await axiosInstance.post(
-                      "/bookmarks/create-bookmark/" + user.uuid,
-                      {
-                        googleId: state.id,
-                        title: state.volumeInfo.title,
-                        image: state.img.image,
-                        volumeInfo: state.volumeInfo,
-                        pageCount: state.volumeInfo.pageCount,
-                        infoLink: state.volumeInfo.infoLink,
-                        previewLink: state.volumeInfo.previewLink,
-                        publisher: state.volumeInfo.publisher,
-                        datePublished: state.volumeInfo.publishedDate,
-                        author: state.volumeInfo.authors.join(", "),
-                        summary: state.volumeInfo.description,
-                      }
-                    );
-                    setIsBookmark(true);
-                    setSnackbarOpen(true);
-                    setSnackbarMessage("Added to List in Library");
-                    // if (data.error) {
-                    //   return navigate("/library/book-details?id=" + data.uuid);
-                    // }
-                    // navigate("/library/book-details?id=" + data.uuid);
-                  } catch (err) {
-                    console.log(err);
+                    try {
+                      await axiosInstance.post(
+                        "/bookmarks/create-bookmark/" + user.uuid,
+                        {
+                          googleId: state.id,
+                          title: state.volumeInfo.title,
+                          image: state.img.image,
+                          volumeInfo: state.volumeInfo,
+                          pageCount: state.volumeInfo.pageCount,
+                          infoLink: state.volumeInfo.infoLink,
+                          previewLink: state.volumeInfo.previewLink,
+                          publisher: state.volumeInfo.publisher,
+                          datePublished: state.volumeInfo.publishedDate,
+                          author: state.volumeInfo.authors.join(", "),
+                          summary: state.volumeInfo.description,
+                        }
+                      );
+                      setIsBookmark(true);
+                      setSnackbarOpen(true);
+                      setSnackbarMessage("Added to List in Library");
+                      // if (data.error) {
+                      //   return navigate("/library/book-details?id=" + data.uuid);
+                      // }
+                      // navigate("/library/book-details?id=" + data.uuid);
+                    } catch (err) {
+                      console.log(err);
+                    }
                   }
-                }
                 : async () => {
-                  try {
-                    await axiosInstance.delete(
-                      "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
-                    );
+                    try {
+                      await axiosInstance.delete(
+                        "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
+                      );
 
-                    setSnackbarMessage("Removed from List in Library");
-                    setSnackbarOpen(true);
-                    setIsBookmark(false);
-                    // if (data.error) {
-                    //   return navigate("/library/book-details?id=" + data.uuid);
-                    // }
-                    // navigate("/library/book-details?id=" + data.uuid);
-                  } catch (err) {
-                    console.log(err);
-                  }
-                },
+                      setSnackbarMessage("Removed from List in Library");
+                      setSnackbarOpen(true);
+                      setIsBookmark(false);
+                      // if (data.error) {
+                      //   return navigate("/library/book-details?id=" + data.uuid);
+                      // }
+                      // navigate("/library/book-details?id=" + data.uuid);
+                    } catch (err) {
+                      console.log(err);
+                    }
+                  },
             },
             { isMenuDivider: true },
             {
