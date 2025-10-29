@@ -1,6 +1,160 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "K8gGEQAAQBAJ",
+    etag: "n20tEEAIL6w",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/K8gGEQAAQBAJ",
+    volumeInfo: {
+      title: "Source Code",
+      subtitle: "My Beginnings",
+      authors: ["Bill Gates"],
+      publisher: "Knopf Canada",
+      publishedDate: "2025-02-04",
+      description:
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age.<br><br>“A surprisingly candid memoir of the Microsoft mogul’s early years. . . . Reading this book feels like watching someone take a well-known black-and-white sketch, fill in the details, and paint it in vivid color.” —<i>GeekWire</i><br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1039056334" },
+        { type: "ISBN_13", identifier: "9781039056336" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 320,
+      printedPageCount: 337,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Business",
+        "Biography & Autobiography / Science & Technology",
+        "Biography & Autobiography / Personal Memoirs",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.1.1.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71oF7fjp8vs6TO3ncmphZNDCpxwnSt6M3FYexu06VFPHd95YWHpHw6V8hvlToVaSia3q9AIlWIRiBEWqDw5fSdZmnORfNWQ8V-gxFw7etYfcUyB8OcQhWo1qBL9T4DcrfLq_iTe&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71i4yIKAwVqllNS6x2Ei39ynhFozganghpIfhkysQpiTNEbp2RZVrQnvUJqv0ARzc2-q2jJspT8tZNeMCOjrdIBLvAelvVuz4zGwOrE_KVhIxUloCnv2fKyHxyNtPAaywKmnhh5&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72IO4_nkS13nZ_z2UqeCnF8MsJuxTzl-qgIW-ZOwUrbU0wdi8D6ZXWgd_EMgbfVSAfiQKgAZ296vjPM88hG6mH1r-ilkeP9e9gVVrsZ73dX_Cx9Aj8ViCjrj1OqgWRA59_JqsrT&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70TXn3U4G5uDRZnGeDk-G2fuiVZcLXrgKwjBobipZ8JJni4dOLXe0sP7i6w42G1VFYx3e3u_0dvJ61acPyKJSVI2-kNkdupG2NLx1eWxhBGnbv5sH5NILH0yrelnZ3XM9ptp72G&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73x9EJ-u78i3DOS9MSWuEKqdXYm7QeWE7HsmDT7rkK727uJ5JsRtnf6X-eX21_dH-O8mFdc0C4iYfkj7RUCcADtR6rPKOuF9Ilh5UqoaBbBTk2Y2UTMaihrn6V9Tgep8qhqKuGs&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72DTs61oUSa2q7FvJT4ox-KC51UNWr0ObE53gW1oziwtmmgUJOdtrgUiG8WT6Wy5WQxLfrMxRZ4DO4aNEaUNOYDtGAHfkY2y8Q_DWbsZxqFLND0kIdsSgrEvrnwnkdLkqWbmbV4&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Source_Code-sample-epub.acsm?id=K8gGEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1840,
+      height: 2779,
+      image:
+        "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72DTs61oUSa2q7FvJT4ox-KC51UNWr0ObE53gW1oziwtmmgUJOdtrgUiG8WT6Wy5WQxLfrMxRZ4DO4aNEaUNOYDtGAHfkY2y8Q_DWbsZxqFLND0kIdsSgrEvrnwnkdLkqWbmbV4&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "rSCVMQEACAAJ",
+    etag: "UayL0+2wLNA",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/rSCVMQEACAAJ",
+    volumeInfo: {
+      title: "Steve Jobs (a True Book: Biographies)",
+      authors: ["Josh Gregory"],
+      publisher: "Scholastic Library Publishing",
+      publishedDate: "2013",
+      description:
+        "When Steve Jobs died in 2011, the world mourned the passing of one of the most influential inventors and business leaders in history.<p></p>Readers (Grades 3-5) will learn about Jobs' incredible life and get a close look at some of his most important innovations, from the Apple II and Macintosh computers to the iPod and the iPhone.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0531238784" },
+        { type: "ISBN_13", identifier: "9780531238783" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 48,
+      printedPageCount: 48,
+      dimensions: {
+        height: "21.30 cm",
+        width: "18.10 cm",
+        thickness: "0.40 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Juvenile Nonfiction / Biography & Autobiography / General",
+        "Juvenile Nonfiction / Biography & Autobiography / Science & Technology",
+        "Juvenile Nonfiction / Computers / General",
+        "Juvenile Nonfiction / Science & Nature / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70sjBotj8ZDkTZo1Kc8iu1FDlHgfapnEdihJ4lda7qwnNkKlROjpSEDQb5JiAqSqyi6mvQ3M681cYPO0EfXQh0MXF1Gr4elMMMlHxkOZxeP-nmMDF1N5smoaP3p1doCjfFaJEIe&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73iFAys8H7B2hGkUAUAmYuQMAJwksCRV4Jn40a7u6qES7Bit-fJMb7d86Z8k7o3rgZ4DqtjNuGCeuKF7AQnBf9vleQpL205BfYkBl-o3dv-F3flEjbv0IdCbqzcI4L3Wh0GR_R_&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=rSCVMQEACAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=rSCVMQEACAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=rSCVMQEACAAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=rSCVMQEACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 151,
+      image:
+        "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73iFAys8H7B2hGkUAUAmYuQMAJwksCRV4Jn40a7u6qES7Bit-fJMb7d86Z8k7o3rgZ4DqtjNuGCeuKF7AQnBf9vleQpL205BfYkBl-o3dv-F3flEjbv0IdCbqzcI4L3Wh0GR_R_&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "RaGTOrteRl4C",
     etag: "J0vLlGizKdE",
     selfLink: "https://www.googleapis.com/books/v1/volumes/RaGTOrteRl4C",
