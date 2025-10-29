@@ -1,6 +1,74 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "QHcwEQAAQBAJ",
+    etag: "i0emi/ECioE",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/QHcwEQAAQBAJ",
+    volumeInfo: {
+      title: "Young Man in a Hurry",
+      subtitle: "A Memoir of Discovery",
+      authors: ["Gavin Newsom"],
+      publisher: "Penguin",
+      publishedDate: "2026-02-24",
+      description:
+        "<b>From California Governor Gavin Newsom comes an intimate and poignant account of identity, belonging, and the defining moments that inspired a life in politics</b><br><b> </b><br>“Go slow,” his political elders advised him, but Gavin Newsom has never known such a speed. For Newsom, the California Dream is what lured his father’s family from County Cork, Ireland, six generations ago. His great-great-grandfather, a cop, walked a beat in San Francisco, where almost 150 years later, Newsom would be elected as mayor, running on the values instilled in him by his family history: that California’s open arms must continue to extend to each new generation.<br><br>Newsom has never lived anywhere but California. Born in San Francisco, his parents divorced at a young age, and his childhood was spent being tugged between two worlds: his mother worked three jobs in order to care for her children while his father, a close friend of the Getty family, brought Newsom into San Francisco society, a world of wealth and connections. The dissonance was frustrating, and made all the more difficult because of undiagnosed dyslexia, but the vantage point was valuable: he inherited his mother’s perseverance and his father’s reverence of California, not only its wildness, but its opportunity.<br><br>In <i>Young Man in a Hurry</i>, Newsom traces the forces that have defined his ambitions as a politician and have pushed him to outpace the nation on myriad cutting-edge social issues that have since entered the mainstream. As mayor of San Francisco, he made waves when he violated state law in order to issue marriage licenses to same-sex couples, more than ten years before the Supreme Court made such unions legal. He launched bold efforts to counter climate change, improve mental health care, and enhance gun safety, and worked to preserve the California Dream for his constituents. Elected as governor on the eve of unprecedented wildfires and entering office into immediate hyper-partisan headwinds from Washington, DC, Newsom has constantly and consistently stuck his neck out. Here for the first time, he reflects on the long personal journey that ultimately shaped him into one of the most recognizable and accomplished elected officials in America. Filled with intimate family history and written with candor and remarkable personal insight, here is a deeply resilient California story of identity, belonging, and the defining moments that inspired a life in politics.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1984881949" },
+        { type: "ISBN_13", identifier: "9781984881946" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 304,
+      printedPageCount: 304,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Personal Memoirs",
+        "Political Science / American Government / State",
+        "Political Science / Political Ideologies / Democracy",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE735nNOtHnDNuPu-vtsBvht-bsW9L55BMWLmDqepNEBehRCrR0vhGCvru10oJ58O7qwyS6lpsVoieOV8F-8bR46Io-Ckn9zPVT05An3_0E3QCbPsxTEm8B8texaY67lI6MC4fxIk&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_shtkFcbdUqIeGpR_mNs7_afrVjxJgR_sRY2S01COckZExrQ-0jAb7kmVjv4GpGGQwRcFwORU9QsA0VAJi_DnU3A5h7T2SsysNW9oQde9r7l3bSB7KHPBRn_L2AOvyI2KA7dD&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=QHcwEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=QHcwEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=QHcwEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=QHcwEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 195,
+      image:
+        "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_shtkFcbdUqIeGpR_mNs7_afrVjxJgR_sRY2S01COckZExrQ-0jAb7kmVjv4GpGGQwRcFwORU9QsA0VAJi_DnU3A5h7T2SsysNW9oQde9r7l3bSB7KHPBRn_L2AOvyI2KA7dD&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "K8gGEQAAQBAJ",
     etag: "n20tEEAIL6w",
     selfLink: "https://www.googleapis.com/books/v1/volumes/K8gGEQAAQBAJ",
@@ -82,35 +150,31 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "rSCVMQEACAAJ",
-    etag: "UayL0+2wLNA",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/rSCVMQEACAAJ",
+    id: "8ZSYygEACAAJ",
+    etag: "Q/WdkYPYwsg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/8ZSYygEACAAJ",
     volumeInfo: {
-      title: "Steve Jobs (a True Book: Biographies)",
-      authors: ["Josh Gregory"],
-      publisher: "Scholastic Library Publishing",
-      publishedDate: "2013",
+      title: "Quand la machine apprend",
+      subtitle:
+        "la révolution des neurones artificiels et de l'apprentissage profond",
+      authors: ["Yann Le Cun", "Caroline Brizard"],
+      publisher: "Odile Jacob",
+      publishedDate: "2019",
       description:
-        "When Steve Jobs died in 2011, the world mourned the passing of one of the most influential inventors and business leaders in history.<p></p>Readers (Grades 3-5) will learn about Jobs' incredible life and get a close look at some of his most important innovations, from the Apple II and Macintosh computers to the iPod and the iPhone.",
+        "« Nous vivons une révolution inouïe, inimaginable il y a encore cinquante ans, celle de la machine qui apprend, et qui apprend par elle-même. Au lieu d'exécuter les ordres d'un programme, la machine peut désormais acquérir par elle-même, par l'expérience, les capacités nécessaires pour accomplir les tâches qui lui sont assignées, y compris celles que l'on croyait réservées à l'humain. Les applications sont immenses : reconnaissance des formes, des voix, des images et des visages, voiture autonome, traduction de centaines de langues, détection des tumeurs dans les images médicales... Yann Le Cun est à l'origine de cette révolution. Il est en effet l'un des inventeurs de l'apprentissage profond, le deep learning, qui caractérise un réseau de neurones artificiels dont l'architecture et le fonctionnement s'inspirent du cerveau. C'est à la naissance de cette nouvelle forme d'intelligence, à l'émergence d'un système quasiment auto-organisateur, que nous convie Yan Le Cun. Un livre qui évoque la démarche intellectuelle d'un inventeur au carrefour de l'informatique et des neurosciences. Un livre qui éclaire l'avenir de l'intelligence artificielle, ses enjeux, ses promesses et ses risques. Un livre passionnant, clair et accessible, qui nous fait pénétrer au coeur de la machine et nous fait découvrir un nouveau monde fascinant, qui est déjà le nôtre. Yann Le Cun, lauréat du prix Turing, est professeur à New York University et dirige la recherche fondamentale chez Facebook. »-- Quatrième de couverture.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0531238784" },
-        { type: "ISBN_13", identifier: "9780531238783" },
+        { type: "ISBN_10", identifier: "2738149316" },
+        { type: "ISBN_13", identifier: "9782738149312" },
       ],
       readingModes: { text: false, image: false },
-      pageCount: 48,
-      printedPageCount: 48,
+      pageCount: 394,
+      printedPageCount: 394,
       dimensions: {
-        height: "21.30 cm",
-        width: "18.10 cm",
-        thickness: "0.40 cm",
+        height: "22.00 cm",
+        width: "14.50 cm",
+        thickness: "2.00 cm",
       },
       printType: "BOOK",
-      categories: [
-        "Juvenile Nonfiction / Biography & Autobiography / General",
-        "Juvenile Nonfiction / Biography & Autobiography / Science & Technology",
-        "Juvenile Nonfiction / Computers / General",
-        "Juvenile Nonfiction / Science & Nature / General",
-      ],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
       contentVersion: "preview-1.0.0",
@@ -118,19 +182,13 @@ const classicBestsellerList = [
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70sjBotj8ZDkTZo1Kc8iu1FDlHgfapnEdihJ4lda7qwnNkKlROjpSEDQb5JiAqSqyi6mvQ3M681cYPO0EfXQh0MXF1Gr4elMMMlHxkOZxeP-nmMDF1N5smoaP3p1doCjfFaJEIe&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73iFAys8H7B2hGkUAUAmYuQMAJwksCRV4Jn40a7u6qES7Bit-fJMb7d86Z8k7o3rgZ4DqtjNuGCeuKF7AQnBf9vleQpL205BfYkBl-o3dv-F3flEjbv0IdCbqzcI4L3Wh0GR_R_&source=gbs_api",
-      },
-      language: "en",
+      language: "fr",
       previewLink:
-        "http://books.google.com/books?id=rSCVMQEACAAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=8ZSYygEACAAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=rSCVMQEACAAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=8ZSYygEACAAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=rSCVMQEACAAJ",
+        "https://play.google.com/store/books/details?id=8ZSYygEACAAJ",
     },
     saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
@@ -142,16 +200,11 @@ const classicBestsellerList = [
       epub: { isAvailable: false },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=rSCVMQEACAAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=8ZSYygEACAAJ&hl=&source=gbs_api",
       accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
-    img: {
-      width: 128,
-      height: 151,
-      image:
-        "http://books.google.com/books/content?id=rSCVMQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73iFAys8H7B2hGkUAUAmYuQMAJwksCRV4Jn40a7u6qES7Bit-fJMb7d86Z8k7o3rgZ4DqtjNuGCeuKF7AQnBf9vleQpL205BfYkBl-o3dv-F3flEjbv0IdCbqzcI4L3Wh0GR_R_&source=gbs_api",
-    },
+    img: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571369567i/48497641.jpg",
   },
 
   {

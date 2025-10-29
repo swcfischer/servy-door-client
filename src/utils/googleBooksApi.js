@@ -1,6 +1,38 @@
 import axiosInstance from "../axiosInstance";
 
 /**
+ * Check if user needs to re-authenticate with Google
+ * @param {Object} error - Error object from API call
+ * @returns {boolean} - True if user needs to re-authenticate
+ */
+function requiresReauth(error) {
+  return (
+    error.response?.status === 401 &&
+    error.response?.data?.requiresReauth === true
+  );
+}
+
+/**
+ * Handle authentication errors and provide user feedback
+ * @param {Object} error - Error object from API call
+ * @param {string} action - Description of the action that failed
+ */
+function handleAuthError(error, action = "access Google Books") {
+  if (requiresReauth(error)) {
+    console.error(
+      `Google authentication expired while trying to ${action}. Please sign in again.`
+    );
+
+    // You can add a toast notification here or trigger a modal
+    // For now, we'll just log it
+    if (typeof window !== "undefined") {
+      // Optional: Show a notification to the user
+      console.warn("Redirecting to Google authentication...");
+    }
+  }
+}
+
+/**
  * Search Google Books API with OAuth authentication
  * @param {string} userUuid - The user's UUID
  * @param {Object} params - Query parameters (q, startIndex, maxResults, etc.)
@@ -14,12 +46,7 @@ export async function searchGoogleBooks(userUuid, params) {
     );
     return response.data;
   } catch (error) {
-    // If token expired, user needs to re-authenticate
-    if (error.response?.status === 401) {
-      console.error("Google OAuth token expired. Please sign in again.");
-      // Optionally redirect to re-auth
-      // window.location.href = '/auth/google';
-    }
+    handleAuthError(error, "search books");
     throw error;
   }
 }
@@ -37,10 +64,28 @@ export async function getGoogleBook(userUuid, volumeId) {
     );
     return response.data;
   } catch (error) {
-    if (error.response?.status === 401) {
-      console.error("Google OAuth token expired. Please sign in again.");
-    }
+    handleAuthError(error, "fetch book details");
     throw error;
+  }
+}
+
+/**
+ * Validate user's Google authentication status
+ * @returns {Promise} - Validation result
+ */
+export async function validateGoogleAuth() {
+  try {
+    const response = await axiosInstance.post("/auth/validate-google-token");
+    return response.data;
+  } catch (error) {
+    console.error(
+      "Google auth validation failed:",
+      error.response?.data || error.message
+    );
+    return {
+      valid: false,
+      requiresReauth: requiresReauth(error),
+    };
   }
 }
 
