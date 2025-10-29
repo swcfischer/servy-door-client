@@ -182,6 +182,10 @@ const classicBestsellerList = [
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
+      imageLinks: {
+        thumbnail:
+          "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571369567i/48497641.jpg",
+      },
       language: "fr",
       previewLink:
         "http://books.google.com/books?id=8ZSYygEACAAJ&hl=&source=gbs_api",
@@ -204,7 +208,6 @@ const classicBestsellerList = [
       accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
-    img: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571369567i/48497641.jpg",
   },
 
   {
