@@ -43,7 +43,7 @@ const GoogleButtonContainer = styled.div`
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      border: 2px solid #5e5e5e;
+      border: none;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       cursor: pointer;
 
