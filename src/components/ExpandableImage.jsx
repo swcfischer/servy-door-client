@@ -30,18 +30,20 @@ const Container = styled.div`
 const modalStyles = {
   content: {
     position: "relative",
-    width: "800px",
+    width: "90vw",
+    maxWidth: "800px",
     boxSizing: "border-box",
     margin: "auto",
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
-    maxHeight: "100vh",
+    alignItems: "center",
+    maxHeight: "90vh",
     background: "#000",
     inset: 0,
-    padding: 0,
+    padding: "20px",
     overflow: "auto",
-    maxWidth: "100%",
-    border: "1px solid #222"
+    border: "1px solid #222",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
@@ -129,18 +131,23 @@ function ExpandableImage(props) {
 export default ExpandableImage;
 
 function getImageDimensions(state) {
-  const maxWidth = 600;
+  const maxWidth = Math.min(window.innerWidth * 0.8, 600);
+  const maxHeight = window.innerHeight * 0.7;
   const ratio = state.img.width / state.img.height;
 
-  if (state.img.width > maxWidth) {
-    return {
-      width: maxWidth,
-      height: maxWidth / ratio,
-    };
+  let width = state.img.width;
+  let height = state.img.height;
+
+  // Scale down if image is larger than max dimensions
+  if (width > maxWidth) {
+    width = maxWidth;
+    height = width / ratio;
   }
 
-  return {
-    width: state.img.width,
-    height: state.img.height,
-  };
+  if (height > maxHeight) {
+    height = maxHeight;
+    width = height * ratio;
+  }
+
+  return { width, height };
 }
