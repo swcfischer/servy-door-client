@@ -33,14 +33,14 @@ const modalStyles = {
     width: "90vw",
     maxWidth: "800px",
     boxSizing: "border-box",
-    margin: "auto",
+    margin: "0",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     maxHeight: "90vh",
     background: "#000",
-    inset: 0,
+    inset: "auto",
     padding: "20px",
     overflow: "auto",
     border: "1px solid #222",
@@ -48,6 +48,9 @@ const modalStyles = {
   overlay: {
     background: "rgba(0,0,0,.9)",
     backdropFilter: "blur(8px)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
 };
 
