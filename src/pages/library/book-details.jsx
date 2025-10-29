@@ -160,40 +160,60 @@ function BookDetails(props) {
   useEffect(() => {
     if (user?.uuid && id) {
       async function fetchData() {
-        const { data: resSession } = await axiosInstance.get(
-          `/reading-sessions/all/${user.uuid}/${id}`
-        );
-
-        if (!resSession.length) {
-          const _pageRange = [1, pagesPerDay];
-          const { data: newReadingSession } = await axiosInstance.post(
-            `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
-            {
-              pageRange: _pageRange,
-            }
+        try {
+          const { data: resSession } = await axiosInstance.get(
+            `/reading-sessions/all/${user.uuid}/${id}`
           );
 
-          setReadingSessions([newReadingSession]);
-          setPageRange(_pageRange);
-        } else {
-          setReadingSessions(resSession);
-          setPageRange(resSession[0].pageRange);
+          if (!resSession.length) {
+            const _pageRange = [1, pagesPerDay];
+            const { data: newReadingSession } = await axiosInstance.post(
+              `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
+              {
+                pageRange: _pageRange,
+              }
+            );
+
+            setReadingSessions([newReadingSession]);
+            setPageRange(_pageRange);
+          } else {
+            setReadingSessions(resSession);
+            setPageRange(resSession[0].pageRange);
+          }
+
+          const { data: books } = await axiosInstance.get(
+            `/books/book/${user.uuid}?id=${id}`
+          );
+
+          setBook(books);
+          setIsLoading(false);
+        } catch (apiError) {
+          console.error("API Error:", apiError);
+
+          // Check if this is a 404 or 403 (book not found or not owned by user)
+          if (
+            apiError.response?.status === 404 ||
+            apiError.response?.status === 403
+          ) {
+            setSnackbarMessage(
+              "This book is not available in your library. Redirecting..."
+            );
+            setSnackbarOpen(true);
+
+            // Redirect to library after a short delay
+            setTimeout(() => {
+              navigate("/library");
+            }, 2000);
+          } else {
+            setSnackbarMessage("Error loading book details. Please try again.");
+            setSnackbarOpen(true);
+          }
+
+          setIsLoading(false);
         }
-
-        const { data: books } = await axiosInstance.get(
-          `/books/book/${user.uuid}?id=${id}`
-        );
-
-        setBook(books);
-        setIsLoading(false);
       }
 
-      try {
-        fetchData();
-      } catch (err) {
-        console.error("There was an error fetching the book details!", err);
-        setIsLoading(false);
-      }
+      fetchData();
       // * Do another API call to get all the readingsessions for this user's book
     }
   }, [user, id]);

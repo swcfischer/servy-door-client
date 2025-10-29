@@ -53,6 +53,17 @@ function Library() {
     const fetchData = async () => {
       setIsLoading(true);
       try {
+        // First, silently clean up any orphaned books
+        try {
+          await axiosInstance.post(
+            `/books/cleanup-orphaned-books/${user.uuid}`
+          );
+        } catch (cleanupError) {
+          // Silently fail - don't let cleanup errors affect the main flow
+          console.warn("Cleanup warning:", cleanupError);
+        }
+
+        // Then fetch the user's books
         const response = await axiosInstance.get(
           "/books/user-books/" + user.uuid
         );
