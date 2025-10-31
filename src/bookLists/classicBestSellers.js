@@ -1,74 +1,6 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "QHcwEQAAQBAJ",
-    etag: "i0emi/ECioE",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/QHcwEQAAQBAJ",
-    volumeInfo: {
-      title: "Young Man in a Hurry",
-      subtitle: "A Memoir of Discovery",
-      authors: ["Gavin Newsom"],
-      publisher: "Penguin",
-      publishedDate: "2026-02-24",
-      description:
-        "<b>From California Governor Gavin Newsom comes an intimate and poignant account of identity, belonging, and the defining moments that inspired a life in politics</b><br><b> </b><br>“Go slow,” his political elders advised him, but Gavin Newsom has never known such a speed. For Newsom, the California Dream is what lured his father’s family from County Cork, Ireland, six generations ago. His great-great-grandfather, a cop, walked a beat in San Francisco, where almost 150 years later, Newsom would be elected as mayor, running on the values instilled in him by his family history: that California’s open arms must continue to extend to each new generation.<br><br>Newsom has never lived anywhere but California. Born in San Francisco, his parents divorced at a young age, and his childhood was spent being tugged between two worlds: his mother worked three jobs in order to care for her children while his father, a close friend of the Getty family, brought Newsom into San Francisco society, a world of wealth and connections. The dissonance was frustrating, and made all the more difficult because of undiagnosed dyslexia, but the vantage point was valuable: he inherited his mother’s perseverance and his father’s reverence of California, not only its wildness, but its opportunity.<br><br>In <i>Young Man in a Hurry</i>, Newsom traces the forces that have defined his ambitions as a politician and have pushed him to outpace the nation on myriad cutting-edge social issues that have since entered the mainstream. As mayor of San Francisco, he made waves when he violated state law in order to issue marriage licenses to same-sex couples, more than ten years before the Supreme Court made such unions legal. He launched bold efforts to counter climate change, improve mental health care, and enhance gun safety, and worked to preserve the California Dream for his constituents. Elected as governor on the eve of unprecedented wildfires and entering office into immediate hyper-partisan headwinds from Washington, DC, Newsom has constantly and consistently stuck his neck out. Here for the first time, he reflects on the long personal journey that ultimately shaped him into one of the most recognizable and accomplished elected officials in America. Filled with intimate family history and written with candor and remarkable personal insight, here is a deeply resilient California story of identity, belonging, and the defining moments that inspired a life in politics.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1984881949" },
-        { type: "ISBN_13", identifier: "9781984881946" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 304,
-      printedPageCount: 304,
-      printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Personal Memoirs",
-        "Political Science / American Government / State",
-        "Political Science / Political Ideologies / Democracy",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE735nNOtHnDNuPu-vtsBvht-bsW9L55BMWLmDqepNEBehRCrR0vhGCvru10oJ58O7qwyS6lpsVoieOV8F-8bR46Io-Ckn9zPVT05An3_0E3QCbPsxTEm8B8texaY67lI6MC4fxIk&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_shtkFcbdUqIeGpR_mNs7_afrVjxJgR_sRY2S01COckZExrQ-0jAb7kmVjv4GpGGQwRcFwORU9QsA0VAJi_DnU3A5h7T2SsysNW9oQde9r7l3bSB7KHPBRn_L2AOvyI2KA7dD&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=QHcwEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=QHcwEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=QHcwEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=QHcwEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 128,
-      height: 195,
-      image:
-        "http://books.google.com/books/publisher/content?id=QHcwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_shtkFcbdUqIeGpR_mNs7_afrVjxJgR_sRY2S01COckZExrQ-0jAb7kmVjv4GpGGQwRcFwORU9QsA0VAJi_DnU3A5h7T2SsysNW9oQde9r7l3bSB7KHPBRn_L2AOvyI2KA7dD&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
     id: "K8gGEQAAQBAJ",
     etag: "n20tEEAIL6w",
     selfLink: "https://www.googleapis.com/books/v1/volumes/K8gGEQAAQBAJ",
@@ -146,67 +78,6 @@ const classicBestsellerList = [
       height: 2779,
       image:
         "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72DTs61oUSa2q7FvJT4ox-KC51UNWr0ObE53gW1oziwtmmgUJOdtrgUiG8WT6Wy5WQxLfrMxRZ4DO4aNEaUNOYDtGAHfkY2y8Q_DWbsZxqFLND0kIdsSgrEvrnwnkdLkqWbmbV4&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "8ZSYygEACAAJ",
-    etag: "Q/WdkYPYwsg",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/8ZSYygEACAAJ",
-    volumeInfo: {
-      title: "Quand la machine apprend",
-      subtitle:
-        "la révolution des neurones artificiels et de l'apprentissage profond",
-      authors: ["Yann Le Cun", "Caroline Brizard"],
-      publisher: "Odile Jacob",
-      publishedDate: "2019",
-      description:
-        "« Nous vivons une révolution inouïe, inimaginable il y a encore cinquante ans, celle de la machine qui apprend, et qui apprend par elle-même. Au lieu d'exécuter les ordres d'un programme, la machine peut désormais acquérir par elle-même, par l'expérience, les capacités nécessaires pour accomplir les tâches qui lui sont assignées, y compris celles que l'on croyait réservées à l'humain. Les applications sont immenses : reconnaissance des formes, des voix, des images et des visages, voiture autonome, traduction de centaines de langues, détection des tumeurs dans les images médicales... Yann Le Cun est à l'origine de cette révolution. Il est en effet l'un des inventeurs de l'apprentissage profond, le deep learning, qui caractérise un réseau de neurones artificiels dont l'architecture et le fonctionnement s'inspirent du cerveau. C'est à la naissance de cette nouvelle forme d'intelligence, à l'émergence d'un système quasiment auto-organisateur, que nous convie Yan Le Cun. Un livre qui évoque la démarche intellectuelle d'un inventeur au carrefour de l'informatique et des neurosciences. Un livre qui éclaire l'avenir de l'intelligence artificielle, ses enjeux, ses promesses et ses risques. Un livre passionnant, clair et accessible, qui nous fait pénétrer au coeur de la machine et nous fait découvrir un nouveau monde fascinant, qui est déjà le nôtre. Yann Le Cun, lauréat du prix Turing, est professeur à New York University et dirige la recherche fondamentale chez Facebook. »-- Quatrième de couverture.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "2738149316" },
-        { type: "ISBN_13", identifier: "9782738149312" },
-      ],
-      readingModes: { text: false, image: false },
-      pageCount: 394,
-      printedPageCount: 394,
-      dimensions: {
-        height: "22.00 cm",
-        width: "14.50 cm",
-        thickness: "2.00 cm",
-      },
-      printType: "BOOK",
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        thumbnail:
-          "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571369567i/48497641.jpg",
-      },
-      language: "fr",
-      previewLink:
-        "http://books.google.com/books?id=8ZSYygEACAAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=8ZSYygEACAAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=8ZSYygEACAAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=8ZSYygEACAAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
-      quoteSharingAllowed: false,
     },
   },
 
@@ -293,79 +164,6 @@ const classicBestsellerList = [
       height: 2478,
       image:
         "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "ZQZUEQAAQBAJ",
-    etag: "uscrM3yYU7s",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/ZQZUEQAAQBAJ",
-    volumeInfo: {
-      title: "Delusions",
-      subtitle: "Of Grandeur, of Romance, of Progress",
-      authors: ["Cazzie David"],
-      publisher: "St. Martin's Publishing Group",
-      publishedDate: "2026-03-03",
-      description:
-        '<p><b>In this sharp and darkly funny new essay collection from the <i>New York Times </i>bestselling author, Cazzie David explores the irony and existential crises of leaving youth behind.<br></b><br>With her thirtieth birthday fast approaching, Cazzie reflects on the delusions that laid waste to her twenties and reckons with their consequences now that the specter of a new decade is looming. Touching on everything from the pressure to find the "right" partner, dealing with the relentless grip of social media, and navigating body dysmorphic spirals, <i>Delusions</i> cuts through the noise, offering personal anecdotes, sharp cultural criticism, and witty, honest contemplations on the chaos of contemporary adulthood. Cazzie brings her trademark voice—blunt, self-aware, and blisteringly funny—to essays that are as vulnerable as they are biting.<br><br><i><b>An attempt to mature in the span of one year</b></i></p>',
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1250357632" },
-        { type: "ISBN_13", identifier: "9781250357632" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 320,
-      printedPageCount: 320,
-      dimensions: {
-        height: "21.00 cm",
-        width: "13.70 cm",
-        thickness: "2.50 cm",
-      },
-      printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Personal Memoirs",
-        "Humor / Form / Essays",
-        "Literary Criticism / Subjects & Themes / Women",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE726QuWZEGJrillS6pKeDiiWup27omtzXrmRry7dq1J6lgVlgzQ156sQ0qq3orO8pek0ILnevrDZb883OJRGatsCDQCxmoJnZclHl5uxfaYIRBfQHg5JD5NcMzQMlt92GCF-V5ZQ&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71u-YHP_cnq-wROtTz9UkVk-t-eqjKLDMsZj5VJRhtv-JLgH1wX_ZRQ6SemoOTc24NpmV4Y-W1gpXQcx2d5qFnizyNjGs17lEcIZX45gVGi14_ikSL56FdsSVnvzyyxGzGBWowF&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=ZQZUEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=ZQZUEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=ZQZUEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=ZQZUEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 128,
-      height: 196,
-      image:
-        "http://books.google.com/books/publisher/content?id=ZQZUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71u-YHP_cnq-wROtTz9UkVk-t-eqjKLDMsZj5VJRhtv-JLgH1wX_ZRQ6SemoOTc24NpmV4Y-W1gpXQcx2d5qFnizyNjGs17lEcIZX45gVGi14_ikSL56FdsSVnvzyyxGzGBWowF&source=gbs_api",
     },
   },
   {
@@ -469,100 +267,74 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "_ZYHEQAAQBAJ",
-    etag: "7Op+Yp+WHuY",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/_ZYHEQAAQBAJ",
+    id: "0MCZNgAACAAJ",
+    etag: "F9EWb/8IFgo",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/0MCZNgAACAAJ",
     volumeInfo: {
-      title: "Napoleon's Library",
-      subtitle:
-        "The Emperor, His Books and Their Influence on the Napoleonic Era",
-      authors: ["Louis N Sarkozy"],
-      publisher: "Frontline Books",
-      publishedDate: "2024-07-30",
+      title: "The DNA Cowboys Trilogy",
+      authors: ["Mick Farren"],
+      publisher: "Do-Not Press",
+      publishedDate: "2002",
       description:
-        "This book will surprise readers with the literary depths of Napoleon Bonaparte, exploring the enigmatic emperor's intimate relationship with books and history, going far beyond his more militaristic and imperial fame. Napoleon Bonaparte held absolute political power in France and his influence stretched across Europe and beyond. Yet he remained – between leading his armies and ruling over a vast empire – an indefatigable reader who even carried libraries into battle. Bonaparte’s love of the written word, birthed in childhood and nurtured as an adolescent and young adult, never left him. He was a lover of literature for its own sake – often swooning over melodramatic love stories – but he also understood the value of books as instruments of power. Before his campaigns, he poured over dozens of texts relating to the relevant theaters’ geography, population, trade, and history. When contemplating grave decisions, such as his divorce to Empress Josephine, he consulted the historical record for useful precedents to justify and inform his actions. To bolster his troop’s morale during challenging times, he constantly referenced history in his proclamations, making his contemporaries feel as if they were actively shaping history. They were. The library of an individual is the key to his mind. Behind the grandiose paintings of the victorious conqueror and the constructions of the propagandist, stands the reader. This book is an attempt to glimpse Napoleon’s character without the veneer of imperial glory. What was he like, alone at night by his fireplace? What thoughts percolated in the mind of the ambitious 20-year-old, isolated in a little room while theorizing about man’s happiness? Who are the literary and historical figures which can claim to have had impacted his life? Who were his favorite authors? Through this book the reader will embark on a literary promenade with the great general and statemen. In these pages are found the emperor’s favorite authors. And with them, the key to understanding his mind.",
+        '"Written practically non-stop in 1975 and 1976, The DNA Cowboys Trilogy offers fantastic adventures into the unknown and unexpected. With influences that range from Star Trek to Kung Fu and from the Marquis de Sade to Sam Peckinpah, Farren has created a bizarre universe populated with pre-teen dictators, huge twin-brained domestic lizards and growing biocomputers tended by martial arts-practising monks. Farren let his imagination run wild and the results are awesome. Expect fanciful weapons, medieval jails, public hangings, Albert Speer architecture, gunfights, stiletto heels and femmes fatales in tight clothing, orgies, orgasms, and undefined monsters called Disruptors that suck up all life and logic."--BOOK JACKET. Book jacket.',
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1399055275" },
-        { type: "ISBN_13", identifier: "9781399055277" },
+        { type: "ISBN_10", identifier: "1899344934" },
+        { type: "ISBN_13", identifier: "9781899344932" },
       ],
-      readingModes: { text: false, image: true },
-      pageCount: 280,
-      printedPageCount: 290,
+      readingModes: { text: false, image: false },
+      pageCount: 532,
+      printedPageCount: 532,
+      dimensions: {
+        height: "20.00 cm",
+        width: "13.00 cm",
+        thickness: "4.10 cm",
+      },
       printType: "BOOK",
       categories: [
-        "History / Wars & Conflicts / Napoleonic Wars",
-        "Biography & Autobiography / Military",
-        "History / Modern / 19th Century",
-        "Biography & Autobiography / Historical",
+        "Fiction / Fantasy / General",
+        "Fiction / Science Fiction / General",
+        "Literary Collections / General",
       ],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
-      contentVersion: "0.0.1.0.preview.1",
+      contentVersion: "preview-1.0.0",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71ftLOI2RRJtX2j5GMljnbrQNKBid_8Hcw11Z4qqApX6ue1MxNKzZ8NfL0iSrfAitDoJ0VPVi-U-BwtNNVlCAWhGZr8lx_1Q30LMGwQG1XvobQyks3V6_nOpyToMc05usMA6xBO&source=gbs_api",
+          "http://books.google.com/books/content?id=0MCZNgAACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE735odT7LcUJg8TLreO9fQyfMKOC8B3i6i8ChI_2xnxesyOcXu6CDI3fZWbtI_ZEbT37otzf553Cg-k71vRohHUVPkjzqOZA6zZ0TRscC7gamo8qBgc&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ZrOAql5QSAtym6SKGX6PK9-z_5ZTSkHFpUjsSkF7BUP24OsE3fuNzp2odc9q-JwUBf-EuUwEntzxSShMjeXnr0rA2UmPs4cbeAZ-USWyUbyyu5KaMm5aa8_c0bDaRe17_Hwnq&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71zPOs_WQsJfGampVapuE9QrHT1xLELFVdMQ5DA1SCQnV24PfaBepXMFFG_C6eX8Sm9C_MC68AYHO35ZKfKfsCbQRwPtYTOaQOJo5wWzFs63joFtB4rgky6JKEBxDTIWI6yAMko&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72qnfWgkHqZtbdmwBTEYj7W88wX3VKb7NBZ9gtgrkY3uGjuwUCar7KuIgwTDkq69yEH4zVgrss3sEhylIOS94vrAM-ILwXEMURmJkMC4M70liCGwpWCuHtEUSZjhNSU7oEGQh_7&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73PFHAI9sEGvcFaHljrdbFg6Z9sFd36fCt-zrT8zkXHshNNsspSRvoiV4lUcwQ91zd5w-_iPOEkW-PBNxX6TTOSFrspPG6v48rkCBn7zRQblwUQv0NMpCN0AcyJigqpPUqWnEsa&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72vX8ok7UPHDBtTEsqTVeChiteFIZT89PNr-3NITOJpb6s33OBUct_yd5XebJQxOYkbYC1uDycmfGl0GZltjcWkJ6cAY7T5DgSHSaS6kL9bUGTWRNSk-O_P5Px4LG0N3bCcVhhI&source=gbs_api",
+          "http://books.google.com/books/content?id=0MCZNgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73uKBVGqXXZpmQX8tGtcV6PTQgBp24yeU2V1ODCos7bJf8JIJvWMnN5lEjyq_MuWYFsYO5LW17rckDfjRGS3jeqLwEEqNoclt-Y9nHtwQIoQJgNbK0&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=_ZYHEQAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=0MCZNgAACAAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=0MCZNgAACAAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=0MCZNgAACAAJ",
     },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 25, currencyCode: "USD" },
-      retailPrice: { amount: 25, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=_ZYHEQAAQBAJ&rdid=book-_ZYHEQAAQBAJ&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 25000000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 25000000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
       country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
+      viewability: "NO_PAGES",
+      embeddable: false,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
       epub: { isAvailable: false },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Napoleon_s_Library-sample-pdf.acsm?id=_ZYHEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
+      pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=_ZYHEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
+        "http://play.google.com/books/reader?id=0MCZNgAACAAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1852,
-      height: 2750,
+      width: 128,
+      height: 203,
       image:
-        "http://books.google.com/books/publisher/content?id=_ZYHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72vX8ok7UPHDBtTEsqTVeChiteFIZT89PNr-3NITOJpb6s33OBUct_yd5XebJQxOYkbYC1uDycmfGl0GZltjcWkJ6cAY7T5DgSHSaS6kL9bUGTWRNSk-O_P5Px4LG0N3bCcVhhI&source=gbs_api",
+        "http://books.google.com/books/content?id=0MCZNgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73uKBVGqXXZpmQX8tGtcV6PTQgBp24yeU2V1ODCos7bJf8JIJvWMnN5lEjyq_MuWYFsYO5LW17rckDfjRGS3jeqLwEEqNoclt-Y9nHtwQIoQJgNbK0&source=gbs_api",
     },
   },
 
