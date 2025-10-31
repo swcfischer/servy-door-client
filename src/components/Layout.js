@@ -173,9 +173,9 @@ const Layout = ({ children }) => {
                 <div className="nav-links">
                   <TiltedTile text="Library" to="/library" />
                   {/* <TiltedTile text="Account" to="/account" /> */}
-                </div>
-                <div className="auth-button-container">
-                  <GoogleAuthButton />
+                  <div className="auth-button-container">
+                    <GoogleAuthButton />
+                  </div>
                 </div>
               </Toolbar>
             </AppBar>
