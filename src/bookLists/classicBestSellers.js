@@ -1,60 +1,65 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "K8gGEQAAQBAJ",
-    etag: "n20tEEAIL6w",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/K8gGEQAAQBAJ",
+    id: "8H9Q-rYVRrwC",
+    etag: "BoArwriIXoI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/8H9Q-rYVRrwC",
     volumeInfo: {
-      title: "Source Code",
-      subtitle: "My Beginnings",
-      authors: ["Bill Gates"],
-      publisher: "Knopf Canada",
-      publishedDate: "2025-02-04",
+      title: "World Without End",
+      authors: ["Ken Follett"],
+      publisher: "Penguin",
+      publishedDate: "2007-10-09",
       description:
-        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • The origin story of one of the most influential and transformative business leaders and philanthropists of the modern age.<br><br>“A surprisingly candid memoir of the Microsoft mogul’s early years. . . . Reading this book feels like watching someone take a well-known black-and-white sketch, fill in the details, and paint it in vivid color.” —<i>GeekWire</i><br></b><br>The business triumphs of Bill Gates are widely known: the twenty-year-old who dropped out of Harvard to start a software company that became an industry giant and changed the way the world works and lives; the billionaire many times over who turned his attention to philanthropic pursuits to address climate change, global health, and U.S. education.<br><br><i>Source Code</i> is not about Microsoft or the Gates Foundation or the future of technology. It’s the human, personal story of how Bill Gates became who he is today: his childhood, his early passions and pursuits. It’s the story of his principled grandmother and ambitious parents, his first deep friendships and the sudden death of his best friend; of his struggles to fit in and his discovery of a world of coding and computers in the dawn of a new era; of embarking in his early teens on a path that took him from midnight escapades at a nearby computer center to his college dorm room, where he sparked a revolution that would change the world.<br><br>Bill Gates tells this, his own story, for the first time: wise, warm, revealing, it’s a fascinating portrait of an American life.",
+        '<p><b>#1<i> New York Times</i> Bestseller</b><br><br><b><b>In 1989, Ken Follett astonished the literary world with <i>The Pillars of the Earth</i>, a sweeping epic novel set in twelfth-century England centered on the building of a cathedral and many of the hundreds of lives it affected. <br><br><i>World Without End </i>is its equally irresistible sequel—set two hundred years after <i>The Pillars of the Earth</i> and three hundred years after the Kingsbridge prequel, <i>The Evening and the Morning</i>.</b><br></b><br><i>World Without End</i> takes place in the same town of Kingsbridge, two centuries after the townspeople finished building the exquisite Gothic cathedral that was at the heart of <i>The Pillars of the Earth</i>. The cathedral and the priory are again at the center of a web of love and hate, greed and pride, ambition and revenge, but this sequel stands on its own. This time the men and women of an extraordinary cast of characters find themselves at a crossroads of new ideas—about medicine, commerce, architecture, and justice. In a world where proponents of the old ways fiercely battle those with progressive minds, the intrigue and tension quickly reach a boiling point against the devastating backdrop of the greatest natural disaster ever to strike the human race—the Black Death. <br><br>Three years in the writing and nearly eighteen years since its predecessor, <i>World Without End</i> is a "well-researched, beautifully detailed portrait of the late Middle Ages" (<i>The Washington Post</i>) that once again shows that Ken Follett is a masterful author writing at the top of his craft.</p>',
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1039056334" },
-        { type: "ISBN_13", identifier: "9781039056336" },
+        { type: "ISBN_10", identifier: "0525950079" },
+        { type: "ISBN_13", identifier: "9780525950073" },
       ],
-      readingModes: { text: true, image: false },
-      pageCount: 320,
-      printedPageCount: 337,
+      readingModes: { text: false, image: false },
+      pageCount: 1024,
+      printedPageCount: 1036,
+      dimensions: {
+        height: "25.00 cm",
+        width: "16.80 cm",
+        thickness: "5.10 cm",
+      },
       printType: "BOOK",
       categories: [
-        "Biography & Autobiography / Business",
-        "Biography & Autobiography / Science & Technology",
-        "Biography & Autobiography / Personal Memoirs",
+        "Fiction / Historical / General",
+        "Fiction / Thrillers / Suspense",
+        "Fiction / Sagas",
       ],
+      averageRating: 4,
+      ratingsCount: 83,
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "1.1.1.0.preview.2",
+      allowAnonLogging: false,
+      contentVersion: "2.8.5.0.preview.0",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71oF7fjp8vs6TO3ncmphZNDCpxwnSt6M3FYexu06VFPHd95YWHpHw6V8hvlToVaSia3q9AIlWIRiBEWqDw5fSdZmnORfNWQ8V-gxFw7etYfcUyB8OcQhWo1qBL9T4DcrfLq_iTe&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71gTw9vqfXok6t1GLi8UgomaTPRjS9zbSCWtsq7V37yTwnk0QCGTfIcE4sYGzQquazqFik_XdNbuY8HiYRFvgU5zZyo2S4WhNWMzZd1aqO_dY1-oOk&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71i4yIKAwVqllNS6x2Ei39ynhFozganghpIfhkysQpiTNEbp2RZVrQnvUJqv0ARzc2-q2jJspT8tZNeMCOjrdIBLvAelvVuz4zGwOrE_KVhIxUloCnv2fKyHxyNtPAaywKmnhh5&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72tAG0JsEUQC-4bZ_XCdmTAAVKeVEk-tGb8ZNHSuBE41DNyY-n1wL4uloS3NBwvJEikZozWcotud6dQkrLgNsQRbh4l8fEbc8MBw4G6V7EY3zmN1vM&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72IO4_nkS13nZ_z2UqeCnF8MsJuxTzl-qgIW-ZOwUrbU0wdi8D6ZXWgd_EMgbfVSAfiQKgAZ296vjPM88hG6mH1r-ilkeP9e9gVVrsZ73dX_Cx9Aj8ViCjrj1OqgWRA59_JqsrT&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE716TN6n9XuLVh63S9qVbuV1l1BGqdywifrQyfmtE9FGLm5XIsayPsUyzY9spjytHA-tOFLB1UPerc-wGZaCh_75WnIxrnGg0yLXIR0C1G5ud5h4kgs&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70TXn3U4G5uDRZnGeDk-G2fuiVZcLXrgKwjBobipZ8JJni4dOLXe0sP7i6w42G1VFYx3e3u_0dvJ61acPyKJSVI2-kNkdupG2NLx1eWxhBGnbv5sH5NILH0yrelnZ3XM9ptp72G&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73TQa8gvuhjzi6KpkNYhyyXY_SPGQGbVE9j0fV8j8pM5Ohm4-rCvG9Rtwsfaj0rH56KCvaEktZKCVGeoWbHaP8zCd-lagiXs75V75kMhQyMe3Adq_k&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73x9EJ-u78i3DOS9MSWuEKqdXYm7QeWE7HsmDT7rkK727uJ5JsRtnf6X-eX21_dH-O8mFdc0C4iYfkj7RUCcADtR6rPKOuF9Ilh5UqoaBbBTk2Y2UTMaihrn6V9Tgep8qhqKuGs&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73nr8fxfC2tUgVZRdhi7ls2tHxMaROGBWLXRVfGMt_7PTAqgR5M1eyJPzNC6pTSyvWAqHyZV8q-jTM7Sj7QyzyI35Sl13e5LLvyhu0GaXD0Pg1eEMY&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72DTs61oUSa2q7FvJT4ox-KC51UNWr0ObE53gW1oziwtmmgUJOdtrgUiG8WT6Wy5WQxLfrMxRZ4DO4aNEaUNOYDtGAHfkY2y8Q_DWbsZxqFLND0kIdsSgrEvrnwnkdLkqWbmbV4&source=gbs_api",
+          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73bIAA5SkGhNKbG4Zp0W6lqC5BFVZZmoIx71CNUZP-dVmsyr-_69VLg5FXs5vFksRHT43-5n--ldQzCUjFHVFULsu4ZcnfTtqZxB7FqICrI-lNziDA&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=8H9Q-rYVRrwC&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=8H9Q-rYVRrwC&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=K8gGEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=8H9Q-rYVRrwC",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
     saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
       country: "US",
@@ -62,22 +67,18 @@ const classicBestsellerList = [
       embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Source_Code-sample-epub.acsm?id=K8gGEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
+      epub: { isAvailable: false },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=K8gGEQAAQBAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=8H9Q-rYVRrwC&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1840,
-      height: 2779,
+      width: 1681,
+      height: 2721,
       image:
-        "http://books.google.com/books/publisher/content?id=K8gGEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72DTs61oUSa2q7FvJT4ox-KC51UNWr0ObE53gW1oziwtmmgUJOdtrgUiG8WT6Wy5WQxLfrMxRZ4DO4aNEaUNOYDtGAHfkY2y8Q_DWbsZxqFLND0kIdsSgrEvrnwnkdLkqWbmbV4&source=gbs_api",
+        "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73bIAA5SkGhNKbG4Zp0W6lqC5BFVZZmoIx71CNUZP-dVmsyr-_69VLg5FXs5vFksRHT43-5n--ldQzCUjFHVFULsu4ZcnfTtqZxB7FqICrI-lNziDA&source=gbs_api",
     },
   },
 
