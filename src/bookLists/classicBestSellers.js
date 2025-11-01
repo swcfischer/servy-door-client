@@ -1,84 +1,94 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "8H9Q-rYVRrwC",
-    etag: "BoArwriIXoI",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/8H9Q-rYVRrwC",
+    id: "hoEnEQAAQBAJ",
+    etag: "5T8/xPQ7LVY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/hoEnEQAAQBAJ",
     volumeInfo: {
-      title: "World Without End",
+      title: "Circle of Days",
       authors: ["Ken Follett"],
-      publisher: "Penguin",
-      publishedDate: "2007-10-09",
+      publisher: "Grand Central Publishing",
+      publishedDate: "2025-09-23",
       description:
-        '<p><b>#1<i> New York Times</i> Bestseller</b><br><br><b><b>In 1989, Ken Follett astonished the literary world with <i>The Pillars of the Earth</i>, a sweeping epic novel set in twelfth-century England centered on the building of a cathedral and many of the hundreds of lives it affected. <br><br><i>World Without End </i>is its equally irresistible sequel—set two hundred years after <i>The Pillars of the Earth</i> and three hundred years after the Kingsbridge prequel, <i>The Evening and the Morning</i>.</b><br></b><br><i>World Without End</i> takes place in the same town of Kingsbridge, two centuries after the townspeople finished building the exquisite Gothic cathedral that was at the heart of <i>The Pillars of the Earth</i>. The cathedral and the priory are again at the center of a web of love and hate, greed and pride, ambition and revenge, but this sequel stands on its own. This time the men and women of an extraordinary cast of characters find themselves at a crossroads of new ideas—about medicine, commerce, architecture, and justice. In a world where proponents of the old ways fiercely battle those with progressive minds, the intrigue and tension quickly reach a boiling point against the devastating backdrop of the greatest natural disaster ever to strike the human race—the Black Death. <br><br>Three years in the writing and nearly eighteen years since its predecessor, <i>World Without End</i> is a "well-researched, beautifully detailed portrait of the late Middle Ages" (<i>The Washington Post</i>) that once again shows that Ken Follett is a masterful author writing at the top of his craft.</p>',
+        "<b>AN INSTANT <i>NEW YORK TIMES </i>BESTSELLER!<br><br> From a bestselling author of epic fiction comes the deeply human story of one of the world’s greatest mysteries: the building of Stonehenge. </b><br><br><b>A FLINT MINER WITH A GIFT</b><br> Seft, a talented flint miner, walks the Great Plain in the high summer heat, to witness the rituals that signal the start of a new year. He is there to trade his stone at the Midsummer Fair, and to find Neen, the girl he loves. Her family lives in prosperity and offer Seft an escape from his brutish father and brothers within their herder community.<br><br><b>A PRIESTESS WHO BELIEVES THE IMPOSSIBLE </b><br> Joia, Neen’s sister, is a priestess with a vision and an unmatched ability to lead. As a child, she watches the Midsummer ceremony, enthralled, and dreams of a miraculous new monument, raised from the biggest stones in the world. But trouble is brewing among the hills and woodlands of the Great Plain.<br><br><b>A MONUMENT THAT WILL DEFINE A CIVILIZATION </b><br> Joia’s vision of a great stone circle, assembled by the divided tribes of the Plain, will inspire Seft and become their life’s work. But as drought ravages the earth, mistrust grows between the herders, farmers and woodlanders—and an act of savage violence leads to open warfare . . .<br><br> Truly ambitious in scope, <i>Circle of Days </i>invites you to join master storyteller Ken Follett in exploring one of the greatest mysteries of our age: Stonehenge.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0525950079" },
-        { type: "ISBN_13", identifier: "9780525950073" },
+        { type: "ISBN_10", identifier: "1538772795" },
+        { type: "ISBN_13", identifier: "9781538772799" },
       ],
-      readingModes: { text: false, image: false },
-      pageCount: 1024,
-      printedPageCount: 1036,
-      dimensions: {
-        height: "25.00 cm",
-        width: "16.80 cm",
-        thickness: "5.10 cm",
-      },
+      readingModes: { text: true, image: false },
+      pageCount: 752,
+      printedPageCount: 354,
       printType: "BOOK",
-      categories: [
-        "Fiction / Historical / General",
-        "Fiction / Thrillers / Suspense",
-        "Fiction / Sagas",
-      ],
-      averageRating: 4,
-      ratingsCount: 83,
+      categories: ["Fiction / Historical / Ancient", "Fiction / Sagas"],
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "2.8.5.0.preview.0",
+      allowAnonLogging: true,
+      contentVersion: "1.2.2.0.preview.2",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71gTw9vqfXok6t1GLi8UgomaTPRjS9zbSCWtsq7V37yTwnk0QCGTfIcE4sYGzQquazqFik_XdNbuY8HiYRFvgU5zZyo2S4WhNWMzZd1aqO_dY1-oOk&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70jHfkx9VVJqfyr-FKcER6QHRfe5jC6xJVV3a-sXbuCWrFjy6FMYq8CjvDIcOvLiFEWhCmkpaptqXkVicc-IdytzwlV4zniJZUq8tu972xDlzMUAWk&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72tAG0JsEUQC-4bZ_XCdmTAAVKeVEk-tGb8ZNHSuBE41DNyY-n1wL4uloS3NBwvJEikZozWcotud6dQkrLgNsQRbh4l8fEbc8MBw4G6V7EY3zmN1vM&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Gx2WrZJTPU7_oYBhdo2775v-LjWJejA1NdJAoApUYECCqWqQr42XdGT2UwhxlSwr_iSnscX72ZnX411bkTyqsZ__NUZDHNOkfofv2IJgKjSVv6z4&source=gbs_api",
         small:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE716TN6n9XuLVh63S9qVbuV1l1BGqdywifrQyfmtE9FGLm5XIsayPsUyzY9spjytHA-tOFLB1UPerc-wGZaCh_75WnIxrnGg0yLXIR0C1G5ud5h4kgs&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72C7KiR4autnPEA7hvgB_dsVg7gCZxuYva9AwTauxYaIgiVreQErsv3AFEBNZSDMhqgMEbCjkY_RAjSq7PHWUJwT5mlAZ9PeJU5GOnam2Y1_pi_ssE&source=gbs_api",
         medium:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73TQa8gvuhjzi6KpkNYhyyXY_SPGQGbVE9j0fV8j8pM5Ohm4-rCvG9Rtwsfaj0rH56KCvaEktZKCVGeoWbHaP8zCd-lagiXs75V75kMhQyMe3Adq_k&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70cT9IRx7l0wlQJi6CrXdimkkNoUjVjftgH_Gyf1JXBU1JWuak61rDsDSa7L7hlg5RKJJpULXZgBCdIRneFZL3OCkFHWYGtSWtM_BR_Rp1Od0KcFdM&source=gbs_api",
         large:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73nr8fxfC2tUgVZRdhi7ls2tHxMaROGBWLXRVfGMt_7PTAqgR5M1eyJPzNC6pTSyvWAqHyZV8q-jTM7Sj7QyzyI35Sl13e5LLvyhu0GaXD0Pg1eEMY&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70B6c1MG1okIf675XX7-PlO9ATW85ZlECU97bZXCGbgeZ64u16NRuopjgl9EeA5xO24DwOGFvQSDLefvTDprdp1rUtVZOoVGLS-hMjRtpePNvdskhY&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73bIAA5SkGhNKbG4Zp0W6lqC5BFVZZmoIx71CNUZP-dVmsyr-_69VLg5FXs5vFksRHT43-5n--ldQzCUjFHVFULsu4ZcnfTtqZxB7FqICrI-lNziDA&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71uyPtbJcsIHj5e2rm0zOI8_bZONSh8q84tB43oH07hUtU1EzPUjrp80l4byDHjpWKSTtBWpWKJlsmk2nB33GvMg3iGWcBg8EqVhskY9rAxvJjqt4M&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=8H9Q-rYVRrwC&hl=&source=gbs_api",
+        "http://books.google.com/books?id=hoEnEQAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=8H9Q-rYVRrwC&source=gbs_api",
+        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=8H9Q-rYVRrwC",
+        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ&rdid=book-hoEnEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
       viewability: "PARTIAL",
       embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Circle_of_Days-sample-epub.acsm?id=hoEnEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=8H9Q-rYVRrwC&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=hoEnEQAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1681,
-      height: 2721,
+      width: 2164,
+      height: 3264,
       image:
-        "http://books.google.com/books/content?id=8H9Q-rYVRrwC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73bIAA5SkGhNKbG4Zp0W6lqC5BFVZZmoIx71CNUZP-dVmsyr-_69VLg5FXs5vFksRHT43-5n--ldQzCUjFHVFULsu4ZcnfTtqZxB7FqICrI-lNziDA&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71uyPtbJcsIHj5e2rm0zOI8_bZONSh8q84tB43oH07hUtU1EzPUjrp80l4byDHjpWKSTtBWpWKJlsmk2nB33GvMg3iGWcBg8EqVhskY9rAxvJjqt4M&source=gbs_api",
     },
   },
 
