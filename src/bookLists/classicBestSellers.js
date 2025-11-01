@@ -1,6 +1,104 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "H75HEQAAQBAJ",
+    etag: "EdzbUk6qIOw",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/H75HEQAAQBAJ",
+    volumeInfo: {
+      title: "1929",
+      subtitle:
+        "Inside the Greatest Crash in Wall Street History--and How It Shattered a Nation",
+      authors: ["Andrew Ross Sorkin"],
+      publisher: "Penguin",
+      publishedDate: "2025-10-14",
+      description:
+        "<b>“It is one of the best narrative histories I’ve read.”<br>—<i>The Wall Street Journal</i><br><br>Named a Most Anticipated Book by <i>New York Times Books Review</i>, <i>TIME</i>, <i>Washington Post</i>, <i>Associated Press</i>, <i>Town & Country</i>, <i>New York Post</i>, and more<br><br>From the bestselling author of Too Big to Fail, “the definitive history of the 2008 banking crisis,” (<i>The Atlantic</i>) comes a riveting narrative of the most infamous stock market crash in history—one with ripple effects that still shape our society today.</b><br><br>In <i>1929</i>, the world watched in shock as the unstoppable Wall Street bull market went into a freefall, wiping out fortunes and igniting a depression that would reshape a generation. But behind the flashing ticker tapes and panicked traders, another drama unfolded—one of visionaries and fraudsters, titans and dreamers, euphoria and ruin.<br><br>With unparalleled access to historical records and newly uncovered documents, <i>New York Times</i> bestselling author Andrew Ross Sorkin takes readers inside the chaos of the crash, behind the scenes of a raging battle between Wall Street and Washington and the larger-than-life characters whose ambition and naivete in an endless boom led to disaster. The dizzying highs and brutal lows of this era eerily mirror today’s world—where markets soar, political tensions mount, and the fight over financial influence plays out once again.<br><br>This is not just a story about money. <i>1929 </i>is a tale of power, psychology, and the seductive illusion that this time is different. It’s about disregarded alarm bells, financiers who fell from grace, and skeptics who saw the crash coming—only to be dismissed until it was too late.<br><br>Hailed as a landmark book, <i>Too Big to Fail</i> reimagined how financial crises are told. Now, with <i>1929</i>, Sorkin delivers an immersive, electrifying account of the most pivotal market collapse of all time—with lessons that remain as urgent as ever. More than just a history, <i>1929</i> is a crucial blueprint for understanding the cycles of speculation, the forces that drive financial upheaval, and the warning signs we ignore at our peril.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593296974" },
+        { type: "ISBN_13", identifier: "9780593296974" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 592,
+      printedPageCount: 609,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Economic History",
+        "Business & Economics / Banks & Banking",
+        "History / United States / 20th Century",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.8.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE7301uQbSIiEItRfVulV4bkyOTfg0Ytlfb6DlIp2lZP0RQ07WEukFPrFfunnbv_vDyBDNW-5_2d6gplg8Qvm4EVraH-FGrOcuWzj6TTADzf_CPpcDBk&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71ve2M7GXKzSJp0ZKAClE3MCJtCvJjpLzLb30WxYAzuxaavWEOdS3wNlCPSSapBRExVezHHrMqqrqmKSM6cO6YUkz4v0auKKnH22jr643WgZ6HCLx8&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE7013AeF6gMXEV1JA-I_61lgGTzQZQJkZAvfQycl7pnWNuuRsonZNC0u25DXSrWYjtMI5GepKIGsHdHn_7fsDrU-WGU_C9AiczXs1zI4OlNlmAiD-30&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70eA1cS4XZ4QEHtmHj14l_Xt-0YR4J8hnzykTIN-ZjDpZfpF2b9qNVYfIs8J1YQIMUJZjC-K-YfOazlsNxbX3lYpOFU3oDM37Y7i6qxD5s3c4HviRY&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72qqvYhFVUblHw20cAIZYEip2x1tr88HhEmZyAcLB3edCWFDKTNEjhetHple4IkISk21ZiJVS8afo7n8EL9AoWwnlkYBvfUCHXrx5NU-mQiIMQwTks&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72pXyEtN_MzVdPiUfjYhL4czL_YkzaQslStLa4OBHIRhlfahsDUXngenyGcOhni1oajz7XUm8cfG0ViV0fKY7zURYr7yDNNowFMLCMGWE1PcJW4kxk&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=H75HEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "9" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 18.99, currencyCode: "USD" },
+      retailPrice: { amount: 18.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ&rdid=book-H75HEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/1929-sample-epub.acsm?id=H75HEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=H75HEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72pXyEtN_MzVdPiUfjYhL4czL_YkzaQslStLa4OBHIRhlfahsDUXngenyGcOhni1oajz7XUm8cfG0ViV0fKY7zURYr7yDNNowFMLCMGWE1PcJW4kxk&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "hoEnEQAAQBAJ",
     etag: "5T8/xPQ7LVY",
     selfLink: "https://www.googleapis.com/books/v1/volumes/hoEnEQAAQBAJ",
