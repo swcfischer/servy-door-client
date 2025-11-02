@@ -51,12 +51,20 @@ const Container = styled.div`
       border: 1px solid #f9e699ff;
       padding: 12px;
       box-sizing: border-box;
-      background-color: #e6ce79;
+      background-color: #9e7c01;
 
       width: 100%;
       font-family: inherit;
       font-size: 18px;
       height: 375px;
+
+      &:focus {
+        outline: 2px solid #f9e699ff;
+      }
+
+      &::placeholder {
+        color: black;
+      }
     }
   }
 

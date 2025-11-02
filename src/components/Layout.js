@@ -14,7 +14,7 @@ import githubLogo from "../images/github-copilot-white-icon.png";
 const StyledContainer = styled(Container)`
   background: #fafafa;
   background: #f9e699ff;
-  background: #ffdc4d;
+  background: #ffcd00;
   padding-top: 1px;
   border-radius: 3px;
   // # Border

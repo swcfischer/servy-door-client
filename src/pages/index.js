@@ -35,6 +35,10 @@ const EmotionContainer = styled.div`
     font-family: inherit;
   }
 
+  input:focus {
+    outline: 2px solid #f9e699ff;
+  }
+
   @media (max-width: 600px) {
     .book-list-container {
       grid-template-columns: 1fr;
@@ -50,7 +54,7 @@ const inputStyles = {
   fontSize: "16px",
   marginBottom: "10px",
   borderRadius: "4px",
-  border: "1px solid #000",
+  border: "1px solid darkgoldenrod",
   backgroundColor: "#1c1e20",
   color: "#fff",
   boxSizing: "border-box",
