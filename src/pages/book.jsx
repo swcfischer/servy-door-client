@@ -95,6 +95,7 @@ const Container = styled.div`
   .description {
     max-width: 450px;
     float: left;
+    font-size: 18px;
   }
 
   @media (max-width: 500px) {
@@ -489,7 +490,9 @@ function Book(props) {
           </div> */}
         </div>
         <p
-          dangerouslySetInnerHTML={{ __html: state.volumeInfo.description }}
+          dangerouslySetInnerHTML={{
+            __html: state.volumeInfo.aiSummary,
+          }}
           className="description"
         ></p>
       </div>
