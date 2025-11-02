@@ -18,6 +18,7 @@ import { Snackbar } from "@mui/material";
 import { buildQueryParams } from "../utils/queryFunctions";
 import AuthorModal from "../components/AuthorModal/AuthorModal";
 import { getGoogleBook } from "../utils/googleBooksApi";
+import YouTubeSearch from "../components/YouTubeSearch/YouTubeSearch";
 
 // import BookComments from "../components/BookComments/BookComments";
 
@@ -356,57 +357,57 @@ function Book(props) {
                 setSnackbarOpen(true);
               },
             },
-            { isMenuDivider: true },
-            {
-              label: "Translate to Spanish",
-              action: async () => {
-                const summary = state.volumeInfo?.description || "";
-                if (!summary) {
-                  return;
-                }
+            // { isMenuDivider: true },
+            // {
+            //   label: "Translate to Spanish",
+            //   action: async () => {
+            //     const summary = state.volumeInfo?.description || "";
+            //     if (!summary) {
+            //       return;
+            //     }
 
-                // * Do translation logic
-                // * Call api, passing in summary
-                // * And set state
+            //     // * Do translation logic
+            //     // * Call api, passing in summary
+            //     // * And set state
 
-                const { data } = await axiosInstance.get(
-                  `/books/translate-summary/${user.uuid}?summary=${summary}&lang=Spanish`
-                );
+            //     const { data } = await axiosInstance.get(
+            //       `/books/translate-summary/${user.uuid}?summary=${summary}&lang=Spanish`
+            //     );
 
-                setState((prev) => ({
-                  ...prev,
-                  volumeInfo: {
-                    ...prev.volumeInfo,
-                    description: data.text,
-                  },
-                }));
-              },
-            },
-            {
-              label: "Translate to French",
-              action: async () => {
-                const summary = state.volumeInfo?.description || "";
-                if (!summary) {
-                  return;
-                }
+            //     setState((prev) => ({
+            //       ...prev,
+            //       volumeInfo: {
+            //         ...prev.volumeInfo,
+            //         description: data.text,
+            //       },
+            //     }));
+            //   },
+            // },
+            // {
+            //   label: "Translate to French",
+            //   action: async () => {
+            //     const summary = state.volumeInfo?.description || "";
+            //     if (!summary) {
+            //       return;
+            //     }
 
-                // * Do translation logic
-                // * Call api, passing in summary
-                // * And set state
+            //     // * Do translation logic
+            //     // * Call api, passing in summary
+            //     // * And set state
 
-                const { data } = await axiosInstance.get(
-                  `/books/translate-summary/${user.uuid}?summary=${summary}&lang=French`
-                );
+            //     const { data } = await axiosInstance.get(
+            //       `/books/translate-summary/${user.uuid}?summary=${summary}&lang=French`
+            //     );
 
-                setState((prev) => ({
-                  ...prev,
-                  volumeInfo: {
-                    ...prev.volumeInfo,
-                    description: data.text,
-                  },
-                }));
-              },
-            },
+            //     setState((prev) => ({
+            //       ...prev,
+            //       volumeInfo: {
+            //         ...prev.volumeInfo,
+            //         description: data.text,
+            //       },
+            //     }));
+            //   },
+            // },
           ]}
         />
       </div>
@@ -496,6 +497,17 @@ function Book(props) {
           className="description"
         ></p>
       </div>
+
+      {/* YouTube Search Section */}
+      {user?.uuid && (
+        <YouTubeSearch
+          defaultQuery={`${state.volumeInfo?.title || ""} ${
+            state.volumeInfo?.authors?.join(" ") || ""
+          }`}
+          maxResults={8}
+        />
+      )}
+
       <AuthorModal
         isOpen={isAuthorModalOpen}
         onRequestClose={() => {

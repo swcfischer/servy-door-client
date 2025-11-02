@@ -90,6 +90,28 @@ export async function validateGoogleAuth() {
 }
 
 /**
+ * Search YouTube videos related to a book or topic
+ * @param {string} userUuid - The user's UUID
+ * @param {string} query - Search query
+ * @param {number} maxResults - Number of results (default 5)
+ * @returns {Promise} - Response with YouTube videos
+ */
+export async function searchYouTubeVideos(userUuid, query, maxResults = 5) {
+  console.log("🚀 ~ searchYouTubeVideos ~ query:", query);
+  try {
+    const response = await axiosInstance.get(
+      `/google-books/youtube-search/${userUuid}?q=${encodeURIComponent(
+        query
+      )}&maxResults=${maxResults}`
+    );
+    return response.data;
+  } catch (error) {
+    handleAuthError(error, "search YouTube videos");
+    throw error;
+  }
+}
+
+/**
  * Fallback to public API if user is not authenticated
  * @param {Object} params - Query parameters
  * @returns {Promise} - Response from public Google Books API
