@@ -99,6 +99,88 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "Kd3guGuzbmcC",
+    etag: "Cv+mxVomNq4",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Kd3guGuzbmcC",
+    volumeInfo: {
+      title: "Beware!",
+      authors: ["R.L. Stine"],
+      publisher: "Harper Collins",
+      publishedDate: "2004-07-27",
+      description:
+        '<p>Dim the lights, lock the doors -- and BEWARE! It\'s time to read R.L. Stine\'s favorite scary stories.</p> <p>Discover a ghastly secret in "The Judge\'s House," a terrifying tale of evil rats by Bram Stoker, the author of dracula. Laugh out loud at the scary surprises in poems by Shel Silverstein and Jack Prelutsky. Visit an evil carnival in "The Black Ferris" by Ray Bradbury. (R.L. Stine says this story changed his life!)</p> <p>Within these pages you will find spine-tingling stories by writers and artists who are famous for hair-raising fun. R.L. Stine has selected them just for you, and he has included two new tales of his own!</p>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0060555475" },
+        { type: "ISBN_13", identifier: "9780060555474" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 224,
+      printedPageCount: 228,
+      dimensions: {
+        height: "21.00 cm",
+        width: "14.00 cm",
+        thickness: "1.40 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Juvenile Fiction / Horror & Ghost Stories",
+        "Juvenile Fiction / Fairy Tales & Folklore / Anthologies",
+        "Juvenile Fiction / Holidays & Celebrations / Halloween",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.3.3.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72s2fT3GgLKd3ubAzmgAhXuofExrrxW2fIKSwct6rBcWR2X0x1ZRUwYfoTLWAjXp4Z9u2PaAqaPKF27WH7HLVjc23lqEEVL4DyplJJ4mWjmFYLKIAM&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE728mN3UR9pKUrbivAHuKQwjs07kYn1hUvahxxGH9mQMA1AzZlMvdLLe7coQg6Y2atnHZMuzXOVovdd7o1LnFMFOhNaTKIwWvw76wn3JYUy3JhckSAQ&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71V3TDlNtHn0EJ6782oIht2Q-WJqSdoRdeNY3dCT0Pc1F0UldFryKc2MCJW5526FpYoy9du5qo7aGAbc9o4dMsgJYBjz4W6qTf7wnEek8DwRO1dZj0&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE706JFvt2q_zelNCkRpkOLeDYYK14rpsWpTZQORL7cQCKuroNRknYuwNtcH4pcTCCqEhM5QegaIIC9PhCxvYJk1TJ4rbw1KIUddPjYiyZPwtnT3mDKY&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73ndQ9ObFH0NvezUzZaPGUIzrNOhohLPS1I_msVRFO7cfW8MBCV2nM3XQ4qwMxoOYf7b62jKJOGuLMR8di-R3Rr6-8xXYrNB0zI6qqHcLy8UBq09aw&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70LbKeJEeqHYCALJvTkkHlJ7cc4pjPe1wkEU5aLDSlf1cfhM1Xo2vsEbfjnDew1kMwyEwoVoYA7SnyzJcNMHIZumY31yvFjBHgWnNr7Aa-mJYNEohQ&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Kd3guGuzbmcC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Kd3guGuzbmcC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Kd3guGuzbmcC",
+      aiSummary:
+        "This collection features R.L. Stine's favorite scary stories from acclaimed authors known for their spooky fun. Expect a mix of classic horror, humorous poems, and tales of eerie encounters, including two original stories by Stine himself. The book promises spine-tingling tales curated by Stine, highlighting influential stories that have impacted his own writing.\n",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Kd3guGuzbmcC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1632,
+      height: 2446,
+      image:
+        "http://books.google.com/books/content?id=Kd3guGuzbmcC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70LbKeJEeqHYCALJvTkkHlJ7cc4pjPe1wkEU5aLDSlf1cfhM1Xo2vsEbfjnDew1kMwyEwoVoYA7SnyzJcNMHIZumY31yvFjBHgWnNr7Aa-mJYNEohQ&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "hoEnEQAAQBAJ",
     etag: "5T8/xPQ7LVY",
     selfLink: "https://www.googleapis.com/books/v1/volumes/hoEnEQAAQBAJ",
