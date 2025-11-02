@@ -35,14 +35,14 @@ const FilterSelect = (props) => {
         : state.isFocused
         ? "#303030"
         : "#212121",
-      color: "#fff",
+      color: "#d4c066",
       "&:hover": {
         backgroundColor: "#303030",
       },
     }),
     singleValue: (provided) => ({
       ...provided,
-      color: "#fff",
+      color: "#d4c066",
     }),
     placeholder: (provided) => ({
       ...provided,
@@ -50,20 +50,20 @@ const FilterSelect = (props) => {
     }),
     dropdownIndicator: (provided) => ({
       ...provided,
-      color: "#fff",
+      color: "#d4c066",
       "&:hover": {
-        color: "#fff",
+        color: "#d4c066",
       },
     }),
     indicatorSeparator: (provided) => ({
       ...provided,
-      backgroundColor: "#fff",
+      backgroundColor: "#d4c066",
     }),
     clearIndicator: (provided) => ({
       ...provided,
-      color: "#fff",
+      color: "#d4c066",
       "&:hover": {
-        color: "#fff",
+        color: "#d4c066",
       },
     }),
   };

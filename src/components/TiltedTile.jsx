@@ -22,7 +22,7 @@ const StyledLink = styled(Link)`
     background-color: #222;
     border: 1px solid #5e5e5e;
     border-radius: 3px;
-    color: #fff;
+    color: #d4c066;
     font-family: Tangerine;
     padding: 2px 3px;
     position: relative;

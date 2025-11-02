@@ -35,6 +35,10 @@ const EmotionContainer = styled.div`
     font-family: inherit;
   }
 
+  input::placeholder {
+    color: #d4c066;
+  }
+
   input:focus {
     outline: 2px solid #f9e699ff;
   }
@@ -56,7 +60,7 @@ const inputStyles = {
   borderRadius: "4px",
   border: "1px solid darkgoldenrod",
   backgroundColor: "#1c1e20",
-  color: "#fff",
+  color: "#d4c066",
   boxSizing: "border-box",
   maxWidth: "75%",
   display: "block",
@@ -220,7 +224,7 @@ export default function Index(props) {
                 borderRadius: "4px",
                 border: "none",
                 backgroundColor: "rgb(33, 33, 33)",
-                color: "#fff",
+                color: "#d4c066",
                 cursor: "pointer",
               }}
             >
