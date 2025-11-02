@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import styled from "@emotion/styled";
 import ReactPlayer from "react-player";
+import Modal from "react-modal";
 import { UserContext } from "../Layout";
 import { searchYouTubeVideos } from "../../utils/googleBooksApi";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
@@ -48,31 +49,137 @@ const Container = styled.div`
       gap: 12px;
 
       .video-item {
-        .video-player {
-          width: 100%;
-          margin-bottom: 4px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        padding: 8px;
+        position: relative;
+
+        &:hover {
+          background-color: #0000001c;
+        }
+
+        &.watched {
+          opacity: 0.6;
+
+          &::after {
+            content: "✓ Watched";
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #28a745;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: bold;
+          }
+        }
+        .video-content {
+          display: flex;
+          gap: 8px;
+          align-items: flex-start;
+        }
+
+        .thumbnail {
+          width: 80px;
+          height: 60px;
+          object-fit: cover;
           border-radius: 3px;
-          overflow: hidden;
+          flex-shrink: 0;
         }
 
-        .video-title {
-          font-size: 11px;
-          font-weight: 500;
-          color: #333;
-          line-height: 1.2;
-          margin-bottom: 2px;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
+        .video-info {
+          flex: 1;
 
-        .video-author {
-          font-size: 10px;
-          color: #6c757d;
+          .video-title {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            line-height: 1.3;
+            margin-bottom: 4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          .video-author {
+            font-size: 16px;
+            color: #6c757d;
+          }
         }
       }
     }
+  }
+`;
+
+const ModalStyles = {
+  content: {
+    position: "fixed",
+    top: "5vh",
+    left: "5vw",
+    right: "5vw",
+    bottom: "5vh",
+    margin: 0,
+    background: "#000",
+    width: "90vw",
+    height: "90vh",
+    maxWidth: "none",
+    maxHeight: "none",
+    overflow: "hidden",
+  },
+  overlay: {
+    background: "rgba(0,0,0,.9)",
+    backdropFilter: "blur(8px)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+};
+
+const ModalContent = styled.div`
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .video-player-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .react-player {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  button {
+    height: max-content;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
   }
 `;
 
@@ -81,6 +188,45 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [results, setResults] = useState(null);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [watchedVideos, setWatchedVideos] = useState(new Set());
+
+  // Load watched videos from localStorage on component mount
+  useEffect(() => {
+    const stored = localStorage.getItem("watchedVideos");
+    if (stored) {
+      setWatchedVideos(new Set(JSON.parse(stored)));
+    }
+  }, []);
+
+  // Check if a video has been watched more than 50%
+  const isVideoWatched = (videoId) => {
+    return watchedVideos.has(videoId);
+  };
+
+  // Track video progress and mark as watched if over 50%
+  const handleVideoProgress = (progress) => {
+    if (!selectedVideo) return;
+
+    const { played } = progress;
+    if (played > 0.5 && !watchedVideos.has(selectedVideo.videoId)) {
+      const newWatchedVideos = new Set(watchedVideos);
+      newWatchedVideos.add(selectedVideo.videoId);
+      setWatchedVideos(newWatchedVideos);
+
+      // Save to localStorage
+      localStorage.setItem(
+        "watchedVideos",
+        JSON.stringify([...newWatchedVideos])
+      );
+      console.log(
+        `Video ${selectedVideo.videoId} marked as watched (${Math.round(
+          played * 100
+        )}% progress)`
+      );
+    }
+  };
 
   const performSearch = async (searchQuery) => {
     console.log("performSearch called with:", searchQuery);
@@ -120,6 +266,16 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
     }
   };
 
+  const handleVideoClick = (video) => {
+    setSelectedVideo(video);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedVideo(null);
+  };
+
   // Automatically search when component mounts or defaultQuery changes
   useEffect(() => {
     console.log("YouTubeSearch useEffect triggered:", {
@@ -136,7 +292,7 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
   return (
     <Container>
       <div className="search-section">
-        <h3>Related YouTube Videos</h3>
+        <h3>Relevant YouTube Videos</h3>
         {/* Debug button in development */}
         {process.env.NODE_ENV === "development" && (
           <button
@@ -164,28 +320,29 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
 
         {error && <div className="error-message">{error}</div>}
 
-        {/* Debug info */}
-        {process.env.NODE_ENV === "development" && (
-          <div style={{ fontSize: "10px", color: "#999", marginBottom: "8px" }}>
-            Debug: Query="{defaultQuery}", User=
-            {user?.uuid ? "logged in" : "not logged in"}, Results=
-            {results?.videos?.length || 0}
-          </div>
-        )}
-
         {results && !loading && (
           <>
             {results.videos?.length > 0 ? (
               <div className="video-list">
                 {results.videos.map((video) => (
-                  <div key={video.videoId} className="video-item">
-                    <ReactPlayer
-                      url={video.url}
-                      width="100%"
-                      //   height="120px"
-                      controls={false}
-                      className="video-player"
-                    />
+                  <div
+                    key={video.videoId}
+                    className={`video-item ${
+                      isVideoWatched(video.videoId) ? "watched" : ""
+                    }`}
+                    onClick={() => handleVideoClick(video)}
+                  >
+                    <div className="video-content">
+                      <img
+                        src={video.thumbnail}
+                        alt={video.title}
+                        className="thumbnail"
+                      />
+                      <div className="video-info">
+                        <div className="video-title">{video.title}</div>
+                        <div className="video-author">by {video.author}</div>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -210,6 +367,33 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
           </div>
         )}
       </div>
+
+      {/* Video Modal */}
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        style={ModalStyles}
+        contentLabel="YouTube Video Player"
+      >
+        {selectedVideo && (
+          <ModalContent>
+            <div className="video-player-container">
+              <ReactPlayer
+                url={selectedVideo.url}
+                width="100%"
+                height="100%"
+                controls={true}
+                playing={true}
+                onProgress={handleVideoProgress}
+                className="react-player"
+              />
+            </div>
+            <button className="close-btn" onClick={closeModal}>
+              Close
+            </button>
+          </ModalContent>
+        )}
+      </Modal>
     </Container>
   );
 }
