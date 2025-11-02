@@ -215,7 +215,7 @@ export default function Index(props) {
                 fontSize: "16px",
                 borderRadius: "4px",
                 border: "none",
-                backgroundColor: "#333",
+                backgroundColor: "rgb(33, 33, 33)",
                 color: "#fff",
                 cursor: "pointer",
               }}

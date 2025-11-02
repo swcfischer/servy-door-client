@@ -17,53 +17,53 @@ const FilterSelect = (props) => {
   const customStyles = {
     control: (provided, state) => ({
       ...provided,
-      backgroundColor: "#d4c066", // Darker than #f9e699ff
-      borderColor: state.isFocused ? "#b8a04a" : "#c4b05c",
-      boxShadow: state.isFocused ? "0 0 0 1px #b8a04a" : null,
+      backgroundColor: "#212121",
+      borderColor: state.isFocused ? "#424242" : "#303030",
+      boxShadow: state.isFocused ? "0 0 0 1px #424242" : null,
       "&:hover": {
-        borderColor: "#b8a04a",
+        borderColor: "#424242",
       },
     }),
     menu: (provided) => ({
       ...provided,
-      backgroundColor: "#d4c066",
+      backgroundColor: "#212121",
     }),
     option: (provided, state) => ({
       ...provided,
       backgroundColor: state.isSelected
-        ? "#b8a04a"
+        ? "#424242"
         : state.isFocused
-        ? "#c4b05c"
-        : "#d4c066",
-      color: "#333",
+        ? "#303030"
+        : "#212121",
+      color: "#fff",
       "&:hover": {
-        backgroundColor: "#c4b05c",
+        backgroundColor: "#303030",
       },
     }),
     singleValue: (provided) => ({
       ...provided,
-      color: "#333",
+      color: "#fff",
     }),
     placeholder: (provided) => ({
       ...provided,
-      color: "#666",
+      color: "#bbb",
     }),
     dropdownIndicator: (provided) => ({
       ...provided,
-      color: "#222",
+      color: "#fff",
       "&:hover": {
-        color: "#222",
+        color: "#fff",
       },
     }),
     indicatorSeparator: (provided) => ({
       ...provided,
-      backgroundColor: "#222",
+      backgroundColor: "#fff",
     }),
     clearIndicator: (provided) => ({
       ...provided,
-      color: "#222",
+      color: "#fff",
       "&:hover": {
-        color: "#222",
+        color: "#fff",
       },
     }),
   };
