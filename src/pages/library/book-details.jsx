@@ -48,9 +48,10 @@ const Container = styled.div`
   .notes-section {
     textarea {
       border-radius: 3px;
-      border: 1px solid #333;
+      border: 1px solid #f9e699ff;
       padding: 12px;
       box-sizing: border-box;
+      background-color: #e6ce79;
 
       width: 100%;
       font-family: inherit;

@@ -14,7 +14,13 @@ function PageRange(props) {
           type="number"
           value={pageRange[0]}
           min="1"
-          style={{ width: "50px" }}
+          style={{
+            width: "50px",
+            backgroundColor: "#f9e699ff",
+            border: "1px solid #49472b",
+            padding: "4px 8px",
+            borderRadius: "3px",
+          }}
           onChange={(e) =>
             setPageRange([Math.max(0, Number(e.target.value)), pageRange[1]])
           }
@@ -24,7 +30,13 @@ function PageRange(props) {
           type="number"
           value={pageRange[1]}
           min={Math.max(0, pageRange[0])}
-          style={{ width: "50px" }}
+          style={{
+            width: "50px",
+            backgroundColor: "#f9e699ff",
+            border: "1px solid #49472b",
+            padding: "4px 8px",
+            borderRadius: "3px",
+          }}
           onChange={(e) =>
             setPageRange([pageRange[0], Math.max(0, Number(e.target.value))])
           }

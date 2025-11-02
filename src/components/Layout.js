@@ -13,6 +13,7 @@ import githubLogo from "../images/github-copilot-white-icon.png";
 
 const StyledContainer = styled(Container)`
   background: #fafafa;
+  background: #f9e699ff;
   padding-top: 1px;
   border-radius: 3px;
   // # Border
@@ -48,7 +49,7 @@ const StyledContainer = styled(Container)`
     margin-top: auto;
     padding: 3rem 0;
     text-align: center;
-    color: #fff;
+    color: #d4c066;
     background-color: #111;
     border-radius: 3px;
     box-shadow: var(--Paper-shadow);
@@ -66,12 +67,12 @@ const StyledContainer = styled(Container)`
       font-size: 18px;
       opacity: 0.3;
       text-decoration: none;
-      color: #fff;
+      color: #d4c066;
     }
   }
 
   .typography {
-    color: #fff;
+    color: #d4c066;
     backdrop-filter: blur(28px);
     padding: 12px;
     width: max-content;
@@ -79,7 +80,7 @@ const StyledContainer = styled(Container)`
     font-family: Tangerine;
     margin: 0 auto;
     border-radius: 3px;
-    border: 1px solid #fff;
+    border: 1px solid #d4c066;
   }
 
   .footer-links {
@@ -94,7 +95,7 @@ const StyledContainer = styled(Container)`
       padding: 0 0 8px 8px;
       a {
         text-decoration: none;
-        color: #fff;
+        color: #d4c066;
 
         &:hover {
           text-decoration: underline;

@@ -14,6 +14,60 @@ const options = [
 const FilterSelect = (props) => {
   const { searchFilter, setSearchFilter, setQ } = props;
 
+  const customStyles = {
+    control: (provided, state) => ({
+      ...provided,
+      backgroundColor: "#d4c066", // Darker than #f9e699ff
+      borderColor: state.isFocused ? "#b8a04a" : "#c4b05c",
+      boxShadow: state.isFocused ? "0 0 0 1px #b8a04a" : null,
+      "&:hover": {
+        borderColor: "#b8a04a",
+      },
+    }),
+    menu: (provided) => ({
+      ...provided,
+      backgroundColor: "#d4c066",
+    }),
+    option: (provided, state) => ({
+      ...provided,
+      backgroundColor: state.isSelected
+        ? "#b8a04a"
+        : state.isFocused
+        ? "#c4b05c"
+        : "#d4c066",
+      color: "#333",
+      "&:hover": {
+        backgroundColor: "#c4b05c",
+      },
+    }),
+    singleValue: (provided) => ({
+      ...provided,
+      color: "#333",
+    }),
+    placeholder: (provided) => ({
+      ...provided,
+      color: "#666",
+    }),
+    dropdownIndicator: (provided) => ({
+      ...provided,
+      color: "#222",
+      "&:hover": {
+        color: "#222",
+      },
+    }),
+    indicatorSeparator: (provided) => ({
+      ...provided,
+      backgroundColor: "#222",
+    }),
+    clearIndicator: (provided) => ({
+      ...provided,
+      color: "#222",
+      "&:hover": {
+        color: "#222",
+      },
+    }),
+  };
+
   const handleChange = (selectedOptions) => {
     setSearchFilter(selectedOptions);
 
@@ -48,6 +102,7 @@ const FilterSelect = (props) => {
         defaultValue={searchFilter}
         className="basic-multi-select"
         classNamePrefix="select"
+        styles={customStyles}
         onChange={handleChange}
       />
     </div>
