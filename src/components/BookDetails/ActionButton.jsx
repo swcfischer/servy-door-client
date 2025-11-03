@@ -69,12 +69,12 @@ const StyledMenuContainer = styled.div`
 
     &:hover {
       background-color: #333 !important;
-      color: #fff !important;
+      color: #d4c066 !important;
     }
 
     &:focus {
       background-color: #333 !important;
-      color: #fff !important;
+      color: #d4c066 !important;
       outline: none !important;
     }
   }
@@ -90,7 +90,7 @@ const StyledMenuContainer = styled.div`
 
     &:hover {
       background-color: #333 !important;
-      color: #fff !important;
+      color: #d4c066 !important;
     }
   }
 `;
