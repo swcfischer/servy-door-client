@@ -40,7 +40,8 @@ const EmotionContainer = styled.div`
   }
 
   input:focus {
-    outline: 2px solid #f9e699ff;
+    outline: 1px solid #000000ac;
+    outline-offset: 0px;
   }
 
   @media (max-width: 600px) {

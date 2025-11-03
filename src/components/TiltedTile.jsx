@@ -15,7 +15,7 @@ const StyledLink = styled(Link)`
   -webkit-user-drag: none !important;
 
   &:focus {
-    border: 1px solid #dadada;
+    border: 1px solid #d4c066;
   }
 
   .tile {

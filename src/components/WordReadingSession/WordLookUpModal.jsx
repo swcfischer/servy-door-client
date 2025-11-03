@@ -17,10 +17,13 @@ const customStyle = {
     height: "min-content",
     boxSizing: "border-box",
     margin: "auto",
-    background: "#fafafa",
+    background: "#222",
+    color: "#d4c066",
     maxWidth: "500px",
     maxHeight: "100vh",
     overflowY: "auto",
+    border: "1px solid #5e5e5e",
+    borderRadius: "3px",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
@@ -38,6 +41,7 @@ const Container = styled.div`
 
   h2 {
     text-align: center;
+    color: #d4c066;
   }
 
   form {
@@ -52,9 +56,10 @@ const Container = styled.div`
       label {
         padding-bottom: 8px;
         font-weight: bold;
+        color: #d4c066;
 
         .is-required {
-          color: red;
+          color: #ff6b6b;
         }
       }
 
@@ -63,6 +68,25 @@ const Container = styled.div`
         font-family: inherit;
         padding: 6px;
         font-size: 16px;
+        background-color: #333;
+        color: #d4c066;
+        border: 1px solid #5e5e5e;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: #7e7e7e;
+        }
+
+        &:focus {
+          outline: 2px solid #d4c066;
+          outline-offset: 2px;
+          border-color: #d4c066;
+        }
+
+        &::placeholder {
+          color: rgba(212, 192, 102, 0.6);
+        }
       }
     }
   }
@@ -71,16 +95,28 @@ const Container = styled.div`
     height: max-content;
     padding: 11px 20px;
     font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #5e5e5e;
+    background-color: #222;
+    color: #d4c066;
     cursor: pointer;
     margin-top: 12px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: inherit;
 
     &:hover {
-      background-color: #555;
+      background-color: #333;
+      border-color: #7e7e7e;
+    }
+
+    &:focus {
+      outline: 2px solid #d4c066;
+      outline-offset: 2px;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
     }
   }
 
@@ -92,6 +128,13 @@ const Container = styled.div`
     position: absolute;
     top: -34px;
     right: -6px;
+  }
+
+  .error-message {
+    color: #ff6b6b;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
   }
 `;
 
@@ -171,12 +214,7 @@ function WordLookUpModal({
                     <ErrorMessage
                       component="div"
                       name="wordOrPhrase"
-                      style={{
-                        color: "red",
-                        position: "absolute",
-                        bottom: 10,
-                        left: 0,
-                      }}
+                      className="error-message"
                     />
                   </div>
                   <div className="field-container">
@@ -192,12 +230,7 @@ function WordLookUpModal({
                     <ErrorMessage
                       name="surroundingSentence"
                       component="div"
-                      style={{
-                        color: "red",
-                        position: "absolute",
-                        bottom: 10,
-                        left: 0,
-                      }}
+                      className="error-message"
                     />
                   </div>
                   <button
@@ -216,10 +249,12 @@ function WordLookUpModal({
           </>
         ) : (
           <div>
-            <h2>Definition</h2>
-            <ReactMarkdown>
-              {removeHtmlTags(definition?.definition)}
-            </ReactMarkdown>
+            <h2 style={{ color: "#d4c066" }}>Definition</h2>
+            <div style={{ color: "#d4c066", lineHeight: "1.6" }}>
+              <ReactMarkdown>
+                {removeHtmlTags(definition?.definition)}
+              </ReactMarkdown>
+            </div>
 
             <button className="close-btn" onClick={handleRequestClose}>
               Close

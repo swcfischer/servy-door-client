@@ -16,11 +16,14 @@ const customStyle = {
     height: "min-content",
     boxSizing: "border-box",
     margin: "auto",
-    background: "#fafafa",
+    background: "#222",
+    color: "#d4c066",
     maxWidth: "500px",
     maxHeight: "100vh",
     overflowY: "auto",
     paddingBottom: "42px",
+    border: "1px solid #5e5e5e",
+    borderRadius: "3px",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
@@ -42,6 +45,10 @@ const Container = styled.div`
     margin-bottom: 18px;
   }
 
+  p {
+    color: #d4c066;
+  }
+
   .word-container {
     ol {
       padding-left: 42px;
@@ -57,6 +64,7 @@ const Container = styled.div`
         padding: 0;
         text-align: left;
         font-family: inherit;
+        border: none;
 
         &:hover {
           text-decoration: underline;
@@ -79,22 +87,34 @@ const InnerModalContainer = styled.div`
 
   h2 {
     text-align: center;
+    color: #d4c066;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   button {
     height: max-content;
     padding: 11px 20px;
     font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #5e5e5e;
+    background-color: #222;
+    color: #d4c066;
     cursor: pointer;
     margin-top: 12px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: inherit;
 
     &:hover {
-      background-color: #555;
+      background-color: #333;
+      border-color: #7e7e7e;
+    }
+
+    &:focus {
+      outline: 2px solid #d4c066;
+      outline-offset: 2px;
     }
   }
 
@@ -106,10 +126,18 @@ const InnerModalContainer = styled.div`
 
   .delete-btn {
     margin-top: 35px;
-    background: #717171;
+    background-color: #5c1e1e;
+    border-color: #8b2c2c;
+    color: #ff9999;
 
     &:hover {
-      background: #3e0d0d;
+      background-color: #7a2525;
+      border-color: #b33a3a;
+    }
+
+    &:focus {
+      outline: 2px solid #ff9999;
+      outline-offset: 2px;
     }
   }
 `;

@@ -9,6 +9,7 @@ import { UserContext } from "../../components/Layout";
 
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 import formatDate from "../../utils/formatDate";
+import { getImageLink } from "../../utils/image";
 import {
   createGoogleAuthorLink,
   createGooglePublisherLink,
@@ -32,9 +33,12 @@ const Container = styled.div`
 
       img {
         padding: 0;
-        height: min-content;
+        width: 128px;
+        height: auto;
+        max-height: 192px;
         border-radius: 3px;
         border: solid 1px #999;
+        object-fit: cover;
       }
     }
 
@@ -170,6 +174,7 @@ function BookDetails(props) {
   };
 
   const [book, setBook] = useState({});
+  const [bookImage, setBookImage] = useState(null);
   const [readingSessions, setReadingSessions] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [pageRange, setPageRange] = useState([]);
@@ -208,6 +213,13 @@ function BookDetails(props) {
           );
 
           setBook(books);
+
+          // Get the highest resolution image
+          if (books.volumeInfo?.imageLinks) {
+            const img = await getImageLink(books.volumeInfo.imageLinks);
+            setBookImage(img);
+          }
+
           setIsLoading(false);
         } catch (apiError) {
           console.error("API Error:", apiError);
@@ -317,11 +329,11 @@ function BookDetails(props) {
       <h1>{book.volumeInfo?.title}</h1>
 
       <div className="book-details">
-        {book.volumeInfo?.imageLinks?.thumbnail && (
+        {bookImage?.image && (
           <div className="img-container">
             <img
-              src={book.volumeInfo.imageLinks.thumbnail}
-              alt={book.volumeInfo.title}
+              src={bookImage.image}
+              alt={book.volumeInfo?.title || "Book cover"}
             />
           </div>
         )}
