@@ -3,8 +3,25 @@ import { Tooltip } from "@mui/material";
 import styled from "@emotion/styled";
 
 const StyledContainer = styled.div`
-  input:focus {
-    outline: 2px solid #f9e699ff;
+  input {
+    width: 50px;
+    background-color: #222;
+    border: 1px solid #5e5e5e;
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: #d4c066;
+    font-family: inherit;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #7e7e7e;
+    }
+
+    &:focus {
+      outline: 2px solid #d4c066;
+      outline-offset: 2px;
+      border-color: #d4c066;
+    }
   }
 `;
 
@@ -22,13 +39,6 @@ function PageRange(props) {
             type="number"
             value={pageRange[0]}
             min="1"
-            style={{
-              width: "50px",
-              backgroundColor: "#594803",
-              border: "1px solid #49472b",
-              padding: "4px 8px",
-              borderRadius: "3px",
-            }}
             onChange={(e) =>
               setPageRange([Math.max(0, Number(e.target.value)), pageRange[1]])
             }
@@ -38,13 +48,6 @@ function PageRange(props) {
             type="number"
             value={pageRange[1]}
             min={Math.max(0, pageRange[0])}
-            style={{
-              width: "50px",
-              backgroundColor: "#594803",
-              border: "1px solid #49472b",
-              padding: "4px 8px",
-              borderRadius: "3px",
-            }}
             onChange={(e) =>
               setPageRange([pageRange[0], Math.max(0, Number(e.target.value))])
             }

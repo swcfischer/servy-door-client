@@ -48,22 +48,29 @@ const Container = styled.div`
   .notes-section {
     textarea {
       border-radius: 3px;
-      border: 1px solid #f9e699ff;
+      border: 1px solid #5e5e5e;
       padding: 12px;
       box-sizing: border-box;
-      background-color: #9e7c01;
-
+      background-color: #222;
+      color: #d4c066;
       width: 100%;
       font-family: inherit;
       font-size: 18px;
       height: 375px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        border-color: #7e7e7e;
+      }
 
       &:focus {
-        outline: 2px solid #f9e699ff;
+        outline: 2px solid #d4c066;
+        outline-offset: 2px;
+        border-color: #d4c066;
       }
 
       &::placeholder {
-        color: black;
+        color: rgba(212, 192, 102, 0.6);
       }
     }
   }
@@ -80,18 +87,24 @@ const Container = styled.div`
 
   button {
     height: max-content;
-    padding: 11px 20px;
+    padding: 8px 12px;
     font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #5e5e5e;
+    background-color: #222;
+    color: #d4c066;
     cursor: pointer;
     margin-top: 12px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 
     &:hover {
-      background-color: #555;
+      background-color: #333;
+      border-color: #7e7e7e;
+    }
+
+    &:focus {
+      outline: 2px solid #d4c066;
+      outline-offset: 2px;
     }
   }
 

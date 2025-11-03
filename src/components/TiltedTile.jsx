@@ -42,7 +42,7 @@ const StyledLink = styled(Link)`
     font-size: 20px;
     font-weight: 100;
     font-family: serif;
-    color: rgba(212, 218, 60, 0.621);
+    color: #d4c066;
   }
 `;
 
@@ -139,6 +139,6 @@ const StyledAnchor = styled.a`
     font-size: 20px;
     font-weight: 100;
     font-family: serif;
-    color: rgba(212, 218, 60, 0.621);
+    color: #d4c066;
   }
 `;

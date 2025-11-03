@@ -37,19 +37,25 @@ const Container = styled.div`
 
     button {
       height: max-content;
-      padding: 11px 20px;
+      padding: 8px 12px;
       font-size: 16px;
-      border-radius: 4px;
-      border: none;
-      background-color: #333;
-      color: #fff;
+      border-radius: 3px;
+      border: 1px solid #5e5e5e;
+      background-color: #222;
+      color: #d4c066;
       cursor: pointer;
       margin-top: 12px;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
       font-family: inherit;
 
       &:hover {
-        background-color: #555;
+        background-color: #333;
+        border-color: #7e7e7e;
+      }
+
+      &:focus {
+        outline: 2px solid #d4c066;
+        outline-offset: 2px;
       }
     }
 
@@ -64,21 +70,27 @@ const Container = styled.div`
 
   button.comment-btn {
     height: max-content;
-    padding: 11px 20px;
+    padding: 8px 12px;
     font-size: 16px;
-    border-radius: 4px;
-    border: none;
-    background-color: #333;
-    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #5e5e5e;
+    background-color: #222;
+    color: #d4c066;
     cursor: pointer;
     margin-top: 12px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
     font-family: inherit;
+    margin-bottom: 36px;
 
     &:hover {
-      background-color: #555;
+      background-color: #333;
+      border-color: #7e7e7e;
     }
-    margin-bottom: 36px;
+
+    &:focus {
+      outline: 2px solid #d4c066;
+      outline-offset: 2px;
+    }
   }
 
   .loading-container {
