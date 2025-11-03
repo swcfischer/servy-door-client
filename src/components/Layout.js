@@ -9,6 +9,9 @@ import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
 import { Link } from "gatsby";
 import HelmetComponent from "./HelmetComponent";
+import { ThemeProvider } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+import theme from "../theme";
 import githubLogo from "../images/github-copilot-white-icon.png";
 
 const StyledContainer = styled(Container)`
@@ -164,48 +167,50 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <UserContext.Provider value={{ user, setUser }}>
-        <StateContext.Provider value={{ state, setState }}>
-          <StyledContainer maxWidth="sm">
-            <AppBar className="app-bar" position="static">
-              <Toolbar className="toolbar">
-                <div>
-                  <TiltedTile text="ServyDoor" to="/" />
-                </div>
-                <div className="nav-links">
-                  <TiltedTile text="Library" to="/library" />
-                  {/* <TiltedTile text="Account" to="/account" /> */}
-                  <div className="auth-button-container">
-                    <GoogleAuthButton />
+      <ThemeProvider theme={theme}>
+        <UserContext.Provider value={{ user, setUser }}>
+          <StateContext.Provider value={{ state, setState }}>
+            <StyledContainer maxWidth="sm">
+              <AppBar className="app-bar" position="static">
+                <Toolbar className="toolbar">
+                  <div>
+                    <TiltedTile text="ServyDoor" to="/" />
                   </div>
-                </div>
-              </Toolbar>
-            </AppBar>
-            <HelmetComponent />
+                  <div className="nav-links">
+                    <TiltedTile text="Library" to="/library" />
+                    {/* <TiltedTile text="Account" to="/account" /> */}
+                    <div className="auth-button-container">
+                      <GoogleAuthButton />
+                    </div>
+                  </div>
+                </Toolbar>
+              </AppBar>
+              <HelmetComponent />
 
-            <div style={{ minHeight: "150vh" }}>{children}</div>
-            <footer className="footer">
-              <Typography variant="body2" className="typography">
-                ServyDoor{" "}
-              </Typography>
-              <ul className="footer-links">
-                <li>
-                  <Link to="/tos">Terms of Service</Link>
-                </li>
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/account">Account</Link>
-                </li>
-                <li>
-                  <Link to="/library">Library</Link>
-                </li>
-              </ul>
-            </footer>
-          </StyledContainer>
-        </StateContext.Provider>
-      </UserContext.Provider>
+              <div style={{ minHeight: "150vh" }}>{children}</div>
+              <footer className="footer">
+                <Typography variant="body2" className="typography">
+                  ServyDoor{" "}
+                </Typography>
+                <ul className="footer-links">
+                  <li>
+                    <Link to="/tos">Terms of Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/about">About</Link>
+                  </li>
+                  <li>
+                    <Link to="/account">Account</Link>
+                  </li>
+                  <li>
+                    <Link to="/library">Library</Link>
+                  </li>
+                </ul>
+              </footer>
+            </StyledContainer>
+          </StateContext.Provider>
+        </UserContext.Provider>
+      </ThemeProvider>
     </>
   );
 };
