@@ -37,7 +37,12 @@ function BookItem(props) {
           <CardContent sx={{ paddingTop: 0 }}>
             <Typography
               variant="subtitle1"
-              sx={{ fontStyle: "italic", lineHeight: 1.2 }}
+              sx={{
+                fontStyle: "italic",
+                lineHeight: 1.2,
+                fontSize: "1.1rem",
+                fontWeight: "bold",
+              }}
               className="hover-underline"
               // title={handleTitleLength(volumeInfo.title)}
             >
