@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import Fab from "@mui/material/Fab";
 import TiltedTile from "./TiltedTile";
 import GoogleAuthButton from "./GoogleAuthButton";
 import axiosInstance from "../axiosInstance";
@@ -17,13 +18,25 @@ import githubLogo from "../images/github-copilot-white-icon.png";
 const StyledContainer = styled(Container)`
   background: #fafafa;
   background: #f9e699ff;
-  background: #ffcd00;
+  background: ${(props) => {
+    switch (props.brightnessLevel) {
+      case 1:
+        return "#ffe066"; // Bright yellow
+      case 2:
+        return "#ffcd00"; // Medium yellow (original)
+      case 3:
+        return "#e6b800"; // Darker yellow
+      default:
+        return "#ffcd00";
+    }
+  }};
   padding-top: 1px;
   border-radius: 3px;
   // # Border
   border: 4px solid rgb(28, 28, 28);
   border-top: none;
   box-shadow: 0 4px 8px rgb(18, 18, 18);
+  transition: background 0.3s ease;
 
   .app-bar {
     background-color: rgb(33, 33, 33);
@@ -109,6 +122,20 @@ const StyledContainer = styled(Container)`
   }
 `;
 
+const BrightnessToggle = styled(Fab)`
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #2c2c2c !important;
+  color: #ffcd00 !important;
+  font-weight: bold !important;
+  &:hover {
+    background-color: #1a1a1a !important;
+  }
+  transition: all 0.3s ease !important;
+`;
+
 const initialState = {};
 
 export const StateContext = createContext(initialState);
@@ -117,9 +144,25 @@ export const UserContext = createContext({});
 const Layout = ({ children }) => {
   const [state, _setState] = useState({});
   const [user, setUser] = useState({ isLoading: true });
+  const [brightnessLevel, setBrightnessLevel] = useState(2); // Default to middle level
 
   const setState = (newState) => {
     _setState({ ...state, ...newState });
+  };
+
+  // Load brightness preference from localStorage on mount
+  useEffect(() => {
+    const savedBrightness = localStorage.getItem("brightness-level");
+    if (savedBrightness) {
+      setBrightnessLevel(parseInt(savedBrightness));
+    }
+  }, []);
+
+  // Cycle through brightness levels (1 -> 2 -> 3 -> 1)
+  const cycleBrightness = () => {
+    const nextLevel = brightnessLevel >= 3 ? 1 : brightnessLevel + 1;
+    setBrightnessLevel(nextLevel);
+    localStorage.setItem("brightness-level", nextLevel.toString());
   };
 
   useEffect(() => {
@@ -170,7 +213,7 @@ const Layout = ({ children }) => {
       <ThemeProvider theme={theme}>
         <UserContext.Provider value={{ user, setUser }}>
           <StateContext.Provider value={{ state, setState }}>
-            <StyledContainer maxWidth="sm">
+            <StyledContainer maxWidth="sm" brightnessLevel={brightnessLevel}>
               <AppBar className="app-bar" position="static">
                 <Toolbar className="toolbar">
                   <div>
@@ -208,6 +251,16 @@ const Layout = ({ children }) => {
                 </ul>
               </footer>
             </StyledContainer>
+
+            <BrightnessToggle
+              onClick={cycleBrightness}
+              size="medium"
+              aria-label="cycle brightness levels"
+            >
+              <span style={{ fontSize: "20px", fontWeight: "bold" }}>
+                {brightnessLevel}
+              </span>
+            </BrightnessToggle>
           </StateContext.Provider>
         </UserContext.Provider>
       </ThemeProvider>
