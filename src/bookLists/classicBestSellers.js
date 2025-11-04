@@ -1,6 +1,104 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "30hGAwAAQBAJ",
+    etag: "1P4kFZNIIVk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/30hGAwAAQBAJ",
+    volumeInfo: {
+      title: "All Things Possible",
+      subtitle: "Setbacks and Success in Politics and Life",
+      authors: ["Andrew M. Cuomo"],
+      publisher: "Harper Collins",
+      publishedDate: "2023-12-15",
+      description:
+        "<p> <b>In this frank memoir—a story of duty, family, justice, politics, and resilience—Andrew Cuomo, New York State's fifty-sixth governor, reflects on his rise, fall, and rise again in politics, and the tough (but necessary) lessons he has learned along the way.</b> </p> <p>Born to first-generation American parents in the working-class neighborhood of Queens, New York, Andrew M. Cuomo grew up in a family anchored by a shared belief in community, hard and honest work, and helping others. His father, Mario, led by example, as a tireless advocate for local residents, instilling in his son a passion for public service. From stapling up posters as a sixteen-year-old during his father's first political campaign to managing at twenty-five Mario's successful 1982 bid for New York State governor, Andrew Cuomo witnessed at a young age the power of politics to effect change for the common good. These experiences, reinforced by deeply held personal values, guided him, from novice campaign manager to visionary reform crusader to Clinton cabinet member—at thirty-nine—to groundbreaking governor of his home state. Laying out his unique approach to challenging the status quo, <i>All Things Possible</i> is not a traditional political memoir, but rather one man's revelatory reflection on a life defined by a commitment to public service, and the hard-won truths gleaned from both his struggles and his successes.</p> <p>In recounting his uphill battles to redefine the way America deals with homelessness, rehabilitate the legislative process in Albany, and bring marriage equality to New York, Cuomo presents an inspiring blueprint for greater political cooperation and efficacy. He also unflinchingly examines his failed 2002 gubernatorial bid, which heralded a dark period of political and personal turmoil, to illustrate why failure is inextricably bound up with success, why we should never forget where we come from, and the importance of balancing personal and professional commitments. And he proves, through all that he's achieved since his victory in the 2010 election, that our biggest triumphs lie not in never falling, but in rising every time we fall.</p> <p>With 16-pages of color and black and white photos</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0062300091" },
+        { type: "ISBN_13", identifier: "9780062300096" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 533,
+      printedPageCount: 365,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Political",
+        "Biography & Autobiography / Personal Memoirs",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.7.7.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71fu0hnSOpxhVQMvNGA3DuUaYjbggLiduuMwQKjd4dSCVhby_7m-APVvMgosyv7ROc4gj60Iz11N62KENJEZ8eET1SHICapEtAHMYZU8LRNZx1aglc&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72qeqCQM9GkouVj2TN1YpCqoeFqzLRitos6wjXo1NAgn4jMwceKeW7XmrEOGCix4K7Al-liQDf9sI2uMEv5Y8v5EU3oALyRRABdLnwzMnoGmbLUnkQ&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71ZkrpG8XXnbqt2NmTR95HRO2-_n5pWuLe4yM1r4ghBQ9f5MUjUhA6aD5zBe4wkI3KtrsEPEg2882na49LaUQ--pwohWvvgeZS-JgLcKXRP8U_dg_4&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70_AGXuUZ7Q8-0Ee3qJrTj5jnjKvxngm0J2R4w_lGgLMtnzOLOzesgDDUTTd1AZwezAMnfThLW7FgiEdzRYXg7vEN35LZCLynSEZDARwbYeJ0O-VW0&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE7275Vpi4DwdPSOe-qWCIXFT6q6Rc5T0WAxLo0bBF8ZuVU9ICmwTnovx0H-LAKAAUn7h9sFOXTw-Gj8kfc7mDujWcnmd29-KVtXQhOukUm6e8AsVpRQ&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71b8Az_hk_kjwV3iqWCNu3o1lnfGwEAsti4WUl8PCKwGyghU-PpOTQHy3ULyui6i1cIGHciJR3ICtOreR6GUfe6VqeoxLR4sOIAQ7rABSFbZG3l9cg&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=30hGAwAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=30hGAwAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=30hGAwAAQBAJ",
+      aiSummary:
+        "This memoir recounts the life of a New York governor, from his humble beginnings and early exposure to politics through his father's career, to his own rise to power and subsequent fall. It explores his unique approach to political challenges, including his efforts to combat homelessness, reform legislation, and advance marriage equality. The book also delves into his personal and professional setbacks, particularly his failed 2002 gubernatorial campaign, and highlights the importance of resilience, learning from failures, and balancing personal and professional life.\n",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "9" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 17.99, currencyCode: "USD" },
+      retailPrice: { amount: 17.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=30hGAwAAQBAJ&rdid=book-30hGAwAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 17990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 17990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/All_Things_Possible-sample-epub.acsm?id=30hGAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=30hGAwAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2595,
+      image:
+        "http://books.google.com/books/publisher/content?id=30hGAwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71b8Az_hk_kjwV3iqWCNu3o1lnfGwEAsti4WUl8PCKwGyghU-PpOTQHy3ULyui6i1cIGHciJR3ICtOreR6GUfe6VqeoxLR4sOIAQ7rABSFbZG3l9cg&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "1vhpYe99Tn4C",
     etag: "6Dk8gKbeL8M",
     selfLink: "https://www.googleapis.com/books/v1/volumes/1vhpYe99Tn4C",
