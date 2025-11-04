@@ -1,6 +1,91 @@
 const bestsellerList = [
   {
     kind: "books#volume",
+    id: "0ME-EAAAQBAJ",
+    etag: "M9kYdzuu/p0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/0ME-EAAAQBAJ",
+    volumeInfo: {
+      title: "Dopamine Nation",
+      subtitle: "Finding Balance in the Age of Indulgence",
+      authors: ["Dr. Anna Lembke"],
+      publisher: "Penguin",
+      publishedDate: "2021-08-24",
+      description:
+        "<b>INSTANT <i>NEW YORK TIMES</i> and <i>LOS ANGELES TIMES</i> BESTSELLER<br>“Brilliant . . . riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of <i>Dopesick,<br></i>as heard on<i> Fresh Air</i></b><br><br>This book is about pleasure. It’s also about pain. Most important, it’s about how to find the delicate balance between the two, and why now more than ever finding balance is essential. We’re living in a time of unprecedented access to high-reward, high-dopamine stimuli: drugs, food, news, gambling, shopping, gaming, texting, sexting, Facebooking, Instagramming, YouTubing, tweeting . . . The increased numbers, variety, and potency is staggering. The smartphone is the modern-day hypodermic needle, delivering digital dopamine 24/7 for a wired generation. As such we’ve all become vulnerable to compulsive overconsumption.<br>  <br> In <i>Dopamine Nation</i>, Dr. Anna Lembke, psychiatrist and author, explores the exciting new scientific discoveries that explain why the relentless pursuit of pleasure leads to pain . . . and what to do about it. Condensing complex neuroscience into easy-to-understand metaphors, Lembke illustrates how finding contentment and connectedness means keeping dopamine in check. The lived experiences of her patients are the gripping fabric of her narrative. Their riveting stories of suffering and redemption give us all hope for managing our consumption and transforming our lives. In essence, <i>Dopamine Nation </i>shows that the secret to finding balance is combining the science of desire with the wisdom of recovery.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "152474672X" },
+        { type: "ISBN_13", identifier: "9781524746728" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 304,
+      printedPageCount: 305,
+      dimensions: {
+        height: "24.00 cm",
+        width: "15.70 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Psychology / Clinical Psychology",
+        "Science / Life Sciences / Neuroscience",
+        "Social Science / Disease & Health Issues",
+      ],
+      averageRating: 1,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.7.1.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70MciPmkjCZcgXMlHBvwuVCWzGhwB8n3DbYrmrxz6-5fpWGUI-NEbwE165iBIFa2Sae1RHkLYwTCqD5TAdy15eXKILD09fK2Ed0fEwlu8lphQwtHds&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VAT3pGY3Zt-xRiYJQNMrHLZVplS-_-AcSSzbeM4bZ1HdxdaJFIP5FZsucNWFuaGcKbpzJyiEZVsarFxAMmvfSccCtGjyRLm-5QV62JCr3an76oGU&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71EsCttwn0rYR4kvjhzJ9qVu_mf3vszQLl_xsfoQmrwB06mTV042dfwSgj1eh4ErtnxaIvmzGYlU4losb3UeYvWqxtJ1Pbkh34kphAiAipNrQvWnN8&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE707nAqSKif4Um4bSSDdOrrkxF6BqyF69Um2ik_wHwn6Dz6eQM54zqEQohwwjMOpHd4blyJJNpNHsT3K47yXbp6uo6B0lnmow_kpB6aaXa_6rYNguSg&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70t5mxwwL21G5rINAThbLuZ7WpOSlAhh28OA55bwWdxKM_NznsD-x2JB1kPA7T1ITqwZwiSOPgiiHVBjVPo8HHnuEIuUDUuG1SmepZ70Ewpg12haw4&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73-RJAy1yzsmMIrHvAXxEz7TVkpFG9SxsSg1Eej_xVmgfuCaOZeAMFFbXSe5imnwk0YlgNR7vRn8wA0cCD66oo9M1OF4j_sCB4il8R584nvFnTvUpI&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=0ME-EAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=0ME-EAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=0ME-EAAAQBAJ",
+      aiSummary:
+        "This book explores the contemporary challenge of overconsumption in a world saturated with easily accessible, high-dopamine stimuli, facilitated by technology like smartphones. It delves into the neuroscience behind why the relentless pursuit of pleasure leads to pain, offering strategies for managing dopamine levels to achieve contentment and connection. Through compelling patient narratives, the book illustrates the path to recovery and transformation by balancing the science of desire with the wisdom of recovery.\n",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=0ME-EAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=0ME-EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73-RJAy1yzsmMIrHvAXxEz7TVkpFG9SxsSg1Eej_xVmgfuCaOZeAMFFbXSe5imnwk0YlgNR7vRn8wA0cCD66oo9M1OF4j_sCB4il8R584nvFnTvUpI&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "Ye6e_VxM00kC",
     etag: "PKJVyWA3tg0",
     selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
