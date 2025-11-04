@@ -46,7 +46,6 @@ const Container = styled.div`
   }
 
   p {
-    color: #d4c066;
   }
 
   .word-container {

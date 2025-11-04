@@ -76,6 +76,39 @@ const Container = styled.div`
       &::placeholder {
         color: rgba(212, 192, 102, 0.6);
       }
+
+      /* Custom scrollbar styles matching ActionButton theme */
+      &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #222;
+        border-radius: 3px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #5e5e5e;
+        border-radius: 3px;
+        border: 1px solid #333;
+
+        &:hover {
+          background-color: #7e7e7e;
+        }
+
+        &:active {
+          background-color: #d4c066;
+        }
+      }
+
+      &::-webkit-scrollbar-corner {
+        background-color: #222;
+      }
+
+      /* Firefox scrollbar styles */
+      scrollbar-width: thin;
+      scrollbar-color: #5e5e5e #222;
     }
   }
 
