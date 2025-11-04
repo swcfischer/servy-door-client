@@ -1,74 +1,74 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "H75HEQAAQBAJ",
-    etag: "EdzbUk6qIOw",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/H75HEQAAQBAJ",
+    id: "1vhpYe99Tn4C",
+    etag: "6Dk8gKbeL8M",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/1vhpYe99Tn4C",
     volumeInfo: {
-      title: "1929",
-      subtitle:
-        "Inside the Greatest Crash in Wall Street History--and How It Shattered a Nation",
-      authors: ["Andrew Ross Sorkin"],
-      publisher: "Penguin",
-      publishedDate: "2025-10-14",
+      title: "A Great Improvisation",
+      subtitle: "Franklin, France, and the Birth of America",
+      authors: ["Stacy Schiff"],
+      publisher: "Henry Holt and Company",
+      publishedDate: "2006-01-10",
       description:
-        "<b>“It is one of the best narrative histories I’ve read.”<br>—<i>The Wall Street Journal</i><br><br>Named a Most Anticipated Book by <i>New York Times Books Review</i>, <i>TIME</i>, <i>Washington Post</i>, <i>Associated Press</i>, <i>Town & Country</i>, <i>New York Post</i>, and more<br><br>From the bestselling author of Too Big to Fail, “the definitive history of the 2008 banking crisis,” (<i>The Atlantic</i>) comes a riveting narrative of the most infamous stock market crash in history—one with ripple effects that still shape our society today.</b><br><br>In <i>1929</i>, the world watched in shock as the unstoppable Wall Street bull market went into a freefall, wiping out fortunes and igniting a depression that would reshape a generation. But behind the flashing ticker tapes and panicked traders, another drama unfolded—one of visionaries and fraudsters, titans and dreamers, euphoria and ruin.<br><br>With unparalleled access to historical records and newly uncovered documents, <i>New York Times</i> bestselling author Andrew Ross Sorkin takes readers inside the chaos of the crash, behind the scenes of a raging battle between Wall Street and Washington and the larger-than-life characters whose ambition and naivete in an endless boom led to disaster. The dizzying highs and brutal lows of this era eerily mirror today’s world—where markets soar, political tensions mount, and the fight over financial influence plays out once again.<br><br>This is not just a story about money. <i>1929 </i>is a tale of power, psychology, and the seductive illusion that this time is different. It’s about disregarded alarm bells, financiers who fell from grace, and skeptics who saw the crash coming—only to be dismissed until it was too late.<br><br>Hailed as a landmark book, <i>Too Big to Fail</i> reimagined how financial crises are told. Now, with <i>1929</i>, Sorkin delivers an immersive, electrifying account of the most pivotal market collapse of all time—with lessons that remain as urgent as ever. More than just a history, <i>1929</i> is a crucial blueprint for understanding the cycles of speculation, the forces that drive financial upheaval, and the warning signs we ignore at our peril.",
+        "<p><b>In this dazzling work of history, a Pulitzer Prize-winning author follows Benjamin Franklin to France for the crowning achievement of his career </b><b> ●</b> <b>Michael Douglas stars in <i>Franklin</i>, premiering April 12 only on Apple TV+ <br></b><br>In December of 1776 a small boat delivered an old man to France.\" So begins an enthralling narrative account of how Benjamin Franklin--seventy years old, without any diplomatic training, and possessed of the most rudimentary French--convinced France, an absolute monarchy, to underwrite America's experiment in democracy. <br><br>When Franklin stepped onto French soil, he well understood he was embarking on the greatest gamble of his career. By virtue of fame, charisma, and ingenuity, Franklin outmaneuvered British spies, French informers, and hostile colleagues; engineered the Franco-American alliance of 1778; and helped to negotiate the peace of 1783. The eight-year French mission stands not only as Franklin's most vital service to his country but as the most revealing of the man.<br><br>In <i>A Great Improvisation</i>, Stacy Schiff draws from new and little-known sources to illuminate the least-explored part of Franklin's life. Here is an unfamiliar, unforgettable chapter of the Revolution, a rousing tale of American infighting, and the treacherous backroom dealings at Versailles that would propel George Washington from near decimation at Valley Forge to victory at Yorktown. From these pages emerge a particularly human and yet fiercely determined Founding Father, as well as a profound sense of how fragile, improvisational, and international was our country's bid for independence.</p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0593296974" },
-        { type: "ISBN_13", identifier: "9780593296974" },
+        { type: "ISBN_10", identifier: "1429907991" },
+        { type: "ISBN_13", identifier: "9781429907996" },
       ],
       readingModes: { text: true, image: false },
-      pageCount: 592,
-      printedPageCount: 609,
+      pageCount: 512,
+      printedPageCount: 530,
       printType: "BOOK",
       categories: [
-        "Business & Economics / Economic History",
-        "Business & Economics / Banks & Banking",
-        "History / United States / 20th Century",
+        "History / United States / Revolutionary Period (1775-1800)",
+        "Biography & Autobiography / Historical",
       ],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: true,
-      contentVersion: "2.8.4.0.preview.2",
+      contentVersion: "1.10.11.0.preview.2",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE7301uQbSIiEItRfVulV4bkyOTfg0Ytlfb6DlIp2lZP0RQ07WEukFPrFfunnbv_vDyBDNW-5_2d6gplg8Qvm4EVraH-FGrOcuWzj6TTADzf_CPpcDBk&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70ipgKruuS0vZQtMzukGs02jQD2iafvSYjMQIA2HzR85L7pmAcAK03ArjYLGiPwBPSyaUbWHFDsCuxJu11YmbnY99csCkXZm2aAmrqHh3HeJtRzDuo&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71ve2M7GXKzSJp0ZKAClE3MCJtCvJjpLzLb30WxYAzuxaavWEOdS3wNlCPSSapBRExVezHHrMqqrqmKSM6cO6YUkz4v0auKKnH22jr643WgZ6HCLx8&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73JEt40NCjYIZaCLLR6cPRElhwRsa1yXWc7sPh4C_vSD08uhGhuCzh-Bxcg9R-w_AQhY5lRJtzZDDl4bM58qyWybkPvK7p_1ngShINBgqUVrTmye7k&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE7013AeF6gMXEV1JA-I_61lgGTzQZQJkZAvfQycl7pnWNuuRsonZNC0u25DXSrWYjtMI5GepKIGsHdHn_7fsDrU-WGU_C9AiczXs1zI4OlNlmAiD-30&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73PlEgYLLoLqapma1qI8QLTKbUpuk05wlsK-Tuqkwbwg3nks043OppoTULuEQ41s715sljrk1mw_lUKTOuLtYOjpIztyVbnv0NPhkw0PtVztRyi2UE&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70eA1cS4XZ4QEHtmHj14l_Xt-0YR4J8hnzykTIN-ZjDpZfpF2b9qNVYfIs8J1YQIMUJZjC-K-YfOazlsNxbX3lYpOFU3oDM37Y7i6qxD5s3c4HviRY&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71d2H-_yvzGFznC8x7cmWSmZyOjAtMEh9nRpz2467tKBDoArTfDdePPmyg8E-BPOaijKTyHZ2NCoBEIk_DDKoApd0og0GEodIo_Qz0yPktxbkfi-0A&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72qqvYhFVUblHw20cAIZYEip2x1tr88HhEmZyAcLB3edCWFDKTNEjhetHple4IkISk21ZiJVS8afo7n8EL9AoWwnlkYBvfUCHXrx5NU-mQiIMQwTks&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71FWj1i6Z8AgeAedo4RlrXsNtJfGg_7_GnRjwh2UkpQVqc4B1RlkYVjkhbbCMxyTr6q7ilJsenXD8qiKTfPjogHO1xqp0PWosSC6p_wTGgDFdwibkM&source=gbs_api",
         extraLarge:
-          "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72pXyEtN_MzVdPiUfjYhL4czL_YkzaQslStLa4OBHIRhlfahsDUXngenyGcOhni1oajz7XUm8cfG0ViV0fKY7zURYr7yDNNowFMLCMGWE1PcJW4kxk&source=gbs_api",
+          "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE714qI8QdL0eJhLsXhPGmj7NW97aZZYfEi9WDELbl6163N3kkOYajK2OFqc2ltlQwUYF6dns1AOCxOLeH_96bnrEiUoAjLWfk6QMidiB4CdS4Withco&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=H75HEQAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=1vhpYe99Tn4C&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=1vhpYe99Tn4C&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=1vhpYe99Tn4C",
+      aiSummary:
+        "In 1776, a seventy-year-old Benjamin Franklin, with no diplomatic experience and limited French, embarked on a critical mission to France to secure their support for the American Revolution. Through charisma and ingenuity, he navigated complex political landscapes, outwitted adversaries, and ultimately forged the Franco-American alliance, a pivotal moment that led to American independence. The book delves into this lesser-known, eight-year period of Franklin's life, revealing a human yet determined Founding Father and highlighting the fragile, improvised, and international nature of America's fight for freedom.\n",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "9" }] },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "17" }] },
     saleInfo: {
       country: "US",
       saleability: "FOR_SALE",
       isEbook: true,
-      listPrice: { amount: 18.99, currencyCode: "USD" },
-      retailPrice: { amount: 18.99, currencyCode: "USD" },
+      listPrice: { amount: 12.99, currencyCode: "USD" },
+      retailPrice: { amount: 12.99, currencyCode: "USD" },
       buyLink:
-        "https://play.google.com/store/books/details?id=H75HEQAAQBAJ&rdid=book-H75HEQAAQBAJ&rdot=1&source=gbs_api",
+        "https://play.google.com/store/books/details?id=1vhpYe99Tn4C&rdid=book-1vhpYe99Tn4C&rdot=1&source=gbs_api",
       offers: [
         {
           finskyOfferType: 1,
-          listPrice: { amountInMicros: 18990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 18990000, currencyCode: "USD" },
+          listPrice: { amountInMicros: 12990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 12990000, currencyCode: "USD" },
           giftable: true,
         },
       ],
@@ -82,21 +82,22 @@ const classicBestsellerList = [
       epub: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/1929-sample-epub.acsm?id=H75HEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/A_Great_Improvisation-sample-epub.acsm?id=1vhpYe99Tn4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=H75HEQAAQBAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=1vhpYe99Tn4C&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 1800,
-      height: 2700,
+      width: 1557,
+      height: 2482,
       image:
-        "http://books.google.com/books/publisher/content?id=H75HEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72pXyEtN_MzVdPiUfjYhL4czL_YkzaQslStLa4OBHIRhlfahsDUXngenyGcOhni1oajz7XUm8cfG0ViV0fKY7zURYr7yDNNowFMLCMGWE1PcJW4kxk&source=gbs_api",
+        "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE714qI8QdL0eJhLsXhPGmj7NW97aZZYfEi9WDELbl6163N3kkOYajK2OFqc2ltlQwUYF6dns1AOCxOLeH_96bnrEiUoAjLWfk6QMidiB4CdS4Withco&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "Kd3guGuzbmcC",
@@ -528,7 +529,6 @@ const classicBestsellerList = [
         "http://books.google.com/books/content?id=0MCZNgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73uKBVGqXXZpmQX8tGtcV6PTQgBp24yeU2V1ODCos7bJf8JIJvWMnN5lEjyq_MuWYFsYO5LW17rckDfjRGS3jeqLwEEqNoclt-Y9nHtwQIoQJgNbK0&source=gbs_api",
     },
   },
-
 ];
 
 export default classicBestsellerList;
