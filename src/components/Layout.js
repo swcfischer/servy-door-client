@@ -130,8 +130,10 @@ const BrightnessToggle = styled(Fab)`
   background-color: #2c2c2c !important;
   color: #ffcd00 !important;
   font-weight: bold !important;
+  box-shadow: none !important;
   &:hover {
     background-color: #1a1a1a !important;
+    box-shadow: none !important;
   }
   transition: all 0.3s ease !important;
 `;
