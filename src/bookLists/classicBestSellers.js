@@ -1,6 +1,107 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "KdxkEQAAQBAJ",
+    etag: "Q//Sl77ZHQY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/KdxkEQAAQBAJ",
+    volumeInfo: {
+      title: "God and Donald Trump",
+      authors: ["Stephen E. Strang"],
+      publisher: "Frontline",
+      publishedDate: "2017-11-07",
+      description:
+        '<p> <b>Over 100 5- Star Reviews! </b> <br> <b>Featured on CNN, Fox News, and MSNBC</b> <br> <i>"One way to get President Donald Trump to stop and talk at the World Economic Forum: wield a book about him. On his way into the World Economic Forum, Trump stopped and talked for about ten seconds to one delegate who was brandishing a copy of "</i> <b>God and Donald Trump</b> <i>" by Stephen E. Strang. He then proceeded to hold the book aloft in his left hand." - Associated Press</i> </p> <b>With pundits asking, "How did he win?" this book explores whether there was a supernatural element involved. </b>Christian leaders prophesied before the election that God had raised up Donald Trump to lead the nation through a time of crisis. But could this billionaire reality-TV star actually convince the voters he was for real? If so, what is God doing now not only in Donald\'s Trump\'s life, but also in the nation? <br> <br> Trump is an enigma, a brash self-promoter, casino owner, and man of the world. Yet he is also a devoted husband and father who has surrounded himself with men and women of faith and has made religion a key component of his image. <br> <i>God and Donald Trump</i> is a powerful first-person account of one of the most contentious elections in American history, with exclusive interviews and insightful commentary from the men and women who were there. <br>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1629994871" },
+        { type: "ISBN_13", identifier: "9781629994871" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 256,
+      printedPageCount: 317,
+      printType: "BOOK",
+      categories: [
+        "Religion / Christian Living / Social Issues",
+        "Political Science / Political Ideologies / Conservatism & Liberalism",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.1.1.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73eoOaU8R-94uw184mGWr9bmxUnS3jju-ta6Vm4Wj9Wm3WwEBheJyDONy9KtvTIjuQ07m8K2kaBMgwQqk9bzOHng0fIJ_AArEygv3_TT7ZqcJtVdB4&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71f8AwQeVXVk5eMva0jzQP7V7pXI4ocQ0DKFNL3Pg0s_MqtfL0WFMJPI1ZffTc5ddKx9YXTt4nQJ8GG1gcy9CoDOUM_DnKpMMcwRLA2j6FI1qQGf04&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72tia9NwCwHCB8sB1-QNoo4xzRaKnTqKmyLpSeYCOMBcJ2thNyGHdCex9fHlY8oDAso8lNYt3NUvrPBPb15BbCsbPwPW9OSXZTKpmBJ9DvkNOvF8SQ&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72TceSVSt75Q5_8H6a847gVbMQ0nI96mBUl82_Rrdbsi7brGh5COc_h9pic2eNoVZ_wAvyeLk5PKT-u3t13c7fbUPdhlyLszzq3yIyxP6fD0JdDqEo&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70cyyDVODkbz0um0IWYYriHXCLMUiGenrtIOIAuM2J1WemolaNQ8brReTBm7PJraSTbhWryUanQZwDHMYV38cdPF2xmWrb2eBE8tMyd4cXc-8ww4cs&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70EJyLFQcUsQGzAM0H_mIAb2QlsoNjTTbEXhc0GE8s169BqxNKEA2n-0pVjxZK3FITilUHMdslCoqcaeV6CXixWKq7v0iTmJ3-I7Ua3zMET1lOwSBs&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=KdxkEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=KdxkEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=KdxkEQAAQBAJ",
+      aiSummary:
+        "This book explores the potential supernatural influence behind Donald Trump's unexpected 2016 presidential victory, referencing prophecies from Christian leaders who believed God had chosen him to lead the nation. It examines Trump's complex persona, highlighting his unconventional background alongside his embrace of faith and religious advisors. Featuring first-person accounts and interviews, the book delves into the contentious election and questions God's purpose in Trump's life and within the country.\n",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 21.99, currencyCode: "USD" },
+      retailPrice: { amount: 21.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=KdxkEQAAQBAJ&rdid=book-KdxkEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 21990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 21990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/God_and_Donald_Trump-sample-epub.acsm?id=KdxkEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/God_and_Donald_Trump-sample-pdf.acsm?id=KdxkEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=KdxkEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2616,
+      image:
+        "http://books.google.com/books/publisher/content?id=KdxkEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70EJyLFQcUsQGzAM0H_mIAb2QlsoNjTTbEXhc0GE8s169BqxNKEA2n-0pVjxZK3FITilUHMdslCoqcaeV6CXixWKq7v0iTmJ3-I7Ua3zMET1lOwSBs&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "30hGAwAAQBAJ",
     etag: "1P4kFZNIIVk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/30hGAwAAQBAJ",

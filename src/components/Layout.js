@@ -11,9 +11,10 @@ import styled from "@emotion/styled";
 import { Link } from "gatsby";
 import HelmetComponent from "./HelmetComponent";
 import { ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
 import theme from "../theme";
-import githubLogo from "../images/github-copilot-white-icon.png";
+
+// import CssBaseline from "@mui/material/CssBaseline";
+// import githubLogo from "../images/github-copilot-white-icon.png";
 
 const StyledContainer = styled(Container)`
   background: #fafafa;
@@ -221,9 +222,11 @@ const Layout = ({ children }) => {
                   <div>
                     <TiltedTile text="ServyDoor" to="/" />
                   </div>
+                  <div>
+                    <TiltedTile text="Road Map" to="/road-map" />
+                  </div>
                   <div className="nav-links">
                     <TiltedTile text="Library" to="/library" />
-                    {/* <TiltedTile text="Account" to="/account" /> */}
                     <div className="auth-button-container">
                       <GoogleAuthButton />
                     </div>
