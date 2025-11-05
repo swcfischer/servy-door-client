@@ -1,6 +1,94 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "4MZHEQAAQBAJ",
+    etag: "9ePUu5xkRZc",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/4MZHEQAAQBAJ",
+    volumeInfo: {
+      title: "1929",
+      subtitle:
+        "Inside the Greatest Crash in Wall Street History--and How It Shattered a Nation",
+      authors: ["Andrew Ross Sorkin"],
+      publisher: "Penguin Group",
+      publishedDate: "2025-10-14",
+      description:
+        "<b>“It is one of the best narrative histories I’ve read.”<br>—<i>The Wall Street Journal</i><br><br>Named a Most Anticipated Book by <i>New York Times Books Review</i>, <i>TIME</i>, <i>Washington Post</i>, <i>Associated Press</i>, <i>Town & Country</i>, <i>New York Post</i>, and more<br><br>From the bestselling author of Too Big to Fail, “the definitive history of the 2008 banking crisis,” (<i>The Atlantic</i>) comes a riveting narrative of the most infamous stock market crash in history—one with ripple effects that still shape our society today.</b><br><br>In <i>1929</i>, the world watched in shock as the unstoppable Wall Street bull market went into a freefall, wiping out fortunes and igniting a depression that would reshape a generation. But behind the flashing ticker tapes and panicked traders, another drama unfolded—one of visionaries and fraudsters, titans and dreamers, euphoria and ruin.<br><br>With unparalleled access to historical records and newly uncovered documents, <i>New York Times</i> bestselling author Andrew Ross Sorkin takes readers inside the chaos of the crash, behind the scenes of a raging battle between Wall Street and Washington and the larger-than-life characters whose ambition and naivete in an endless boom led to disaster. The dizzying highs and brutal lows of this era eerily mirror today’s world—where markets soar, political tensions mount, and the fight over financial influence plays out once again.<br><br>This is not just a story about money. <i>1929 </i>is a tale of power, psychology, and the seductive illusion that this time is different. It’s about disregarded alarm bells, financiers who fell from grace, and skeptics who saw the crash coming—only to be dismissed until it was too late.<br><br>Hailed as a landmark book, <i>Too Big to Fail</i> reimagined how financial crises are told. Now, with <i>1929</i>, Sorkin delivers an immersive, electrifying account of the most pivotal market collapse of all time—with lessons that remain as urgent as ever. More than just a history, <i>1929</i> is a crucial blueprint for understanding the cycles of speculation, the forces that drive financial upheaval, and the warning signs we ignore at our peril.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593296966" },
+        { type: "ISBN_13", identifier: "9780593296967" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 592,
+      printedPageCount: 609,
+      dimensions: {
+        height: "23.60 cm",
+        width: "16.20 cm",
+        thickness: "4.80 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Economic History",
+        "Business & Economics / Banks & Banking",
+        "History / United States / 20th Century",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.3.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71HVqw6SlIvyldcLrTDTgDTubz4HsoyjlRFIwTlVgli7hqaPQerT-F-2peABZwhbpl0c8Ls1ZXV-pEJKRL9GEQ6yCSvOdjXhS1HMrPXghAZ7gcqVgI&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71AE-5WRV7HzKkic_mLLolhCIsDKN0pyd9bFR49H2i2aX3PfcfNoFEXtK5GHy3bVmmuZeX00-2VzeTK0gMwbSF_eqmG6Wa1PviPfvm0q17t24qmWvs&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73doMy0KSWE857nq5-xLNozCfqWfDdZfFaJC_P5wC9t40dP2O_ixXxjlYle7is4SsAnOYOMzdZgZaBkeuOTPjPMS3rfY-2izaLkngr6pSA41SHoUis&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71r0FZjyeQp4F5bnzZeY_D2u7IR4CH4arrpeO50ztcqvlX7mouk33Qc3XRLtYOEjjqKFIVG65uaOnrXcZ7dQ_zARKe-byBTeYXuROItV9FUgDhrfg0&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71llmAjUWqZ2NYmBDu9Wi-XDl4UYBCDSaTyrV_0oc8gzDN7_CeJDDtB1dt5aUvkUnJZ-UIFwpZm8iHTMXp-tqWl1__xlssbeawLn1LvuKxpW9ZmMdQ&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70qjLmZf6dS-_k__rJVbQcte8W9Geadk0c73I-_VrfnoXxz2AlI0p2b19fU6HOr_XEJPiGMliDww44YciUWrq7wN7oj5WQh08PiETSO94JGcyr5ovg&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=4MZHEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=4MZHEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=4MZHEQAAQBAJ",
+      aiSummary:
+        "This narrative history delves into the infamous 1929 stock market crash, exploring the key players and events that led to the devastating economic fallout. Through historical records and newly uncovered documents, the book examines the period's soaring markets, political tensions, and the battle for financial influence, drawing parallels to the present day. It highlights the power dynamics, psychological factors, and ignored warning signs that contributed to the disaster, providing valuable lessons for understanding financial cycles and preventing future crises.\n",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/1929-sample-pdf.acsm?id=4MZHEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=4MZHEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=4MZHEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70qjLmZf6dS-_k__rJVbQcte8W9Geadk0c73I-_VrfnoXxz2AlI0p2b19fU6HOr_XEJPiGMliDww44YciUWrq7wN7oj5WQh08PiETSO94JGcyr5ovg&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "2TBvAAAAQBAJ",
     etag: "OWjVW+bKF/M",
     selfLink: "https://www.googleapis.com/books/v1/volumes/2TBvAAAAQBAJ",
