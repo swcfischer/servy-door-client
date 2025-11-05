@@ -1,6 +1,106 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "2TBvAAAAQBAJ",
+    etag: "OWjVW+bKF/M",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/2TBvAAAAQBAJ",
+    volumeInfo: {
+      title: "The Dylanologists",
+      subtitle: "Adventures in the Land of Bob",
+      authors: ["David Kinney"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2014-05-13",
+      description:
+        "<b>A joyous and poignant exploration of the meaning of fandom, the healing power of art, and the importance of embracing what moves you, “<i>The Dylanologists</i> is juicy…artfully told…and an often moving chronicle of the ecstasies and depravities of obsession” (<i>New York Daily News</i>).</b><br><br>Bob Dylan is the most influential songwriter of our time, and, after a half century, he continues to be a touchstone, a fascination, and an enigma. From the very beginning, he attracted an intensely fanatical cult following, and in <i>The Dylanologists</i>, Pulitzer Prize<b>–</b>winning<b> </b>journalist David Kinney ventures deep into this eccentric subculture to answer a question: What can Dylan’s grip on his most enthusiastic listeners tell us about his towering place in American culture?<br> <br>Kinney introduces us to a vibrant underground: diggers searching for unheard tapes and lost manuscripts, researchers obsessing over the facts of Dylan’s life and career, writers working to decode the unyieldingly mysterious songs, fans who meticulously record and dissect every concert. It’s an affectionate mania, but as far as Dylan is concerned, a mania nonetheless. Over the years, the intensely private and fiercely combative musician<b> </b>has been frightened, annoyed, and perplexed by fans who try to peel back his layers. He has made one thing—perhaps the only thing—crystal clear: He does not wish to be known. <br> <br>Told with tremendous insight, intelligence, and warmth, “entertaining and well-written…<i>The Dylanologists</i> is as much a book about obsession—about the ways our fascinations manifest themselves, about how we cope with what we love but don’t quite understand—as it is a book about a musician and his nutty fans” (<i>The Wall Street Journal</i>).",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1451626940" },
+        { type: "ISBN_13", identifier: "9781451626940" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 256,
+      printedPageCount: 256,
+      dimensions: { height: "24.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Music / History & Criticism",
+        "Music / General",
+        "Biography & Autobiography / Entertainment & Performing Arts",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.9.9.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE729WQphUNAePtntWHgYdtXSsm4D3I7lYpAVKYn3lEsYWolYuaXnsxCpNPypGasaStgn3U_tutyv5D7GTrLZXJa719Z9z5ZRsVeN4Lk2xZlaiX0KDIY&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE726kc07BSnGoLZY3XQEXFk4pLFjM02GglRI-6aU2NTYNjbwtmYrBBMDtoxygRpiHUTS85wrGXltzL9gc-mKwJ62Y-jptQjzryFHJBUiVTCyOqsYfNE&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72acqjgclvMDd4yV5z3vgdY3XysuTe8IGYNk7kuwE0an-XJeT7nmXPCAucDmuLeoT10QCbOQqOXZt4C8WPOItZ2wT4ak5XA00YFGE1z3yzvmV4HRmU&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE731zQDvPsxj2ERDZcYrwfaOe8qL00lKYC7LFQLI9jDwxTZxLqQKakZ4BMem4uwiZxmtr_BNQeX1xYgIBguw6eVQasH3rHv9HKNdO3G0wIVHtGLAOZ0&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE7377a62AoHGL5J6-esbwSqhVmqL7wB-PoLefl8Vh3zNJa6gw4_8h7o7b4XLeVLMPpzDtrJPy8tqBs99G-g-OFn6O74O7ugOw5_B7znyGDSiX9MxZCM&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72T9qL9JL9tbLYNV0zV5bhDT3-v92uRpBKaWbh14kWsQrnoU7PbE2DKz-yVliJT7cQE9NJgJFDQqZjRGP-zTJ_8YjUIUfZa9gBQizRWhP3CEC6KcjQ&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=2TBvAAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=2TBvAAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=2TBvAAAAQBAJ",
+      aiSummary:
+        "This book delves into the passionate and eccentric subculture of Bob Dylan's most dedicated fans, exploring their obsessions and what they reveal about Dylan's lasting impact on American culture. It examines the various ways fans obsess over Dylan, from collecting rare recordings to analyzing his lyrics, while also highlighting Dylan's own complicated relationship with this intense fandom and his desire for privacy. Ultimately, it's a study of obsession itself, focusing on how people cope with love and fascination for something they may never fully understand.\n",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "11" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 13.99, currencyCode: "USD" },
+      retailPrice: { amount: 13.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=2TBvAAAAQBAJ&rdid=book-2TBvAAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 13990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 13990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Dylanologists-sample-epub.acsm?id=2TBvAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=2TBvAAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=2TBvAAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72T9qL9JL9tbLYNV0zV5bhDT3-v92uRpBKaWbh14kWsQrnoU7PbE2DKz-yVliJT7cQE9NJgJFDQqZjRGP-zTJ_8YjUIUfZa9gBQizRWhP3CEC6KcjQ&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "1XVhEQAAQBAJ",
     etag: "lnGa2U7YANI",
     selfLink: "https://www.googleapis.com/books/v1/volumes/1XVhEQAAQBAJ",
