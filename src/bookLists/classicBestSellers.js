@@ -1,6 +1,86 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "1XVhEQAAQBAJ",
+    etag: "lnGa2U7YANI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/1XVhEQAAQBAJ",
+    volumeInfo: {
+      title: "World in Danger",
+      subtitle: "Germany and Europe in an Uncertain Time",
+      authors: ["Wolfgang Ischinger"],
+      publisher: "Bloomsbury Academic",
+      publishedDate: "2020-11-10",
+      description:
+        "<p><b>A vision of a European future of peace and stability despite the present gloom</b><br>The world appears to be at another major turning point. Tensions between the United States and China threaten a resumption of great power conflict. Global institutions are being tested as never before, and hard-edged nationalism has resurfaced as a major force in both democracies and authoritarian states. From the European perspective, the United States appears to be abdicating its global leadership role. Meanwhile, Moscow and Beijing eagerly exploit every opportunity to pit European partners against one another.<br>But a pivot point also offers the continent an opportunity to grow stronger. In <i>World in Danger</i>, Wolfgang Ischinger, Germany's most prominent diplomat, offers a vision of a European future of peace and stability. Ischinger examines the root causes of the current conflicts and suggests how Europe can successfully address the most urgent challenges facing the continent. The European Union, he suggests, is poised to become a more powerful actor on the world stage, able to shape global politics while defending the interests of its 500 million citizens. This important book offers a practical vision of a Europe fully capable of navigating these turbulent times.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0815738439" },
+        { type: "ISBN_13", identifier: "9780815738435" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 266,
+      printedPageCount: 266,
+      dimensions: {
+        height: "24.00 cm",
+        width: "16.30 cm",
+        thickness: "2.40 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Law / International",
+        "Political Science / General",
+        "Political Science / International Relations / General",
+        "Political Science / International Relations / Diplomacy",
+        "Political Science / Security (National & International)",
+        "Political Science / World / European",
+        "Political Science / Geopolitics",
+        "Technology & Engineering / Military Science",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=1XVhEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE730IbDjWqPaCK_BUHw-c1_E8HP3H2Z9pa59hJhLwBt9pljbqWFAGWYkPMtul_oZyTQ00Yz9DdK_FfRvqm01O3Qv4U9WelG3Q8dFpeYNJrs_GuARsas&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=1XVhEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71gbLhpHT0-4BiUo3xM1rnLiBAmNH-c-0LcXloQQ6yz0-57Rzzjw_dm0m1xTCRmaqAjrMcMR0o38PSNwTSwJ3C_jEFtSVMvxdK6-wCqHGvh_UuqgGY&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=1XVhEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=1XVhEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=1XVhEQAAQBAJ",
+      aiSummary:
+        "This book analyzes the current global landscape marked by great power tensions, weakened global institutions, and resurgent nationalism, particularly focusing on the perceived decline of US global leadership and the exploitation of European divisions by Russia and China. However, it argues that this pivotal moment presents an opportunity for Europe to strengthen its position and advocates for the European Union to become a more influential global player, capable of defending its citizens' interests and shaping international politics amidst these challenges, ultimately envisioning a peaceful and stable European future.\n",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=1XVhEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 199,
+      image:
+        "http://books.google.com/books/publisher/content?id=1XVhEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71gbLhpHT0-4BiUo3xM1rnLiBAmNH-c-0LcXloQQ6yz0-57Rzzjw_dm0m1xTCRmaqAjrMcMR0o38PSNwTSwJ3C_jEFtSVMvxdK6-wCqHGvh_UuqgGY&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "30hGAwAAQBAJ",
     etag: "1P4kFZNIIVk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/30hGAwAAQBAJ",
