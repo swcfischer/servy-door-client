@@ -1,6 +1,105 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "MwUAEQAAQBAJ",
+    etag: "i0nAB8Me1Sw",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/MwUAEQAAQBAJ",
+    volumeInfo: {
+      title: "The Disengaged Teen",
+      subtitle: "Helping Kids Learn Better, Feel Better, and Live Better",
+      authors: ["Jenny Anderson", "Rebecca Winthrop"],
+      publisher: "Crown",
+      publishedDate: "2025-01-07",
+      description:
+        "<b>“Our education systems are shortchanging far too many teenagers. This book is brimming with insights on how to change that. It’s an engaging, evidence-based, and practical read about how to develop a generation of lifelong learners.”<b>—Adam Grant, #1 <i>New York Times</i> bestselling author of<i> Hidden Potential </i>and <i>Think Again</i>, and host of the podcast <i>Re:Thinking</i></b><br><br>A powerful toolkit for parents of both checked-out and stressed-out teens that shows exactly what to do (and stop doing) to support their academic and emotional flourishing.</b><br>  <br> Adolescents are hardwired to explore and grow, and learning is mainly how they do this. But a shocking majority of teens are disengaged from school, simultaneously bored and overwhelmed. This is feeding an alarming teen mental health crisis. As kids get older and more independent, parents often feel powerless to help. But fear not, there are evidence-backed strategies to guide them from disengagement to drive, in and out of school.<br><br> For the past five years, award-winning journalist Jenny Anderson and the Brookings Institution’s global education expert Rebecca Winthrop have been investigating why so many children lose their love of learning in adolescence. Now, weaving extensive original research with real-world stories of kids who transformed their relationships with learning, they identify four modes of learning that students use to navigate through the shifting academic demands and social dynamics of middle and high school, shaping the internal narratives about their skills, potential, and identity:<br><br> • <b>Resister. </b>When kids resist, they struggle silently with profound feelings of inadequacy or invisibility, which they communicate by ignoring homework, playing sick, skipping class, or acting out.<br><br> • <b>Passenger.</b> When kids coast along, consistently doing the bare minimum and complaining that classes are pointless. They need help connecting school to their skills, interests, or learning needs.<br><br> • <b>Achiever. </b>When kids show up, do the work, and get consistently high grades, their self-worth can become tied to high performance. Their disengagement is invisible, fueling a fear of failure and putting them at risk for mental health challenges.<br><br> • <b>Explorer.</b> When kids are driven by internal curiosity rather than just external expectations, they investigate the questions they care about and persist to achieve their goals.<br>  <br> Understanding your child’s learning modes is vital for nurturing their ability to become Explorers. Anderson and Winthrop outline simple yet counterintuitive parenting strategies for connecting with your child, tailoring your listening and communication styles to their needs, igniting their curiosity, and building self-awareness and emotional regulation.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593727088" },
+        { type: "ISBN_13", identifier: "9780593727089" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 352,
+      printedPageCount: 353,
+      printType: "BOOK",
+      categories: [
+        "Family & Relationships / Education",
+        "Family & Relationships / Life Stages / Teenagers",
+        "Social Science / Children's Studies",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.3.3.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73GzT06JFgylT6Qxs-aigcX8mRyrG90veFlgcrE0PS_Sb6hU_EBW6YNDbCiN2UH8jLUjscyxXHaLeAYu_QTiys4p-1At72KMcfDtBwcXh6r6owbXQA&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72ehrIj_P3fxfXAnFgcb3bInpEn5cgZy0ZfH1rCxGCAUT6yQQcJxK8ZdSCMoX6XoYBOMTie91iVoIH9X-z_lkIEJqInlWXFdscbsBBpQKF5bXVQvUA&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73yLEmiXEos-pUsgpdmEpv_mz7_wDhIDhwWb4vXweCAvznbInXDN0NKM_BvmO9NbT3Tj9vTmVMyQzvwA-3khT4urRMkT60TB7NaAhbZLuag6bKviMA&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71lYQ4eq07OCxEU-jiEsCBVddrEuDWLQVcBAREiYwWO7SFzM-WEaYPwQk4ViwUA9Bvvzr_YIT1C08oqxSAKnaHztoBjr993NvLhVWtfwo-0SdEOKrw&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71jpwhsqZKcCY3kUngYq584I8OSxQfwvV0YFahkBGxvpICp9KbAR3mPFlkVQpD-48cNc9J7_Z91LorOp7cLHMGDb2ngAaguYENzqH93V8g3XDa7tmY&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73W-txt48xkmxgNZoDw0IA9_efG-LVHsYtk2IvUNNIeGpqV97or8I-5sL3GMWstnvivORpoXUlVm0eE5luu2pd1MDGUW7xBo0CHy4mYAm7D8HtKy8w&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=MwUAEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=MwUAEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=MwUAEQAAQBAJ",
+      aiSummary:
+        "This book offers parents of teenagers, whether disengaged or stressed, a practical guide to fostering academic and emotional well-being by addressing the alarming teen mental health crisis and disengagement from school. Through research and real-world stories, the authors identify four learning modes – Resister, Passenger, Achiever, and Explorer – to help parents understand their child's relationship with learning. It provides evidence-backed strategies to move teens from disengagement to driven exploration, emphasizing communication, curiosity, and emotional regulation within and outside of school.\n",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 13.99, currencyCode: "USD" },
+      retailPrice: { amount: 13.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=MwUAEQAAQBAJ&rdid=book-MwUAEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 13990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 13990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Disengaged_Teen-sample-epub.acsm?id=MwUAEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=MwUAEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1840,
+      height: 2779,
+      image:
+        "http://books.google.com/books/publisher/content?id=MwUAEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73W-txt48xkmxgNZoDw0IA9_efG-LVHsYtk2IvUNNIeGpqV97or8I-5sL3GMWstnvivORpoXUlVm0eE5luu2pd1MDGUW7xBo0CHy4mYAm7D8HtKy8w&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "4MZHEQAAQBAJ",
     etag: "9ePUu5xkRZc",
     selfLink: "https://www.googleapis.com/books/v1/volumes/4MZHEQAAQBAJ",
