@@ -504,7 +504,7 @@ function Book(props) {
         </div>
         <p
           dangerouslySetInnerHTML={{
-            __html: state.volumeInfo.aiSummary,
+            __html: state.volumeInfo.description,
           }}
           className="description"
         ></p>
