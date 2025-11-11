@@ -2,6 +2,30 @@ import React from "react";
 import Select from "react-select";
 import { buildQueryParams } from "../utils/queryFunctions";
 import { navigate } from "gatsby";
+import styled from "@emotion/styled";
+
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+
+  width: ${(props) => (props.isFullWidth ? "100%" : "max-content")};
+
+  #seinfeld-search {
+    margin: 12px 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+
+    a {
+      color: #222;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+`;
 
 const options = [
   { value: "none", label: "No Filter" },
@@ -12,7 +36,15 @@ const options = [
 ];
 
 const FilterSelect = (props) => {
-  const { searchFilter, setSearchFilter, setQ } = props;
+  const {
+    searchFilter,
+    setSearchFilter,
+    setQ,
+    books,
+    q,
+    params,
+    wasSearchDone,
+  } = props;
 
   const customStyles = {
     control: (provided, state) => ({
@@ -85,27 +117,50 @@ const FilterSelect = (props) => {
   };
 
   return (
-    <div style={{ width: "195px", marginBottom: "12px" }}>
-      <label
-        style={{ paddingBottom: "8px", display: "inline-block" }}
-        htmlFor="filter-by"
-        id="filter-by-label"
-      >
-        Filter by:
-      </label>
-      <Select
-        aria-labelledby="filter-by-label"
-        placeholder="No filter necessary"
-        inputId="filter-by"
-        name="filter-by"
-        options={options}
-        defaultValue={searchFilter}
-        className="basic-multi-select"
-        classNamePrefix="select"
-        styles={customStyles}
-        onChange={handleChange}
-      />
-    </div>
+    <Container isFullWidth={!wasSearchDone(books, q, params)}>
+      <div style={{ width: "195px", marginBottom: "12px" }}>
+        <label
+          style={{ paddingBottom: "8px", display: "inline-block" }}
+          htmlFor="filter-by"
+          id="filter-by-label"
+        >
+          Filter by:
+        </label>
+        <Select
+          aria-labelledby="filter-by-label"
+          placeholder="No filter necessary"
+          inputId="filter-by"
+          name="filter-by"
+          options={options}
+          defaultValue={searchFilter}
+          className="basic-multi-select"
+          classNamePrefix="select"
+          styles={customStyles}
+          onChange={handleChange}
+        />
+      </div>
+
+      {!wasSearchDone(books, q, params) && (
+        <div id="seinfeld-search">
+          <a
+            href="https://servydoor.com/?q=Jerry+Seinfeld&page=1&searchFilter=author"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+
+              document.querySelector("input").value = "Jerry Seinfeld";
+
+              handleChange({
+                value: "author",
+                label: "Author",
+              });
+            }}
+          >
+            Jerry Seinfeld
+          </a>
+        </div>
+      )}
+    </Container>
   );
 };
 

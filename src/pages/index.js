@@ -246,6 +246,10 @@ export default function Index(props) {
               searchFilter={searchFilter}
               setSearchFilter={setSearchFilter}
               setQ={setQ}
+              wasSearchDone={wasSearchDone}
+              books={books}
+              q={q}
+              params={params}
             />
 
             {books.length > 0 && Math.ceil(totalItems / itemsPerPage) > 1 && (
