@@ -10,7 +10,7 @@ const Container = styled.div`
 
   width: ${(props) => (props.isFullWidth ? "100%" : "max-content")};
 
-  #seinfeld-search {
+  #trending-search {
     margin: 12px 0 0 20px;
     font-size: 24px;
     font-weight: bold;
@@ -141,7 +141,7 @@ const FilterSelect = (props) => {
       </div>
 
       {!wasSearchDone(books, q, params) && (
-        <div id="seinfeld-search">
+        <div id="trending-search">
           <a
             href="https://servydoor.com/?q=Jerry+Seinfeld&page=1&searchFilter=author"
             onClick={(e) => {
@@ -156,7 +156,7 @@ const FilterSelect = (props) => {
               });
             }}
           >
-            Jerry Seinfeld
+            Trending...
           </a>
         </div>
       )}
