@@ -1,6 +1,107 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "Ye6e_VxM00kC",
+    etag: "tywkYy3Uqxs",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
+    volumeInfo: {
+      title: "Trump: The Art of the Deal",
+      authors: ["Donald J. Trump", "Tony Schwartz"],
+      publisher: "Random House Publishing Group",
+      publishedDate: "2009-12-23",
+      description:
+        "<b>#1 NATIONAL BESTSELLER • President Donald J. Trump lays out his professional and personal worldview in this classic work—a firsthand account of the rise of America’s foremost businessman.<br><br>“Donald Trump is a deal maker. He is a deal maker the way lions are carnivores and water is wet.”—<i>Chicago Tribune</i></b><br><br> <i>“I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump</i><br><br>Here is Trump in action—how he runs his organization and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and challenges conventional thinking. But even a maverick plays by rules, and Trump has formulated time-tested guidelines for success. He isolates the common elements in his greatest accomplishments; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. <i>Trump: The Art of the Deal</i> is an unguarded look at the mind of a brilliant entrepreneur—the ultimate read for anyone interested in the man behind the spotlight.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0307575330" },
+        { type: "ISBN_13", identifier: "9780307575333" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 384,
+      printedPageCount: 401,
+      dimensions: { height: "30.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Self-Help / Personal Growth / Success",
+        "Business & Economics / Motivational",
+      ],
+      averageRating: 3.5,
+      ratingsCount: 28,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.17.17.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71504GCNsifqShMZvUKrvxuw4l4wjavp35UNDFxNw51s0qn0y5TH_2Jz2zs7xcsBW5FrcCYfbBnASXyWdIEd3GN22nOaHmGTWoXkAJox8ZUtSB6pmZej5ntbvzHYey_tmcgEHaY&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73SKXRL8yLDmkutx4KCCFmk2fd5FIjPsd2VYVZQT68Bmc5T1JkucBoB3NZq0vlbeIwgoOZyjfqU2zvbUm8iHpW0s1Gj7W4mionNanidlxuUJm2puciuFq2eZpdhaIVKLPOQHuwA&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71m_OFq01snhvB4zoWKCsTt79UijmQKT9A6kHa1mg1RjVRATZ0m489talobBkI0LTTet54lUV600LrRpHPZDY8lciiybtwldHliSOoggHrv9Gf6XFB79MXUmkkdiMIPu4F4HZqe&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73di7jo9hoSJArfgpNozQh3hRMwqj5cnrcs2rth6qgmHwQyClwu01O_bLPmTrkz8s09HdDcbE44igDbFJgkh4qrnyUe_mB7lO7hc1lPRfqyjBMJBlnufrlrmYYLiPDo2y1yts5P&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72nMHy9cu35jLXw7bTglHRmlzKDsFT0Wlg-BKA2fKs1yqhoGPZyFXfDHp6VXhx7uqMtYbR_yMfZ6AYmtmEfDZFn-rv1hDxWfMjtbGlBNcwxJkCzNfASis3YcYgEU0d6-eEnwR6q&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "22" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 10.99, currencyCode: "USD" },
+      retailPrice: { amount: 10.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&rdid=book-Ye6e_VxM00kC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 10990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 10990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-epub.acsm?id=Ye6e_VxM00kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-pdf.acsm?id=Ye6e_VxM00kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1311,
+      image:
+        "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72nMHy9cu35jLXw7bTglHRmlzKDsFT0Wlg-BKA2fKs1yqhoGPZyFXfDHp6VXhx7uqMtYbR_yMfZ6AYmtmEfDZFn-rv1hDxWfMjtbGlBNcwxJkCzNfASis3YcYgEU0d6-eEnwR6q&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "MwUAEQAAQBAJ",
     etag: "i0nAB8Me1Sw",
     selfLink: "https://www.googleapis.com/books/v1/volumes/MwUAEQAAQBAJ",
