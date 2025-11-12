@@ -139,29 +139,41 @@ const FilterSelect = (props) => {
           onChange={handleChange}
         />
       </div>
-
-      {!wasSearchDone(books, q, params) && (
-        <div id="trending-search">
-          <a
-            href="https://servydoor.com/?q=Jerry+Seinfeld&page=1&searchFilter=author"
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-
-              document.querySelector("input").value = "Jerry Seinfeld";
-
-              handleChange({
-                value: "author",
-                label: "Author",
-              });
-            }}
-          >
-            Trending...
-          </a>
-        </div>
-      )}
+      {/* <Trending
+        wasSearchDone={wasSearchDone}
+        books={books}
+        q={q}
+        params={params}
+      /> */}
     </Container>
   );
 };
 
 export default FilterSelect;
+
+function Trending(props) {
+  const { wasSearchDone, books, q, params } = props;
+
+  if (!wasSearchDone(books, q, params)) {
+    return (
+      <div id="trending-search">
+        <a
+          href="https://servydoor.com/?q=Jerry+Seinfeld&page=1&searchFilter=author"
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            document.querySelector("input").value = "Jerry Seinfeld";
+
+            handleChange({
+              value: "author",
+              label: "Author",
+            });
+          }}
+        >
+          Trending...
+        </a>
+      </div>
+    );
+  }
+}
