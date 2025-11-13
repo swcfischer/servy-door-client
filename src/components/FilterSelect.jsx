@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
 
-  width: ${(props) => (props.isFullWidth ? "100%" : "max-content")};
+  width: ${({ isFullWidth }) => (isFullWidth ? "100%" : "max-content")};
 
   #trending-search {
     margin: 12px 0 0 20px;

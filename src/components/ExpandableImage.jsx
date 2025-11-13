@@ -96,7 +96,7 @@ function ExpandableImage(props) {
         />
       </Modal>
 
-      {isExpandable && (
+      {isExpandable ? (
         <button
           className="image-button"
           onKeyDown={(e) => {
@@ -116,8 +116,7 @@ function ExpandableImage(props) {
             alt=""
           />
         </button>
-      )}
-      {!isExpandable && (
+      ) : (
         <img
           width="200px"
           height={`${(state.img.height / state.img.width) * 200}px`}

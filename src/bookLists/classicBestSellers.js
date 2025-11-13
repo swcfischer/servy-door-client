@@ -1,6 +1,103 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "G3ZbEQAAQBAJ",
+    etag: "LXGybP0Vkm0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/G3ZbEQAAQBAJ",
+    volumeInfo: {
+      title: "Ingram",
+      subtitle: "A Novel",
+      authors: ["Louis C.K."],
+      publisher: "Simon and Schuster",
+      publishedDate: "2025-11-11",
+      description:
+        "<b>A suspenseful, often harrowing yet hopeful odyssey through rural America follows a young drifter’s coming of age in an indifferent world, in this debut novel by comedian Louis C.K.</b><br><br>When Ingram is forced by overwhelming poverty and spiritual exhaustion to walk away from his home, he leaves behind a neglectful childhood on a dirt farm on a dead-end road. With no family, no resources, and no practical understanding of the world, Ingram’s only compass is the daily fight to survive and the narrow dream of one day owning a truck. <br> <br>A picaresque novel set against the backdrop of working-class Texas, <i>Ingram </i>invites readers to see the world through the eyes of a child who drifts through a tough American landscape of corn farms and oil fields, guided by diner waitresses, migrant workers, and criminals, trying to make sense of a world that doesn’t care about him anymore than a jungle or desert does for the creatures that toil to survive within them. <br> <br>The reality Ingram discovers is wild and cruel, but filled with unexpected wonders. Though this young boy faces tornadoes, explosions, thieves, and rampant violence, his curiosity, humor, and resilience never dull.<br> <br>As he begins to push against the tide of social and natural bad luck that seems to almost chase him, Ingram begins to forge himself into an individual with agency and the ability and right to choose his own moves, even if he’s not always prepared for the consequences. <br> <br>Through Ingram’s journey, he begins to come to terms with a forgotten tragedy from his past that shapes the way he understands himself, his family, and his own place in the world.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1637747918" },
+        { type: "ISBN_13", identifier: "9781637747919" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 288,
+      printedPageCount: 238,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Coming of Age",
+        "Fiction / Small Town & Rural",
+        "Fiction / Southern",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.2.2.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72Lqi3YrU2WF1roDYejLYKFvKcGyE4RT9_s-A2r5oUzBEeWCkoIVPY1jzJB2i-dArOsDhraPbqFvoO86HRy1ZGHzGe9gB0uHSoMC4HJ2ImQDDhMtoczoy6VeDDgTpKDqOro7uZ-&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71MJ5CWNv65N0ZbqgKSKo5OQXmeUodwsgpYmqKmlopBmyTkHTMsCSRIbAi0tgOOxGl6CfXPNxF4DDzdGK4PSbhP-fgUwTccI-FO77Ggzkn3sredokX-Piitovlgj2i5-9W3_UcX&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72303S6IXtDUJDvASpxD1r4UynclDdjo0PtUkSz3daePn-thWBxrICllmlDdMySx8UUKW4sO55d-rQmJt8MXlbvtyBWni7eZWgy6TqxtVQyAB70x7W9Rqr8xVZkrMK1XOMqHXnt&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE728Mq_dc1MDyROmwxNqjlge57hl2RP88yZatmvfeiontttlz9V1oZsqTOgndcigCIu7hpAbU9-Y7Ee4ZfWX7yZ1Q-xpvht4TThhDz4B6eRQ3AXzsd8weKTABhrfite63PgKePnN&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72n_Gavn_V8IfnEgQQbGJaJeQZlRm3-zEvchDnTwNX8f0qd_Tc_yfA04ensAe3JLlaSFM0xT3fk1vkWU3XrUHJ8RYZu_803QJnRdpGxQMJTmIDv_3ZfZEuc6WjbhXaUupiBYZr5&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70AqgOF1kQcoEZNefnpwtSX-RylV_FSZV-hVmBbY8yYbLED2DNiHo5r0GFyPqSx0ebVSVxTn_vG1hlIE0nieZyPYcTi0NXmpj8Glm83hCL0b9V6N74tFqJYhVxPPHFD1h4ehq9e&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=G3ZbEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=G3ZbEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=G3ZbEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "1" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=G3ZbEQAAQBAJ&rdid=book-G3ZbEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Ingram-sample-epub.acsm?id=G3ZbEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=G3ZbEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2616,
+      image:
+        "http://books.google.com/books/publisher/content?id=G3ZbEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70AqgOF1kQcoEZNefnpwtSX-RylV_FSZV-hVmBbY8yYbLED2DNiHo5r0GFyPqSx0ebVSVxTn_vG1hlIE0nieZyPYcTi0NXmpj8Glm83hCL0b9V6N74tFqJYhVxPPHFD1h4ehq9e&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "42ZpBgAAQBAJ",
     etag: "s/4fHog4Obc",
     selfLink: "https://www.googleapis.com/books/v1/volumes/42ZpBgAAQBAJ",
