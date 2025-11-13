@@ -123,20 +123,44 @@ const StyledContainer = styled(Container)`
   }
 `;
 
-const BrightnessToggle = styled(Fab)`
-  position: fixed !important;
+// New: Wrapper to manage hover area and positioning
+const BrightnessWrapper = styled("div")`
+  position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1000;
+  width: 56px; /* hover area */
+  height: 56px; /* hover area */
+  border-radius: 50%;
+  /* Reveal the button when hovering the area */
+  &:hover .brightness-toggle {
+    opacity: 1 !important;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+  }
+`;
+
+const BrightnessToggle = styled(Fab)`
+  /* Position handled by the wrapper */
+  position: static !important;
+  width: 56px;
+  height: 56px;
   background-color: #2c2c2c !important;
   color: #ffcd00 !important;
   font-weight: bold !important;
   box-shadow: none !important;
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.98);
+  }
+
   &:hover {
     background-color: #1a1a1a !important;
     box-shadow: none !important;
   }
-  transition: all 0.3s ease !important;
 `;
 
 const initialState = {};
@@ -148,6 +172,8 @@ const Layout = ({ children }) => {
   const [state, _setState] = useState({});
   const [user, setUser] = useState({ isLoading: true });
   const [brightnessLevel, setBrightnessLevel] = useState(2); // Default to middle level
+  // New: state to control auto-hide
+  const [isBrightnessHidden, setIsBrightnessHidden] = useState(false);
 
   const setState = (newState) => {
     _setState({ ...state, ...newState });
@@ -167,6 +193,12 @@ const Layout = ({ children }) => {
     setBrightnessLevel(nextLevel);
     localStorage.setItem("brightness-level", nextLevel.toString());
   };
+
+  // New: hide the brightness toggle after 5 seconds
+  useEffect(() => {
+    const t = setTimeout(() => setIsBrightnessHidden(true), 5000);
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     // fetch user if there is a jwt in local storage
@@ -257,15 +289,21 @@ const Layout = ({ children }) => {
               </footer>
             </StyledContainer>
 
-            <BrightnessToggle
-              onClick={cycleBrightness}
-              size="medium"
-              aria-label="cycle brightness levels"
-            >
-              <span style={{ fontSize: "20px", fontWeight: "bold" }}>
-                {brightnessLevel}
-              </span>
-            </BrightnessToggle>
+            {/* Wrapped toggle: reappears on hover */}
+            <BrightnessWrapper>
+              <BrightnessToggle
+                className={`brightness-toggle ${
+                  isBrightnessHidden ? "is-hidden" : ""
+                }`}
+                onClick={cycleBrightness}
+                size="medium"
+                aria-label="cycle brightness levels"
+              >
+                <span style={{ fontSize: "20px", fontWeight: "bold" }}>
+                  {brightnessLevel}
+                </span>
+              </BrightnessToggle>
+            </BrightnessWrapper>
           </StateContext.Provider>
         </UserContext.Provider>
       </ThemeProvider>

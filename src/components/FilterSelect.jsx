@@ -144,6 +144,7 @@ const FilterSelect = (props) => {
         books={books}
         q={q}
         params={params}
+        handleChange={handleChange}
       /> */}
     </Container>
   );
@@ -152,7 +153,7 @@ const FilterSelect = (props) => {
 export default FilterSelect;
 
 function Trending(props) {
-  const { wasSearchDone, books, q, params } = props;
+  const { wasSearchDone, books, q, params, handleChange } = props;
 
   if (!wasSearchDone(books, q, params)) {
     return (
