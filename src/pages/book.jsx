@@ -109,6 +109,32 @@ const Container = styled.div`
     max-width: 450px;
     float: left;
     font-size: 18px;
+    max-height: 570px;
+    overflow-y: scroll;
+    padding-right: 12px; /* create space between text and scrollbar */
+    scrollbar-gutter: stable; /* reserve space for scrollbar */
+    /* Dark scrollbar styling */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #c0a427#1e1e1e; /* thumb track */
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #1e1e1e;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 8px;
+      border: 2px solid #1e1e1e;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #666;
+    }
   }
 
   @media (max-width: 500px) {

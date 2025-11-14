@@ -185,6 +185,22 @@ const ModalContent = styled.div`
   }
 `;
 
+// Decode common HTML entities (YouTube titles sometimes include these)
+const decodeHtml = (str = "") =>
+  str
+    // hex numeric refs
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) =>
+      String.fromCodePoint(parseInt(hex, 16))
+    )
+    // decimal numeric refs
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    // named entities
+    .replace(/&quot;/g, '"')
+    .replace(/&(apos|#39);/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+
 function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
   const { user } = useContext(UserContext);
   const [loading, setLoading] = useState(false);
@@ -337,12 +353,16 @@ function YouTubeSearch({ defaultQuery = "", maxResults = 5 }) {
                     <div className="video-content">
                       <img
                         src={video.thumbnail}
-                        alt={video.title}
+                        alt={decodeHtml(video.title)}
                         className="thumbnail"
                       />
                       <div className="video-info">
-                        <div className="video-title">{video.title}</div>
-                        <div className="video-author">by {video.author}</div>
+                        <div className="video-title">
+                          {decodeHtml(video.title)}
+                        </div>
+                        <div className="video-author">
+                          {decodeHtml(video.author)}
+                        </div>
                       </div>
                     </div>
                   </div>

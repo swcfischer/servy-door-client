@@ -127,7 +127,7 @@ function ImageCard(props) {
         // height: "154px",
         color: "#fafafa",
         borderRadius: "3px",
-        border: "solid 1px #999",
+        border: "1px solid #000",
         height: "min-content",
         padding: 0,
       }}

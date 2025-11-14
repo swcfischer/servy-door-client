@@ -13,6 +13,7 @@ const Container = styled.div`
 
 function LoginToAnotherAccount(props) {
   const { user, setUser } = useContext(UserContext);
+
   const initialValues = {
     accountName: "",
     password: "",
