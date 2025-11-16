@@ -55,9 +55,11 @@ const Container = styled.div`
         transition: background-color 0.3s ease;
         padding: 8px;
         position: relative;
+        border: 1px solid transparent;
 
         &:hover {
           background-color: #0000001c;
+          border: 1px solid #222;
         }
 
         &.watched {

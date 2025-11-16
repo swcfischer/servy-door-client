@@ -120,6 +120,7 @@ const Container = styled.div`
     background: #d4aa01;
     margin: 0;
     border: 1px solid #222;
+    border-radius: 3px;
 
     &::-webkit-scrollbar {
       width: 10px;
