@@ -83,11 +83,12 @@ const Container = styled.div`
         }
 
         .thumbnail {
-          width: 80px;
-          height: 60px;
+          width: 240px;
+          height: 180px;
           object-fit: cover;
           border-radius: 3px;
           flex-shrink: 0;
+          filter: grayscale(0.5);
         }
 
         .video-info {
