@@ -116,7 +116,8 @@ const Container = styled.div`
     /* Dark scrollbar styling */
     scrollbar-width: thin; /* Firefox */
     scrollbar-color: #c0a427#1e1e1e; /* thumb track */
-    padding: 12px 24px 24px 24px;
+    padding: 124px 24px 24px 24px;
+    box-sizing: border-box;
     background: #d4aa01;
     margin: 0;
     border: 1px solid #222;
