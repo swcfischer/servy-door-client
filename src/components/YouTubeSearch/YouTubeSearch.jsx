@@ -5,7 +5,6 @@ import Modal from "react-modal";
 import { UserContext } from "../Layout";
 import { searchYouTubeVideos } from "../../utils/googleBooksApi";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
-import zIndex from "@mui/material/styles/zIndex";
 
 const Container = styled.div`
   .search-section {

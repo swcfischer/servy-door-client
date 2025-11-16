@@ -116,7 +116,7 @@ const Container = styled.div`
     /* Dark scrollbar styling */
     scrollbar-width: thin; /* Firefox */
     scrollbar-color: #c0a427#1e1e1e; /* thumb track */
-    padding: 124px 24px 24px 24px;
+    padding: 76px 24px 24px 24px;
     box-sizing: border-box;
     background: #d4aa01;
     margin: 0;
@@ -534,12 +534,14 @@ function Book(props) {
             )}
           </div> */}
         </div>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: state.volumeInfo.description,
-          }}
-          className="description"
-        ></p>
+        {state.volumeInfo.description && (
+          <p
+            dangerouslySetInnerHTML={{
+              __html: state.volumeInfo.description,
+            }}
+            className="description"
+          ></p>
+        )}
       </div>
 
       {/* YouTube Search Section */}
