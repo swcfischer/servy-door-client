@@ -110,7 +110,7 @@ const Container = styled.div`
     float: left;
     font-size: 18px;
     max-height: 570px;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-right: 12px; /* create space between text and scrollbar */
     scrollbar-gutter: stable; /* reserve space for scrollbar */
     /* Dark scrollbar styling */
