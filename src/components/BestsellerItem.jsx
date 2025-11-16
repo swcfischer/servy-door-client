@@ -130,6 +130,7 @@ function ImageCard(props) {
         border: "1px solid #000",
         height: "min-content",
         padding: 0,
+        filter: "grayscale(.4)",
       }}
     />
   );
