@@ -507,14 +507,25 @@ function Book(props) {
                 Here
               </a>
             </dd>
-            <GoogleBook
-              title={state.volumeInfo.title}
-              author={state.volumeInfo?.authors?.join(", ")}
-            />
             <dt>Amazon</dt>
             <dd>
               <a
                 href={`https://www.amazon.com/s/?k=${bookTitle}+${bookAuthor}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Here
+              </a>
+            </dd>
+
+            <GoogleBook
+              title={state.volumeInfo.title}
+              author={state.volumeInfo?.authors?.join(", ")}
+            />
+            <dt>YouTube</dt>
+            <dd>
+              <a
+                href={`https://www.youtube.com/results?search_query=${bookTitle}+${bookAuthor}`}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -545,14 +556,14 @@ function Book(props) {
       </div>
 
       {/* YouTube Search Section */}
-      {user?.uuid && (
+      {/* {user?.uuid && (
         <YouTubeSearch
           defaultQuery={`${state.volumeInfo?.title || ""} ${
             state.volumeInfo?.authors?.join(" ") || ""
           }`}
           maxResults={8}
         />
-      )}
+      )} */}
 
       <AuthorModal
         isOpen={isAuthorModalOpen}
