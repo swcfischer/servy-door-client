@@ -1,6 +1,192 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "RjBOEQAAQBAJ",
+    etag: "Ir1V8YIigwI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RjBOEQAAQBAJ",
+    volumeInfo: {
+      title: "The Seven Rules of Trust",
+      subtitle: "A Blueprint for Building Things That Last",
+      authors: ["Jimmy Wales"],
+      publisher: "Random House",
+      publishedDate: "2025-10-28",
+      description:
+        "<b>From the founder of Wikipedia, a sweeping reflection on the global crisis of credibility and knowledge, revealing “the rules of trust” that transformed Wikipedia from a scrappy experiment into a global utility used by billions of people—and how those rules can help others build things that last</b><br><br><b>“An important book . . . both hopeful and practical.”—Yuval Noah Harari, bestselling author of <i>Sapiens</i> and <i>21 Lessons for the 21st Century</i></b><br><br>From the beginning, people predicted Wikipedia’s demise. Instead, this global experiment in sharing knowledge and expertise online has become part of the fabric of modern, connected life. Today, every month, people view Wikipedia 11 billion times—just in the English language. The Internet’s encyclopedia has become a global utility, like water or electricity, and we rarely pause to consider the extraordinary fact of its existence.<br><br>Long before it became the biggest collection of knowledge in the history of the world, Wikipedia had to overcome its greatest challenge: getting strangers on the Internet to trust each other. They had to trust that others would not be abusive or uncivil. They had to trust that others would not unfairly change or erase their contributions. They had to trust that people had good intentions.<br><br>Trust, Wikipedia founder Jimmy Wales says, is a treasure. But it is not inanimate, like gold or gems. Trust is a living thing that can and must be cultivated. This book will show you how. And it will reveal how his organization, this one-time punchline, has become a global authority—in the same two decades when the public’s trust in everything else, from government to social media, has trended backwards. <br><br>Every community on earth depends on trust; it underpins our capacity to know things, and it is at an all-time low. Inspiring, approachable, and packed with candid lessons from the early days of Wikipedia, <i>The Seven Rules of Trust </i>is a guide to kickstarting a positive loop of accountability and creativity—and to building things that stand the test of time.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593727460" },
+        { type: "ISBN_13", identifier: "9780593727461" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 240,
+      printedPageCount: 241,
+      dimensions: {
+        height: "21.70 cm",
+        width: "14.50 cm",
+        thickness: "2.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Leadership",
+        "Technology & Engineering / Social Aspects",
+        "Self-Help / Communication & Social Skills",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.1.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71I23jzXuYov5DtXKlm-qYnczemcsp9TVllWsDmizpp52wmt2x3svbr2Twqo-W3WdLUqD1v6cHhcMKY5JOrPObsGlWy3RJppY_dtchbWqRKIpDDWf4ZAQ3wtBycErY0KpNM1qqL&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72zdG1hf4zTVIxYW8xQwRW22l5ehvUvHYF8SGnKM0SG30L1cz_kKFL1-zY6p00rRDhUyJXTNBi2ihA08jT6iCGzJTbJZoWIzFeDDyYqtRiqPLN1F_aVck4QGY4qUPvvnRPY7j2i&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE716hFMVgSAaMUMdTe0KNuvEsH1QFFyoB81Nd57Y5nQfxTnneMWJmB4erpCkNjq0F2lEj4gtE3g6BFvD9QNwVkv1Mu8Pu7cmfU_TUMon1EWUIwtL4MIrSeI9UXv0UTUuUpn8GKtg&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71LJtIWETo2eYhmpkQki5HejHJL1wZqG8OpM_Tx3yqa4sXzLCcAV2NNkl7OA71Ri-0jaJXBVLNOL6C0pHU_h3W-BTSfv26g1IwywIjDtkxgkXeI2eVbR4MAwZXsFYkINlzbnOLs&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72QMcp0ciQIPpr3wcKoYS-Utmc_HHHpzuhgrF-83PiT-nmCnzEawjQQmsbRyRNh0yjKYRbP-J2eDL8dRuovPo2aFrzM0qTXH0sc3br7KDgE4IPnZRN8Vc3euw3uG0S43-P3cDO2&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Seven_Rules_of_Trust-sample-pdf.acsm?id=RjBOEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2478,
+      image:
+        "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "bZHl-c4Np9UC",
+    etag: "jxnzB4JY4Hc",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/bZHl-c4Np9UC",
+    volumeInfo: {
+      title: "A Dangerous Fortune",
+      subtitle: "A Novel",
+      authors: ["Ken Follett"],
+      publisher: "Random House Publishing Group",
+      publishedDate: "2010-07-21",
+      description:
+        "<b>A tragic accident at a prestigious boarding school sets in motion a vicious conflict of political power, greed, and lust—a “breathlessly plotted [and] relentlessly suspenseful (<i>The New York Times</i>) historical thriller from the #1 <i>New York Times </i>bestselling author of <i>The Pillars of the Earth.</i></b><br><br><b>“A terrific page-turner.”—<i>Los Angeles Times</i></b><br><br>In 1866, tragedy strikes the exclusive Windfield School when a young student drowns in a mysterious accident. His death and its aftermath initiate a spiraling circle of treachery that will span three decades and entwine many lives.<br><br>From the exclusive men’s clubs and brothels that cater to every dark desire of London’s upper class to the dazzling ballrooms and mahogany-paneled suites of the manipulators of the world’s wealth, one family is splintered by a shared legacy. But greed, fed by the shocking truth of a boy’s death, must be stopped, or the dreams of a nation will die.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0307756750" },
+        { type: "ISBN_13", identifier: "9780307756756" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 576,
+      printedPageCount: 578,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Thrillers / Historical",
+        "Fiction / Thrillers / Suspense",
+        "Fiction / Sagas",
+      ],
+      averageRating: 4.5,
+      ratingsCount: 5,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.19.16.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73dOBQ3oRZ9q_lCTzmMU8sURqwME3R1uQ0k0DhCiNDVzCATDT1uqk0duIvVuiOItqZj8CkmGHKEfLmrl9E2VK3BmtDB6xs0yOA5DEC7rNVZjocchJW2UNjc2egXEoUi4kR4w9QC&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71QVrmczOaVpnSawELrxjlD9OSmeUflkYR-Rfn3sG_8kz3gBOoIUAeHCwGfpni7vWu9gb_pH6W_mHDty3J2xgpzHWj59dRApfrubM_QWli8NK99ijLSYsP_reirYVmO9RzHtXSI&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE711pLe9jqilcOKzVRIgH5vk4HMn9VQvAbFiNjB6sLjfBXAxRQJnbErsZhagTmuRsBzTPXiNCM_M9TAwlynZkFVF_PFWxCiUELlMoR9aIerFbhnstopTmuBLR_gkyvoQxtLUIPro&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73KXmACu5xx5uOW10n3jiEkBt0f4RPr-dm68ZiFk6IqxPLyX4fks5TP8nQQaXUpsC20CjhjjVDVxhYh4gJdjkOaG9VtbCl0DJVAfUCBw38gYPIBIvGf3OK7KgZQoI0TD0HAJ34L&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72utnkIWbWWNhC6BonP0ICmbMv1ZFJh5GJlTPQWs5LhlMOWcNjDXPLUaoJmXAfpon5st7MnsLiX5ftl_zZ5RrtSYIugYzRTsUcFgdpiPCE1LfW9a7e6WW0Y0YJF1wNUWoDjqHP9&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=bZHl-c4Np9UC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=bZHl-c4Np9UC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=bZHl-c4Np9UC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "28" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 7.99, currencyCode: "USD" },
+      retailPrice: { amount: 7.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=bZHl-c4Np9UC&rdid=book-bZHl-c4Np9UC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 7990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 7990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/A_Dangerous_Fortune-sample-epub.acsm?id=bZHl-c4Np9UC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/A_Dangerous_Fortune-sample-pdf.acsm?id=bZHl-c4Np9UC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=bZHl-c4Np9UC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1323,
+      image:
+        "http://books.google.com/books/content?id=bZHl-c4Np9UC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72utnkIWbWWNhC6BonP0ICmbMv1ZFJh5GJlTPQWs5LhlMOWcNjDXPLUaoJmXAfpon5st7MnsLiX5ftl_zZ5RrtSYIugYzRTsUcFgdpiPCE1LfW9a7e6WW0Y0YJF1wNUWoDjqHP9&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "huy3EAAAQBAJ",
     etag: "4g+jJBnwa+s",
     selfLink: "https://www.googleapis.com/books/v1/volumes/huy3EAAAQBAJ",
@@ -174,185 +360,6 @@ const classicBestsellerList = [
       height: 2482,
       image:
         "http://books.google.com/books/content?id=1vhpYe99Tn4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE714qI8QdL0eJhLsXhPGmj7NW97aZZYfEi9WDELbl6163N3kkOYajK2OFqc2ltlQwUYF6dns1AOCxOLeH_96bnrEiUoAjLWfk6QMidiB4CdS4Withco&source=gbs_api",
-    },
-  },
-
-  {
-    kind: "books#volume",
-    id: "hoEnEQAAQBAJ",
-    etag: "5T8/xPQ7LVY",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/hoEnEQAAQBAJ",
-    volumeInfo: {
-      title: "Circle of Days",
-      authors: ["Ken Follett"],
-      publisher: "Grand Central Publishing",
-      publishedDate: "2025-09-23",
-      description:
-        "<b>AN INSTANT <i>NEW YORK TIMES </i>BESTSELLER!<br><br> From a bestselling author of epic fiction comes the deeply human story of one of the world’s greatest mysteries: the building of Stonehenge. </b><br><br><b>A FLINT MINER WITH A GIFT</b><br> Seft, a talented flint miner, walks the Great Plain in the high summer heat, to witness the rituals that signal the start of a new year. He is there to trade his stone at the Midsummer Fair, and to find Neen, the girl he loves. Her family lives in prosperity and offer Seft an escape from his brutish father and brothers within their herder community.<br><br><b>A PRIESTESS WHO BELIEVES THE IMPOSSIBLE </b><br> Joia, Neen’s sister, is a priestess with a vision and an unmatched ability to lead. As a child, she watches the Midsummer ceremony, enthralled, and dreams of a miraculous new monument, raised from the biggest stones in the world. But trouble is brewing among the hills and woodlands of the Great Plain.<br><br><b>A MONUMENT THAT WILL DEFINE A CIVILIZATION </b><br> Joia’s vision of a great stone circle, assembled by the divided tribes of the Plain, will inspire Seft and become their life’s work. But as drought ravages the earth, mistrust grows between the herders, farmers and woodlanders—and an act of savage violence leads to open warfare . . .<br><br> Truly ambitious in scope, <i>Circle of Days </i>invites you to join master storyteller Ken Follett in exploring one of the greatest mysteries of our age: Stonehenge.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1538772795" },
-        { type: "ISBN_13", identifier: "9781538772799" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 752,
-      printedPageCount: 354,
-      printType: "BOOK",
-      categories: ["Fiction / Historical / Ancient", "Fiction / Sagas"],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "1.2.2.0.preview.2",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70jHfkx9VVJqfyr-FKcER6QHRfe5jC6xJVV3a-sXbuCWrFjy6FMYq8CjvDIcOvLiFEWhCmkpaptqXkVicc-IdytzwlV4zniJZUq8tu972xDlzMUAWk&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Gx2WrZJTPU7_oYBhdo2775v-LjWJejA1NdJAoApUYECCqWqQr42XdGT2UwhxlSwr_iSnscX72ZnX411bkTyqsZ__NUZDHNOkfofv2IJgKjSVv6z4&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72C7KiR4autnPEA7hvgB_dsVg7gCZxuYva9AwTauxYaIgiVreQErsv3AFEBNZSDMhqgMEbCjkY_RAjSq7PHWUJwT5mlAZ9PeJU5GOnam2Y1_pi_ssE&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70cT9IRx7l0wlQJi6CrXdimkkNoUjVjftgH_Gyf1JXBU1JWuak61rDsDSa7L7hlg5RKJJpULXZgBCdIRneFZL3OCkFHWYGtSWtM_BR_Rp1Od0KcFdM&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70B6c1MG1okIf675XX7-PlO9ATW85ZlECU97bZXCGbgeZ64u16NRuopjgl9EeA5xO24DwOGFvQSDLefvTDprdp1rUtVZOoVGLS-hMjRtpePNvdskhY&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71uyPtbJcsIHj5e2rm0zOI8_bZONSh8q84tB43oH07hUtU1EzPUjrp80l4byDHjpWKSTtBWpWKJlsmk2nB33GvMg3iGWcBg8EqVhskY9rAxvJjqt4M&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=hoEnEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ",
-    },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 16.99, currencyCode: "USD" },
-      retailPrice: { amount: 16.99, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=hoEnEQAAQBAJ&rdid=book-hoEnEQAAQBAJ&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Circle_of_Days-sample-epub.acsm?id=hoEnEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=hoEnEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 2164,
-      height: 3264,
-      image:
-        "http://books.google.com/books/publisher/content?id=hoEnEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71uyPtbJcsIHj5e2rm0zOI8_bZONSh8q84tB43oH07hUtU1EzPUjrp80l4byDHjpWKSTtBWpWKJlsmk2nB33GvMg3iGWcBg8EqVhskY9rAxvJjqt4M&source=gbs_api",
-    },
-  },
-
-  {
-    kind: "books#volume",
-    id: "RjBOEQAAQBAJ",
-    etag: "Ir1V8YIigwI",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/RjBOEQAAQBAJ",
-    volumeInfo: {
-      title: "The Seven Rules of Trust",
-      subtitle: "A Blueprint for Building Things That Last",
-      authors: ["Jimmy Wales"],
-      publisher: "Random House",
-      publishedDate: "2025-10-28",
-      description:
-        "<b>From the founder of Wikipedia, a sweeping reflection on the global crisis of credibility and knowledge, revealing “the rules of trust” that transformed Wikipedia from a scrappy experiment into a global utility used by billions of people—and how those rules can help others build things that last</b><br><br><b>“An important book . . . both hopeful and practical.”—Yuval Noah Harari, bestselling author of <i>Sapiens</i> and <i>21 Lessons for the 21st Century</i></b><br><br>From the beginning, people predicted Wikipedia’s demise. Instead, this global experiment in sharing knowledge and expertise online has become part of the fabric of modern, connected life. Today, every month, people view Wikipedia 11 billion times—just in the English language. The Internet’s encyclopedia has become a global utility, like water or electricity, and we rarely pause to consider the extraordinary fact of its existence.<br><br>Long before it became the biggest collection of knowledge in the history of the world, Wikipedia had to overcome its greatest challenge: getting strangers on the Internet to trust each other. They had to trust that others would not be abusive or uncivil. They had to trust that others would not unfairly change or erase their contributions. They had to trust that people had good intentions.<br><br>Trust, Wikipedia founder Jimmy Wales says, is a treasure. But it is not inanimate, like gold or gems. Trust is a living thing that can and must be cultivated. This book will show you how. And it will reveal how his organization, this one-time punchline, has become a global authority—in the same two decades when the public’s trust in everything else, from government to social media, has trended backwards. <br><br>Every community on earth depends on trust; it underpins our capacity to know things, and it is at an all-time low. Inspiring, approachable, and packed with candid lessons from the early days of Wikipedia, <i>The Seven Rules of Trust </i>is a guide to kickstarting a positive loop of accountability and creativity—and to building things that stand the test of time.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0593727460" },
-        { type: "ISBN_13", identifier: "9780593727461" },
-      ],
-      readingModes: { text: false, image: true },
-      pageCount: 240,
-      printedPageCount: 241,
-      dimensions: {
-        height: "21.70 cm",
-        width: "14.50 cm",
-        thickness: "2.30 cm",
-      },
-      printType: "BOOK",
-      categories: [
-        "Business & Economics / Leadership",
-        "Technology & Engineering / Social Aspects",
-        "Self-Help / Communication & Social Skills",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "1.1.1.0.preview.1",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71I23jzXuYov5DtXKlm-qYnczemcsp9TVllWsDmizpp52wmt2x3svbr2Twqo-W3WdLUqD1v6cHhcMKY5JOrPObsGlWy3RJppY_dtchbWqRKIpDDWf4ZAQ3wtBycErY0KpNM1qqL&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72zdG1hf4zTVIxYW8xQwRW22l5ehvUvHYF8SGnKM0SG30L1cz_kKFL1-zY6p00rRDhUyJXTNBi2ihA08jT6iCGzJTbJZoWIzFeDDyYqtRiqPLN1F_aVck4QGY4qUPvvnRPY7j2i&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE716hFMVgSAaMUMdTe0KNuvEsH1QFFyoB81Nd57Y5nQfxTnneMWJmB4erpCkNjq0F2lEj4gtE3g6BFvD9QNwVkv1Mu8Pu7cmfU_TUMon1EWUIwtL4MIrSeI9UXv0UTUuUpn8GKtg&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71LJtIWETo2eYhmpkQki5HejHJL1wZqG8OpM_Tx3yqa4sXzLCcAV2NNkl7OA71Ri-0jaJXBVLNOL6C0pHU_h3W-BTSfv26g1IwywIjDtkxgkXeI2eVbR4MAwZXsFYkINlzbnOLs&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72QMcp0ciQIPpr3wcKoYS-Utmc_HHHpzuhgrF-83PiT-nmCnzEawjQQmsbRyRNh0yjKYRbP-J2eDL8dRuovPo2aFrzM0qTXH0sc3br7KDgE4IPnZRN8Vc3euw3uG0S43-P3cDO2&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=RjBOEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/The_Seven_Rules_of_Trust-sample-pdf.acsm?id=RjBOEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=RjBOEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 1652,
-      height: 2478,
-      image:
-        "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
     },
   },
 ];
