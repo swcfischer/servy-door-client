@@ -109,18 +109,11 @@ const Container = styled.div`
     max-width: 450px;
     float: left;
     font-size: 18px;
-    max-height: 570px;
-    overflow-y: auto;
-    padding-right: 12px; /* create space between text and scrollbar */
-    scrollbar-gutter: stable; /* reserve space for scrollbar */
-    /* Dark scrollbar styling */
-    scrollbar-width: thin; /* Firefox */
-    scrollbar-color: #c0a427#1e1e1e; /* thumb track */
     padding: 76px 24px 24px 24px;
     box-sizing: border-box;
     background: #d4aa01;
     margin: 0;
-    border: 1px solid #222;
+    border: 1px solid #1e1902;
     border-radius: 3px;
 
     &::-webkit-scrollbar {
