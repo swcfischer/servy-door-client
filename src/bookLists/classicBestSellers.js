@@ -1,6 +1,108 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "r5VEEQAAQBAJ",
+    etag: "fV8DYLiLtow",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/r5VEEQAAQBAJ",
+    volumeInfo: {
+      title: "To Rescue the American Spirit",
+      subtitle: "Teddy Roosevelt and the Birth of a Superpower",
+      authors: ["Bret Baier"],
+      publisher: "HarperCollins",
+      publishedDate: "2025-10-21",
+      description:
+        '<p><b><i>New York Times</i> Bestseller <br><br>“This captivating portrayal of Teddy is Bret Baier’s gift to us. From Roosevelt’s resilience over tragedy to his heroism in war, from his midnight rambles as police commissioner to his dramatic fights for reform as governor and president, Baier summons the irrepressible spirit of the man. What an engaging storyteller! What a joy to read!” —Doris Kearns Goodwin</b></p><p><b>From #1 bestselling author and Fox News Channel’s Chief Political Anchor, a fresh and fascinating exploration of the extraordinary life of Teddy Roosevelt, revealing how his bold leadership thrust America onto the world stage and changed the course of world history.</b><br>"As Bret Baier shows in this wonderfully readable biography, Theodore Roosevelt has many lessons for today." —Walter Isaacson<br>There has never been a president like Theodore Roosevelt. An iconoclast shaped by fervent ideals, his early life seems ripped from the pages of an adventure novel: abandoning his place in the New York aristocracy, he was drawn to the thrill of the West, becoming an honorary cowboy who won the respect of the rough men of the plains, adopting their code of authenticity and courage. As a New York State legislator, he fought corruption and patronage. As New York City police commissioner, he walked the beat at night to hold his men accountable; and as New York governor, he butted heads with the old guard to bring fresh air to a state mired in political corruption. He was also a passionate naturalist, conservationist, and hunter who collected hundreds of specimens of birds and animals throughout his life. He was a soldier and commander who led a regiment of “Rough Riders” to victory in the Spanish-American War, a show of leadership and bravery that put him on the national map. As president, he brought energy, laughter, and bold ideas to the White House, pursuing a vigorous agenda that established America as a leader on the world stage —from advancing the Panama Canal, brokering peace with Russia, and taking on business elites.<br>Bret Baier’s exquisite book reveals the storied life of a leader whose passion, daring, and prowess left an indelible mark on the fabric of our country and reimagined the possibilities of the presidency. <br></p>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0063360772" },
+        { type: "ISBN_13", identifier: "9780063360778" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 400,
+      printedPageCount: 273,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Presidents & Heads of State",
+        "History / United States / 21st Century",
+        "Political Science / American Government / Executive Branch",
+        "Biography & Autobiography / Historical",
+        "Biography & Autobiography / Political",
+        "Biography & Autobiography / Military",
+        "Biography & Autobiography / Environmentalists & Naturalists",
+        "Political Science / History & Theory",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.2.2.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70I5_mfTbfm6NdPdhiPmtqYsjC94daHZgcbjxskH2_z5CTcsD6nG5nDV2ISBvdFNwgJnCuXJCPXt7yxkuAmd6wfgqtoVhjO7XkVNYVb1fQXzaa0b4JFX5j1SexilxGvj4BxOcVa&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71zajKplO9D0dcArnQTSnJnEcJzZj9P5SoRBywN8CVchYuvPsJfCvYIuT8vBHwwZJD_7ueTWMUXFCRInPvWVVzS4Zk90XUH_Kd-a939eVGsmWhcN_rlG6g4gorkOKWu36nfgtm7&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE717UNLpXrBODsIVihwej6Ye7PlwlGpIpKF53kxkeW5-cxBwcColSuUDOHOPCrCEgOkuOz8A_eJzZvj76TwsGMzBo5ktWSe_P93ClM1uSfyIrDGL6lsc4S_ptAYIKf5bVw5ljd2r&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73UFYsox1-N5X1VOVkoYpJZSKqNW7Zj761q8lQ2Q6Tt3tFg-AFYMcQMVp0qtJ6TwMKQzai4lnv0YKO6gFZSeUwno1a0qO55GwVakUmRzR5YFhcfu5s9JJV5wjVe89sZnlvLnF_f&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71fAwiifrmc8iFv2V3xWuFDl3gp378ElZmrn8AReLEqzfFimrHt6xRlB-ZLSfbtEIPOZJd7BbhPdpuaO5a1l0xMxUrt-bPMo_sEaYBzXJK6ul3Egbi_A0aTqLZcUEO3uoXhydEC&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70bZYcsYiw429habMrFk-CtXHMF5-abu4obTPfL811S7SyYCADtOJzIMlUfqOsFb13_2XHhLut5QPb3p_z7I2gBoK4Wu4JuCuDnquM2ayYZDMO7EV-Ew1W9UDWmxyUHIYvnFt8f&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=r5VEEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=r5VEEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=r5VEEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=r5VEEQAAQBAJ&rdid=book-r5VEEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/To_Rescue_the_American_Spirit-sample-epub.acsm?id=r5VEEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=r5VEEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3281,
+      image:
+        "http://books.google.com/books/publisher/content?id=r5VEEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70bZYcsYiw429habMrFk-CtXHMF5-abu4obTPfL811S7SyYCADtOJzIMlUfqOsFb13_2XHhLut5QPb3p_z7I2gBoK4Wu4JuCuDnquM2ayYZDMO7EV-Ew1W9UDWmxyUHIYvnFt8f&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "l7_3BQAAQBAJ",
     etag: "gTH5rfHQGIo",
     selfLink: "https://www.googleapis.com/books/v1/volumes/l7_3BQAAQBAJ",
