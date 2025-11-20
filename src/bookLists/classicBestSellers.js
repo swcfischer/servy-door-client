@@ -190,6 +190,90 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "HqxzEXMbOuIC",
+    etag: "fAqFl+V1KeA",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/HqxzEXMbOuIC",
+    volumeInfo: {
+      title: "Cool Spots Miami/South Beach",
+      authors: ["Patrice Farameh"],
+      publisher: "teNeues",
+      publishedDate: "2006",
+      description:
+        "No wonder Miami and South Beach are model central. It's where the hot young things come to see and be seen. With its daytime emphasis on sun and spectacle, and lively nightlife once the sun goes down, there's always somewhere to go. This hip metropolis has an array of destinations combining Latin flair, Deco splendor, and quite a strong dash of Euro sophistication. This guide offers in-the-know advice that helps you choose among the many bars, restaurants, clubs and hotels.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "3832791531" },
+        { type: "ISBN_13", identifier: "9783832791537" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 135,
+      printedPageCount: 144,
+      dimensions: {
+        height: "23.00 cm",
+        width: "14.70 cm",
+        thickness: "1.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Architecture / Landscape",
+        "Photography / General",
+        "Travel / United States / South / South Atlantic (DC, DE, FL, GA, MD, NC, SC, VA, WV)",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.4.5.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73NqG-d-j3Qo1Z_nr3wBpllWenHIk3jWvAVxwDGQgfMYVyrh6qQLrW8oEY7M2bDYWex2RBdKRgTQfw197ru4DpDtRTmNy70RJV1Vnfrw2HFXo7aMrZrb3kjrOd4t9pXSMZL3zni&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Wrsomti-XuJ0fCWNC_CNVP_sqzKYBu3t32KswvLqSw7_F5FUYCcXqjfgpQZBHCfF7-9XXKxkcXj_SmFsT4BdUVhoC0iu73SU5kKuzpYjsg4sNzyZJgXhKgiZ5sRdglpdH3EGN&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71CTzRnZHayJS6gNrAHZGbpg7c9l-t-58C5c3tJXe3fzF7O1LGZrqQxHBGcrCNeJ4GYjiL1XR76TOpMm53BvujKdnw2f-GYhNoF0cQg2mvSw4XTFZrSp0eeLaxJ37IlWuHhdRKf&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72gKEcxvxfHWlHLU5Ibg8FDFq2Zq-DXB3-R8swWQZsTiQm8Qln9Jc70D5MeKzwd0wbShN3uHYoDRD3paDHJPsWIG_3vxFtnr_Uz1B0KUNRE_0piDrvU_IFH8HRrdM7Nw3CV1NMJ&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73WnZjL6mzVUkStx5gqCH0fEda1Gn8fqB84YpT5iNv_nGzSkoO_TEsAaKkWy_fm_y0O83kf2LbqXWpSxh_SK7VpdEuQlK3MjfAxMHp2EwNgOrG0ay2J_fAVw5lDxcQdMUq47a-w&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE727dmtN81MSVqQB3G97zp5OLqv1jI1d3l8wtzGXVdoOs6Dd6aiHf0VVyz5UnVOp-WT70OGsjEjGG2fPBudop95biU2OKQh5jAyGS8OwLzwTDoHa7mUvq4NEiRTRMh-sAZijqTeI&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=HqxzEXMbOuIC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=HqxzEXMbOuIC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=HqxzEXMbOuIC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Cool_Spots_Miami_South_Beach-sample-pdf.acsm?id=HqxzEXMbOuIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=HqxzEXMbOuIC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1685,
+      height: 2592,
+      image:
+        "http://books.google.com/books/content?id=HqxzEXMbOuIC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE727dmtN81MSVqQB3G97zp5OLqv1jI1d3l8wtzGXVdoOs6Dd6aiHf0VVyz5UnVOp-WT70OGsjEjGG2fPBudop95biU2OKQh5jAyGS8OwLzwTDoHa7mUvq4NEiRTRMh-sAZijqTeI&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "l7_3BQAAQBAJ",
     etag: "gTH5rfHQGIo",
     selfLink: "https://www.googleapis.com/books/v1/volumes/l7_3BQAAQBAJ",
