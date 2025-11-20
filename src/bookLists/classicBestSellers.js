@@ -190,6 +190,81 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "h1cJuZfooVgC",
+    etag: "QwLsETdpf5o",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/h1cJuZfooVgC",
+    volumeInfo: {
+      title: "Alligators All Around",
+      authors: ["Maurice Sendak"],
+      publisher: "Harper Collins",
+      publishedDate: "1991-03-15",
+      description:
+        "‘An alligator jamboree, with all the letters ' A through Z.' <p></p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0064432548" },
+        { type: "ISBN_13", identifier: "9780064432542" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 32,
+      printedPageCount: 34,
+      dimensions: {
+        height: "15.00 cm",
+        width: "10.80 cm",
+        thickness: "0.20 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Juvenile Fiction / Concepts / Alphabet",
+        "Juvenile Fiction / Humorous Stories",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.4.4.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=h1cJuZfooVgC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE703URIJqJSPQjTuovKjxubQnuJOpgsDnIPp_kzqvb8rKFgnNNpeLYExCnWxwvHsC-FvND8GCPWu9FGaGe285uPYft9_pmEQamL8PSZue9G3SkrpAGyXNxZM0l33_6_VEkkCluSn&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=h1cJuZfooVgC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71h9OmozhANznu5Trt3Vy28IeTR3mfKGJl7bC6upVi9CHdj9B5rkHmx7OtWJ59Afa16DxtCgHFWbE-AcUlyYdiA3stoKbs39-Kyen2MP5LZefQFsEVvNA0NJcZIvhxBMmVc2Ol1&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=h1cJuZfooVgC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72I4QL-hHsSPTAX8ktawEVN9MtC_WlGSDzPsEXDIOjl36FYSzLCwaymOJm_Id-jhN9cTcjh-r6DZ58MncoRjFK8r4ss7JAuN6KIjbKePY23xDUNWvSj3x9iU47jUx2g7Vw6hvkP&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=h1cJuZfooVgC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73Tr1FHiI9CsB06MTpW1iYwAqEVkrcXJUt9wqoFKAQ37P6DnJlBO2-mbbMtA6O6hsJPXLiihfwQwEYJ_a-gWO9DL08pL5HPSsVZmjxDwZDDP2_ZBmYKy5l-q0lDAqpICEDFj7fw&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=h1cJuZfooVgC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=h1cJuZfooVgC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=h1cJuZfooVgC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=h1cJuZfooVgC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 575,
+      height: 789,
+      image:
+        "http://books.google.com/books/content?id=h1cJuZfooVgC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73Tr1FHiI9CsB06MTpW1iYwAqEVkrcXJUt9wqoFKAQ37P6DnJlBO2-mbbMtA6O6hsJPXLiihfwQwEYJ_a-gWO9DL08pL5HPSsVZmjxDwZDDP2_ZBmYKy5l-q0lDAqpICEDFj7fw&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "HqxzEXMbOuIC",
     etag: "fAqFl+V1KeA",
     selfLink: "https://www.googleapis.com/books/v1/volumes/HqxzEXMbOuIC",
