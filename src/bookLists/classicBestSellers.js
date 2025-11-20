@@ -86,6 +86,7 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72yNVdnvxtKIWtsmqVzy0xqzcbo4SNUD5ogtH90QiYRYMRqx-_NtMIdDlyZNxNzI8AWWr7Lt5MaBGhWQ9nszRoPHAjTeN9EDkuKqquSB2Zsryl6RmISV24-GxYch99IB_l5rsDZ&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "BP78EAAAQBAJ",
