@@ -88,6 +88,105 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "BP78EAAAQBAJ",
+    etag: "Ps3HhgR5+is",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/BP78EAAAQBAJ",
+    volumeInfo: {
+      title: "Genesis",
+      subtitle: "Artificial Intelligence, Hope, and the Human Spirit",
+      authors: ["Henry A. Kissinger", "Eric Schmidt", "Craig Mundie"],
+      publisher: "Little, Brown",
+      publishedDate: "2024-11-19",
+      description:
+        "<p><b><i>NEW YORK TIMES</i> BESTSELLER | <i>USA TODAY </i>BESTSELLER  |  <i>LOS ANGELES TIMES </i>BESTSELLER  | J.P. MORGAN NEXTLIST SELECTION<br><br> In his final book, the late Henry Kissinger joins forces with two leading technologists to mount “a profound exploration” (Walter Isaacson) of the epochal challenges and opportunities presented by the revolution in Artificial Intelligence: a breakthrough that dramatically empowers people in all walks of life while also raising urgent questions about the future of humanity.</b><br>  <br> As it absorbs data, gains agency, and intermediates between humans and reality, AI (Artificial Intelligence) will help us to address enormous crises, from climate change to geopolitical conflicts to income inequality. It might well solve some of the greatest mysteries of our universe and elevate the human spirit to unimaginable heights. But it will also pose challenges on a scale and of an intensity that we have never seen—usurping our power of independent judgment and action, testing our relationship with the divine, and perhaps even spurring a new phase in human evolution.<br>  <br> The last book of elder statesman Henry Kissinger, written with technologists Craig Mundie and Eric Schmidt, <i>Genesis</i> charts a course between blind faith and unjustified fear as it outlines an effective strategy for navigating the age of AI. </p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0316581321" },
+        { type: "ISBN_13", identifier: "9780316581325" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 288,
+      printedPageCount: 186,
+      printType: "BOOK",
+      categories: [
+        "Social Science / Technology Studies",
+        "Political Science / Public Policy / Science & Technology Policy",
+        "Technology & Engineering / Social Aspects",
+        "Computers / Artificial Intelligence / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.3.3.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72mMA4qsrENZdhnC38yHf2hwBD2zQIWnnRNSX8pb1-XWwVze5uC0PDOMCWKaz1ukgY-CLBZyAO1qPWNQ3jxSgJVMG6NtL5jnr8mci3Vt4JT03u26H4i0_PrdLprFqUe3-j0aFGf&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71u3Ep5NJhuGvvebZvEiPa8qG-Ml0TvIVQ2D9kngehm0Nc-66L3Oo_SL9CcKHl6UGaRvOEaMi1ArWlJ2T3vPlzuuIa02RP3AqGBlzH2U-I98COoGDw2cXcfa6itVfD-7VgaF9Nm&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70CIBWKOcIYJOJIY6vQ_B3GvX-3fi0kG70r4wpUFosffyn63kecXrn3gYZBExukNY2LvKc5I0nSY-qxvlPcj8RQE0klUe1GyeWPDt3j389vzk1ln3JJiu2-OPJ5VPKorqn7Rvor&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70YHLhsA--XRcwyJSGkwAuY8OoS8qhdAcWFmpFltIoE-epvsbMnQchBoZlhuIYVhEV_uF4puuNLZS4CpXj5MNcpoqsJ2lK3EYU18p_WTWuvF6Symppdz3mQ_GyHhck0f3UKrVj0&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE721tYhUe5c8XiNWVatrdVMcajtdXYbjobDj4nwf39WGyrzTLhmbdwJLdcC6-i_slA_NzaCtKho5MWJMaUnYOpnW546lTERi9l_niWNyGmP83r96Hx9oGRJzfmUyBydGaSdLb8CY&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70XNaHop6w4-acuM6AzhO2wXeTQg03Dh1O-vieBV6K6SxdU54DT-9kKv6SoKD-C7sAgMC_xa5uPpYvtH7oCf41Q2NCs-_ZqE4iwZ0ls7YiJdxtbtzND4pjqhHL-Zl8rqll4e_G7&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=BP78EAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=BP78EAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=BP78EAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=BP78EAAAQBAJ&rdid=book-BP78EAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Genesis-sample-epub.acsm?id=BP78EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=BP78EAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2703,
+      image:
+        "http://books.google.com/books/publisher/content?id=BP78EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70XNaHop6w4-acuM6AzhO2wXeTQg03Dh1O-vieBV6K6SxdU54DT-9kKv6SoKD-C7sAgMC_xa5uPpYvtH7oCf41Q2NCs-_ZqE4iwZ0ls7YiJdxtbtzND4pjqhHL-Zl8rqll4e_G7&source=gbs_api",
+    },
+  },
+
+  {
+    kind: "books#volume",
     id: "r5VEEQAAQBAJ",
     etag: "fV8DYLiLtow",
     selfLink: "https://www.googleapis.com/books/v1/volumes/r5VEEQAAQBAJ",
