@@ -1,6 +1,93 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "7y_KDAAAQBAJ",
+    etag: "4g5zCdz3oj0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/7y_KDAAAQBAJ",
+    volumeInfo: {
+      title: "Artificial Intelligence",
+      subtitle: "What Everyone Needs to Know",
+      authors: ["Jerry Kaplan"],
+      publisher: "Oxford University Press",
+      publishedDate: "2016",
+      description:
+        "Over the coming decades, Artificial Intelligence will profoundly impact the way we live, work, wage war, play, seek a mate, educate our young, and care for our elderly. It is likely to greatly increase our aggregate wealth, but it will also upend our labor markets, reshuffle our social order, and strain our private and public institutions. Eventually it may alter how we see our place in the universe, as machines pursue goals independent of their creators and outperform us in domains previously believed to be the sole dominion of humans. Whether we regard them as conscious or unwitting, revere them as a new form of life or dismiss them as mere clever appliances, is beside the point. They are likely to play an increasingly critical and intimate role in many aspects of our lives.The emergence of systems capable of independent reasoning and action raises serious questions about just whose interests they are permitted to serve, and what limits our society should place on their creation and use. Deep ethical questions that have bedeviled philosophers for ages will suddenly arrive on the steps of our courthouses. Can a machine be held accountable for its actions? Should intelligent systems enjoy independent rights and responsibilities, or are they simple property? Who should be held responsible when a self-driving car kills a pedestrian? Can your personal robot hold your place in line, or be compelled to testify against you? If it turns out to be possible to upload your mind into a machine, is that still you? The answers may surprise you.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0190602384" },
+        { type: "ISBN_13", identifier: "9780190602383" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 165,
+      printedPageCount: 193,
+      dimensions: {
+        height: "21.00 cm",
+        width: "21.80 cm",
+        thickness: "1.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Computers / General",
+        "Computers / Artificial Intelligence / General",
+        "Computers / Human-Computer Interaction (HCI)",
+        "Science / General",
+        "Science / Philosophy & Social Aspects",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.3.2.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70ZE2d6WTSX-ZKXFT8Mf6nEhZXAXpEqdQollmr5xFbG4xdYcXNF7qERlXm68l31nQzAKd6aBUvagSdYFTMg5_ANZ_rD7PFRqhdU-PyRIiTR2B1dZs6Qho0XfzAPfcLcxPmhsUC5&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72NNaewthSpq9nG08YMua9mArVQjvJyaY9Q-MQrVdyAK-SgxfPZ9LYoV1kG_NpPuiEz27HDpj9Fd4AOIOJswWpaXnZd10rAYcDG1XFPF5O05Zu6HdLMz_Kw-72XL1O-z4Z7g9-L&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72YkWCG3MV0nHwOdjrxwLrQbQMDb-3upMxjFv7mDD3S9LrjNpVf0XzIA1cJ393RqqF9Ft-wskML3LtzMRzNSn4OcYBMC4Dl-TwitbVTa6MiVwzI-XXOB5iX38eZdFl05uf-grON&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73-vtvWFTHk9ueqSe1KzoSby4O1l6BP339oPWeZUr9qUuJ3WDoCR7YXNQgQS92cI6BJfOcLWxp04uRXmEAb02f3URAT3MEbTkSumqWtRJZgI-M07_VDI8IvfPp5PxTo2d0AqMY_&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72lIIPPVbGMr6U3n-7rnuLJXoYal9qtIZw35FLXqh5rNnIMN96ROx9PWta8OkqFy2P5aEmBKcSYb9vgRsbQtcM_y0KTmKn7MtSU36bxIwOlvTPC-gv8ZoTvutnyxkf4aWOkODHG&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72yNVdnvxtKIWtsmqVzy0xqzcbo4SNUD5ogtH90QiYRYMRqx-_NtMIdDlyZNxNzI8AWWr7Lt5MaBGhWQ9nszRoPHAjTeN9EDkuKqquSB2Zsryl6RmISV24-GxYch99IB_l5rsDZ&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=7y_KDAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=7y_KDAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=7y_KDAAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Artificial_Intelligence-sample-pdf.acsm?id=7y_KDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=7y_KDAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2478,
+      image:
+        "http://books.google.com/books/publisher/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72yNVdnvxtKIWtsmqVzy0xqzcbo4SNUD5ogtH90QiYRYMRqx-_NtMIdDlyZNxNzI8AWWr7Lt5MaBGhWQ9nszRoPHAjTeN9EDkuKqquSB2Zsryl6RmISV24-GxYch99IB_l5rsDZ&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "r5VEEQAAQBAJ",
     etag: "fV8DYLiLtow",
     selfLink: "https://www.googleapis.com/books/v1/volumes/r5VEEQAAQBAJ",
