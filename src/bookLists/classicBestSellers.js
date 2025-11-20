@@ -394,80 +394,78 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "huy3EAAAQBAJ",
-    etag: "4g+jJBnwa+s",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/huy3EAAAQBAJ",
+    id: "zjO4stY-tVcC",
+    etag: "jZ59w28+Ns0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/zjO4stY-tVcC",
     volumeInfo: {
-      title: "Dune (Movie Tie-In)",
+      title: "Dune",
       authors: ["Frank Herbert"],
-      publisher: "Penguin",
-      publishedDate: "2023-09-26",
+      publisher: "Berkley Books",
+      publishedDate: "1984",
       description:
-        "<b>Frank Herbert’s classic masterpiece—a triumph of the imagination and one of the bestselling science fiction novels of all time.</b><br><br>Set on the desert planet Arrakis, <i>Dune</i> is the story of Paul Atreides−who would become known as Maud'Dib—and of a great family's ambition to bring to fruition humankind’s most ancient and unattainable dream. <br><br>A stunning blend of adventure and mysticism, environmentalism and politics, <i>Dune</i> won the first Nebula Award, shared the Hugo Award, and formed the basis of what is undoubtedly the grandest epic in science fiction.",
+        "This Hugo and Nebula Award winner tells the sweeping tale of a desert planet called Arrakis, the focus of an intricate power struggle in a byzantine interstellar empire. Arrakis is the sole source of Melange, the \"spice of spices.\" Melange is necessary for interstellar travel and grants psychic powers and longevity, so whoever controls it wields great influence. The troubles begin when stewardship of Arrakis is transferred by the Emperor from the Harkonnen Noble House to House Atreides. The Harkonnens don't want to give up their privilege, though, and through sabotage and treachery they cast young Duke Paul Atreides out into the planet's harsh environment to die. There he falls in with the Fremen, a tribe of desert dwellers who become the basis of the army with which he will reclaim what's rightfully his. Paul Atreides, though, is far more than just a usurped duke. He might be the end product of a very long-term genetic experiment designed to breed a super human; he might be a messiah. His struggle is at the center of a nexus of powerful people and events, and the repercussions will be felt throughout the Imperium.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0593640349" },
-        { type: "ISBN_13", identifier: "9780593640340" },
+        { type: "ISBN_10", identifier: "042507160X" },
+        { type: "ISBN_13", identifier: "9780425071601" },
       ],
       readingModes: { text: false, image: false },
-      pageCount: 896,
-      printedPageCount: 897,
+      pageCount: 535,
+      printedPageCount: 548,
       dimensions: {
-        height: "19.20 cm",
-        width: "10.60 cm",
-        thickness: "4.80 cm",
+        height: "12.70 cm",
+        width: "17.80 cm",
+        thickness: "2.50 cm",
       },
       printType: "BOOK",
-      categories: [
-        "Fiction / Media Tie-In",
-        "Fiction / Science Fiction / Space Opera",
-        "Fiction / Classics",
-      ],
+      categories: ["Fiction / Science Fiction / General"],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
-      contentVersion: "1.2.1.0.preview.0",
+      contentVersion: "0.4.2.0.preview.0",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71MXZp7MWgB6FcC0_pWDUH1S32n3Cwh0qqlrZcgdoPT_isqcQmijqKRAyJCsFI6ydhegp9AaEa_T4b6qIPw--zxTodcvd8qfC39JpUjTAMCM6kq4yA1BdafU1HgRScI-suWZDER&source=gbs_api",
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE73bDUY5iR54dxTnZT1KynywttNyMTqErik7RF4ITMPVFUmGCmkAiUHy1IY8ObFKolkp0ZyvluPs-2q_Z6u7fomcsdPFormb7bQddmds3noNj5rPNQodDCdTCS0VsbcHFtCsCRpg&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72Eo3ZDIMdgJnK4WsOyOATTjrM6VIvomNSzW6gfgWY48Dt_67KgwcePSxKZp2fyf1WNvjoNfoql67q3nfEWr72LwWXi4TRApvPsizwB8GmVhoSJeDh3jUJ0tI-bnIT_b8YDuwEe&source=gbs_api",
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72g34Bbtppe-NENIHxr__hRfOKFENTYjZ7QH4HQnaYVJdtZ9gfBixQbb6Wkx_UplTU09UYCI8R-ujvZ1DL9ma6XbUrhjaWLPvgW5JXgakEhDg97ZJz0WHcTYLBv8i7KejvDaLIA&source=gbs_api",
         small:
-          "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE705HVu4dKYUf7I1lrXPZTXtqZ0fMs7ddqPyc7wstfRVQUMZ50A2XCVcD8DMO4h83Y48iUZbqXeBiPHGj2IW4e4OMqpRhGZUua_t88grBFEMDC4SiiFQbgSZPmHpEfYzLp5IOyei&source=gbs_api",
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE70w09FTQ4E351XrnmRmNtTZ-ya8h29v4nxLa4CtUHSHHdh2df9LLNnHTd4ri4mtWs8UziIxzT48CXrITQaCGKtTuut-a8hMLIN9i9ufRbZUk7_je7PAbc0uSfJGzT_3oJDtdeBm&source=gbs_api",
         medium:
-          "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE709NAGTapC-43Q0zyZw6DOeHMnyipIP03joy039lbcqQ1TJsTWZVEDTh114tYFmtfMVHoYhVlBTJ7TuQ9FBTW4nEPS8IIXP16a2rSS4g_j3FV3Z1k9TXGxVpMju_MLrtR4GJ7AK&source=gbs_api",
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=3&imgtk=AFLRE73z5o4EEYs1sJWNxsFNxBgMQiBZxuIS9cCP8BEHy3papbCGE8oTaIEmTA3rPiNvJ0__D79efNK4NzdRAfg69xASoP8UougtyybeMzv8m5YDClEgqeg0vS24q4E0ra0qlJsFF0PP&source=gbs_api",
         large:
-          "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE712G3Rr6NoTpZxNrkk7bs7JDCf2AsBZtlyNZp4dMTxt397_uOPoQgg3DiKP9DZkfaP1eFvtrmwe6hYK5SJBWO4l98zHcSTJIIjGsAYDMHuLUQiXrf28wn6O50Ic0sSzNZmiwyG0&source=gbs_api",
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=4&imgtk=AFLRE72aCoN6NBEiEBxi_saHquEI_mk8nawjO1lONNUeaSmCeuzJ_u7dl9THFdcBFEZlnIdxSWAllYaIcltlOMtNPIJfNErpJb3Yecj_EdNrtlnAmWmQco4FQ_Kiw02NqGV9vIEtQ4ta&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71DPxeDFCxbu9jTsEUEOr82mdVx9g0GKLJSQy1o-0ypowW0vLGVf5lc9AzmkGZQrjNU2htLzCkMR1ijfYeN8xzYPFht5i7xyFCOCCg_RkwgZioey5GA3UCY_elfIU_P4GSLX6tq&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=huy3EAAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=zjO4stY-tVcC&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=huy3EAAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=zjO4stY-tVcC&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=huy3EAAAQBAJ",
+        "https://play.google.com/store/books/details?id=zjO4stY-tVcC",
     },
     saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
       country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
+      viewability: "NO_PAGES",
+      embeddable: false,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
       epub: { isAvailable: false },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=huy3EAAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
+        "http://play.google.com/books/reader?id=zjO4stY-tVcC&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 800,
-      height: 1434,
+      width: 1280,
+      height: 205,
       image:
-        "http://books.google.com/books/publisher/content?id=huy3EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE712G3Rr6NoTpZxNrkk7bs7JDCf2AsBZtlyNZp4dMTxt397_uOPoQgg3DiKP9DZkfaP1eFvtrmwe6hYK5SJBWO4l98zHcSTJIIjGsAYDMHuLUQiXrf28wn6O50Ic0sSzNZmiwyG0&source=gbs_api",
+        "http://books.google.com/books/content?id=zjO4stY-tVcC&printsec=frontcover&img=1&zoom=6&imgtk=AFLRE71DPxeDFCxbu9jTsEUEOr82mdVx9g0GKLJSQy1o-0ypowW0vLGVf5lc9AzmkGZQrjNU2htLzCkMR1ijfYeN8xzYPFht5i7xyFCOCCg_RkwgZioey5GA3UCY_elfIU_P4GSLX6tq&source=gbs_api",
     },
   },
 
