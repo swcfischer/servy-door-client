@@ -18,11 +18,37 @@ import { Snackbar } from "@mui/material";
 import { buildQueryParams } from "../utils/queryFunctions";
 import AuthorModal from "../components/AuthorModal/AuthorModal";
 import { getGoogleBook } from "../utils/googleBooksApi";
-import YouTubeSearch from "../components/YouTubeSearch/YouTubeSearch";
+import { BsStars } from "react-icons/bs";
 
+// import YouTubeSearch from "../components/YouTubeSearch/YouTubeSearch";
 // import BookComments from "../components/BookComments/BookComments";
 
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
+
+const SummarizeBtn = styled.button`
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: ${(p) =>
+    p.isSummarized ? "rgba(0,0,0,0.45)" : "rgba(0,0,0,0.2)"};
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  color: #d4c066;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  svg {
+    font-size: 20px;
+  }
+`;
 
 const Container = styled.div`
   margin-bottom: 42px;
@@ -105,34 +131,52 @@ const Container = styled.div`
     font-weight: 100;
   }
 
-  .description {
-    max-width: 450px;
-    float: left;
-    font-size: 18px;
-    padding: 76px 24px 24px 24px;
-    box-sizing: border-box;
-    background: #d4aa01;
-    margin: 0;
-    border: 1px solid #1e1902;
-    border-radius: 3px;
+  .description-container {
+    position: relative;
 
-    &::-webkit-scrollbar {
-      width: 10px;
-      height: 10px;
+    .summarize-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 8px;
+      border-radius: 3px;
+      cursor: pointer;
+
+      svg {
+        font-size: 20px;
+      }
     }
 
-    &::-webkit-scrollbar-track {
-      background: #1e1e1e;
-    }
+    .description {
+      max-width: 450px;
+      float: left;
+      font-size: 18px;
+      padding: 76px 24px 24px 24px;
+      box-sizing: border-box;
+      background: #d4aa01;
+      margin: 0;
+      border: 1px solid #1e1902;
+      border-radius: 3px;
 
-    &::-webkit-scrollbar-thumb {
-      background-color: #555;
-      border-radius: 8px;
-      border: 2px solid #1e1e1e;
-    }
+      &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
 
-    &::-webkit-scrollbar-thumb:hover {
-      background-color: #666;
+      &::-webkit-scrollbar-track {
+        background: #1e1e1e;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #555;
+        border-radius: 8px;
+        border: 2px solid #1e1e1e;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: #666;
+      }
     }
   }
 
@@ -179,6 +223,56 @@ function Book(props) {
   // };
 
   const [state, setState] = useState({});
+  // Summary toggle state
+  const [isSummarized, setIsSummarized] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return localStorage.getItem("summarizeDescriptionGlobal") === "true";
+  });
+  const [summaryHtml, setSummaryHtml] = useState("");
+  const [isFetchingSummary, setIsFetchingSummary] = useState(false);
+
+  async function fetchSummary(originalHtml) {
+    if (!originalHtml || !user?.uuid) return;
+    setIsFetchingSummary(true);
+    try {
+      // Scaffolded endpoint: adjust when backend implements summarization
+      // Expected response shape: { summary: string }
+      const { data } = await axiosInstance.post(
+        `/books/summarize-description/${user.uuid}`,
+        {
+          googleVolumeId: state.id,
+          descriptionHtml: originalHtml,
+        }
+      );
+      const raw = data?.summary || "";
+      const safe = raw
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      setSummaryHtml(safe);
+    } catch (err) {
+      console.error("Summary fetch failed:", err);
+      // Fallback simple client-side sentence trim (only in browser)
+      if (typeof document !== "undefined") {
+        const temp = document.createElement("div");
+        temp.innerHTML = originalHtml;
+        const text = (temp.textContent || "").replace(/\s+/g, " ").trim();
+        const sentences = text
+          .match(/[^.!?]+[.!?]?/g)
+          ?.map((s) => s.trim()) || [text];
+        const first = sentences.slice(0, 3).join(" ");
+        const fallback = first + (sentences.length > 3 ? " ..." : "");
+        setSummaryHtml(
+          fallback
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+        );
+      }
+    } finally {
+      setIsFetchingSummary(false);
+    }
+  }
 
   useEffect(() => {
     async function fetchBook() {
@@ -245,6 +339,23 @@ function Book(props) {
       // * Fetch if bookmark, pass in id and userUuid
     }
   }, [user, id]);
+
+  // Trigger summary fetch when toggled on and not yet fetched
+  useEffect(() => {
+    if (isSummarized && !summaryHtml && state.volumeInfo?.description) {
+      fetchSummary(state.volumeInfo.description);
+    }
+  }, [isSummarized, summaryHtml, state.volumeInfo?.description]);
+
+  // Persist toggle value
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem(
+        "summarizeDescriptionGlobal",
+        isSummarized ? "true" : "false"
+      );
+    }
+  }, [isSummarized]);
 
   if (isLoading) {
     return (
@@ -539,12 +650,38 @@ function Book(props) {
           </div> */}
         </div>
         {state.volumeInfo.description && (
-          <p
-            dangerouslySetInnerHTML={{
-              __html: state.volumeInfo.description,
-            }}
-            className="description"
-          ></p>
+          <div className="description-container">
+            <SummarizeBtn
+              className="summarize-btn"
+              isSummarized={isSummarized}
+              aria-pressed={isSummarized}
+              title={
+                isSummarized ? "Show full description" : "Summarize description"
+              }
+              onClick={() => {
+                setIsSummarized((prev) => {
+                  const next = !prev;
+                  if (!next) {
+                    // Clear summary when turning off (optional)
+                    setSummaryHtml("");
+                  } else if (!summaryHtml) {
+                    fetchSummary(state.volumeInfo.description);
+                  }
+                  return next;
+                });
+              }}
+            >
+              {isFetchingSummary ? "..." : <BsStars />}
+            </SummarizeBtn>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: isSummarized
+                  ? summaryHtml || "Generating summary..."
+                  : state.volumeInfo.description,
+              }}
+              className="description"
+            ></p>
+          </div>
         )}
       </div>
 
