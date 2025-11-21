@@ -1,6 +1,92 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "RUqBEQAAQBAJ",
+    etag: "DP2yR8nt1k8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/RUqBEQAAQBAJ",
+    volumeInfo: {
+      title: "When Everyone Knows That Everyone Knows . . .",
+      subtitle:
+        "Common Knowledge and the Mysteries of Money, Power, and Everyday Life",
+      authors: ["Steven Pinker"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2025-09-23",
+      description:
+        "<b><b>From one of the world’s most celebrated intellectuals, a brilliantly insightful work that explains how we think about each other’s thoughts about each other’s thoughts, ad infinitum. It sounds impossible, but Steven Pinker shows that we do it all the time. This awareness, which we experience as something that is public or “out there,” is called <i>common knowledge</i>, and it has a momentous </b><b>impact on our social, political, and economic lives</b>.</b><br><br>Common knowledge is necessary for <i>coordination</i>, for making arbitrary but complementary choices like driving on the right, using paper currency, and coalescing behind a political leader or movement. It’s also necessary for <i>social </i>coordination: everything from rendezvousing at a time and place to speaking the same language to forming enduring relationships of friendship, romance, or authority. Humans have a sixth sense for common knowledge, and we create it with signals like laughter, tears, blushing, eye contact, and blunt speech.<br> <br>But people also go to great lengths to <i>avoid </i>common knowledge—to ensure that even if everyone knows something, they can’t know that everyone else knows they know it. And so we get rituals like benign hypocrisy, veiled bribes and threats, sexual innuendo, and pretending not to see the elephant in the room.<br> <br>Pinker shows how the hidden logic of common knowledge can make sense of many of life’s enigmas: financial bubbles and crashes, revolutions that come out of nowhere, the posturing and pretense of diplomacy, the eruption of social media shaming mobs and academic cancel culture, the awkwardness of a first date. Artists and humorists have long mined the intrigues of common knowledge, and Pinker liberally uses their novels, jokes, cartoons, films, and sitcom dialogues to illuminate social life’s tragedies and comedies. Along the way he answers questions like:<br> <ul> <li>Why do people hoard toilet paper at the first sign of an emergency?</li> <li>Why are Super Bowl ads filled with ads for crypto?</li> <li>Why, in American presidential primary voting, do citizens typically select the candidate they believe is preferred by <i>others</i> rather than their favorite?</li> <li>Why did Russian authorities arrest a protester who carried a blank sign?</li> <li>Why is it so hard for nervous lovers to say goodbye at the end of a phone call?</li> <li>Why does everyone agree that if we were completely honest all the time, life would be unbearable?</li> </ul> <br>Consistently riveting in explaining the paradoxes of human behavior, <i>When Everyone Knows That Everyone Knows…</i> invites us to understand the ways we try to get into each other’s heads and the harmonies, hypocrisies, and outrages that result.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1668011573" },
+        { type: "ISBN_13", identifier: "9781668011577" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 384,
+      printedPageCount: 384,
+      dimensions: {
+        height: "22.90 cm",
+        width: "15.20 cm",
+        thickness: "3.00 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "PSY031000",
+        "Psychology / Social Psychology",
+        "SCI075000",
+        "Science / Philosophy & Social Aspects",
+        "Social Science / Sociology / General",
+        "SOC026040",
+        "Social Science / Sociology / Social Theory",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.0.1.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72B4jD38pYMsRMXcbVS4v_MJFPOv34r9L3W6cCYgyzIbl_manXMhsN8Hvp4O_W53U5Cs6jcPjgcAmCW0DDe1Idmqt2Lgt8d-XgEtjjwOBeIn-xnjVyNj9U1CsDlmKj4J7NXtAUv&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Opwk-xdgEPXP5LZbK3wEkFJSL9XN9tP1iDmfVlNxU1Q8OpMnlo-IW1TG5gyXvg4NgvwOnnSsBIlGuOkOZX47slRQK17J7mI7l2OG-SdVb266cQEEuSCNpvGrUTVeDWNV8rCCT&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70Bp5wg8sOqYbCT0X953QUJw_mQsIJ83SxPPyXZE2VULNAdnDxQzYZvtcVa3UydJc6N1k3eUE9AlH9gAKzm6CccbNhpGOgnCJrveZ48Io0iLsjTg9ETG_xkY1jn_YdPyvh6xTFD&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72GxFR3PwAKy09WkVSQERxmOZ0vzOCVEIjWZilbTqsu_dYntDqXiItyrmUAP2RQ9w-Q8LB6mkok_E6jJsuyvlEfii3ICs_nm55fP7nk4jS-CR-Xe8vgX5-hQNTm55WnuOwtwqI5&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72xIebioFRUOS-l4ROsvpheJI5mfcuqyx2cvBIilGHIx1AIepeUakbX6QJCWSzI2X0KWC-EbE4xE0L6YLFY77LD059ToOS87C4vjjzTQrdD6mqFhZpPxc1OeZI1bV6k-LR5Ey0L&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73NFOqu6TtgrqYWukf-xqw-sCwDWUcsMszyU40OQ7prQA7wAwxAihDLZVTpNZ0xrxlhzDcVHJDoXf-c1rQSHUq2hHTa9n40Om9OnYEleMoF2B8A772Ey2XusuXUshDe7Qf2xQoW&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=RUqBEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=RUqBEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=RUqBEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=RUqBEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2076,
+      height: 2976,
+      image:
+        "http://books.google.com/books/publisher/content?id=RUqBEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73NFOqu6TtgrqYWukf-xqw-sCwDWUcsMszyU40OQ7prQA7wAwxAihDLZVTpNZ0xrxlhzDcVHJDoXf-c1rQSHUq2hHTa9n40Om9OnYEleMoF2B8A772Ey2XusuXUshDe7Qf2xQoW&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "7y_KDAAAQBAJ",
     etag: "4g5zCdz3oj0",
     selfLink: "https://www.googleapis.com/books/v1/volumes/7y_KDAAAQBAJ",
