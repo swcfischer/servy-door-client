@@ -134,6 +134,9 @@ const Container = styled.div`
   .description-container {
     position: relative;
 
+    width: max-content;
+    margin: 0 auto;
+
     .summarize-btn {
       position: absolute;
       top: 20px;
