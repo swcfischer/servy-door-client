@@ -1,6 +1,110 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "0PE8EQAAQBAJ",
+    etag: "uYINrhbOMpk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/0PE8EQAAQBAJ",
+    volumeInfo: {
+      title: "Team Intelligence",
+      subtitle: "How Brilliant Leaders Unlock Collective Genius",
+      authors: ["Jon Levy"],
+      publisher: "HarperCollins",
+      publishedDate: "2025-10-07",
+      description:
+        "<p>The New York Times bestselling author debunks the myths of what makes great leaders and effective teams, revealing the simple habits that help leaders unlock team intelligence.</p> <p>Ever wonder why some of our most effective leaders aren’t known for the skills we’ve been told are essential for great leadership? Would you describe Elon Musk or Steve Jobs as having empathy or humility? Of course not, and yet they’ve led teams that achieved extraordinary results. So, what leadership attributes, habits, and skills do cause teams to become more than the sum of their parts? Why does a team made of up superstars often underperform? What causes teams to work together effectively and produce high team intelligence?</p><p>For the past fifteen years behavioral scientist and New York Times bestselling author Jon Levy has gathered thousands of the most respected leaders from across industry—Nobel Laureates, Olympic team captains, astronauts who commanded the ISS, military leaders, and corporate CEOs—to find answers to these questions. In Team Intelligence, he unpacks the myths that hold leaders and their teams back and points out the paradox of success: focusing on creating teams that operate well is what makes an effective leader, but focusing purely on the leader does almost nothing for the team. In Team Intelligence, discover cutting-edge research, surprising stories, and the essential habits that unlock collective genius.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0063399598" },
+        { type: "ISBN_13", identifier: "9780063399594" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 256,
+      printedPageCount: 161,
+      printType: "BOOK",
+      categories: [
+        "Psychology / Social Psychology",
+        "Business & Economics / Motivational",
+        "Business & Economics / Decision-Making & Problem Solving",
+        "Business & Economics / Human Resources & Personnel Management",
+        "Business & Economics / Management",
+        "Business & Economics / Organizational Behavior",
+        "Business & Economics / Leadership",
+        "Business & Economics / Organizational Development",
+        "Business & Economics / Workplace Culture",
+        "Psychology / Industrial & Organizational Psychology",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.2.2.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72JPLG6J3X9hoIv6zNbADoJwsIOxAJCfhT8zq-2Cl6-ThNkDMU6fDjaegi7WL4fs6Xz8f_QxMn_t0hk2APr2zAeQPMp6f5NNOUGzDzcuqPD3wsEQZ87RFX7m1utnnrGj_TSwM6_&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72l53EJWqArTXBNZc20jYqiPXmwkgO3KXSYtyb6Ox797a_NfmAJeCBZnBUEuIiCBvg4VU_kK9xBF205_BuUIvhR-kyWFd5bSTsSOTgnZj1grLnXkPWnckkTnF8iHr3qIQtPr2rM&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71lffwuRHSOFr1lThfrI5aSHWlhvpAZRjBM00OQ2EnifQb_cO5LF9vHXqUUmyQ8ulJ0zyaV9zI6NGte_JpRqrD9o2cSndHc5r8yvV-bgEaexR-Yv1Mf41nex3tD39N-gQTuklIy&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE711tKd6XQAk5Zr7U8dV5gkX2HD9aZ9jCYBUfx6Dgc1D9FitgZOChzZLahnNi8H1fiqwpZgP8gn-XOuA7kaMgxptjfT9sIX_NXd2owXTh37UcroR_GgcyTKVbidEp-4AaC1J1xbr&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72sM2atDb9VnPbUXuu3IJ4tUZxLaQARVaHtTbODmt3Eb04DCs52vsXN7-l9Dx9d2s_Rgrmdb-fLXgBxpAmFAbqVcj0LjpiEgPFQk84GMCZh8DgrPmHEKSyCE5W5A4KD0iuxJpNw&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72CwXXe3Jt1l_Na2FRdb5XZcz0LsG5VjNSlqulzcy4gVyOP9relv7xQ4lk_H1PvteBST_4Cnb4aXAOEVNqGvdhk7AxgEJmQfbeCXQnncG7OqCLySPEvUEJkTI7LUKKDSrVOHLMm&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=0PE8EQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=0PE8EQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=0PE8EQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "1" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=0PE8EQAAQBAJ&rdid=book-0PE8EQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Team_Intelligence-sample-epub.acsm?id=0PE8EQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=0PE8EQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3264,
+      image:
+        "http://books.google.com/books/publisher/content?id=0PE8EQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72CwXXe3Jt1l_Na2FRdb5XZcz0LsG5VjNSlqulzcy4gVyOP9relv7xQ4lk_H1PvteBST_4Cnb4aXAOEVNqGvdhk7AxgEJmQfbeCXQnncG7OqCLySPEvUEJkTI7LUKKDSrVOHLMm&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "RUqBEQAAQBAJ",
     etag: "DP2yR8nt1k8",
     selfLink: "https://www.googleapis.com/books/v1/volumes/RUqBEQAAQBAJ",
