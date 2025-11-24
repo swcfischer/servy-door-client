@@ -105,71 +105,101 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
-    id: "wSBnEQAAQBAJ",
-    etag: "4icprPssyLY",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/wSBnEQAAQBAJ",
+    id: "DIBREQAAQBAJ",
+    etag: "zbM9sXoNnGY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/DIBREQAAQBAJ",
     volumeInfo: {
       title: "Poems & Prayers",
       authors: ["Matthew McConaughey"],
-      publisher: "Headline",
+      publisher: "Crown",
       publishedDate: "2025-09-16",
       description:
-        "<p><b>From the Academy Award-winning actor and #1 <i>New York Times</i> bestselling author of <i>Greenlights </i>comes an inspiring, faith-filled, and often hilarious collection of personal poetry and prayers about navigating the rodeo of life and chasing down the original dream, belief. </b><br><br><b><i>My prayers are my poems are my prayers.</i></b><br><br>I've always relied on logic to make sense of myself and the world.<br><br>A prescriptionist at heart, I've always looked to reason to find the rhyme, the practical to get to the mystical, the choreography to find the dance, the proof to get to the truth, and reality to get to the dream.<br><br>I've been finding that tougher to do lately. It's more than hard to know what to believe in; it's hard to believe.<br><br>But I don't want to quit believing, and I don't want to stop believing <i>in . . .</i> humanity, you, myself, our potential.<br><br>I think it's time for us to flip the script on what's historically been our means of making sense, and instead open our aperture to enchantment and look to faith, belief, and dreams for our reality.<br><br>Let's sing more than we might make sense, believe in more than the world can conclude, get more impressed with the wow instead of the how, let inspiration interrupt our appointments, dream our way to reality, serve some soul food to our hungry heads, put proof on the shelf for a season, and rhyme our way to reason.<br><br>Forget logic, certainty, owning, or making a start-up company of it; let's go beyond what we can merely imagine, and believe, in the poetry of life.</p>",
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • From the Academy Award–winning actor and author of <i>Greenlights </i>comes an inspiring, faith-filled, and often hilarious collection of personal poetry and prayers about navigating the rodeo of life and chasing down the original dream, belief. </b><br><br><b><i>My prayers are my poems are my prayers.</i></b><br><br>I’ve always relied on logic to make sense of myself and the world.<br><br>A prescriptionist at heart, I’ve always looked to reason to find the rhyme, the practical to get to the mystical, the choreography to find the dance, the proof to get to the truth, and reality to get to the dream.<br><br>I’ve been finding that tougher to do lately. It’s more than hard to know what to believe in; it’s hard to believe.<br><br>But I don’t want to quit believing, and I don’t want to stop believing <i>in . . .</i> humanity, you, myself, our potential.<br><br>I think it’s time for us to flip the script on what’s historically been our means of making sense, and instead open our aperture to enchantment and look to faith, belief, and dreams for our reality.<br><br>Let’s sing more than we might make sense, believe in more than the world can conclude, get more impressed with the wow instead of the how, let inspiration interrupt our appointments, dream our way to reality, serve some soul food to our hungry heads, put proof on the shelf for a season, and rhyme our way to reason.<br><br>Forget logic, certainty, owning, or making a start-up company of it; let’s go beyond what we can merely imagine, and believe, in the poetry of life.",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1035405555" },
-        { type: "ISBN_13", identifier: "9781035405558" },
+        { type: "ISBN_10", identifier: "1984862111" },
+        { type: "ISBN_13", identifier: "9781984862112" },
       ],
       readingModes: { text: true, image: false },
       pageCount: 208,
-      printedPageCount: 208,
+      printedPageCount: 209,
       printType: "BOOK",
       categories: [
-        "Biography & Autobiography / Personal Memoirs",
-        "Biography & Autobiography / Entertainment & Performing Arts",
-        "Performing Arts / Film / General",
+        "Poetry / Subjects & Themes / Motivational & Inspirational",
+        "Self-Help / Motivational & Inspirational",
+        "Biography & Autobiography / Rich & Famous",
       ],
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
+      allowAnonLogging: true,
+      contentVersion: "1.3.2.0.preview.2",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70mLTRIvWWfq6b1nEb02QdIKEvqjrw6vkHwEGM5YPm5meqZhhTPKpUFiPEeC31zmSqGBDYLR4gSJCgv0yIDgeMYgVDoLO9lSqkZJ670gJf6pOZGUvXnZOYC5OCzKMfRse59Rko-&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70CHqekppNO4bYrr7oE3yWlTFZE6mOa4NWdryU3kIhD6Fv_O8TRqHN6MYY4wAdDRGIFqm9sHZFs2L61NJwzViwwHqnfVFRTH01F0iBz2X6TNrFFkgwJ3Q7pGOWR6IAxz9rj_I22&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70h_hTsilLD20v7XFiGNKlSDf59SFkAD3SsD-BIW4mRvr75w1TBaO5XivOjzdj0sPVJHBc-peJUy9R8y0AoQlSUXlBjUtmMSrd9B-dWVHm56apG-veSLqcDU7J7Y_75JucFUOZM&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE714b0kBm7e8ubq-7Eu0slOMHvwTK6bWiz074hatiitJVgju494-tOCFsMyMFvaT8Fw-GiGU1WhAxpDJO0hqPbottwonRxgK9osdPQOhS8_7ZOLjxPtlK3IUpkRpcG8UE_yo6fy-&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72yihc0EvIMSce2YXRKh0ejHY21yPs6kFaZ4sAfCzvxK-mHNNl2d1SGG9uYryEAkC-em7E7wlO6otoRceDHfnhPwVSqOVqEML0MADeIv5nV_IDfOg9FB2ETNlSlVpGMNW0qZrHP&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70aUVOY4pHyJ_vXcXuZ6ZqofMgkCC0f6V0KuSTBbziRLoUYzUnbHPGEXanWAdIlwHWT4slV-H_AWJYP19Abw7DByYCTsyGYj5OEdmVtoglZsdEYsBSb4GvXbbg9hTxEGMYCSHCy&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73toCDRaDSrHfs5joYr5mLCaB4HVAgzMU5aKWEVroc2eONDbRx8g1rTZvhIlvZX-HEk5m5dHe6l2xK-r6R8sUcb_fLLXvjj0Bar-ILns8d0ytjehApXNqR8RqNK37Jm4dIn837n&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73mGvhVKbcJ5U1ZbWMju5iW1eJwIr75Wo6foGseILixSQ2bEgLOdmZTJEWBjUk5XiXK7_G1t_8icOA2gfd-e5zVOeB1IXO6Mvz0baZWNv1mqRduQbe2fmDksmCE7qNU6iRGTbQV&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=wSBnEQAAQBAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=DIBREQAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=wSBnEQAAQBAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=DIBREQAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=wSBnEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=DIBREQAAQBAJ",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=DIBREQAAQBAJ&rdid=book-DIBREQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
+      viewability: "PARTIAL",
+      embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Poems_Prayers-sample-epub.acsm?id=DIBREQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=wSBnEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
+        "http://play.google.com/books/reader?id=DIBREQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 128,
-      height: 193,
+      width: 1652,
+      height: 2478,
       image:
-        "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70h_hTsilLD20v7XFiGNKlSDf59SFkAD3SsD-BIW4mRvr75w1TBaO5XivOjzdj0sPVJHBc-peJUy9R8y0AoQlSUXlBjUtmMSrd9B-dWVHm56apG-veSLqcDU7J7Y_75JucFUOZM&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73mGvhVKbcJ5U1ZbWMju5iW1eJwIr75Wo6foGseILixSQ2bEgLOdmZTJEWBjUk5XiXK7_G1t_8icOA2gfd-e5zVOeB1IXO6Mvz0baZWNv1mqRduQbe2fmDksmCE7qNU6iRGTbQV&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "RUqBEQAAQBAJ",
