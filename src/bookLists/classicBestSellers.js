@@ -105,6 +105,73 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "wSBnEQAAQBAJ",
+    etag: "4icprPssyLY",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/wSBnEQAAQBAJ",
+    volumeInfo: {
+      title: "Poems & Prayers",
+      authors: ["Matthew McConaughey"],
+      publisher: "Headline",
+      publishedDate: "2025-09-16",
+      description:
+        "<p><b>From the Academy Award-winning actor and #1 <i>New York Times</i> bestselling author of <i>Greenlights </i>comes an inspiring, faith-filled, and often hilarious collection of personal poetry and prayers about navigating the rodeo of life and chasing down the original dream, belief. </b><br><br><b><i>My prayers are my poems are my prayers.</i></b><br><br>I've always relied on logic to make sense of myself and the world.<br><br>A prescriptionist at heart, I've always looked to reason to find the rhyme, the practical to get to the mystical, the choreography to find the dance, the proof to get to the truth, and reality to get to the dream.<br><br>I've been finding that tougher to do lately. It's more than hard to know what to believe in; it's hard to believe.<br><br>But I don't want to quit believing, and I don't want to stop believing <i>in . . .</i> humanity, you, myself, our potential.<br><br>I think it's time for us to flip the script on what's historically been our means of making sense, and instead open our aperture to enchantment and look to faith, belief, and dreams for our reality.<br><br>Let's sing more than we might make sense, believe in more than the world can conclude, get more impressed with the wow instead of the how, let inspiration interrupt our appointments, dream our way to reality, serve some soul food to our hungry heads, put proof on the shelf for a season, and rhyme our way to reason.<br><br>Forget logic, certainty, owning, or making a start-up company of it; let's go beyond what we can merely imagine, and believe, in the poetry of life.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1035405555" },
+        { type: "ISBN_13", identifier: "9781035405558" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 208,
+      printedPageCount: 208,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Personal Memoirs",
+        "Biography & Autobiography / Entertainment & Performing Arts",
+        "Performing Arts / Film / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70mLTRIvWWfq6b1nEb02QdIKEvqjrw6vkHwEGM5YPm5meqZhhTPKpUFiPEeC31zmSqGBDYLR4gSJCgv0yIDgeMYgVDoLO9lSqkZJ670gJf6pOZGUvXnZOYC5OCzKMfRse59Rko-&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70h_hTsilLD20v7XFiGNKlSDf59SFkAD3SsD-BIW4mRvr75w1TBaO5XivOjzdj0sPVJHBc-peJUy9R8y0AoQlSUXlBjUtmMSrd9B-dWVHm56apG-veSLqcDU7J7Y_75JucFUOZM&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=wSBnEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=wSBnEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=wSBnEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=wSBnEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 193,
+      image:
+        "http://books.google.com/books/publisher/content?id=wSBnEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70h_hTsilLD20v7XFiGNKlSDf59SFkAD3SsD-BIW4mRvr75w1TBaO5XivOjzdj0sPVJHBc-peJUy9R8y0AoQlSUXlBjUtmMSrd9B-dWVHm56apG-veSLqcDU7J7Y_75JucFUOZM&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "RUqBEQAAQBAJ",
     etag: "DP2yR8nt1k8",
     selfLink: "https://www.googleapis.com/books/v1/volumes/RUqBEQAAQBAJ",
