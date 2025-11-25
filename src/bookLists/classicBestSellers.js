@@ -199,6 +199,114 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=DIBREQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73mGvhVKbcJ5U1ZbWMju5iW1eJwIr75Wo6foGseILixSQ2bEgLOdmZTJEWBjUk5XiXK7_G1t_8icOA2gfd-e5zVOeB1IXO6Mvz0baZWNv1mqRduQbe2fmDksmCE7qNU6iRGTbQV&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "XwwSEQAAQBAJ",
+    etag: "87Y4hCugmoQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/XwwSEQAAQBAJ",
+    volumeInfo: {
+      title:
+        "Reskilling and Upskilling: The Insights You Need from Harvard Business Review",
+      authors: [
+        "Harvard Business Review",
+        "Peter Cappelli",
+        "Ginni Rometty",
+        "Boris Groysberg",
+        "Raffaella Sadun",
+      ],
+      publisher: "Harvard Business Press",
+      publishedDate: "2025-03-04",
+      description:
+        "<p><b>Reskilling is the new imperative in the war for talent.</b></p><p>As the pace of technological change accelerates, the demand for new skills is increasing. And as technologies like AI take on new tasks and jobs, smart organizations aren't waiting for their new workforces to appear. They are investing in reskilling the workers. They're adopting a skills-based approach to hiring and developing talent. And they're leveraging digital learning tech to upskill their employees dynamically and efficiently. What new approaches should your organization be taking to build the workforce you need—now and tomorrow?</p><p><i>Reskilling and Upskilling: The Insights You Need from Harvard Business Review</i> brings you today's most essential thinking on rebuilding and retraining your workforce. It explains how to launch the right skilling initiatives, how to measure their impact, and how to prepare your company to compete in the new skills economy.</p><p><b>Business is changing. Will you adapt or be left behind?</b></p><p>Get up to speed and deepen your understanding of the topics that are shaping your company's future with the <b>Insights You Need from Harvard Business Review</b> series. Featuring HBR's smartest thinking on fast-moving issues—blockchain, cybersecurity, AI, and more—each book provides the foundational introduction and practical case studies your organization needs to compete today and collects the best research, interviews, and analysis to get it ready for tomorrow.</p><p>You can't afford to ignore how these issues will transform the landscape of business and society. The Insights You Need series will help you grasp these critical ideas—and prepare you and your company for the future.</p>",
+      industryIdentifiers: [{ type: "ISBN_13", identifier: "9798892791014" }],
+      readingModes: { text: true, image: true },
+      pageCount: 224,
+      printedPageCount: 97,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Training",
+        "Business & Economics / Human Resources & Personnel Management",
+        "Business & Economics / Skills",
+        "Business & Economics / Organizational Development",
+        "Business & Economics / Office Management",
+        "Business & Economics / Organizational Behavior",
+        "Education / Vocational & Technical",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.2.2.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72oMfjgK72yV4EQaTq6ccWcFVNQM5xTsh5mpmdTgnXETd4hqLaP9UgUEcASJBM84078n02pyszh_-hZzLElDnE9O8Zdz6PlEnQLrJajnPVcCrBGt4Un51ehpgqYEQeVpSds5ByN&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE726ahtWbx-U1Rw9TMFSzpKXCJU7HWnNT2s_qrDCTTFUXk2PlgQQfMSvspB6dWaujOnRm7c7Hv_hSGr_ZSNDWLG8JHZyNuwxNPGoUacleDWLG3zCqR6bp3pJkeClXWzt4ypoAtCq&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72jP0Sx6IRSMjbpgJdWMc4eI14Y6bfo1URWQs_6QAZSQY7nE7qK-nKCWbtSYJ1_2ltM4L6BXTd1U2g_90uFrIngmy54oAmEsn0VqIQ-aOCcY7wJ1RG4v-vmF3RPGM4YZEQY3tWq&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73_scIZGtwQ0WGA5zblmMGmniX0n3I66ntfNTBofsR8lXkvaI8Na3GR2oX8DLp0Xo-pocRiB7YECxaMRU5S0EHPkvfttmrmczcZASMrJEoSm3R8cn2Q9DDnSSKXqWA_jJzt0nWV&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72wVFyuYCyLnvrzmWLWrrDk0cxbRZmZ0Qafav8UpQzMNRcUU700OfZohkecUOceknWvZCr87hgD2wJ0DzFbAJCNpiyhD6PGEnLc5l3ZyfLpYdGFwygjdpgE_NuNgvGrcuIwLwdA&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71WXKOvFNV2Vz_j2QjtGLGY6leUE-yZiazturFAyfxEnbn4Zv1WOLO-2nZ-NqLsNnrbO9VBdFY4OiSDEhHfjz3vu-C3tpK8CsjE6umgafK6KuoF1jlSp8fbH61aEqEtTByN6DKQ&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=XwwSEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=XwwSEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=XwwSEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 22.99, currencyCode: "USD" },
+      retailPrice: { amount: 13.79, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=XwwSEQAAQBAJ&rdid=book-XwwSEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 22990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 13790000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Reskilling_and_Upskilling_The_Insights_Y-sample-epub.acsm?id=XwwSEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Reskilling_and_Upskilling_The_Insights_Y-sample-pdf.acsm?id=XwwSEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=XwwSEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3243,
+      image:
+        "http://books.google.com/books/publisher/content?id=XwwSEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71WXKOvFNV2Vz_j2QjtGLGY6leUE-yZiazturFAyfxEnbn4Zv1WOLO-2nZ-NqLsNnrbO9VBdFY4OiSDEhHfjz3vu-C3tpK8CsjE6umgafK6KuoF1jlSp8fbH61aEqEtTByN6DKQ&source=gbs_api",
+    },
+  },
 
   {
     kind: "books#volume",
