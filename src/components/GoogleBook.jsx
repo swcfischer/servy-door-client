@@ -1,7 +1,8 @@
 import React from "react";
+import { FaGooglePlay } from "react-icons/fa";
 
 function GoogleBook(props) {
-  const { title, author, label = "Here" } = props;
+  const { title, author, icon: Component } = props;
 
   if (!title && !author) {
     return null;
@@ -11,12 +12,9 @@ function GoogleBook(props) {
 
   return (
     <>
-      <dt>News</dt>
-      <dd>
-        <a href={searchUrl} target="_blank" rel="noopener noreferrer">
-          {label}
-        </a>
-      </dd>
+      <a href={searchUrl} target="_blank" rel="noopener noreferrer">
+        <Component />
+      </a>
     </>
   );
 }

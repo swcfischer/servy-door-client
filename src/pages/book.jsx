@@ -19,6 +19,11 @@ import { buildQueryParams } from "../utils/queryFunctions";
 import AuthorModal from "../components/AuthorModal/AuthorModal";
 import { getGoogleBook } from "../utils/googleBooksApi";
 import { BsStars } from "react-icons/bs";
+import { TfiYoutube } from "react-icons/tfi";
+import { FcKindle } from "react-icons/fc";
+import { FaGoogle } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
+import { FaAmazon } from "react-icons/fa";
 
 // import YouTubeSearch from "../components/YouTubeSearch/YouTubeSearch";
 // import BookComments from "../components/BookComments/BookComments";
@@ -129,6 +134,24 @@ const Container = styled.div`
   h1 {
     font-style: italic;
     font-weight: 100;
+  }
+
+  .icon-links-container {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 12px;
+      max-width: 70%;
+      justify-content: space-between;
+
+      li {
+        svg {
+          fill: #222;
+          font-size: 26px;
+        }
+      }
+    }
   }
 
   .description-container {
@@ -573,6 +596,47 @@ function Book(props) {
       <div className="content-container" style={{ display: "flex" }}>
         <div>
           <ExpandableImage state={state} />
+
+          {/* Icons YT, etc */}
+          <div className="icon-links-container">
+            <ul>
+              <li>
+                <a
+                  href={`https://www.youtube.com/results?search_query=${bookTitle}+${bookAuthor}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <TfiYoutube />
+                </a>
+              </li>
+              <li>
+                <GoogleBook
+                  title={state.volumeInfo.title}
+                  author={state.volumeInfo?.authors?.join(", ")}
+                  icon={FaGoogle}
+                />
+              </li>
+
+              <li>
+                <a
+                  href={state.volumeInfo.previewLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <FaGooglePlay />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`https://www.amazon.com/s/?k=${bookTitle}+${bookAuthor}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaAmazon />
+                </a>
+              </li>
+            </ul>
+          </div>
           <dl style={{ maxWidth: "210px" }}>
             {state.volumeInfo.authors && (
               <>
@@ -604,41 +668,6 @@ function Book(props) {
             )}
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
-            <dt>Google Books</dt>
-            <dd>
-              <a
-                href={state.volumeInfo.previewLink}
-                rel="noreferrer"
-                target="_blank"
-              >
-                Here
-              </a>
-            </dd>
-            <dt>Amazon</dt>
-            <dd>
-              <a
-                href={`https://www.amazon.com/s/?k=${bookTitle}+${bookAuthor}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Here
-              </a>
-            </dd>
-
-            <GoogleBook
-              title={state.volumeInfo.title}
-              author={state.volumeInfo?.authors?.join(", ")}
-            />
-            <dt>YouTube</dt>
-            <dd>
-              <a
-                href={`https://www.youtube.com/results?search_query=${bookTitle}+${bookAuthor}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Here
-              </a>
-            </dd>
           </dl>
           {/* <div>
             {commentState === READING_COMMENTS ? (
