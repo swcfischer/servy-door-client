@@ -1,6 +1,105 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "oQiTEQAAQBAJ",
+    etag: "QxJzby8f5fM",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/oQiTEQAAQBAJ",
+    volumeInfo: {
+      title: "Don't Feed the Lion",
+      authors: ["Bianna Golodryga", "Ms. Yonit Levi"],
+      publisher: "Arcadia Publishing",
+      publishedDate: "2025-10-28",
+      description:
+        "<p> <b>With unexpected twists and compelling characters, <i>Don't Feed the Lion</i> explores how young people grapple with antisemitism, prejudice, allyship, and the courage to speak up.</b> </p> <p>\". . . A story of grounded optimism . . . and of proud resilience in the face of hatred, through family courage and personal agency.\"–Isaac Herzog, President of Israel</p> <p>\"This book is so needed right now.\"–Gal Gadot, actress and antisemitism activist</p> <p>\"This book . . . gives kids the tools to recognize and stand up to hate.\" —Jake Tapper, <i>CNN </i>Anchor and <i>New York Times</i> Best-Selling Author</p> <p>Annie and Theo Kaplan have a family ritual: every Friday night they celebrate Shabbat with their energetic, immigrant grandparents. But this Shabbat, which happens to fall on Annie's eleventh birthday, isn't like the others. Thirteen-year-old Theo's soccer hero—Wes Mitchell—has posted an antisemitic message that quickly goes viral, leaving his parents disgusted, his sister enraged, and Theo himself clobbered by a torrent of confusion, anger, sadness, and a deep desire to just ignore it. </p> <p>Antisemitism quickly affects the entire Kaplan family in various ways. Theo's teammates think Mitchell's comments were no big deal, and Theo notices an uptick in anti-Jewish commentary around school. A rare act of rebellion draws Annie into the fray, and a new classmate shows that ignoring pain is no way to get through it.</p> <p> <i>Don't Feed the Lion</i> asks readers of all backgrounds: What will you do when it's your turn to choose?</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "154029935X" },
+        { type: "ISBN_13", identifier: "9781540299352" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 256,
+      printedPageCount: 186,
+      printType: "BOOK",
+      categories: [
+        "Juvenile Fiction / Social Themes / Prejudice & Racism",
+        "Juvenile Fiction / Religious / Jewish",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.1.1.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71fHyP8GGtBsoHxowAS6dm3dyfHjkcHVKY9XDQU7gskhzr5pHbovk0uXh4iA59qvD8cb2GO1VTVRYTtOSnm3LpH8MHpPspslBVupZtaSs3jJT06LTSHPI2t9YIX0Mbzj9DCmuhj&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70A-aiuBiMK9BTPM8MJkqOz1uOvkfctyNJs3s9Dqef7KWK2-GKwszb4eS0WFhP40z9HZym0dASL1E5FlZjJ5yWSjD-jyDE3Z-Xn_J-ZBwOcSXUzqaAxcEClU9sIGTVpbkXq_EFL&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72bUB-lSE5Ft2nU--2FcljetJATopL_yDVKWdAbVpe3BKpSinujU6yTb-g7IQU6VhXnzaEGvkPkvgmM2sdzmv7Kkcl_yrw7O3JHu-sHVo6m_gky5LF7w8cXO2rNJtqOKEtUsIM7&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73EyjmsDCLDMsZwqE4LP9RV5jMD6GbKGRAuJqjHCVveguumQFMYq30pC4hGmin96IHdZU4U_XqRRuu3ndxPy5OCKDDhwKbE9bOFJs0Zc_l401IACwPSPvzF_39d8RHNkfIh1A5O&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70CcxICHqrzu9IiZJ4t5xVbc5aZaaUulppKI-rSagXcKmaZ2X9nUrxRQBY3ApBVdYnh0S6-wSV5qKzf3fZ2LVEUKOfO1WWwUaRah8_lDusN1t7V7moEp5q1vDH6vJ0kaF0SjCkR&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70NMiodTsWoq4bm9OUYO4RpDi8VP-yzltgVjxLcN3akmZ2eO58-7a3FWCVUVsjcLEdffDszLaOMvkvMjqLjjLiR0j_nDkBWCVAe7_ewS0mlPWccbB0wzi3hKpZJoK1PvesqyKf3&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=oQiTEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=oQiTEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=oQiTEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "5" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=oQiTEQAAQBAJ&rdid=book-oQiTEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Don_t_Feed_the_Lion-sample-epub.acsm?id=oQiTEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Don_t_Feed_the_Lion-sample-pdf.acsm?id=oQiTEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=oQiTEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2616,
+      image:
+        "http://books.google.com/books/publisher/content?id=oQiTEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70NMiodTsWoq4bm9OUYO4RpDi8VP-yzltgVjxLcN3akmZ2eO58-7a3FWCVUVsjcLEdffDszLaOMvkvMjqLjjLiR0j_nDkBWCVAe7_ewS0mlPWccbB0wzi3hKpZJoK1PvesqyKf3&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "0PE8EQAAQBAJ",
     etag: "uYINrhbOMpk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/0PE8EQAAQBAJ",
