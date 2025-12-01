@@ -588,7 +588,8 @@ function Book(props) {
       <h1
         style={{
           fontStyle: "italic",
-          fontWeight: "100",
+          fontWeight: "bold",
+          textAlign: "center",
         }}
       >
         {state.volumeInfo.title}
