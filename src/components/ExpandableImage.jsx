@@ -3,6 +3,8 @@ import styled from "@emotion/styled";
 import Modal from "react-modal";
 
 const Container = styled.div`
+  display: flex;
+  justify-content: center;
   .image-button {
     background: transparent;
     border: none;

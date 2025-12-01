@@ -140,7 +140,7 @@ const Container = styled.div`
     ul {
       display: flex;
       list-style: none;
-      margin: 0;
+      margin: 0 auto;
       padding: 12px;
       max-width: 70%;
       justify-content: space-between;
@@ -638,7 +638,7 @@ function Book(props) {
               </li>
             </ul>
           </div>
-          <dl style={{ maxWidth: "210px" }}>
+          <dl style={{ maxWidth: "210px", margin: "0 auto" }}>
             {state.volumeInfo.authors && (
               <>
                 <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
