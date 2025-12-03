@@ -1,6 +1,104 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "xn0sEAAAQBAJ",
+    etag: "iEvygoHkBf0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/xn0sEAAAQBAJ",
+    volumeInfo: {
+      title: "The Loop",
+      subtitle:
+        "How Technology Is Creating a World Without Choices and How to Fight Back",
+      authors: ["Jacob Ward"],
+      publisher: "Grand Central Publishing",
+      publishedDate: "2022-01-25",
+      description:
+        "<p><b>This eye-opening narrative journey into the rapidly changing world of artificial intelligence reveals the dangerous ways AI is exploiting the unconscious habits of our minds, and the real threat it poses to humanity: \"The best book I have ever read about AI\" (<i>New York Times</i> bestselling author Roger McNamee).</b><br><br> Artificial intelligence is going to change the world as we know it. But the real danger isn't some robot that's going to enslave us: It's our own brain. Our brains are constantly making decisions using shortcuts, biases, and hidden processes—and we're using those same techniques to create technology that makes choices for us. In <i>The Loop</i>, award-winning science journalist Jacob Ward reveals how we are poised to build all of our worst instincts into our AIs, creating a narrow loop where each generation has fewer, predetermined, and even dangerous choices.<br><br> Taking us on a world tour of the ongoing, real-world experiment of artificial intelligence, <i>The Loop </i>illuminates the dangers of writing dangerous human habits into our machines. From a biometric surveillance state in India that tracks the movements of over a billion people, to a social media control system in China that punishes deviant friendships, to the risky multiple-choice simplicity of automated military action, Ward travels the world speaking with top experts confronting the perils of their research. Each stop reveals how the most obvious patterns in our behavior—patterns an algorithm will use to make decisions about what's best for us—are not the ones we want to perpetuate.<br><br> Just as politics, marketing, and finance have all exploited the weaknesses of our human programming, artificial intelligence is poised to use the patterns of our lives to manipulate us. <i>The Loop</i> is call to look at ourselves more clearly—our most creative ideas, our most destructive impulses, the ways we help and hurt one another-so we can put only the best parts of ourselves into the thinking machines we create. </p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0316487228" },
+        { type: "ISBN_13", identifier: "9780316487221" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 304,
+      printedPageCount: 292,
+      printType: "BOOK",
+      categories: [
+        "Computers / Artificial Intelligence / General",
+        "Science / Life Sciences / Neuroscience",
+        "Psychology / Movements / Behaviorism",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.6.6.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72bqmRiuapF4kQscWSOqhbPMF9h079kDQdOsBWaE0fyuC1NNo439Kg2xeHyv-_yptuIJ6g1prjT_gcBEiowPlxEQqgHiWfMdIhTqWQU9ycopC4hQigIxwXYFUwP-ZkYR9Tc7qDP&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72RPhsN5RnY_g38UE7QOZ3bE5CMwzRc8R0o9XyfH8bqERqyuyMssN_HydChpqdCgFqSO0uCgEbXg97WUCyRx_7GyMe61BMLtF53HzCy27SaduGFWd3zrBH6s2pvIpe-IvyEO2Kg&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71BOtmyreUu8sNRcvQXzofR3z0jPyb-IrP8vz61ArWg-QjJz0tnCeLjPPrbRUZXoxbAXqFQeSRH7r5qH3SyWQza_fAq0QDVSa8xzrCOBTuvpa473ypodjqpvzO8Cv29wVhYIR7E&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73WcYWLOKfjRqDP_QsV3vr4FYZ5kohS3SbZ9OJYVlTPrvLyHkGNpupBjnwR5Far51EvopIJ0O1r_A9sBPbG56_DGkDanVTHXvo8lR-7c3b9kPV3MoIm9qNbQMzDaLSA2RcPUk54&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70L41GOe4JlE1UK0Uuly8ZXK-pDYQ_B_xq6O_ZYLCsfi9Azd4aAbQ9vobwfikigVft9-johWON8E5TPIMZEoHNe80h-ax68TSmzEfjOIINBs74cisxFfjMyZZGCcddWSXogyRtA&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71td-kPxr-cvYrNuOnocR_PTxEd29xpWjGjq4JY42VbacFCxUmObKabnHN6NV9HLopbIX6mv1itcDhJRz_FU9kdmSDMCR9m6ReBzt97BqQGhcVq51io2PZ59QwuOQJGTzVe260N&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=xn0sEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=xn0sEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=xn0sEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "6" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 11.99, currencyCode: "USD" },
+      retailPrice: { amount: 11.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=xn0sEAAAQBAJ&rdid=book-xn0sEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 11990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Loop-sample-epub.acsm?id=xn0sEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=xn0sEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2632,
+      image:
+        "http://books.google.com/books/publisher/content?id=xn0sEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71td-kPxr-cvYrNuOnocR_PTxEd29xpWjGjq4JY42VbacFCxUmObKabnHN6NV9HLopbIX6mv1itcDhJRz_FU9kdmSDMCR9m6ReBzt97BqQGhcVq51io2PZ59QwuOQJGTzVe260N&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "oQiTEQAAQBAJ",
     etag: "QxJzby8f5fM",
     selfLink: "https://www.googleapis.com/books/v1/volumes/oQiTEQAAQBAJ",
