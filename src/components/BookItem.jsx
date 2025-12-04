@@ -155,7 +155,7 @@ function ImageCard(props) {
       sx={{
         objectFit: "contain",
         pt: 2,
-        width: "100px",
+        width: "136px",
         // height: "150px",
         color: "#fafafa",
         borderRadius: "3px",
