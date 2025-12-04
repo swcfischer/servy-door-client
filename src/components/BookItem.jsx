@@ -1,7 +1,6 @@
 import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
 import React, { useEffect, useState } from "react";
-import { getImageLink } from "../utils/image";
 
 const cardStyles = {
   display: "flex",
@@ -31,7 +30,7 @@ function BookItem(props) {
       >
         <Card sx={cardStyles}>
           <ImageCard
-            volumeInfo={volumeInfo}
+            imageUrl={volumeInfo.imageLinks?.thumbnail}
             title={volumeInfo.title || undefined}
           />
           <CardContent sx={{ paddingTop: 0 }}>
@@ -44,11 +43,9 @@ function BookItem(props) {
                 fontWeight: "bold",
               }}
               className="hover-underline"
-              title={
-                isOver(volumeInfo.title, 40) ? volumeInfo.title : undefined
-              }
+              title={volumeInfo.title || undefined}
             >
-              {handleTitleLength(volumeInfo.title)}
+              {volumeInfo.title}
             </Typography>
             <br />
             <Typography
@@ -111,43 +108,29 @@ function isOver(text = "", length) {
   return text.length > length;
 }
 
-function handleTitleLength(text = "") {
-  if (isOver(text, 40)) {
-    return text.slice(0, 40) + "...";
-  }
-  return text;
-}
+// Removed ellipsis truncation to show full titles
 
 function ImageCard(props) {
-  const { volumeInfo, title } = props;
-  const [bestImg, setBestImg] = useState(null);
+  const { imageUrl, title } = props;
+  const [image, setImage] = useState(null);
 
   useEffect(() => {
-    let isMounted = true;
-    async function pickBest() {
-      try {
-        const result = await getImageLink(volumeInfo?.imageLinks);
-        if (isMounted) setBestImg(result);
-      } catch (e) {
-        if (isMounted) setBestImg(null);
-      }
-    }
-    pickBest();
-    return () => {
-      isMounted = false;
-    };
-  }, [volumeInfo?.imageLinks]);
+    const img = new Image();
+    img.src = imageUrl;
+    img.onload = () => setImage(true);
+    img.onerror = () => setImage(false);
+  }, [imageUrl]);
 
-  const src = bestImg?.image
-    ? bestImg.image.replace(/^http:\/\//i, "https://")
-    : undefined;
+  if (!image === null) {
+    return null;
+  }
 
-  if (!src) {
+  if (!image) {
     return (
       <div
         style={{
-          minWidth: "200px",
-          height: "300px",
+          minWidth: "100px",
+          height: "150px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -159,7 +142,7 @@ function ImageCard(props) {
           border: "solid 1px #999",
         }}
       >
-        No Image
+        Broken Image
       </div>
     );
   }
@@ -167,16 +150,17 @@ function ImageCard(props) {
   return (
     <CardMedia
       component="img"
-      image={src}
+      image={imageUrl}
       alt={title}
       sx={{
         objectFit: "contain",
         pt: 2,
-        width: "200px",
-        height: "auto",
+        width: "100px",
+        // height: "150px",
         color: "#fafafa",
         borderRadius: "3px",
         border: "solid 1px #999",
+        height: "min-content",
         padding: 0,
       }}
     />

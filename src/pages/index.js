@@ -31,6 +31,11 @@ const EmotionContainer = styled.div`
     gap: 20px;
   }
 
+  /* Use two columns when in search mode */
+  .search-book-list .book-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   input {
     font-family: inherit;
   }
@@ -181,7 +186,9 @@ export default function Index(props) {
   };
 
   return (
-    <EmotionContainer>
+    <EmotionContainer
+      className={wasSearchDone(books, q, params) ? "search-book-list" : ""}
+    >
       <Container maxWidth="md" sx={{ padding: "0 !important" }}>
         <Box sx={{ my: 3 }}>
           <form
