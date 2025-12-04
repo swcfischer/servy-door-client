@@ -1,6 +1,102 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "Mx4OEQAAQBAJ",
+    etag: "BdmF7+QDI2o",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Mx4OEQAAQBAJ",
+    volumeInfo: {
+      title: "The Buffalo Hunter Hunter",
+      authors: ["Stephen Graham Jones"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2025-03-18",
+      description:
+        "<b>A Barack Obama Summer Read</b><br> <br><b>A <i>Time</i>, <i>The Washington Post</i>, and <i>Publishers Weekly</i> Best of the Year</b><br> <br> <b><i>Kirkus Reviews</i> Best Historical Fiction</b><br> <br> <b>The <i>New York Times </i>bestseller and “horror masterpiece” (NPR) from Stephen Graham Jones—the master of modern horror—is a chilling historical horror novel tracing the life of a vampire who haunts the fields of the Blackfeet reservation looking for justice.</b><br> <br> <b>“Jones has written his<i> Interview with the Indigenous Vampire. </i>A landmark of horror and historical fiction alike, perhaps the closest thing we have to horror’s <i>Moby-Dick</i>.” —<i>Vulture</i></b><br> <br> <b>“Inventive and spine-tingling…a master class in voice. Queasy, uneasy, <i>The Buffalo Hunter Hunter</i> plays with the interplay between religion and historical guilt, identity and appetite.” —<i>The Washington Post</i></b><br><br>A diary, written in 1912 by a Lutheran pastor is discovered within a wall. What it unveils is a slow massacre, a chain of events that go back to 217 Blackfeet dead in the snow. Told in transcribed interviews by a Blackfeet named Good Stab, who shares the narrative of his peculiar life over a series of confessional visits. This is an American Indian revenge story written by one of the new masters of horror, Stephen Graham Jones.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1668075105" },
+        { type: "ISBN_13", identifier: "9781668075104" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 448,
+      printedPageCount: 448,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Horror / General",
+        "Fiction / Fantasy / Historical",
+        "Fiction / Indigenous / Horror",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.3.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71wqE3S978kfNggOP7d4qssUvEgqkd6INjzRRws9JR6zL9NndFFjyudxX-YfDmHfZc-uVX1HL4d_AZLeAJXhngPLbvZRQbVtbnk6YgtkulPG8Xdk61kAadAJVH3oLl2YohDiZG-&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73cWEZqUsWN3l-Wn-fTsQdpxNak-fyh9MdWStCYFxZQfHmlhfXRSL5FcKoGRLiIdaCJ5fyEDfZXlW3Sj0bhmmg1Zt4O29jdPT8hB_3PUOnMds1aJGx2bqq9ejtDsSRFRuJ_MmYe&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70s6WB2txnwqpLfmRO_Qou4JeRToHOlXBwliI60kAUAeNVnmG2RMwpZo3WqjpJspNe8tstIyeuvtzopZQHWPDx8sQA7ByrTTLXBq3J5cHlrpJJFhsSNXAT6k978xxRJaVtsYRxj&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72CCxJ-4BjOeNfqQSvd54Mdz0YzVMFEkM750Um-KI_Isz-jujoVAf0Lo3MA6uYognfyhTIuhRrl9Fo0W9IApLNBwssyqaF9_mmYJyZguPUCdQlXbK279a9gXut3PoSv5RtyYhe9&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71Nz2hDlvdGC2K-V9pQC63RXkGlUUhwVAx04LHvLllnSv5dChlMAn-MLuHycUAjA3meqQnVqV7DY3WPdHtQSOTkwRMtTFMR3_5r00Pph8d7M_uo_c3zJ2oiUW8fQe2OPyRBekdg&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70KkiNYys_ty_yJE3YfbyUK5gGhFg2DDrDGvHnwgfIsX8NNcChdZnmP6X-2Cn-iT4tCdlMCQo7jg66kNLgWeHNNLsyY1S6QO9Vevu3n0AEWaERQSLocPVVWO28-YqhzzZSjX3Qe&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Mx4OEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Mx4OEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Mx4OEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=Mx4OEQAAQBAJ&rdid=book-Mx4OEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Buffalo_Hunter_Hunter-sample-epub.acsm?id=Mx4OEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Mx4OEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2076,
+      height: 2976,
+      image:
+        "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70KkiNYys_ty_yJE3YfbyUK5gGhFg2DDrDGvHnwgfIsX8NNcChdZnmP6X-2Cn-iT4tCdlMCQo7jg66kNLgWeHNNLsyY1S6QO9Vevu3n0AEWaERQSLocPVVWO28-YqhzzZSjX3Qe&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "oQiTEQAAQBAJ",
     etag: "QxJzby8f5fM",
     selfLink: "https://www.googleapis.com/books/v1/volumes/oQiTEQAAQBAJ",
