@@ -38,7 +38,7 @@ function BestselllerItem(props) {
               sx={{
                 fontStyle: "italic",
                 lineHeight: 1.2,
-                fontSize: "1.1rem",
+                fontSize: "1.5rem",
                 fontWeight: "bold",
               }}
               className="hover-underline"
@@ -51,6 +51,7 @@ function BestselllerItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
+              sx={{ fontSize: "1.15rem" }}
               // title={volumeInfo.authors?.join(", ")}
             >
               {volumeInfo.authors?.length > 2 ? (
@@ -64,6 +65,7 @@ function BestselllerItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
+              sx={{ fontSize: "1.1rem" }}
               // title={volumeInfo.publisher}
             >
               {volumeInfo.publisher}
@@ -72,6 +74,7 @@ function BestselllerItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
+              sx={{ fontSize: "1.1rem" }}
             >
               {formatDate(volumeInfo.publishedDate)}
             </Typography>
@@ -142,7 +145,7 @@ function ImageCard(props) {
           background: "#c6c6c6",
           fontWeight: "bold",
           fontStyle: "italic",
-          fontSize: "12px",
+          fontSize: "16px",
           borderRadius: "3px",
           border: "solid 1px #999",
         }}
