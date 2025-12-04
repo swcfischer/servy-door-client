@@ -1,6 +1,7 @@
 import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
 import React, { useEffect, useState } from "react";
+import { getImageLink } from "../utils/image";
 
 const cardStyles = {
   display: "flex",
@@ -30,7 +31,7 @@ function BookItem(props) {
       >
         <Card sx={cardStyles}>
           <ImageCard
-            imageUrl={volumeInfo.imageLinks?.thumbnail}
+            volumeInfo={volumeInfo}
             title={volumeInfo.title || undefined}
           />
           <CardContent sx={{ paddingTop: 0 }}>
@@ -118,26 +119,35 @@ function handleTitleLength(text = "") {
 }
 
 function ImageCard(props) {
-  const { imageUrl, title } = props;
-  const [image, setImage] = useState(null);
+  const { volumeInfo, title } = props;
+  const [bestImg, setBestImg] = useState(null);
 
   useEffect(() => {
-    const img = new Image();
-    img.src = imageUrl;
-    img.onload = () => setImage(true);
-    img.onerror = () => setImage(false);
-  }, [imageUrl]);
+    let isMounted = true;
+    async function pickBest() {
+      try {
+        const result = await getImageLink(volumeInfo?.imageLinks);
+        if (isMounted) setBestImg(result);
+      } catch (e) {
+        if (isMounted) setBestImg(null);
+      }
+    }
+    pickBest();
+    return () => {
+      isMounted = false;
+    };
+  }, [volumeInfo?.imageLinks]);
 
-  if (!image === null) {
-    return null;
-  }
+  const src = bestImg?.image
+    ? bestImg.image.replace(/^http:\/\//i, "https://")
+    : undefined;
 
-  if (!image) {
+  if (!src) {
     return (
       <div
         style={{
-          minWidth: "100px",
-          height: "150px",
+          minWidth: "200px",
+          height: "300px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -149,7 +159,7 @@ function ImageCard(props) {
           border: "solid 1px #999",
         }}
       >
-        Broken Image
+        No Image
       </div>
     );
   }
@@ -157,17 +167,16 @@ function ImageCard(props) {
   return (
     <CardMedia
       component="img"
-      image={imageUrl}
+      image={src}
       alt={title}
       sx={{
         objectFit: "contain",
         pt: 2,
-        width: "100px",
-        // height: "150px",
+        width: "200px",
+        height: "auto",
         color: "#fafafa",
         borderRadius: "3px",
         border: "solid 1px #999",
-        height: "min-content",
         padding: 0,
       }}
     />

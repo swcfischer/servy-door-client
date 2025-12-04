@@ -24,7 +24,7 @@ const Container = styled.div`
 
   .books-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 16px;
     margin-bottom: 64px;
 

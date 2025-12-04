@@ -1,6 +1,7 @@
 import { Card, CardContent, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { getImageLink } from "../utils/image";
 
 const cardStyles = {
   display: "flex",
@@ -8,7 +9,7 @@ const cardStyles = {
   background: "transparent",
 };
 
-function BookItem(props) {
+function BestselllerItem(props) {
   const { volumeInfo, id, to } = props;
 
   return (
@@ -29,10 +30,7 @@ function BookItem(props) {
         }}
       >
         <Card sx={cardStyles}>
-          <ImageCard
-            imageUrl={volumeInfo.imageLinks?.thumbnail}
-            title={volumeInfo.title}
-          />
+          <ImageCard volumeInfo={volumeInfo} title={volumeInfo.title} />
 
           <CardContent sx={{ paddingTop: 0 }}>
             <Typography
@@ -84,7 +82,7 @@ function BookItem(props) {
   );
 }
 
-export default BookItem;
+export default BestselllerItem;
 
 function formatDate(dateString) {
   if (!dateString) return "Unknown";
@@ -109,28 +107,64 @@ function handleTitleLength(text = "") {
 }
 
 function ImageCard(props) {
-  const { imageUrl, title } = props;
+  const { volumeInfo, title } = props;
+  const [bestImg, setBestImg] = useState(null);
 
-  // Ensure imageUrl uses https
-  const secureImageUrl = imageUrl
-    ? imageUrl.replace(/^http:\/\//i, "https://")
+  useEffect(() => {
+    let isMounted = true;
+    async function pickBest() {
+      try {
+        const result = await getImageLink(volumeInfo?.imageLinks);
+        if (isMounted) setBestImg(result);
+      } catch (e) {
+        if (isMounted) setBestImg(null);
+      }
+    }
+    pickBest();
+    return () => {
+      isMounted = false;
+    };
+  }, [volumeInfo?.imageLinks]);
+
+  const src = bestImg?.image
+    ? bestImg.image.replace(/^http:\/\//i, "https://")
     : undefined;
+
+  if (!src) {
+    return (
+      <div
+        style={{
+          minWidth: "200px",
+          height: "300px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "#c6c6c6",
+          fontWeight: "bold",
+          fontStyle: "italic",
+          fontSize: "12px",
+          borderRadius: "3px",
+          border: "solid 1px #999",
+        }}
+      >
+        No Image
+      </div>
+    );
+  }
 
   return (
     <img
-      src={secureImageUrl}
+      src={src}
       alt={title}
       style={{
         objectFit: "contain",
         paddingTop: "16px",
-        width: "102px",
-        // height: "154px",
-        color: "#fafafa",
+        width: "200px",
+        height: "auto",
+        display: "block",
         borderRadius: "3px",
-        border: "1px solid #000",
-        height: "min-content",
+        border: "1px solid #999",
         padding: 0,
-        filter: "grayscale(.4)",
       }}
     />
   );
