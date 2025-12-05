@@ -143,15 +143,16 @@ function ImageCard(props) {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          background: "#c6c6c6",
-          fontWeight: "bold",
-          fontStyle: "italic",
-          fontSize: "16px",
+          // background: "#c6c6c6",
+          background: "transparent",
+          // fontWeight: "bold",
+          // fontStyle: "italic",
+          // fontSize: "16px",
           borderRadius: "3px",
-          border: "solid 1px #999",
+          // border: "solid 1px #999",
         }}
       >
-        No Image
+        {/* No Image */}
       </div>
     );
   }
