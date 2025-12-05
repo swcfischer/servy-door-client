@@ -43,14 +43,6 @@ const classicBestsellerList = [
           "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72nrRFxu8NmH1cN6h1fph79E_5_H9XBJe-P7oiEqHeOwWj5fCRE7ilD-SwxfyXDd-ZY8WFNV7lcpfb95GO_qVLPwPF4VCJjBNwqxp4lcK6kS9M1IxsibPihf_Y2yc87IPHUmAL3&source=gbs_api",
         thumbnail:
           "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70aenvb044OrVYqZ9qZSo5PF_4dh39-L1QSdtnwiA8FvMzqXrCvOtc1TFMzgBMlWShFUVbshg-MFP_YmkSGNqd35NfyJMYMrwIk0IRUXL6sOjRtmal0Z0LfkfDPFHUga9RUuikt&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70m3Bx9AcEjZCzlMGkoQzsf3gZs-3geYxIcdWtHID0bE1Nowehi0rGYoO3S3ZFTYMyQS_k-kEjrVIDB9y1t962KSsruObDKZCjkBe62mf80i2VOWt5iYkoUvysUz2GXN3ORo53O&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73vIoy5VLnnDVQqal7A1D2ILdAGwyhZ-WAOYkpB7qACcRW1zvCRw9YDuahBEsymn4aGG8cg_HAvjoxYs5a6sl6HzLcy7Ld0ECd1rofTUo6i1pqz7Zl-MU6-pMNp3oncL32RUfuV&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72sbEfMQB8VYdv8zc8HMPLqUTY_HOBSp1DVnpThkGm2cKRW4fiKtsP34dahpsTcSl_5WBxDITmfzcAY_pNTkiXwWaAXQ9wZxprOHhZHsvNodmSbkRC4b5zAuXQpDqq4QVTp3hhE&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE734aHy5y1XpREhH34LOZ3YW5TJ87lRzmAhpVKsOIl8rH2OOAK06msiHwRBv-RmrRBS6DQmtdSKeRYiHM1DOc64WXlnl_rI3drX2-O_q7oNxGMhkydXJBKWhZ1HL4cMrXH2LxvAM&source=gbs_api",
       },
       language: "en",
       previewLink:
@@ -139,14 +131,6 @@ const classicBestsellerList = [
           "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71wqE3S978kfNggOP7d4qssUvEgqkd6INjzRRws9JR6zL9NndFFjyudxX-YfDmHfZc-uVX1HL4d_AZLeAJXhngPLbvZRQbVtbnk6YgtkulPG8Xdk61kAadAJVH3oLl2YohDiZG-&source=gbs_api",
         thumbnail:
           "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73cWEZqUsWN3l-Wn-fTsQdpxNak-fyh9MdWStCYFxZQfHmlhfXRSL5FcKoGRLiIdaCJ5fyEDfZXlW3Sj0bhmmg1Zt4O29jdPT8hB_3PUOnMds1aJGx2bqq9ejtDsSRFRuJ_MmYe&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70s6WB2txnwqpLfmRO_Qou4JeRToHOlXBwliI60kAUAeNVnmG2RMwpZo3WqjpJspNe8tstIyeuvtzopZQHWPDx8sQA7ByrTTLXBq3J5cHlrpJJFhsSNXAT6k978xxRJaVtsYRxj&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72CCxJ-4BjOeNfqQSvd54Mdz0YzVMFEkM750Um-KI_Isz-jujoVAf0Lo3MA6uYognfyhTIuhRrl9Fo0W9IApLNBwssyqaF9_mmYJyZguPUCdQlXbK279a9gXut3PoSv5RtyYhe9&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71Nz2hDlvdGC2K-V9pQC63RXkGlUUhwVAx04LHvLllnSv5dChlMAn-MLuHycUAjA3meqQnVqV7DY3WPdHtQSOTkwRMtTFMR3_5r00Pph8d7M_uo_c3zJ2oiUW8fQe2OPyRBekdg&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=Mx4OEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70KkiNYys_ty_yJE3YfbyUK5gGhFg2DDrDGvHnwgfIsX8NNcChdZnmP6X-2Cn-iT4tCdlMCQo7jg66kNLgWeHNNLsyY1S6QO9Vevu3n0AEWaERQSLocPVVWO28-YqhzzZSjX3Qe&source=gbs_api",
       },
       language: "en",
       previewLink:
