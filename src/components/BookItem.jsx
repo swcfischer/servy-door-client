@@ -52,17 +52,13 @@ function BookItem(props) {
               variant="body2"
               color="textSecondary"
               className="hover-underline"
-              title={
-                volumeInfo.authors?.length > 2
-                  ? volumeInfo.authors?.join(", ")
-                  : undefined
-              }
+              title={volumeInfo.authors?.join(", ") || undefined}
             >
-              {volumeInfo.authors?.length > 2 ? (
-                <>{volumeInfo.authors?.slice(0, 2).join(", ")}</>
-              ) : (
-                volumeInfo.authors?.join(", ")
-              )}
+              {volumeInfo.authors?.map((author) => (
+                <span key={author} style={{ display: "block" }}>
+                  {author}
+                </span>
+              ))}
             </Typography>
             ---
             <Typography

@@ -54,11 +54,11 @@ function BestselllerItem(props) {
               sx={{ fontSize: "1.15rem" }}
               // title={volumeInfo.authors?.join(", ")}
             >
-              {volumeInfo.authors?.length > 2 ? (
-                <>{volumeInfo.authors?.slice(0, 2).join(", ")}</>
-              ) : (
-                volumeInfo.authors?.join(", ")
-              )}
+              {volumeInfo.authors?.map((author) => (
+                <span key={author} style={{ display: "block" }}>
+                  {author}
+                </span>
+              ))}
             </Typography>
             ---
             <Typography
