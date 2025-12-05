@@ -164,7 +164,7 @@ function ImageCard(props) {
         objectFit: "contain",
         paddingTop: "16px",
         width: "200px",
-        height: "auto",
+        height: "min-content",
         display: "block",
         borderRadius: "3px",
         border: "1px solid #999",
