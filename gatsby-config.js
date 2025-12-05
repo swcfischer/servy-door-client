@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `servydoor-app`,
         short_name: `ServyDoor`,
         start_url: `/`,
         background_color: `#222`,
