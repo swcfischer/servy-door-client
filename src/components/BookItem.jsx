@@ -54,9 +54,10 @@ function BookItem(props) {
               className="hover-underline"
               title={volumeInfo.authors?.join(", ") || undefined}
             >
-              {volumeInfo.authors?.map((author) => (
-                <span key={author} style={{ display: "block" }}>
+              {volumeInfo.authors?.map((author, idx) => (
+                <span key={`${author}-${idx}`} style={{ display: "block" }}>
                   {author}
+                  {idx < (volumeInfo.authors?.length ?? 0) - 1 ? "," : ""}
                 </span>
               ))}
             </Typography>

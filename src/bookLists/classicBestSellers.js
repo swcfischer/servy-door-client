@@ -1,6 +1,109 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "EEtCEQAAQBAJ",
+    etag: "Un/TmVwHytk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/EEtCEQAAQBAJ",
+    volumeInfo: {
+      title: "A CEO for All Seasons",
+      subtitle: "Mastering the Cycles of Leadership",
+      authors: [
+        "Carolyn Dewar",
+        "Scott Keller",
+        "Vikram Malhotra",
+        "Kurt Strovink",
+      ],
+      publisher: "Simon and Schuster",
+      publishedDate: "2025-10-07",
+      description:
+        "<b><b>Instant National Bestseller!</b><br> <br><b><b>From leading global management consulting firm McKinsey & Company and the minds behind the <i>New York Times</i> bestseller <i>CEO Excellence</i> comes a compact, insight-packed guide to navigating the distinct phases of leadership that every CEO must pass through on their way to mastery.</b></b></b><br><br>In the high-stakes world of corporate leadership, becoming a Fortune 500 CEO is an Everest-like ascent—with only the savviest managing to avoid falling off the mountain. In <i>A CEO for All Seasons</i>,<i> </i>you’ll find an essential climbing route that will take you through every stage. Featured in this tip-dense guide is wisdom from some of the world’s most iconic leaders, including Dell Technologies’ Michael Dell, Merck’s Ken Frazier, Nasdaq’s Adena Friedman, Morgan Stanley’s James Gorman, Blackstone’s Steve Schwarzman, ASML’s Peter Wennink, and Chevron’s Mike Wirth.<br> <br>Unique in applying a number of sophisticated metrics to isolate the world’s top 200 CEOs, reduce them to a representative sample, and then reap their wisdom, the McKinsey team, in <i>A CEO for All Seasons</i>, spotlights the specific stage-based hurdles that CEOs face. From preparing for the role to starting strong to sustaining momentum to ensuring a lasting legacy, the book leaves no segment of the journey unmapped. Along the way, it offers proven strategies for maintaining forward progress and, crucially, alerts readers to common blind spots that can sabotage success, as revealed by a detailed survey of thousands of executives.<br> <br>Whether you’re an aspiring leader or a new-to-the-job CEO—or even a board member wanting to better steward your company’s performance—this is the compact, hands-on guide you’ve needed. Its compendium of pressure-tested tips is a must-have game changer for leaders at all levels.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1668098369" },
+        { type: "ISBN_13", identifier: "9781668098363" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 224,
+      printedPageCount: 224,
+      dimensions: { height: "22.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Leadership",
+        "Business & Economics / Personal Success",
+        "Business & Economics / Management",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72nrRFxu8NmH1cN6h1fph79E_5_H9XBJe-P7oiEqHeOwWj5fCRE7ilD-SwxfyXDd-ZY8WFNV7lcpfb95GO_qVLPwPF4VCJjBNwqxp4lcK6kS9M1IxsibPihf_Y2yc87IPHUmAL3&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70aenvb044OrVYqZ9qZSo5PF_4dh39-L1QSdtnwiA8FvMzqXrCvOtc1TFMzgBMlWShFUVbshg-MFP_YmkSGNqd35NfyJMYMrwIk0IRUXL6sOjRtmal0Z0LfkfDPFHUga9RUuikt&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70m3Bx9AcEjZCzlMGkoQzsf3gZs-3geYxIcdWtHID0bE1Nowehi0rGYoO3S3ZFTYMyQS_k-kEjrVIDB9y1t962KSsruObDKZCjkBe62mf80i2VOWt5iYkoUvysUz2GXN3ORo53O&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73vIoy5VLnnDVQqal7A1D2ILdAGwyhZ-WAOYkpB7qACcRW1zvCRw9YDuahBEsymn4aGG8cg_HAvjoxYs5a6sl6HzLcy7Ld0ECd1rofTUo6i1pqz7Zl-MU6-pMNp3oncL32RUfuV&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72sbEfMQB8VYdv8zc8HMPLqUTY_HOBSp1DVnpThkGm2cKRW4fiKtsP34dahpsTcSl_5WBxDITmfzcAY_pNTkiXwWaAXQ9wZxprOHhZHsvNodmSbkRC4b5zAuXQpDqq4QVTp3hhE&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE734aHy5y1XpREhH34LOZ3YW5TJ87lRzmAhpVKsOIl8rH2OOAK06msiHwRBv-RmrRBS6DQmtdSKeRYiHM1DOc64WXlnl_rI3drX2-O_q7oNxGMhkydXJBKWhZ1HL4cMrXH2LxvAM&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=EEtCEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=EEtCEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=EEtCEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.99, currencyCode: "USD" },
+      retailPrice: { amount: 14.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=EEtCEQAAQBAJ&rdid=book-EEtCEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/A_CEO_for_All_Seasons-sample-epub.acsm?id=EEtCEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=EEtCEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1928,
+      height: 2792,
+      image:
+        "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE734aHy5y1XpREhH34LOZ3YW5TJ87lRzmAhpVKsOIl8rH2OOAK06msiHwRBv-RmrRBS6DQmtdSKeRYiHM1DOc64WXlnl_rI3drX2-O_q7oNxGMhkydXJBKWhZ1HL4cMrXH2LxvAM&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "Mx4OEQAAQBAJ",
     etag: "BdmF7+QDI2o",
     selfLink: "https://www.googleapis.com/books/v1/volumes/Mx4OEQAAQBAJ",
