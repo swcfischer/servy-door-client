@@ -20,7 +20,6 @@ import AuthorModal from "../components/AuthorModal/AuthorModal";
 import { getGoogleBook } from "../utils/googleBooksApi";
 import { BsStars } from "react-icons/bs";
 import { TfiYoutube } from "react-icons/tfi";
-import { FcKindle } from "react-icons/fc";
 import { FaGoogle } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAmazon } from "react-icons/fa";
@@ -137,9 +136,11 @@ const Container = styled.div`
   }
 
   .icon-links-container {
+    width: 100%;
     ul {
       display: flex;
       list-style: none;
+      margin: 0 auto;
       margin: 0;
       padding: 12px;
       max-width: 70%;
@@ -207,6 +208,15 @@ const Container = styled.div`
   }
 
   @media (max-width: 500px) {
+    button.image-button {
+      margin: 0;
+      margin-bottom: 32px;
+    }
+    .icon-links-container {
+      ul {
+        margin: 0 auto;
+      }
+    }
     .content-container {
       flex-direction: column;
 
@@ -638,7 +648,7 @@ function Book(props) {
               </li>
             </ul>
           </div>
-          <dl style={{ maxWidth: "210px" }}>
+          <dl style={{ maxWidth: "210px", margin: "24px auto" }}>
             {state.volumeInfo.authors && (
               <>
                 <dt>Author{state.volumeInfo.authors?.length > 1 && "s"} </dt>
