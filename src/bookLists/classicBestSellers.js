@@ -86,6 +86,104 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "VxVqEAAAQBAJ",
+    etag: "gN3sTAZW+m4",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/VxVqEAAAQBAJ",
+    volumeInfo: {
+      title: "Bibi",
+      subtitle: "My Story",
+      authors: ["Benjamin Netanyahu"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2022-10-18",
+      description:
+        "<b>In Benjamin “Bibi” Netanyahu’s “compelling” (<i>The Economist) </i>and “fascinating” (<i>The Wall Street Journal</i>) <i>New York Times</i> bestselling autobiography, the prime minister of Israel tells the story of his family, his path to leadership, and his unceasing commitment to defending his country and securing its future.</b><br><br>From their earliest days, Bibi and his close-knit brothers, Yoni and Iddo, were instilled with purpose. Born in the wake of the Holocaust at the dawn of Israel’s independence and raised in a family with a prominent Zionist history, they understood that the Jewish state was a hard-won and still precarious gift. All three studied in American high schools—where they learned to appreciate the United States—before returning to their cherished homeland.<br> <br>The brothers joined an elite special forces outfit of the Israeli Defense Forces known as “the Unit.” At twenty-two, Bibi was wounded while leading his team in the rescue of hostages from a hijacked plane. Four years later, in 1976, Yoni was killed in Entebbe, Uganda, while leading his men in one of the most daring hostage-rescue missions in modern times. Yoni became a legend; Bibi felt he would never recover from his grief. Yet, inspired by Yoni’s legacy and guided by the wisdom of his visionary historian father, Bibi thrust himself into the international struggle against terrorism, ultimately becoming the longest-serving prime minister in Israel’s history—an honor he further cemented by winning reelection in 2022.<br> <br>In this memoir Bibi weaves together his gripping personal story with the dramatic history of Israel and the Jewish people. Through a host of vivid anecdotes, he narrates his own evolution from soldier to statesman, while providing a unique perspective on leadership, the fraught geopolitics of the Middle East, and his successful efforts to liberate Israel’s economy, which helped turn it into a global powerhouse of technological innovation.<br> <br>Netanyahu gives colorful, detailed, and revealing accounts of his often turbulent relationships and negotiations with Presidents Clinton, Obama, and Trump. With eye-opening candor, he delves into the back channels of high diplomacy—including his struggle against the radical forces that threaten Israel and the world at large, and the decisive events that led to Israel’s groundbreaking 2020 peace agreements with four Arab states.<br> <br>Offering an unflinching account of a life, a family, and a nation, Netanyahu writes from the heart and embraces controversy head-on. Steely and funny, high-tempo and full of verve, this autobiography will stand as a defining testament to the value of political conviction and personal courage.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1668008467" },
+        { type: "ISBN_13", identifier: "9781668008461" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 736,
+      printedPageCount: 677,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Personal Memoirs",
+        "Biography & Autobiography / Presidents & Heads of State",
+        "Biography & Autobiography / Jewish",
+        "Biography & Autobiography / Historical",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "3.13.11.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71SmWe2sav76q328MfyRzWPBB7Dk7orY97DZA-I9ILqMiTPxub7PahndF57_qF7qibZyOgS4bIIbnrxWyFm2oq4O3JZGt7bFvAiCNrooJLVOgRazyydLN92fWdGfOfAFMYc_eM4&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73q_yUAQF-aiE-EUAfP4ippzsO2dn1z-vSORHqA9kIGq8KNpcyOICv21iLWzcpnSC2gCprQOHJHmTGNH_vg7a-dgoN1JD1LUGmjUAf665SBh6Ws_1tAssjNVcBotdv2_oQCmHPY&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71otOGwYHLmJwdpgkBkuyf3cbf8U3Mx-Rem_hCWf3pP6p7-1EQGjV9cBzfPRB7xOEG4Vp-GT2bH98sz7HhhTxbeRMz1aycS7XNJ4fqz9zv3x5cI1sLeGLHoc7cqt1wIExFmmdy8&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72ORyIJabADiYFzUOXOifxSksGLjGtd9kit_z9g9Txb6LCy5-9Cp8QFsSyl07ssCX6IP3y2enUX303rgb4qzQg-Es1BJGOVexV-_ZqeKEj7Be5oWsQvK0RGCerg01FAamcoqqBa&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71vBSbLmTOydQz-HtHbavIodjkwKi3Z1b9lJHbSj3wvFhYJTKToR5PsPZGpEuXT4ba1ElLWlgsJMRnPcMG8T9i2A_T23EMpp7cu4z0tWERVTX1o1lDj1enc8-mCagzbhbhpWH8V&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73_DUnr3bPPkxc_P3RppXfyTv-8OZuNlCRLC3fTU7sNRbbHOjFCmxo6Ds5GZF2xCHUuC9BlaVO4as6sS_zqsJCBykZhWhDC8P1nab7c65IxqBaJb9AMUNYaUdvWBuDe-IjQ4qZj&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=VxVqEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=VxVqEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=VxVqEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "16" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=VxVqEAAAQBAJ&rdid=book-VxVqEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Bibi-sample-epub.acsm?id=VxVqEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=VxVqEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 3222,
+      image:
+        "http://books.google.com/books/publisher/content?id=VxVqEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73_DUnr3bPPkxc_P3RppXfyTv-8OZuNlCRLC3fTU7sNRbbHOjFCmxo6Ds5GZF2xCHUuC9BlaVO4as6sS_zqsJCBykZhWhDC8P1nab7c65IxqBaJb9AMUNYaUdvWBuDe-IjQ4qZj&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "EEtCEQAAQBAJ",
     etag: "Un/TmVwHytk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/EEtCEQAAQBAJ",
