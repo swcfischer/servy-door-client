@@ -1,5 +1,4 @@
 const classicBestsellerList = [
-
   {
     kind: "books#volume",
     id: "RjBOEQAAQBAJ",
@@ -85,7 +84,106 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=RjBOEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70btdaw1HGJwuVaHwp4WB1ggNMtJL_BhEcuj8Z6lwFEAEcxwuvDg-K729vd6lCFVUTpLc0kizQwbeSymb0JZ1G7_39gf86S3AxVWd7I-_GCRw0DKVrFPDGEMQZySmg0_t-yNm6z&source=gbs_api",
     },
   },
-  {"kind":"books#volume","id":"OzkzEAAAQBAJ","etag":"Tsq3xdjbYgE","selfLink":"https://www.googleapis.com/books/v1/volumes/OzkzEAAAQBAJ","volumeInfo":{"title":"Kotlin in Action","authors":["Dmitry Jemerov","Svetlana Isakova"],"publisher":"Simon and Schuster","publishedDate":"2017-02-03","description":"<b>Summary</b><br><br><i>Kotlin in Action</i> guides experienced Java developers from the language basics of Kotlin all the way through building applications to run on the JVM and Android devices. Foreword by Andrey Breslav, Lead Designer of Kotlin.<br><br>Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.<br><br><b>About the Technology</b><br><br>Developers want to get work done - and the less hassle, the better. Coding with Kotlin means less hassle. The Kotlin programming language offers an expressive syntax, a strong intuitive type system, and great tooling support along with seamless interoperability with existing Java code, libraries, and frameworks. Kotlin can be compiled to Java bytecode, so you can use it everywhere Java is used, including Android. And with an effi cient compiler and a small standard library, Kotlin imposes virtually no runtime overhead.<br><br><b>About the Book</b><br><br><i>Kotlin in Action</i> teaches you to use the Kotlin language for production-quality applications. Written for experienced Java developers, this example-rich book goes further than most language books, covering interesting topics like building DSLs with natural language syntax. The authors are core Kotlin developers, so you can trust that even the gnarly details are dead accurate.<br><br><b>What's Inside</b><br><br><ul><li>Functional programming on the JVM</li><li>Writing clean and idiomatic code</li><li>Combining Kotlin and Java</li><li>Domain-specific languages</li></ul><br><b>About the Reader</b><br><br>This book is for experienced Java developers.<br><br><b>About the Author</b><br><br><b>Dmitry Jemerov</b> and <b>Svetlana Isakova</b> are core Kotlin developers at JetBrains.<br><br><b>Table of Contents</b><br><br><ol>PART 1 - INTRODUCING KOTLIN<li>Kotlin: what and why</li><li>Kotlin basics</li><li>Defining and calling functions</li><li>Classes, objects, and interfaces</li><li>Programming with lambdas</li><li>The Kotlin type system</li>PART 2 - EMBRACING KOTLIN<li>Operator overloading and other conventions</li><li>Higher-order functions: lambdas as parameters and return values</li><li>Generics</li><li>Annotations and reflection</li><li>DSL construction </li></ol>","industryIdentifiers":[{"type":"ISBN_10","identifier":"1638353697"},{"type":"ISBN_13","identifier":"9781638353690"}],"readingModes":{"text":true,"image":false},"pageCount":360,"printedPageCount":554,"printType":"BOOK","categories":["Computers / Languages / Java","Computers / General","Computers / Programming / General","Computers / Programming / Mobile Devices","Computers / Internet / General","Computers / Internet / Web Programming","Computers / Distributed Systems / Client-Server Computing"],"maturityRating":"NOT_MATURE","allowAnonLogging":true,"contentVersion":"0.1.1.0.preview.2","panelizationSummary":{"containsEpubBubbles":false,"containsImageBubbles":false},"imageLinks":{"smallThumbnail":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73dD3MAhqWnMq9u_B0NDs-Cozi4QYCZ2W_k923J1T95iOBdHhkXu5JjOi4GX6BqjEf3l8AGx1CYzPLHkNz8F7vAEEL1WR9_3ecoMcs6WCcmkDevL22r-NaSTD6rLjCqfUCnSjct&source=gbs_api","thumbnail":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73h5HgFTXFQNHBnxoLKdQZDod8BsWgiGDzX9GMl9WN1RwxhK5vtcGuIGhS6E77rhEpE_uTVZJVaozhdqpCpxOKveGbkIYVGAOQiIPaSUAQWlZz_deWHBH4xLgdSlLTQY6zKHuiI&source=gbs_api","small":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70l6mVyus0tE60oyZFtUn0sViEecFScJhjCwCtru8b0u9P78TVVOurHYCcqDy34r2feP4oM4tiPt1QVbCi93j_hdnj3mSKP-iIR0vlU8JoiGMzEpgSdtfuAnF7abtC9iFEtVxka&source=gbs_api","medium":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72NNrHLPMnk58id2uFatIqN9nhrLSGaN9xo2d8rpLmGcATX_nWME9OuBYCd0h5Cw9cjR9HAUX_NKxzPd1lmFFGAp7fSXU10KM6kZUHv3drHN3LB6UZvYKMgKeKr8oBrBXGrJzZW&source=gbs_api","large":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72oNOFHolh3N5RVx3v3mvGh2Nm_SW4wXld7mwt0zE5zPzebkk6ZZlVNQhuFIxDmYnsn4ZzbPIFNpUtgt1y8sVdsYNmxOZN6b7jrUs-TndPiITHBrzImwdENoYsTguXaUBnUJM1E&source=gbs_api","extraLarge":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72R1XN7KCQG1cAUSks6UWU6wWJCWLOCuakOL2teLEXEXZ4TOisjySaBHZkH1CdhAWfkJVuuPgEZRFoAh_lFeOU-NCMvHlgyFey__d39AVQV_lTKXUOfjVpFhAPJcGRp_fIpH8oo&source=gbs_api"},"language":"en","previewLink":"http://books.google.com/books?id=OzkzEAAAQBAJ&hl=&source=gbs_api","infoLink":"https://play.google.com/store/books/details?id=OzkzEAAAQBAJ&source=gbs_api","canonicalVolumeLink":"https://play.google.com/store/books/details?id=OzkzEAAAQBAJ"},"layerInfo":{"layers":[{"layerId":"geo","volumeAnnotationsVersion":"2"}]},"saleInfo":{"country":"US","saleability":"FOR_SALE","isEbook":true,"listPrice":{"amount":34.99,"currencyCode":"USD"},"retailPrice":{"amount":34.99,"currencyCode":"USD"},"buyLink":"https://play.google.com/store/books/details?id=OzkzEAAAQBAJ&rdid=book-OzkzEAAAQBAJ&rdot=1&source=gbs_api","offers":[{"finskyOfferType":1,"listPrice":{"amountInMicros":34990000,"currencyCode":"USD"},"retailPrice":{"amountInMicros":34990000,"currencyCode":"USD"},"giftable":true}]},"accessInfo":{"country":"US","viewability":"PARTIAL","embeddable":true,"publicDomain":false,"textToSpeechPermission":"ALLOWED_FOR_ACCESSIBILITY","epub":{"isAvailable":true,"acsTokenLink":"http://books.google.com/books/download/Kotlin_in_Action-sample-epub.acsm?id=OzkzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"},"pdf":{"isAvailable":false},"webReaderLink":"http://play.google.com/books/reader?id=OzkzEAAAQBAJ&hl=&source=gbs_api","accessViewStatus":"SAMPLE","quoteSharingAllowed":false},"img":{"width":2164,"height":2714,"image":"http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72R1XN7KCQG1cAUSks6UWU6wWJCWLOCuakOL2teLEXEXZ4TOisjySaBHZkH1CdhAWfkJVuuPgEZRFoAh_lFeOU-NCMvHlgyFey__d39AVQV_lTKXUOfjVpFhAPJcGRp_fIpH8oo&source=gbs_api"}}
+  {
+    kind: "books#volume",
+    id: "OzkzEAAAQBAJ",
+    etag: "Tsq3xdjbYgE",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/OzkzEAAAQBAJ",
+    volumeInfo: {
+      title: "Kotlin in Action",
+      authors: ["Dmitry Jemerov", "Svetlana Isakova"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2017-02-03",
+      description:
+        "<b>Summary</b><br><br><i>Kotlin in Action</i> guides experienced Java developers from the language basics of Kotlin all the way through building applications to run on the JVM and Android devices. Foreword by Andrey Breslav, Lead Designer of Kotlin.<br><br>Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.<br><br><b>About the Technology</b><br><br>Developers want to get work done - and the less hassle, the better. Coding with Kotlin means less hassle. The Kotlin programming language offers an expressive syntax, a strong intuitive type system, and great tooling support along with seamless interoperability with existing Java code, libraries, and frameworks. Kotlin can be compiled to Java bytecode, so you can use it everywhere Java is used, including Android. And with an effi cient compiler and a small standard library, Kotlin imposes virtually no runtime overhead.<br><br><b>About the Book</b><br><br><i>Kotlin in Action</i> teaches you to use the Kotlin language for production-quality applications. Written for experienced Java developers, this example-rich book goes further than most language books, covering interesting topics like building DSLs with natural language syntax. The authors are core Kotlin developers, so you can trust that even the gnarly details are dead accurate.<br><br><b>What's Inside</b><br><br><ul><li>Functional programming on the JVM</li><li>Writing clean and idiomatic code</li><li>Combining Kotlin and Java</li><li>Domain-specific languages</li></ul><br><b>About the Reader</b><br><br>This book is for experienced Java developers.<br><br><b>About the Author</b><br><br><b>Dmitry Jemerov</b> and <b>Svetlana Isakova</b> are core Kotlin developers at JetBrains.<br><br><b>Table of Contents</b><br><br><ol>PART 1 - INTRODUCING KOTLIN<li>Kotlin: what and why</li><li>Kotlin basics</li><li>Defining and calling functions</li><li>Classes, objects, and interfaces</li><li>Programming with lambdas</li><li>The Kotlin type system</li>PART 2 - EMBRACING KOTLIN<li>Operator overloading and other conventions</li><li>Higher-order functions: lambdas as parameters and return values</li><li>Generics</li><li>Annotations and reflection</li><li>DSL construction </li></ol>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1638353697" },
+        { type: "ISBN_13", identifier: "9781638353690" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 360,
+      printedPageCount: 554,
+      printType: "BOOK",
+      categories: [
+        "Computers / Languages / Java",
+        "Computers / General",
+        "Computers / Programming / General",
+        "Computers / Programming / Mobile Devices",
+        "Computers / Internet / General",
+        "Computers / Internet / Web Programming",
+        "Computers / Distributed Systems / Client-Server Computing",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.1.1.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73dD3MAhqWnMq9u_B0NDs-Cozi4QYCZ2W_k923J1T95iOBdHhkXu5JjOi4GX6BqjEf3l8AGx1CYzPLHkNz8F7vAEEL1WR9_3ecoMcs6WCcmkDevL22r-NaSTD6rLjCqfUCnSjct&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73h5HgFTXFQNHBnxoLKdQZDod8BsWgiGDzX9GMl9WN1RwxhK5vtcGuIGhS6E77rhEpE_uTVZJVaozhdqpCpxOKveGbkIYVGAOQiIPaSUAQWlZz_deWHBH4xLgdSlLTQY6zKHuiI&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70l6mVyus0tE60oyZFtUn0sViEecFScJhjCwCtru8b0u9P78TVVOurHYCcqDy34r2feP4oM4tiPt1QVbCi93j_hdnj3mSKP-iIR0vlU8JoiGMzEpgSdtfuAnF7abtC9iFEtVxka&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72NNrHLPMnk58id2uFatIqN9nhrLSGaN9xo2d8rpLmGcATX_nWME9OuBYCd0h5Cw9cjR9HAUX_NKxzPd1lmFFGAp7fSXU10KM6kZUHv3drHN3LB6UZvYKMgKeKr8oBrBXGrJzZW&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72oNOFHolh3N5RVx3v3mvGh2Nm_SW4wXld7mwt0zE5zPzebkk6ZZlVNQhuFIxDmYnsn4ZzbPIFNpUtgt1y8sVdsYNmxOZN6b7jrUs-TndPiITHBrzImwdENoYsTguXaUBnUJM1E&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72R1XN7KCQG1cAUSks6UWU6wWJCWLOCuakOL2teLEXEXZ4TOisjySaBHZkH1CdhAWfkJVuuPgEZRFoAh_lFeOU-NCMvHlgyFey__d39AVQV_lTKXUOfjVpFhAPJcGRp_fIpH8oo&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=OzkzEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=OzkzEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=OzkzEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 34.99, currencyCode: "USD" },
+      retailPrice: { amount: 34.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=OzkzEAAAQBAJ&rdid=book-OzkzEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 34990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 34990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Kotlin_in_Action-sample-epub.acsm?id=OzkzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=OzkzEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2164,
+      height: 2714,
+      image:
+        "http://books.google.com/books/publisher/content?id=OzkzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72R1XN7KCQG1cAUSks6UWU6wWJCWLOCuakOL2teLEXEXZ4TOisjySaBHZkH1CdhAWfkJVuuPgEZRFoAh_lFeOU-NCMvHlgyFey__d39AVQV_lTKXUOfjVpFhAPJcGRp_fIpH8oo&source=gbs_api",
+    },
+  },
   {
     kind: "books#volume",
     id: "VxVqEAAAQBAJ",
@@ -287,7 +385,88 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE734aHy5y1XpREhH34LOZ3YW5TJ87lRzmAhpVKsOIl8rH2OOAK06msiHwRBv-RmrRBS6DQmtdSKeRYiHM1DOc64WXlnl_rI3drX2-O_q7oNxGMhkydXJBKWhZ1HL4cMrXH2LxvAM&source=gbs_api",
     },
   },
-  {"kind":"books#volume","id":"gZHYEAAAQBAJ","etag":"yM8pIhCJToo","selfLink":"https://www.googleapis.com/books/v1/volumes/gZHYEAAAQBAJ","volumeInfo":{"title":"Bad Therapy","subtitle":"Why the Kids Aren't Growing Up","authors":["Abigail Shrier"],"publisher":"Penguin","publishedDate":"2024-02-27","description":"<b><i>NEW YORK TIMES </i>BESTSELLER. <br> <br>From the author of <i>Irreversible Damage</i>, an investigation into a mental health industry that is harming, not healing, American children</b><br><br>In virtually every way that can be measured, Gen Z’s mental health is worse than that of previous generations. Youth suicide rates are climbing, antidepressant prescriptions for children are common, and the proliferation of mental health diagnoses has not helped the staggering number of kids who are lonely, lost, sad and fearful of growing up. What’s gone wrong with America’s youth?<br><br>In <i>Bad Therapy</i>, bestselling investigative journalist Abigail Shrier argues that the problem isn’t the kids—it’s the mental health experts. Drawing on hundreds of interviews with child psychologists, parents, teachers, and young people, Shrier explores the ways the mental health industry has transformed the way we teach, treat, discipline, and even talk to our kids. She reveals that most of the therapeutic approaches have serious side effects and few proven benefits. Among her unsettling findings:<br><br><ul><li>Talk therapy can induce rumination, trapping children in cycles of anxiety and depression</li><li>Social Emotional Learning handicaps our most vulnerable children, in both public schools and private</li><li>“Gentle parenting” can encourage emotional turbulence – even violence – in children as they lash out, desperate for an adult in charge</li></ul><br>Mental health care can be lifesaving when properly applied to children with severe needs, but for the typical child, the cure can be worse than the disease. <i>Bad Therapy</i> is a must-read for anyone questioning why our efforts to bolster America’s kids have backfired—and what it will take for parents to lead a turnaround.","industryIdentifiers":[{"type":"ISBN_10","identifier":"0593542924"},{"type":"ISBN_13","identifier":"9780593542927"}],"readingModes":{"text":false,"image":false},"pageCount":320,"printedPageCount":321,"dimensions":{"height":"24.00 cm","width":"16.00 cm","thickness":"2.50 cm"},"printType":"BOOK","categories":["Political Science / Commentary & Opinion","Social Science / Sociology / Marriage & Family","Family & Relationships / Parenting / General"],"maturityRating":"NOT_MATURE","allowAnonLogging":false,"contentVersion":"1.5.3.0.preview.0","panelizationSummary":{"containsEpubBubbles":false,"containsImageBubbles":false},"imageLinks":{"smallThumbnail":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72WiAzwuwTOhbC3gzbwSKhdeOTWCtXUJxXqcUQPUL7PsgYRzd_xV5xYMimK9_cE5NnhwKVWw7yblvBK64aewznk7ilp8JFsZWqLaUI7ojNIZJwEJfOvC4FiET-AositrhEEUC4H&source=gbs_api","thumbnail":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73LOrc6BGIypIeNr9kZagKZxE97Kyjf24ZTPD62-b0X0OSEINjozYryOBf2IVFQOQmfEM9HYZRbQTy6uVfEEeAHpn_hv9IIjHYmuAvT7mfFfOeKN8lc2UcAJY3xG90WkMNR9o7d&source=gbs_api","small":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72wt_0SXqpjbqCRX5j3waaCi_pq_xgYLE8KmcioC2WKSTa0rRMgUCQ2UXSdU_B9nEq_Gry-T9Yy7LB6sbTRYn0VvXAnFLsNiXduc-5WAo6B3ev8-oOv79jvjKKjUfsj9MZb_uNI&source=gbs_api","medium":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73J35zqQ97E8D3Mrn40j1u36oUhZCT3CMS3rS1M9942MOmDV-U3XpbPc7wdoFpEUkoOA_3Ze3tSUFggwHbMawnFwl5s9__kplyjz_OHAbTT4aaJ-7QMOndt0mT8O15p-UgSVZl9&source=gbs_api","large":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73cNfJetjZ8OkgMwsJW6itD2Nf7tlrOGqsop3mXchR_5k26xfIPIfcZZpCysMk_mGOFAToCVPKdr47XTNz7_aQeLNqlsPDBAXrL1Ckt92GDUup6YOwUd_iuc2RMigXL-8omB4Pm&source=gbs_api","extraLarge":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71XrjTqyoTIQb-uWZ0l4q9KSqG3Q7UWkplDjeViHoHCdPyRPrrlT1TRBgakrPtKw4P2Ggbj_Lm1UHDarJFAhIq3fsMiYULy0RQCgpIDdKhqjuhJ7tyC7qjAzyKlbfHd3uy0BMtt&source=gbs_api"},"language":"en","previewLink":"http://books.google.com/books?id=gZHYEAAAQBAJ&hl=&source=gbs_api","infoLink":"https://play.google.com/store/books/details?id=gZHYEAAAQBAJ&source=gbs_api","canonicalVolumeLink":"https://play.google.com/store/books/details?id=gZHYEAAAQBAJ"},"saleInfo":{"country":"US","saleability":"NOT_FOR_SALE","isEbook":false},"accessInfo":{"country":"US","viewability":"PARTIAL","embeddable":true,"publicDomain":false,"textToSpeechPermission":"ALLOWED","epub":{"isAvailable":false},"pdf":{"isAvailable":false},"webReaderLink":"http://play.google.com/books/reader?id=gZHYEAAAQBAJ&hl=&source=gbs_api","accessViewStatus":"SAMPLE","quoteSharingAllowed":false},"img":{"width":1800,"height":2700,"image":"http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71XrjTqyoTIQb-uWZ0l4q9KSqG3Q7UWkplDjeViHoHCdPyRPrrlT1TRBgakrPtKw4P2Ggbj_Lm1UHDarJFAhIq3fsMiYULy0RQCgpIDdKhqjuhJ7tyC7qjAzyKlbfHd3uy0BMtt&source=gbs_api"}},
+  {
+    kind: "books#volume",
+    id: "gZHYEAAAQBAJ",
+    etag: "j0lMYPaAa98",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/gZHYEAAAQBAJ",
+    volumeInfo: {
+      title: "Bad Therapy",
+      subtitle: "Why the Kids Aren't Growing Up",
+      authors: ["Abigail Shrier"],
+      publisher: "Penguin",
+      publishedDate: "2024-02-27",
+      description:
+        "<b><i>NEW YORK TIMES </i>BESTSELLER. <br> <br>From the author of <i>Irreversible Damage</i>, an investigation into a mental health industry that is harming, not healing, American children</b><br><br>In virtually every way that can be measured, Gen Z’s mental health is worse than that of previous generations. Youth suicide rates are climbing, antidepressant prescriptions for children are common, and the proliferation of mental health diagnoses has not helped the staggering number of kids who are lonely, lost, sad and fearful of growing up. What’s gone wrong with America’s youth?<br><br>In <i>Bad Therapy</i>, bestselling investigative journalist Abigail Shrier argues that the problem isn’t the kids—it’s the mental health experts. Drawing on hundreds of interviews with child psychologists, parents, teachers, and young people, Shrier explores the ways the mental health industry has transformed the way we teach, treat, discipline, and even talk to our kids. She reveals that most of the therapeutic approaches have serious side effects and few proven benefits. Among her unsettling findings:<br><br><ul><li>Talk therapy can induce rumination, trapping children in cycles of anxiety and depression</li><li>Social Emotional Learning handicaps our most vulnerable children, in both public schools and private</li><li>“Gentle parenting” can encourage emotional turbulence – even violence – in children as they lash out, desperate for an adult in charge</li></ul><br>Mental health care can be lifesaving when properly applied to children with severe needs, but for the typical child, the cure can be worse than the disease. <i>Bad Therapy</i> is a must-read for anyone questioning why our efforts to bolster America’s kids have backfired—and what it will take for parents to lead a turnaround.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593542924" },
+        { type: "ISBN_13", identifier: "9780593542927" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 320,
+      printedPageCount: 321,
+      dimensions: {
+        height: "24.00 cm",
+        width: "16.00 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Political Science / Commentary & Opinion",
+        "Social Science / Sociology / Marriage & Family",
+        "Family & Relationships / Parenting / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.5.3.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73S46fNEyovlW3W09jBgNq2Vg89iLQLORLNfYs5P1CkiP9NvBgBjsTW7HobIrTsChkAUP5TIg3iqylSCM2G35w_28d4Z3wdZRMKvOBkXaZ9mZpsaXEZGCkvQU4gbdraZoSyhHdy&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72HQnKPnAKhQsc-tjjeKeWZvQF5aRHmQ2zHZ8CCn5FdWB4HO19h04J9OcD4lFwgludIt-V_AVq9WzLTMG8KUgQy2cnpxjuMqBcORtb4371GDY0dMwpJps8HtIu24-1x0sdS5kPU&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73ajyQZMZ7TW0_OR0BOp5MlNHIE4MB181V-jtjrL-8uXrOv5GrgGRxbsJcIHB8XUn4FFtBOBwIfaE_VLG4hf3S6nBU1P9HkbfXgIUIXM9RNK3i2629EvtcNGWkkn8_ncgg3MP9Z&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73q24g5jmli7QS81_tp53vsOCgobB6GUPMsx8VgC3LUNwWqc4yUONsF6olz0EEbDm7Yz6TgPrmg5FwhqzNQMWkQeOCKQfVffKMUXIBdtlynQhA4zBvN0bTVs2ackzASaExFRGic&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72NqTEGZ6kHvrSfJkQUWwP8YVR5zdSWFwd6pv3gLq0C5N1ndLrg__7vxW3ZoSGPyy6ZbU2opgWNy_FYZHxjpWxzdJ7r_ywu2PL9kfPky2VEVuFCWfI7d6dhGIaTYkmTi7VUUxGn&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
+    },
+  },
+
   {
     kind: "books#volume",
     id: "Mx4OEQAAQBAJ",
