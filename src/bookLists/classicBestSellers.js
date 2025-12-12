@@ -86,6 +86,87 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "gZHYEAAAQBAJ",
+    etag: "j0lMYPaAa98",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/gZHYEAAAQBAJ",
+    volumeInfo: {
+      title: "Bad Therapy",
+      subtitle: "Why the Kids Aren't Growing Up",
+      authors: ["Abigail Shrier"],
+      publisher: "Penguin",
+      publishedDate: "2024-02-27",
+      description:
+        "<b><i>NEW YORK TIMES </i>BESTSELLER. <br> <br>From the author of <i>Irreversible Damage</i>, an investigation into a mental health industry that is harming, not healing, American children</b><br><br>In virtually every way that can be measured, Gen Z’s mental health is worse than that of previous generations. Youth suicide rates are climbing, antidepressant prescriptions for children are common, and the proliferation of mental health diagnoses has not helped the staggering number of kids who are lonely, lost, sad and fearful of growing up. What’s gone wrong with America’s youth?<br><br>In <i>Bad Therapy</i>, bestselling investigative journalist Abigail Shrier argues that the problem isn’t the kids—it’s the mental health experts. Drawing on hundreds of interviews with child psychologists, parents, teachers, and young people, Shrier explores the ways the mental health industry has transformed the way we teach, treat, discipline, and even talk to our kids. She reveals that most of the therapeutic approaches have serious side effects and few proven benefits. Among her unsettling findings:<br><br><ul><li>Talk therapy can induce rumination, trapping children in cycles of anxiety and depression</li><li>Social Emotional Learning handicaps our most vulnerable children, in both public schools and private</li><li>“Gentle parenting” can encourage emotional turbulence – even violence – in children as they lash out, desperate for an adult in charge</li></ul><br>Mental health care can be lifesaving when properly applied to children with severe needs, but for the typical child, the cure can be worse than the disease. <i>Bad Therapy</i> is a must-read for anyone questioning why our efforts to bolster America’s kids have backfired—and what it will take for parents to lead a turnaround.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593542924" },
+        { type: "ISBN_13", identifier: "9780593542927" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 320,
+      printedPageCount: 321,
+      dimensions: {
+        height: "24.00 cm",
+        width: "16.00 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Political Science / Commentary & Opinion",
+        "Social Science / Sociology / Marriage & Family",
+        "Family & Relationships / Parenting / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.5.3.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73S46fNEyovlW3W09jBgNq2Vg89iLQLORLNfYs5P1CkiP9NvBgBjsTW7HobIrTsChkAUP5TIg3iqylSCM2G35w_28d4Z3wdZRMKvOBkXaZ9mZpsaXEZGCkvQU4gbdraZoSyhHdy&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72HQnKPnAKhQsc-tjjeKeWZvQF5aRHmQ2zHZ8CCn5FdWB4HO19h04J9OcD4lFwgludIt-V_AVq9WzLTMG8KUgQy2cnpxjuMqBcORtb4371GDY0dMwpJps8HtIu24-1x0sdS5kPU&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73ajyQZMZ7TW0_OR0BOp5MlNHIE4MB181V-jtjrL-8uXrOv5GrgGRxbsJcIHB8XUn4FFtBOBwIfaE_VLG4hf3S6nBU1P9HkbfXgIUIXM9RNK3i2629EvtcNGWkkn8_ncgg3MP9Z&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73q24g5jmli7QS81_tp53vsOCgobB6GUPMsx8VgC3LUNwWqc4yUONsF6olz0EEbDm7Yz6TgPrmg5FwhqzNQMWkQeOCKQfVffKMUXIBdtlynQhA4zBvN0bTVs2ackzASaExFRGic&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72NqTEGZ6kHvrSfJkQUWwP8YVR5zdSWFwd6pv3gLq0C5N1ndLrg__7vxW3ZoSGPyy6ZbU2opgWNy_FYZHxjpWxzdJ7r_ywu2PL9kfPky2VEVuFCWfI7d6dhGIaTYkmTi7VUUxGn&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1800,
+      height: 2700,
+      image:
+        "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "VxVqEAAAQBAJ",
     etag: "gN3sTAZW+m4",
     selfLink: "https://www.googleapis.com/books/v1/volumes/VxVqEAAAQBAJ",
@@ -283,87 +364,6 @@ const classicBestsellerList = [
       height: 2792,
       image:
         "http://books.google.com/books/publisher/content?id=EEtCEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE734aHy5y1XpREhH34LOZ3YW5TJ87lRzmAhpVKsOIl8rH2OOAK06msiHwRBv-RmrRBS6DQmtdSKeRYiHM1DOc64WXlnl_rI3drX2-O_q7oNxGMhkydXJBKWhZ1HL4cMrXH2LxvAM&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "gZHYEAAAQBAJ",
-    etag: "j0lMYPaAa98",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/gZHYEAAAQBAJ",
-    volumeInfo: {
-      title: "Bad Therapy",
-      subtitle: "Why the Kids Aren't Growing Up",
-      authors: ["Abigail Shrier"],
-      publisher: "Penguin",
-      publishedDate: "2024-02-27",
-      description:
-        "<b><i>NEW YORK TIMES </i>BESTSELLER. <br> <br>From the author of <i>Irreversible Damage</i>, an investigation into a mental health industry that is harming, not healing, American children</b><br><br>In virtually every way that can be measured, Gen Z’s mental health is worse than that of previous generations. Youth suicide rates are climbing, antidepressant prescriptions for children are common, and the proliferation of mental health diagnoses has not helped the staggering number of kids who are lonely, lost, sad and fearful of growing up. What’s gone wrong with America’s youth?<br><br>In <i>Bad Therapy</i>, bestselling investigative journalist Abigail Shrier argues that the problem isn’t the kids—it’s the mental health experts. Drawing on hundreds of interviews with child psychologists, parents, teachers, and young people, Shrier explores the ways the mental health industry has transformed the way we teach, treat, discipline, and even talk to our kids. She reveals that most of the therapeutic approaches have serious side effects and few proven benefits. Among her unsettling findings:<br><br><ul><li>Talk therapy can induce rumination, trapping children in cycles of anxiety and depression</li><li>Social Emotional Learning handicaps our most vulnerable children, in both public schools and private</li><li>“Gentle parenting” can encourage emotional turbulence – even violence – in children as they lash out, desperate for an adult in charge</li></ul><br>Mental health care can be lifesaving when properly applied to children with severe needs, but for the typical child, the cure can be worse than the disease. <i>Bad Therapy</i> is a must-read for anyone questioning why our efforts to bolster America’s kids have backfired—and what it will take for parents to lead a turnaround.",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0593542924" },
-        { type: "ISBN_13", identifier: "9780593542927" },
-      ],
-      readingModes: { text: false, image: false },
-      pageCount: 320,
-      printedPageCount: 321,
-      dimensions: {
-        height: "24.00 cm",
-        width: "16.00 cm",
-        thickness: "2.50 cm",
-      },
-      printType: "BOOK",
-      categories: [
-        "Political Science / Commentary & Opinion",
-        "Social Science / Sociology / Marriage & Family",
-        "Family & Relationships / Parenting / General",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "1.5.3.0.preview.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73S46fNEyovlW3W09jBgNq2Vg89iLQLORLNfYs5P1CkiP9NvBgBjsTW7HobIrTsChkAUP5TIg3iqylSCM2G35w_28d4Z3wdZRMKvOBkXaZ9mZpsaXEZGCkvQU4gbdraZoSyhHdy&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72HQnKPnAKhQsc-tjjeKeWZvQF5aRHmQ2zHZ8CCn5FdWB4HO19h04J9OcD4lFwgludIt-V_AVq9WzLTMG8KUgQy2cnpxjuMqBcORtb4371GDY0dMwpJps8HtIu24-1x0sdS5kPU&source=gbs_api",
-        small:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73ajyQZMZ7TW0_OR0BOp5MlNHIE4MB181V-jtjrL-8uXrOv5GrgGRxbsJcIHB8XUn4FFtBOBwIfaE_VLG4hf3S6nBU1P9HkbfXgIUIXM9RNK3i2629EvtcNGWkkn8_ncgg3MP9Z&source=gbs_api",
-        medium:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73q24g5jmli7QS81_tp53vsOCgobB6GUPMsx8VgC3LUNwWqc4yUONsF6olz0EEbDm7Yz6TgPrmg5FwhqzNQMWkQeOCKQfVffKMUXIBdtlynQhA4zBvN0bTVs2ackzASaExFRGic&source=gbs_api",
-        large:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72NqTEGZ6kHvrSfJkQUWwP8YVR5zdSWFwd6pv3gLq0C5N1ndLrg__7vxW3ZoSGPyy6ZbU2opgWNy_FYZHxjpWxzdJ7r_ywu2PL9kfPky2VEVuFCWfI7d6dhGIaTYkmTi7VUUxGn&source=gbs_api",
-        extraLarge:
-          "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=gZHYEAAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=gZHYEAAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 1800,
-      height: 2700,
-      image:
-        "http://books.google.com/books/publisher/content?id=gZHYEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73oOjPSCJKFtMfzrbRQOSzT_93Ye1TCafLXbEv432NjVzh9Za6JXIpyjPBWDC9IT7CTN5sp33pnu87ow9Dy45ueMjGiZLY3JgfXOBl2F_NC3WJrykrJggOMJO-wkgNiLZxr8P6z&source=gbs_api",
     },
   },
 
