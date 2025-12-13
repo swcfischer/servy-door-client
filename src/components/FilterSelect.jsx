@@ -194,7 +194,13 @@ function AvidTrending(props) {
     return (
       <div
         id="Accessible YouTube"
-        style={{ marginLeft: "12px", marginTop: "6px" }}
+        style={{
+          marginLeft: "12px",
+          marginTop: "6px",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }}
       >
         <a
           href="https://www.avidlanguagelearning.com/app/video/5ffed861-e3f1-4c3e-8d62-3d39ffebc4f2"
