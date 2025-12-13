@@ -139,6 +139,14 @@ const FilterSelect = (props) => {
           onChange={handleChange}
         />
       </div>
+
+      <AvidTrending
+        wasSearchDone={wasSearchDone}
+        books={books}
+        q={q}
+        params={params}
+        handleChange={handleChange}
+      />
       {/* <Trending
         wasSearchDone={wasSearchDone}
         books={books}
@@ -173,6 +181,23 @@ function Trending(props) {
           }}
         >
           Trending...
+        </a>
+      </div>
+    );
+  }
+}
+
+function AvidTrending(props) {
+  const { wasSearchDone, books, q, params, handleChange } = props;
+
+  if (!wasSearchDone(books, q, params)) {
+    return (
+      <div id="Accessible YouTube">
+        <a
+          href="https://www.avidlanguagelearning.com/app/video/5ffed861-e3f1-4c3e-8d62-3d39ffebc4f2"
+          target="_blank"
+        >
+          YouTube Lanuage-Learning Platform
         </a>
       </div>
     );
