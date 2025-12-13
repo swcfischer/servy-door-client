@@ -181,7 +181,7 @@ const Container = styled.div`
       font-size: 18px;
       padding: 76px 24px 24px 24px;
       box-sizing: border-box;
-      background: #d4aa01;
+      /* background: #d4aa01; */
       background: #222;
       color: #d4c066;
       margin: 0;
