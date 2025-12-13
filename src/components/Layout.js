@@ -274,10 +274,13 @@ const Layout = ({ children }) => {
                 </Typography>
                 <ul className="footer-links">
                   <li>
+                    <a href="https://github.com/swcfischer">About Creator</a>
+                  </li>
+                  <li>
                     <Link to="/tos">Terms of Service</Link>
                   </li>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">About Application</Link>
                   </li>
                   <li>
                     <Link to="/account">Account</Link>
