@@ -22,6 +22,7 @@ const GoogleButtonContainer = styled.div`
     color: #3c4043;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
+    width: max-content;
 
     &:hover {
       background-color: #f8f9fa;

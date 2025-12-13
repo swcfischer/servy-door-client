@@ -182,6 +182,8 @@ const Container = styled.div`
       padding: 76px 24px 24px 24px;
       box-sizing: border-box;
       background: #d4aa01;
+      background: #222;
+      color: #d4c066;
       margin: 0;
       border: 1px solid #1e1902;
       border-radius: 3px;
