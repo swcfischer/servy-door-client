@@ -1,6 +1,112 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "g0Q7EAAAQBAJ",
+    etag: "FWFMrjNouKc",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/g0Q7EAAAQBAJ",
+    volumeInfo: {
+      title: "Remarkably Bright Creatures",
+      subtitle: "A Novel",
+      authors: ["Shelby Van Pelt"],
+      publisher: "HarperCollins",
+      publishedDate: "2022-05-03",
+      description:
+        "<p>A New York Times Bestseller</p><p>Soon to be a Netflix Film</p><p>A Read With Jenna Today Show Book Club Pick!</p><p>“Remarkably Bright Creatures is a beautiful examination of how loneliness can be transformed, cracked open, with the slightest touch from another living thing.” -- Kevin Wilson, author of Nothing to See Here</p><p>For fans of A Man Called Ove, a charming, witty and compulsively readable exploration of friendship, reckoning, and hope that traces a widow's unlikely connection with a giant Pacific octopus</p><p>After Tova Sullivan’s husband died, she began working the night shift at the Sowell Bay Aquarium, mopping floors and tidying up. Keeping busy has always helped her cope, which she’s been doing since her eighteen-year-old son, Erik, mysteriously vanished on a boat in Puget Sound over thirty years ago.</p><p>Tova becomes acquainted with curmudgeonly Marcellus, a giant Pacific octopus living at the aquarium. Marcellus knows more than anyone can imagine but wouldn’t dream of lifting one of his eight arms for his human captors—until he forms a remarkable friendship with Tova.</p><p>Ever the detective, Marcellus deduces what happened the night Tova’s son disappeared. And now Marcellus must use every trick his old invertebrate body can muster to unearth the truth for her before it’s too late. </p><p>Shelby Van Pelt’s debut novel is a gentle reminder that sometimes taking a hard look at the past can help uncover a future that once felt impossible.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0063204177" },
+        { type: "ISBN_13", identifier: "9780063204171" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 352,
+      printedPageCount: 389,
+      printType: "BOOK",
+      categories: [
+        "Fiction / Literary",
+        "Fiction / Family Life / General",
+        "Fiction / Animals",
+        "Fiction / Humorous / General",
+        "Fiction / Fantasy / Humorous",
+        "Fiction / Friendship",
+        "Fiction / Mystery & Detective / Cozy / Animals",
+        "Fiction / Humorous / Dark Humor",
+        "Fiction / Magical Realism",
+        "Drama / American / General",
+      ],
+      averageRating: 5,
+      ratingsCount: 1,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.11.13.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71VS2nCqzeY5IEFnMUJCL7OuVrpIGqQud5ZAoABjRGYk2eozoMpu0cr3-UMCTPPz_U4kEuprTACkHsue2XOa3GI0EOsweu63dndirP_7UVBoaMfiwCt8zgfyKKC4x5RA2KCSxLZ&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72TlvFE3aMR7pEFxd-1qasltd6GsUsMSztHib4AfoKIrupizGKIRGAMtWjMnqo0shrdSm4QbyOqx6-AWNeJVe3fL0erKE-jA-3A2tJ5HUxeyoNM2nfZry0eKSEALVy8RXGFVBiz&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73iu8LW9nlAqRlyel7tNlniyESMEDTv5Bh6mHyrLpJmvfWAoOB7uvjNck0vT3NCJHNmKaKjI2ri8paVkdanhCqK0Jkj8dcjdRVgvjKVafECKVReMFaMPKtnC37pXG2t_y94he40&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72xw5CicTiZEFyBUWBSJSZUx2kjYkF9PblMsrj4QmMbv5hbRw973KMmyCTgr_Ofx2fIea84qZPdeuJq5uGopjw3Ts2xkk1PW5arkJfwDSCCIOQGprGYMdBOdfGghK30cN6zeyof&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE7195KSOcbMHjrzK7NiYqc86--AY-Q9Fmiy1aJWCzrLoQQV9vQ0hEstCk3UZVCajaaP1WTwV-oJUHMsfQNudWJZ0iJNb2KE3tdJBEAD9HvxsKJK7GCQmHtxv-5ou0XOY5VZwAeis&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72L5BJwe7x1redkxQ2QUAMZiYxSRufZ9rpLuyGnSXnylSTLFiHGnBDKO0ExpfQECL9LMRUn-KcHa216N4uaAzUGIRzLXQq3Y4jEw8B9fPGHcI92tfhz4lDDz0nBYH-UFqjIDH2f&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=g0Q7EAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=g0Q7EAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=g0Q7EAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "13" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 19.99, currencyCode: "USD" },
+      retailPrice: { amount: 19.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=g0Q7EAAAQBAJ&rdid=book-g0Q7EAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 19990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 19990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Remarkably_Bright_Creatures-sample-epub.acsm?id=g0Q7EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=g0Q7EAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2632,
+      image:
+        "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72L5BJwe7x1redkxQ2QUAMZiYxSRufZ9rpLuyGnSXnylSTLFiHGnBDKO0ExpfQECL9LMRUn-KcHa216N4uaAzUGIRzLXQq3Y4jEw8B9fPGHcI92tfhz4lDDz0nBYH-UFqjIDH2f&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "RjBOEQAAQBAJ",
     etag: "Ir1V8YIigwI",
     selfLink: "https://www.googleapis.com/books/v1/volumes/RjBOEQAAQBAJ",
