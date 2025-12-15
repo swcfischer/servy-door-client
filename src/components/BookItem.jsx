@@ -109,20 +109,9 @@ function isOver(text = "", length) {
 
 function ImageCard(props) {
   const { imageUrl, title } = props;
-  const [image, setImage] = useState(null);
+  const [isBroken, setIsBroken] = useState(false);
 
-  useEffect(() => {
-    const img = new Image();
-    img.src = imageUrl;
-    img.onload = () => setImage(true);
-    img.onerror = () => setImage(false);
-  }, [imageUrl]);
-
-  if (!image === null) {
-    return null;
-  }
-
-  if (!image) {
+  if (!imageUrl || isBroken) {
     return (
       <div
         style={{
@@ -149,6 +138,9 @@ function ImageCard(props) {
       component="img"
       image={imageUrl}
       alt={title}
+      loading="lazy"
+      decoding="async"
+      onError={() => setIsBroken(true)}
       sx={{
         objectFit: "contain",
         pt: 2,

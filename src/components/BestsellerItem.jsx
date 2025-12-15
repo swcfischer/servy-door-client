@@ -161,6 +161,9 @@ function ImageCard(props) {
     <img
       src={src}
       alt={title}
+      loading="lazy"
+      decoding="async"
+      onError={() => setBestImg(null)}
       style={{
         objectFit: "contain",
         paddingTop: "16px",
