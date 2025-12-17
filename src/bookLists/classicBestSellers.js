@@ -1,6 +1,101 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "jW5tEAAAQBAJ",
+    etag: "oVJvIxEHCLk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/jW5tEAAAQBAJ",
+    volumeInfo: {
+      title: "The Creative Act",
+      subtitle: "A Way of Being",
+      authors: ["Rick Rubin"],
+      publisher: "Penguin",
+      publishedDate: "2023-01-17",
+      description:
+        '<b>The #1 <i>New York Times </i>bestseller.<br><br>"A gorgeous and inspiring work of art on creation, creativity, the work of the artist. It will gladden the hearts of writers and artists everywhere, and get them working again with a new sense of meaning and direction. A stunning accomplishment.” —Anne Lamott<br><br><b>From the legendary music producer, a master at helping people connect with the wellsprings of their creativity, comes a beautifully crafted book many years in the making that offers that same deep wisdom to all of us.</b></b><br><br>“<i>I set out to write a book about what to do to make a great work of art. Instead, it revealed itself to be a book on how to be.” —Rick Rubin</i><br><br>Many famed music producers are known for a particular sound that has its day. Rick Rubin is known for something else: creating a space where artists of all different genres and traditions can home in on who they really are and what they really offer. He has made a practice of helping people transcend their self-imposed expectations in order to reconnect with a state of innocence from which the surprising becomes inevitable. Over the years, as he has thought deeply about where creativity comes from and where it doesn’t, he has learned that being an artist isn’t about your specific output, it’s about your relationship to the world. Creativity has a place in everyone’s life, and everyone can make that place larger. In fact, there are few more important responsibilities.<br><br><i>The Creative Act</i> is a beautiful and generous course of study that illuminates the path of the artist as a road we all can follow. It distills the wisdom gleaned from a lifetime’s work into a luminous reading experience that puts the power to create moments—and lifetimes—of exhilaration and transcendence within closer reach for all of us.',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593653424" },
+        { type: "ISBN_13", identifier: "9780593653425" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 432,
+      printedPageCount: 433,
+      printType: "BOOK",
+      categories: [
+        "Self-Help / Creativity",
+        "Music / General",
+        "Body, Mind & Spirit / Inspiration & Personal Growth",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "2.8.5.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE728Aid8hkcvyVBUGaVnFQPRnI8VIxk6fDBPHxTkuV8UkxIrW_aIEeXV9nfB1musMKa_62nS4jRilQczPURMiRf1JConx2sULtJev6EE4ZChZshkx1rpClytjf4OmRspY5NLt3nw&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70U394SIa1-FpgzznO9TzAocOyI3a-4Qsq_koR_6ssOseT9LhTsZFrCEfT1HoT85MpNw8_w6jIxRpuA_YUR8nw8jyYqkQziPMU7WrvAL0H2MoHGMJ1RlPNHL8EKDMKlslvDr9Wm&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70IJNE9k_6cYkIfJk3c9r7egwfFZIeC1nVxn8bytPCvNALNfTpoP4lUVea6eeqV3wIg_yi08K8IN3g13Zarr3qlLObmcnMqogsVrkTsNWRlNE0DNJX-I3iXGj0wcFDzqKH5dLEE&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72s_kq7jIBGOF_Ww09-0Q6ivFRqNq_oSdQWgamy3-z--_TEnIkr-qH0Awbjy3RPrpJ-_cJIwBJOT6iXw7deyW84OmubgaUh3mIK8aKzq8Cgi4gqgBSzhq3XaHCcvoxMYXQtPfmU&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72kFnCMWrn6otKQ443KJfaroIdWtLrHmyOIb59dtSAe-HACKh4gURCD81wWet6bxxN8iGPzbr48bz7czC56OjpJVQ3r5ZC78PY-EQ8CBKGIKfx0BgNsMIZCUmEB59NmvBcwaCQs&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=jW5tEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=jW5tEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=jW5tEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "9" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=jW5tEAAAQBAJ&rdid=book-jW5tEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Creative_Act-sample-epub.acsm?id=jW5tEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=jW5tEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1134,
+      image:
+        "http://books.google.com/books/publisher/content?id=jW5tEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72kFnCMWrn6otKQ443KJfaroIdWtLrHmyOIb59dtSAe-HACKh4gURCD81wWet6bxxN8iGPzbr48bz7czC56OjpJVQ3r5ZC78PY-EQ8CBKGIKfx0BgNsMIZCUmEB59NmvBcwaCQs&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "oIYNBodW-ZEC",
     etag: "Ar1rsr+TklQ",
     selfLink: "https://www.googleapis.com/books/v1/volumes/oIYNBodW-ZEC",
