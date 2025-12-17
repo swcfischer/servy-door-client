@@ -83,6 +83,101 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71SnVuVFx8SUzSPHvVbYUG1Xz2NYgyXy7RIm_tvpjZoasWlmcXxh35u8WfMNlccYtWIzcuzsXFybnQ_FzstsHTHDmESQG6I6yLyGUv9FXb-Q8urO74bXHQWTzKR-pYiKn2iaRt7&source=gbs_api",
     },
   },
+
+  {
+    kind: "books#volume",
+    id: "oIYNBodW-ZEC",
+    etag: "Ar1rsr+TklQ",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/oIYNBodW-ZEC",
+    volumeInfo: {
+      title: "Moneyball",
+      subtitle: "The Art of Winning an Unfair Game",
+      authors: ["Michael Lewis"],
+      publisher: "W. W. Norton & Company",
+      publishedDate: "2004-03-17",
+      description:
+        '<p>Michael Lewis’s instant classic may be "the most influential book on sports ever written" (People), but "you need know absolutely nothing about baseball to appreciate the wit, snap, economy and incisiveness of [Lewis’s] thoughts about it" (Janet Maslin, New York Times).<br> <br> One of GQ\'s 50 Best Books of Literary Journalism of the 21st Century • A Kirkus Review Best Book of the 21st Century (So Far)</p> <p>Just before the 2002 season opens, the Oakland Athletics must relinquish its three most prominent (and expensive) players and is written off by just about everyone—but then comes roaring back to challenge the American League record for consecutive wins. How did one of the poorest teams in baseball win so many games?</p> <p>In a quest to discover the answer, Michael Lewis delivers not only “the single most influential baseball book ever” (Rob Neyer, Slate) but also what “may be the best book ever written on business” (Weekly Standard). Lewis first looks to all the logical places—the front offices of major league teams, the coaches, the minds of brilliant players—but discovers the real jackpot is a cache of numbers collected over the years by a strange brotherhood of amateur baseball enthusiasts: software engineers, statisticians, Wall Street analysts, lawyers, and physics professors.</p> <p>What these numbers prove is that the traditional yardsticks of success for players and teams are fatally flawed. Even the box score misleads us by ignoring the crucial importance of the humble base-on-balls. This information had been around for years, and nobody inside Major League Baseball paid it any mind. And then came Billy Beane, general manager of the Oakland Athletics. He paid attention to those numbers?with the second-lowest payroll in baseball at his disposal he had to?to conduct an astonishing experiment in finding and fielding a team that nobody else wanted.</p> <p>In a narrative full of fabulous characters and brilliant excursions into the unexpected, Michael Lewis shows us how and why the new baseball knowledge works. He also sets up a sly and hilarious morality tale: Big Money, like Goliath, is always supposed to win…how can we not cheer for David?</p>',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0393066231" },
+        { type: "ISBN_13", identifier: "9780393066234" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 336,
+      printedPageCount: 337,
+      printType: "BOOK",
+      categories: [
+        "Sports & Recreation / Business Aspects",
+        "Business & Economics / Management",
+        "Sports & Recreation / Baseball / History",
+        "Sports & Recreation / Baseball / Statistics",
+      ],
+      averageRating: 4,
+      ratingsCount: 70,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "3.19.15.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72YO9AKTq_JYzRgsPqi88iaiZPdkA1cvTKk3gVAtCaOcMKGRCaLkMCI-sRBwWMd7_IgNcUcylBErnPMVvzJeosVO9TmfmQQVC-j_pkhZG4k9AwlK6uIXo5vS2UGX-NfJfBwO5jM&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70GZHqLuE2yxlUQh2_dPeg7j4SL7uwplZf7_Q_VkfQkNuEcB6vDgH14vHygRYKGWmYPgYOgtwmLDG8zBfV2mCCXlycCKCY0GzYf0WjRnxPJKZQcJ89LaxLxKZx_bS0NxSqN_1DO&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73zdcsYsTERBWSb_5lJNvxDdefE4zjGH7n8fA5r6jeShSLi88Q0YBIBYv3cdNTWY71al5AmmFLwMuxZOwbENaqP_FlGfFZpLCHgT8Pw7WcoDAAGrX3rb7huu6MVceQesPbW3PnP&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=oIYNBodW-ZEC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "30" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 17.05, currencyCode: "USD" },
+      retailPrice: { amount: 8.7, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC&rdid=book-oIYNBodW-ZEC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 17050000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 8700000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Moneyball-sample-epub.acsm?id=oIYNBodW-ZEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=oIYNBodW-ZEC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 300,
+      height: 450,
+      image:
+        "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73zdcsYsTERBWSb_5lJNvxDdefE4zjGH7n8fA5r6jeShSLi88Q0YBIBYv3cdNTWY71al5AmmFLwMuxZOwbENaqP_FlGfFZpLCHgT8Pw7WcoDAAGrX3rb7huu6MVceQesPbW3PnP&source=gbs_api",
+    },
+  },
   {
     kind: "books#volume",
     id: "g0Q7EAAAQBAJ",
@@ -187,100 +282,6 @@ const classicBestsellerList = [
       height: 2632,
       image:
         "http://books.google.com/books/publisher/content?id=g0Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72L5BJwe7x1redkxQ2QUAMZiYxSRufZ9rpLuyGnSXnylSTLFiHGnBDKO0ExpfQECL9LMRUn-KcHa216N4uaAzUGIRzLXQq3Y4jEw8B9fPGHcI92tfhz4lDDz0nBYH-UFqjIDH2f&source=gbs_api",
-    },
-  },
-  {
-    kind: "books#volume",
-    id: "oIYNBodW-ZEC",
-    etag: "Ar1rsr+TklQ",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/oIYNBodW-ZEC",
-    volumeInfo: {
-      title: "Moneyball",
-      subtitle: "The Art of Winning an Unfair Game",
-      authors: ["Michael Lewis"],
-      publisher: "W. W. Norton & Company",
-      publishedDate: "2004-03-17",
-      description:
-        '<p>Michael Lewis’s instant classic may be "the most influential book on sports ever written" (People), but "you need know absolutely nothing about baseball to appreciate the wit, snap, economy and incisiveness of [Lewis’s] thoughts about it" (Janet Maslin, New York Times).<br> <br> One of GQ\'s 50 Best Books of Literary Journalism of the 21st Century • A Kirkus Review Best Book of the 21st Century (So Far)</p> <p>Just before the 2002 season opens, the Oakland Athletics must relinquish its three most prominent (and expensive) players and is written off by just about everyone—but then comes roaring back to challenge the American League record for consecutive wins. How did one of the poorest teams in baseball win so many games?</p> <p>In a quest to discover the answer, Michael Lewis delivers not only “the single most influential baseball book ever” (Rob Neyer, Slate) but also what “may be the best book ever written on business” (Weekly Standard). Lewis first looks to all the logical places—the front offices of major league teams, the coaches, the minds of brilliant players—but discovers the real jackpot is a cache of numbers collected over the years by a strange brotherhood of amateur baseball enthusiasts: software engineers, statisticians, Wall Street analysts, lawyers, and physics professors.</p> <p>What these numbers prove is that the traditional yardsticks of success for players and teams are fatally flawed. Even the box score misleads us by ignoring the crucial importance of the humble base-on-balls. This information had been around for years, and nobody inside Major League Baseball paid it any mind. And then came Billy Beane, general manager of the Oakland Athletics. He paid attention to those numbers?with the second-lowest payroll in baseball at his disposal he had to?to conduct an astonishing experiment in finding and fielding a team that nobody else wanted.</p> <p>In a narrative full of fabulous characters and brilliant excursions into the unexpected, Michael Lewis shows us how and why the new baseball knowledge works. He also sets up a sly and hilarious morality tale: Big Money, like Goliath, is always supposed to win…how can we not cheer for David?</p>',
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0393066231" },
-        { type: "ISBN_13", identifier: "9780393066234" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 336,
-      printedPageCount: 337,
-      printType: "BOOK",
-      categories: [
-        "Sports & Recreation / Business Aspects",
-        "Business & Economics / Management",
-        "Sports & Recreation / Baseball / History",
-        "Sports & Recreation / Baseball / Statistics",
-      ],
-      averageRating: 4,
-      ratingsCount: 70,
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "3.19.15.0.preview.2",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72YO9AKTq_JYzRgsPqi88iaiZPdkA1cvTKk3gVAtCaOcMKGRCaLkMCI-sRBwWMd7_IgNcUcylBErnPMVvzJeosVO9TmfmQQVC-j_pkhZG4k9AwlK6uIXo5vS2UGX-NfJfBwO5jM&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70GZHqLuE2yxlUQh2_dPeg7j4SL7uwplZf7_Q_VkfQkNuEcB6vDgH14vHygRYKGWmYPgYOgtwmLDG8zBfV2mCCXlycCKCY0GzYf0WjRnxPJKZQcJ89LaxLxKZx_bS0NxSqN_1DO&source=gbs_api",
-        small:
-          "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73zdcsYsTERBWSb_5lJNvxDdefE4zjGH7n8fA5r6jeShSLi88Q0YBIBYv3cdNTWY71al5AmmFLwMuxZOwbENaqP_FlGfFZpLCHgT8Pw7WcoDAAGrX3rb7huu6MVceQesPbW3PnP&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=oIYNBodW-ZEC&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC",
-    },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "30" }] },
-    saleInfo: {
-      country: "US",
-      saleability: "FOR_SALE",
-      isEbook: true,
-      listPrice: { amount: 17.05, currencyCode: "USD" },
-      retailPrice: { amount: 8.7, currencyCode: "USD" },
-      buyLink:
-        "https://play.google.com/store/books/details?id=oIYNBodW-ZEC&rdid=book-oIYNBodW-ZEC&rdot=1&source=gbs_api",
-      offers: [
-        {
-          finskyOfferType: 1,
-          listPrice: { amountInMicros: 17050000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 8700000, currencyCode: "USD" },
-          giftable: true,
-        },
-      ],
-    },
-    accessInfo: {
-      country: "US",
-      viewability: "PARTIAL",
-      embeddable: true,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: {
-        isAvailable: true,
-        acsTokenLink:
-          "http://books.google.com/books/download/Moneyball-sample-epub.acsm?id=oIYNBodW-ZEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
-      },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=oIYNBodW-ZEC&hl=&source=gbs_api",
-      accessViewStatus: "SAMPLE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 300,
-      height: 450,
-      image:
-        "http://books.google.com/books/content?id=oIYNBodW-ZEC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73zdcsYsTERBWSb_5lJNvxDdefE4zjGH7n8fA5r6jeShSLi88Q0YBIBYv3cdNTWY71al5AmmFLwMuxZOwbENaqP_FlGfFZpLCHgT8Pw7WcoDAAGrX3rb7huu6MVceQesPbW3PnP&source=gbs_api",
     },
   },
   {
