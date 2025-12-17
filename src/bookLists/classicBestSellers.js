@@ -1,6 +1,90 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "fTwyEQAAQBAJ",
+    etag: "84ugEdBF1I4",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/fTwyEQAAQBAJ",
+    volumeInfo: {
+      title: "I'll Have What She's Having",
+      authors: ["Chelsea Handler"],
+      publisher: "Random House",
+      publishedDate: "2025-02-25",
+      description:
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • In hilarious and tender essays, Chelsea Handler shares her unforgettable story of becoming the woman she always wanted to be.<br><br>“A raw and raucous exploration of Handler’s ongoing search for self . . . [She’s] disarming us with humor to get at our softest selves and meeting us with her own.”—<i>Oprah Daily</i> </b><br><br><i>There’s a woman I want to become, Chelsea Handler thought as a child. She’ll be strong and confident. She’ll light up a room and spread that light to make others feel better. She’ll make a living being herself. She’ll be a survivor. <br></i> <br>At ten years old, Chelsea opened a lemonade stand and realized she’d make more money if the drinks were spiked. So she added vodka to her recipe and used her earnings to upgrade herself to first-class on a family vacation—leaving her parents and siblings in coach. She moved to Los Angeles and got fired from her temp job when she admitted she didn’t know how to transfer calls. She’s played pickleball with the scions of an American dynasty. She’s sexted a governor. She shared psychedelics with strangers in Spain. When she accidentally ended up at dinner with Woody Allen, she was not going to leave the table without asking him a very personal pointed question. She went on national television and talked about having threesomes. She's never been one to hold back. <br><br>But this life of adventure and absurdity is only part of her story. Chelsea knows what it is to truly show up for her family—canine and human, biological and chosen. She’s discovered how to spend time with herself, how to meditate, how to be open to love, and how to end a relationship with dignity. She is a sister to the many women who rely on her.<br><br>Surprisingly vulnerable and always outrageous, Chelsea Handler captures the antic-filled, exhilarating, and joyful life she’s built—a life that makes the rest of us think, <i>I’ll have what she’s having</i>.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593596579" },
+        { type: "ISBN_13", identifier: "9780593596579" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 320,
+      printedPageCount: 321,
+      dimensions: {
+        height: "21.70 cm",
+        width: "15.10 cm",
+        thickness: "2.50 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Personal Memoirs",
+        "Humor / Form / Essays",
+        "Humor / Topic / Celebrity & Popular Culture",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.1.1.0.preview.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE700B4VVwVgmkKQ3h66gGQNPcDgheMjKNyureyR2iJYJSAAfjS9W9gyvhFY9JcZ-7FPHG-5bcWP9gh4QZpuOSDU733tyFoOCN1TMejX6mwDUoiobXZj_45xRpbITFijCKV5Tq8Go&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Eux1MkkOLnCDugEilW31c_IiAguGFrCHYRsw4Eq5Ow31Ob3Gx7QnxDx-XhzirnzG-5FuJTUJxLV4ccoeJLp0p9kyG5xsp24GMYkbcg0d-eGYKCefwnCvMwks01aCnINsrtAyc&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71ZmKnlXLxu1q4tALmV5R0_Tefz9vOfBXiIao624dI_kBj6iQlTCi9EfJet5X4NEkC9VSgI_I6WP76NFhYs3IJZGaxoGa7dGcjfjn9zxS5umWaYidPXiobrofRNSJoz1PaWnbtd&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE716HjoLCb3UADf4KnaBqNC-Hs_ypiyPQVW-d60SnrefAt414C_UFcLwDbjdZ_0kFpCxxO2BAd838jcTs0zsVDvxrZrL65OAxQB9MO1fO_78L9P6UcqDdnkByZ4QDzUHowrLPia8&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71sT0vBxSYCp4TWiLhk1-VfqBNwOQqpu7JYjlDqTO5y5ucurdNBhvL0yrzd5pt2wn6MyXHklgXqEL1wQx0LAFgYTLVwHn35NEWcvpnoyZKGNYVfFOnU_oqePd-cjUo84ikh_7sz&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71SnVuVFx8SUzSPHvVbYUG1Xz2NYgyXy7RIm_tvpjZoasWlmcXxh35u8WfMNlccYtWIzcuzsXFybnQ_FzstsHTHDmESQG6I6yLyGUv9FXb-Q8urO74bXHQWTzKR-pYiKn2iaRt7&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=fTwyEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=fTwyEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=fTwyEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/I_ll_Have_What_She_s_Having-sample-pdf.acsm?id=fTwyEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=fTwyEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2478,
+      image:
+        "http://books.google.com/books/publisher/content?id=fTwyEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71SnVuVFx8SUzSPHvVbYUG1Xz2NYgyXy7RIm_tvpjZoasWlmcXxh35u8WfMNlccYtWIzcuzsXFybnQ_FzstsHTHDmESQG6I6yLyGUv9FXb-Q8urO74bXHQWTzKR-pYiKn2iaRt7&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "g0Q7EAAAQBAJ",
     etag: "FWFMrjNouKc",
     selfLink: "https://www.googleapis.com/books/v1/volumes/g0Q7EAAAQBAJ",
