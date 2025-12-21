@@ -18,6 +18,8 @@ import ClassicBestSellerList from "../components/ClassicBestSellerList";
 import { UserContext } from "../components/Layout";
 
 const EmotionContainer = styled.div`
+  min-height: 400vh;
+
   button {
     font-family: inherit;
   }
