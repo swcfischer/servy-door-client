@@ -16,6 +16,12 @@ function BestselllerItem(props) {
     <Grid className="fade-in" item xs={12} sm={6} md={4} key={id}>
       <Link
         to={to}
+        onClick={(e) => {
+          localStorage.setItem(
+            "bestseller-height",
+            document.querySelector(".bestseller-list").clientHeight
+          );
+        }}
         style={{ textDecoration: "none" }}
         className="fade-in-book-item"
         onMouseEnter={(e) => {
