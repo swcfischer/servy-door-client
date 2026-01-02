@@ -165,6 +165,95 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "sRwl3ztMydsC",
+    etag: "3iFVd8XZrdk",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/sRwl3ztMydsC",
+    volumeInfo: {
+      title: "Brain Lock",
+      subtitle: "Free Yourself from Obsessive-Compulsive Behavior",
+      authors: ["Jeffrey M. Schwartz"],
+      publisher: "Harper Collins",
+      publishedDate: "2009-11-24",
+      description:
+        "<p>An estimated 5 million Americans suffer from obsessive-compulsive disorder (OCD) and live diminished lives in which they are compelled to obsess about something or to repeat a similar task over and over. Traditionally, OCD has been treated with Prozac or similar drugs. The problem with medication, aside from its cost, is that 30 percent of people treated don't respond to it, and when the pills stop, the symptoms invariably return. </p><p>In Brain Lock, Jeffrey M. Schwartz presents a simple four-step method for overcoming OCD that is so effective, it's now used in academic treatment centers throughout the world. Proven by brain-imaging tests to actually alter the brain's chemistry, this method doesn't rely on psychopharmaceuticals. Instead, patients use cognitive self-therapy and behavior modification to develop new patterns of response to their obsessions. In essence, they use the mind to fix the brain. Using the real-life stories of actual patients, Brain Lock explains this revolutionary method and provides readers with the inspiration and tools to free themselves from their psychic prisons and regain control of their lives.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0061961876" },
+        { type: "ISBN_13", identifier: "9780061961878" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 256,
+      printedPageCount: 260,
+      printType: "BOOK",
+      categories: [
+        "Medical / Neuroscience",
+        "Medical / Neurology",
+        "Medical / Physicians",
+        "Medical / Psychiatry / General",
+        "Psychology / Psychopathology / Compulsive Behavior",
+        "Self-Help / Personal Growth / General",
+        "Psychology / Mental Health",
+        "Psychology / Psychotherapy / Cognitive Behavioral Therapy (CBT)",
+        "Self-Help / Anxieties & Phobias",
+        "Self-Help / Compulsive Behavior / Obsessive Compulsive Disorder (OCD)",
+        "Self-Help / Compulsive Behavior / General",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.7.8.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73K5I-5tEH-ALX2EnxnRSWMXMM-MrObCw-gRe1uctZvBXqxFl1g-A7zDxnH6ryWlI_z80feJXu3vEMjMAs9xtslpQKI1BGNcmcY-sveqyxJTo0Tmq6KRyJi48eL1g_cH-NaQl8e&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VXXavrfKqOfPI1IBjjafIGl9LKWgZA4lH-OYuP8NnvFvnJI4M-sMf-FCQU-7H_qUTBJ-SDtrUfaUY_G_WOKBwhqVyKXCeNhMfZs7EiuNO65PKvdZsOotHC7SdPaByy7eCk99i&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70xrj9ATDnuCbHceYHA_n-AFxEtZ_B-YrK6da5zHz7c_8aGciI3qT7PgqAiWWG-_DkSg_X8iEb_yhDs9Vqe2zD5ZPMv2a4dYbC1mhZdkEb7tXvAdqB2X5SQpy42XimOYBC7uVmu&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73ljVoXeRy9qQFHrojfnkQjkuLtu9S4v6LFSmF7WlAFewGfg5dCGTB67mNpQ37AZuUSrsFFLjR63k8Ax0n0m5P61j33YTZPr41h2FfKRk16sXq8E7Aj3Jtjniz_G_p16ApnbbNz&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70MgUha5tPJygIuiLsJfZmy5gIBhoXPdLIuTfJPX_ve5oX8bQ9Op-3k3jfzciT4GKMLusy34m_NfouPerHrIgWpboDCxMU37LW4gDqo9F56AXDp9irVI4z2z6YuVOETkhjeFRbp&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7216CJiug4XtiWoU0_lhZOC9gJ7dEaBuV9NV4qD30UVMbrHm89jVOILAH7Y9vzKDDza2X8T8oK4QWSpaEATNe5E_Vhn1KLvR_u5gg3vyyWlNg1brEuRKaVYFc1RsN4O4e3Plib1&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=sRwl3ztMydsC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=sRwl3ztMydsC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=sRwl3ztMydsC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "11" }] },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Brain_Lock-sample-epub.acsm?id=sRwl3ztMydsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=sRwl3ztMydsC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1588,
+      height: 2388,
+      image:
+        "http://books.google.com/books/content?id=sRwl3ztMydsC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7216CJiug4XtiWoU0_lhZOC9gJ7dEaBuV9NV4qD30UVMbrHm89jVOILAH7Y9vzKDDza2X8T8oK4QWSpaEATNe5E_Vhn1KLvR_u5gg3vyyWlNg1brEuRKaVYFc1RsN4O4e3Plib1&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "oIYNBodW-ZEC",
     etag: "Ar1rsr+TklQ",
     selfLink: "https://www.googleapis.com/books/v1/volumes/oIYNBodW-ZEC",
