@@ -6,7 +6,6 @@ import BestsellerItem from "./BestsellerItem";
 const Container = styled.div`
   transition: opacity 0.5s ease-in-out;
   opacity: ${(props) => (props.isLoading ? 0 : 1)};
-  height: ${(props) => props.height};
 
   .besterseller-list__title {
     padding-top: 0;
@@ -27,16 +26,8 @@ function ClassicBestSellerList(props) {
 
   // * Grab from localstorage
 
-  const bestSellerHeight = localStorage.getItem("bestseller-height")
-    ? `${localStorage.getItem("bestseller-height")}px`
-    : "100%";
-
   return (
-    <Container
-      className="bestseller-list"
-      isLoading={isLoading}
-      height={bestSellerHeight}
-    >
+    <Container className="bestseller-list" isLoading={isLoading}>
       {/* <h2 className="besterseller-list__title">Reading Opens Doors!</h2> */}
 
       <div className="book-list-container">
