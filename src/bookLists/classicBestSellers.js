@@ -1,30 +1,29 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "vnoZ0QEACAAJ",
-    etag: "U6Q9187YohE",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/vnoZ0QEACAAJ",
+    id: "T-lMEQAAQBAJ",
+    etag: "YedRHk/pHzw",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/T-lMEQAAQBAJ",
     volumeInfo: {
       title: "The Steps",
       authors: ["Sylvester Stallone"],
-      publisher: "HarperCollins Publishers",
-      publishedDate: "2026-05-05",
+      publisher: "Orion",
+      publishedDate: "2026-09-29",
       description:
-        "<p>A gritty, inspiring, heart-wrenching memoir by the Academy Award-winning legend and icon Sylvester Stallone, about his unlikely path to stardom and the creation of the greatest underdog story ever told. </p> <p>In the fifty years since Sylvester Stallone ran up the steps of the Philadelphia Art Museum, he and those steps have become symbols of resilience and determination, and have inspired millions from all over the world to pursue their dreams. In The Steps, Stallone recounts how he pursued his own dreams. A culmination of decades of reflection, Stallone shares where he came from--a difficult birth, an even more difficult childhood, years of struggle in school being misunderstood--and he explains how the real story of a successful life is built by facing, embracing, and ultimately overcoming our challenges. It's found in the distances we are willing to go and the steps we must take to get from where we are to where we want to go. </p> <p>In a narrative framed between his arrival in New York City in 1969 and the triumph of Rocky at the 1977 Academy Awards, Stallone weaves a vivid and propulsive portrait of struggle, subsistence, and ultimately success. He writes of his early days and later years, too, and the persistence, creativity, and resilience that led not only to the creation of Rocky but to a career filled with remarkably iconic roles. The Steps is a testament to Stallone's extraordinary life and a profound meditation on the importance of vision and willpower and hard work. </p>",
+        "<p><b>A gritty, inspiring, heart-wrenching memoir by the Academy Award-winning legend and icon Sylvester Stallone, about his unlikely path to stardom and the creation of the greatest underdog story ever told.</b><br><br>In the fifty years since Sylvester Stallone ran up the steps of the Philadelphia Art Museum, he and those steps have become symbols of resilience and determination, and have inspired millions from all over the world to pursue their dreams. In <i>The Steps</i>, Stallone recounts how he pursued his own dreams. A culmination of decades of reflection, Sly shares where he came from - a difficult birth, an even more difficult childhood, years of struggle in school being misunderstood - and he explains how the real story of a successful life is built by facing, embracing and ultimately overcoming our challenges. It's found in the distances we are willing to go and the steps we must take to get from where we are to where we want to go. <br><br>In a narrative framed between Stallone's arrival in New York City in 1969 and the triumph of <i>Rocky </i>at the 1977 Academy Awards, Sly weaves a vivid and propulsive portrait of struggle, subsistence and ultimately success. He writes of his early days and later years, too, and the persistence, creativity and resilience that led not only to the creation of <i>Rocky</i> but to a career filled with remarkably iconic roles. <i>The Steps</i> is a testament to Stallone's extraordinary life and a profound meditation on the importance of vision and willpower and hard work.</p>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0063443910" },
-        { type: "ISBN_13", identifier: "9780063443914" },
+        { type: "ISBN_10", identifier: "1399629484" },
+        { type: "ISBN_13", identifier: "9781399629485" },
       ],
-      readingModes: { text: false, image: false },
+      readingModes: { text: true, image: false },
       pageCount: 320,
       printedPageCount: 320,
-      dimensions: { height: "22.90 cm", width: "15.20 cm" },
       printType: "BOOK",
       categories: [
         "Biography & Autobiography / Entertainment & Performing Arts",
-        "Biography & Autobiography / Rich & Famous",
-        "Biography & Autobiography / Memoirs",
+        "Sports & Recreation / Boxing",
         "Self-Help / Motivational & Inspirational",
+        "Self-Help / General",
       ],
       maturityRating: "NOT_MATURE",
       allowAnonLogging: false,
@@ -35,17 +34,17 @@ const classicBestsellerList = [
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=vnoZ0QEACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70WbXkdmc4BRwqli-Y-csBusy2KPgxc8FVR3Uxp6SyOwVZhw5thZHmdmLIXQXtZhVsRXmAKDaBImJePQE_gMuK-7M8fU-QsRmT9lLLVZXJixjHtraynN1o_oaox6zJIF2EGUSFF&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71s2C7EUcaPYUIL6KylKYhaSLcIDnE2rO-h2Bv_L0hVB1QHCOvkvS0cHkiWkvOk4I-gzBykpKubCIfL8UIr8D4X3CJ7dcXgRs9h02RepZOAN3K_ZyFNtkbsEDBXU2oqPLmRAbaI&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=vnoZ0QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70EfJHymNRtfjj7ujRbYPhSgm8F5aMQRPGl8_-drxtULtHEArssuYEcDXn8IxNtNJ2Jj9QzbNoUKdmB-em0purrWcQDvtQKxLBEp_36Jm5lIENeX64b3PpwYBLu-R9yhKtfLSuv&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=vnoZ0QEACAAJ&hl=&source=gbs_api",
+        "http://books.google.com/books?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=vnoZ0QEACAAJ&source=gbs_api",
+        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=vnoZ0QEACAAJ",
+        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ",
     },
     saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
     accessInfo: {
@@ -57,17 +56,18 @@ const classicBestsellerList = [
       epub: { isAvailable: false },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=vnoZ0QEACAAJ&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "NONE",
       quoteSharingAllowed: false,
     },
     img: {
       width: 128,
-      height: 193,
+      height: 197,
       image:
-        "http://books.google.com/books/content?id=vnoZ0QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70EfJHymNRtfjj7ujRbYPhSgm8F5aMQRPGl8_-drxtULtHEArssuYEcDXn8IxNtNJ2Jj9QzbNoUKdmB-em0purrWcQDvtQKxLBEp_36Jm5lIENeX64b3PpwYBLu-R9yhKtfLSuv&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
     },
   },
+
   {
     kind: "books#volume",
     id: "jW5tEAAAQBAJ",
