@@ -259,9 +259,9 @@ const Layout = ({ children }) => {
                   </div> */}
                   <div className="nav-links">
                     <TiltedTile text="Library" to="/library" />
-                    <div className="auth-button-container">
+                    {/* <div className="auth-button-container">
                       <GoogleAuthButton />
-                    </div>
+                    </div> */}
                   </div>
                 </Toolbar>
               </AppBar>
