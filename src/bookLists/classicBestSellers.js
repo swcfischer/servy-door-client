@@ -2301,6 +2301,112 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "6elCEAAAQBAJ",
+    etag: "zSkl3/G2cYI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/6elCEAAAQBAJ",
+    volumeInfo: {
+      title: "Battle for the American Mind",
+      subtitle: "Uprooting a Century of Miseducation",
+      authors: ["Pete Hegseth", "David Goodwin"],
+      publisher: "HarperCollins",
+      publishedDate: "2022-06-14",
+      description:
+        "<p>#1 NEW YORK TIMES BESTSELLER!</p><p>President Trump's nominee for Secretary of Defense Pete Hegseth has written a revolutionary road map to saving our children from leftist indoctrination. </p><p>Behind a smokescreen of “preparing students for the new industrial economy,” early progressives had political control in mind. America’s original schools didn’t just make kids memorize facts or learn skills; they taught them to think freely and arrive at wisdom. They assigned the classics, inspired love of God and country, and raised future citizens that changed the world forever. </p><p>Today, after 16,000 hours of K-12 indoctrination, our kids come out of government schools hating America. They roll their eyes at religion and disdain our history. We spend more money on education than ever, but kids can barely read and write—let alone reason with discernment. Western culture is on the ropes. Kids are bored and aimless, flailing for purpose in a system that says racial and gender identity is everything.</p><p>Battle for the American Mind is the untold story of the Progressive plan to neutralize the basis of our Republic – by removing the one ingredient that had sustained Western Civilization for thousands of years. Pete Hegseth and David Goodwin explain why, no matter what political skirmishes conservatives win, progressives are winning the war—and control the “supply lines” of future citizens.  Reversing this reality will require parents to radically reorient their children’s education; even most homeschooling and Christian schooling are infused with progressive assumptions. We need to recover a lost philosophy of education – grounded in virtue and excellence – that can arm future generations to fight for freedom. It’s called classical Christian education. Never heard of it? You’re not alone.</p><p>Battle for the American Mind is more than a book; it’s a field guide for remaking school in the United States. We’ve ceded our kids’ minds to the left for far too long—this book gives patriotic parents the ammunition to join an insurgency that gives America a fighting chance.</p><p>Whether you're a conservative looking to push back against the progressive agenda or simply someone who cares about the education of our children, this book is for you.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0063215071" },
+        { type: "ISBN_13", identifier: "9780063215078" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 288,
+      printedPageCount: 299,
+      printType: "BOOK",
+      categories: [
+        "Political Science / Civics & Citizenship",
+        "Political Science / Public Policy / Cultural Policy",
+        "Education / Educational Policy & Reform / Federal Legislation",
+        "Political Science / Public Policy / Social Policy",
+        "Religion / Christian Living / Parenting",
+        "Religion / Christianity / History",
+        "Religion / Christian Theology / General",
+        "Religion / Psychology of Religion",
+        "Religion / Religion & Science",
+        "Religion / Christian Living / Social Issues",
+      ],
+      averageRating: 2,
+      ratingsCount: 3,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71qBlqBOGINTcgeeeYYTLZsrlJK2Tm6fV0hekSSGhuMffOYVyPm5nLxUPL6fVw3oOV-ci-D_IUjdFtKCwnt861NxOaRNhAmw1okkq3_wxbgFPRQPJ_xl7mPpszygIUKQHzf_5Jb&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ZyFlPaWGvQEsK-FiK4M_NTdeFLgrIdyhHygAXSDSCOLdeKOrcm5f4IRgZGWuHMLazw0CqI2Z-jV1PX1Aixhz45bKeBScAlrVRONCdDPIQiM8S4m-92P3fZh2dfhl55CvYq8y4&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73kfXIgj8To95lvVqRjo-eOpGNva2vlSPNWxtPp3skHZ1dCo5lVpEuRn93g3RDpIIFVaUsoRHm-iS_5l8wxCS6aOgcExTH09Tne9FJsqZJbJqCnpT9eT3G4ki4bGpCDyYVl8rpJ&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE710VLKvUb_1RKxTbbgabcziRe1J1K6zNSEpRB-da-V1zZnIxsNTfLHAbCWtgSXZn5a1SDMlHbfdp6sAey75NYYpBlm7QuUv1hY34yJQ3KQpZnq_2Ynbza26h2Iu6ZUAHxbqVYlU&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72pWS-pBVJxFQ-hZr44SUtsjGNN3H0aZc0HYr5qT0uhbpjz2lDL7ih21yBBJksxr9Jwnv4XGZk5zLck9a3XBRBVE6vCc9Yk3KBIHiOZyOJb7u3N3W_4_KZ21FODhAo3SrzkfrX7&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7322cnRnvdiElAUrc-3_6loJYfSdg3Hgw7USsUPWUU9_-d8W63FlkgLXXvsgAN_5Kuz88XRhBwwqEQGsTS4brivZEvRb8WK47-iqMJrBF25l9Fns3jfnJJPjHVH-v4z7Iw8ZBkm&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=6elCEAAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=6elCEAAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=6elCEAAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 14.49, currencyCode: "USD" },
+      retailPrice: { amount: 14.49, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=6elCEAAAQBAJ&rdid=book-6elCEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 14490000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 14490000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Battle_for_the_American_Mind-sample-epub.acsm?id=6elCEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=6elCEAAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2653,
+      image:
+        "http://books.google.com/books/publisher/content?id=6elCEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE7322cnRnvdiElAUrc-3_6loJYfSdg3Hgw7USsUPWUU9_-d8W63FlkgLXXvsgAN_5Kuz88XRhBwwqEQGsTS4brivZEvRb8WK47-iqMJrBF25l9Fns3jfnJJPjHVH-v4z7Iw8ZBkm&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "bbkVEQAAQBAJ",
     etag: "SyGj0aqIBCY",
     selfLink: "https://www.googleapis.com/books/v1/volumes/bbkVEQAAQBAJ",
