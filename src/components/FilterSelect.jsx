@@ -203,7 +203,7 @@ function AvidTrending(props) {
         }}
       >
         <a
-          href="https://www.avidlanguagelearning.com/app/video/ade34787-5a9a-4d6a-b4c3-8985c6b3a4a9"
+          href="https://www.avidlanguagelearning.com/app/video/1dca72b9-d255-4c17-982a-95ec24b1781c"
           target="_blank"
         >
           Learn English with YouTube
