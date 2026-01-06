@@ -311,6 +311,301 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "UXIjEQAAQBAJ",
+    etag: "cndpXw5CXEs",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/UXIjEQAAQBAJ",
+    volumeInfo: {
+      title: "My Next Breath",
+      subtitle: "A Memoir",
+      authors: ["Jeremy Renner"],
+      publisher: "Flatiron Books",
+      publishedDate: "2025-04-29",
+      description:
+        "<p><b>INSTANT <i>NEW YORK TIMES </i>BESTSELLER<br><br>The gripping and inspiring story of acclaimed actor Jeremy Renner’s near-fatal accident, and what he learned about inner strength, endurance and hope as he overcame insurmountable odds to recover, one breath at a time.</b><br><br>Two-time Oscar nominee Jeremy Renner was the second most googled person in 2023... and not for his impressive filmography. His searing portrayals on film ranged from an Iraq-based army bomb technician in <i>The Hurt Locker </i>and a Boston bank robber in<i> The Town</i> to a crooked Camden mayor in <i>American Hustle</i> before he became heir to the Jason Bourne franchise (<i>The Bourne Legacy</i>). Amongst other iconic roles, he also captured hearts as fan-favorite comic book marksman Hawkeye in seven Marvel films.<br><br> Yet, his otherworldly success on-screen faded to the periphery when a fourteen-thousand-pound snowplow crushed him on New Year’s Day 2023. Somehow able to keep breathing for more than half an hour, he was subsequently rushed to the ICU, after which he would face multiple surgeries and months of painful rehabilitation. <br><br> In this debut memoir, Jeremy writes in blistering detail about his accident and the aftermath. This retelling is not merely a gruesome account of what happened to him; it’s a call to action and a forged companionship between reader and author as Jeremy recounts his recovery journey and reflects on the impact of his suffering. Ultimately, Jeremy’s memoir is a testament to the human spirit and its capacity to endure, evolve, and find purpose in the face of unimaginable adversity. His writing captures the essence of profound transformation, exploring the delicate interplay between vulnerability and strength, despair and hope, redemption and renewal.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1250383544" },
+        { type: "ISBN_13", identifier: "9781250383549" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 224,
+      printedPageCount: 234,
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Entertainment & Performing Arts",
+        "Biography & Autobiography / Rich & Famous",
+        "Biography & Autobiography / Survival",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70pueaC87cZvXJ-9LDZj0NB6lBQN3iG5PAudDOttl5oF-mgnMxrpKwpRBS6zlmufniurnhLwiw5ItP51_zTY3azLJLIf5KvD7FA5gjmyaSXmQ2Sw22JN522ZQe6v-WwjpzBVL0w&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73x0zEMVZ1d67uaE49-3plnZXYP4M9-DZciKVIUu4yEDgyQjUY58B0-wzMbAEtYgYBX1TTRNmoaMiJNFTm18ace3RyK4gAeNMNpshpYL2thSKta3ZKk55sYKsqt6rP-c5N1uXW1&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73k_OA7f6RgnCY0b2py_OtLfU3-cY0i6fxnu7wDW-mR3123BiB0x8QaOuzY37YwL02tBTo7HhX8cl33TOLDcF23pudeCGoK1cT-KyGhwZQ_bq1bYUYivYydpKYcfLYJlAX1skav&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70FOicxSwXF2vuqHyyYr2G0l0sWbbdRZLmynSOhUO3HHxhWWJViEVXv0kQV3Bdw5o2kjgjultxsLClQAJGGY3hK96kVMazahNrp_LKxZpzRIo54TFwPewd93SMO82H8BxBT8883&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71-fgHsSlQW4c_SkZZLN_0Dohur4JBc1XJzDlxbsMmei94cxCyBj0RkEVGsmHOdAlbg169tRKul1DsirXpVmPwK1GM4qJLav7PWHv33TszoIQJsNAkZd0UbXPo_jkr0a2t60nS1&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72VAHDAw1dXMwQmAWB9x9zw7Cds93O1QlbcwHLoJQnbpCC_NkMaJppddnZ2oTdXz2KXQILbW27h5KRMvUI0_Z0Eqd0JGPWRtc7sp_f6IMCizDlwVFQAHY22cnLwmVOnGzY7VPoT&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=UXIjEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=UXIjEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=UXIjEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "5" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 15.99, currencyCode: "USD" },
+      retailPrice: { amount: 15.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=UXIjEQAAQBAJ&rdid=book-UXIjEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 15990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 15990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/My_Next_Breath-sample-epub.acsm?id=UXIjEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=UXIjEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1744,
+      height: 2649,
+      image:
+        "http://books.google.com/books/publisher/content?id=UXIjEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72VAHDAw1dXMwQmAWB9x9zw7Cds93O1QlbcwHLoJQnbpCC_NkMaJppddnZ2oTdXz2KXQILbW27h5KRMvUI0_Z0Eqd0JGPWRtc7sp_f6IMCizDlwVFQAHY22cnLwmVOnGzY7VPoT&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "2I1bEQAAQBAJ",
+    etag: "ZZssk3OPdTs",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/2I1bEQAAQBAJ",
+    volumeInfo: {
+      title: "The Look",
+      authors: ["Michelle Obama"],
+      publisher: "Crown",
+      publishedDate: "2025-11-04",
+      description:
+        "<b>#1 <i>NEW YORK TIMES </i>BESTSELLER • Beautifully illustrated with more than 200 photographs, including never-before-seen images, <i>The Look </i>is a stunning journey through Michelle Obama’s style evolution, in her own words for the first time. </b><br><br>In this celebration of style, from the moment she entered the public eye during her husband’s U.S. Senate campaign through her time as the first Black First Lady and today as one of this country’s most influential figures, Michelle Obama shares how she uses the beauty and intrigue of fashion to draw attention to her message. <br><br>Featuring the voices of Meredith Koop, Obama’s trusted stylist, as well as her makeup artist Carl Ray, hairstylists Yene Damtew, Johnny Wright, and Njeri Radway, and many of the designers who have dressed Obama for notable events, <i>The Look </i>brings readers behind the scenes not only to reveal how her most memorable looks came together but also to tell a powerful story about how we present ourselves. <br><br>Obama’s intimate and candid stories illuminate how her approach to dressing has evolved throughout her life—from the colorful sheath dresses, cardigans, and brooches she wore during her time as First Lady to the bold suits, denim, and braids of her post-White House life and all the active looks and beautiful gowns in between. <br><br>In <i>The Look</i>, Michelle Obama explores the joy and the purpose of fashion and beauty and how—when wielded with grace and care—they can uplift and affirm the values one holds most dear. Confidence, she concludes, cannot be put on. But when you’re wearing something that’s intentional or beloved, clothing can make you feel like the best version of yourself.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0593800710" },
+        { type: "ISBN_13", identifier: "9780593800713" },
+      ],
+      readingModes: { text: true, image: false },
+      pageCount: 304,
+      printedPageCount: 305,
+      dimensions: { height: "29.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Biography & Autobiography / Women",
+        "Photography / Subjects & Themes / Fashion",
+        "History / United States / 21st Century",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.1.1.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE724RwkiGc80pS5oceZ7V764IBeRLkq_dU5iFVzpvhyT3sIu5eib-PjYBAuYiUD4YVy7fdcomr91vbMnkRq1JEnH95zFqIL_ZQnAFlh1YoRpVCD1o7hhK3EujmbhFHBoBnDdhjU4&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ptjoTUS2i0BTCZ_EDkevCmUsWy12RkyTcaWXjc_1QfhHHU-_ncIVJjSU3EqPZXX4eXYnfXgxjJR9cXzi60Nh-noYIHXg6J0djedlHdfLnGbJCOgI9bxbgScsR9j54kSMlLRvG&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70IhSOqNKHV1yJAu1W0_iRIsweS_PoNyPZ6lfZ4XQTt535IsiswtgCyriTPpSSsVd98ZfTfVjUODwpwXG6KwfjBqmil_q3Fp2S6cD4TkKzSfk9aZq7zn15GyKrqogabU6q3i99Z&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71_uMg5HrGJuvp_6DJbDF_eJlbLyMF_oSGXReh7zR5vK09EH5k87efT0ZI2Cnw7eqfOoW024gCg7alDKufFbL4MUYgDaLUgqN9gTyPmtGWqQolkJPcn3_4oDU3VMF69OHeQgSsQ&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73KLH3Qmjxjjn8lBoeLKSfdgHKoCSyFzyuOnT_k10O5VrvC6P6h2y04PLfHzSpIza2aQA3cizM-9lltC2xT6p3raRY1KcowXiX3m4NKiuAgib-RbbvmxH-Mm15hP8l2iG-vlp7V&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72ik9POUePEkiftSttqajpzwlxlrUHRwIIkwu2NG90yFVOQMgeQ0zrV82zsehPu_WIPAfc8NcZYHPQ3hO0ry8Gxz-9eABt-kw0u0YVGc7hl2j20D4D9ewYdZypH3_bAKjD5yVm5&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=2I1bEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=2I1bEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=2I1bEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "2" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 16.99, currencyCode: "USD" },
+      retailPrice: { amount: 16.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=2I1bEQAAQBAJ&rdid=book-2I1bEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 16990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Look-sample-epub.acsm?id=2I1bEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=2I1bEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 2700,
+      height: 3262,
+      image:
+        "http://books.google.com/books/publisher/content?id=2I1bEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72ik9POUePEkiftSttqajpzwlxlrUHRwIIkwu2NG90yFVOQMgeQ0zrV82zsehPu_WIPAfc8NcZYHPQ3hO0ry8Gxz-9eABt-kw0u0YVGc7hl2j20D4D9ewYdZypH3_bAKjD5yVm5&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Ye6e_VxM00kC",
+    etag: "b+jRLuFBzDI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Ye6e_VxM00kC",
+    volumeInfo: {
+      title: "Trump: The Art of the Deal",
+      authors: ["Donald J. Trump", "Tony Schwartz"],
+      publisher: "Random House Publishing Group",
+      publishedDate: "2009-12-23",
+      description:
+        "<b>#1 NATIONAL BESTSELLER • President Donald J. Trump lays out his professional and personal worldview in this classic work—a firsthand account of the rise of America’s foremost businessman.<br><br>“Donald Trump is a deal maker. He is a deal maker the way lions are carnivores and water is wet.”—<i>Chicago Tribune</i></b><br><br> <i>“I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump</i><br><br>Here is Trump in action—how he runs his organization and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and challenges conventional thinking. But even a maverick plays by rules, and Trump has formulated time-tested guidelines for success. He isolates the common elements in his greatest accomplishments; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. <i>Trump: The Art of the Deal</i> is an unguarded look at the mind of a brilliant entrepreneur—the ultimate read for anyone interested in the man behind the spotlight.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0307575330" },
+        { type: "ISBN_13", identifier: "9780307575333" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 384,
+      printedPageCount: 401,
+      dimensions: { height: "30.00 cm" },
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Entrepreneurship",
+        "Self-Help / Personal Growth / Success",
+        "Business & Economics / Motivational",
+      ],
+      averageRating: 3.5,
+      ratingsCount: 28,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "0.17.17.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70YxkZQLhBcT4erUaCssDYqHD4_uaPFJM6aSfKEOEqRd7nP_C0TbMjkYdzM37rFxaY3rUGl3kvix3djcZBdHsMqkiBd8ZTT95HXWmcwI1mIHYI1T40hJz91SK_HUv0zepmHgUZO&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7063OsQGtsvDE_UFvcOlKsqVNyR78bV3SK4qjQqpC1NLw1tXFY0uHuJNlz728xq2UVDpR_El0AFDfVxr2vQAhbbma4QAtzXuKC1bqulmwo5ld9jLKlL9Dp_eWgxOu2dkngl20a9&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73H62D8uuCaiM5DJwp5mk6DpDz9QaCHVG-ILlBQcYO_2b8cw-LhKlSv8oo23uh-HDnCo6pZD1KNdAWX6geFTjih6rjzSGL-kO96dKgJDCKxAeQPKxIO9_AUmTDIJ_mrq7JP3Kw3&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70HJ5eV8Iu8XEreRMwCkLDO6JBfG1NcFl_u0xYCYDPLIufm4i6Rhd6lxu2buaG5GIceOGIP_g7OTUsZKyzRMEWmE0zanAOeWKTwnIgkMIrl_2CHt8TdqT4acYeaIvmCghS6rpWw&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE726IJANE97uRA4sN2yJXZDOnIXO1DhTUo7E2hmzm247a9nzcTdAbnxnlUhGkuLE_9J_OcutjAAs94m9cV7ZbqR81THqoSp1qC0Rv8AklkIz2ajNKBIxbh-QqRi8um7KFZfTst3E&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "22" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 10.99, currencyCode: "USD" },
+      retailPrice: { amount: 10.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=Ye6e_VxM00kC&rdid=book-Ye6e_VxM00kC&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 10990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 10990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-epub.acsm?id=Ye6e_VxM00kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Trump_The_Art_of_the_Deal-sample-pdf.acsm?id=Ye6e_VxM00kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Ye6e_VxM00kC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1311,
+      image:
+        "http://books.google.com/books/content?id=Ye6e_VxM00kC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE726IJANE97uRA4sN2yJXZDOnIXO1DhTUo7E2hmzm247a9nzcTdAbnxnlUhGkuLE_9J_OcutjAAs94m9cV7ZbqR81THqoSp1qC0Rv8AklkIz2ajNKBIxbh-QqRi8um7KFZfTst3E&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "sRwl3ztMydsC",
     etag: "3iFVd8XZrdk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/sRwl3ztMydsC",
