@@ -67,6 +67,71 @@ const classicBestsellerList = [
         "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
     },
   },
+  {
+    kind: "books#volume",
+    id: "4zpjEQAAQBAJ",
+    etag: "uURaFez+wB8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/4zpjEQAAQBAJ",
+    volumeInfo: {
+      title: "Streetwise",
+      subtitle: "Getting to and Through Goldman Sachs",
+      authors: ["Lloyd Blankfein"],
+      publisher: "Penguin",
+      publishedDate: "2026-03-03",
+      description:
+        "<b>From the long-tenured head of an institution legendary for its culture of success comes a candid memoir of global leadership in an age of extreme turbulence.<br><br>“Lloyd Blankfein is scary smart about people, markets, and life generally. His 10,000 Small Businesses idea proved to be a huge winner, and I personally witnessed the time and effort he devoted to its success. During the 2008–2009 financial crisis, Lloyd acted decisively, and he tells the story of what happened with unique insights.” —Warren Buffett</b><br><br>When Lloyd Blankfein was attacked as a Wall Street fat cat, he had to smile, thinking of his precarious childhood in the notorious public housing projects of East New York, Brooklyn, and attending a high school so chaotic he didn’t feel safe leaving class to go to the bathroom in his time there. Harvard University was a total moonshot, and his outsider status never wore off, there or at Harvard Law. When he struck people as street-y, it wasn’t Wall Street they were thinking of. But if the chip never quite left Blankfein's shoulder, neither did a wry, resilient spirit and a lucid, democratic intelligence that saw through airs and found talent and ideas in unlikely places.<br><br><i>Streetwise</i> is a delightfully honest, sharp and often very funny reckoning with the author’s education—in finance, human nature, and the workings of the world. It abounds with lessons about leading teams of brilliant, aggressive, competitive people and harmonizing them around shared goals; changing when times are hard and when they’re good; managing risk; and knowing a crisis is at hand before it swamps you so you can guide your team to the further shore. Blankfein is famed for his calm hand on Goldman Sachs’s tiller during the global financial crisis, and that story is told in full here, among many other decisive episodes.<br><br>Suffusing <i>Streetwise</i> is the author’s deep and abiding respect for the partnership culture of Goldman Sachs. We follow the never-ending work to protect and preserve that culture through all sorts of tumult—the challenge behind every other challenge. He is open about when he and the firm got it wrong, which was often enough, but the creative, risk-taking spirit was never snuffed—even as the fail-safes put in place to protect the firm and its clients held when they were needed the most. A powerful blueprint for the wise stewardship of a cause that is larger than yourself, <i>Streetwise</i> will inspire and inform readers throughout the global business community and beyond.",
+      industryIdentifiers: [{ type: "ISBN_13", identifier: "9798217058938" }],
+      readingModes: { text: true, image: false },
+      pageCount: 400,
+      printedPageCount: 400,
+      printType: "BOOK",
+      categories: [
+        "Business & Economics / Management",
+        "Biography & Autobiography / Memoirs",
+        "Business & Economics / Decision-Making & Problem Solving",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "preview-1.0.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=4zpjEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71TDQtwatKVnvtRYQ8pTV8UnUqSi3_sZfMJL_euXRmyl4L6Vjm97OmVRTQreVUhZa1TRbWiEGFIRinpRidR-tZJ4hGoNrLFFz-e_Ocj8DPbOsh9TYyTBIZlNkZy7FPRJ0m5fE_u&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=4zpjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70CIv1vowc99iepoT7PsavY7x0_AwkDo2PKla4Jt1q7Y88zj3EkA_HtB7FQURHqjt45RGpD5Eo62_GcENk1SpaZv-eEKtmTVaW_cBlqSLlQ1ZjiYu7I-0glrUrlHvoDGMuNW7wZ&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=4zpjEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=4zpjEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=4zpjEQAAQBAJ",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "NO_PAGES",
+      embeddable: false,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=4zpjEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "NONE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 128,
+      height: 195,
+      image:
+        "http://books.google.com/books/publisher/content?id=4zpjEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70CIv1vowc99iepoT7PsavY7x0_AwkDo2PKla4Jt1q7Y88zj3EkA_HtB7FQURHqjt45RGpD5Eo62_GcENk1SpaZv-eEKtmTVaW_cBlqSLlQ1ZjiYu7I-0glrUrlHvoDGMuNW7wZ&source=gbs_api",
+    },
+  },
 
   {
     kind: "books#volume",
