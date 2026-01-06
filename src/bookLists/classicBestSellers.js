@@ -606,6 +606,100 @@ const classicBestsellerList = [
   },
   {
     kind: "books#volume",
+    id: "LYNcEQAAQBAJ",
+    etag: "UTqwW78AZ2s",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/LYNcEQAAQBAJ",
+    volumeInfo: {
+      title: "The Amazing Generation",
+      subtitle: "Your Guide to Fun and Freedom in a Screen-Filled World",
+      authors: ["Jonathan Haidt", "Catherine Price"],
+      publisher: "Penguin",
+      publishedDate: "2025-12-30",
+      description:
+        "<b>Inspired by the #1 <i>New York Times</i> bestseller <i>The Anxious Generation, </i>this new book for kids and tweens is a comprehensive guide for living a happy and exciting life that isn’t hijacked by a smartphone.</b><br><br>Jonathan Haidt’s blockbuster book, <i>The Anxious Generation, </i>has sparked a global conversation about the effects of smartphones and social media on young people’s development, and has inspired millions of parents, teachers, and leaders to take action. Now, Haidt and Catherine Price, author of the bestselling <i>How to Break Up with Your Phone</i>, have teamed up to create a new book that speaks directly to kids. Their goal? To empower young people to stand up for <i>themselves </i>by choosing a life not dominated by screens and social media.<br><br>Whether or not kids already have smartphones or social media accounts, this engaging guide is packed with surprising facts, a graphic novel, interactive challenges, secrets that tech leaders don’t want kids to know, and real-life anecdotes from young adults who regret getting smartphones at a young age and want to help the next generation avoid making the same mistakes.<br><br>But this isn’t just a book about what <i>not </i>to do. It’s a bold, optimistic, and practical guide to growing into your most authentic, confident, and adventurous self. Readers won’t just discover how to avoid becoming the next Anxious Generation. They’ll learn how to become <i>amazing.</i>",
+      industryIdentifiers: [{ type: "ISBN_13", identifier: "9798217111923" }],
+      readingModes: { text: true, image: false },
+      pageCount: 240,
+      printedPageCount: 241,
+      printType: "BOOK",
+      categories: [
+        "Juvenile Nonfiction / Health & Daily Living / Mental Health",
+        "Juvenile Nonfiction / Social Science / Psychology",
+        "Juvenile Nonfiction / Social Topics / Emotions & Feelings",
+      ],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: true,
+      contentVersion: "1.3.2.0.preview.2",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72iPYiL_Bo1IhbmX0VjIxV45lNHyCz66sfzP0-DMPE0v5OzIiERwa39XQ5g71hH0vjXLUlI7f0XUcJ71_Rlsd4eTdWSAoKu-OYaTe6WcYRmTdaELRicWpb9Fv30QsjB0MaXkTBK&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72Okggvk5vGHCDeevNSZ3Bqyoq8X_UCqa9L7QJQFBb4JXj3YMVEUSpQJuhMOx_D1Rv5ZZo-_Qt3XPsHdFRHK3fmLEoXYWL7Hgmdoghj9BX4dC0Ha9Brph_72-7B9Em0nQR9-ziI&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73NYPwlx2fi5L0dwAzieaPR2Ro0aOIQyDX9zFZA1L0EI36jAcHdRWjvxay39R5C1daKfSMTyjRXjaszatIyJ485dCL-N2E_l1YKicEWADuHgfpVJpfxyLMe09jfsWAdbgbB6Wj4&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73U0cCHbZATE_7ZL831v_O9ikWHJjIDvTAff-XHmJAMRNJ8D_U_BF5YcsADgCULJYd9MntClUJAWn5nx7ml2SbiHR52nqLLYwVzu7aOefuOue1NNc7Qh_uWcCK55QvXoA-h7n_P&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72xJOU0WAGVF32xK1c6gchGVkkzWC0gs8c0UrSC_0ugVY0FcE6E9RMSXLa55-58RYutK9QvxVLLD0klamdQZvqeodqn7J0786rLY4gpJvbL1jrMekvzE6EP0r4yeqyKIJzZNPrC&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE712A08z7wZd8l800inVEmrWLLAYRf_dLnu4Yj6Rla8BbEijco0p25FVErejegDTjiRfvMW3ed8Fvmi9mOl3hAcCpXmNDsrg7rFKRZpMKVSO4WSmZRiXHGfrh7ORyKumPHUABBM9&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=LYNcEQAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=LYNcEQAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=LYNcEQAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "3" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 9.99, currencyCode: "USD" },
+      retailPrice: { amount: 9.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=LYNcEQAAQBAJ&rdid=book-LYNcEQAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 9990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 9990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/The_Amazing_Generation-sample-epub.acsm?id=LYNcEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=LYNcEQAAQBAJ&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1652,
+      height: 2478,
+      image:
+        "http://books.google.com/books/publisher/content?id=LYNcEQAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE712A08z7wZd8l800inVEmrWLLAYRf_dLnu4Yj6Rla8BbEijco0p25FVErejegDTjiRfvMW3ed8Fvmi9mOl3hAcCpXmNDsrg7rFKRZpMKVSO4WSmZRiXHGfrh7ORyKumPHUABBM9&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "sRwl3ztMydsC",
     etag: "3iFVd8XZrdk",
     selfLink: "https://www.googleapis.com/books/v1/volumes/sRwl3ztMydsC",
