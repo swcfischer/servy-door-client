@@ -268,7 +268,7 @@ const Layout = ({ children }) => {
               <HelmetComponent />
 
               <div style={{ minHeight: "150vh" }}>{children}</div>
-              <footer className="footer">
+              {/* <footer className="footer">
                 <Typography variant="body2" className="typography">
                   ServyDoor{" "}
                 </Typography>
@@ -289,7 +289,7 @@ const Layout = ({ children }) => {
                     <Link to="/library">Library</Link>
                   </li>
                 </ul>
-              </footer>
+              </footer> */}
             </StyledContainer>
 
             {/* Wrapped toggle: reappears on hover */}
