@@ -140,13 +140,13 @@ const FilterSelect = (props) => {
         />
       </div>
 
-      <AvidTrending
+      {/* <AvidTrending
         wasSearchDone={wasSearchDone}
         books={books}
         q={q}
         params={params}
         handleChange={handleChange}
-      />
+      /> */}
       {/* <Trending
         wasSearchDone={wasSearchDone}
         books={books}
