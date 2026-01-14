@@ -1,84 +1,102 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "L1iddN44SMIC",
-    etag: "ImmuM+6OAGI",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/L1iddN44SMIC",
+    id: "gt7EQgH8-b4C",
+    etag: "R27MKGeyaqg",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/gt7EQgH8-b4C",
     volumeInfo: {
-      title: "When the Tripods Came",
-      authors: ["John Christopher"],
-      publisher: "Simon and Schuster",
-      publishedDate: "2003-04",
+      title: "Into Thin Air",
+      authors: ["Jon Krakauer"],
+      publisher: "Knopf Doubleday Publishing Group",
+      publishedDate: "1998-11-12",
       description:
-        "Long ago, the Tripods--huge, three-legged machines--descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives. But for a brief time in each person's life--in childhood--he is not a slave. For Will, his time of freedom is about to end--unless he can escape to the White Mountains, where the possibility of freedom still exists. The Tripods trilogy follows the adventures of Will and his cohorts, as they try to evade the Tripods and maintian their freedom and ultimately do battle against them. The prequel, When the Tripods Came, explains how the Tripods first invaded and gained control of the planet.",
+        "<b>#1 NATIONAL BESTSELLER • The epic account of the storm on the summit of Mt. Everest that claimed five lives and left countless more—including Krakauer's—in guilt-ridden disarray. <br></b><br><b>“A harrowing tale of the perils of high-altitude climbing, a story of bad luck and worse judgment and of heartbreaking heroism.”—<i>People</i></b><br><br><b>A <i>Los Angeles Times </i>Best Nonfiction Book of the Last 30 Years</b><br><br>A bank of clouds was assembling on the not-so-distant horizon, but journalist-mountaineer Jon Krakauer, standing on the summit of Mt. Everest, saw nothing that “suggested that a murderous storm was bearing down.” He was wrong. <br><br>By writing <i>Into Thin Air</i>, Krakauer may have hoped to exorcise some of his own demons and lay to rest some of the painful questions that still surround the event. He takes great pains to provide a balanced picture of the people and events he witnessed and gives due credit to the tireless and dedicated Sherpas. He also avoids blasting easy targets such as Sandy Pittman, the wealthy socialite who brought an espresso maker along on the expedition. Krakauer's highly personal inquiry into the catastrophe provides a great deal of insight into what went wrong. But for Krakauer himself, further interviews and investigations only lead him to the conclusion that his perceived failures were directly responsible for a fellow climber's death. Clearly, Krakauer remains haunted by the disaster, and although he relates a number of incidents in which he acted selflessly and even heroically, he seems unable to view those instances objectively. In the end, despite his evenhanded and even generous assessment of others' actions, he reserves a full measure of vitriol for himself. <br><br>This updated trade paperback edition of <i>Into Thin Air</i> includes an extensive new postscript that sheds fascinating light on the acrimonious debate that flared between Krakauer and Everest guide Anatoli Boukreev in the wake of the tragedy. \"I have no doubt that Boukreev's intentions were good on summit day,\" writes Krakauer in the postscript, dated August 1999. \"What disturbs me, though, was Boukreev's refusal to acknowledge the possibility that he made even a single poor decision. Never did he indicate that perhaps it wasn't the best choice to climb without gas or go down ahead of his clients.\" As usual, Krakauer supports his points with dogged research and a good dose of humility. But rather than continue the heated discourse that has raged since <i>Into Thin Air</i>'s denouncement of guide Boukreev, Krakauer's tone is conciliatory; he points most of his criticism at G. Weston De Walt, who coauthored <i>The Climb</i>, Boukreev's version of events. And in a touching conclusion, Krakauer recounts his last conversation with the late Boukreev, in which the two weathered climbers agreed to disagree about certain points. Krakauer had great hopes to patch things up with Boukreev, but the Russian later died in an avalanche on another Himalayan peak, Annapurna I. <br><br>In 1999, Krakauer received an Academy Award in Literature from the American Academy of Arts and Letters--a prestigious prize intended \"to honor writers of exceptional accomplishment.\" According to the Academy's citation, \"Krakauer combines the tenacity and courage of the finest tradition of investigative journalism with the stylish subtlety and profound insight of the born writer. His account of an ascent of Mount Everest has led to a general reevaluation of climbing and of the commercialization of what was once a romantic, solitary sport; while his account of the life and death of Christopher McCandless, who died of starvation after challenging the Alaskan wilderness, delves even more deeply and disturbingly into the fascination of nature and the devastating effects of its lure on a young and curious mind.\"",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0689857624" },
-        { type: "ISBN_13", identifier: "9780689857621" },
+        { type: "ISBN_10", identifier: "0679462716" },
+        { type: "ISBN_13", identifier: "9780679462712" },
       ],
-      readingModes: { text: false, image: false },
-      pageCount: 160,
-      printedPageCount: 164,
-      dimensions: {
-        height: "17.80 cm",
-        width: "10.60 cm",
-        thickness: "1.30 cm",
-      },
+      readingModes: { text: true, image: true },
+      pageCount: 320,
+      printedPageCount: 318,
       printType: "BOOK",
       categories: [
-        "Juvenile Fiction / General",
-        "Juvenile Fiction / Action & Adventure / General",
-        "Juvenile Fiction / Boys & Men",
-        "Juvenile Fiction / Fantasy / General",
-        "Juvenile Fiction / Science Fiction / General",
+        "Biography & Autobiography / Survival",
+        "Biography & Autobiography / Adventurers & Explorers",
+        "Biography & Autobiography / Editors, Journalists, Publishers",
       ],
-      averageRating: 3,
-      ratingsCount: 2,
+      averageRating: 4,
+      ratingsCount: 49,
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "0.4.3.0.preview.0",
+      allowAnonLogging: true,
+      contentVersion: "4.21.13.0.preview.3",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72Rnui6vbCld4P4g-OR1V8hugWlAs5kjg0Zl9Kf6YiKWhZ4p3JCUVlwJzpvAFygQyxKXThbXknm7V82BvyGPsVCzh24ZAiysuztOgHjA8xXrq3IOHbmF2idOractl_9CSJZZAnX&source=gbs_api",
+          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70AXvhqk1vKKKEJbOiZ_Cq6dJp1uJQrWFg87JqftGXV4ZkUsP0Zpsk0LUXLdIQcD-FiQifiTK2RYtpuUVBp0UQ9jhN8HmEWt4nklhAJszH_3BtCGLxpQ0BkB0rvnTyiQEuD45-i&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73vAhC3hUcg70iXryKayYquEXV9LZYTHxh46yqoxAEz5UHlrGt4StuHAGlGOcehZ2MhXpLaey1l522I3TXHDrIskRRp4gHjCUyCtKZnG_mKhSybkoYo76IVQfncxYJIgfiB49Hj&source=gbs_api",
+          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GBYcN0ZzeEP_1sj2l0j86jrxOn_ayPfUq7HGTIdgIis70a4732oqBi8mNRZVx46kKggWS8rjAMGMwSgw09wg5s-oBQebVJh7JCOCOiRF03Mm7miuKXRcCUehre-XnkMc-JAtn&source=gbs_api",
         small:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72mnP9rCLuGxwyQALVomH24IFQt4y4fHMad5McI9heZvXyanM3YYuFeed_q_YqLpLl0oU18Ae4Jvo1osGGDVMKr_elz61jNsuDuP9KL9_cjQ-z8c2a-U7ZTgvQooO8HuTfw0dNF&source=gbs_api",
+          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70bUd_5nxg5vboqRX0H7t1-vuqT7GguMMXiKzQttnd-bZ9sr0x8ltRvv6OCXvgbilgGyXU_SFJDozXYsAxvZczeUx6ptp9nVk_WSEaExfwP4sP8abSilaBgt8fF9FOhWRNCU3Ey&source=gbs_api",
         medium:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE704IN2IWz36_FM5s-7A9Knu0Op117oS3_LvQj0iX1pb3q673wU7qM9afK_I-6gbx6FSumQrTzdA-tSV_4bf5gEVcrdpppsTx16r9O6kV1PVSURR_3Z_-qlEHILfjldUZ9__qPEv&source=gbs_api",
+          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73lq199zeiCexI304igwnqrWB3VQk44RvBzJldAOUFFdH6YfDcPBsDhOUcyZVqhLCtPlIuXI7pDcqzgmjxKIhhxNg3p3iKtH7DcFX7CpHv1TMLbFiwMiM94fm4A69yfOTm0l9Pq&source=gbs_api",
         large:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fs4956FbTZNZCPJK-erDcTJl3SFls9sHuIipVelVMtLT3RAkHBgXxDFMPGXShArkbP0LXUdOwxdPhTwdhF35kNQhe2RP6f-FZab4tiPISvWFjt1hS70sG7KdTFUuB1I4BBAcz&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=L1iddN44SMIC&hl=&source=gbs_api",
+        "http://books.google.com/books?id=gt7EQgH8-b4C&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=L1iddN44SMIC&source=gbs_api",
+        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=L1iddN44SMIC",
+        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "26" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 1.99, currencyCode: "USD" },
+      retailPrice: { amount: 1.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C&rdid=book-gt7EQgH8-b4C&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 1990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 1990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
       viewability: "PARTIAL",
       embeddable: true,
       publicDomain: false,
-      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Into_Thin_Air-sample-epub.acsm?id=gt7EQgH8-b4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Into_Thin_Air-sample-pdf.acsm?id=gt7EQgH8-b4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       webReaderLink:
-        "http://play.google.com/books/reader?id=L1iddN44SMIC&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=gt7EQgH8-b4C&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
       width: 800,
-      height: 1346,
+      height: 1184,
       image:
-        "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+        "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fs4956FbTZNZCPJK-erDcTJl3SFls9sHuIipVelVMtLT3RAkHBgXxDFMPGXShArkbP0LXUdOwxdPhTwdhF35kNQhe2RP6f-FZab4tiPISvWFjt1hS70sG7KdTFUuB1I4BBAcz&source=gbs_api",
     },
   },
 
