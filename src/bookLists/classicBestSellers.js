@@ -81,74 +81,7 @@ const classicBestsellerList = [
         "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
     },
   },
-  {
-    kind: "books#volume",
-    id: "T-lMEQAAQBAJ",
-    etag: "YedRHk/pHzw",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/T-lMEQAAQBAJ",
-    volumeInfo: {
-      title: "The Steps",
-      authors: ["Sylvester Stallone"],
-      publisher: "Orion",
-      publishedDate: "2026-09-29",
-      description:
-        "<p><b>A gritty, inspiring, heart-wrenching memoir by the Academy Award-winning legend and icon Sylvester Stallone, about his unlikely path to stardom and the creation of the greatest underdog story ever told.</b><br><br>In the fifty years since Sylvester Stallone ran up the steps of the Philadelphia Art Museum, he and those steps have become symbols of resilience and determination, and have inspired millions from all over the world to pursue their dreams. In <i>The Steps</i>, Stallone recounts how he pursued his own dreams. A culmination of decades of reflection, Sly shares where he came from - a difficult birth, an even more difficult childhood, years of struggle in school being misunderstood - and he explains how the real story of a successful life is built by facing, embracing and ultimately overcoming our challenges. It's found in the distances we are willing to go and the steps we must take to get from where we are to where we want to go. <br><br>In a narrative framed between Stallone's arrival in New York City in 1969 and the triumph of <i>Rocky </i>at the 1977 Academy Awards, Sly weaves a vivid and propulsive portrait of struggle, subsistence and ultimately success. He writes of his early days and later years, too, and the persistence, creativity and resilience that led not only to the creation of <i>Rocky</i> but to a career filled with remarkably iconic roles. <i>The Steps</i> is a testament to Stallone's extraordinary life and a profound meditation on the importance of vision and willpower and hard work.</p>",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1399629484" },
-        { type: "ISBN_13", identifier: "9781399629485" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 320,
-      printedPageCount: 320,
-      printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Entertainment & Performing Arts",
-        "Sports & Recreation / Boxing",
-        "Self-Help / Motivational & Inspirational",
-        "Self-Help / General",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71s2C7EUcaPYUIL6KylKYhaSLcIDnE2rO-h2Bv_L0hVB1QHCOvkvS0cHkiWkvOk4I-gzBykpKubCIfL8UIr8D4X3CJ7dcXgRs9h02RepZOAN3K_ZyFNtkbsEDBXU2oqPLmRAbaI&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 128,
-      height: 197,
-      image:
-        "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
-    },
-  },
+
   {
     kind: "books#volume",
     id: "4zpjEQAAQBAJ",
