@@ -1,6 +1,88 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
+    id: "L1iddN44SMIC",
+    etag: "ImmuM+6OAGI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/L1iddN44SMIC",
+    volumeInfo: {
+      title: "When the Tripods Came",
+      authors: ["John Christopher"],
+      publisher: "Simon and Schuster",
+      publishedDate: "2003-04",
+      description:
+        "Long ago, the Tripods--huge, three-legged machines--descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives. But for a brief time in each person's life--in childhood--he is not a slave. For Will, his time of freedom is about to end--unless he can escape to the White Mountains, where the possibility of freedom still exists. The Tripods trilogy follows the adventures of Will and his cohorts, as they try to evade the Tripods and maintian their freedom and ultimately do battle against them. The prequel, When the Tripods Came, explains how the Tripods first invaded and gained control of the planet.",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "0689857624" },
+        { type: "ISBN_13", identifier: "9780689857621" },
+      ],
+      readingModes: { text: false, image: false },
+      pageCount: 160,
+      printedPageCount: 164,
+      dimensions: {
+        height: "17.80 cm",
+        width: "10.60 cm",
+        thickness: "1.30 cm",
+      },
+      printType: "BOOK",
+      categories: [
+        "Juvenile Fiction / General",
+        "Juvenile Fiction / Action & Adventure / General",
+        "Juvenile Fiction / Boys & Men",
+        "Juvenile Fiction / Fantasy / General",
+        "Juvenile Fiction / Science Fiction / General",
+      ],
+      averageRating: 3,
+      ratingsCount: 2,
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.4.3.0.preview.0",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72Rnui6vbCld4P4g-OR1V8hugWlAs5kjg0Zl9Kf6YiKWhZ4p3JCUVlwJzpvAFygQyxKXThbXknm7V82BvyGPsVCzh24ZAiysuztOgHjA8xXrq3IOHbmF2idOractl_9CSJZZAnX&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73vAhC3hUcg70iXryKayYquEXV9LZYTHxh46yqoxAEz5UHlrGt4StuHAGlGOcehZ2MhXpLaey1l522I3TXHDrIskRRp4gHjCUyCtKZnG_mKhSybkoYo76IVQfncxYJIgfiB49Hj&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72mnP9rCLuGxwyQALVomH24IFQt4y4fHMad5McI9heZvXyanM3YYuFeed_q_YqLpLl0oU18Ae4Jvo1osGGDVMKr_elz61jNsuDuP9KL9_cjQ-z8c2a-U7ZTgvQooO8HuTfw0dNF&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE704IN2IWz36_FM5s-7A9Knu0Op117oS3_LvQj0iX1pb3q673wU7qM9afK_I-6gbx6FSumQrTzdA-tSV_4bf5gEVcrdpppsTx16r9O6kV1PVSURR_3Z_-qlEHILfjldUZ9__qPEv&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=L1iddN44SMIC&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=L1iddN44SMIC&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=L1iddN44SMIC",
+    },
+    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    accessInfo: {
+      country: "US",
+      viewability: "PARTIAL",
+      embeddable: true,
+      publicDomain: false,
+      textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+      epub: { isAvailable: false },
+      pdf: { isAvailable: false },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=L1iddN44SMIC&hl=&source=gbs_api",
+      accessViewStatus: "SAMPLE",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1346,
+      image:
+        "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
     id: "T-lMEQAAQBAJ",
     etag: "YedRHk/pHzw",
     selfLink: "https://www.googleapis.com/books/v1/volumes/T-lMEQAAQBAJ",
