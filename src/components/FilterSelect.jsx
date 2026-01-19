@@ -65,8 +65,8 @@ const FilterSelect = (props) => {
       backgroundColor: state.isSelected
         ? "#424242"
         : state.isFocused
-        ? "#303030"
-        : "#212121",
+          ? "#303030"
+          : "#212121",
       color: "#d4c066",
       "&:hover": {
         backgroundColor: "#303030",
@@ -112,7 +112,7 @@ const FilterSelect = (props) => {
         q,
         page: 1,
         searchFilter: selectedOptions?.value,
-      })}`
+      })}`,
     );
   };
 
@@ -165,7 +165,7 @@ function Trending(props) {
             e.preventDefault();
             e.stopPropagation();
 
-            document.querySelector("input").value = "Geneva";
+            document.querySelector("input").value = "Reef Aquarium";
 
             handleChange({
               value: "none",
