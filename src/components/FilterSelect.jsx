@@ -173,7 +173,7 @@ function Trending(props) {
             });
           }}
         >
-          Geneva...
+          Fish Aquariums
         </a>
       </div>
     );
