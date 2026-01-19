@@ -1,72 +1,227 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "gt7EQgH8-b4C",
-    etag: "R27MKGeyaqg",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/gt7EQgH8-b4C",
+    id: "wgvQt6enmEQC",
+    etag: "tpBvutExlS8",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/wgvQt6enmEQC",
     volumeInfo: {
-      title: "Into Thin Air",
-      authors: ["Jon Krakauer"],
-      publisher: "Knopf Doubleday Publishing Group",
-      publishedDate: "1998-11-12",
-      description:
-        "<b>#1 NATIONAL BESTSELLER • The epic account of the storm on the summit of Mt. Everest that claimed five lives and left countless more—including Krakauer's—in guilt-ridden disarray. <br></b><br><b>“A harrowing tale of the perils of high-altitude climbing, a story of bad luck and worse judgment and of heartbreaking heroism.”—<i>People</i></b><br><br><b>A <i>Los Angeles Times </i>Best Nonfiction Book of the Last 30 Years</b><br><br>A bank of clouds was assembling on the not-so-distant horizon, but journalist-mountaineer Jon Krakauer, standing on the summit of Mt. Everest, saw nothing that “suggested that a murderous storm was bearing down.” He was wrong. <br><br>By writing <i>Into Thin Air</i>, Krakauer may have hoped to exorcise some of his own demons and lay to rest some of the painful questions that still surround the event. He takes great pains to provide a balanced picture of the people and events he witnessed and gives due credit to the tireless and dedicated Sherpas. He also avoids blasting easy targets such as Sandy Pittman, the wealthy socialite who brought an espresso maker along on the expedition. Krakauer's highly personal inquiry into the catastrophe provides a great deal of insight into what went wrong. But for Krakauer himself, further interviews and investigations only lead him to the conclusion that his perceived failures were directly responsible for a fellow climber's death. Clearly, Krakauer remains haunted by the disaster, and although he relates a number of incidents in which he acted selflessly and even heroically, he seems unable to view those instances objectively. In the end, despite his evenhanded and even generous assessment of others' actions, he reserves a full measure of vitriol for himself. <br><br>This updated trade paperback edition of <i>Into Thin Air</i> includes an extensive new postscript that sheds fascinating light on the acrimonious debate that flared between Krakauer and Everest guide Anatoli Boukreev in the wake of the tragedy. \"I have no doubt that Boukreev's intentions were good on summit day,\" writes Krakauer in the postscript, dated August 1999. \"What disturbs me, though, was Boukreev's refusal to acknowledge the possibility that he made even a single poor decision. Never did he indicate that perhaps it wasn't the best choice to climb without gas or go down ahead of his clients.\" As usual, Krakauer supports his points with dogged research and a good dose of humility. But rather than continue the heated discourse that has raged since <i>Into Thin Air</i>'s denouncement of guide Boukreev, Krakauer's tone is conciliatory; he points most of his criticism at G. Weston De Walt, who coauthored <i>The Climb</i>, Boukreev's version of events. And in a touching conclusion, Krakauer recounts his last conversation with the late Boukreev, in which the two weathered climbers agreed to disagree about certain points. Krakauer had great hopes to patch things up with Boukreev, but the Russian later died in an avalanche on another Himalayan peak, Annapurna I. <br><br>In 1999, Krakauer received an Academy Award in Literature from the American Academy of Arts and Letters--a prestigious prize intended \"to honor writers of exceptional accomplishment.\" According to the Academy's citation, \"Krakauer combines the tenacity and courage of the finest tradition of investigative journalism with the stylish subtlety and profound insight of the born writer. His account of an ascent of Mount Everest has led to a general reevaluation of climbing and of the commercialization of what was once a romantic, solitary sport; while his account of the life and death of Christopher McCandless, who died of starvation after challenging the Alaskan wilderness, delves even more deeply and disturbingly into the fascination of nature and the devastating effects of its lure on a young and curious mind.\"",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0679462716" },
-        { type: "ISBN_13", identifier: "9780679462712" },
-      ],
-      readingModes: { text: true, image: true },
-      pageCount: 320,
-      printedPageCount: 318,
+      title: "Alsace-Lorraine",
+      subtitle: "The History of an Annexation",
+      authors: ["Gabriel Séailles"],
+      publisher: "French league f. the rights of man",
+      publishedDate: "1916",
+      readingModes: { text: false, image: true },
+      pageCount: 62,
+      printedPageCount: 68,
+      dimensions: { height: "18.00 cm" },
       printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Survival",
-        "Biography & Autobiography / Adventurers & Explorers",
-        "Biography & Autobiography / Editors, Journalists, Publishers",
-      ],
-      averageRating: 4,
-      ratingsCount: 49,
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: true,
-      contentVersion: "4.21.13.0.preview.3",
+      allowAnonLogging: false,
+      contentVersion: "1.6.8.0.full.1",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70AXvhqk1vKKKEJbOiZ_Cq6dJp1uJQrWFg87JqftGXV4ZkUsP0Zpsk0LUXLdIQcD-FiQifiTK2RYtpuUVBp0UQ9jhN8HmEWt4nklhAJszH_3BtCGLxpQ0BkB0rvnTyiQEuD45-i&source=gbs_api",
+          "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70xTZy_rkm5v8-JrofQQt4_KpUvgEWyMA5NKThEX08ZZ8TpCkfayXeH02I62-gikkWQ8AVgom2PKVvEa6qYV22ViNNo_7RhmY5wN2ro-HZVenfkYMSRZK2Vbby6jpj8B356ysS8&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GBYcN0ZzeEP_1sj2l0j86jrxOn_ayPfUq7HGTIdgIis70a4732oqBi8mNRZVx46kKggWS8rjAMGMwSgw09wg5s-oBQebVJh7JCOCOiRF03Mm7miuKXRcCUehre-XnkMc-JAtn&source=gbs_api",
+          "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72p-5U2GvsHcJAB6xIdjvuyRotkPt8NKkjqr9YEoEZFISShdM1rZcyJEsMv3acG6ERkPgzCURxFv6gWxzzNesd9JGBZazgn0q1y0_4JyrCD4VhNNncFlrrz1JM10XXvRcRgrVWS&source=gbs_api",
         small:
-          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70bUd_5nxg5vboqRX0H7t1-vuqT7GguMMXiKzQttnd-bZ9sr0x8ltRvv6OCXvgbilgGyXU_SFJDozXYsAxvZczeUx6ptp9nVk_WSEaExfwP4sP8abSilaBgt8fF9FOhWRNCU3Ey&source=gbs_api",
+          "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70WVS4ZLfz-KF8WrsW85aqTvYszwmZCSZlv48nGHjcnMX4AlChxFrcYZv90nfy6aLTtNOg8ECpOlVbd9EjtDYrtSs5_It-bZYK5THCvWNvRfyDkpADtLN1JEvV-JuKPD1KZN2yj&source=gbs_api",
         medium:
-          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73lq199zeiCexI304igwnqrWB3VQk44RvBzJldAOUFFdH6YfDcPBsDhOUcyZVqhLCtPlIuXI7pDcqzgmjxKIhhxNg3p3iKtH7DcFX7CpHv1TMLbFiwMiM94fm4A69yfOTm0l9Pq&source=gbs_api",
+          "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE700371UDQBv7tBdIA-5iZx249HO1FL_P9JEykGOtBQ3h-euTWxyKBwDxDGkWYrtFUkGPZYAJGXSXr2WYj3Oww04yqggbqmvovbc7jp8oAL5x_PB1DX_WnosPSy8ndBw_uTml5vs&source=gbs_api",
         large:
-          "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fs4956FbTZNZCPJK-erDcTJl3SFls9sHuIipVelVMtLT3RAkHBgXxDFMPGXShArkbP0LXUdOwxdPhTwdhF35kNQhe2RP6f-FZab4tiPISvWFjt1hS70sG7KdTFUuB1I4BBAcz&source=gbs_api",
+          "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73g_EkxRpH-KGk--_Q_MsfpMmvxSqKb0I0_VxyNQ3HifpoDIhYQRxkTFoB1Bw-R5utM2mO58DZ6BSwmYKO-0RN_KU7iIzX09lHE4G-p6b3fzbQCMmGQASM2mjpMKhXchAM_JRc9&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=gt7EQgH8-b4C&hl=&source=gbs_api",
+        "http://books.google.com/books?id=wgvQt6enmEQC&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C&source=gbs_api",
+        "https://play.google.com/store/books/details?id=wgvQt6enmEQC&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C",
+        "https://play.google.com/store/books/details?id=wgvQt6enmEQC",
     },
-    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "26" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FREE",
+      isEbook: true,
+      buyLink:
+        "https://play.google.com/store/books/details?id=wgvQt6enmEQC&rdid=book-wgvQt6enmEQC&rdot=1&source=gbs_api",
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "ALL_PAGES",
+      embeddable: true,
+      publicDomain: true,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: false,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_Lorraine.epub?id=wgvQt6enmEQC&hl=&output=epub&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_Lorraine.pdf?id=wgvQt6enmEQC&hl=&output=pdf&sig=ACfU3U0au9UHH_ubfmNas7hbjX8KbSuggg&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=wgvQt6enmEQC&hl=&source=gbs_api",
+      accessViewStatus: "FULL_PUBLIC_DOMAIN",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 800,
+      height: 1298,
+      image:
+        "http://books.google.com/books/content?id=wgvQt6enmEQC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73g_EkxRpH-KGk--_Q_MsfpMmvxSqKb0I0_VxyNQ3HifpoDIhYQRxkTFoB1Bw-R5utM2mO58DZ6BSwmYKO-0RN_KU7iIzX09lHE4G-p6b3fzbQCMmGQASM2mjpMKhXchAM_JRc9&source=gbs_api",
+    },
+  },
+
+  {
+    kind: "books#volume",
+    id: "7tk2AAAAMAAJ",
+    etag: "47MVqE8gDJ4",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/7tk2AAAAMAAJ",
+    volumeInfo: {
+      title: "Alsace-Lorraine",
+      subtitle: "A Study in Conquest: 1913",
+      authors: ["David Starr Jordan"],
+      publisher: "Bobbs-Merrill Company",
+      publishedDate: "1916",
+      readingModes: { text: false, image: true },
+      pageCount: 113,
+      printedPageCount: 138,
+      dimensions: { height: "20.00 cm" },
+      printType: "BOOK",
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "1.9.12.0.full.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70pagLHyAqRL3OYCiRXj8ph8Ir81S_Jzx0s4l4bAsuXXi_uQQvHf5l3v40F6PhfUA2T4bHo6dGb2kFHMSIbmtgKcUvx1Wp1LiO2IH0C4skMB8DM58e0enVoMXsmF1Ug5PhltpiU&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73XxbOCRwrikyad0QCC86m5BASq38yK7fxZ0bukcZ_DUYoG7-TTAFChXdNNNUa-fxrXYYrtA8pMIznIAO0saXOqydhcDGKGaf3yF2_5HQheh8V1r-1FGcJ8O5DmWNgWYgZrJxN9&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73vcuHwBLLQQQA4mnCLqYuFtB5CxZ0ktTl--Q2w8I_1h1NgOpD5NA1pzsE6vue0nannLi5qqhzds7Ks1n1y_Z3PRgxJeFQ5I1RS5_04SjTFfEum24gWPh45Mq7VWuf0M9Wio7qS&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70aL-ORPPeu_S_Ci_OIG9KcqnsZruuXRRooJBqNzhFKdm5m8_3phJPKiLi7ZOPqgPrWS8kEamX1nkBbAGklIlEIxx2NN3wiYpB6qXfV3eglPD5SytskXLRmotE0gCIZ0MGvI8vF&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70DUYhWAlM1fOdkMPWtKIgac7gdi_QItxbbjWSsGYwGZpbQkDK9aKZkyxlq0rB-JvezXWHiXDY472Gk_k2ZJ0w-zehbG-qlhmSyWKa9YbPkH-A5YPC0Ba5zfI3zoiR5aqKe35UO&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73r4yaoosBOIZxcCJ4WuDptGW1CGYaOiPOI-PjuPf0Q97oODRGF_LirdVhrGBfjxPzP7vVplZpHx2i79Wd-nYhwuI_QTzwYbYs-OBmKrOdwZUxTCKI4wJgzN4C0hLhf_2CMhEh9&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=7tk2AAAAMAAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=7tk2AAAAMAAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=7tk2AAAAMAAJ",
+    },
+    saleInfo: {
+      country: "US",
+      saleability: "FREE",
+      isEbook: true,
+      buyLink:
+        "https://play.google.com/store/books/details?id=7tk2AAAAMAAJ&rdid=book-7tk2AAAAMAAJ&rdot=1&source=gbs_api",
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "ALL_PAGES",
+      embeddable: true,
+      publicDomain: true,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: false,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_Lorraine.epub?id=7tk2AAAAMAAJ&hl=&output=epub&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_Lorraine.pdf?id=7tk2AAAAMAAJ&hl=&output=pdf&sig=ACfU3U3-5GTt8vYvJoEIRtxx4jXs7JrDmQ&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=7tk2AAAAMAAJ&hl=&source=gbs_api",
+      accessViewStatus: "FULL_PUBLIC_DOMAIN",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1280,
+      height: 1931,
+      image:
+        "http://books.google.com/books/content?id=7tk2AAAAMAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73r4yaoosBOIZxcCJ4WuDptGW1CGYaOiPOI-PjuPf0Q97oODRGF_LirdVhrGBfjxPzP7vVplZpHx2i79Wd-nYhwuI_QTzwYbYs-OBmKrOdwZUxTCKI4wJgzN4C0hLhf_2CMhEh9&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "s5B8CgAAQBAJ",
+    etag: "cVj8PdvSmcI",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/s5B8CgAAQBAJ",
+    volumeInfo: {
+      title: "Alsace-Lorraine Since 1870",
+      authors: ["Barry Cerf"],
+      publisher: "Read Books Ltd",
+      publishedDate: "2012-12-21",
+      description:
+        'This fascinating book, originally published in 1919 as the First World War drew to a close tackles the question of Alsace-Lorraine, one of the chief causes of the war and the most important obstacles to peace. Cerf addressed the book to Americans in order to present facts which would "confirm the belief that peace can be restored to Europe and the world only after the return of the lost provinces to France". A compelling read that is thoroughly recommended for inclusion on the bookshelf of the amateur and professional historian alike. Contents: Germany\'s Claims to Alsace-Lorraine; The Consent of the Governed; Persecution: 1871-1914; The Question of Autonomy; The Failure of Germanization; During the War; The Economic Question; The Question of a Plebiscite; Conclusion; Bibliography. Many of the earliest books, particularly those dating back to the 1900s and before, are now extremely scarce and increasingly expensive. We are republishing these classic works in affordable, high quality, modern editions, using the original text and artwork.',
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1447482247" },
+        { type: "ISBN_13", identifier: "9781447482246" },
+      ],
+      readingModes: { text: true, image: true },
+      pageCount: 202,
+      printedPageCount: 177,
+      printType: "BOOK",
+      categories: ["History / General"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.5.5.0.preview.3",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71tQ_fp6IQ2xZndkS24ajGWvnGLCUJo5j5UU_dyyKSYmeOm4ZZpwtGQgxKnDVgEKZNGIPzmO3u-X22edinOM0hVtdW5mzaZerxC8GcqtdgEXZVQZK1Ba6UWfuIfNIrvVkNrCvsB&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Xqr3gjsS76y_lK2Itz8iUmqnPAP-saHzN62vOkJZFDr-COsDbYr7MDWqSVPCiY5wVUBlaz9PybQRLUNxXI3oAbvfW03G839ts6nFn76GXz-XdRzwLtGZvz-2ya6ygPQ_Bt2EO&source=gbs_api",
+        small:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71lYvC50ucNCYNL_PbyI8X0-NAQO5qA19W7FskFaBhbcIV10eTjNRA52Wxdk-P2LzQiCw8dwbp6dudmGQnLFGAziZ-t2sghC0HR8wB81OHarSQK0XNNtwXFgwXbpAJ7wJl_B0hr&source=gbs_api",
+        medium:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72o3Ojn7maRl4IDyTx62FPXiB1xUkfHfa8RNgV5mWc71lKW3jQ2f3uyIwtVtmW2p8BmqDswGZh6XPHskCvBfPIzjnlpvhM6eV5H84kPeLoE_PorXahYE5yIH0-2BvTI9jQBNEbN&source=gbs_api",
+        large:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71J8xoxe0dNfT7bDoAy6yoe9Gx0WoD8wP5c7jaoNKvbD8pEKlcHnpmv87Ax8qJs-dXirLDTe7kFQruDhZDVa3Qffs57v_MzJNNC0kkFjPg3fFgcU_LOS4NchrrZtrVEbSvdBpcW&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71-BxT1Iye6vI18GGq01YVr4Y3GceeT4GqrojbjShmtfmsnqOy3kjcvbJpFO7tHpNWy4mHUPHaoXYyBpMFkNSCrkfxQP2j9FO4KMFkfAAHSjszKozqV4LjeF05Gs4Wr74MbsHjp&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=s5B8CgAAQBAJ&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=s5B8CgAAQBAJ&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=s5B8CgAAQBAJ",
+    },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "7" }] },
     saleInfo: {
       country: "US",
       saleability: "FOR_SALE",
       isEbook: true,
-      listPrice: { amount: 1.99, currencyCode: "USD" },
-      retailPrice: { amount: 1.99, currencyCode: "USD" },
+      listPrice: { amount: 9.99, currencyCode: "USD" },
+      retailPrice: { amount: 9.99, currencyCode: "USD" },
       buyLink:
-        "https://play.google.com/store/books/details?id=gt7EQgH8-b4C&rdid=book-gt7EQgH8-b4C&rdot=1&source=gbs_api",
+        "https://play.google.com/store/books/details?id=s5B8CgAAQBAJ&rdid=book-s5B8CgAAQBAJ&rdot=1&source=gbs_api",
       offers: [
         {
           finskyOfferType: 1,
-          listPrice: { amountInMicros: 1990000, currencyCode: "USD" },
-          retailPrice: { amountInMicros: 1990000, currencyCode: "USD" },
+          listPrice: { amountInMicros: 9990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 9990000, currencyCode: "USD" },
           giftable: true,
         },
       ],
@@ -80,23 +235,113 @@ const classicBestsellerList = [
       epub: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/Into_Thin_Air-sample-epub.acsm?id=gt7EQgH8-b4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/Alsace_Lorraine_Since_1870-sample-epub.acsm?id=s5B8CgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
       pdf: {
         isAvailable: true,
         acsTokenLink:
-          "http://books.google.com/books/download/Into_Thin_Air-sample-pdf.acsm?id=gt7EQgH8-b4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+          "http://books.google.com/books/download/Alsace_Lorraine_Since_1870-sample-pdf.acsm?id=s5B8CgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
       },
       webReaderLink:
-        "http://play.google.com/books/reader?id=gt7EQgH8-b4C&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=s5B8CgAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 800,
-      height: 1184,
+      width: 575,
+      height: 750,
       image:
-        "http://books.google.com/books/content?id=gt7EQgH8-b4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73fs4956FbTZNZCPJK-erDcTJl3SFls9sHuIipVelVMtLT3RAkHBgXxDFMPGXShArkbP0LXUdOwxdPhTwdhF35kNQhe2RP6f-FZab4tiPISvWFjt1hS70sG7KdTFUuB1I4BBAcz&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=s5B8CgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71-BxT1Iye6vI18GGq01YVr4Y3GceeT4GqrojbjShmtfmsnqOy3kjcvbJpFO7tHpNWy4mHUPHaoXYyBpMFkNSCrkfxQP2j9FO4KMFkfAAHSjszKozqV4LjeF05Gs4Wr74MbsHjp&source=gbs_api",
+    },
+  },
+  {
+    kind: "books#volume",
+    id: "Yib2gT1ids0C",
+    etag: "NbMHSthmXVA",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/Yib2gT1ids0C",
+    volumeInfo: {
+      title: "Alsace and Lorraine from Cæsar to Kaiser, 58 B.C.-1871 A.D.",
+      authors: ["Ruth Putnam"],
+      publisher: "G.P. Putnam's Sons",
+      publishedDate: "1915",
+      description:
+        "<p>This superb history summarizes the major events and upheavals in the regions of Alsace and Lorraine, from ancient times to the late 19th century.</p> <p>Accompanied by maps and citing sources which date back through the ages, this history of the Alsace and Lorraine provinces is well-composed. At the time this account was published in 1914, the two regions had spent years in the geopolitical limelight; since parts of both were annexed by Germany in the 1870s, resentments had simmered in France about the annexation. As tensions rose in the years precluding World War One, the provinces became emblematic of rising discontentment between the European powers.</p> <p>Yet as Ruth Putnam demonstrates, the history of Alsace and Lorraine is long and storied, with the establishment of French and German cultural heritages in the regions a complex and nuanced matter. Their status was important as far back as Julius Caesar's conquest of Gaul; noting the Germanic tribes nearby and their continuous migrations, the Roman leader had to consider them as he sought to establish Rome's presence. Further contest between various monarchs and regional rulers occurred through the medieval era and after the Renaissance.</p>",
+      industryIdentifiers: [
+        { type: "ISBN_10", identifier: "1789875358" },
+        { type: "ISBN_13", identifier: "9781789875355" },
+      ],
+      readingModes: { text: false, image: true },
+      pageCount: 208,
+      printedPageCount: 256,
+      dimensions: {
+        height: "21.00 cm",
+        width: "15.20 cm",
+        thickness: "0.60 cm",
+      },
+      printType: "BOOK",
+      categories: ["History / Europe / France", "History / Europe / Germany"],
+      maturityRating: "NOT_MATURE",
+      allowAnonLogging: false,
+      contentVersion: "0.5.6.0.full.1",
+      panelizationSummary: {
+        containsEpubBubbles: false,
+        containsImageBubbles: false,
+      },
+      imageLinks: {
+        smallThumbnail:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71v2dyN-t4hqWq-VHVLz4o4sUFnOzNAyPuai5kYtvDEAc-6swVbKSdHNw3Eb8gxSMmnPBer5mKqFJZAaJvCacKQ_fu0dZwqLG3RD-gvSoviWgNaalZis0h9JJqEMS0iqOvBMiHl&source=gbs_api",
+        thumbnail:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GyrkjEpOsrC0jS3cIdgH7KkxIm-9CHjUSUyAi9Q11qB9AxGU0bOyKsujjfreTpiyg7gA7urcMzjHaL-nmzbF64MN-wih0UFb8uTxBre3uUFcRFtwe7cDRjafb0QHjFHLfGtvQ&source=gbs_api",
+        small:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE705LK9ADo8aoNAAx-IfZUL0Zn8c5pArYigouQK5DOBU7jcIWxoKBTIj-wGJ2BdcPJNsdVK2v5fw91bXirphidcsPGZlbvNfwhzOBm8GPzwZ-eJzFjOcCXLWC_iySxymaGTpU9Zt&source=gbs_api",
+        medium:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE70QRO4h_DVsyxXwdbHUTzgE8t_E-ZxYK-rcsfqVW5FXUPzQldq1_Fj8rQCX4pvSLRtjih4rgxiDk1yoUxnNfCVcjxL6iUQGZzdpWeb7qKV6qVOJFbSyIqVKCytM2FuxjV694euS&source=gbs_api",
+        large:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70ANx6g2YfZoWqSHKNBE13CaOn6Ql3Pgy9A-wdfMKgCywXb1Z3Q1vN06mFmWkuPA6pmMa_NiK3yBpq7fYVgYMEdZznmlZxqUZ9VOWUNsvGvFZldSTkUufeacXrWemqDmXO1PQas&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72rwWx3WfN3m0rlmR22a83ctlyLWY6mQiBZzQaAm_AnzxwTPuvuMrO7F2MZNmFK7HWnEKyjYaBktZp7eo6OybtQZeu0R5AZ-_jGzq17Y6_53V2Kovr6mz29p2p7nwkMqx-mXsS1&source=gbs_api",
+      },
+      language: "en",
+      previewLink:
+        "http://books.google.com/books?id=Yib2gT1ids0C&hl=&source=gbs_api",
+      infoLink:
+        "https://play.google.com/store/books/details?id=Yib2gT1ids0C&source=gbs_api",
+      canonicalVolumeLink:
+        "https://play.google.com/store/books/details?id=Yib2gT1ids0C",
+    },
+    saleInfo: {
+      country: "US",
+      saleability: "FREE",
+      isEbook: true,
+      buyLink:
+        "https://play.google.com/store/books/details?id=Yib2gT1ids0C&rdid=book-Yib2gT1ids0C&rdot=1&source=gbs_api",
+    },
+    accessInfo: {
+      country: "US",
+      viewability: "ALL_PAGES",
+      embeddable: true,
+      publicDomain: true,
+      textToSpeechPermission: "ALLOWED",
+      epub: {
+        isAvailable: false,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_and_Lorraine_from_C%C3%A6sar_to_Kaise.epub?id=Yib2gT1ids0C&hl=&output=epub&source=gbs_api",
+      },
+      pdf: {
+        isAvailable: true,
+        downloadLink:
+          "http://books.google.com/books/download/Alsace_and_Lorraine_from_C%C3%A6sar_to_Kaise.pdf?id=Yib2gT1ids0C&hl=&output=pdf&sig=ACfU3U3uBUD9GaXeFfQ-S3sY4Z0tUnY5GQ&source=gbs_api",
+      },
+      webReaderLink:
+        "http://play.google.com/books/reader?id=Yib2gT1ids0C&hl=&source=gbs_api",
+      accessViewStatus: "FULL_PUBLIC_DOMAIN",
+      quoteSharingAllowed: false,
+    },
+    img: {
+      width: 1280,
+      height: 1949,
+      image:
+        "http://books.google.com/books/content?id=Yib2gT1ids0C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72rwWx3WfN3m0rlmR22a83ctlyLWY6mQiBZzQaAm_AnzxwTPuvuMrO7F2MZNmFK7HWnEKyjYaBktZp7eo6OybtQZeu0R5AZ-_jGzq17Y6_53V2Kovr6mz29p2p7nwkMqx-mXsS1&source=gbs_api",
     },
   },
 

@@ -140,20 +140,13 @@ const FilterSelect = (props) => {
         />
       </div>
 
-      {/* <AvidTrending
+      <Trending
         wasSearchDone={wasSearchDone}
         books={books}
         q={q}
         params={params}
         handleChange={handleChange}
-      /> */}
-      {/* <Trending
-        wasSearchDone={wasSearchDone}
-        books={books}
-        q={q}
-        params={params}
-        handleChange={handleChange}
-      /> */}
+      />
     </Container>
   );
 };
@@ -172,15 +165,15 @@ function Trending(props) {
             e.preventDefault();
             e.stopPropagation();
 
-            document.querySelector("input").value = "Jerry Seinfeld";
+            document.querySelector("input").value = "Geneva";
 
             handleChange({
-              value: "author",
-              label: "Author",
+              value: "none",
+              label: "none",
             });
           }}
         >
-          Trending...
+          Geneva...
         </a>
       </div>
     );
