@@ -140,13 +140,13 @@ const FilterSelect = (props) => {
         />
       </div>
 
-      <Trending
+      {/* <Trending
         wasSearchDone={wasSearchDone}
         books={books}
         q={q}
         params={params}
         handleChange={handleChange}
-      />
+      /> */}
     </Container>
   );
 };
