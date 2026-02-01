@@ -182,7 +182,7 @@ export default function Index(props) {
           q: _newQ,
           page: 1,
           searchFilter: searchFilter?.value ?? "none",
-        })}`
+        })}`,
       );
     }
   };
@@ -274,7 +274,7 @@ export default function Index(props) {
                         q: q || qParam,
                         page: value,
                         searchFilter: searchFilter?.value ?? "none",
-                      })}`
+                      })}`,
                     );
                   }}
                   page={pageParam}
@@ -323,8 +323,11 @@ export default function Index(props) {
                     q: q || qParam,
                     page: value,
                     searchFilter: searchFilter?.value ?? "none",
-                  })}`
+                  })}`,
                 );
+                setTimeout(() => {
+                  window.scrollTo(0, 0);
+                }, 350);
               }}
               page={pageParam}
               count={
