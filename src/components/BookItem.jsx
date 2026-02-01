@@ -43,7 +43,7 @@ function BookItem(props) {
                 fontWeight: "bold",
               }}
               className="hover-underline"
-              title={volumeInfo.title || undefined}
+              // title={volumeInfo.title || undefined}
             >
               {volumeInfo.title}
             </Typography>
