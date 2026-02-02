@@ -14,10 +14,11 @@ const customStyle = {
     height: "min-content",
     boxSizing: "border-box",
     margin: "100px auto auto auto",
-    background: "#fafafa",
+    background: "#e6b800",
     maxWidth: "500px",
     maxHeight: "100vh",
     overflowY: "auto",
+    border: "1px solid #000",
   },
   overlay: {
     background: "rgba(0,0,0,.9)",
@@ -84,7 +85,7 @@ function AuthorModal({ isOpen, onRequestClose, authorStr }) {
         q: innerAuthStr,
         page: 1,
         searchFilter: "author",
-      })}`
+      })}`,
     );
   };
 
