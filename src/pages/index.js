@@ -125,30 +125,12 @@ export default function Index(props) {
       try {
         let response;
 
-        // Use authenticated API if user has Google OAuth token
-        if (user?.uuid && user?.googleId && !user.isLoading) {
-          response = await searchGoogleBooks(user.uuid, queryParams);
-        } else {
-          // Fallback to public API for anonymous users
-          response = await searchGoogleBooksPublic(queryParams);
-        }
+        response = await searchGoogleBooks(user.uuid, queryParams);
 
         setBooks(response?.items ?? []);
         setTotalItems(response.totalItems);
       } catch (error) {
         console.error("Error fetching books:", error);
-
-        // If authenticated request fails, try fallback to public API
-        if (error.response?.status === 401 && user?.uuid) {
-          console.log("Falling back to public API");
-          try {
-            const response = await searchGoogleBooksPublic(queryParams);
-            setBooks(response?.items ?? []);
-            setTotalItems(response.totalItems);
-          } catch (fallbackError) {
-            console.error("Fallback API also failed:", fallbackError);
-          }
-        }
       } finally {
         setIsLoading(false);
       }

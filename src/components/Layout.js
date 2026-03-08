@@ -149,7 +149,9 @@ const BrightnessToggle = styled(Fab)`
   color: #ffcd00 !important;
   font-weight: bold !important;
   box-shadow: none !important;
-  transition: opacity 0.3s ease, transform 0.3s ease !important;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease !important;
 
   &.is-hidden {
     opacity: 0;
@@ -208,9 +210,8 @@ const Layout = ({ children }) => {
       axiosInstance.post("/users/register-anon").then((res) => {
         const { token, uuid } = res.data;
         localStorage.setItem("token", token);
-        axiosInstance.defaults.headers.common[
-          "Authorization"
-        ] = `Bearer ${token}`;
+        axiosInstance.defaults.headers.common["Authorization"] =
+          `Bearer ${token}`;
         setUser({
           name: "",
           email: "",
@@ -225,9 +226,8 @@ const Layout = ({ children }) => {
       if (!token) {
         registerAnon();
       } else {
-        axiosInstance.defaults.headers.common[
-          "Authorization"
-        ] = `Bearer ${token}`;
+        axiosInstance.defaults.headers.common["Authorization"] =
+          `Bearer ${token}`;
         axiosInstance.get("/users/current_user").then((res) => {
           if (!res?.data?.currentUser) {
             return registerAnon();
@@ -259,9 +259,9 @@ const Layout = ({ children }) => {
                   </div> */}
                   <div className="nav-links">
                     <TiltedTile text="Library" to="/library" />
-                    {/* <div className="auth-button-container">
+                    <div className="auth-button-container">
                       <GoogleAuthButton />
-                    </div> */}
+                    </div>
                   </div>
                 </Toolbar>
               </AppBar>

@@ -280,7 +280,7 @@ function Book(props) {
         {
           googleVolumeId: state.id,
           descriptionHtml: originalHtml,
-        }
+        },
       );
       const raw = data?.summary || "";
       const safe = raw
@@ -304,7 +304,7 @@ function Book(props) {
           fallback
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
+            .replace(/>/g, "&gt;"),
         );
       }
     } finally {
@@ -365,7 +365,7 @@ function Book(props) {
       async function fetchIsBookmark() {
         try {
           const { data } = await axiosInstance.get(
-            "/bookmarks/bookmark/is-bookmark/" + id + "/" + user.uuid
+            "/bookmarks/bookmark/is-bookmark/" + id + "/" + user.uuid,
           );
           setIsBookmark(data.isBookmark);
         } catch (err) {
@@ -390,7 +390,7 @@ function Book(props) {
     if (typeof window !== "undefined") {
       localStorage.setItem(
         "summarizeDescriptionGlobal",
-        isSummarized ? "true" : "false"
+        isSummarized ? "true" : "false",
       );
     }
   }, [isSummarized]);
@@ -441,7 +441,7 @@ function Book(props) {
                       datePublished: state.volumeInfo.publishedDate,
                       author: state.volumeInfo.authors.join(", "),
                       summary: state.volumeInfo.description,
-                    }
+                    },
                   );
                   if (data.error) {
                     return navigate("/library/book-details?id=" + data.uuid);
@@ -471,7 +471,7 @@ function Book(props) {
                           datePublished: state.volumeInfo.publishedDate,
                           author: state.volumeInfo.authors.join(", "),
                           summary: state.volumeInfo.description,
-                        }
+                        },
                       );
                       setIsBookmark(true);
                       setSnackbarOpen(true);
@@ -487,7 +487,7 @@ function Book(props) {
                 : async () => {
                     try {
                       await axiosInstance.delete(
-                        "/bookmarks/bookmark/" + user.uuid + "/?id=" + id
+                        "/bookmarks/bookmark/" + user.uuid + "/?id=" + id,
                       );
 
                       setSnackbarMessage("Removed from List in Library");
@@ -517,7 +517,7 @@ function Book(props) {
                       q: state.volumeInfo?.authors?.join(", "),
                       page: 1,
                       searchFilter: "author",
-                    })}`
+                    })}`,
                   );
                 }
               },
@@ -530,7 +530,7 @@ function Book(props) {
                     q: state.volumeInfo.publisher,
                     page: 1,
                     searchFilter: "publisher",
-                  })}`
+                  })}`,
                 );
               },
             },
@@ -665,7 +665,7 @@ function Book(props) {
                     target="_blank"
                     rel="noreferrer"
                     href={createGooglePublisherLink(
-                      state.volumeInfo?.publisher
+                      state.volumeInfo?.publisher,
                     )}
                   >
                     {state.volumeInfo?.publisher}
