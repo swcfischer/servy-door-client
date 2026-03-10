@@ -1,154 +1,101 @@
 const classicBestsellerList = [
   {
     kind: "books#volume",
-    id: "L1iddN44SMIC",
-    etag: "ImmuM+6OAGI",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/L1iddN44SMIC",
+    id: "YkvzEAAAQBAJ",
+    etag: "0rQeMeQ5Tg0",
+    selfLink: "https://www.googleapis.com/books/v1/volumes/YkvzEAAAQBAJ",
     volumeInfo: {
-      title: "When the Tripods Came",
-      authors: ["John Christopher"],
+      title: "Entrances and Exits",
+      authors: ["Michael Richards"],
       publisher: "Simon and Schuster",
-      publishedDate: "2003-04",
+      publishedDate: "2024-06-04",
       description:
-        "Long ago, the Tripods--huge, three-legged machines--descended upon Earth and took control. Now people unquestioningly accept the Tripods' power. They have no control over their thoughts or their lives. But for a brief time in each person's life--in childhood--he is not a slave. For Will, his time of freedom is about to end--unless he can escape to the White Mountains, where the possibility of freedom still exists. The Tripods trilogy follows the adventures of Will and his cohorts, as they try to evade the Tripods and maintian their freedom and ultimately do battle against them. The prequel, When the Tripods Came, explains how the Tripods first invaded and gained control of the planet.",
+        "<b>A <i>NEW YORK TIMES </i>BESTSELLER</b><br> <br><b>As seen on <i>The Today Show</i><i>,</i> <i>The View</i><i>,</i> and <i>Jesse Watters</i></b><br> <br> <b>The man who brought the kavorka to the <i>Seinfeld</i> show through one of the most remarkable and beloved television characters ever invented, Kramer, shares the extraordinary life of a comedy genius—the way he came into himself as an artist, the ups and downs as a human being, the road he has traveled in search of understanding.</b><br><br>“The hair, so essential, symbolizes the irrational that was and is and always will be the underlying feature not only of Kramer but of comedy itself. This seemingly senseless spirit has been coursing through me since childhood. I’ve been under its almighty influence since the day I came into this world. I felt it all within myself, especially the physical comedy, the body movements, so freakish and undignified, where I bumped into things, knocked stuff down, messed up situations, and often ended up on my ass.<br> <br> “This book is a hymn to the irrational, the senseless spirit that breaks the whole into pieces, a reflection on the seemingly absurd difficulties that intrude upon us all. It’s Harpo Marx turning us about, shaking up my plans, throwing me for a loop. Upset and turmoil is with us all the time. It’s at the basis of comedy. It’s the pratfall we all take. It’s the unavoidable mistake we didn’t expect. It’s everywhere I go. It’s in the way that I am, both light and dark, good and not-so-good. It’s my life.” <br> <br>—Michael Richards, from <i>Entrances and Exits</i>",
       industryIdentifiers: [
-        { type: "ISBN_10", identifier: "0689857624" },
-        { type: "ISBN_13", identifier: "9780689857621" },
+        { type: "ISBN_10", identifier: "163758914X" },
+        { type: "ISBN_13", identifier: "9781637589144" },
       ],
-      readingModes: { text: false, image: false },
-      pageCount: 160,
-      printedPageCount: 164,
-      dimensions: {
-        height: "17.80 cm",
-        width: "10.60 cm",
-        thickness: "1.30 cm",
-      },
+      readingModes: { text: true, image: false },
+      pageCount: 464,
+      printedPageCount: 456,
       printType: "BOOK",
       categories: [
-        "Juvenile Fiction / General",
-        "Juvenile Fiction / Action & Adventure / General",
-        "Juvenile Fiction / Boys & Men",
-        "Juvenile Fiction / Fantasy / General",
-        "Juvenile Fiction / Science Fiction / General",
+        "Biography & Autobiography / Entertainment & Performing Arts",
+        "Biography & Autobiography / Memoirs",
+        "Performing Arts / Television / Genres / General",
       ],
-      averageRating: 3,
-      ratingsCount: 2,
       maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "0.4.3.0.preview.0",
+      allowAnonLogging: true,
+      contentVersion: "1.4.4.0.preview.2",
       panelizationSummary: {
         containsEpubBubbles: false,
         containsImageBubbles: false,
       },
       imageLinks: {
         smallThumbnail:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72Rnui6vbCld4P4g-OR1V8hugWlAs5kjg0Zl9Kf6YiKWhZ4p3JCUVlwJzpvAFygQyxKXThbXknm7V82BvyGPsVCzh24ZAiysuztOgHjA8xXrq3IOHbmF2idOractl_9CSJZZAnX&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71dc5StHz0bjXQXVRYKEI-bXKxLqhcHUOVLUydumo3JjaTIgFZOHjTrvsSesyu2202tC0CHNy3cZNSwJmGY9QsmS9SyNhsb39WBgxv7QdrKlK5gpdE51uITRo2IosSV6mh7CTRC&source=gbs_api",
         thumbnail:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73vAhC3hUcg70iXryKayYquEXV9LZYTHxh46yqoxAEz5UHlrGt4StuHAGlGOcehZ2MhXpLaey1l522I3TXHDrIskRRp4gHjCUyCtKZnG_mKhSybkoYo76IVQfncxYJIgfiB49Hj&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73u5vHoG4fTrDl5bjnduBAbevnVpR3t7M7UUaH1Ywyca_tNUVvVDJIIE54gGzFpLOgHkuizfXtl_4nYoAGawmLiwWs3bZzUrhuEctxjQKdbnbL63QNmMBLz_ZJjHQF6Zj5YMzte&source=gbs_api",
         small:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72mnP9rCLuGxwyQALVomH24IFQt4y4fHMad5McI9heZvXyanM3YYuFeed_q_YqLpLl0oU18Ae4Jvo1osGGDVMKr_elz61jNsuDuP9KL9_cjQ-z8c2a-U7ZTgvQooO8HuTfw0dNF&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70Z5Q6yrcoKVsB5cuvseHwEchFTScApW3RBUATrzevw2avyi2e-1_17SBGAe3sssRQwEUTeMAk_6aoc1cPrxgQkvEuvCLTJb7nRhHuowoXjU5TpgXfl_h6Pu3jYlh6hq1UGYq7R&source=gbs_api",
         medium:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE704IN2IWz36_FM5s-7A9Knu0Op117oS3_LvQj0iX1pb3q673wU7qM9afK_I-6gbx6FSumQrTzdA-tSV_4bf5gEVcrdpppsTx16r9O6kV1PVSURR_3Z_-qlEHILfjldUZ9__qPEv&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73hVelk30C_RoiGxa5jAXEHKogSrGHlaqmToy3Jgd_XSonjLW9NNZz1CAzbQIKm_S4Qnbj8xyBnZ_M4SxItA3I-W7BmBb-SMTbtT34uFeTRH1xrSgcTBjllGoU_hmQFrqXp_frb&source=gbs_api",
         large:
-          "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72SYjSS4TvqdNYtaC7YXNzbJMmC6_PinZ0eDgOGr4xlOat81okYhGw2HIdEpWQWZtE8X2fNn5ruTlAICuX0S990wmXpTJYnjbF-bXa1V0xniDAH1tqQdILJVfRDDW0_L5xiilE-&source=gbs_api",
+        extraLarge:
+          "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73JBr4zBzhoMvS4DA5qJ2MVSS1mxwyCrRHNVClT7m09mT5tXkXhika3ncNXFdgWaJG1QEfHHBpbgU7ICXxRuDzKl72ivi7JTUn7sWdPoAkY5RSHIDfg8iYDEXel8dKqGO3gYXUZ&source=gbs_api",
       },
       language: "en",
       previewLink:
-        "http://books.google.com/books?id=L1iddN44SMIC&hl=&source=gbs_api",
+        "http://books.google.com/books?id=YkvzEAAAQBAJ&hl=&source=gbs_api",
       infoLink:
-        "https://play.google.com/store/books/details?id=L1iddN44SMIC&source=gbs_api",
+        "https://play.google.com/store/books/details?id=YkvzEAAAQBAJ&source=gbs_api",
       canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=L1iddN44SMIC",
+        "https://play.google.com/store/books/details?id=YkvzEAAAQBAJ",
     },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
+    layerInfo: { layers: [{ layerId: "geo", volumeAnnotationsVersion: "4" }] },
+    saleInfo: {
+      country: "US",
+      saleability: "FOR_SALE",
+      isEbook: true,
+      listPrice: { amount: 4.99, currencyCode: "USD" },
+      retailPrice: { amount: 4.99, currencyCode: "USD" },
+      buyLink:
+        "https://play.google.com/store/books/details?id=YkvzEAAAQBAJ&rdid=book-YkvzEAAAQBAJ&rdot=1&source=gbs_api",
+      offers: [
+        {
+          finskyOfferType: 1,
+          listPrice: { amountInMicros: 4990000, currencyCode: "USD" },
+          retailPrice: { amountInMicros: 4990000, currencyCode: "USD" },
+          giftable: true,
+        },
+      ],
+    },
     accessInfo: {
       country: "US",
       viewability: "PARTIAL",
       embeddable: true,
       publicDomain: false,
       textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
-      epub: { isAvailable: false },
+      epub: {
+        isAvailable: true,
+        acsTokenLink:
+          "http://books.google.com/books/download/Entrances_and_Exits-sample-epub.acsm?id=YkvzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api",
+      },
       pdf: { isAvailable: false },
       webReaderLink:
-        "http://play.google.com/books/reader?id=L1iddN44SMIC&hl=&source=gbs_api",
+        "http://play.google.com/books/reader?id=YkvzEAAAQBAJ&hl=&source=gbs_api",
       accessViewStatus: "SAMPLE",
       quoteSharingAllowed: false,
     },
     img: {
-      width: 800,
-      height: 1346,
+      width: 1744,
+      height: 2632,
       image:
-        "http://books.google.com/books/content?id=L1iddN44SMIC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70vLIS_BkHiV3ShvC814BXJBztmno8Dzvj7wiH1PR5gPPrtWEQ_z0UezQhYphwWgG1VlUQlqE1yjovdgk1-EmikGKAJmSYpdvnEjJSQyWjsX2xFR9veVoQA3WMH1XAqNRKurVIC&source=gbs_api",
+        "http://books.google.com/books/publisher/content?id=YkvzEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73JBr4zBzhoMvS4DA5qJ2MVSS1mxwyCrRHNVClT7m09mT5tXkXhika3ncNXFdgWaJG1QEfHHBpbgU7ICXxRuDzKl72ivi7JTUn7sWdPoAkY5RSHIDfg8iYDEXel8dKqGO3gYXUZ&source=gbs_api",
     },
   },
-  {
-    kind: "books#volume",
-    id: "T-lMEQAAQBAJ",
-    etag: "YedRHk/pHzw",
-    selfLink: "https://www.googleapis.com/books/v1/volumes/T-lMEQAAQBAJ",
-    volumeInfo: {
-      title: "The Steps",
-      authors: ["Sylvester Stallone"],
-      publisher: "Orion",
-      publishedDate: "2026-09-29",
-      description:
-        "<p><b>A gritty, inspiring, heart-wrenching memoir by the Academy Award-winning legend and icon Sylvester Stallone, about his unlikely path to stardom and the creation of the greatest underdog story ever told.</b><br><br>In the fifty years since Sylvester Stallone ran up the steps of the Philadelphia Art Museum, he and those steps have become symbols of resilience and determination, and have inspired millions from all over the world to pursue their dreams. In <i>The Steps</i>, Stallone recounts how he pursued his own dreams. A culmination of decades of reflection, Sly shares where he came from - a difficult birth, an even more difficult childhood, years of struggle in school being misunderstood - and he explains how the real story of a successful life is built by facing, embracing and ultimately overcoming our challenges. It's found in the distances we are willing to go and the steps we must take to get from where we are to where we want to go. <br><br>In a narrative framed between Stallone's arrival in New York City in 1969 and the triumph of <i>Rocky </i>at the 1977 Academy Awards, Sly weaves a vivid and propulsive portrait of struggle, subsistence and ultimately success. He writes of his early days and later years, too, and the persistence, creativity and resilience that led not only to the creation of <i>Rocky</i> but to a career filled with remarkably iconic roles. <i>The Steps</i> is a testament to Stallone's extraordinary life and a profound meditation on the importance of vision and willpower and hard work.</p>",
-      industryIdentifiers: [
-        { type: "ISBN_10", identifier: "1399629484" },
-        { type: "ISBN_13", identifier: "9781399629485" },
-      ],
-      readingModes: { text: true, image: false },
-      pageCount: 320,
-      printedPageCount: 320,
-      printType: "BOOK",
-      categories: [
-        "Biography & Autobiography / Entertainment & Performing Arts",
-        "Sports & Recreation / Boxing",
-        "Self-Help / Motivational & Inspirational",
-        "Self-Help / General",
-      ],
-      maturityRating: "NOT_MATURE",
-      allowAnonLogging: false,
-      contentVersion: "preview-1.0.0",
-      panelizationSummary: {
-        containsEpubBubbles: false,
-        containsImageBubbles: false,
-      },
-      imageLinks: {
-        smallThumbnail:
-          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71s2C7EUcaPYUIL6KylKYhaSLcIDnE2rO-h2Bv_L0hVB1QHCOvkvS0cHkiWkvOk4I-gzBykpKubCIfL8UIr8D4X3CJ7dcXgRs9h02RepZOAN3K_ZyFNtkbsEDBXU2oqPLmRAbaI&source=gbs_api",
-        thumbnail:
-          "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
-      },
-      language: "en",
-      previewLink:
-        "http://books.google.com/books?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
-      infoLink:
-        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ&source=gbs_api",
-      canonicalVolumeLink:
-        "https://play.google.com/store/books/details?id=T-lMEQAAQBAJ",
-    },
-    saleInfo: { country: "US", saleability: "NOT_FOR_SALE", isEbook: false },
-    accessInfo: {
-      country: "US",
-      viewability: "NO_PAGES",
-      embeddable: false,
-      publicDomain: false,
-      textToSpeechPermission: "ALLOWED",
-      epub: { isAvailable: false },
-      pdf: { isAvailable: false },
-      webReaderLink:
-        "http://play.google.com/books/reader?id=T-lMEQAAQBAJ&hl=&source=gbs_api",
-      accessViewStatus: "NONE",
-      quoteSharingAllowed: false,
-    },
-    img: {
-      width: 128,
-      height: 197,
-      image:
-        "http://books.google.com/books/publisher/content?id=T-lMEQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7136QnIdDuzYIfNlrmR4CBs03wdgotevm1YKCmyi5m1JLKaVDqssAFZLTvPXTW9wsMUzJT3Q1BIHcdQkGJtZPZypveAXD3JwWkIdeFgI2LwcOw12DYgIgC37Xbv-9hiDGJQ-kWR&source=gbs_api",
-    },
-  },
+
   {
     kind: "books#volume",
     id: "4zpjEQAAQBAJ",
