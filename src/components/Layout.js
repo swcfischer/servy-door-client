@@ -2,19 +2,14 @@ import React, { createContext, useEffect, useState } from "react";
 import Container from "@mui/material/Container";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Fab from "@mui/material/Fab";
 import TiltedTile from "./TiltedTile";
 import GoogleAuthButton from "./GoogleAuthButton";
 import axiosInstance from "../axiosInstance";
 import styled from "@emotion/styled";
-import { Link } from "gatsby";
 import HelmetComponent from "./HelmetComponent";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
-
-// import CssBaseline from "@mui/material/CssBaseline";
-// import githubLogo from "../images/github-copilot-white-icon.png";
 
 const StyledContainer = styled(Container)`
   background: #fafafa;

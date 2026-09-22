@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Modal from "react-modal";
 import styled from "@emotion/styled";
 import { UserContext } from "../Layout";
@@ -72,9 +72,6 @@ const Container = styled.div`
 `;
 
 function AuthorModal({ isOpen, onRequestClose, authorStr }) {
-  const { user } = useContext(UserContext);
-  const state = {};
-
   const handleRequestClose = () => {
     onRequestClose();
   };
@@ -106,7 +103,6 @@ function AuthorModal({ isOpen, onRequestClose, authorStr }) {
                   e.preventDefault();
                   handleClick(authorStr.join(", "));
                 }}
-                href="#"
               >
                 {" "}
                 {authorStr.map((el, idx) => (

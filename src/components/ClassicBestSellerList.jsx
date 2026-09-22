@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import styled from "@emotion/styled";
 import classicBestsellerList from "../bookLists/classicBestSellers";
 import BestsellerItem from "./BestsellerItem";

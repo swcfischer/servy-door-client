@@ -139,69 +139,8 @@ const FilterSelect = (props) => {
           onChange={handleChange}
         />
       </div>
-
-      {/* <Trending
-        wasSearchDone={wasSearchDone}
-        books={books}
-        q={q}
-        params={params}
-        handleChange={handleChange}
-      /> */}
     </Container>
   );
 };
 
 export default FilterSelect;
-
-function Trending(props) {
-  const { wasSearchDone, books, q, params, handleChange } = props;
-
-  if (!wasSearchDone(books, q, params)) {
-    return (
-      <div id="trending-search">
-        <a
-          href="https://servydoor.com/?q=Jerry+Seinfeld&page=1&searchFilter=author"
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-
-            document.querySelector("input").value = "Reef Aquarium";
-
-            handleChange({
-              value: "none",
-              label: "none",
-            });
-          }}
-        >
-          Fish Aquariums
-        </a>
-      </div>
-    );
-  }
-}
-
-function AvidTrending(props) {
-  const { wasSearchDone, books, q, params, handleChange } = props;
-
-  if (!wasSearchDone(books, q, params)) {
-    return (
-      <div
-        id="Accessible YouTube"
-        style={{
-          marginLeft: "12px",
-          marginTop: "6px",
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <a
-          href="https://www.avidlanguagelearning.com/app/video/1dca72b9-d255-4c17-982a-95ec24b1781c"
-          target="_blank"
-        >
-          Learn English with YouTube
-        </a>
-      </div>
-    );
-  }
-}

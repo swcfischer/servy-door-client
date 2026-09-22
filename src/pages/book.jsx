@@ -24,9 +24,6 @@ import { FaGoogle } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAmazon } from "react-icons/fa";
 
-// import YouTubeSearch from "../components/YouTubeSearch/YouTubeSearch";
-// import BookComments from "../components/BookComments/BookComments";
-
 const bookGet = "https://www.googleapis.com/books/v1/volumes/";
 
 const SummarizeBtn = styled.button`
@@ -230,9 +227,6 @@ const Container = styled.div`
   }
 `;
 
-export const READING_COMMENTS = "READING_COMMENTS";
-export const WRITING_COMMENT = "WRITING_COMMENT";
-
 function Book(props) {
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
@@ -249,16 +243,6 @@ function Book(props) {
   const handleSnackbarClose = () => {
     setSnackbarOpen(false);
   };
-
-  const [commentState, setCommentState] = useState(READING_COMMENTS);
-
-  // const handleLeaveComment = () => {
-  //   setCommentState(WRITING_COMMENT);
-  // };
-
-  // const handleReadComments = () => {
-  //   setCommentState(READING_COMMENTS);
-  // };
 
   const [state, setState] = useState({});
   // Summary toggle state
@@ -543,57 +527,6 @@ function Book(props) {
                 setSnackbarOpen(true);
               },
             },
-            // { isMenuDivider: true },
-            // {
-            //   label: "Translate to Spanish",
-            //   action: async () => {
-            //     const summary = state.volumeInfo?.description || "";
-            //     if (!summary) {
-            //       return;
-            //     }
-
-            //     // * Do translation logic
-            //     // * Call api, passing in summary
-            //     // * And set state
-
-            //     const { data } = await axiosInstance.get(
-            //       `/books/translate-summary/${user.uuid}?summary=${summary}&lang=Spanish`
-            //     );
-
-            //     setState((prev) => ({
-            //       ...prev,
-            //       volumeInfo: {
-            //         ...prev.volumeInfo,
-            //         description: data.text,
-            //       },
-            //     }));
-            //   },
-            // },
-            // {
-            //   label: "Translate to French",
-            //   action: async () => {
-            //     const summary = state.volumeInfo?.description || "";
-            //     if (!summary) {
-            //       return;
-            //     }
-
-            //     // * Do translation logic
-            //     // * Call api, passing in summary
-            //     // * And set state
-
-            //     const { data } = await axiosInstance.get(
-            //       `/books/translate-summary/${user.uuid}?summary=${summary}&lang=French`
-            //     );
-
-            //     setState((prev) => ({
-            //       ...prev,
-            //       volumeInfo: {
-            //         ...prev.volumeInfo,
-            //         description: data.text,
-            //       },
-            //     }));
-            //   },
-            // },
           ]}
         />
       </div>
@@ -682,17 +615,6 @@ function Book(props) {
             <dt>Page Count</dt>
             <dd>{state.volumeInfo.pageCount}</dd>
           </dl>
-          {/* <div>
-            {commentState === READING_COMMENTS ? (
-              <button className="comment-btn" onClick={handleLeaveComment}>
-                Comment
-              </button>
-            ) : (
-              <button className="comment-btn" onClick={handleReadComments}>
-                Read Comments
-              </button>
-            )}
-          </div> */}
         </div>
         {state.volumeInfo.description && (
           <div className="description-container">

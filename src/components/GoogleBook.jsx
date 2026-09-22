@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGooglePlay } from "react-icons/fa";
 
 function GoogleBook(props) {
   const { title, author, icon: Component } = props;

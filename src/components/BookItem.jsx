@@ -1,6 +1,6 @@
 import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import { Link } from "gatsby";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const cardStyles = {
   display: "flex",

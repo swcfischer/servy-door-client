@@ -187,7 +187,7 @@ function WordLookUpModal({
                     googleId,
                     word: values.wordOrPhrase,
                     context: values.surroundingSentence,
-                  }
+                  },
                 );
                 setDefinition(data);
                 setDefinitions((prev) => {
@@ -208,7 +208,6 @@ function WordLookUpModal({
                       className="form-field"
                       name="wordOrPhrase"
                       type="text"
-                      autoFocus
                       autoComplete="off"
                     />
                     <ErrorMessage

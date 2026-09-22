@@ -1,17 +1,13 @@
 // * Book List (HomePage)
 
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { navigate } from "gatsby";
-import axios from "axios";
 import Pagination from "@mui/material/Pagination";
 import FilterSelect from "../components/FilterSelect";
 import { buildQueryParams, searchBooks } from "../utils/queryFunctions";
-import {
-  searchGoogleBooks,
-  searchGoogleBooksPublic,
-} from "../utils/googleBooksApi";
+import { searchGoogleBooks } from "../utils/googleBooksApi";
 import BookItem from "../components/BookItem";
 import styled from "@emotion/styled";
 import ClassicBestSellerList from "../components/ClassicBestSellerList";
@@ -57,8 +53,6 @@ const EmotionContainer = styled.div`
     }
   }
 `;
-
-const volumesGet = "https://www.googleapis.com/books/v1/volumes";
 
 const inputStyles = {
   width: "100%",
@@ -204,7 +198,6 @@ export default function Index(props) {
               style={inputStyles}
               aria-autocomplete="none"
               autocomplete="off"
-              autoFocus
             />
             <button
               type="submit"

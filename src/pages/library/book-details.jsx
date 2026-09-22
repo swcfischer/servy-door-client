@@ -20,8 +20,6 @@ import PageRange from "../../components/PageRange";
 import getOS from "../../utils/getOS";
 import WordReadingSession from "../../components/WordReadingSession/WordReadingSession";
 import WordLookUpModal from "../../components/WordReadingSession/WordLookUpModal";
-// import YouTubeVideoModal from "../../components/YouTubeVideoModal/YouTubeVideoModal";
-// import YouTubeVideoList from "../../components/YouTubeVideoModal/YouTubeVideoList";
 
 const Container = styled.div`
   .book-details {
@@ -179,7 +177,6 @@ export function renderGoogleAuthorLinks(authors) {
 const pagesPerDay = 5;
 
 function BookDetails(props) {
-  const state = {};
   const params = new URLSearchParams(props.location.search);
   const id = params.get("id");
 
@@ -188,18 +185,9 @@ function BookDetails(props) {
   const [snackbarMessage, setSnackbarMessage] = useState("");
 
   const [wordModalIsOpen, setWordModalIsOpen] = useState(false);
-  const [youTubeModal, setYouTubeModal] = useState(false);
 
   const handleCloseWordModal = () => {
     setWordModalIsOpen(false);
-  };
-
-  const handleCloseYouTubeModal = () => {
-    setYouTubeModal(false);
-  };
-
-  const openWordModal = () => {
-    setWordModalIsOpen(true);
   };
 
   const handleSnackbarClose = () => {
@@ -222,7 +210,7 @@ function BookDetails(props) {
       async function fetchData() {
         try {
           const { data: resSession } = await axiosInstance.get(
-            `/reading-sessions/all/${user.uuid}/${id}`
+            `/reading-sessions/all/${user.uuid}/${id}`,
           );
 
           if (!resSession.length) {
@@ -231,7 +219,7 @@ function BookDetails(props) {
               `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
               {
                 pageRange: _pageRange,
-              }
+              },
             );
 
             setReadingSessions([newReadingSession]);
@@ -242,7 +230,7 @@ function BookDetails(props) {
           }
 
           const { data: books } = await axiosInstance.get(
-            `/books/book/${user.uuid}?id=${id}`
+            `/books/book/${user.uuid}?id=${id}`,
           );
 
           setBook(books);
@@ -263,7 +251,7 @@ function BookDetails(props) {
             apiError.response?.status === 403
           ) {
             setSnackbarMessage(
-              "This book is not available in your library. Redirecting..."
+              "This book is not available in your library. Redirecting...",
             );
             setSnackbarOpen(true);
 
@@ -316,8 +304,6 @@ function BookDetails(props) {
     }
   }, [user, id]);
 
-  // console.log("videos", videos);
-
   if (isLoading) {
     return <LoadingSpinner />;
   }
@@ -338,7 +324,7 @@ function BookDetails(props) {
           notes: notes,
           sessionUuid: curSession.uuid,
           pageRange,
-        }
+        },
       );
 
       const updatedSessions = [...readingSessions];
@@ -453,7 +439,7 @@ function BookDetails(props) {
                 label: "Remove from Library",
                 action: async () => {
                   const confirmDelete = window.confirm(
-                    "Are you sure you want to remove this book from your library?"
+                    "Are you sure you want to remove this book from your library?",
                   );
                   if (!confirmDelete) {
                     return;
@@ -461,7 +447,7 @@ function BookDetails(props) {
 
                   try {
                     await axiosInstance.delete(
-                      `/books/book/${user.uuid}?id=${id}`
+                      `/books/book/${user.uuid}?id=${id}`,
                     );
                     // Redirect or update state after deletion
                     navigate("/library");
@@ -486,7 +472,7 @@ function BookDetails(props) {
                     readingSessionIdx !== 0
                   ) {
                     alert(
-                      "You can only create a new reading session from the latest session."
+                      "You can only create a new reading session from the latest session.",
                     );
                     return;
                   }
@@ -499,7 +485,7 @@ function BookDetails(props) {
                         notes: notes,
                         pageRange,
                         sessionUuid: curSession.uuid,
-                      }
+                      },
                     );
 
                     // Create new reading session
@@ -513,7 +499,7 @@ function BookDetails(props) {
                         `/reading-sessions/create-reading-session/${user.uuid}/${id}`,
                         {
                           pageRange: [nextStartPage, nextEndPage],
-                        }
+                        },
                       );
 
                     const updatedSessions = [...readingSessions];
@@ -525,45 +511,29 @@ function BookDetails(props) {
 
                     document.querySelector("textarea").value = "";
                     setSnackbarMessage(
-                      "Reading session saved and new session created!"
+                      "Reading session saved and new session created!",
                     );
                     setSnackbarOpen(true);
                   } catch (err) {
                     console.error(
                       "There was an error saving the reading session!",
-                      err
+                      err,
                     );
                     alert("Failed to save reading session. Please try again.");
                   }
                 },
               },
-              // {
-              //   label: "Go to Book Details",
-              //   action: () => navigate(`/book?id=${book.googleId}`),
-              // },
               {
                 label: "Look Up Word or Phrase",
                 action: () => setWordModalIsOpen(true),
               },
-              // {
-              //   label: "Add YouTube Video",
-              //   action: () => setYouTubeModal(true),
-              // },
-              // {
-              //   label: "Correct grammar and punctuation",
-              //   action() {
-              //     snackbarMessage("Sorry, I have not added this yet.");
-              //     snackbarOpen(true);
-              //     console.log("action");
-              //   },
-              // },
               { isMenuDivider: true },
               {
                 label: "Open WordReference",
                 action: () => {
                   window.open(
                     "https://www.wordreference.com/definition/",
-                    "_blank"
+                    "_blank",
                   );
                 },
               },
@@ -572,7 +542,7 @@ function BookDetails(props) {
                 action: () => {
                   window.open(
                     "https://read.amazon.com/kindle-library",
-                    "_blank"
+                    "_blank",
                   );
                 },
               },
@@ -630,16 +600,8 @@ function BookDetails(props) {
           userUuid={user?.uuid}
           setDefinitions={setDefinitions}
         />
-        {/* <YouTubeVideoList videos={videos} /> */}
       </div>
 
-      {/* <YouTubeVideoModal
-        isOpen={youTubeModal}
-        onRequestClose={handleCloseYouTubeModal}
-        bookUuid={id}
-        googleId={book.googleId}
-        setVideos={setVideos}
-      /> */}
       <WordLookUpModal
         isOpen={wordModalIsOpen}
         onRequestClose={handleCloseWordModal}
